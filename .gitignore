@@ -1,0 +1,13 @@
+*.png
+*.pdf
+*.pyc
+__pycache__/
+methode_content.txt
+read_pdf.py
+icones.zip
+icones/
+design-spec.md
+gen_guide.py
+gen_sitemap.py
+generate_cities.py
+.claude/
