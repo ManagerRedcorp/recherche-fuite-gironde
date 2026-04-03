@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Bash(where py:*)",
+      "Bash(C:\\\\Users\\\\Chou\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python314\\\\python.exe:*)",
+      "Bash(cmd:*)",
+      "Bash(powershell:*)",
+      "Bash(python:*)",
+      "Bash(py -m http.server 8080 --directory \"C:\\\\Users\\\\Chou\\\\Desktop\\\\recherche-fuite-gironde\")",
+      "Bash(curl:*)",
+      "Bash(gh auth:*)",
+      "Bash(git:*)"
+    ]
+  }
+}

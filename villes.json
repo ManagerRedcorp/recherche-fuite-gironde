@@ -1,0 +1,219 @@
+{
+  "departement": {
+    "nom": "Gironde",
+    "code": "33",
+    "region": "Nouvelle-Aquitaine"
+  },
+  "villes": [
+    {
+      "nom": "Bordeaux",
+      "code_postal": "33000",
+      "population": 260958,
+      "slug": "bordeaux",
+      "quartiers": ["Chartrons", "Saint-Michel", "Caudéran"]
+    },
+    {
+      "nom": "Mérignac",
+      "code_postal": "33700",
+      "population": 70545,
+      "slug": "merignac",
+      "quartiers": ["Arlac", "Capeyron", "Beaudésert"]
+    },
+    {
+      "nom": "Pessac",
+      "code_postal": "33600",
+      "population": 63000,
+      "slug": "pessac",
+      "quartiers": ["Saige", "Bersol", "Centre-ville"]
+    },
+    {
+      "nom": "Talence",
+      "code_postal": "33400",
+      "population": 43500,
+      "slug": "talence",
+      "quartiers": ["Thouars", "Médoquine", "Le Tondu"]
+    },
+    {
+      "nom": "Villenave-d'Ornon",
+      "code_postal": "33140",
+      "population": 35000,
+      "slug": "villenave-d-ornon",
+      "quartiers": ["Chambéry", "La Salargue", "Centre-bourg"]
+    },
+    {
+      "nom": "Libourne",
+      "code_postal": "33500",
+      "population": 25800,
+      "slug": "libourne",
+      "quartiers": ["Centre historique", "Les Déroches", "Camérat"]
+    },
+    {
+      "nom": "Begles",
+      "code_postal": "33130",
+      "population": 28500,
+      "slug": "begles",
+      "quartiers": ["Yves Farges", "Terres Neuves", "Centre-ville"]
+    },
+    {
+      "nom": "Bruges",
+      "code_postal": "33520",
+      "population": 17900,
+      "slug": "bruges",
+      "quartiers": ["Le Bouscat", "Croix de Medoc", "Centre-bourg"]
+    },
+    {
+      "nom": "Le Bouscat",
+      "code_postal": "33110",
+      "population": 24500,
+      "slug": "le-bouscat",
+      "quartiers": ["L'Ermitage", "La Licorne", "Centre"]
+    },
+    {
+      "nom": "Blanquefort",
+      "code_postal": "33290",
+      "population": 16200,
+      "slug": "blanquefort",
+      "quartiers": ["Centre-ville", "Les Jalles", "Zone industrielle"]
+    },
+    {
+      "nom": "Arès",
+      "code_postal": "33740",
+      "population": 6400,
+      "slug": "ares",
+      "quartiers": ["Port", "Centre-bourg", "Quartier du Lac"]
+    },
+    {
+      "nom": "Arcachon",
+      "code_postal": "33120",
+      "population": 11200,
+      "slug": "arcachon",
+      "quartiers": ["Ville d'Été", "Ville d'Hiver", "Le Moulleau"]
+    },
+    {
+      "nom": "Gujan-Mestras",
+      "code_postal": "33470",
+      "population": 21000,
+      "slug": "gujan-mestras",
+      "quartiers": ["Larros", "La Barbotière", "Meyran"]
+    },
+    {
+      "nom": "La Teste-de-Buch",
+      "code_postal": "33260",
+      "population": 26000,
+      "slug": "la-teste-de-buch",
+      "quartiers": ["Centre-ville", "Cazaux", "Pyla-sur-Mer"]
+    },
+    {
+      "nom": "Andernos-les-Bains",
+      "code_postal": "33510",
+      "population": 11600,
+      "slug": "andernos-les-bains",
+      "quartiers": ["Port", "Arès-Bourg", "Les Abatilles"]
+    },
+    {
+      "nom": "Saint-Médard-en-Jalles",
+      "code_postal": "33160",
+      "population": 30500,
+      "slug": "saint-medard-en-jalles",
+      "quartiers": ["Le Haillan", "Caupian", "Centre-bourg"]
+    },
+    {
+      "nom": "Eysines",
+      "code_postal": "33320",
+      "population": 20800,
+      "slug": "eysines",
+      "quartiers": ["Le Phare", "Cantinolle", "Centre"]
+    },
+    {
+      "nom": "Ambares-et-Lagrave",
+      "code_postal": "33440",
+      "population": 14500,
+      "slug": "ambares-et-lagrave",
+      "quartiers": ["Lagrave", "Centre-bourg", "Les Quatre-Chemins"]
+    },
+    {
+      "nom": "Carbon-Blanc",
+      "code_postal": "33560",
+      "population": 8800,
+      "slug": "carbon-blanc",
+      "quartiers": ["Centre", "Les Coteaux", "Zone commerciale"]
+    },
+    {
+      "nom": "Lesparre-Médoc",
+      "code_postal": "33340",
+      "population": 5700,
+      "slug": "lesparre-medoc",
+      "quartiers": ["Centre-ville", "Quartier de la gare", "Les Vignes"]
+    },
+    {
+      "nom": "Langon",
+      "code_postal": "33210",
+      "population": 7600,
+      "slug": "langon",
+      "quartiers": ["Centre-ville", "Quartier de la gare", "Les Bords de Garonne"]
+    },
+    {
+      "nom": "Saint-André-de-Cubzac",
+      "code_postal": "33240",
+      "population": 11000,
+      "slug": "saint-andre-de-cubzac",
+      "quartiers": ["Centre-bourg", "Quartier du Port", "Les Coteaux"]
+    },
+    {
+      "nom": "Pauillac",
+      "code_postal": "33250",
+      "population": 5000,
+      "slug": "pauillac",
+      "quartiers": ["Port", "Centre-ville", "Quartier des Châteaux"]
+    },
+    {
+      "nom": "Saint-Emilion",
+      "code_postal": "33330",
+      "population": 1900,
+      "slug": "saint-emilion",
+      "quartiers": ["Cité médiévale", "Les Grandes Vignes", "Faubourg"]
+    },
+    {
+      "nom": "Floirac",
+      "code_postal": "33270",
+      "population": 17200,
+      "slug": "floirac",
+      "quartiers": ["Dravemont", "Cité Guyenne", "Les Hauts de Floirac"]
+    },
+    {
+      "nom": "Cenon",
+      "code_postal": "33150",
+      "population": 24000,
+      "slug": "cenon",
+      "quartiers": ["Palmer", "Les Hauts de Cenon", "Grézillac"]
+    },
+    {
+      "nom": "Lormont",
+      "code_postal": "33310",
+      "population": 22500,
+      "slug": "lormont",
+      "quartiers": ["Génicart", "Le Bois Fleuri", "Centre"]
+    },
+    {
+      "nom": "Bassens",
+      "code_postal": "33530",
+      "population": 7400,
+      "slug": "bassens",
+      "quartiers": ["Centre-bourg", "Port fluvial", "Zone industrielle"]
+    },
+    {
+      "nom": "Saint-Louis-de-Montferrand",
+      "code_postal": "33440",
+      "population": 3200,
+      "slug": "saint-louis-de-montferrand",
+      "quartiers": ["Bourg", "Quartier du Fleuve", "Les Coteaux"]
+    },
+    {
+      "nom": "Mios",
+      "code_postal": "33380",
+      "population": 7600,
+      "slug": "mios",
+      "quartiers": ["Bourg", "Lège", "Zone forestière"]
+    }
+  ]
+}
