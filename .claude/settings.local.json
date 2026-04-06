@@ -12,7 +12,10 @@
       "Bash(py -m http.server 8080 --directory \"C:\\\\Users\\\\Chou\\\\Desktop\\\\recherche-fuite-gironde\")",
       "Bash(curl:*)",
       "Bash(gh auth:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(npx vercel:*)",
+      "Bash(rm:*)",
+      "Bash(py generate_all.py)"
     ]
   }
 }

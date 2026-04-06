@@ -11,3 +11,5 @@ gen_guide.py
 gen_sitemap.py
 generate_cities.py
 .claude/
+
+.vercel
