@@ -302,6 +302,7 @@ def page_ville_detection(v):
     <span class="badge badge-gold" style="margin-bottom:1rem;">Gironde &bull; {cp}</span>
     <h1>Recherche de fuite à {nom} ({cp})</h1>
     <p class="hero-mini-lead">Détection de fuite non destructive à {nom}. Nos techniciens interviennent dans les quartiers {quartiers_str} et sur l'ensemble de la commune.</p>
+    <a href="/devis/" class="btn btn-gold" style="margin-top:1.5rem;display:inline-block;">Demander un devis gratuit</a>
   </div>
 </section>
 
@@ -426,6 +427,7 @@ def page_ville_chemisage(v):
     <span class="badge badge-gold" style="margin-bottom:1rem;">Gironde &bull; {cp}</span>
     <h1>Chemisage de canalisation à {nom} ({cp})</h1>
     <p class="hero-mini-lead">Rénovation de canalisations sans travaux à {nom}. Une technique non destructive qui remet en état vos canalisations sans ouvrir les murs ni les sols.</p>
+    <a href="/devis/" class="btn btn-gold" style="margin-top:1.5rem;display:inline-block;">Demander un devis gratuit</a>
   </div>
 </section>
 
