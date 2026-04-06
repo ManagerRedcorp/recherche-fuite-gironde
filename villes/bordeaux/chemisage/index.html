@@ -125,6 +125,19 @@
       <input class="form-input" type="email" id="email-mini" name="email" placeholder="votre@email.fr" required>
     </div>
     <div class="form-group" style="margin-bottom:.75rem;">
+      <label class="form-label" for="probleme-mini">Type de problème</label>
+      <select class="form-input form-select" id="probleme-mini" name="probleme" required>
+        <option value="">Choisir</option>
+        <option value="Fuite visible">Fuite visible (tache, humidité)</option>
+        <option value="Compteur anormal">Compteur d'eau anormal</option>
+        <option value="Fuite sous dalle">Suspicion de fuite sous dalle</option>
+        <option value="Fuite enterrée">Fuite canalisation enterrée</option>
+        <option value="Chemisage">Chemisage de canalisation</option>
+        <option value="Rapport assurance">Rapport pour assurance</option>
+        <option value="Autre">Autre</option>
+      </select>
+    </div>
+    <div class="form-group" style="margin-bottom:.75rem;">
       <label class="form-label" for="msg-mini">Votre situation</label>
       <textarea class="form-input form-textarea" id="msg-mini" name="message" placeholder="Décrivez votre canalisation..." style="min-height:80px;" required></textarea>
     </div>
