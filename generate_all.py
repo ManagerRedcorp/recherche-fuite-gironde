@@ -215,7 +215,10 @@ def villes_chemisage_section():
 </section>'''
 
 # ── Template HTML de base ─────────────────────────────────────
-def html_base(title, description, canonical, body, extra_ld=''):
+def html_base(title, description, canonical, body, extra_ld='', hide_sticky_cta=False):
+    sticky = '' if hide_sticky_cta else '''<div class="sticky-cta-mobile">
+  <a href="/devis/">Devis gratuit &rarr;</a>
+</div>'''
     return f'''<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -231,6 +234,7 @@ def html_base(title, description, canonical, body, extra_ld=''):
 {header()}
 {body}
 {footer()}
+{sticky}
 </body>
 </html>'''
 
@@ -1336,7 +1340,8 @@ def page_devis():
         "Devis gratuit recherche fuite Gironde 33 sans engagement",
         "Demandez votre devis gratuit pour une recherche de fuite ou un chemisage en Gironde (33). Réponse sous 24h, intervention sous 24h.",
         "https://recherche-fuite-gironde.fr/devis/",
-        body
+        body,
+        hide_sticky_cta=True
     )
 
 # ── Sitemap XML ────────────────────────────────────────────────

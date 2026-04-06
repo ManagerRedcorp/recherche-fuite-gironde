@@ -895,7 +895,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 @media (max-width: 480px) {
   .grid-auto { grid-template-columns: repeat(2,1fr); }
-  .trust-bar-inner { gap: 1rem; }
+  .trust-bar-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .75rem 1rem;
+  }
 }
 
 /* ── Layout page devis ──────────────────────────────────────── */
@@ -915,8 +919,50 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .devis-arguments { order: 2; }
 }
 
+/* ── Sticky CTA mobile ──────────────────────────────────────── */
+.sticky-cta-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .sticky-cta-mobile {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: .875rem 1.25rem;
+    padding-bottom: calc(.875rem + env(safe-area-inset-bottom));
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 16px rgba(0,0,0,.1);
+  }
+  .sticky-cta-mobile a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: .9rem 1.5rem;
+    background: var(--gold);
+    color: #000;
+    font-family: var(--f-head);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: var(--r-md);
+    text-decoration: none;
+    letter-spacing: .01em;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  .sticky-cta-mobile a:active {
+    opacity: .85;
+  }
+  /* Espace en bas pour éviter que le contenu soit caché derrière le sticky */
+  body { padding-bottom: 80px; }
+}
+
 /* ── Print ──────────────────────────────────────────────────── */
 @media print {
-  .site-header, .site-footer, .hero-actions, .btn { display: none; }
+  .site-header, .site-footer, .hero-actions, .btn, .sticky-cta-mobile { display: none; }
   body { color: #000; background: #fff; }
 }
