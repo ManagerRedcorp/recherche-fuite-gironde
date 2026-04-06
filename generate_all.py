@@ -182,6 +182,38 @@ def maillage_villes(slug_actuel='', limit=12):
   </div>
 </section>'''
 
+def villes_detection_section():
+    cards = '\n'.join([
+        f'<a href="/villes/{v["slug"]}/" class="ville-card"><img src="/assets/icons/map-pin.svg" alt=""><span>{v["nom"]}</span><span class="ville-card-cp">{v["code_postal"]}</span></a>'
+        for v in VILLES
+    ])
+    return f'''<section class="section-alt">
+  <div class="container">
+    <div class="section-header-center">
+      <span class="section-eyebrow">Zones d\'intervention</span>
+      <h2 class="section-title">Détection de fuite dans toute la Gironde</h2>
+      <p class="section-lead">Nous intervenons dans les 30 principales communes du département (33). Cliquez sur votre ville pour voir les détails de notre service.</p>
+    </div>
+    <div class="grid-auto">{cards}</div>
+  </div>
+</section>'''
+
+def villes_chemisage_section():
+    cards = '\n'.join([
+        f'<a href="/villes/{v["slug"]}/chemisage/" class="ville-card"><img src="/assets/icons/map-pin.svg" alt=""><span>{v["nom"]}</span><span class="ville-card-cp">{v["code_postal"]}</span></a>'
+        for v in VILLES
+    ])
+    return f'''<section class="section-alt">
+  <div class="container">
+    <div class="section-header-center">
+      <span class="section-eyebrow">Zones d\'intervention</span>
+      <h2 class="section-title">Chemisage de canalisation dans toute la Gironde</h2>
+      <p class="section-lead">Nous réalisons le chemisage de canalisations dans les 30 principales communes du département (33). Cliquez sur votre ville pour en savoir plus.</p>
+    </div>
+    <div class="grid-auto">{cards}</div>
+  </div>
+</section>'''
+
 # ── Template HTML de base ─────────────────────────────────────
 def html_base(title, description, canonical, body, extra_ld=''):
     return f'''<!DOCTYPE html>
@@ -549,6 +581,7 @@ def page_detection():
   </div>
 </section>
 
+{villes_detection_section()}
 {form_section()}'''
 
     ld = '''<script type="application/ld+json">
@@ -625,6 +658,7 @@ def page_chemisage_service():
   </div>
 </section>
 
+{villes_chemisage_section()}
 {form_section()}'''
 
     ld = '''<script type="application/ld+json">
