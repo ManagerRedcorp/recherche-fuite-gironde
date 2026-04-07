@@ -111,11 +111,12 @@ def form_section(ville_defaut=''):
           <li class="contact-check"><img src="/assets/icons/lock.svg" alt="">Vos données restent confidentielles</li>
         </ul>
       </div>
-      <form action="https://formsubmit.co/PLACEHOLDER_EMAIL" method="POST">
-        <input type="hidden" name="_subject" value="Nouvelle demande de devis - Recherche Fuite Gironde">
+      <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST">
+        <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Nouvelle demande de devis">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://recherche-fuite-gironde.fr/merci/">
+        <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr">
         <div class="form-grid-2" style="margin-bottom:1rem;">
           <div class="form-group">
             <label class="form-label" for="prenom">Prénom</label>
@@ -269,10 +270,11 @@ def page_ville_detection(v):
 
     mini_form = f'''<div class="ville-cta-card">
   <h3>Intervention à {nom}</h3>
-  <form action="https://formsubmit.co/PLACEHOLDER_EMAIL" method="POST" class="ville-cta-form">
-    <input type="hidden" name="_subject" value="Demande à {nom}">
+  <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST" class="ville-cta-form">
+    <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande détection à {nom}">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="ville" value="{nom}">
+    <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/villes/{slug}/">
     <div class="form-group" style="margin-bottom:.75rem;">
       <label class="form-label" for="nom-mini">Nom et prénom</label>
       <input class="form-input" type="text" id="nom-mini" name="nom" placeholder="Nom et prénom" required>
@@ -406,11 +408,12 @@ def page_ville_chemisage(v):
 
     mini_form = f'''<div class="ville-cta-card">
   <h3>Chemisage à {nom}</h3>
-  <form action="https://formsubmit.co/PLACEHOLDER_EMAIL" method="POST" class="ville-cta-form">
-    <input type="hidden" name="_subject" value="Demande chemisage à {nom}">
+  <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST" class="ville-cta-form">
+    <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande chemisage à {nom}">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="service" value="Chemisage">
+    <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/villes/{slug}/chemisage/">
     <div class="form-group" style="margin-bottom:.75rem;">
       <label class="form-label" for="nom-mini">Nom et prénom</label>
       <input class="form-input" type="text" id="nom-mini" name="nom" placeholder="Nom et prénom" required>
@@ -765,11 +768,12 @@ def page_contact():
       <p class="section-lead" style="margin-bottom:0;">Pour une demande de devis, utilisez plutôt notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">page devis dédiée</a>.</p>
     </div>
 
-    <form action="https://formsubmit.co/PLACEHOLDER_EMAIL" method="POST" style="display:flex;flex-direction:column;gap:1.25rem;">
-      <input type="hidden" name="_subject" value="Message de contact - Recherche Fuite Gironde">
+    <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST" style="display:flex;flex-direction:column;gap:1.25rem;">
+      <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Message de contact">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_next" value="https://recherche-fuite-gironde.fr/merci/">
+      <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/contact/">
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
         <div class="form-group">
@@ -1336,11 +1340,12 @@ def page_devis():
       </div>
       <div class="devis-form" style="background:var(--green-dark);padding:2rem;border-radius:var(--r-lg);">
         <h2 style="font-family:var(--f-title);font-size:1.3rem;font-weight:700;color:var(--text-inv);margin-bottom:1.5rem;">Votre demande de devis</h2>
-        <form action="https://formsubmit.co/PLACEHOLDER_EMAIL" method="POST">
-          <input type="hidden" name="_subject" value="Demande de devis - Recherche Fuite Gironde">
+        <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST">
+          <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande de devis">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" value="https://recherche-fuite-gironde.fr/merci/">
+          <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/devis/">
           <div class="form-grid-2" style="margin-bottom:1rem;">
             <div class="form-group">
               <label class="form-label" for="prenom">Prénom</label>
