@@ -239,6 +239,7 @@ def html_base(title, description, canonical, body, extra_ld='', hide_sticky_cta=
 {footer()}
 {sticky}
 <script>document.querySelectorAll('input[name="site_source"]').forEach(function(e){{if(!e.value)e.value=window.location.href;}});</script>
+<script>document.querySelectorAll('input[name="_next"]').forEach(function(e){{if(e.value==="/merci/")e.value=window.location.origin+"/merci/";}});</script>
 </body>
 </html>'''
 
@@ -276,6 +277,7 @@ def page_ville_detection(v):
   <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST" class="ville-cta-form">
     <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande détection à {nom}">
     <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="/merci/">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="site_source" value="">
     <div class="form-group" style="margin-bottom:.75rem;">
@@ -414,6 +416,7 @@ def page_ville_chemisage(v):
   <form action="https://formsubmit.co/sites-recherche-fuite@outlook.com" method="POST" class="ville-cta-form">
     <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande chemisage à {nom}">
     <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="/merci/">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="service" value="Chemisage">
     <input type="hidden" name="site_source" value="">
