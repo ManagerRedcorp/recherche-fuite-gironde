@@ -115,7 +115,8 @@ def form_section(ville_defaut=''):
         <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Nouvelle demande de devis">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://recherche-fuite-gironde.fr/merci/">
+        <input type="hidden" name="_next" id="next-url" value="/merci/">
+        <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
         <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr">
         <div class="form-grid-2" style="margin-bottom:1rem;">
           <div class="form-group">
@@ -772,7 +773,8 @@ def page_contact():
       <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Message de contact">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_next" value="https://recherche-fuite-gironde.fr/merci/">
+      <input type="hidden" name="_next" id="next-url" value="/merci/">
+        <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
       <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/contact/">
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
@@ -1344,7 +1346,8 @@ def page_devis():
           <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande de devis">
           <input type="hidden" name="_captcha" value="false">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://recherche-fuite-gironde.fr/merci/">
+          <input type="hidden" name="_next" id="next-url" value="/merci/">
+        <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
           <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/devis/">
           <div class="form-grid-2" style="margin-bottom:1rem;">
             <div class="form-group">
