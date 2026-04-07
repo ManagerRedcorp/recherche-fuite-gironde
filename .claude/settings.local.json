@@ -15,7 +15,14 @@
       "Bash(git:*)",
       "Bash(npx vercel:*)",
       "Bash(rm:*)",
-      "Bash(py generate_all.py)"
+      "Bash(py generate_all.py)",
+      "Bash(mkdir -p \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/assets/css\")",
+      "Bash(mkdir -p \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/assets/icons\")",
+      "Bash(cp -r \"C:/Users/Chou/Desktop/recherche-fuite-gironde/icones\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/\")",
+      "Bash(cp \"C:/Users/Chou/Desktop/recherche-fuite-gironde/design-spec.md\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/\")",
+      "Bash(cp \"C:/Users/Chou/Desktop/recherche-fuite-gironde/methode_content.txt\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/\")",
+      "Bash(cp -r \"C:/Users/Chou/Desktop/recherche-fuite-gironde/assets/icons/.\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/assets/icons/\")",
+      "Bash(gh repo:*)"
     ]
   }
 }
