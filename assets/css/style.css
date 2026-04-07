@@ -253,7 +253,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: var(--green-dark);
   background-image:
     linear-gradient(to right, rgba(15,9,31,.92) 0%, rgba(15,9,31,.70) 55%, rgba(15,9,31,.45) 100%),
-    url('/assets/hero-bg.webp');
+    url('/assets/hero-gironde.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
