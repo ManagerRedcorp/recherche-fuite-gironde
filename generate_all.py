@@ -117,7 +117,8 @@ def form_section(ville_defaut=''):
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" id="next-url" value="/merci/">
         <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
-        <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr">
+        <input type="hidden" name="site_source" value="">
+        <script>document.querySelectorAll('input[name="site_source"]').forEach(function(e){{e.value=window.location.href;}});</script>
         <div class="form-grid-2" style="margin-bottom:1rem;">
           <div class="form-group">
             <label class="form-label" for="prenom">Prénom</label>
@@ -237,6 +238,7 @@ def html_base(title, description, canonical, body, extra_ld='', hide_sticky_cta=
 {body}
 {footer()}
 {sticky}
+<script>document.querySelectorAll('input[name="site_source"]').forEach(function(e){{if(!e.value)e.value=window.location.href;}});</script>
 </body>
 </html>'''
 
@@ -275,7 +277,7 @@ def page_ville_detection(v):
     <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande détection à {nom}">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="ville" value="{nom}">
-    <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/villes/{slug}/">
+    <input type="hidden" name="site_source" value="">
     <div class="form-group" style="margin-bottom:.75rem;">
       <label class="form-label" for="nom-mini">Nom et prénom</label>
       <input class="form-input" type="text" id="nom-mini" name="nom" placeholder="Nom et prénom" required>
@@ -414,7 +416,7 @@ def page_ville_chemisage(v):
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="service" value="Chemisage">
-    <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/villes/{slug}/chemisage/">
+    <input type="hidden" name="site_source" value="">
     <div class="form-group" style="margin-bottom:.75rem;">
       <label class="form-label" for="nom-mini">Nom et prénom</label>
       <input class="form-input" type="text" id="nom-mini" name="nom" placeholder="Nom et prénom" required>
@@ -775,7 +777,7 @@ def page_contact():
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_next" id="next-url" value="/merci/">
         <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
-      <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/contact/">
+      <input type="hidden" name="site_source" value="">
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
         <div class="form-group">
@@ -1348,7 +1350,7 @@ def page_devis():
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" id="next-url" value="/merci/">
         <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
-          <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr/devis/">
+          <input type="hidden" name="site_source" value="">
           <div class="form-grid-2" style="margin-bottom:1rem;">
             <div class="form-group">
               <label class="form-label" for="prenom">Prénom</label>

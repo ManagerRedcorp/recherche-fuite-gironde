@@ -202,7 +202,8 @@
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" id="next-url" value="/merci/">
         <script>document.getElementById("next-url").value=window.location.origin+"/merci/";</script>
-        <input type="hidden" name="site_source" value="recherche-fuite-gironde.fr">
+        <input type="hidden" name="site_source" value="">
+        <script>document.querySelectorAll('input[name="site_source"]').forEach(function(e){e.value=window.location.href;});</script>
         <div class="form-grid-2" style="margin-bottom:1rem;">
           <div class="form-group">
             <label class="form-label" for="prenom">Prénom</label>
@@ -342,5 +343,6 @@
 <div class="sticky-cta-mobile">
   <a href="/devis/">Devis gratuit &rarr;</a>
 </div>
+<script>document.querySelectorAll('input[name="site_source"]').forEach(function(e){if(!e.value)e.value=window.location.href;});</script>
 </body>
 </html>
