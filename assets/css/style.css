@@ -664,7 +664,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 /* ── Footer ────────────────────────────────────────────────── */
 .site-footer {
-  background: #091F18;
+  background: #0f091f;
   color: var(--text-inv);
   padding: 4rem 0 0;
 }
