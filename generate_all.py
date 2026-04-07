@@ -613,6 +613,22 @@ def page_detection():
   </div>
 </section>
 
+<section class="section">
+  <div class="container">
+    <div class="img-split">
+      <div class="img-split-img">
+        <img src="/assets/fuite-sous-dalle.webp" alt="Fuite d\'eau sous dalle détectée en Gironde" loading="lazy" width="700" height="467">
+      </div>
+      <div class="img-split-content">
+        <span class="section-eyebrow">Notre engagement</span>
+        <h2>Localisation précise avant toute ouverture</h2>
+        <p>Nous ne perçons pas, ne cassons pas, n\'ouvrons rien avant d\'avoir localisé la fuite avec certitude. Cette règle protège vos revêtements et réduit le coût de remise en état après intervention.</p>
+        <a href="/devis/" class="btn btn-green">Demander un devis</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 {villes_detection_section()}
 {form_section()}'''
 
@@ -685,6 +701,22 @@ def page_chemisage_service():
         <div class="arg-card-icon"><img src="/assets/icons/tick-badge.svg" alt=""></div>
         <h3>Rapport et garantie</h3>
         <p>Une inspection caméra avant et après intervention, un rapport complet et une garantie sur la durabilité du revêtement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <div class="img-split reverse">
+      <div class="img-split-img">
+        <img src="/assets/fuite-canalisation-enterree.webp" alt="Réparation canalisation enterrée Gironde" loading="lazy" width="700" height="467">
+      </div>
+      <div class="img-split-content">
+        <span class="section-eyebrow">Cas concret</span>
+        <h2>Le chemisage sur canalisation enterrée : aucune tranchée</h2>
+        <p>Qu\'il s\'agisse d\'une canalisation sous jardin, sous dalle ou en sous-sol, le chemisage s\'effectue depuis un accès existant. Le liner en résine est introduit, gonflé et durci sur place en quelques heures.</p>
+        <a href="/devis/" class="btn btn-green">Obtenir un devis</a>
       </div>
     </div>
   </div>
