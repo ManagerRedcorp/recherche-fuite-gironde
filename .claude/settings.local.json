@@ -22,7 +22,13 @@
       "Bash(cp \"C:/Users/Chou/Desktop/recherche-fuite-gironde/design-spec.md\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/\")",
       "Bash(cp \"C:/Users/Chou/Desktop/recherche-fuite-gironde/methode_content.txt\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/\")",
       "Bash(cp -r \"C:/Users/Chou/Desktop/recherche-fuite-gironde/assets/icons/.\" \"C:/Users/Chou/Desktop/recherche-fuite-bordeaux/assets/icons/\")",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(vercel:*)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Chou\\\\Desktop\\\\chemisage-canalisation-gironde\\\\assets\\\\css\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Chou\\\\Desktop\\\\chemisage-canalisation-gironde\\\\assets\\\\icons\")",
+      "Bash(start python:*)",
+      "Bash(cp \"C:\\\\Users\\\\Chou\\\\Downloads\\\\Logo de recherche de fuite Gironde-1.png\" \"C:\\\\Users\\\\Chou\\\\Desktop\\\\recherche-fuite-gironde\\\\assets\\\\Logo de recherche de fuite Gironde-1.png\")",
+      "Bash(cp \"C:\\\\Users\\\\Chou\\\\Downloads\\\\favicon recherche fuite gironde.webp\" \"C:\\\\Users\\\\Chou\\\\Desktop\\\\recherche-fuite-gironde\\\\assets\\\\favicon recherche fuite gironde.webp\")"
     ]
   }
 }

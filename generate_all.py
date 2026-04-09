@@ -20,7 +20,7 @@ def header(active=''):
     return f'''<header class="site-header">
   <div class="container">
     <div class="header-inner">
-      <a href="/" class="logo">Recherche Fuite <strong>Gironde</strong></a>
+      <a href="/" class="logo"><img src="/assets/Logo de recherche de fuite Gironde-1.png" alt="Recherche Fuite Gironde" height="48" style="display:block;height:48px;width:auto;"></a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
       <nav class="nav" id="main-nav">
         <a href="/">Accueil</a>
@@ -46,7 +46,7 @@ def footer():
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" class="logo">Recherche Fuite <strong>Gironde</strong></a>
+        <a href="/" class="logo"><img src="/assets/Logo de recherche de fuite Gironde-1.png" alt="Recherche Fuite Gironde" height="44" style="display:block;height:44px;width:auto;"></a>
         <p class="footer-desc">Spécialiste de la recherche de fuites d'eau en Gironde (33). Intervention sur 30 communes. Méthodes non destructives, rapport assurance.</p>
       </div>
       <div class="footer-col">
@@ -230,6 +230,7 @@ def html_base(title, description, canonical, body, extra_ld='', hide_sticky_cta=
   <title>{title}</title>
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical}">
+  <link rel="icon" href="/assets/favicon recherche fuite gironde.webp" type="image/webp">
   <link rel="stylesheet" href="/assets/css/style.css">
   {extra_ld}
 </head>
