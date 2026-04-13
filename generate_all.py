@@ -111,9 +111,8 @@ def form_section(ville_defaut=''):
           <li class="contact-check"><img src="/assets/icons/lock.svg" alt="">Vos données restent confidentielles</li>
         </ul>
       </div>
-      <div id="form-main-success" style="display:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:1.5rem;text-align:center;"><p style="color:#fff;font-weight:600;font-size:1.05rem;margin:0 0 .5rem;">Demande envoy\u00e9e !</p><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin:0;">Nous vous recontactons sous 24h ouvr\u00e9es.</p></div>
-      <div id="form-main-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
-      <form data-ajax data-success="form-main-success" data-error="form-main-error">
+      <div id="form-main-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
+      <form data-ajax data-error="form-main-error">
         <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Nouvelle demande de devis">
         <input type="hidden" name="site_source" value="">
         <div class="form-grid-2" style="margin-bottom:1rem;">
@@ -242,7 +241,6 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){{
     e.preventDefault();
     var btn=form.querySelector('[type=submit]');
     var origText=btn.textContent;
-    var successEl=form.dataset.success?document.getElementById(form.dataset.success):null;
     var errorEl=form.dataset.error?document.getElementById(form.dataset.error):null;
     btn.disabled=true;
     btn.textContent='Envoi en cours\u2026';
@@ -259,8 +257,7 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){{
     .then(function(r){{return r.json();}})
     .then(function(res){{
       if(res.success==='true'||res.success===true){{
-        form.style.display='none';
-        if(successEl)successEl.style.display='block';
+        window.location.href=window.location.origin+'/merci/';
       }}else{{
         btn.disabled=false;btn.textContent=origText;
         if(errorEl)errorEl.style.display='block';
@@ -307,9 +304,8 @@ def page_ville_detection(v):
 
     mini_form = f'''<div class="ville-cta-card">
   <h3>Intervention à {nom}</h3>
-  <div id="form-mini-success" style="display:none;background:#ecfdf5;border:1px solid #6ee7b7;border-radius:8px;padding:1.25rem;text-align:center;"><p style="color:#065f46;font-weight:600;margin:0 0 .35rem;">Demande envoy\u00e9e !</p><p style="color:#047857;font-size:.85rem;margin:0;">R\u00e9ponse sous 24h ouvr\u00e9es.</p></div>
-  <div id="form-mini-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:.75rem;text-align:center;"><p style="color:#991b1b;font-size:.85rem;margin:0;">Erreur, veuillez r\u00e9essayer.</p></div>
-  <form data-ajax data-success="form-mini-success" data-error="form-mini-error" class="ville-cta-form">
+  <div id="form-mini-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:.75rem;text-align:center;margin-bottom:.75rem;"><p style="color:#991b1b;font-size:.85rem;margin:0;">Erreur, veuillez r\u00e9essayer.</p></div>
+  <form data-ajax data-error="form-mini-error" class="ville-cta-form">
     <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande détection à {nom}">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="site_source" value="">
@@ -446,9 +442,8 @@ def page_ville_chemisage(v):
 
     mini_form = f'''<div class="ville-cta-card">
   <h3>Chemisage à {nom}</h3>
-  <div id="form-mini-success" style="display:none;background:#ecfdf5;border:1px solid #6ee7b7;border-radius:8px;padding:1.25rem;text-align:center;"><p style="color:#065f46;font-weight:600;margin:0 0 .35rem;">Demande envoy\u00e9e !</p><p style="color:#047857;font-size:.85rem;margin:0;">R\u00e9ponse sous 24h ouvr\u00e9es.</p></div>
-  <div id="form-mini-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:.75rem;text-align:center;"><p style="color:#991b1b;font-size:.85rem;margin:0;">Erreur, veuillez r\u00e9essayer.</p></div>
-  <form data-ajax data-success="form-mini-success" data-error="form-mini-error" class="ville-cta-form">
+  <div id="form-mini-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:.75rem;text-align:center;margin-bottom:.75rem;"><p style="color:#991b1b;font-size:.85rem;margin:0;">Erreur, veuillez r\u00e9essayer.</p></div>
+  <form data-ajax data-error="form-mini-error" class="ville-cta-form">
     <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande chemisage à {nom}">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="service" value="Chemisage">
@@ -807,9 +802,8 @@ def page_contact():
       <p class="section-lead" style="margin-bottom:0;">Pour une demande de devis, utilisez plutôt notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">page devis dédiée</a>.</p>
     </div>
 
-    <div id="form-contact-success" style="display:none;background:#ecfdf5;border:1px solid #6ee7b7;border-radius:8px;padding:1.5rem;text-align:center;"><p style="color:#065f46;font-weight:600;font-size:1.05rem;margin:0 0 .5rem;">Message envoy\u00e9 avec succ\u00e8s !</p><p style="color:#047857;font-size:.9rem;margin:0;">Nous vous r\u00e9pondrons sous 24h ouvr\u00e9es.</p></div>
-    <div id="form-contact-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:1rem;text-align:center;"><p style="color:#991b1b;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
-    <form data-ajax data-success="form-contact-success" data-error="form-contact-error" style="display:flex;flex-direction:column;gap:1.25rem;">
+    <div id="form-contact-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#991b1b;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
+    <form data-ajax data-error="form-contact-error" style="display:flex;flex-direction:column;gap:1.25rem;">
       <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Message de contact">
       <input type="hidden" name="site_source" value="">
 
@@ -1378,9 +1372,8 @@ def page_devis():
       </div>
       <div class="devis-form" style="background:var(--green-dark);padding:2rem;border-radius:var(--r-lg);">
         <h2 style="font-family:var(--f-title);font-size:1.3rem;font-weight:700;color:var(--text-inv);margin-bottom:1.5rem;">Votre demande de devis</h2>
-        <div id="form-devis-success" style="display:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:1.5rem;text-align:center;"><p style="color:#fff;font-weight:600;font-size:1.05rem;margin:0 0 .5rem;">Demande envoy\u00e9e !</p><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin:0;">Nous vous recontactons sous 24h ouvr\u00e9es.</p></div>
-        <div id="form-devis-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
-        <form data-ajax data-success="form-devis-success" data-error="form-devis-error">
+        <div id="form-devis-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
+        <form data-ajax data-error="form-devis-error">
           <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande de devis">
           <input type="hidden" name="site_source" value="">
           <div class="form-grid-2" style="margin-bottom:1rem;">

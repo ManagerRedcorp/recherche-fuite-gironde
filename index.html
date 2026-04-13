@@ -502,9 +502,8 @@
           </li>
         </ul>
       </div>
-      <div id="form-home-success" style="display:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:1.5rem;text-align:center;"><p style="color:#fff;font-weight:600;font-size:1.05rem;margin:0 0 .5rem;">Demande envoy&#233;e !</p><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin:0;">Nous vous recontactons sous 24h ouvr&#233;es.</p></div>
-      <div id="form-home-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r&#233;essayer ou nous appeler directement.</p></div>
-      <form data-ajax data-success="form-home-success" data-error="form-home-error">
+      <div id="form-home-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r&#233;essayer ou nous appeler directement.</p></div>
+      <form data-ajax data-error="form-home-error">
         <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Nouvelle demande de devis">
         <input type="hidden" name="site_source" value="">
         <div class="form-grid-2" style="margin-bottom:1rem;">
@@ -648,7 +647,6 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     e.preventDefault();
     var btn=form.querySelector('[type=submit]');
     var origText=btn.textContent;
-    var successEl=form.dataset.success?document.getElementById(form.dataset.success):null;
     var errorEl=form.dataset.error?document.getElementById(form.dataset.error):null;
     btn.disabled=true;
     btn.textContent='Envoi en cours\u2026';
@@ -665,8 +663,7 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     .then(function(r){return r.json();})
     .then(function(res){
       if(res.success==='true'||res.success===true){
-        form.style.display='none';
-        if(successEl)successEl.style.display='block';
+        window.location.href=window.location.origin+'/merci/';
       }else{
         btn.disabled=false;btn.textContent=origText;
         if(errorEl)errorEl.style.display='block';

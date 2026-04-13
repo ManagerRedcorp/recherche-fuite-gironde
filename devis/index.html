@@ -78,9 +78,8 @@
       </div>
       <div class="devis-form" style="background:var(--green-dark);padding:2rem;border-radius:var(--r-lg);">
         <h2 style="font-family:var(--f-title);font-size:1.3rem;font-weight:700;color:var(--text-inv);margin-bottom:1.5rem;">Votre demande de devis</h2>
-        <div id="form-devis-success" style="display:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:1.5rem;text-align:center;"><p style="color:#fff;font-weight:600;font-size:1.05rem;margin:0 0 .5rem;">Demande envoyée !</p><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin:0;">Nous vous recontactons sous 24h ouvrées.</p></div>
-        <div id="form-devis-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez réessayer ou nous appeler directement.</p></div>
-        <form data-ajax data-success="form-devis-success" data-error="form-devis-error">
+        <div id="form-devis-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez réessayer ou nous appeler directement.</p></div>
+        <form data-ajax data-error="form-devis-error">
           <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Demande de devis">
           <input type="hidden" name="site_source" value="">
           <div class="form-grid-2" style="margin-bottom:1rem;">
@@ -227,7 +226,6 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     e.preventDefault();
     var btn=form.querySelector('[type=submit]');
     var origText=btn.textContent;
-    var successEl=form.dataset.success?document.getElementById(form.dataset.success):null;
     var errorEl=form.dataset.error?document.getElementById(form.dataset.error):null;
     btn.disabled=true;
     btn.textContent='Envoi en cours…';
@@ -244,8 +242,7 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     .then(function(r){return r.json();})
     .then(function(res){
       if(res.success==='true'||res.success===true){
-        form.style.display='none';
-        if(successEl)successEl.style.display='block';
+        window.location.href=window.location.origin+'/merci/';
       }else{
         btn.disabled=false;btn.textContent=origText;
         if(errorEl)errorEl.style.display='block';

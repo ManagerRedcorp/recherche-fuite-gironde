@@ -50,9 +50,8 @@
       <p class="section-lead" style="margin-bottom:0;">Pour une demande de devis, utilisez plutôt notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">page devis dédiée</a>.</p>
     </div>
 
-    <div id="form-contact-success" style="display:none;background:#ecfdf5;border:1px solid #6ee7b7;border-radius:8px;padding:1.5rem;text-align:center;"><p style="color:#065f46;font-weight:600;font-size:1.05rem;margin:0 0 .5rem;">Message envoyé avec succès !</p><p style="color:#047857;font-size:.9rem;margin:0;">Nous vous répondrons sous 24h ouvrées.</p></div>
-    <div id="form-contact-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:1rem;text-align:center;"><p style="color:#991b1b;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez réessayer ou nous appeler directement.</p></div>
-    <form data-ajax data-success="form-contact-success" data-error="form-contact-error" style="display:flex;flex-direction:column;gap:1.25rem;">
+    <div id="form-contact-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#991b1b;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez réessayer ou nous appeler directement.</p></div>
+    <form data-ajax data-error="form-contact-error" style="display:flex;flex-direction:column;gap:1.25rem;">
       <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Message de contact">
       <input type="hidden" name="site_source" value="">
 
@@ -170,7 +169,6 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     e.preventDefault();
     var btn=form.querySelector('[type=submit]');
     var origText=btn.textContent;
-    var successEl=form.dataset.success?document.getElementById(form.dataset.success):null;
     var errorEl=form.dataset.error?document.getElementById(form.dataset.error):null;
     btn.disabled=true;
     btn.textContent='Envoi en cours…';
@@ -187,8 +185,7 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     .then(function(r){return r.json();})
     .then(function(res){
       if(res.success==='true'||res.success===true){
-        form.style.display='none';
-        if(successEl)successEl.style.display='block';
+        window.location.href=window.location.origin+'/merci/';
       }else{
         btn.disabled=false;btn.textContent=origText;
         if(errorEl)errorEl.style.display='block';
