@@ -1603,6 +1603,7 @@ VILLES_PREMIUM = {
             ("Réseaux enterrés et sols argileux", "Une partie du territoire bordelais repose sur des sols argileux sensibles au retrait-gonflement. Ces mouvements de terrain peuvent désaxer les canalisations d'évacuation sous dalle ou les alimentations enterrées depuis le regard de compteur. Le gaz traceur reste la méthode la plus efficace dans ces configurations.")
         ],
         "cas_frequent": "Cas type à Bordeaux : appartement au 3e étage d'un immeuble haussmannien de la rue Sainte-Catherine, construit en 1905. Tache d'humidité récurrente au plafond de la chambre, voisin du dessus qui ne constate rien chez lui. Notre diagnostic : thermographie infrarouge pour cartographier la zone humide, écoute électro-acoustique sur le tracé de la colonne d'évacuation EU, caméra endoscopique dans la gaine technique. Dans 60 pourcent des cas sur ce type de bâti, la fuite est sur la colonne commune entre deux étages, relevant de la copropriété et de la convention IRSI, pas du voisin direct.",
+        "methodes_focus": "À Bordeaux, où le patrimoine haussmannien et les copropriétés anciennes dominent, notre méthodologie privilégie la thermographie infrarouge pour cartographier une zone humide derrière plâtre ou enduit ancien, et l'écoute électro-acoustique pour localiser une fuite sur colonne montante EU/EV. La caméra endoscopique est souvent déployée en seconde passe pour inspecter l'intérieur des canalisations fonte centenaires des immeubles du Triangle d'Or ou des Chartrons. Le gaz traceur reste essentiel pour les canalisations enterrées en sol argileux, typiques du Grand Parc ou de Caudéran. Cette combinaison méthodologique permet de préserver les parquets Versailles, moulures plâtre et cheminées marbre des immeubles classés UNESCO du Port de la Lune.",
         "faq_locale": [
             ("Fait-il prévenir l'Architecte des Bâtiments de France avant votre intervention dans le périmètre UNESCO ?",
              "Non, une recherche de fuite est un diagnostic technique non destructif qui ne modifie pas l'aspect extérieur ni ne touche aux éléments classés. Aucune autorisation ABF ou déclaration préalable n'est requise. Seuls des travaux de réparation modifiant une façade ou des éléments protégés pourraient nécessiter une validation."),
@@ -1628,6 +1629,7 @@ VILLES_PREMIUM = {
             ("Proximité aéroport et réseaux multiples", "La zone aéroportuaire et les zones d'activité génèrent des demandes sur des bâtiments tertiaires, des copropriétés récentes et des résidences en locations saisonnières. Chaque configuration a sa propre signature de fuite que nos techniciens savent identifier.")
         ],
         "cas_frequent": "Scénario classique à Mérignac : pavillon Arlac années 1995, propriétaire qui reçoit une facture d'eau de 1 200 euros sur un trimestre (contre 250 habituellement). Compteur qui tourne en permanence, pas de tache dans la maison. Notre diagnostic : test du robinet d'arrêt général (fuite après compteur), gaz traceur azote/hélium injecté sur la canalisation enterrée compteur vers maison (45 mètres de tracé). La fuite se trouve à 28 mètres du compteur, au droit d'un raccord PVC désaxé par mouvement de terrain. Réparation : ouverture 1 m² au point localisé, remplacement du raccord, rebouchage. Coût total intervention + réparation : 850 euros, remboursables en grande partie par la garantie recherche de fuite de l'assurance.",
+        "methodes_focus": "Sur le parc pavillonnaire mérignacais (majoritairement années 1970-2000 avec canalisations enterrées longues), nos deux méthodes de référence sont le gaz traceur azote/hélium pour les alimentations enterrées entre compteur et maison (souvent 20 à 50 mètres), et la thermographie infrarouge pour les planchers chauffants hydrauliques très répandus à Arlac, Capeyron et Chemin Long. L'écoute électro-acoustique complète sur les réseaux sous dalle béton, et le test de pression sur boucle permet d'isoler le circuit en défaut avant localisation fine. Pour les piscines nombreuses de la commune, nous déployons en plus colorant fluorescéine et inspection caméra sous-marine.",
         "faq_locale": [
             ("Le compteur d'eau tourne chez moi à Mérignac : fuite avant ou après compteur ?",
              "Faites le test de fermeture : tournez votre robinet d'arrêt général situé juste après le compteur. Si le compteur continue de tourner, la fuite est AVANT (réseau public Suez), à leur charge. S'il s'arrête mais que vous avez toujours une perte, la fuite est APRÈS (réseau privatif), à votre charge. Ce diagnostic simple oriente immédiatement la suite."),
@@ -1653,6 +1655,7 @@ VILLES_PREMIUM = {
             ("Canalisations enterrées en sable et mouvements", "Le sous-sol sableux d'Arcachon offre une excellente portance mais subit des micro-tassements au gré des variations hygrométriques. Les raccords des canalisations enterrées (alimentation, évacuation, arrosage) peuvent se désaxer lentement et provoquer des fuites progressives.")
         ],
         "cas_frequent": "Cas récurrent arcachonais : villa de la Ville d'Hiver, propriétaires résidents secondaires vivant à Paris, retour pour les vacances de Pâques. Ils découvrent en ouvrant la maison une humidité au sol du sous-sol et au pied de la cuisine. Notre diagnostic : thermographie pour cartographier la zone humide, écoute acoustique sur la canalisation de cuivre d'alimentation, humidimètre pour mesurer l'étendue. Fuite identifiée sur raccord cuivre au niveau de la traversée mur, corrodée par l'air salin. Durée sans détection estimée à 4-6 mois. Consommation d'eau perdue : environ 180 m³. Rapport utilisable pour demande d'écrêtement auprès de la Régie des eaux et pour la déclaration à l'assureur.",
+        "methodes_focus": "À Arcachon, où l'air salin, les résidences secondaires et le patrimoine historique imposent des contraintes particulières, notre méthodologie s'adapte en deux temps. Contrôle systématique préalable du local technique (corrosion des cuivres et inox par l'air salin) car la fuite vient souvent d'un équipement, pas du bâti. Puis thermographie infrarouge et humidimètre pour distinguer une vraie fuite d'une remontée d'humidité par capillarité (fréquente en sous-sol au bord du Bassin). L'écoute électro-acoustique cible les canalisations anciennes en fonte ou cuivre d'origine des villas de la Ville d'Hiver et du Moulleau. Le gaz traceur reste notre outil de référence pour les canalisations enterrées en sol sableux, qui subissent micro-tassements permanents.",
         "faq_locale": [
             ("Ma résidence secondaire à Arcachon a eu une fuite durant l'hiver, qui paye ?",
              "Votre assurance habitation multirisque couvre la recherche de fuite et les dégâts consécutifs, y compris pendant une période d'inoccupation, à condition que la déclaration soit faite dans les 5 jours ouvrables après constat. Pour l'eau perdue, vous pouvez demander un écrêtement de facture auprès de la Régie des eaux de La Teste-Arcachon en présentant notre rapport technique."),
@@ -1678,6 +1681,7 @@ VILLES_PREMIUM = {
             ("Proximité Dordogne et nappe phréatique", "La position au confluent de deux rivières place la nappe phréatique proche de la surface. Les caves et sous-sols des propriétés anciennes sont sensibles aux remontées capillaires, qu'il faut distinguer d'une vraie fuite par des mesures d'humidimètre méthodiques.")
         ],
         "cas_frequent": "Cas type dans le Libournais : maison bourgeoise de négociant en vins au centre de Libourne, bâtie vers 1880, avec cave voûtée ayant toujours servi de chai familial. Les propriétaires notent une humidité croissante au plafond de la cave, suspectent une fuite mais n'osent pas casser les voûtes. Notre diagnostic : humidimètre pour cartographier la zone humide, thermographie du plancher haut, écoute acoustique sur colonnes EU/EV. La fuite est localisée sur un coude de canalisation fonte au niveau du plancher de la salle de bains du 1er étage, à 8 mètres de la zone humide visible en cave (l'eau migre le long d'une poutre avant de gouter). Réparation ciblée sans démolir la voûte historique.",
+        "methodes_focus": "Dans le Libournais, zone viticole aux bâtis anciens et sols argileux, notre protocole se structure autour de 3 méthodes principales. L'humidimètre en premier, pour distinguer une vraie fuite de la remontée capillaire fréquente dans les caves voûtées à proximité de la Dordogne. La thermographie infrarouge ensuite, pour suivre les circulations d'eau dans les planchers anciens en bois où une fuite peut se diffuser sur plusieurs mètres avant d'apparaître visiblement. Le gaz traceur enfin, pour les canalisations enterrées des domaines viticoles (souvent longues, entre château, chais et dépendances) fragilisées par les mouvements retrait-gonflement de l'argile. L'inspection caméra dans les colonnes fonte d'origine est systématique sur les maisons bourgeoises centenaires.",
         "faq_locale": [
             ("Intervenez-vous sur les grands crus de Saint-Émilion et Pomerol ?",
              "Oui, nous nous déplaçons régulièrement dans les domaines de Saint-Émilion, Pomerol, Fronsac et leurs environs pour des interventions sur les résidences des propriétaires, les chais et les dépendances. Nos techniciens respectent strictement les consignes de discrétion et de confidentialité propres à ces domaines prestigieux."),
@@ -1703,6 +1707,7 @@ VILLES_PREMIUM = {
             ("Zone Bersol et bâti tertiaire récent", "Le parc d'activité de Bersol et les zones tertiaires récentes accueillent des bâtiments aux réseaux modernes (multicouche, PE). Les fuites y sont souvent liées à des défauts de pose sur sertissage ou à des mouvements de dalle. Notre écoute électro-acoustique cible précisément ces signatures.")
         ],
         "cas_frequent": "Cas fréquent à Pessac : copropriété familiale de 40 logements à Alouette, construite en 1972. Le syndic signale des fuites récurrentes au dernier étage depuis 6 mois, avec plusieurs logements touchés par intermittence. Notre diagnostic pour le conseil syndical : inspection caméra des colonnes montantes EU/EV communes, écoute acoustique, identification des tronçons corrodés. Rapport remis : 4 zones de fuite identifiées sur la colonne montante principale, matériau fonte gris d'origine fatigué. Préconisation : chemisage de la colonne par manchon résine époxy (durée de vie 50 ans), intervention planifiée en AG extraordinaire avec vote article 25.",
+        "methodes_focus": "À Pessac, la diversité du parc immobilier (copropriétés 1960-80 d'Alouette et Saige, résidences étudiantes, pavillons individuels, châteaux viticoles Pessac-Léognan) impose une approche méthodologique modulable. Sur les copropriétés anciennes, inspection caméra systématique des colonnes montantes EU/EV en fonte, souvent fatiguées après 50 ans de service. Sur les pavillons individuels, gaz traceur pour les canalisations enterrées et thermographie pour les planchers chauffants. Sur les châteaux viticoles, approche combinée multi-réseaux (résidences, chais, piscines, arrosages) pour identifier le circuit en cause avant localisation fine. L'écoute électro-acoustique est notre outil de confirmation sur les réseaux multicouche et PE des bâtiments tertiaires de Bersol.",
         "faq_locale": [
             ("Les résidences étudiantes de Pessac sont-elles couvertes par nos prestations ?",
              "Oui. Nous intervenons pour le compte des bailleurs sociaux (Aquitanis, CUB Habitat) et privés gérant des résidences étudiantes à Pessac (Saige, Alouette, Camponac). Le mandatement se fait par le gestionnaire, l'intervention est coordonnée avec les locataires. Notre rapport est fourni pour mise en jeu éventuelle de la garantie recherche de fuite."),
@@ -1843,6 +1848,9 @@ def page_ville_detection_premium(v):
         for titre, contenu in ctx['specificites']
     ])
 
+    # Methodes focus unique par ville
+    methodes_focus = ctx.get('methodes_focus', '')
+
     # FAQ locale unique par ville
     faq_locale_html = '\n'.join([
         f'    <h3>{q}</h3>\n    <p>{a}</p>'
@@ -1965,7 +1973,8 @@ def page_ville_detection_premium(v):
 <section class="section section-alt" id="methodes">
   <div class="container" style="max-width:1080px;">
     <h2>6 méthodes de recherche de fuite d'eau {ville_article}</h2>
-    <p>Selon la nature, la localisation et la gravité de la fuite, nos techniciens combinent plusieurs méthodes non destructives pour localiser la source avec précision.</p>
+    <p>{methodes_focus if methodes_focus else 'Selon la nature, la localisation et la gravité de la fuite, nos techniciens combinent plusieurs méthodes non destructives pour localiser la source avec précision.'}</p>
+    <p style="margin-top:1rem;">Ci-dessous, les 6 méthodes de notre protocole de diagnostic, combinées selon le scénario rencontré.</p>
     {METHODES_BLOCK}
   </div>
 </section>
@@ -2507,6 +2516,12 @@ PISCINE_PAGES = [
             ("Travaillez-vous sur les domaines viticoles du Médoc avec piscine ancienne ?",
              "Oui, nous nous déplaçons jusqu'à Pauillac, Saint-Julien-Beychevelle, Margaux et leurs environs pour les piscines des chais et résidences. Un supplément de déplacement s'applique au-delà de 30 km du centre de Bordeaux, forfaitaire et communiqué dans le devis.")
         ],
+        "methodes_focus": "Sur les piscines bordelaises et périphérie, nos méthodes de diagnostic sont hiérarchisées différemment selon la zone. Dans les propriétés bourgeoises de Caudéran ou Le Bouscat (grands bassins béton des années 1970-80), nous commençons systématiquement par l'inspection caméra sous-marine pour repérer les fissures structurelles souvent présentes, puis le colorant fluorescéine aux pièces à sceller. Pour les piscines situées sur terrain argileux (la majorité de Bordeaux intra-muros), le gaz traceur azote/hélium sur canalisations enterrées est notre méthode de deuxième passage, car les raccords PVC collés cèdent fréquemment aux mouvements saisonniers. L'écoute électro-acoustique est utile en dernier recours quand les trois premières méthodes n'ont pas convergé, typiquement pour une fuite sur un raccord très enterré (plus de 2 mètres de profondeur) entre bassin et local technique.",
+        "patterns_frequents": [
+            ("Piscine Caudéran béton 1980 avec fuite structurelle", "Maison bourgeoise 1900, piscine béton projeté 10×4 ajoutée vers 1982. Perte d'eau progressive depuis 2 ans, s'accélérant après sécheresse estivale. Inspection caméra : fissure verticale de 30 cm au niveau du point profond, active. Préconisation : rebéton local + nouvelle étanchéité par liner armé, 18 000 euros HT estimés. Rapport assurance transmis pour prise en charge."),
+            ("Piscine Le Bouscat + arrosage enterré confus", "Propriété Parc Bordelais, piscine liner 8×4 et arrosage enterré sur 300 m² de jardin. Consommation d'eau +400 m³/an inexpliquée. Diagnostic par fermeture séquentielle : la fuite n'est pas sur la piscine mais sur une vanne d'arrosage enterrée à 12 mètres au sud du bassin. Le propriétaire voulait vidanger sa piscine, ce que nous avons évité."),
+            ("Coque polyester Saint-Augustin vieillissante", "Piscine coque coco 7×3 installée en 2005. Baisse de niveau constante de 2 cm/jour. Inspection caméra : osmose généralisée avec cloques multiples sur la paroi nord, micro-fissure confirmée par colorant au niveau de la bride du skimmer. Préconisation : reprise d'étanchéité locale + surveillance annuelle, 1 200 euros HT.")
+        ],
     },
     {
         "slug": "piscine-merignac",
@@ -2532,6 +2547,12 @@ PISCINE_PAGES = [
              "Oui, du lundi au samedi, avec des créneaux prioritaires pour les piscines dont la fuite est active et importante (plus de 5 cm par jour). En saison haute (juin à septembre), nous organisons systématiquement des tournées dédiées piscines pour répondre sous 48 à 72 heures aux demandes de la métropole bordelaise."),
             ("Ma piscine Mérignac perd 1 cm par jour : urgent ou pas ?",
              "1 cm/jour correspond à une perte d'environ 600 litres pour une piscine 8×4 mètres. À l'échelle d'un été, c'est environ 60 m³ d'eau perdus, soit une facture supplémentaire de 200 à 400 euros en zone Suez Bordeaux Métropole. Économiquement, localiser et réparer la fuite se rentabilise en une saison. Techniquement, une fuite non traitée peut saturer les terres autour du bassin, provoquer un tassement et aggraver le problème.")
+        ],
+        "methodes_focus": "Sur le parc homogène de piscines mérignacaises (8×4 liner PVC des années 1985-2000 majoritairement), notre méthodologie se concentre d'abord sur le colorant fluorescéine aux pièces à sceller : le joint mastic des skimmers Weltico ou Hayward de cette génération est la cause n°1 de fuite. Si négatif, inspection visuelle du liner en apnée ou caméra à la recherche d'une perforation punctiforme (les liners PVC 75/100 de 30 ans d'âge deviennent friables aux angles). Pour les maisons avec grand terrain d'Arlac ou Beutre où les canalisations enterrées PVC font 15 à 30 mètres entre bassin et local technique, le test de pression séquentiel sur chaque circuit oriente avant déploiement du gaz traceur.",
+        "patterns_frequents": [
+            ("Piscine liner Arlac joint skimmer desséché", "Pavillon 1992, piscine 4×8 liner d'origine, perte 2 cm/jour en saison estivale. Inspection : colorant fluorescéine sur skimmer révèle aspiration à la bride. Réparation : rejointoiement mastic piscine (Sikaflex piscine) après purge. Intervention 2h30, réparation 150 euros, diagnostic + réparation 420 euros HT."),
+            ("Plancher chauffant piscine confusion Capeyron", "Maison 1998 avec plancher chauffant ET piscine. Perte de pression circuit chauffage + compteur d'eau anormal. Client convaincu que c'était la piscine. Thermographie révèle la fuite : circuit chauffage, fuite sous salon au niveau du collecteur. Piscine saine. Rapport transmis à l'assurance pour prise en charge travaux chape."),
+            ("Canalisation enterrée Beutre après hiver", "Maison lotissement 1996, 40 m de canalisation PVC entre compteur et local technique piscine. Au redémarrage de printemps, facture Suez doublée. Gaz traceur localise la fuite à 22 m du compteur sous l'allée gravillonnée. Réparation par ouverture locale 80×80 cm, remplacement 1 mètre de PVC, compactage, remise en état des graviers. Total 780 euros.")
         ],
     },
     {
@@ -2559,6 +2580,12 @@ PISCINE_PAGES = [
             ("Intervenez-vous sur les piscines des villas classées de la Ville d'Hiver ?",
              "Oui, nous sommes formés à intervenir sur les bâtiments classés et les abords protégés. Notre méthodologie strictement non destructive préserve les margelles en pierre d'origine, les plages carrelées d'époque et les décors paysagers matures. Un devis précis détaille les précautions prises et les limites techniques rencontrées sur ces configurations patrimoniales.")
         ],
+        "methodes_focus": "Les piscines arcachonaises, souvent équipées (chauffage PAC, débordement, couverture automatique), demandent une approche méthodique en deux temps. D'abord, vérification complète du local technique : état des pompes, échangeurs thermiques, vannes. En climat salin, une fuite sur équipement (échangeur PAC corrodé, joint d'axe pompe) est aussi probable qu'une fuite de bassin, et se diagnostique visuellement. Ensuite seulement, test du bassin : colorant fluorescéine aux pièces à sceller et inspection caméra sous-marine (les piscines arcachonaises étant souvent de qualité supérieure, les défauts sont plus subtils : micro-fissure d'angle, décollement de carrelage invisible à l'œil nu). Pour les piscines miroir ou débordement, isolation du bac tampon obligatoire.",
+        "patterns_frequents": [
+            ("Villa Ville d'Hiver PAC corrodée", "Villa 1895, piscine ajoutée 1990, PAC Zodiac installée en 2010. Consommation d'eau anormale constatée au retour printemps. Inspection local technique : condenseur PAC percé, fuite d'eau continue par l'évacuation. Bassin intact. Préconisation : remplacement PAC (8 à 12 000 euros HT neuf), diagnostic 380 euros HT."),
+            ("Piscine miroir débordement Abatilles", "Villa récente 2015, piscine 12×4 à débordement périphérique. Bac tampon baisse régulière de 8-10 cm/jour, sans perte apparente sur bassin principal. Diagnostic : gaz traceur sur circuit de remontée, fuite identifiée sur raccord PE de 20 mètres sous la plage. Réparation : ouverture ciblée d'une dalle préfabriquée, reprise raccord, rescellement. 2 600 euros total."),
+            ("Villa résidence secondaire Pereire après hiver", "Villa front Bassin, propriétaires parisiens en résidence secondaire. Ouverture printanière : local technique inondé, 15 cm d'eau au sol. Diagnostic : fuite sur clapet de vanne hivernage mal serré. Bassin intact mais pompe noyée à remplacer. Rapport détaillé pour assurance multirisque : prise en charge totale du sinistre.")
+        ],
     },
     {
         "slug": "piscine-la-teste-de-buch",
@@ -2584,6 +2611,12 @@ PISCINE_PAGES = [
              "Oui, les pins maritimes ont un système racinaire superficiel qui peut atteindre 8 à 15 mètres horizontalement. Les racines cherchent l'humidité et pénètrent les raccords défectueux ou les canalisations enterrées. Sur les piscines de lotissements de Cazaux entourées de pins, nous recommandons une inspection caméra des canalisations enterrées tous les 10 ans à titre préventif."),
             ("Combien coûte une intervention piscine à La Teste vs Bordeaux ?",
              "Nos tarifs sont identiques sur toute la métropole et le bassin d'Arcachon : 300 à 700 euros HT selon la méthode. Un supplément forfaitaire de déplacement de 40 euros s'applique pour La Teste et les communes du bassin d'Arcachon au-delà des zones directement accessibles depuis Bordeaux. Ce supplément est inclus dans le devis communiqué avant intervention.")
+        ],
+        "methodes_focus": "Sur La Teste-de-Buch, la configuration sol sableux + densité de pins maritimes + nappe phréatique parfois haute nous oriente systématiquement vers deux méthodes prioritaires : le gaz traceur azote/hélium pour les canalisations enterrées (les raccords PVC collés 15-25 ans se désaxent dans le sable) et l'inspection caméra des canalisations d'évacuation pour détecter les racines de pins qui ont pénétré le réseau. Le colorant fluorescéine reste utile pour les pièces à sceller, mais il arrive en seconde ligne dans notre protocole local. Les tests de pression sont particulièrement fiables ici car les canalisations enterrées sont souvent accessibles par les regards techniques typiques des lotissements de Cazaux.",
+        "patterns_frequents": [
+            ("Coque polyester Cazaux 2005 avec désaxement", "Pavillon lotissement 2005, coque polyester 7×4 avec canalisations PVC enterrées sur 8 mètres. Baisse de niveau progressive depuis 3 ans. Gaz traceur localise une fuite à 5,5 mètres du bassin au niveau d'un raccord en T. Cause identifiée : désaxement du raccord par mouvement sableux + léger tassement. Réparation par ouverture 1×1 m et reprise collage PVC. 920 euros."),
+            ("Piscine Pyla haut de gamme inspection racines", "Villa Pyla-sur-Mer, piscine 12×6 béton avec réseau enterré sous pinède. Baisse eau modérée mais persistante. Inspection caméra des canalisations évacuation : 3 racines de pins maritimes ont pénétré des raccords à 2, 5 et 11 mètres. Préconisation : chemisage tubulaire des canalisations concernées (sans tranchée) + coupe des racines à la tronçonneuse racinaire. 4 500 euros total."),
+            ("Confusion piscine/arrosage enterré Cazaux", "Pavillon 1998, piscine liner + arrosage automatique sur 400 m². Client suspectait fuite bassin (perte niveau). Diagnostic par isolation : fuite réelle sur électrovanne d'arrosage enterrée, pas sur la piscine. Le propriétaire allait vidanger sa piscine. Économie : 1 500 euros de vidange/remise en eau + bonne piscine sauvée.")
         ],
     },
     {
@@ -2611,6 +2644,12 @@ PISCINE_PAGES = [
             ("Faut-il un matériel spécifique pour les piscines de résidences secondaires à Gujan ?",
              "Pas de matériel spécifique, mais une méthodologie adaptée : nous combinons systématiquement inspection caméra, test de pression des canalisations et vérification du local technique (corrosion équipements), car les fuites de résidences secondaires peuvent s'être accumulées pendant plusieurs mois sans contrôle. Le rapport final détaille l'état global du bassin, utile pour les propriétaires qui ne sont pas sur place.")
         ],
+        "methodes_focus": "À Gujan-Mestras, où le parc de piscines est dominé par les coques polyester de la tranche 2000-2015, l'inspection caméra sous-marine est notre première méthode de diagnostic : elle identifie rapidement les signes d'osmose (cloques), les micro-fissures au niveau des bondes moulées, et les délaminages entre couches de fibre. Le colorant fluorescéine confirme si un défaut visuel est bien fuyant. Pour les piscines proches du Bassin (Larros, Gujan Port), contrôle systématique de l'inox et des équipements PAC au local technique. Les piscines naturelles à lagunage demandent une adaptation : isolation séquentielle des compartiments (baignade, filtration végétale, transferts) avant d'identifier la zone fuyante.",
+        "patterns_frequents": [
+            ("Coque polyester La Hume osmose + micro-fissure", "Villa 2008 avec coque coco 8×4. Baisse 2 cm/jour. Inspection caméra : osmose diffuse, cloques multiples mais aucune ne fuit. Fluorescéine révèle une micro-fissure punctiforme près de la marche Romaine, invisible à l'œil. Réparation par résine époxy piscine appliquée sous l'eau. Diagnostic + réparation : 550 euros."),
+            ("Piscine naturelle lagunage diagnostic complexe", "Installation 2018, bassin baignade 6×4 + bassin lagunage végétal. Perte de niveau globale, localisation incertaine. Méthode : fermeture de la circulation entre bassins, mesure différentielle sur 48h. Fuite isolée sur le bassin de lagunage, au niveau d'une étanchéité PVC dégradée par racines de plantes. Intervention 780 euros."),
+            ("Villa front Bassin pompe piscine corrodée", "Maison Larros en bordure de Bassin, piscine 10×5 avec PAC installée en 2012. Baisse niveau + circulation perturbée. Diagnostic : pompe centrifuge corrodée à l'axe, joint mécanique fuyant, eau s'écoule par le siphon de sol du local. Bassin intact. Remplacement pompe + nouveau joint : 1 100 euros.")
+        ],
     },
     {
         "slug": "piscine-libourne",
@@ -2636,6 +2675,12 @@ PISCINE_PAGES = [
              "Oui, nous intervenons régulièrement sur les domaines grands crus classés et leurs dépendances : châteaux historiques, résidences, dépendances avec piscines. Notre approche respecte scrupuleusement les accès restreints, les consignes de discrétion, et la préservation des espaces paysagers. Un devis précis est établi après visite préalable si la configuration le justifie."),
             ("Sols argileux Libournais : quel impact sur ma piscine ?",
              "Les argiles du Libournais se rétractent en sécheresse et gonflent en humidité, sollicitant mécaniquement tout ce qui est enterré : canalisations, dalles de plage, parfois structure du bassin si les fondations sont insuffisantes. Pour une piscine neuve, une étude de sol est indispensable. Pour un bassin existant, un suivi des canalisations enterrées tous les 10-15 ans est recommandé : c'est souvent là que la fuite apparaît en premier.")
+        ],
+        "methodes_focus": "Sur les bassins du Libournais, souvent anciens (30 à 50 ans) et en béton armé, notre approche technique commence par l'inspection caméra sous-marine pour évaluer l'état structurel : les fissures actives, l'état des enduits d'origine, la présence de fers d'armature affleurants. Le colorant fluorescéine confirme les fissures suspectes et teste les pièces à sceller souvent d'un autre âge. Sur terrain argileux, le test de pression des canalisations enterrées est incontournable : les raccords PVC collés 30 ans auparavant ont subi de multiples cycles retrait-gonflement. L'écoute électro-acoustique est notre outil de confirmation pour localiser précisément un défaut identifié par test de pression sur un long linéaire.",
+        "patterns_frequents": [
+            ("Château Saint-Émilion piscine béton 1975", "Domaine grand cru, piscine béton 14×6 construite 1975, enduit ciment refait 1998. Perte d'eau accélérée +6 cm/jour après hiver humide. Inspection caméra : 2 fissures actives en paroi nord. Préconisation : rebéton paroi concernée + nouvelle étanchéité membrane armée. Devis 25 000 euros HT (compatible avec budget domaine), diagnostic 580 euros remboursé assurance."),
+            ("Maison négociant Libourne fuite cave voûtée", "Maison 1880 centre Libourne, cave voûtée avec humidité croissante au plafond. Propriétaires soupçonnent la piscine du jardin (ajoutée 1995). Diagnostic combiné : humidimètre (cave) + thermographie + colorant piscine. Conclusion : fuite canalisation PVC entre piscine et maison, à 11 mètres du bassin sous la terrasse. Ouverture ciblée, réparation 1 800 euros, cave préservée."),
+            ("Bassin Fronsac coque polyester rénovée 2010", "Château Fronsac, ancienne piscine béton rehabilitée par pose coque polyester sur ancienne structure 2010. Baisse 3 cm/jour. Diagnostic : coque intacte, mais raccord entre bondes de fond de la coque et canalisations PVC d'origine était mal collé. Localisation au colorant + confirmation test pression. Reprise 900 euros.")
         ],
     },
     {
@@ -2663,6 +2708,12 @@ PISCINE_PAGES = [
             ("Peut-on localiser une fuite dans une piscine de 4 mètres de profondeur ?",
              "Oui, sans problème. Nos sondes acoustiques et nos colorants en bouteille lestée atteignent le fond de tout bassin sans nécessiter de plongée humaine. Dans certains cas complexes, nous faisons intervenir un plongeur professionnel équipé (scaphandre autonome), notamment pour une inspection visuelle rapprochée de la bonde de fond. Cette option est facturée en supplément et proposée si le diagnostic acoustique et colorant est insuffisant.")
         ],
+        "methodes_focus": "Sur les piscines du Bouscat, presque toutes anciennes et entourées de jardins matures, notre première méthode est l'inspection caméra endoscopique des canalisations enterrées : dans 55 pourcent des diagnostics bouscatais, la fuite vient d'un raccord pénétré par une racine d'arbre (platane, chêne, tilleul ou saule). Quand l'inspection ne révèle pas de racine, nous enchaînons avec le test de pression séquentiel des circuits, puis le colorant fluorescéine sur pièces à sceller du bassin. Pour les piscines de 3-4 mètres de profondeur (rares mais présentes dans les propriétés historiques), utilisation d'une bouteille de colorant lestée qui descend au fond du bassin sans nécessiter de plongée. L'écoute acoustique complète le diagnostic sur les longs tracés de canalisations sous les grandes pelouses.",
+        "patterns_frequents": [
+            ("Piscine Parc Bordelais racine de platane", "Propriété familiale, piscine béton 10×4 des années 1978, 3 grands platanes à 7-10 mètres. Baisse régulière +2 cm/jour depuis 1 an. Inspection caméra des canalisations : racine de platane de 5 cm de diamètre entrée par un raccord défectueux à 6 m du bassin. Réparation : coupe racinaire, remplacement 60 cm de canalisation, injection inhibiteur racinaire. 1 600 euros total. Suivi tous les 5 ans recommandé."),
+            ("Jardin La Châtaigneraie accès étroit", "Maison bourgeoise 1910, piscine couloir de nage 15×2,5 mètres au fond du jardin, accessible uniquement par une porte cochère de 80 cm. Matériel compact déployé : caméra endoscopique sans fil, corrélateur portable, bouteilles gaz traceur 5L. Localisation fuite au niveau bonde de fond, joint torique usé. Remplacement en apnée : 420 euros total."),
+            ("Piscine profonde 4m Bourran 1976", "Propriété 1900, piscine béton 12×5 avec point profond 4m (plongeoir d'origine). Baisse 3 cm/jour. Colorant lesté descendu au fond : fissure radiale autour de la grille de bonde, 15 cm de long. Préconisation : réparation en apnée par plongeur pro (nécessaire à cette profondeur) + joint étanche. 1 800 euros + plongeur.")
+        ],
     },
 ]
 
@@ -2682,6 +2733,12 @@ def page_piscine_ville(p):
     faq_locale_html = '\n'.join([
         f'    <h3>{q}</h3>\n    <p>{a}</p>'
         for q, a in p["faq_locale"]
+    ])
+
+    # Patterns d'interventions frequentes (uniques par ville)
+    patterns_html = '\n'.join([
+        f'      <div class="arg-num-card"><span class="arg-num">{i:02d}</span><div class="arg-num-content"><h3>{titre}</h3><p>{contenu}</p></div></div>'
+        for i, (titre, contenu) in enumerate(p.get("patterns_frequents", []), 1)
     ])
     faq_schema_entries = []
     for q, a in p["faq_locale"]:
@@ -2818,8 +2875,9 @@ def page_piscine_ville(p):
 
 <section class="section" id="methodes">
   <div class="container" style="max-width:1080px;">
-    <h2>Comment on localise une fuite de piscine sans vidange</h2>
-    <p>Chaque méthode cible un type de fuite précis. Sur un chantier, nos techniciens combinent deux à quatre techniques pour isoler la source du problème avec certitude.</p>
+    <h2>Comment on localise une fuite de piscine {ville_article} sans vidange</h2>
+    <p>{p.get('methodes_focus', 'Chaque méthode cible un type de fuite précis. Sur un chantier, nos techniciens combinent deux à quatre techniques pour isoler la source du problème avec certitude.')}</p>
+    <p style="margin-top:1rem;">Ci-dessous, les 6 méthodes de notre protocole de diagnostic, combinées selon le scénario rencontré.</p>
 
     <figure style="margin:1.5rem 0;">
       <img src="/assets/niveau-eau-piscine-fuite.webp" alt="Piscine avec niveau d'eau anormalement bas, signe caractéristique d'une fuite à localiser sans vidanger" width="1600" height="1067" loading="lazy" style="width:100%;max-height:360px;height:auto;object-fit:cover;border-radius:12px;display:block;">
@@ -2942,6 +3000,17 @@ def page_piscine_ville(p):
 
     <h3>Zones d'intervention autour de {ville}</h3>
     <p>Nous intervenons sous 24 à 48h aux adresses suivantes : {p['zones_voisines']}. Nos tournées dédiées piscines en saison permettent d'optimiser les délais de rendez-vous.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Patterns d'interventions récurrents {ville_article}</h2>
+    <p>Trois scénarios représentatifs de ce que nous traitons au quotidien sur les piscines de {ville} et environs. Chaque pattern illustre une signature de fuite locale bien identifiée.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+{patterns_html}
+    </div>
   </div>
 </section>
 
