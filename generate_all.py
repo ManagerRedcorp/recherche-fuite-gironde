@@ -2454,6 +2454,583 @@ def page_urgence_ville(p):
 
 
 # ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Degats des eaux Bordeaux (B2B syndics)
+# ═══════════════════════════════════════════════════════════════
+
+def page_degats_eaux_bordeaux():
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche d'origine de degat des eaux",
+  "name": "Localisation de degat des eaux a Bordeaux pour syndics et copropriétés",
+  "description": "Identification precise de l'origine d'un degat des eaux en copropriete bordelaise. Rapport technique opposable en convention IRSI, intervention sous 24h, coordination avec assureurs et syndic.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  },
+  "areaServed": { "@type": "Place", "name": "Bordeaux et metropole girondine" },
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Syndics de copropriete, conseils syndicaux, gestionnaires immobiliers"
+  },
+  "category": "Detection de fuite non destructive B2B"
+}
+</script>'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde - Degats des eaux Bordeaux",
+  "description": "Specialiste de la localisation d'origine de degat des eaux en copropriete a Bordeaux. Rapport IRSI, intervention 24h, coordination syndic et assureur.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/",
+  "image": "https://recherche-fuite-gironde.fr/assets/fuite-sous-dalle.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33000",
+    "addressCountry": "FR"
+  },
+  "areaServed": { "@type": "City", "name": "Bordeaux" },
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Detection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Degat des eaux Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle est la difference entre une fuite et un degat des eaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Une fuite est la cause technique : perforation, joint defaillant, raccord desaxe, liner percé. Un degat des eaux est la consequence : tache d'humidite, plafond abîme, parquet gonfle, mobilier endommage. Un degat des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de degat des eaux (fuite enterree dans le jardin par exemple). Pour l'assurance, c'est le degat des eaux qui declenche la prise en charge." }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment fonctionne la convention IRSI en copropriete bordelaise ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "La convention IRSI (Indemnisation et Recours des Sinistres Immeuble) s'applique automatiquement entre assureurs pour les degats des eaux en copropriete jusqu'a 5000 euros HT. L'assureur du lot ou du logement 'victime' prend en charge les dommages sans recherche de responsabilite prealable, puis se retourne contre l'assureur du responsable. Cette procedure accelere considerablement l'indemnisation (15 a 30 jours typiquement au lieu de 3 a 6 mois en expertise contradictoire)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Un syndic peut-il mandater directement votre intervention ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, nous travaillons regulierement en mandatement direct par syndic professionnel ou conseil syndical pour les degats des eaux en copropriete bordelaise. Le rapport est remis au syndic avec identification precise de la responsabilite (partie privative ou commune). La facturation se fait a la copropriete, qui se retourne ensuite vers l'assurance PNO ou le responsable identifie." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps prend un diagnostic de degat des eaux a Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Intervention sous 24h dans la majorite des cas, avec un diagnostic sur site de 1h30 a 3h. Le rapport technique est remis le jour meme ou sous 24h par email, pret a etre transmis a l'assureur et au syndic. Pour les sinistres complexes impactant plusieurs lots, un diagnostic plus long (demi-journee) peut etre necessaire avec rapport detaille sous 48h." }
+    },
+    {
+      "@type": "Question",
+      "name": "Les proprietaires occupants ou les locataires peuvent-ils nous contacter directement ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, tout copropriétaire occupant, locataire ou bailleur peut nous contacter pour un diagnostic individuel. Si le sinistre concerne des parties communes (colonne montante, evacuation collective, toiture), nous informons le syndic apres constat et coordonnons la suite. Le rapport est remis au commanditaire (vous) avec les elements utiles pour l'assureur et le syndic." }
+    },
+    {
+      "@type": "Question",
+      "name": "Que faire en attendant l'arrivee du technicien ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Coupez l'arrivee d'eau generale si vous pouvez identifier la source. Prevenez le voisin du dessus ou du dessous si le degat les impacte. Photographiez les dommages des que possible (avant sechage et reparations). Declarez le sinistre a votre assurance dans les 5 jours ouvrables (convention IRSI s'applique des la declaration). Eloignez meubles et objets de valeur de la zone humide pour limiter les degats secondaires." }
+    }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Detection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Degats des eaux Bordeaux</span>
+    </nav>
+    <h1>Recherche d'origine de degat des eaux a Bordeaux</h1>
+    <p class="hero-mini-lead">Tache au plafond, infiltration dans un appartement, humidite persistante en copropriete bordelaise ? Nos techniciens identifient precisement l'origine du sinistre pour activer la convention IRSI entre assureurs. <strong>Rapport opposable remis sous 24h</strong>, coordination avec syndic et compagnies d'assurance, intervention prioritaire.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander une intervention</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/fuite-sous-dalle.webp" alt="Degat des eaux en copropriete bordelaise, tache d'humidite au plafond, intervention recherche d'origine" width="700" height="467" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h2>Fuite ou degat des eaux : une distinction essentielle pour l'assurance</h2>
+    <p>Un degat des eaux n'est pas une fuite : c'est la consequence d'une fuite. Cette distinction, apparemment semantique, est en realite essentielle car elle conditionne la procedure d'indemnisation et la responsabilite entre assureurs. Comprendre cette logique aide a anticiper la suite d'un sinistre en copropriete bordelaise.</p>
+
+    <ul>
+      <li><strong>La fuite</strong> est la cause technique : perforation d'une canalisation, joint de skimmer fissure, raccord PVC desaxe, liner piscine percé, soudure d'etancheite rompue</li>
+      <li><strong>Le degat des eaux</strong> est le dommage resultant : plafond tache, parquet gonfle, enduit decolle, mobilier abime, appareils electromenagers hors d'usage</li>
+      <li><strong>Le sinistre</strong> est la declaration administrative faite a l'assureur, combinant l'evenement et l'impact financier</li>
+    </ul>
+
+    <p>Dans 80 pourcent des cas, quand un proprietaire nous appelle en urgence pour un degat des eaux, il n'a aucune idee de la cause : la tache au plafond peut venir d'une fuite sur la colonne commune EU/EV, d'une infiltration de toiture, d'une canalisation encastree, d'un appareil du voisin. C'est precisement notre role d'identifier la source technique pour que l'assurance puisse etablir les responsabilites.</p>
+
+    <h2>Types de degats des eaux que nous traitons en copropriete bordelaise</h2>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Infiltration par colonne montante</h3>
+          <p>La tache apparait au plafond ou le long d'un mur porteur. La colonne EU/EV commune a l'etage superieur fuit, provoquant un ecoulement ponctuel ou diffus selon le debit. Frequente dans les immeubles haussmanniens du Centre-Ville, Chartrons et Saint-Pierre ou les colonnes fonte centenaires cedent a la corrosion.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Degat par appartement du dessus</h3>
+          <p>Fuite sur installation privative de l'appartement du dessus : flexible de machine a laver, chasse d'eau qui deborde, robinet oublie ouvert, joint de baignoire rompu. Le voisin est souvent responsable mais ne s'en rend pas compte. La convention IRSI s'applique automatiquement jusqu'a 5000 euros HT.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Infiltration de toiture</h3>
+          <p>Apres pluies abondantes, de l'eau coule au dernier etage : toiture defectueuse, chéneaux bouches, etancheite de terrasse rompue. Responsabilite copropriete (parties communes). Frequent dans les immeubles des Chartrons, de la Victoire et de la Bastide apres forts episodes pluvieux.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Fuite encastree dans cloison</h3>
+          <p>Tache le long d'un mur ou d'une cloison, souvent en salle de bain ou cuisine. Canalisation encastree percee par chute d'objet, vis malencontreuse, corrosion. La localisation par thermographie et ecoute evite la demolition de toute la cloison.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Debordement de gouttiere</h3>
+          <p>Gouttiere obstrue par feuilles mortes, debordement sur facade, infiltration dans maconnerie. Frequent dans les immeubles de caudéran et du Parc Bordelais entoures d'arbres. Responsabilite entretien copropriete (contrat nettoyage gouttieres annuel).</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Remontee capillaire confondue</h3>
+          <p>Attention aux faux positifs : certaines humidités en sous-sol bordelais ne sont pas des fuites mais des remontees capillaires du terrain argileux. Notre humidimetre distingue precisement une infiltration active (gradient fort, zone localisee) d'une humidite diffuse structurelle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Convention IRSI : le cadre legal pour les degats des eaux en copropriete</h2>
+    <p>Depuis 2018, la convention IRSI (Indemnisation et Recours des Sinistres Immeuble) encadre les degats des eaux en copropriete et en location. Cette convention simplifie considerablement la procedure, a condition de connaître ses regles.</p>
+
+    <h3>Le seuil des 5 000 euros HT</h3>
+    <p>Pour les sinistres dont le cout de reparation est inferieur à 5 000 euros HT, la convention IRSI s'applique automatiquement : l'assureur du lot victime indemnise sans recherche de responsabilite prealable. Au-dela de 5 000 euros, une expertise contradictoire peut etre declenchee pour etablir les responsabilites.</p>
+
+    <h3>Les conditions d'application</h3>
+    <ul>
+      <li>Le sinistre doit concerner au moins 2 lots de la copropriete OU 1 lot + parties communes</li>
+      <li>L'origine doit etre dans l'immeuble (pas dans une construction voisine)</li>
+      <li>Le sinistre doit etre declare a l'assureur sous 5 jours ouvrables</li>
+      <li>Un rapport technique doit identifier la cause (notre prestation)</li>
+    </ul>
+
+    <h3>Les acteurs et leurs responsabilites</h3>
+    <ul>
+      <li><strong>Syndic</strong> : mandate le diagnostic si parties communes concernees, coordonne la procedure IRSI</li>
+      <li><strong>Proprietaire occupant ou bailleur</strong> : declare le sinistre a son assureur, facilite l'acces</li>
+      <li><strong>Locataire</strong> : declare a son assureur multirisque habitation, informe son bailleur</li>
+      <li><strong>Assureurs de chaque lot</strong> : echanges automatiques via la plateforme IRSI</li>
+      <li><strong>Professionnel de la recherche de fuite (nous)</strong> : identifie la cause, remet un rapport opposable</li>
+    </ul>
+
+    <h3>Notre rapport technique et la convention IRSI</h3>
+    <p>Notre rapport standardise pour sinistre IRSI comprend obligatoirement : date et heure du constat, methodes de diagnostic employees (thermographie, gaz traceur, acoustique, humidimetre), photos datees et horodatees, localisation precise de la source (lot responsable ou parties communes), estimation du debit de fuite et de la duree probable, preconisations de reparation chiffrees, elements de coordination entre assureurs. Ce document est reconnu par tous les assureurs de la place, y compris MAAF, Allianz, AXA, Groupama, Matmut, MACIF, MMA, GMF, SMABTP.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Notre protocole pour les syndics et conseils syndicaux</h2>
+    <p>Nous travaillons regulierement en mandatement par syndic professionnel, association syndicale libre (ASL) ou conseil syndical. Notre protocole est adapte aux contraintes B2B de la gestion de copropriete.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Mandatement direct</h3>
+          <p>Le syndic nous mandate par email ou telephone, avec les references du sinistre (numero de dossier interne, lots concernes, assureur de la copropriete). Devis fixe communique sous l'heure pour validation.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Coordination avec les lots</h3>
+          <p>Nous prenons directement contact avec les proprietaires ou locataires des lots concernes pour planifier l'acces. Creneau souvent en journee, avec disponibilite du syndic ou du gardien si access parties communes.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Diagnostic sur site</h3>
+          <p>Intervention d'1h30 a 3h selon la complexite. Nos techniciens sont formes a respecter la confidentialite des occupants, les finitions des appartements, la discretion dans les parties communes (pas de travaux genants, pas de bruit excessif).</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Rapport standardise IRSI</h3>
+          <p>Rapport technique conforme aux exigences des assureurs, remis au syndic sous 24h. Format PDF avec photos datees, localisation precise, chronologie des constatations, recommandations de reparation.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Facturation a la copropriete</h3>
+          <p>Facture emise au nom de la copropriete (syndicat des copropriétaires, numéro SIRET) avec les references du dossier IRSI. Paiement sous 30 jours apres reception. Aucun acompte demande.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Suivi post-intervention</h3>
+          <p>Nous restons disponibles pour repondre aux questions de l'expert mandate par l'assurance, produire des complements de rapport si necessaire, temoigner en cas de contentieux. Support gratuit dans la limite de 6 mois apres l'intervention.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Cas type : degat des eaux en immeuble haussmannien</h2>
+    <p>Scenario recurrent sur Bordeaux Centre : immeuble haussmannien de la rue Sainte-Catherine, 6 lots sur 5 etages. Mme X au 3e etage signale au syndic une tache d'humidite en expansion sur le plafond de sa chambre, avec ecoulement visible apres fortes chutes d'eau. Le voisin du dessus (M. Y, 4e etage) affirme ne rien constater chez lui. Le syndic nous mandate sous 24h.</p>
+
+    <p>Notre intervention : thermographie infrarouge au plafond du 3e pour cartographier la zone humide, ecoute electro-acoustique sur le tracé de la colonne d'evacuation EU/EV passant dans la cloison mitoyenne, camera endoscopique dans la gaine technique commune via le regard d'acces du palier. Decouverte : fissure sur la colonne fonte commune entre le 3e et le 4e etage, a 1,50 metres au-dessus du plafond de Mme X. Responsabilite copropriete, ni Mme X ni M. Y ne sont directement en cause.</p>
+
+    <p>Rapport transmis au syndic en 24h. L'assurance de la copropriete prend en charge la reparation (remplacement du troncon de colonne, environ 2 800 euros HT). L'assurance multirisque de Mme X prend en charge les dommages dans son logement (repeinture plafond + nettoyage mobilier, 1 400 euros HT) dans le cadre de la convention IRSI. Delai total resolution : 6 semaines entre notre intervention et la fin des reparations.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions frequentes sur les degats des eaux a Bordeaux</h2>
+
+    <h3>Quelle est la difference entre une fuite et un degat des eaux ?</h3>
+    <p>Une fuite est la cause technique : perforation, joint defaillant, raccord desaxe, liner perce. Un degat des eaux est la consequence : tache d'humidite, plafond abîme, parquet gonfle, mobilier endommage. Un degat des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de degat des eaux (fuite enterree dans le jardin par exemple). Pour l'assurance, c'est le degat des eaux qui declenche la prise en charge.</p>
+
+    <h3>Comment fonctionne la convention IRSI en copropriete bordelaise ?</h3>
+    <p>La convention IRSI s'applique automatiquement entre assureurs pour les degats des eaux en copropriete jusqu'a 5 000 euros HT. L'assureur du lot 'victime' prend en charge les dommages sans recherche de responsabilite prealable, puis se retourne contre l'assureur du responsable. Cette procedure accelere considerablement l'indemnisation (15 a 30 jours typiquement au lieu de 3 a 6 mois en expertise contradictoire).</p>
+
+    <h3>Un syndic peut-il mandater directement votre intervention ?</h3>
+    <p>Oui, nous travaillons regulierement en mandatement direct par syndic professionnel ou conseil syndical. Le rapport est remis au syndic avec identification precise de la responsabilite (partie privative ou commune). La facturation se fait a la copropriete, qui se retourne ensuite vers l'assurance PNO ou le responsable identifie.</p>
+
+    <h3>Combien de temps prend un diagnostic de degat des eaux a Bordeaux ?</h3>
+    <p>Intervention sous 24h dans la majorite des cas, avec un diagnostic sur site de 1h30 a 3h. Le rapport technique est remis le jour meme ou sous 24h par email, pret a etre transmis a l'assureur et au syndic. Pour les sinistres complexes impactant plusieurs lots, un diagnostic plus long (demi-journee) peut etre necessaire avec rapport detaille sous 48h.</p>
+
+    <h3>Les proprietaires occupants ou les locataires peuvent-ils nous contacter directement ?</h3>
+    <p>Oui, tout copropriétaire occupant, locataire ou bailleur peut nous contacter pour un diagnostic individuel. Si le sinistre concerne des parties communes (colonne montante, evacuation collective, toiture), nous informons le syndic apres constat et coordonnons la suite. Le rapport est remis au commanditaire avec les elements utiles pour l'assureur et le syndic.</p>
+
+    <h3>Que faire en attendant l'arrivee du technicien ?</h3>
+    <p>Coupez l'arrivee d'eau generale si vous pouvez identifier la source. Prevenez le voisin du dessus ou du dessous si le degat les impacte. Photographiez les dommages des que possible. Declarez le sinistre a votre assurance dans les 5 jours ouvrables. Pour les situations d'urgence avec fuite active, consultez notre page <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence fuite d'eau Bordeaux</a>.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander une intervention syndic</a>
+    </div>
+  </div>
+</section>
+
+{form_section("Bordeaux")}
+'''
+
+    return html_base(
+        'Degat des eaux Bordeaux | Localisation origine pour syndics IRSI',
+        "Recherche d'origine de degat des eaux a Bordeaux en copropriete : rapport IRSI opposable, coordination syndic et assureur, intervention 24h. Pour syndics et proprietaires.",
+        'https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/',
+        body,
+        extra_ld=ld_service + ld_local + ld_breadcrumb + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Chemisage Bordeaux landing (copropriete)
+# ═══════════════════════════════════════════════════════════════
+
+def page_chemisage_bordeaux():
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Chemisage de canalisation",
+  "name": "Chemisage de canalisation en copropriete a Bordeaux",
+  "description": "Renovation de canalisations sans tranchee pour copropriétés bordelaises. Chemisage tubulaire par resine epoxy, durée de vie 50 ans, garantie decennale. Specialistes des immeubles haussmanniens et bati ancien.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  },
+  "areaServed": { "@type": "Place", "name": "Bordeaux et metropole girondine" },
+  "category": "Rehabilitation de canalisation sans tranchee"
+}
+</script>'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde - Chemisage Bordeaux",
+  "description": "Specialiste du chemisage de canalisation en copropriete a Bordeaux. Immeubles haussmanniens, syndics, vote AG, sans tranchee, garantie decennale.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33000",
+    "addressCountry": "FR"
+  },
+  "areaServed": { "@type": "City", "name": "Bordeaux" },
+  "priceRange": "€€€"
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Chemisage", "item": "https://recherche-fuite-gironde.fr/chemisage-canalisation/" },
+    { "@type": "ListItem", "position": 3, "name": "Chemisage Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel est le cout moyen d'un chemisage de colonne en copropriete bordelaise ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le chemisage d'une colonne d'evacuation EU/EV en copropriete coute en moyenne 400 a 700 euros HT par metre lineaire selon le diametre (63 a 160 mm typiquement), la hauteur de l'immeuble, l'accessibilite des regards techniques. Pour un immeuble haussmannien de 5 etages avec colonne de 15 metres, comptez 6 000 a 10 500 euros HT, a comparer avec un remplacement classique a 15 000-25 000 euros HT (demolition + reconstruction)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Le chemisage se vote-t-il en AG ordinaire ou extraordinaire ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les travaux de chemisage sur parties communes se votent en AG ordinaire a la majorite de l'article 25 (majorite absolue des voix de tous les copropriétaires, presents, représentés ou absents). Si le vote article 25 echoue mais recueille au moins un tiers des voix, un second vote immediat a la majorite simple de l'article 24 peut etre organise lors de la meme AG. La procedure est bien rodée en copropriete bordelaise et ne necessite generalement pas d'AG extraordinaire." }
+    },
+    {
+      "@type": "Question",
+      "name": "Le chemisage est-il compatible avec les immeubles UNESCO de Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Le chemisage est realise a l'interieur des canalisations existantes sans modification de l'aspect exterieur ni ouverture de murs visibles. Aucune autorisation d'urbanisme ni avis de l'Architecte des Batiments de France n'est necessaire pour cette intervention. C'est meme la technique privilegiee pour les immeubles classés UNESCO du Port de la Lune (Triangle d'Or, cours de l'Intendance, place Gambetta) ou toute modification exterieure est strictement encadrée." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure un chantier de chemisage sur colonne de 15 metres ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Un chantier de chemisage sur une colonne typique d'immeuble bordelais (15 a 25 metres, diametre 90 a 125 mm) dure 2 a 4 jours, avec coupure d'eau sur la colonne uniquement pendant les heures de polymerisation (6 a 10 heures). Les appartements restent occupes pendant le chantier, les coupures sont coordonnees avec les habitants via affichage dans les parties communes." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la garantie sur un chemisage tubulaire en Gironde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le chemisage tubulaire est couvert par la garantie decennale obligatoire sur les travaux de batiment. La duree de vie estimee du liner resine epoxy est de 50 ans dans des conditions normales d'utilisation. Un rapport de fin de chantier avec controle camera est remis au syndic, a annexer au carnet d'entretien obligatoire de l'immeuble (loi ALUR)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Intervenez-vous sur les immeubles anciens avec canalisations en plomb ou fonte ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, le chemisage est parfaitement adapte aux canalisations fonte grise (majoritaire dans les immeubles bordelais d'avant 1975), galvanise et meme plomb (interdit depuis 1995 mais encore present dans certaines colonnes non renovées). La technique consiste a creer un nouveau tuyau resine a l'interieur de l'ancien, rendant obsolete le materiau d'origine sans avoir a le demonter." }
+    }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/chemisage-canalisation/">Chemisage</a>
+      <span>&rsaquo;</span>
+      <span>Chemisage Bordeaux</span>
+    </nav>
+    <h1>Chemisage de canalisation a Bordeaux et metropole</h1>
+    <p class="hero-mini-lead">Renovation des colonnes d'evacuation et canalisations vieillissantes des immeubles bordelais, <strong>sans tranchee ni demolition</strong>. Liner tubulaire en resine epoxy insere dans la canalisation existante, durée de vie 50 ans, garantie decennale. Specialistes des copropriétés haussmanniennes et immeubles classes UNESCO.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis chemisage</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Pourquoi le chemisage est la solution pour les immeubles bordelais</h2>
+    <p>Le parc immobilier historique de Bordeaux (Triangle d'Or, Chartrons, Saint-Pierre, place Gambetta) compte une part significative d'immeubles haussmanniens construits entre 1830 et 1910. Ces batiments abritent des colonnes d'evacuation EU/EV en fonte grise d'origine, parfois centenaires, dont l'etat se degrade progressivement par corrosion interne. Les fuites multiples deviennent une problematique majeure apres 100 a 120 ans de service.</p>
+
+    <p>Face a cette usure structurelle, la reponse traditionnelle etait le remplacement complet : ouverture des gaines, depose des anciennes canalisations, pose de nouveaux tuyaux, rebouchage et finition. Sur un immeuble de 5 a 6 etages, ce type de travaux dure 3 a 8 semaines, coute 15 000 a 30 000 euros, et implique le logement en chantier des copropriétaires concernes. Le chemisage tubulaire permet d'obtenir le meme resultat technique (colonne etanche durable 50 ans) en 2 a 4 jours, pour 30 a 50 pourcent moins cher, sans aucune demolition.</p>
+
+    <h2>Les immeubles bordelais typiquement concernés</h2>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Haussmanniens du Triangle d'Or</h3>
+          <p>Immeubles classes UNESCO du Port de la Lune (allees de Tourny, cours de l'Intendance, allees Damour). Colonnes fonte grise d'origine, finitions interieures precieuses (parquets Versailles, moulures, cheminees marbre). Le chemisage preserve integralement ces elements patrimoniaux.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Copropriétés des Chartrons</h3>
+          <p>Anciens entrepôts viticoles reconvertis en logements dans les annees 1980-2000, colonnes d'evacuation modernisees en PVC mais raccorde sur reseau fonte d'origine en sous-sol. Points de raccordement fragilizes, cedant apres 30-40 ans d'usage.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Residences des annees 1960-80</h3>
+          <p>Grands ensembles de Meriadeck, Bacalan, Benauge, Grand Parc : colonnes EU/EV en fonte grise industrielle qui commencent a ceder aux joints et aux raccords apres 50 a 60 ans. Le chemisage est parfaitement adapte aux grandes sections (100-160 mm) typiques de ces immeubles.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Echoppes bordelaises</h3>
+          <p>Echoppes traditionnelles de Saint-Genes, Caudéran, Saint-Augustin avec reseau d'evacuation historique en fonte ou gres vitrifie. Le chemisage permet de renover ces reseaux sans casser les carrelages ciment et parquets point de Hongrie typiques.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Immeubles contemporains Bassins a Flot</h3>
+          <p>Rare mais possible : les immeubles recents (2005-2015) avec defauts de pose sur certains raccords PVC. Le chemisage peut intervenir de maniere ciblee sur le troncon defaillant sans changer toute la colonne.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Reseaux enterres en cour interieure</h3>
+          <p>De nombreux immeubles bordelais ont des reseaux d'evacuation enterres sous la cour interieure, accessibles uniquement par regards techniques. Le chemisage sans tranchee est ici quasi-obligatoire car la demolition serait irrealisable sans impact lourd sur l'immeuble.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Le chemisage en copropriete : procedure AG et vote</h2>
+    <p>Le chemisage sur parties communes (colonnes d'evacuation EU/EV, canalisations d'alimentation generale, reseaux enterres) releve du vote en assemblee generale des copropriétaires. Voici le parcours complet d'un projet chemisage, typique a Bordeaux.</p>
+
+    <h3>Etape 1 : signalement et pre-diagnostic</h3>
+    <p>Le syndic reçoit plusieurs signalements de fuites recurrentes dans la meme zone de l'immeuble (plafonds tachés au 3e et 4e etage, par exemple). Il commande un pre-diagnostic par recherche de fuite non destructive (notre prestation). Notre rapport etablit la cause : colonne fonte fatiguee, fuites multiples sur 4 etages, reparation ponctuelle non durable.</p>
+
+    <h3>Etape 2 : devis chemisage et preparation AG</h3>
+    <p>Le syndic demande plusieurs devis (au moins 2 obligatoires selon la loi). Notre devis chemisage chiffre precisement le lineaire a traiter, la technique retenue (polymerisation UV ou vapeur), les garanties, le planning. Le devis est inscrit a l'ordre du jour de la prochaine AG ordinaire avec toute la documentation technique.</p>
+
+    <h3>Etape 3 : vote en assemblee generale ordinaire</h3>
+    <p>Les travaux de chemisage sur parties communes se votent a la majorite de l'article 25 (majorite absolue de tous les copropriétaires, presents/représentés/absents). Si le vote article 25 echoue mais recueille au moins un tiers des voix, un second vote immediat a la majorite simple de l'article 24 peut etre organise dans la meme AG. Cette procédure articulée en deux temps evite de repasser par une AG extraordinaire.</p>
+
+    <h3>Etape 4 : signature du marche et planning</h3>
+    <p>Apres vote, le syndic signe le marche avec nous. Nous etablissons un planning detaille : date de debut, duree par etape (inspection prealable, hydrocurage de la colonne, pose du liner, polymerisation, controle camera final). Information affichée dans les parties communes au moins 15 jours avant le debut.</p>
+
+    <h3>Etape 5 : chantier en 2 a 5 jours</h3>
+    <p>L'intervention respecte l'occupation des logements. Les copropriétaires sont informés des creneaux de coupure d'eau sur la colonne concernée (6 a 10 heures pendant la polymerisation). Les equipes interviennent depuis les parties communes (paliers, caves, cour interieure) sans acces aux appartements, sauf si un regard technique est situé dans un logement privatif.</p>
+
+    <h3>Etape 6 : reception et annexion carnet d'entretien</h3>
+    <p>A l'issue du chantier, une inspection camera de controle est realisée et filmée. Le rapport final avec video est remis au syndic, qui l'integre au carnet d'entretien obligatoire de l'immeuble (loi ALUR). La garantie decennale court a partir de cette date de reception.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Tarifs du chemisage en copropriete bordelaise</h2>
+    <p>Le cout du chemisage depend principalement du lineaire a traiter, du diametre de la canalisation et de l'accessibilite. Voici les fourchettes applicables a Bordeaux en 2026.</p>
+
+    <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
+    <thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Configuration</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT par metre lineaire</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Exemple sur 15 metres</th></tr></thead>
+    <tbody>
+    <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Petit diametre (50-75 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 a 450 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">4 500 a 6 750 €</td></tr>
+    <tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Diametre moyen (90-125 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 a 600 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">6 000 a 9 000 €</td></tr>
+    <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Grand diametre (150-200 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">550 a 800 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">8 250 a 12 000 €</td></tr>
+    <tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Reseaux enterres complexes</td><td style="padding:.75rem;border:1px solid #D8D4CC;">700 a 1 000 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">10 500 a 15 000 €</td></tr>
+    </tbody>
+    </table>
+
+    <h3>Elements inclus dans le tarif</h3>
+    <ul>
+    <li>Inspection camera prealable pour validation technique (longueur, etat, points critiques)</li>
+    <li>Hydrocurage de la canalisation existante (nettoyage haute pression)</li>
+    <li>Fourniture et pose du liner imprégné de resine epoxy certifiée ACS (qualite eau potable)</li>
+    <li>Polymerisation in situ (vapeur, eau chaude ou UV selon le cas)</li>
+    <li>Rapport camera de controle final</li>
+    <li>Garantie decennale sur l'intervention</li>
+    </ul>
+
+    <h3>Elements en supplement</h3>
+    <ul>
+    <li>Acces difficile necessitant echafaudage exterieur (rare, pour cheminees ou descentes de gouttieres)</li>
+    <li>Traitement prealable d'obstruction massive (racines, amas de depôts) : facture selon etat</li>
+    <li>Modification ponctuelle pour chapes ou passages techniques a adapter</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions frequentes sur le chemisage a Bordeaux</h2>
+
+    <h3>Quel est le cout moyen d'un chemisage de colonne en copropriete bordelaise ?</h3>
+    <p>Le chemisage d'une colonne d'evacuation EU/EV en copropriete coute en moyenne 400 a 700 euros HT par metre lineaire selon le diametre (63 a 160 mm typiquement), la hauteur de l'immeuble, l'accessibilite des regards techniques. Pour un immeuble haussmannien de 5 etages avec colonne de 15 metres, comptez 6 000 a 10 500 euros HT, a comparer avec un remplacement classique a 15 000-25 000 euros HT (demolition + reconstruction).</p>
+
+    <h3>Le chemisage se vote-t-il en AG ordinaire ou extraordinaire ?</h3>
+    <p>Les travaux de chemisage sur parties communes se votent en AG ordinaire a la majorite de l'article 25. Si le vote echoue mais recueille au moins un tiers des voix, un second vote immediat a la majorite simple (article 24) peut etre organise dans la meme AG. La procedure est bien rodée et ne necessite generalement pas d'AG extraordinaire.</p>
+
+    <h3>Le chemisage est-il compatible avec les immeubles UNESCO de Bordeaux ?</h3>
+    <p>Oui. Le chemisage est realise a l'interieur des canalisations existantes sans modification de l'aspect exterieur ni ouverture de murs visibles. Aucune autorisation d'urbanisme ni avis de l'Architecte des Batiments de France n'est necessaire. C'est meme la technique privilegiee pour les immeubles classés UNESCO du Port de la Lune.</p>
+
+    <h3>Combien de temps dure un chantier de chemisage sur colonne de 15 metres ?</h3>
+    <p>Un chantier de chemisage sur une colonne typique d'immeuble bordelais dure 2 a 4 jours, avec coupure d'eau sur la colonne uniquement pendant les heures de polymerisation (6 a 10 heures). Les appartements restent occupes pendant le chantier.</p>
+
+    <h3>Quelle est la garantie sur un chemisage tubulaire en Gironde ?</h3>
+    <p>Le chemisage tubulaire est couvert par la garantie decennale obligatoire. La duree de vie estimee du liner resine epoxy est de 50 ans dans des conditions normales d'utilisation. Un rapport de fin de chantier avec controle camera est remis au syndic.</p>
+
+    <h3>Intervenez-vous sur les immeubles anciens avec canalisations en plomb ou fonte ?</h3>
+    <p>Oui, le chemisage est parfaitement adapte aux canalisations fonte grise (majoritaire dans les immeubles bordelais d'avant 1975), galvanise et meme plomb. La technique consiste a creer un nouveau tuyau resine a l'interieur de l'ancien. Pour plus de details techniques, consultez notre guide <a href="/guide/chemisage-explication/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation explique</a> ou la page service <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage en Gironde</a>.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander un devis chemisage Bordeaux</a>
+    </div>
+  </div>
+</section>
+
+{form_section("Bordeaux")}
+'''
+
+    return html_base(
+        'Chemisage canalisation Bordeaux | Syndic copropriete sans tranchee',
+        'Chemisage de canalisation en copropriete a Bordeaux : sans tranchee, garantie decennale, vote AG. Specialistes des immeubles haussmanniens et patrimoine UNESCO.',
+        'https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/',
+        body,
+        extra_ld=ld_service + ld_local + ld_breadcrumb + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
 # PAGE USE CASE : Canalisation enterree Bordeaux
 # ═══════════════════════════════════════════════════════════════
 
@@ -3612,6 +4189,8 @@ def gen_sitemap():
     urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in URGENCE_PAGES]
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-apres-compteur/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/']
 
     items = '\n'.join([
         f'  <url><loc>{u}</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if u.endswith(".fr/") else "0.8"}</priority></url>'
@@ -3701,6 +4280,12 @@ def main():
 
     print('[7e] Page use case — canalisation enterree Bordeaux...')
     write('detection-fuite/canalisation-enterree-bordeaux/index.html', page_canalisation_enterree_bordeaux())
+
+    print('[7f] Page use case — degats des eaux Bordeaux...')
+    write('detection-fuite/degats-des-eaux-bordeaux/index.html', page_degats_eaux_bordeaux())
+
+    print('[7g] Page use case — chemisage Bordeaux landing...')
+    write('detection-fuite/chemisage-bordeaux/index.html', page_chemisage_bordeaux())
 
     print('[8/8] Fichiers techniques...')
     write('sitemap.xml', gen_sitemap())
