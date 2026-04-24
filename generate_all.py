@@ -1602,6 +1602,15 @@ VILLES_PREMIUM = {
             ("Échoppes bordelaises et maisons individuelles", "Aux Chartrons, à Saint-Genès ou à Caudéran, les échoppes traditionnelles (maison basse en pierre) ont souvent vu leurs réseaux d'évacuation refaits en PVC moderne branchés sur des canalisations fonte d'origine. Les points de raccordement sont les zones de fuite les plus fréquentes que nous identifions."),
             ("Réseaux enterrés et sols argileux", "Une partie du territoire bordelais repose sur des sols argileux sensibles au retrait-gonflement. Ces mouvements de terrain peuvent désaxer les canalisations d'évacuation sous dalle ou les alimentations enterrées depuis le regard de compteur. Le gaz traceur reste la méthode la plus efficace dans ces configurations.")
         ],
+        "cas_frequent": "Cas type à Bordeaux : appartement au 3e étage d'un immeuble haussmannien de la rue Sainte-Catherine, construit en 1905. Tache d'humidité récurrente au plafond de la chambre, voisin du dessus qui ne constate rien chez lui. Notre diagnostic : thermographie infrarouge pour cartographier la zone humide, écoute électro-acoustique sur le tracé de la colonne d'évacuation EU, caméra endoscopique dans la gaine technique. Dans 60 pourcent des cas sur ce type de bâti, la fuite est sur la colonne commune entre deux étages, relevant de la copropriété et de la convention IRSI, pas du voisin direct.",
+        "faq_locale": [
+            ("Fait-il prévenir l'Architecte des Bâtiments de France avant votre intervention dans le périmètre UNESCO ?",
+             "Non, une recherche de fuite est un diagnostic technique non destructif qui ne modifie pas l'aspect extérieur ni ne touche aux éléments classés. Aucune autorisation ABF ou déclaration préalable n'est requise. Seuls des travaux de réparation modifiant une façade ou des éléments protégés pourraient nécessiter une validation."),
+            ("Intervenez-vous dans les copropriétés haussmanniennes avec syndic professionnel ?",
+             "Oui, très régulièrement. Le mandatement vient alors du syndic ou du conseil syndical. Nous remettons un rapport technique au syndic, utilisable dans le cadre de la convention IRSI entre assureurs pour les sinistres jusqu'à 5 000 euros HT. L'intervention est planifiée en concertation avec les copropriétaires concernés."),
+            ("La fuite vient-elle souvent du voisin du dessus à Bordeaux ?",
+             "Pas toujours. Dans les immeubles anciens bordelais, la colonne d'évacuation commune (EU/EV) est en cause dans 60 pourcent des cas où un plafond s'humidifie, et non pas directement le logement du dessus. Notre diagnostic identifie précisément l'origine pour éviter les litiges injustifiés avec le voisinage.")
+        ],
     },
     "merignac": {
         "ville": "Mérignac",
@@ -1617,6 +1626,15 @@ VILLES_PREMIUM = {
             ("Canalisations d'alimentation enterrées longues", "Les maisons avec grand terrain (plus fréquentes à Arlac ou Beutre) ont des canalisations d'eau enterrées de 10 à 50 mètres entre le regard de compteur et la maison. Une fuite sur ce tronçon peut passer inaperçue pendant des mois et gonfler la facture d'eau avant d'être détectée."),
             ("Piscines privées nombreuses", "Mérignac concentre une forte densité de piscines individuelles, notamment dans les quartiers résidentiels. Les fuites sur pièces à sceller (skimmer, buses) et canalisations enterrées autour du bassin sont notre quotidien."),
             ("Proximité aéroport et réseaux multiples", "La zone aéroportuaire et les zones d'activité génèrent des demandes sur des bâtiments tertiaires, des copropriétés récentes et des résidences en locations saisonnières. Chaque configuration a sa propre signature de fuite que nos techniciens savent identifier.")
+        ],
+        "cas_frequent": "Scénario classique à Mérignac : pavillon Arlac années 1995, propriétaire qui reçoit une facture d'eau de 1 200 euros sur un trimestre (contre 250 habituellement). Compteur qui tourne en permanence, pas de tache dans la maison. Notre diagnostic : test du robinet d'arrêt général (fuite après compteur), gaz traceur azote/hélium injecté sur la canalisation enterrée compteur vers maison (45 mètres de tracé). La fuite se trouve à 28 mètres du compteur, au droit d'un raccord PVC désaxé par mouvement de terrain. Réparation : ouverture 1 m² au point localisé, remplacement du raccord, rebouchage. Coût total intervention + réparation : 850 euros, remboursables en grande partie par la garantie recherche de fuite de l'assurance.",
+        "faq_locale": [
+            ("Le compteur d'eau tourne chez moi à Mérignac : fuite avant ou après compteur ?",
+             "Faites le test de fermeture : tournez votre robinet d'arrêt général situé juste après le compteur. Si le compteur continue de tourner, la fuite est AVANT (réseau public Suez), à leur charge. S'il s'arrête mais que vous avez toujours une perte, la fuite est APRÈS (réseau privatif), à votre charge. Ce diagnostic simple oriente immédiatement la suite."),
+            ("Peut-on obtenir un écrêtement de facture d'eau avec Suez Mérignac ?",
+             "Oui, la loi Warsmann (2011) permet de plafonner la surfacturation liée à une fuite sur canalisation enterrée non détectable. Il faut fournir à Suez une attestation de réparation par un professionnel et un rapport de localisation de fuite (comme celui que nous émettons). Votre facture est alors ramenée à deux fois votre consommation habituelle."),
+            ("Ma maison Mérignac a un plancher chauffant qui perd de pression : vous intervenez ?",
+             "Oui, c'est un cas récurrent à Mérignac. La thermographie infrarouge révèle la zone de la fuite (circulation thermique anormale), puis nous confirmons par test de pression sur chaque boucle. La réparation consiste à ouvrir la chape au droit exact de la micro-perforation (25×25 cm environ) pour remplacer 50 cm de tube, refaire la chape et le revêtement de sol.")
         ],
     },
     "arcachon": {
@@ -1634,6 +1652,15 @@ VILLES_PREMIUM = {
             ("Résidences secondaires et dégâts en hivernage", "De nombreuses propriétés sont occupées quelques semaines par an. Une fuite non détectée à l'automne peut provoquer des dégâts considérables avant le retour des propriétaires au printemps. Nous intervenons en contrat d'entretien préventif pour ce type de configuration."),
             ("Canalisations enterrées en sable et mouvements", "Le sous-sol sableux d'Arcachon offre une excellente portance mais subit des micro-tassements au gré des variations hygrométriques. Les raccords des canalisations enterrées (alimentation, évacuation, arrosage) peuvent se désaxer lentement et provoquer des fuites progressives.")
         ],
+        "cas_frequent": "Cas récurrent arcachonais : villa de la Ville d'Hiver, propriétaires résidents secondaires vivant à Paris, retour pour les vacances de Pâques. Ils découvrent en ouvrant la maison une humidité au sol du sous-sol et au pied de la cuisine. Notre diagnostic : thermographie pour cartographier la zone humide, écoute acoustique sur la canalisation de cuivre d'alimentation, humidimètre pour mesurer l'étendue. Fuite identifiée sur raccord cuivre au niveau de la traversée mur, corrodée par l'air salin. Durée sans détection estimée à 4-6 mois. Consommation d'eau perdue : environ 180 m³. Rapport utilisable pour demande d'écrêtement auprès de la Régie des eaux et pour la déclaration à l'assureur.",
+        "faq_locale": [
+            ("Ma résidence secondaire à Arcachon a eu une fuite durant l'hiver, qui paye ?",
+             "Votre assurance habitation multirisque couvre la recherche de fuite et les dégâts consécutifs, y compris pendant une période d'inoccupation, à condition que la déclaration soit faite dans les 5 jours ouvrables après constat. Pour l'eau perdue, vous pouvez demander un écrêtement de facture auprès de la Régie des eaux de La Teste-Arcachon en présentant notre rapport technique."),
+            ("Proposez-vous un contrat de diagnostic préventif pour résidences secondaires ?",
+             "Oui, nous proposons un forfait annuel de diagnostic préventif pour les propriétaires de résidences secondaires du bassin d'Arcachon : un passage au printemps et un à l'automne, avec vérification du compteur, thermographie de la zone technique, contrôle visuel des équipements. Cela permet de détecter précocement une dérive avant qu'elle devienne un sinistre majeur en votre absence."),
+            ("Intervenez-vous sur les villas classées de la Ville d'Hiver ?",
+             "Oui, nos méthodes strictement non destructives (thermographie, acoustique, gaz traceur) préservent les parquets d'époque, moulures, boiseries et carrelages des villas Monument historique. Nous adaptons nos protocoles aux consignes de conservation des propriétaires et, si nécessaire, aux recommandations d'un architecte du patrimoine.")
+        ],
     },
     "libourne": {
         "ville": "Libourne",
@@ -1650,6 +1677,15 @@ VILLES_PREMIUM = {
             ("Maisons bourgeoises du XIXe siècle", "Le centre de Libourne compte de nombreuses maisons bourgeoises de négociants en vins, avec des chemins d'évacuation complexes depuis les étages jusqu'aux caves voûtées. La thermographie et le gaz traceur permettent de suivre le trajet de la fuite sans descendre en cave à chaque étape."),
             ("Proximité Dordogne et nappe phréatique", "La position au confluent de deux rivières place la nappe phréatique proche de la surface. Les caves et sous-sols des propriétés anciennes sont sensibles aux remontées capillaires, qu'il faut distinguer d'une vraie fuite par des mesures d'humidimètre méthodiques.")
         ],
+        "cas_frequent": "Cas type dans le Libournais : maison bourgeoise de négociant en vins au centre de Libourne, bâtie vers 1880, avec cave voûtée ayant toujours servi de chai familial. Les propriétaires notent une humidité croissante au plafond de la cave, suspectent une fuite mais n'osent pas casser les voûtes. Notre diagnostic : humidimètre pour cartographier la zone humide, thermographie du plancher haut, écoute acoustique sur colonnes EU/EV. La fuite est localisée sur un coude de canalisation fonte au niveau du plancher de la salle de bains du 1er étage, à 8 mètres de la zone humide visible en cave (l'eau migre le long d'une poutre avant de gouter). Réparation ciblée sans démolir la voûte historique.",
+        "faq_locale": [
+            ("Intervenez-vous sur les grands crus de Saint-Émilion et Pomerol ?",
+             "Oui, nous nous déplaçons régulièrement dans les domaines de Saint-Émilion, Pomerol, Fronsac et leurs environs pour des interventions sur les résidences des propriétaires, les chais et les dépendances. Nos techniciens respectent strictement les consignes de discrétion et de confidentialité propres à ces domaines prestigieux."),
+            ("La nappe phréatique peut-elle faire passer pour une fuite une simple remontée d'humidité ?",
+             "Absolument, c'est un piège classique à Libourne. Une cave voûtée humide peut donner l'impression d'une fuite alors qu'il s'agit de remontées capillaires dues à la nappe proche de la Dordogne. Notre humidimètre mesure la teneur précise en eau dans les matériaux et distingue une infiltration ponctuelle (gradient fort, zone localisée) d'une remontée (humidité diffuse et constante). Nous ne lançons une intervention que si la fuite est réellement caractérisée."),
+            ("Y a-t-il un supplément de déplacement pour Libourne depuis Bordeaux ?",
+             "Un forfait de déplacement de 40 euros HT s'applique pour les interventions dans le Libournais et les domaines alentours (Saint-Émilion, Pomerol, Fronsac, Castillon). Ce forfait est intégré dans le devis communiqué avant intervention. Pour les chantiers groupés (2 interventions même jour dans le secteur), ce forfait peut être mutualisé.")
+        ],
     },
     "pessac": {
         "ville": "Pessac",
@@ -1665,6 +1701,15 @@ VILLES_PREMIUM = {
             ("Résidences universitaires et copropriétés", "Les quartiers d'Alouette et de Saige comptent un grand nombre de résidences étudiantes et de copropriétés familiales des années 1960-80. Les colonnes montantes et les évacuations collectives sont souvent à l'origine de fuites récurrentes entre logements, relevant de la convention IRSI en copropriété."),
             ("Domaines viticoles Graves et Pessac-Léognan", "Les appellations Pessac-Léognan comptent des châteaux historiques sur le territoire (Haut-Brion, Pape-Clément, Les Carmes Haut-Brion). Leurs réseaux hydrauliques combinent piscines, arrosage, chais et résidences, ce qui complexifie la recherche de fuite en cas de surconsommation."),
             ("Zone Bersol et bâti tertiaire récent", "Le parc d'activité de Bersol et les zones tertiaires récentes accueillent des bâtiments aux réseaux modernes (multicouche, PE). Les fuites y sont souvent liées à des défauts de pose sur sertissage ou à des mouvements de dalle. Notre écoute électro-acoustique cible précisément ces signatures.")
+        ],
+        "cas_frequent": "Cas fréquent à Pessac : copropriété familiale de 40 logements à Alouette, construite en 1972. Le syndic signale des fuites récurrentes au dernier étage depuis 6 mois, avec plusieurs logements touchés par intermittence. Notre diagnostic pour le conseil syndical : inspection caméra des colonnes montantes EU/EV communes, écoute acoustique, identification des tronçons corrodés. Rapport remis : 4 zones de fuite identifiées sur la colonne montante principale, matériau fonte gris d'origine fatigué. Préconisation : chemisage de la colonne par manchon résine époxy (durée de vie 50 ans), intervention planifiée en AG extraordinaire avec vote article 25.",
+        "faq_locale": [
+            ("Les résidences étudiantes de Pessac sont-elles couvertes par nos prestations ?",
+             "Oui. Nous intervenons pour le compte des bailleurs sociaux (Aquitanis, CUB Habitat) et privés gérant des résidences étudiantes à Pessac (Saige, Alouette, Camponac). Le mandatement se fait par le gestionnaire, l'intervention est coordonnée avec les locataires. Notre rapport est fourni pour mise en jeu éventuelle de la garantie recherche de fuite."),
+            ("Peut-on intervenir sur la Cité Frugès sans autorisation UNESCO ?",
+             "Une recherche de fuite non destructive (thermographie, acoustique, gaz traceur) ne nécessite aucune autorisation UNESCO ou ABF car elle ne modifie pas l'aspect extérieur ni ne touche aux éléments protégés. En revanche, une réparation ouverte modifiant une façade Le Corbusier exigerait validation architectes du patrimoine. Notre rapport documente précisément pour faciliter cette démarche ultérieure si besoin."),
+            ("Les châteaux viticoles Pessac-Léognan ont-ils un accès restreint ?",
+             "Oui, les grands crus Pessac-Léognan (Haut-Brion, Pape-Clément, Les Carmes Haut-Brion) ont des accès sécurisés et des consignes de confidentialité strictes. Nos techniciens sont formés à ces environnements et respectent les protocoles : identification préalable, chaussures de sécurité, absence de photos non autorisées. Un devis détaillé est établi après visite préalable si la configuration le justifie.")
         ],
     },
 }
@@ -1798,6 +1843,19 @@ def page_ville_detection_premium(v):
         for titre, contenu in ctx['specificites']
     ])
 
+    # FAQ locale unique par ville
+    faq_locale_html = '\n'.join([
+        f'    <h3>{q}</h3>\n    <p>{a}</p>'
+        for q, a in ctx.get('faq_locale', [])
+    ])
+    faq_schema_entries = []
+    for q, a in ctx.get('faq_locale', []):
+        faq_schema_entries.append(
+            '{"@type":"Question","name":' + json.dumps(q, ensure_ascii=False) +
+            ',"acceptedAnswer":{"@type":"Answer","text":' + json.dumps(a, ensure_ascii=False) + '}}'
+        )
+    faq_schema_json = ',\n    '.join(faq_schema_entries) if faq_schema_entries else ''
+
     ld_local = f'''<script type="application/ld+json">
 {{
   "@context": "https://schema.org",
@@ -1852,6 +1910,7 @@ def page_ville_detection_premium(v):
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {faq_schema_json},
     {{
       "@type": "Question",
       "name": "Combien coûte une recherche de fuite {ville_article} ?",
@@ -1866,21 +1925,6 @@ def page_ville_detection_premium(v):
       "@type": "Question",
       "name": "Le rapport est-il reconnu par les assurances ?",
       "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, notre rapport technique (photos, méthodes employées, point de fuite localisé, préconisations) est accepté par les principaux assureurs français. En copropriété, il facilite l'application de la convention IRSI pour les sinistres dégâts des eaux jusqu'à 5 000 euros HT." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Faut-il ouvrir les murs pour trouver la fuite ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Non dans 95 pourcent des cas. Thermographie infrarouge, écoute électro-acoustique et gaz traceur localisent la fuite à travers plâtre, béton, carrelage ou pierre. Seule une ouverture ponctuelle au droit de la fuite est ensuite nécessaire pour la réparation." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Quelle méthode pour une canalisation enterrée {ville_article} ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Principalement le gaz traceur azote/hélium : un mélange inerte est injecté dans la canalisation sous légère pression. Le gaz remonte au droit de la fuite et est détecté par capteur électronique au sol. Précision au demi-mètre près, sans excavation préalable." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Intervenez-vous sur les immeubles anciens {ville_article} ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Absolument. Les immeubles anciens de {ville} (haussmanniens, maisons bourgeoises, échoppes, villas de caractère) sont notre spécialité. Nos méthodes non destructives préservent les finitions d'époque (moulures, parquets, boiseries, pierre de taille) et évitent toute dégradation du patrimoine." }}
     }}
   ]
 }}
@@ -1953,7 +1997,16 @@ def page_ville_detection_premium(v):
 
 <section class="section section-alt">
   <div class="container" style="max-width:960px;">
+    <h2>Cas type que nous traitons {ville_article}</h2>
+    <p>{ctx.get('cas_frequent', '')}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
     <h2>Questions fréquentes sur la recherche de fuite {ville_article}</h2>
+
+{faq_locale_html}
 
     <h3>Combien coûte une recherche de fuite {ville_article} ?</h3>
     <p>Entre 300 et 900 euros HT selon la méthode employée et la complexité du réseau. Un devis fixe est communiqué avant intervention, aucun déplacement facturé si vous décidez de ne pas donner suite. Souvent remboursable par votre assurance habitation au titre de la garantie recherche de fuite.</p>
@@ -1963,15 +2016,6 @@ def page_ville_detection_premium(v):
 
     <h3>Le rapport est-il reconnu par les assurances ?</h3>
     <p>Oui, notre rapport technique (photos, méthodes employées, point de fuite localisé, préconisations) est accepté par les principaux assureurs français. En copropriété, il facilite l'application de la convention IRSI pour les sinistres dégâts des eaux jusqu'à 5 000 euros HT.</p>
-
-    <h3>Faut-il ouvrir les murs pour trouver la fuite ?</h3>
-    <p>Non dans 95 pourcent des cas. Thermographie infrarouge, écoute électro-acoustique et gaz traceur localisent la fuite à travers plâtre, béton, carrelage ou pierre. Seule une ouverture ponctuelle au droit de la fuite est ensuite nécessaire pour la réparation.</p>
-
-    <h3>Quelle méthode pour une canalisation enterrée {ville_article} ?</h3>
-    <p>Principalement le gaz traceur azote/hélium : un mélange inerte est injecté dans la canalisation sous légère pression. Le gaz remonte au droit de la fuite et est détecté par capteur électronique au sol. Précision au demi-mètre près, sans excavation préalable.</p>
-
-    <h3>Intervenez-vous sur les immeubles anciens {ville_article} ?</h3>
-    <p>Absolument. Les immeubles anciens de {ville} (haussmanniens, maisons bourgeoises, échoppes, villas de caractère) sont notre spécialité. Nos méthodes non destructives préservent les finitions d'époque (moulures, parquets, boiseries, pierre de taille) et évitent toute dégradation du patrimoine.</p>
 
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un devis {ville_article}</a>
