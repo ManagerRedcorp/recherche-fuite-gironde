@@ -31,9 +31,26 @@
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
       <nav class="nav" id="main-nav">
         <a href="/">Accueil</a>
-        <a href="/detection-fuite/">Détection de fuite</a>
+        <div class="nav-dropdown">
+          <a href="/detection-fuite/" class="nav-dropdown-toggle">Détection de fuite <span class="nav-chevron">&#9662;</span></a>
+          <div class="nav-dropdown-menu">
+            <a href="/detection-fuite/">Toutes les méthodes</a>
+            <a href="/detection-fuite/piscine-bordeaux/">Fuite piscine Bordeaux</a>
+            <a href="/detection-fuite/urgence-bordeaux/">Urgence fuite 24h Bordeaux</a>
+            <a href="/detection-fuite/fuite-apres-compteur/">Fuite après compteur</a>
+          </div>
+        </div>
         <a href="/chemisage-canalisation/">Chemisage</a>
-        <a href="/guide/">Guide</a>
+        <div class="nav-dropdown">
+          <a href="/guide/" class="nav-dropdown-toggle">Guide <span class="nav-chevron">&#9662;</span></a>
+          <div class="nav-dropdown-menu">
+            <a href="/guide/">Tous les articles</a>
+            <a href="/guide/prix-recherche-fuite-bordeaux/">Prix recherche de fuite</a>
+            <a href="/guide/urgence-fuite-eau/">Urgence fuite d'eau</a>
+            <a href="/guide/assurance-fuite-eau/">Assurance et remboursement</a>
+            <a href="/guide/faq/">FAQ</a>
+          </div>
+        </div>
         <a href="/devis/" class="btn btn-gold">Devis gratuit</a>
       </nav>
       <label for="nav-toggle" class="burger" aria-label="Menu">
@@ -145,6 +162,55 @@
         </ul>
         <a href="/chemisage-canalisation/" class="service-card-link">En savoir plus &rarr;</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SPÉCIALITÉS (nouveaux use cases) ════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header-center">
+      <span class="section-eyebrow">Nos spécialités</span>
+      <h2 class="section-title">Interventions ciblées sur Bordeaux et la Gironde</h2>
+      <p class="section-lead">Chaque situation a ses spécificités. Pages dédiées aux cas les plus fréquents que nous traitons.</p>
+    </div>
+    <div class="grid-3">
+      <a href="/detection-fuite/piscine-bordeaux/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/search.svg" alt=""></div>
+        <h3>Fuite piscine Bordeaux</h3>
+        <p>Localisation sans vidange : colorant fluorescéine, écoute électro-acoustique, test de pression. Pour liner, bassin béton ou coque polyester.</p>
+        <span class="service-card-link">Voir la page piscine &rarr;</span>
+      </a>
+      <a href="/detection-fuite/urgence-bordeaux/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/alert-circle.svg" alt=""></div>
+        <h3>Urgence fuite 24h</h3>
+        <p>Intervention prioritaire sous 24h à Bordeaux pour fuite active ou dégât des eaux en cours. Qualification téléphonique dans l'heure.</p>
+        <span class="service-card-link">Intervention urgente &rarr;</span>
+      </a>
+      <a href="/detection-fuite/fuite-apres-compteur/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/zoom-in.svg" alt=""></div>
+        <h3>Fuite après compteur</h3>
+        <p>Surconsommation inexpliquée ? Fuite sur canalisation enterrée ou réseau privatif. Écrêtement de facture possible (loi Warsmann 2011).</p>
+        <span class="service-card-link">Diagnostic compteur &rarr;</span>
+      </a>
+      <a href="/guide/prix-recherche-fuite-bordeaux/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/calendar.svg" alt=""></div>
+        <h3>Prix d'une recherche de fuite</h3>
+        <p>Tarifs 2026 par méthode (thermographie, gaz traceur, acoustique, piscine). Prise en charge assurance, devis fixe avant intervention.</p>
+        <span class="service-card-link">Voir les tarifs &rarr;</span>
+      </a>
+      <a href="/detection-fuite/piscine-arcachon/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/search.svg" alt=""></div>
+        <h3>Fuite piscine Bassin d'Arcachon</h3>
+        <p>Piscines d'Arcachon, La Teste-de-Buch, Gujan-Mestras. Diagnostic spécifique au contexte sableux et air salin du Bassin.</p>
+        <span class="service-card-link">Interventions bassin &rarr;</span>
+      </a>
+      <a href="/guide/urgence-fuite-eau/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/chat-bubble.svg" alt=""></div>
+        <h3>Que faire en urgence ?</h3>
+        <p>Les 4 gestes immédiats en cas de fuite active : couper l'eau, protéger les biens, prévenir les bons interlocuteurs.</p>
+        <span class="service-card-link">Guide urgence &rarr;</span>
+      </a>
     </div>
   </div>
 </section>
