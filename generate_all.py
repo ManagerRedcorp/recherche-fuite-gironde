@@ -2870,6 +2870,36 @@ def page_piscine_ville(p):
     )
 
 
+# ═══════════════════════════════════════════════════════════════
+# PAGE : Homepage (body issu de templates/home_body.html)
+# ═══════════════════════════════════════════════════════════════
+
+def page_index():
+    body_path = BASE / 'templates' / 'home_body.html'
+    body = body_path.read_text(encoding='utf-8') if body_path.exists() else ''
+
+    ld = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Spécialiste de la recherche et de la détection de fuites d'eau en Gironde (33). Méthodes non destructives, intervention rapide.",
+  "url": "https://recherche-fuite-gironde.fr/",
+  "areaServed": { "@type": "AdministrativeArea", "name": "Gironde" },
+  "address": { "@type": "PostalAddress", "addressRegion": "Gironde", "addressCountry": "FR" },
+  "serviceType": ["Recherche de fuite", "Détection de fuite", "Chemisage de canalisation"]
+}
+</script>'''
+
+    return html_base(
+        "Entreprise de recherche de fuites en Gironde - détection non destructive",
+        "Spécialiste de la recherche de fuites d'eau en Gironde (33). Détection non destructive, intervention rapide sur 30 communes. Devis gratuit, rapport assurance.",
+        "https://recherche-fuite-gironde.fr/",
+        body,
+        ld,
+    )
+
+
 def gen_sitemap():
     urls = ['https://recherche-fuite-gironde.fr/']
     urls += [
@@ -2929,6 +2959,9 @@ def write(path, content):
 
 def main():
     print('\n=== Génération du site recherche-fuite-gironde.fr ===\n')
+
+    print('[0/8] Homepage...')
+    write('index.html', page_index())
 
     print('[1/8] Pages de service...')
     write('detection-fuite/index.html', page_detection())
