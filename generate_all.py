@@ -1227,6 +1227,173 @@ GUIDE_PAGES = [
 <p>Pour les fuites actives importantes sur Bordeaux et sa métropole, consultez notre page dédiée à la <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> : intervention sous 24h, qualification téléphonique dans l'heure, rapport remis le jour même. Si votre surconsommation d'eau est inexpliquée, la fuite se situe peut-être sur le réseau privatif : voir notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> (écrêtement de facture possible selon loi Warsmann).</p>"""
     },
     {
+        "slug": "recherche-fuite-piscine-tarif",
+        "title": "Tarif recherche de fuite piscine en Gironde : prix par type de bassin",
+        "title_seo": "Tarif recherche fuite piscine Gironde prix type bassin 2026",
+        "desc": "Tarif d'une recherche de fuite piscine en Gironde selon le type de bassin (liner, coque, beton), la methode employee et la taille. Grille detaillee 2026.",
+        "contenu": """<p>Combien coute reellement une recherche de fuite sur une piscine en Gironde ? La reponse depend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin beton armé ne se diagnostiquent pas avec les memes methodes ni le meme temps d'intervention. Cet article detaille la grille tarifaire 2026 par type de bassin, avec les methodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
+
+<h2>Pourquoi le type de bassin determine le tarif ?</h2>
+<p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la methode principale - gaz traceur ou acoustique - s'applique partout de maniere similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demande une inspection camera specifique aux defauts structurels (osmose, delaminage). Un liner PVC impose colorant fluoresceine et inspection visuelle des soudures. Un bassin beton arme necessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisee. Ce parametre technique fait varier notre devis de 30 a 50 pourcent selon les cas.</p>
+
+<h2>Tarif par type de bassin (2026)</h2>
+
+<h3>Piscine liner PVC - tarif 300 a 500 € HT</h3>
+<p>Les piscines avec liner PVC 75/100 ou 85/100, dominant le parc girondin des annees 1990-2010, representent notre diagnostic le plus rapide. Methodologie : inspection visuelle du liner en apnee ou camera, colorant fluoresceine sur pieces a sceller (skimmer, buses de refoulement, bonde de fond), test de pression hydraulique sur canalisations. Duree d'intervention : 1h30 a 2h. Tarif moyen : 300 a 500 € HT selon la taille du bassin (4x8m jusqu'a 5x10m couverts dans cette fourchette). Au-dela (piscines familiales de plus de 10m), supplement de 50 a 100 €.</p>
+
+<h3>Piscine coque polyester - tarif 400 a 600 € HT</h3>
+<p>Les coques polyester monoblocs installees entre 2000 et 2020 demandent une inspection camera sous-marine plus minutieuse pour detecter les signes d'osmose (cloques sur le gel-coat), les microfissures au niveau des pieces moulees (bondes de fond, marches romaines, escaliers integres) et les delaminages inter-couches de fibre. La fluoresceine confirme les defauts visuels suspectes. Tarif moyen : 400 a 600 € HT, incluant le rapport photo detaille indispensable pour faire jouer la garantie decennale de pose si le bassin a moins de 10 ans.</p>
+
+<h3>Piscine beton arme - tarif 450 a 700 € HT</h3>
+<p>Les bassins beton armé, frequents dans les grandes proprietes (villas Arcachon, chais viticoles Libournais, proprietes Caudéran) ou construits sur mesure, necessitent notre diagnostic le plus approfondi. Inspection camera complete, test colorant, ecoute electro-acoustique sur canalisations enterrees, et parfois inspection structurelle si des fissures sont detectees. Tarif moyen : 450 a 700 € HT. Les piscines de plus de 50 m³ (12×5 ou 15×4) ou avec configuration complexe (miroir, debordement periphérique, volet immergé) peuvent monter a 800 € HT.</p>
+
+<h3>Piscine naturelle / bio-phytoepuration - tarif 500 a 800 € HT</h3>
+<p>Les piscines naturelles a lagunage vegetal, en croissance en Gironde (Gujan-Mestras, La Teste, quelques installations a Merignac), demandent une approche specifique. Isolation sequentielle des differents compartiments (bassin de baignade, bassin de filtration vegetale, canalisations de transfert), mesure differentielle sur 48h pour identifier la zone fuyante, puis diagnostic fin. Tarif moyen : 500 a 800 € HT, plus eleve en raison du temps d'intervention double sur deux passages.</p>
+
+<h2>Tarif par methode (si diagnostic cible)</h2>
+<p>Pour un probleme deja identifie ou suspecte sur un circuit precis, une intervention ciblee sur une seule methode est possible a tarif reduit.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
+<thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Methode isolee</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Cas d'usage</th></tr></thead>
+<tbody>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Colorant fluoresceine + visuelle</td><td style="padding:.75rem;border:1px solid #D8D4CC;">250 a 350 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Fuite suspectee sur pieces a sceller connues</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Test de pression canalisations</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 a 400 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Chute de pression filtration inexpliquee</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection camera sous-marine</td><td style="padding:.75rem;border:1px solid #D8D4CC;">280 a 380 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Suspicion de fissure coque ou liner</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Gaz traceur canalisation enterree</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 a 550 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Fuite hors bassin, reseau enterré jardin</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection complete + rapport</td><td style="padding:.75rem;border:1px solid #D8D4CC;">450 a 800 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Aucune piste, diagnostic exhaustif</td></tr>
+</tbody>
+</table>
+
+<h2>Supplements possibles</h2>
+<ul>
+<li><strong>Intervention urgence (24h)</strong> : aucun supplement chez nous, notre planning integre des creneaux prioritaires</li>
+<li><strong>Piscine couverte par volet immerge ou abri</strong> : supplement de 50 € pour manipulation securisee</li>
+<li><strong>Piscine tres profonde (4m+)</strong> : supplement plongeur professionnel de 300 a 500 € si plongee humaine necessaire</li>
+<li><strong>Deplacement hors metropole bordelaise</strong> : forfait 40 € pour Bassin d'Arcachon, Medoc, Libournais</li>
+<li><strong>Hivernage en cours</strong> : pas de supplement mais creneau limite (novembre a mars, intervention possible si bassin accessible)</li>
+</ul>
+
+<h2>Comparatif : diagnostic moderne vs vidange classique</h2>
+<p>Certaines entreprises proposent encore de vider la piscine pour inspecter visuellement le bassin. Cette methode, tres consommatrice en eau et en temps, coute en realite plus cher que notre diagnostic non destructif.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
+<thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Poste</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Diagnostic moderne</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Vidange classique</th></tr></thead>
+<tbody>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Tarif recherche</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 a 700 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 a 1000 €</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Cout vidange + remise en eau</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0 € (pas de vidange)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 a 1500 € (eau + chimie)</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Risque structurel sur bassin vide</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Nul</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Eleve en zone nappe phreatique</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Duree totale</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 a 4 h</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 a 5 jours</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Cout total moyen</td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>500 € HT</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>1 500 a 2 500 € HT</strong></td></tr>
+</tbody>
+</table>
+
+<h2>Prise en charge par l'assurance habitation</h2>
+<p>La garantie « recherche de fuite » de votre contrat multirisque habitation rembourse tout ou partie du diagnostic piscine des lors qu'un degat des eaux est constate (degradation du jardin, infiltration dans le local technique, impact sur fondations). Notre rapport technique est accepte par les principaux assureurs francais. Pour le detail de la procedure, consultez notre guide <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine et assurance habitation</a>.</p>
+
+<h2>Interventions groupees (copropriete, residence)</h2>
+<p>Pour les copropriétés avec piscine collective (Bassin d'Arcachon, residences touristiques) ou les gestionnaires multi-sites, nous proposons des forfaits d'intervention groupée : diagnostic de plusieurs piscines en une seule visite avec remise minoree. Contactez-nous pour une estimation specifique.</p>
+
+<h2>Notre engagement tarifaire</h2>
+<ul>
+<li>Devis fixe communique avant intervention, sans surprise</li>
+<li>Aucun deplacement facture si vous ne donnez pas suite au devis</li>
+<li>Rapport technique detaille inclus dans le tarif annonce</li>
+<li>Paiement apres intervention sur facture, aucun acompte demande</li>
+</ul>
+
+<p>Obtenez un devis personnalise en decrivant votre situation via notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de demande de devis</a>, ou consultez directement notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine a Bordeaux</a> ou la <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">page piscine Arcachon</a> si vous etes sur le Bassin.</p>"""
+    },
+    {
+        "slug": "recherche-fuite-piscine-assurance",
+        "title": "Recherche fuite piscine et assurance habitation : le remboursement",
+        "title_seo": "Recherche fuite piscine assurance habitation remboursement IRSI",
+        "desc": "Comment faire rembourser une recherche de fuite sur piscine par votre assurance habitation en Gironde. Clauses, procedure, IRSI copropriete, cas complexes.",
+        "contenu": """<p>La recherche de fuite sur une piscine privee represente un investissement de 300 a 800 euros HT selon les cas. La bonne nouvelle : votre assurance habitation multirisque couvre souvent tout ou partie de cette prestation, sous reserve de connaitre les clauses applicables et de respecter la procedure de declaration. Cet article detaille les modalites propres aux piscines, qui different sensiblement de celles d'un simple degat des eaux en logement.</p>
+
+<h2>Votre piscine est-elle couverte par votre assurance habitation ?</h2>
+<p>La majorite des contrats multirisques habitation en France incluent automatiquement la piscine privee dans les biens couverts, avec deux conditions souvent oubliees : declaration initiale au moment de la souscription (ou modification en cours de contrat) et conformite aux normes de securite (alarme, couverture, barriere, abri). Si vous avez installe votre piscine apres la souscription du contrat sans le signaler a votre assureur, la couverture peut etre refusee.</p>
+
+<p>Pour verifier votre couverture piscine, consultez les conditions generales (section « biens exterieurs couverts » ou « annexes du logement ») et les conditions particulieres (montant assure specifique piscine, franchise applicable). En cas de doute, demandez par ecrit a votre assureur une confirmation de votre couverture piscine.</p>
+
+<h2>Ce qui est couvert par votre assurance</h2>
+<ul>
+<li><strong>Recherche de fuite elle-meme</strong> : diagnostic non destructif par un professionnel, rapport technique</li>
+<li><strong>Consommation d'eau perdue</strong> : ecrêtement auprès du distributeur (Suez, Regie des eaux) selon loi Warsmann si canalisation enterrée indetectable</li>
+<li><strong>Degats collatéraux</strong> : pelouse abîmee, fondations de la maison affectees, local technique inondé, mobilier exterieur endommagé</li>
+<li><strong>Reparation de la fuite</strong> : souvent couverte si la cause est accidentelle (pas due a usure normale ou defaut d'entretien)</li>
+<li><strong>Remise en eau du bassin</strong> : pris en charge si une vidange a ete necessaire</li>
+</ul>
+
+<h2>Ce qui n'est PAS couvert</h2>
+<ul>
+<li><strong>Usure normale</strong> : un liner de 25 ans qui fuit par fatigue n'est generalement pas indemnise (releve de l'entretien)</li>
+<li><strong>Defaut d'entretien caracterise</strong> : piscine abandonnee plusieurs saisons, hivernage mal realise</li>
+<li><strong>Defauts de construction</strong> : pour une piscine neuve (moins de 10 ans), c'est la garantie decennale du constructeur qui s'applique, pas l'assurance habitation</li>
+<li><strong>Equipements haut de gamme non declares</strong> : PAC, volet automatique, abri, local technique equipe - a lister specifiquement dans le contrat</li>
+</ul>
+
+<h2>Procedure de declaration pour une fuite piscine</h2>
+
+<h3>Etape 1 : Constat et preuves</h3>
+<p>Des que vous constatez une perte d'eau anormale (plus de 1 cm par jour, au-dela de l'evaporation naturelle en Gironde), faites le test du seau pour confirmer la fuite. Photographiez le niveau du bassin, les zones humides autour (pelouse, terrasse), les indices de ruissellement. Relevez votre compteur d'eau pour documenter la surconsommation.</p>
+
+<h3>Etape 2 : Declaration sous 5 jours ouvrables</h3>
+<p>Votre contrat impose une declaration sous 5 jours ouvrables a compter de la decouverte. Cette declaration peut se faire par courrier recommande, formulaire en ligne sur l'espace client, ou telephone (demandez une confirmation ecrite). Joignez les photos, la date de decouverte, la description des symptomes et si possible une estimation des degats.</p>
+
+<h3>Etape 3 : Mandatement du professionnel</h3>
+<p>Votre assureur peut mandater son propre expert, ou vous laisser choisir un prestataire independant. Dans les deux cas, c'est le rapport technique qui justifiera la prise en charge. Nous sommes reconnus par la majorite des assureurs francais (AXA, Allianz, MAAF, Groupama, Matmut, MACIF, MMA, GMF). Contactez-nous directement en mentionnant que votre assurance doit intervenir : nous adaptons le rapport aux exigences du dossier.</p>
+
+<h3>Etape 4 : Remise du rapport et devis de reparation</h3>
+<p>Notre rapport technique comprend : photos de la piscine et du point de fuite, methodes employees pour le diagnostic, localisation precise avec schema, estimation du debit de fuite, preconisations de reparation chiffrees. Transmettez ce rapport a votre assureur avec les devis de reparation (liner, coque, canalisations selon la cause).</p>
+
+<h3>Etape 5 : Expertise contradictoire si necessaire</h3>
+<p>Pour les sinistres importants (plus de 5 000 € de degats), l'assureur peut diligenter une expertise contradictoire. Vous pouvez etre assiste d'un expert d'assure pour defendre vos interets, notamment si votre assureur conteste la cause ou le montant.</p>
+
+<h2>Convention IRSI en copropriete avec piscine collective</h2>
+<p>Les residences bordelaises avec piscine collective (Bassins a Flot, residences des annees 1990-2010, residences touristiques du Bassin d'Arcachon) sont regies par la convention IRSI pour les degats des eaux jusqu'a 5 000 euros HT. Le syndic mandate le prestataire, l'assureur de la copropriete prend en charge le rapport et les dommages, puis se retourne contre l'assureur responsable si un lot individuel est a l'origine du sinistre (tres rare pour une piscine collective).</p>
+
+<p>Notre rapport est specifiquement formate pour les sinistres IRSI : identification precise des responsabilites, chiffrage des dommages par zone (bassin, plage, jardin, lots adjacents), preconisations techniques detaillees.</p>
+
+<h2>Cas complexes specifiques aux piscines</h2>
+
+<h3>Piscine en location saisonniere</h3>
+<p>Si vous louez votre residence avec piscine en meublé de tourisme, votre contrat multirisque habitation classique n'est pas suffisant : il vous faut une extension « location meublee » ou un contrat specifique « residence secondaire louee ». Sans cette extension, l'assureur peut refuser la prise en charge d'une fuite survenue pendant une location.</p>
+
+<h3>Residence secondaire (Arcachon, Le Pyla)</h3>
+<p>Les fuites decouvertes au retour apres plusieurs mois d'inoccupation posent une question juridique : l'assureur peut arguer que le defaut de surveillance est fautif. Contre-argument : une fuite sur canalisation enterrée etait indetectable visuellement (loi Warsmann). Notre rapport documente explicitement ce point pour faciliter la prise en charge.</p>
+
+<h3>Piscine partagee entre plusieurs lots (copropriete horizontale)</h3>
+<p>Quelques copropriétés horizontales dans la metropole (Pessac, Merignac) ont des piscines partagees entre 2 a 10 maisons. Le statut juridique de la piscine est defini dans le reglement de copropriete. Notre rapport identifie la zone de responsabilite pour le reglement entre assureurs des lots concernes.</p>
+
+<h3>Piscine municipale ou publique</h3>
+<p>Nous n'intervenons pas sur les piscines municipales (Stade Nautique, Piscine Galin, etc.) qui relevent de marches publics specifiques. Notre scope est exclusivement la piscine privative.</p>
+
+<h2>Courrier type de declaration a l'assureur</h2>
+<p>Voici un modele de courrier que vous pouvez adapter :</p>
+
+<blockquote style="background:var(--c-bg);border-left:4px solid var(--c-primary);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
+<p>Madame, Monsieur,</p>
+<p>Je vous informe par la presente de la decouverte d'une fuite sur ma piscine privative situee a [adresse], que je constate depuis le [date].</p>
+<p>Les signes suivants m'amenent a vous le signaler : [perte d'eau de X cm par jour, consommation d'eau anormale, zones humides dans le jardin, etc.].</p>
+<p>Conformement aux dispositions de mon contrat multirisque habitation n° [numero], je vous declare ce sinistre dans le delai contractuel de 5 jours ouvrables. Je vous joins les premiers elements photographiques et numero de police.</p>
+<p>Je sollicite la prise en charge au titre de la garantie « recherche de fuite » des frais de diagnostic, ainsi que des degats collateraux eventuels. Un rapport technique par un professionnel qualifie sera etabli et vous sera transmis sous huitaine.</p>
+<p>Je vous prie d'agreer, Madame, Monsieur, l'expression de mes salutations distinguees.</p>
+</blockquote>
+
+<h2>Combien serez-vous rembourse en pratique ?</h2>
+<p>Dans la majorite des dossiers que nous traitons, le remboursement couvre :</p>
+<ul>
+<li>100 pourcent de la recherche de fuite si un degat des eaux effectif est constate</li>
+<li>50 a 100 pourcent des travaux de reparation selon la cause (accidentelle vs usure)</li>
+<li>Totalite des degats collateraux (jardin abîmé, mobilier exterieur)</li>
+<li>Consommation d'eau perdue via ecretement de facture (loi Warsmann) si fuite enterrée</li>
+</ul>
+<p>La franchise contractuelle s'applique (souvent 150 a 300 euros sur les degats des eaux). Dans certains cas, si la fuite n'a pas provoque de degat des eaux effectif (ex : fuite localisee rapidement sans impact sur les biens), la garantie « recherche de fuite » peut ne pas etre activee. Un bon rapport technique, qui documente l'impact potentiel si la fuite n'avait pas ete traitee, aide a justifier la prise en charge.</p>
+
+<h2>Besoin d'un diagnostic compatible avec votre assurance ?</h2>
+<p>Nous intervenons sur toute la Gironde avec un rapport technique standardise, accepte par les principaux assureurs. Pour obtenir un devis prealable ou coordonner une intervention avec votre assureur, consultez notre page de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis</a> ou directement l'une de nos <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">pages piscine par ville</a> pour plus de details sur nos methodes d'intervention par zone geographique. Pour les aspects tarifaires, consultez notre guide dedie <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>.</p>"""
+    },
+    {
         "slug": "prix-recherche-fuite-bordeaux",
         "title": "Prix d'une recherche de fuite à Bordeaux en 2026",
         "title_seo": "Prix recherche de fuite Bordeaux tarif devis intervention 2026",
@@ -2287,6 +2454,297 @@ def page_urgence_ville(p):
 
 
 # ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Canalisation enterree Bordeaux
+# ═══════════════════════════════════════════════════════════════
+
+def page_canalisation_enterree_bordeaux():
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite canalisation enterree",
+  "name": "Recherche de fuite canalisation enterree a Bordeaux et en Gironde",
+  "description": "Localisation precise d'une fuite sur canalisation enterree (jardin, branchement, reseau prive) par gaz traceur azote/helium, sans excavation prealable. Precision au demi-metre pres.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  },
+  "areaServed": { "@type": "Place", "name": "Bordeaux et metropole girondine" },
+  "category": "Detection de fuite non destructive"
+}
+</script>'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde - Canalisation enterree Bordeaux",
+  "description": "Specialiste de la recherche de fuite sur canalisation enterree a Bordeaux. Gaz traceur azote/helium, ecoute electro-acoustique, thermographie. Intervention 24h, rapport pour assurance.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/",
+  "image": "https://recherche-fuite-gironde.fr/assets/fuite-canalisation-enterree.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33000",
+    "addressCountry": "FR"
+  },
+  "areaServed": { "@type": "City", "name": "Bordeaux" },
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Detection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Canalisation enterree Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment localisez-vous une fuite sur canalisation enterree a Bordeaux sans creuser ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Notre methode principale est le gaz traceur azote/helium : un melange inerte injecte dans la canalisation sous legere pression. Le gaz plus leger que l'air remonte au droit de la perforation et est detecte par un capteur electronique promene au sol. Precision au demi-metre pres, sans aucune excavation prealable. L'ecoute electro-acoustique et la thermographie infrarouge completent le diagnostic si necessaire." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles sont les canalisations enterrees les plus fragiles a Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les canalisations PVC collees installees entre 1985 et 2000 sont les plus fragiles sur sol argileux bordelais. Les raccords se desaxent par retrait-gonflement saisonnier de l'argile. Les canalisations PEHD (polyethylene haute densite) posees depuis 2005 sont plus tolerantes aux mouvements de terrain. Les anciennes canalisations plomb et fonte des immeubles du centre historique (avant 1975) sont corrodees et sujettes aux perforations." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coute une recherche de fuite sur canalisation enterree a Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 400 et 700 euros HT selon la longueur de la canalisation a diagnostiquer et la complexite du reseau. Un forfait gaz traceur classique (jusqu'a 20 metres de canalisation) est a 450 euros HT en moyenne. Au-dela de 30 metres ou pour les reseaux complexes (plusieurs branches), un diagnostic approfondi peut atteindre 700 euros HT. Devis fixe communique avant intervention." }
+    },
+    {
+      "@type": "Question",
+      "name": "La recherche de fuite enterree est-elle remboursee par l'assurance ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, dans la majorite des cas. La garantie recherche de fuite de votre contrat multirisque habitation prend en charge le diagnostic des lors qu'un degat des eaux est constate (terrain gorgé d'eau, impact sur fondations, infiltration dans construction). Si la fuite concerne une canalisation enterrée indetectable, vous pouvez en plus obtenir un ecretement de votre facture d'eau aupres de Suez ou votre regie via la loi Warsmann 2011." }
+    },
+    {
+      "@type": "Question",
+      "name": "Intervenez-vous dans tous les quartiers de Bordeaux pour les fuites enterrees ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, nous couvrons l'ensemble des 18 quartiers de Bordeaux ainsi que les communes voisines de la metropole. Nous rencontrons les problematiques de fuites enterrees le plus frequemment dans les zones pavillonnaires (Caudéran, Le Bouscat, Bacalan, Saint-Augustin) avec grands jardins, ainsi que dans les copropriétés récentes avec reseaux enterres entre immeuble et regards techniques." }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il creuser pour reparer apres votre diagnostic ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, mais de maniere tres ciblee. Notre diagnostic localise la fuite au demi-metre pres, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour eviter totalement le creusement, deux alternatives : le chemisage de canalisation (rehabilitation sans tranchee par resine epoxy, adapte aux reseaux de 40 a 600 mm) ou le remplacement de la canalisation existante si son etat general l'exige." }
+    }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Detection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Canalisation enterree Bordeaux</span>
+    </nav>
+    <h1>Recherche de fuite de canalisation enterree a Bordeaux</h1>
+    <p class="hero-mini-lead">Zone de jardin anormalement humide, compteur d'eau qui tourne en permanence, facture d'eau qui grimpe sans raison : votre fuite se situe probablement sur une canalisation enterree. Nos techniciens la localisent <strong>au demi-metre pres sans creuser</strong> grace au gaz traceur azote/helium, puis vous remettent un rapport utilisable pour l'assurance et l'ecretement de facture.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis gratuit</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/fuite-canalisation-enterree.webp" alt="Recherche de fuite sur canalisation enterree a Bordeaux avec gaz traceur azote helium, diagnostic sans excavation" width="700" height="467" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h2>Les signes d'une fuite sur canalisation enterree a Bordeaux</h2>
+    <p>Sur les proprietes bordelaises avec jardin, branchement d'eau enterre ou reseau d'arrosage, plusieurs symptomes doivent alerter. Contrairement aux fuites interieures visibles par une tache au plafond, les fuites enterrees sont sournoises : elles peuvent couler pendant des mois sans aucun signe au-dessus du sol.</p>
+
+    <ul>
+      <li><strong>Zone de jardin anormalement verte</strong> toute l'annee, meme en periode sans arrosage</li>
+      <li><strong>Terrain gorgé d'eau ou sol qui s'affaisse</strong> sur un trace lineaire, suggerant le tracé d'une canalisation</li>
+      <li><strong>Consommation d'eau qui grimpe</strong> sans changement d'usage, visible sur la facture trimestrielle Suez</li>
+      <li><strong>Compteur d'eau qui tourne en permanence</strong> meme robinets fermes, a verifier le soir en coupant tout point d'eau</li>
+      <li><strong>Pression d'eau anormalement basse</strong> au robinet alors que les canalisations interieures sont en bon etat</li>
+      <li><strong>Flaque au pied de la maison</strong> apres plusieurs jours sans pluie, signe d'infiltration par la canalisation d'alimentation</li>
+      <li><strong>Mousse ou champignons</strong> inhabituels en bordure de terrasse ou allee</li>
+    </ul>
+
+    <h2>Pourquoi les canalisations enterrees bordelaises lâchent-elles souvent au meme endroit ?</h2>
+    <p>La specificite geologique de Bordeaux et sa metropole est determinante. Une large part du territoire repose sur des sols argileux sujets au retrait-gonflement saisonnier : l'argile se retracte en ete sec, gonfle en hiver pluvieux. Sur 20 a 30 ans, ces cycles repetes solliticitent les raccords collés PVC de maniere importante. Resultat observable sur le terrain : les raccords PVC de 25 a 35 ans cedent significativement plus a Bordeaux qu'en sol sableux ou calcaire pur.</p>
+
+    <p>La zone aéroportuaire (Mérignac), la rive droite (Cenon, Lormont, Floirac) et le Grand Parc presentent cette typologie argileuse marquee. Les communes du bassin d'Arcachon sont en sol sableux (autre probleme : micro-tassements permanents), et le Libournais alterne argileux et calcaire selon les zones. Cette connaissance locale oriente notre methodologie de diagnostic.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Notre methode gaz traceur en 5 etapes</h2>
+    <p>Le gaz traceur azote/helium est la methode de reference pour les canalisations enterrees. Voici le deroule concret d'une intervention sur votre propriete bordelaise.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Reconnaissance du reseau</h3>
+          <p>Reperage des regards, compteurs, arrivees et departs d'eau sur la propriete. Traçage approximatif des canalisations enterrees d'apres les plans disponibles ou observation du terrain. Identification des points d'injection possibles pour le gaz.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Mise sous pression et injection</h3>
+          <p>La canalisation est isolee et mise sous legere pression avec un melange azote/hélium inerte (80/20). Le melange est plus leger que l'air et migre vers la fuite en prenant le trajet du moindre chemin.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Detection de surface</h3>
+          <p>Un detecteur electronique tres sensible (sniffer) est promene au sol le long du trace presume de la canalisation. Le capteur signale la remontee du gaz avec une precision au demi-metre pres, materialisant la position exacte de la fuite.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Confirmation par ecoute</h3>
+          <p>En complement, nous ecoutons electro-acoustiquement la zone localisee pour confirmer la fuite par le bruit caracteristique de l'eau sous pression qui s'echappe. Cette double confirmation elimine les faux positifs.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Materialisation et rapport</h3>
+          <p>La position exacte de la fuite est marquee au sol (piquet, bombe de couleur non permanente). Le rapport technique photographique documente le trace, la methode, la localisation et les preconisations de reparation. Il est remis sur site ou sous 24h.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Option chemisage sans tranchee</h3>
+          <p>Si plusieurs fuites sont identifiees sur le meme reseau, ou si la canalisation est generalement degradee, nous vous proposons une alternative au creusement : le chemisage tubulaire sans tranchee qui cree un nouveau tuyau a l'interieur de l'ancien.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Quartiers de Bordeaux ou nous intervenons le plus sur canalisation enterree</h2>
+    <p>Certains quartiers concentrent les demandes pour fuite enterree en raison de leur typologie bâtie et de leur environnement paysager.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Caudéran et Le Bouscat</h3>
+          <p>Grands jardins des proprietes bourgeoises, nombreux arbres matures (platanes, chenes, tilleuls) dont les racines sollicitent les canalisations. Les raccords PVC de 30 ans y sont particulierement fragiles. Nous intervenons souvent sur le trace d'alimentation compteur-maison.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Saint-Augustin et Grand Parc</h3>
+          <p>Maisons individuelles avec jardins moyens, reseaux d'arrosage enterres frequents. Les confusions entre fuite alimentation et fuite arrosage sont courantes : notre diagnostic isole chaque circuit pour eliminer les faux positifs.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Bacalan et Bassins à Flot</h3>
+          <p>Residences recentes (2010-2020) avec reseaux enterres entre immeuble et regards techniques. Les canalisations PEHD posees dans les annees 2010 sont robustes mais les raccords mécaniques sont sujets à défaut de serrage.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>La Bastide et Cenon (rive droite)</h3>
+          <p>Terrains argileux marques, nombreux pavillons des annees 1970-1990 avec canalisations PVC d'origine. Les mouvements de terrain y sont les plus actifs, les fuites enterrees les plus frequentes.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Mérignac et communes métropole</h3>
+          <p>Parc pavillonnaire tres dense des annees 1980-2000. Canalisations d'alimentation souvent longues (20 a 50 m entre compteur et maison). Proportion importante de nos interventions enterrees se fait sur Merignac (Arlac, Capeyron, Chemin Long).</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Bordeaux Centre historique</h3>
+          <p>Moins de canalisations enterrees individuelles (tissu urbain dense) mais presence de reseaux anciens (plomb, fonte, galvanisé) sous les cours interieures et arrières-cours des immeubles. Diagnostic particulier adaptant nos outils compacts aux configurations restreintes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Cas type d'intervention a Bordeaux</h2>
+    <p>Scenario recurrent : maison familiale a Caudéran, canalisation d'alimentation enterrée de 1989 sur 35 metres entre le regard de compteur en façade et l'entrée de la maison. Le propriétaire constate une facture Suez doublée (de 40 m³ a 80 m³ par trimestre), sans changement d'usage. Aucune trace d'humidite visible dans le jardin ni dans la maison.</p>
+
+    <p>Notre intervention : verification du robinet d'arrêt général (compteur qui continue de tourner apres coupure maison = fuite après compteur sur partie privative). Isolation du circuit d'arrosage (compteur qui s'arrête = arrosage hors cause). Mise sous pression du tronçon compteur-maison avec gaz traceur. Detection au sol le long du tracé : remontée du gaz à 22 metres du regard de compteur, sous l'allée gravillonnée. Marquage au sol et materialisation de la fuite.</p>
+
+    <p>Reparation : ouverture localisée 60×60 cm au point marque, remplacement d'un manchon PVC de 40 cm, remblaiement et remise en état gravillons. Coût total intervention + réparation : 850 euros. Dossier transmis à l'assureur qui prend en charge 600 euros au titre de la garantie recherche de fuite, et le client obtient un écretement de sa facture Suez selon la loi Warsmann pour les m³ surconsommés.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions frequentes sur la recherche de fuite enterree a Bordeaux</h2>
+
+    <h3>Comment localisez-vous une fuite sur canalisation enterree a Bordeaux sans creuser ?</h3>
+    <p>Notre methode principale est le gaz traceur azote/helium : un melange inerte injecte dans la canalisation sous legere pression. Le gaz plus leger que l'air remonte au droit de la perforation et est detecte par un capteur electronique promene au sol. Precision au demi-metre pres, sans aucune excavation prealable. L'ecoute electro-acoustique et la thermographie infrarouge completent le diagnostic si necessaire.</p>
+
+    <h3>Quelles sont les canalisations enterrees les plus fragiles a Bordeaux ?</h3>
+    <p>Les canalisations PVC collees installees entre 1985 et 2000 sont les plus fragiles sur sol argileux bordelais. Les raccords se desaxent par retrait-gonflement saisonnier de l'argile. Les canalisations PEHD posees depuis 2005 sont plus tolerantes aux mouvements de terrain. Les anciennes canalisations plomb et fonte des immeubles du centre historique (avant 1975) sont corrodees et sujettes aux perforations.</p>
+
+    <h3>Combien coute une recherche de fuite sur canalisation enterree a Bordeaux ?</h3>
+    <p>Entre 400 et 700 euros HT selon la longueur de la canalisation a diagnostiquer et la complexite du reseau. Un forfait gaz traceur classique (jusqu'a 20 metres de canalisation) est a 450 euros HT en moyenne. Au-dela de 30 metres ou pour les reseaux complexes (plusieurs branches), un diagnostic approfondi peut atteindre 700 euros HT.</p>
+
+    <h3>La recherche de fuite enterree est-elle remboursee par l'assurance ?</h3>
+    <p>Oui, dans la majorite des cas. La garantie recherche de fuite de votre contrat multirisque habitation prend en charge le diagnostic des lors qu'un degat des eaux est constate. Si la fuite concerne une canalisation enterrée indetectable, vous pouvez en plus obtenir un ecretement de votre facture d'eau aupres de Suez ou votre regie via la loi Warsmann 2011. Voir notre page <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau apres compteur a Bordeaux</a> pour le detail de la procedure d'ecretement.</p>
+
+    <h3>Intervenez-vous dans tous les quartiers de Bordeaux pour les fuites enterrees ?</h3>
+    <p>Oui, nous couvrons l'ensemble des 18 quartiers de Bordeaux ainsi que les communes voisines de la metropole. Pour plus de details sur notre intervention ville par ville, consultez notre page <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite a Bordeaux</a>.</p>
+
+    <h3>Faut-il creuser pour reparer apres votre diagnostic ?</h3>
+    <p>Oui, mais de maniere tres ciblee. Notre diagnostic localise la fuite au demi-metre pres, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour eviter totalement le creusement, deux alternatives : le <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation</a> (rehabilitation sans tranchee par resine epoxy, adapte aux reseaux de 40 a 600 mm) ou le remplacement de la canalisation existante si son etat general l'exige.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander un devis canalisation enterree</a>
+    </div>
+  </div>
+</section>
+
+{form_section("Bordeaux")}
+'''
+
+    return html_base(
+        'Recherche fuite canalisation enterree Bordeaux | Gaz traceur precis',
+        'Recherche de fuite sur canalisation enterree a Bordeaux sans excavation : gaz traceur azote/helium, precision demi-metre, rapport pour assurance. Specialistes terrain argileux.',
+        'https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/',
+        body,
+        extra_ld=ld_service + ld_local + ld_breadcrumb + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
 # PAGE USE CASE : Fuite apres compteur d'eau
 # ═══════════════════════════════════════════════════════════════
 
@@ -3153,6 +3611,7 @@ def gen_sitemap():
     urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in PISCINE_PAGES]
     urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in URGENCE_PAGES]
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-apres-compteur/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/']
 
     items = '\n'.join([
         f'  <url><loc>{u}</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if u.endswith(".fr/") else "0.8"}</priority></url>'
@@ -3239,6 +3698,9 @@ def main():
 
     print('[7d] Page use case — fuite apres compteur...')
     write('detection-fuite/fuite-apres-compteur/index.html', page_fuite_apres_compteur())
+
+    print('[7e] Page use case — canalisation enterree Bordeaux...')
+    write('detection-fuite/canalisation-enterree-bordeaux/index.html', page_canalisation_enterree_bordeaux())
 
     print('[8/8] Fichiers techniques...')
     write('sitemap.xml', gen_sitemap())
