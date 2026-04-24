@@ -683,6 +683,63 @@ def page_detection():
   </div>
 </section>
 
+<section class="section-alt">
+  <div class="container">
+    <div class="section-header-center">
+      <span class="section-eyebrow">Nos spécialités</span>
+      <h2 class="section-title">Interventions ciblées par cas et par ville</h2>
+      <p class="section-lead">Pages dédiées aux situations les plus fréquentes et aux villes où nous intervenons le plus. Cliquez directement sur votre cas.</p>
+    </div>
+
+    <h3 style="font-family:var(--font-title,inherit);margin-top:2rem;margin-bottom:1rem;">Cas d'usage prioritaires</h3>
+    <div class="grid-3">
+      <a href="/detection-fuite/piscine-bordeaux/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/search.svg" alt=""></div>
+        <h3>Fuite piscine Bordeaux</h3>
+        <p>Localisation sans vidange : colorant fluorescéine, écoute acoustique, test pression. Liner, béton, coque polyester.</p>
+      </a>
+      <a href="/detection-fuite/urgence-bordeaux/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/alert-circle.svg" alt=""></div>
+        <h3>Urgence fuite 24h Bordeaux</h3>
+        <p>Intervention prioritaire sous 24h pour fuite active ou dégât des eaux en cours. Qualification téléphonique dans l'heure.</p>
+      </a>
+      <a href="/detection-fuite/fuite-apres-compteur/" class="service-card" style="text-decoration:none;color:inherit;">
+        <div class="service-card-icon"><img src="/assets/icons/zoom-in.svg" alt=""></div>
+        <h3>Fuite après compteur d'eau</h3>
+        <p>Surconsommation inexpliquée, canalisation enterrée privative. Écrêtement de facture possible (loi Warsmann 2011).</p>
+      </a>
+    </div>
+
+    <h3 style="font-family:var(--font-title,inherit);margin-top:3rem;margin-bottom:1rem;">Recherche de fuite piscine par ville</h3>
+    <p style="margin-bottom:1.5rem;">Le thème piscine est notre première cause d'intervention en Gironde. Pages spécifiques pour les communes à forte densité de bassins privés.</p>
+    <div class="grid-3">
+      <a href="/detection-fuite/piscine-bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Bordeaux</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33000 · Centre, Caudéran, Médoc</span></a>
+      <a href="/detection-fuite/piscine-merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Mérignac</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33700 · Arlac, Capeyron, Beutre</span></a>
+      <a href="/detection-fuite/piscine-arcachon/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Arcachon</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33120 · Ville d'Hiver, Bassin</span></a>
+      <a href="/detection-fuite/piscine-la-teste-de-buch/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine La Teste-de-Buch</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33260 · Cazaux, Pyla</span></a>
+      <a href="/detection-fuite/piscine-gujan-mestras/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Gujan-Mestras</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33470 · Bassin d'Arcachon</span></a>
+      <a href="/detection-fuite/piscine-libourne/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Libourne</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33500 · Libournais, St-Émilion</span></a>
+      <a href="/detection-fuite/piscine-le-bouscat/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Le Bouscat</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33110 · Parc Bordelais, Bourran</span></a>
+    </div>
+
+    <h3 style="font-family:var(--font-title,inherit);margin-top:3rem;margin-bottom:1rem;">Pages détection par ville (contenu enrichi)</h3>
+    <p style="margin-bottom:1.5rem;">Pages villes avec contenu local détaillé (quartiers, patrimoine, spécificités géologiques) pour les 5 villes stratégiques de Gironde.</p>
+    <div class="grid-3">
+      <a href="/villes/bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Bordeaux (33000)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Haussmanniens, UNESCO, pierre calcaire</span></a>
+      <a href="/villes/merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Mérignac (33700)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Pavillons, planchers chauffants</span></a>
+      <a href="/villes/arcachon/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Arcachon (33120)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Villas Ville d'Hiver, air salin</span></a>
+      <a href="/villes/libourne/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Libourne (33500)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Chais viticoles, sol argileux</span></a>
+      <a href="/villes/pessac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Pessac (33600)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Cité Frugès UNESCO, copropriétés</span></a>
+      <a href="/plan-du-site/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--c-bg);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>+25 autres villes</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Toute la Gironde au plan du site &rarr;</span></a>
+    </div>
+
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="/guide/prix-recherche-fuite-bordeaux/" class="btn btn-outline-green">Voir les prix 2026</a>
+      <a href="/devis/" class="btn btn-gold" style="margin-left:1rem;">Demander un devis gratuit</a>
+    </div>
+  </div>
+</section>
+
 {villes_detection_section()}
 {form_section()}'''
 
@@ -2547,6 +2604,13 @@ def page_piscine_ville(p):
 }}
 </script>'''
 
+    # Autres villes piscine pour maillage sibling
+    autres_piscine = [p for p in PISCINE_PAGES if p["slug"] != slug]
+    autres_html = '\n'.join([
+        f'<a href="/detection-fuite/{p["slug"]}/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine {p["ville"]}</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">{p["cp"]}</span></a>'
+        for p in autres_piscine
+    ])
+
     body = f'''
 <section class="hero-mini">
   <div class="container">
@@ -2780,6 +2844,17 @@ def page_piscine_ville(p):
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un devis pour ma piscine</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2 style="text-align:center;">Recherche de fuite piscine dans d'autres villes de Gironde</h2>
+    <p style="text-align:center;margin-bottom:1.5rem;">Nous intervenons sur l'ensemble de la métropole bordelaise et du Bassin d'Arcachon.</p>
+    <div class="grid-3">
+      {autres_html}
+    </div>
+    <p style="text-align:center;margin-top:1.5rem;"><a href="/detection-fuite/" class="btn btn-outline-green">Voir toutes nos spécialités &rarr;</a></p>
   </div>
 </section>
 
