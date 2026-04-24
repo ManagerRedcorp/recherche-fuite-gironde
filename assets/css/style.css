@@ -230,6 +230,59 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .nav a:hover { color: var(--text-inv); }
 
+/* Dropdown menus */
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown-toggle {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+}
+.nav-chevron {
+  font-size: .7rem;
+  transition: transform .15s;
+}
+.nav-dropdown:hover .nav-chevron {
+  transform: rotate(180deg);
+}
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 260px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  padding: .5rem;
+  margin-top: .5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity .15s, visibility .15s, transform .15s;
+  z-index: 100;
+}
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.nav-dropdown-menu a {
+  display: block;
+  padding: .6rem .9rem;
+  color: var(--c-text) !important;
+  font-weight: 500;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+.nav-dropdown-menu a:hover {
+  background: var(--c-bg-alt);
+  color: var(--c-primary) !important;
+}
+
 /* Hamburger mobile */
 .nav-toggle { display: none; }
 .burger {

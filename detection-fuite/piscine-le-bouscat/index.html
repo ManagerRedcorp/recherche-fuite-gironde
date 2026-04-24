@@ -98,9 +98,26 @@
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
       <nav class="nav" id="main-nav">
         <a href="/">Accueil</a>
-        <a href="/detection-fuite/">Détection de fuite</a>
+        <div class="nav-dropdown">
+          <a href="/detection-fuite/" class="nav-dropdown-toggle">Détection de fuite <span class="nav-chevron">&#9662;</span></a>
+          <div class="nav-dropdown-menu">
+            <a href="/detection-fuite/">Toutes les méthodes</a>
+            <a href="/detection-fuite/piscine-bordeaux/">Fuite piscine Bordeaux</a>
+            <a href="/detection-fuite/urgence-bordeaux/">Urgence fuite 24h Bordeaux</a>
+            <a href="/detection-fuite/fuite-apres-compteur/">Fuite après compteur</a>
+          </div>
+        </div>
         <a href="/chemisage-canalisation/">Chemisage</a>
-        <a href="/guide/">Guide</a>
+        <div class="nav-dropdown">
+          <a href="/guide/" class="nav-dropdown-toggle">Guide <span class="nav-chevron">&#9662;</span></a>
+          <div class="nav-dropdown-menu">
+            <a href="/guide/">Tous les articles</a>
+            <a href="/guide/prix-recherche-fuite-bordeaux/">Prix recherche de fuite</a>
+            <a href="/guide/urgence-fuite-eau/">Urgence fuite d'eau</a>
+            <a href="/guide/assurance-fuite-eau/">Assurance et remboursement</a>
+            <a href="/guide/faq/">FAQ</a>
+          </div>
+        </div>
         <a href="/devis/" class="btn btn-gold">Devis gratuit</a>
       </nav>
       <label for="nav-toggle" class="burger" aria-label="Menu">
