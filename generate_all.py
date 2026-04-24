@@ -1132,7 +1132,9 @@ GUIDE_PAGES = [
 <ul>
 <li>Réparation ponctuelle : ouverture chirurgicale au point de fuite uniquement</li>
 <li><a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">Chemisage</a> : rénovation de l'ensemble du réseau enterré sans tranchée</li>
-</ul>"""
+</ul>
+<h2>Cas particulier : fuite sur canalisation enterrée après compteur</h2>
+<p>Si votre fuite se situe entre votre compteur d'eau et votre habitation (zone privative), vous pouvez souvent bénéficier d'un écrêtement de facture auprès de Suez ou de votre régie des eaux (loi Warsmann 2011). Notre page dédiée <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur à Bordeaux</a> détaille la procédure, les justificatifs à fournir et les conditions à remplir pour obtenir ce plafonnement de facturation.</p>"""
     },
     {
         "slug": "chemisage-explication",
@@ -1180,7 +1182,8 @@ GUIDE_PAGES = [
 <li>Transmettre ce rapport à votre assureur pour justifier les travaux de réparation</li>
 </ul>
 <h2>Le devis gratuit</h2>
-<p>Nous vous proposons un devis gratuit avant toute intervention. Après un premier échange sur votre situation (type de fuite, configuration du logement, localisation en Gironde), nous pouvons vous donner une estimation précise et sans surprise. Utilisez le formulaire de contact pour nous décrire votre situation.</p>"""
+<p>Nous vous proposons un devis gratuit avant toute intervention. Après un premier échange sur votre situation (type de fuite, configuration du logement, localisation en Gironde), nous pouvons vous donner une estimation précise et sans surprise. Utilisez le formulaire de contact pour nous décrire votre situation.</p>
+<p>Pour un détail complet des tarifs 2026 par méthode avec un tableau comparatif, consultez notre guide <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">prix d'une recherche de fuite à Bordeaux</a>, qui couvre également la prise en charge par l'assurance et l'écrêtement de facture d'eau selon la loi Warsmann.</p>"""
     },
     {
         "slug": "assurance-fuite-eau",
@@ -1200,7 +1203,9 @@ GUIDE_PAGES = [
 <p><strong>2. Faites réaliser une recherche de fuite</strong> - Votre assureur peut mandater un expert, mais vous pouvez aussi choisir votre propre prestataire. Le rapport que nous vous remettons est reconnu par l'ensemble des assureurs.</p>
 <p><strong>3. Constituez votre dossier</strong> - Rassemblez les photos des dégâts, les factures d'eau des 6 derniers mois, le rapport de recherche de fuite et les devis de réparation.</p>
 <h2>Le rapport de recherche de fuite</h2>
-<p>C'est le document central de votre dossier. Il doit mentionner : la localisation précise de la fuite, la technique utilisée, les photos de l'intervention et les préconisations de réparation. Nous fournissons systématiquement ce rapport à l'issue de chaque intervention en Gironde.</p>"""
+<p>C'est le document central de votre dossier. Il doit mentionner : la localisation précise de la fuite, la technique utilisée, les photos de l'intervention et les préconisations de réparation. Nous fournissons systématiquement ce rapport à l'issue de chaque intervention en Gironde.</p>
+<h2>Cas de la fuite après compteur : la loi Warsmann</h2>
+<p>Si la fuite se situe sur votre réseau privatif enterré (entre compteur et habitation), vous pouvez cumuler la prise en charge assurance ET un écrêtement de facture d'eau auprès de votre distributeur. La loi Warsmann de 2011 plafonne la surfacturation due à une fuite enterrée indétectable. Consultez notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur à Bordeaux</a> pour la procédure complète.</p>"""
     },
     {
         "slug": "urgence-fuite-eau",
@@ -1218,7 +1223,8 @@ GUIDE_PAGES = [
 <h2>Prévenez vos voisins si nécessaire</h2>
 <p>En appartement, une fuite peut affecter les logements du dessous ou du dessus. Prévenez-les immédiatement et laissez leur vos coordonnées.</p>
 <h2>Faites appel à un professionnel pour localiser la fuite</h2>
-<p>Une fois l'urgence gérée, il est indispensable de faire localiser la fuite par un professionnel avant toute remise en eau. En Gironde, nous intervenons sous 24h pour une <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">recherche de fuite non destructive</a> avec remise du rapport assurance.</p>"""
+<p>Une fois l'urgence gérée, il est indispensable de faire localiser la fuite par un professionnel avant toute remise en eau. En Gironde, nous intervenons sous 24h pour une <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">recherche de fuite non destructive</a> avec remise du rapport assurance.</p>
+<p>Pour les fuites actives importantes sur Bordeaux et sa métropole, consultez notre page dédiée à la <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> : intervention sous 24h, qualification téléphonique dans l'heure, rapport remis le jour même. Si votre surconsommation d'eau est inexpliquée, la fuite se situe peut-être sur le réseau privatif : voir notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> (écrêtement de facture possible selon loi Warsmann).</p>"""
     },
     {
         "slug": "prix-recherche-fuite-bordeaux",
@@ -1851,6 +1857,12 @@ def page_ville_detection_premium(v):
     # Methodes focus unique par ville
     methodes_focus = ctx.get('methodes_focus', '')
 
+    # Lien contextuel vers page piscine si existe pour cette ville
+    piscine_slug_map = {p["slug"].replace("piscine-", ""): p["slug"] for p in PISCINE_PAGES}
+    piscine_cta = ''
+    if slug in piscine_slug_map:
+        piscine_cta = f'<p style="margin-top:1rem;">Vous avez une piscine privée {ville_article} ? Consultez notre page dédiée à la <a href="/detection-fuite/{piscine_slug_map[slug]}/" style="color:var(--green);text-decoration:underline;">recherche de fuite de piscine {ville_article}</a> : méthodes spécifiques (colorant fluorescéine, inspection sous-marine, test pression), cas typiques locaux et tarifs détaillés.</p>'
+
     # FAQ locale unique par ville
     faq_locale_html = '\n'.join([
         f'    <h3>{q}</h3>\n    <p>{a}</p>'
@@ -1967,6 +1979,8 @@ def page_ville_detection_premium(v):
     <p><strong>Intervention sous 24h {ville_article} et dans les communes voisines.</strong> {ctx['pitch_local']}</p>
 
     <p>Nos techniciens interviennent dans l'ensemble de la ville ainsi que dans les quartiers limitrophes : {ctx['quartiers']}. Zones voisines couvertes : {ctx['zones_voisines']}.</p>
+    {piscine_cta}
+    <p style="margin-top:1rem;">En cas de fuite active importante ou de dégât des eaux en cours, consultez notre page <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux et métropole</a> : intervention prioritaire sous 24h. Si votre surconsommation est inexpliquée, voir aussi notre diagnostic <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur</a>.</p>
   </div>
 </section>
 
@@ -2848,6 +2862,8 @@ def page_piscine_ville(p):
 
     <h3>Zones d'intervention {ville_article} et périphérie</h3>
     <p>{p['quartiers_zones']}</p>
+
+    <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre page <a href="/villes/{p.get('ville').lower().replace(' ', '-').replace('é','e').replace('è','e').replace('ê','e')}/" style="color:var(--c-primary-light);text-decoration:underline;">recherche de fuite à {p['ville']}</a> pour les interventions hors piscine (canalisations encastrées, planchers chauffants, dégâts des eaux).</p>
   </div>
 </section>
 
