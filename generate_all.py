@@ -1509,6 +1509,418 @@ def page_devis():
 
 # ── Sitemap XML ────────────────────────────────────────────────
 # ═══════════════════════════════════════════════════════════════
+# PAGES VILLE PREMIUM : refonte enrichie pour villes strategiques
+# ═══════════════════════════════════════════════════════════════
+
+VILLES_PREMIUM = {
+    "bordeaux": {
+        "ville": "Bordeaux",
+        "ville_article": "à Bordeaux",
+        "cp": "33000",
+        "image": "ville-bordeaux-patrimoine.webp",
+        "image_alt": "Pont de Pierre et patrimoine de Bordeaux, zone d'intervention recherche de fuite en métropole bordelaise",
+        "pitch_local": "Capitale régionale et cœur de la métropole girondine, Bordeaux concentre une diversité architecturale unique : immeubles haussmanniens du Triangle d'Or, maisons bourgeoises de Caudéran, échoppes des Chartrons, barres haussmanniennes de la place Gambetta, résidences contemporaines de Bacalan. Chaque type de bâti appelle une méthode de détection adaptée.",
+        "quartiers": "Les Chartrons, Bacalan, Centre-Ville, Saint-Pierre, Saint-Michel, La Victoire, Les Capucins, Saint-Jean, Nansouty, Saint-Genès, Saint-Seurin, Caudéran, Saint-Augustin, La Bastide, Belcier, Le Lac, Bassins à Flot, Mériadeck",
+        "zones_voisines": "Mérignac, Pessac, Talence, Le Bouscat, Bègles, Caudéran",
+        "specificites": [
+            ("Immeubles haussmanniens et copropriétés anciennes", "Le centre historique bordelais abrite un patrimoine classé à l'UNESCO (Port de la Lune). Les immeubles du Triangle d'Or, du cours de l'Intendance ou de la place Gambetta présentent des colonnes montantes en fonte ou en plomb parfois centenaires. La recherche de fuite y demande de combiner écoute électro-acoustique et thermographie pour éviter de dégrader les finitions d'époque (moulures, parquets Versailles, cheminées marbre)."),
+            ("Pierre calcaire bordelaise et humidité", "La pierre de Frontenac ou de Bourg, très présente dans les façades et murs de refend, est poreuse. Une fuite cachée provoque rapidement des auréoles, du salpêtre, voire des dégradations structurelles. Notre diagnostic localise la source avant que l'humidité ne se diffuse dans les matériaux."),
+            ("Échoppes bordelaises et maisons individuelles", "Aux Chartrons, à Saint-Genès ou à Caudéran, les échoppes traditionnelles (maison basse en pierre) ont souvent vu leurs réseaux d'évacuation refaits en PVC moderne branchés sur des canalisations fonte d'origine. Les points de raccordement sont les zones de fuite les plus fréquentes que nous identifions."),
+            ("Réseaux enterrés et sols argileux", "Une partie du territoire bordelais repose sur des sols argileux sensibles au retrait-gonflement. Ces mouvements de terrain peuvent désaxer les canalisations d'évacuation sous dalle ou les alimentations enterrées depuis le regard de compteur. Le gaz traceur reste la méthode la plus efficace dans ces configurations.")
+        ],
+    },
+    "merignac": {
+        "ville": "Mérignac",
+        "ville_article": "à Mérignac",
+        "cp": "33700",
+        "image": "ville-merignac-residentiel.webp",
+        "image_alt": "Maison individuelle typique de Mérignac, zone d'intervention recherche de fuite en métropole bordelaise",
+        "pitch_local": "Deuxième ville de la métropole bordelaise, Mérignac combine zones résidentielles pavillonnaires, quartiers pavillonnaires anciens et grands ensembles récents. Les maisons individuelles des années 1970 à 2000 constituent l'essentiel du parc immobilier, avec des problématiques caractéristiques de fuites sur canalisations enterrées et plancher chauffant.",
+        "quartiers": "Mérignac Centre, Arlac, Capeyron, Chemin Long, Beutre, Beaudésert, Le Burck, Les Eyquems, Pichey",
+        "zones_voisines": "Bordeaux, Le Haillan, Eysines, Pessac, Saint-Médard-en-Jalles",
+        "specificites": [
+            ("Pavillons des années 80-2000 et planchers chauffants", "Beaucoup de maisons mérignacaises de cette période ont été équipées de planchers chauffants hydrauliques. Après 20 à 40 ans d'utilisation, les micro-perforations sur les tubes PER ou polybutylène sont fréquentes. Notre thermographie infrarouge localise la fuite au degré près sans toucher à la chape."),
+            ("Canalisations d'alimentation enterrées longues", "Les maisons avec grand terrain (plus fréquentes à Arlac ou Beutre) ont des canalisations d'eau enterrées de 10 à 50 mètres entre le regard de compteur et la maison. Une fuite sur ce tronçon peut passer inaperçue pendant des mois et gonfler la facture d'eau avant d'être détectée."),
+            ("Piscines privées nombreuses", "Mérignac concentre une forte densité de piscines individuelles, notamment dans les quartiers résidentiels. Les fuites sur pièces à sceller (skimmer, buses) et canalisations enterrées autour du bassin sont notre quotidien."),
+            ("Proximité aéroport et réseaux multiples", "La zone aéroportuaire et les zones d'activité génèrent des demandes sur des bâtiments tertiaires, des copropriétés récentes et des résidences en locations saisonnières. Chaque configuration a sa propre signature de fuite que nos techniciens savent identifier.")
+        ],
+    },
+    "arcachon": {
+        "ville": "Arcachon",
+        "ville_article": "à Arcachon",
+        "cp": "33120",
+        "image": "ville-arcachon-bassin.webp",
+        "image_alt": "Arcachon vue aérienne avec Bassin et villas de la Ville d'Hiver, zone d'intervention recherche de fuite sur le Bassin d'Arcachon",
+        "pitch_local": "Ville balnéaire emblématique du Bassin d'Arcachon, Arcachon présente un contexte très spécifique : résidences secondaires nombreuses, villas de la Ville d'Hiver classées Monuments historiques, influence marine constante. Les problématiques de fuites y sont accentuées par l'air salin, les variations hygrométriques et la proximité de la nappe.",
+        "quartiers": "Arcachon Centre, Ville d'Hiver, Ville d'Été, Abatilles, Aiguillon, Moulleau, Pereire",
+        "zones_voisines": "La Teste-de-Buch, Gujan-Mestras, Le Teich, Pyla-sur-Mer, Lège-Cap-Ferret",
+        "specificites": [
+            ("Villas de la Ville d'Hiver et patrimoine historique", "Les villas néo-mauresques, coloniales et chalets suisses de la Ville d'Hiver datent pour la plupart du XIXe siècle. Leurs réseaux d'évacuation en fonte d'origine sont souvent fatigués. Toute intervention doit préserver l'intégrité architecturale : nos méthodes non destructives sont ici incontournables."),
+            ("Air salin et corrosion accélérée", "La proximité permanente de l'eau salée du Bassin accélère la corrosion des canalisations métalliques (cuivre, acier galvanisé) et des équipements en inox. Les fuites apparaissent plus tôt qu'en intérieur des terres. Un diagnostic régulier tous les 10 ans est recommandé sur les résidences secondaires."),
+            ("Résidences secondaires et dégâts en hivernage", "De nombreuses propriétés sont occupées quelques semaines par an. Une fuite non détectée à l'automne peut provoquer des dégâts considérables avant le retour des propriétaires au printemps. Nous intervenons en contrat d'entretien préventif pour ce type de configuration."),
+            ("Canalisations enterrées en sable et mouvements", "Le sous-sol sableux d'Arcachon offre une excellente portance mais subit des micro-tassements au gré des variations hygrométriques. Les raccords des canalisations enterrées (alimentation, évacuation, arrosage) peuvent se désaxer lentement et provoquer des fuites progressives.")
+        ],
+    },
+    "libourne": {
+        "ville": "Libourne",
+        "ville_article": "à Libourne",
+        "cp": "33500",
+        "image": "ville-libourne-vignoble.webp",
+        "image_alt": "Propriété viticole du Libournais près de Libourne, zone d'intervention recherche de fuite en Gironde",
+        "pitch_local": "Capitale historique du Libournais, Libourne se situe au confluent de la Dordogne et de l'Isle, au cœur d'un territoire viticole exceptionnel (Saint-Émilion, Pomerol, Fronsac, Côtes de Castillon). Ce contexte unique mélange maisons bourgeoises anciennes, chais de propriétés viticoles et logements modernes, chacun avec ses problématiques spécifiques.",
+        "quartiers": "Libourne Centre, Vieux Libourne, La Ballastière, Verdet, Fontenelle",
+        "zones_voisines": "Saint-Émilion, Pomerol, Fronsac, Saint-Denis-de-Pile, Coutras, Castillon-la-Bataille, Branne",
+        "specificites": [
+            ("Chais et propriétés viticoles anciennes", "Les chais des grands domaines (Saint-Émilion, Pomerol) ont été agrandis à plusieurs reprises sur un bâti parfois médiéval. Les réseaux hydrauliques y sont souvent hétérogènes : fonte ancienne, cuivre des années 50, PVC moderne. La localisation d'une fuite dans ces configurations demande expérience et méthode."),
+            ("Sol argileux et bastides médiévales", "Le Libournais repose sur des sols calcaires et argileux sujets aux mouvements saisonniers. Les bastides médiévales de Libourne et des environs ont des fondations peu profondes, sensibles à ces variations. Les canalisations enterrées sont particulièrement exposées."),
+            ("Maisons bourgeoises du XIXe siècle", "Le centre de Libourne compte de nombreuses maisons bourgeoises de négociants en vins, avec des chemins d'évacuation complexes depuis les étages jusqu'aux caves voûtées. La thermographie et le gaz traceur permettent de suivre le trajet de la fuite sans descendre en cave à chaque étape."),
+            ("Proximité Dordogne et nappe phréatique", "La position au confluent de deux rivières place la nappe phréatique proche de la surface. Les caves et sous-sols des propriétés anciennes sont sensibles aux remontées capillaires, qu'il faut distinguer d'une vraie fuite par des mesures d'humidimètre méthodiques.")
+        ],
+    },
+    "pessac": {
+        "ville": "Pessac",
+        "ville_article": "à Pessac",
+        "cp": "33600",
+        "image": "ville-bordeaux-patrimoine.webp",
+        "image_alt": "Résidences et maisons à Pessac, zone d'intervention recherche de fuite en métropole bordelaise",
+        "pitch_local": "Troisième ville de la métropole bordelaise, Pessac abrite le principal campus universitaire de la Nouvelle-Aquitaine (Université de Bordeaux, Sciences Po), la Cité Frugès de Le Corbusier (UNESCO) et un parc immobilier varié : résidences étudiantes, copropriétés familiales, pavillons individuels, domaines viticoles Graves.",
+        "quartiers": "Pessac Centre, Alouette, Saige, Camponac, Bersol, France, Noès, Le Pontet, Cap-de-Bos",
+        "zones_voisines": "Bordeaux, Talence, Gradignan, Mérignac, Villenave-d'Ornon, Canéjan",
+        "specificites": [
+            ("Cité Frugès et patrimoine XXe siècle", "La Cité Frugès imaginée par Le Corbusier dans les années 1920, classée au patrimoine mondial de l'UNESCO, présente un parc immobilier aux caractéristiques techniques particulières. Toute intervention doit être menée avec la plus grande délicatesse pour respecter l'intégrité architecturale protégée."),
+            ("Résidences universitaires et copropriétés", "Les quartiers d'Alouette et de Saige comptent un grand nombre de résidences étudiantes et de copropriétés familiales des années 1960-80. Les colonnes montantes et les évacuations collectives sont souvent à l'origine de fuites récurrentes entre logements, relevant de la convention IRSI en copropriété."),
+            ("Domaines viticoles Graves et Pessac-Léognan", "Les appellations Pessac-Léognan comptent des châteaux historiques sur le territoire (Haut-Brion, Pape-Clément, Les Carmes Haut-Brion). Leurs réseaux hydrauliques combinent piscines, arrosage, chais et résidences, ce qui complexifie la recherche de fuite en cas de surconsommation."),
+            ("Zone Bersol et bâti tertiaire récent", "Le parc d'activité de Bersol et les zones tertiaires récentes accueillent des bâtiments aux réseaux modernes (multicouche, PE). Les fuites y sont souvent liées à des défauts de pose sur sertissage ou à des mouvements de dalle. Notre écoute électro-acoustique cible précisément ces signatures.")
+        ],
+    },
+}
+
+METHODES_BLOCK = '''
+    <div class="grid-3" style="margin-top:2rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Thermographie infrarouge</h3>
+          <p>Une caméra thermique révèle les variations de température en surface dues à une fuite d'eau derrière un mur ou sous un sol. Idéale pour les planchers chauffants, les réseaux encastrés et les fuites invisibles à l'œil nu.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Gaz traceur azote/hélium</h3>
+          <p>Mélange inerte injecté dans la canalisation sous légère pression. Le gaz remonte en surface au droit de la perforation, détecté par capteur électronique. Précision au demi-mètre, idéal pour canalisations enterrées.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Écoute électro-acoustique</h3>
+          <p>Amplificateur acoustique haute sensibilité qui capte le bruit caractéristique d'une fuite sous pression. La corrélation acoustique localise la source sur réseau enterré ou encastré, même à travers une dalle béton.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Caméra endoscopique ITV</h3>
+          <p>Inspection Télévisée : une caméra motorisée parcourt l'intérieur des canalisations via un accès existant. Identifie fissures, racines, casses, dépôts selon la norme NF EN 13508-2.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Fluorescéine et colorant UV</h3>
+          <p>Colorant fluorescent non toxique versé dans le réseau. Éclairé à la lampe UV, il révèle le trajet de l'eau et le point de fuite. Très efficace pour piscines, canalisations EP, infiltrations de façade.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Humidimètre et traçage</h3>
+          <p>Mesure du taux d'humidité dans les matériaux (plâtre, bois, béton) pour cartographier la zone affectée. Couplé au traçage électromagnétique des réseaux enterrés, affine la localisation avant intervention.</p>
+        </div>
+      </div>
+    </div>
+'''
+
+TYPES_FUITES_BLOCK = '''
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Dégât des eaux en copropriété</h3>
+          <p>Tache au plafond, compteur qui tourne, humidité cyclique : nous localisons l'origine (appartement, colonne, évacuation) pour un rapport opposable en convention IRSI.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Fuite sur plancher chauffant</h3>
+          <p>Perte de pression circuit, sol froid par zones, humidité en périphérie de dalle : thermographie et gaz traceur localisent la perforation sans ouvrir toute la chape.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Surconsommation d'eau</h3>
+          <p>Facture en hausse sans raison, compteur qui tourne seul : test de pression, inspection caméra et écoute électro-acoustique identifient la fuite cachée intérieure ou enterrée.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Canalisation enterrée au jardin</h3>
+          <p>Zone toujours verte, sol gorgé d'eau, affaissement linéaire : gaz traceur au demi-mètre près sur canalisation enterrée sans excavation préalable.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Fuite piscine sans vidange</h3>
+          <p>Niveau d'eau qui baisse au-delà de l'évaporation : fluorescéine, acoustique, test pression, inspection caméra identifient la perte sans vider le bassin.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Fuite toiture / infiltration</h3>
+          <p>Auréoles au plafond après pluie, salpêtre sur murs en pierre : fumigène, colorant et thermographie remontent le parcours depuis l'infiltration en façade.</p>
+        </div>
+      </div>
+    </div>
+'''
+
+TABLEAU_COMPARATIF_BLOCK = '''
+    <div style="overflow-x:auto;margin:1.5rem 0;">
+      <table style="width:100%;border-collapse:collapse;font-size:.95rem;background:var(--white);">
+        <thead>
+          <tr style="background:var(--c-primary);color:var(--white);">
+            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Critère</th>
+            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Détection non destructive</th>
+            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Percement classique</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Ouverture des murs/sols</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Aucune avant localisation</td><td style="padding:.8rem;border:1px solid var(--c-border);">Multiples points au hasard</td></tr>
+          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Durée du diagnostic</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">1h30 à 3h</td><td style="padding:.8rem;border:1px solid var(--c-border);">Plusieurs jours</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Reprise des finitions</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Nulle ou très limitée</td><td style="padding:.8rem;border:1px solid var(--c-border);">Lourde (carrelage, plâtre)</td></tr>
+          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Coût global</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">300 à 900 € HT</td><td style="padding:.8rem;border:1px solid var(--c-border);">Souvent &gt; 2 000 €</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Rapport assurance</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Inclus, opposable IRSI</td><td style="padding:.8rem;border:1px solid var(--c-border);">Variable, souvent insuffisant</td></tr>
+          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Occupation logement</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Maintenue</td><td style="padding:.8rem;border:1px solid var(--c-border);">Souvent impossible</td></tr>
+        </tbody>
+      </table>
+    </div>
+'''
+
+def page_ville_detection_premium(v):
+    slug = v['slug']
+    ctx = VILLES_PREMIUM[slug]
+    ville = ctx['ville']
+    ville_article = ctx['ville_article']
+    cp = ctx['cp']
+
+    # Construction des sections specificites
+    specificites_html = '\n'.join([
+        f'    <h3>{titre}</h3>\n    <p>{contenu}</p>'
+        for titre, contenu in ctx['specificites']
+    ])
+
+    ld_local = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Recherche de fuite d'eau {ville_article} ({cp}) : méthodes non destructives, intervention sous 24h, rapport pour assurance. Spécialistes du patrimoine local.",
+  "url": "https://recherche-fuite-gironde.fr/villes/{slug}/",
+  "image": "https://recherche-fuite-gironde.fr/assets/{ctx['image']}",
+  "address": {{
+    "@type": "PostalAddress",
+    "addressLocality": "{ville}",
+    "postalCode": "{cp}",
+    "addressCountry": "FR"
+  }},
+  "areaServed": {{ "@type": "City", "name": "{ville}", "postalCode": "{cp}" }},
+  "priceRange": "€€",
+  "serviceType": "Recherche de fuite d'eau"
+}}
+</script>'''
+
+    ld_service = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite d'eau non destructive",
+  "name": "Recherche de fuite d'eau {ville_article}",
+  "description": "Localisation précise de fuite d'eau {ville_article} par méthodes non destructives : thermographie infrarouge, gaz traceur azote/hélium, écoute électro-acoustique, caméra endoscopique, fluorescéine. Rapport technique inclus.",
+  "provider": {{
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  }},
+  "areaServed": {{ "@type": "Place", "name": "{ville} et métropole" }},
+  "category": "Détection de fuite non destructive"
+}}
+</script>'''
+
+    ld_breadcrumb = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" }},
+    {{ "@type": "ListItem", "position": 2, "name": "Villes", "item": "https://recherche-fuite-gironde.fr/plan-du-site/" }},
+    {{ "@type": "ListItem", "position": 3, "name": "{ville}", "item": "https://recherche-fuite-gironde.fr/villes/{slug}/" }}
+  ]
+}}
+</script>'''
+
+    ld_faq = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{
+      "@type": "Question",
+      "name": "Combien coûte une recherche de fuite {ville_article} ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Entre 300 et 900 euros HT selon la méthode employée et la complexité du réseau. Un devis fixe est communiqué avant intervention, aucun déplacement facturé si vous décidez de ne pas donner suite. Souvent remboursable par votre assurance habitation." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Intervenez-vous sous 24h {ville_article} ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, pour les fuites actives importantes sur {ville} et les communes voisines, nous intervenons sous 24 heures. Un technicien vous rappelle dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous prioritaire." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Le rapport est-il reconnu par les assurances ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, notre rapport technique (photos, méthodes employées, point de fuite localisé, préconisations) est accepté par les principaux assureurs français. En copropriété, il facilite l'application de la convention IRSI pour les sinistres dégâts des eaux jusqu'à 5 000 euros HT." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Faut-il ouvrir les murs pour trouver la fuite ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Non dans 95 pourcent des cas. Thermographie infrarouge, écoute électro-acoustique et gaz traceur localisent la fuite à travers plâtre, béton, carrelage ou pierre. Seule une ouverture ponctuelle au droit de la fuite est ensuite nécessaire pour la réparation." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Quelle méthode pour une canalisation enterrée {ville_article} ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Principalement le gaz traceur azote/hélium : un mélange inerte est injecté dans la canalisation sous légère pression. Le gaz remonte au droit de la fuite et est détecté par capteur électronique au sol. Précision au demi-mètre près, sans excavation préalable." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Intervenez-vous sur les immeubles anciens {ville_article} ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Absolument. Les immeubles anciens de {ville} (haussmanniens, maisons bourgeoises, échoppes, villas de caractère) sont notre spécialité. Nos méthodes non destructives préservent les finitions d'époque (moulures, parquets, boiseries, pierre de taille) et évitent toute dégradation du patrimoine." }}
+    }}
+  ]
+}}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/plan-du-site/">Villes</a>
+      <span>&rsaquo;</span>
+      <span>{ville}</span>
+    </nav>
+    <span class="badge-cp">{cp}</span>
+    <h1>Recherche de fuite d'eau {ville_article} ({cp})</h1>
+    <p class="hero-mini-lead">Localisation précise de votre fuite d'eau {ville_article} <strong>sans démolition ni tranchée</strong> : thermographie, gaz traceur, écoute électro-acoustique, caméra endoscopique. Intervention sous 24h, rapport technique remis le jour même pour votre assureur.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis gratuit</a>
+      <a href="#methodes" class="btn btn-outline-green">Nos méthodes</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/{ctx['image']}" alt="{ctx['image_alt']}" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <p><strong>Intervention sous 24h {ville_article} et dans les communes voisines.</strong> {ctx['pitch_local']}</p>
+
+    <p>Nos techniciens interviennent dans l'ensemble de la ville ainsi que dans les quartiers limitrophes : {ctx['quartiers']}. Zones voisines couvertes : {ctx['zones_voisines']}.</p>
+  </div>
+</section>
+
+<section class="section section-alt" id="methodes">
+  <div class="container" style="max-width:1080px;">
+    <h2>6 méthodes de recherche de fuite d'eau {ville_article}</h2>
+    <p>Selon la nature, la localisation et la gravité de la fuite, nos techniciens combinent plusieurs méthodes non destructives pour localiser la source avec précision.</p>
+    {METHODES_BLOCK}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Types de fuites que nous localisons {ville_article}</h2>
+    <p>Six situations que nous traitons quotidiennement dans les logements, copropriétés, commerces et résidences de {ville}.</p>
+    {TYPES_FUITES_BLOCK}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Spécificités locales de la recherche de fuite {ville_article}</h2>
+    <p>Chaque territoire a ses particularités. Nos techniciens connaissent celles de {ville} pour adapter leurs méthodes à votre configuration.</p>
+
+{specificites_html}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Détection non destructive vs percement classique {ville_article}</h2>
+    <p>Pourquoi la recherche de fuite moderne bat systématiquement le percement aléatoire ou la démolition préventive, surtout sur un patrimoine comme celui de {ville}.</p>
+    {TABLEAU_COMPARATIF_BLOCK}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur la recherche de fuite {ville_article}</h2>
+
+    <h3>Combien coûte une recherche de fuite {ville_article} ?</h3>
+    <p>Entre 300 et 900 euros HT selon la méthode employée et la complexité du réseau. Un devis fixe est communiqué avant intervention, aucun déplacement facturé si vous décidez de ne pas donner suite. Souvent remboursable par votre assurance habitation au titre de la garantie recherche de fuite.</p>
+
+    <h3>Intervenez-vous sous 24h {ville_article} ?</h3>
+    <p>Oui, pour les fuites actives importantes sur {ville} et les communes voisines, nous intervenons sous 24 heures. Un technicien vous rappelle dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous prioritaire.</p>
+
+    <h3>Le rapport est-il reconnu par les assurances ?</h3>
+    <p>Oui, notre rapport technique (photos, méthodes employées, point de fuite localisé, préconisations) est accepté par les principaux assureurs français. En copropriété, il facilite l'application de la convention IRSI pour les sinistres dégâts des eaux jusqu'à 5 000 euros HT.</p>
+
+    <h3>Faut-il ouvrir les murs pour trouver la fuite ?</h3>
+    <p>Non dans 95 pourcent des cas. Thermographie infrarouge, écoute électro-acoustique et gaz traceur localisent la fuite à travers plâtre, béton, carrelage ou pierre. Seule une ouverture ponctuelle au droit de la fuite est ensuite nécessaire pour la réparation.</p>
+
+    <h3>Quelle méthode pour une canalisation enterrée {ville_article} ?</h3>
+    <p>Principalement le gaz traceur azote/hélium : un mélange inerte est injecté dans la canalisation sous légère pression. Le gaz remonte au droit de la fuite et est détecté par capteur électronique au sol. Précision au demi-mètre près, sans excavation préalable.</p>
+
+    <h3>Intervenez-vous sur les immeubles anciens {ville_article} ?</h3>
+    <p>Absolument. Les immeubles anciens de {ville} (haussmanniens, maisons bourgeoises, échoppes, villas de caractère) sont notre spécialité. Nos méthodes non destructives préservent les finitions d'époque (moulures, parquets, boiseries, pierre de taille) et évitent toute dégradation du patrimoine.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander un devis {ville_article}</a>
+      <div style="margin-top:1rem;">
+        <a href="/villes/{slug}/chemisage/" class="btn btn-outline-green">Chemisage {ville_article} &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{form_section(ville)}
+'''
+
+    return html_base(
+        f'Recherche de fuite d\'eau {ville_article} ({cp}) | Sans démolition',
+        f'Recherche de fuite d\'eau {ville_article} : thermographie, gaz traceur, caméra endoscopique. Intervention sous 24h, rapport pour assurance. Spécialistes patrimoine local.',
+        f'https://recherche-fuite-gironde.fr/villes/{slug}/',
+        body,
+        extra_ld=ld_local + ld_service + ld_breadcrumb + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
 # PAGES USE CASE : Urgence fuite par ville
 # ═══════════════════════════════════════════════════════════════
 
@@ -2448,7 +2860,10 @@ def main():
 
     print('[6/8] Pages villes — détection (30)...')
     for v in VILLES:
-        write(f'villes/{v["slug"]}/index.html', page_ville_detection(v))
+        if v['slug'] in VILLES_PREMIUM:
+            write(f'villes/{v["slug"]}/index.html', page_ville_detection_premium(v))
+        else:
+            write(f'villes/{v["slug"]}/index.html', page_ville_detection(v))
 
     print('[7/8] Pages villes — chemisage (30)...')
     for v in VILLES:
