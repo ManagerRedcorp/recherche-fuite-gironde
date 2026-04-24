@@ -2442,71 +2442,183 @@ PISCINE_PAGES = [
         "slug": "piscine-bordeaux",
         "ville": "Bordeaux",
         "ville_article": "à Bordeaux",
-        "ville_locatif": "Bordeaux",
         "cp": "33000",
-        "contexte_local": "Des propriétés viticoles du Médoc aux villas de Caudéran, du Bouscat ou de Saint-Augustin, les piscines privées de la métropole bordelaise présentent une grande diversité de configurations : bassins enterrés béton, coques polyester, liners PVC, margelles en pierre de Frontenac. Chaque structure exige une approche adaptée pour localiser une fuite sans vidange.",
         "zones_voisines": "Mérignac, Pessac, Talence, Le Bouscat, Caudéran",
-        "hero_image_alt": "Piscine privée avec terrasse dans une propriété de la métropole bordelaise, zone d'intervention recherche de fuite",
+        "hero_image_alt": "Piscine privée avec terrasse dans une propriété bourgeoise du Bouscat ou de Caudéran, zone d'intervention recherche de fuite à Bordeaux",
+        "intro_unique": "Bordeaux intra-muros concentre relativement peu de piscines au cœur du centre historique classé UNESCO (densité bâtie élevée, jardins restreints), mais les quartiers périphériques de Caudéran, du Bouscat voisin, de Saint-Augustin et du Grand Parc comptent un parc significatif de bassins privés, souvent construits entre les années 1970 et 2000 dans les grandes propriétés familiales. Les domaines du Médoc viticole limitrophe ajoutent à ce paysage des piscines plus anciennes, parfois trentenaires, dans les chais et résidences secondaires.",
+        "types_piscines": "À Bordeaux et sa périphérie, nous intervenons majoritairement sur trois configurations : les piscines béton des années 1970-1990 dans les propriétés bourgeoises de Caudéran et Saint-Augustin, les coques polyester installées dans les années 1990-2010 dans les jardins plus compacts des quartiers pavillonnaires, et les liners PVC standards sur des bassins rectangulaires classiques. Quelques piscines miroir ou couloirs de nage se rencontrent dans les propriétés haut de gamme de Caudéran, et les chais du Médoc abritent parfois des piscines béton projeté très anciennes, fissurées structurellement.",
+        "quartiers_zones": "Les zones de forte densité de piscines sur notre secteur d'intervention direct sont Caudéran et Le Bouscat (propriétés bourgeoises avec jardins matures), Saint-Augustin (maisons avec patio), le Grand Parc (certaines échoppes agrandies avec petit bassin), ainsi que les communes voisines Mérignac, Pessac et Talence. En zone viticole du Médoc, nous intervenons jusqu'à Pauillac et Saint-Julien dans les chais et résidences secondaires.",
+        "specificites": [
+            ("Terrain argileux et mouvements saisonniers", "Les sols bordelais sont en grande partie argileux, avec un aléa fort de retrait-gonflement selon les épisodes de sécheresse et de pluie. Ces mouvements provoquent régulièrement la rupture des raccords collés sur canalisations PVC enterrées autour des piscines. Nos interventions sur le Grand Parc ou Caudéran rencontrent fréquemment ce scénario : fuite à 15-20 mètres du bassin, le long du tracé d'alimentation ou de refoulement."),
+            ("Accessibilité contrainte en tissu urbain dense", "Contrairement aux pavillons de banlieue avec accès véhicule direct au jardin, beaucoup de piscines bordelaises sont situées dans des cœurs d'îlots accessibles uniquement via un couloir traversant la maison ou un portail étroit. Nous arrivons avec matériel compact (corrélateur acoustique portable, bouteilles de gaz traceur de 5L) pour intervenir sans gêne, et nous prévoyons les protections anti-tache pour les parquets anciens et carrelages ciment des maisons de ville."),
+            ("Nuisances sonores à minimiser (densité bordelaise)", "Dans un tissu urbain dense, nos mesures acoustiques de localisation de fuite peuvent être perturbées par les bruits ambiants et doivent se faire tôt le matin ou en début de soirée. Nous adaptons nos créneaux d'intervention aux contraintes de voisinage bordelaises, notamment en copropriété où le bassin est parfois collectif."),
+            ("Piscines très anciennes de domaines viticoles", "Dans les domaines du Médoc, certaines piscines construites dans les années 1960 en béton armé présentent des fissures structurelles actives, des étanchéités d'origine (enduit ciment) totalement dépassées, et des canalisations en fonte grise ou galvanisé qui ont survécu plusieurs décennies. Notre méthodologie intègre ces configurations vintages où les méthodes modernes doivent s'adapter à un bâti qui n'a jamais été rénové.")
+        ],
+        "cas_frequent": "Cas récurrent que nous traitons : propriétaire d'une maison bourgeoise à Caudéran avec piscine béton des années 1980, qui constate une baisse de niveau de 3-5 cm par jour en été. Après test du seau, fuite confirmée. Notre diagnostic : colorant fluorescéine autour des pièces à sceller (skimmer + buse refoulement), test de pression séquentiel sur chaque circuit, écoute électro-acoustique le long du tracé des canalisations. Dans 70 pourcent des cas sur ce type de bassin, la fuite est sur un raccord PVC collé de 1985, désaxé par un mouvement de terrain argileux.",
+        "faq_locale": [
+            ("Faut-il des autorisations pour intervenir sur une piscine à Bordeaux Centre ?",
+             "Non, une recherche de fuite est un diagnostic technique qui ne nécessite aucune autorisation d'urbanisme ni déclaration préalable, même dans les secteurs sauvegardés UNESCO du Port de la Lune. Seule l'Architecte des Bâtiments de France intervient pour des travaux modifiant l'aspect extérieur, ce qui n'est pas le cas d'une recherche ou d'une réparation ponctuelle."),
+            ("Intervenez-vous sur les piscines collectives de copropriété à Bordeaux ?",
+             "Oui, nous intervenons régulièrement sur les piscines de copropriétés bordelaises, notamment dans les résidences récentes des Bassins à Flot ou des quartiers du Grand Parc. Le mandatement doit venir du syndic, et le rapport est remis au conseil syndical. La convention IRSI s'applique en cas de dégât des eaux affectant des logements de la copropriété."),
+            ("Travaillez-vous sur les domaines viticoles du Médoc avec piscine ancienne ?",
+             "Oui, nous nous déplaçons jusqu'à Pauillac, Saint-Julien-Beychevelle, Margaux et leurs environs pour les piscines des chais et résidences. Un supplément de déplacement s'applique au-delà de 30 km du centre de Bordeaux, forfaitaire et communiqué dans le devis.")
+        ],
     },
     {
         "slug": "piscine-merignac",
         "ville": "Mérignac",
         "ville_article": "à Mérignac",
-        "ville_locatif": "Mérignac",
         "cp": "33700",
-        "contexte_local": "Mérignac concentre une forte densité de maisons individuelles avec piscine dans les quartiers d'Arlac, Capeyron, Chemin Long et Beutre. Les bassins des années 1980 à 2000, souvent en béton projeté ou liner PVC, présentent des problématiques récurrentes : canalisations PVC vieillissantes, joints de skimmer durcis, liners en fin de vie. Notre diagnostic non destructif s'adapte à chacune de ces configurations.",
         "zones_voisines": "Bordeaux, Le Haillan, Eysines, Pessac, Saint-Médard-en-Jalles",
-        "hero_image_alt": "Piscine privée en jardin d'une maison individuelle à Mérignac, zone d'intervention recherche de fuite sans vidange",
+        "hero_image_alt": "Piscine liner PVC dans un pavillon individuel de Mérignac Arlac, zone d'intervention recherche de fuite sans vidange",
+        "intro_unique": "Mérignac, deuxième ville de la métropole bordelaise par sa population, présente un parc de piscines privées parmi les plus denses de Gironde. La majorité des bassins ont été installés entre 1985 et 2005 dans les lotissements pavillonnaires qui ont poussé avec le développement urbain de la commune. Résultat : un parc homogène de piscines 8×4 mètres en liner PVC, avec aujourd'hui une moyenne d'âge de 25 à 35 ans, période à laquelle les joints durcissent, les pièces à sceller fuient et les canalisations PVC enterrées atteignent leur première limite de vieillissement.",
+        "types_piscines": "À Mérignac, environ 80 pourcent des piscines que nous diagnostiquons sont des bassins enterrés avec liner PVC 75/100 ou 85/100 d'épaisseur, de format standard 4×8 ou 5×10 mètres. On trouve aussi des coques polyester coco des années 1990-2000, souvent installées dans les lotissements de Capeyron ou Beutre, et plus rarement des piscines béton projeté récentes dans les maisons haut de gamme du Chemin Long. Les piscines hors-sol et semi-enterrées sont minoritaires mais présentes dans les jardins plus récents de Beaudésert.",
+        "quartiers_zones": "Les quartiers à forte densité de piscines à Mérignac sont Arlac (pavillons 1970-1990 avec grands terrains), Capeyron (résidentiel familial des années 1980), Chemin Long et Beutre (terrains plus spacieux, piscines plus grandes), Les Eyquems et Beaudésert (pavillons plus récents). La proximité de l'aéroport concentre également des logements de location saisonnière avec piscines peu entretenues.",
+        "specificites": [
+            ("Piscines liner PVC en fin de première vie (25-35 ans)", "La majorité des liners que nous rencontrons à Mérignac ont été posés entre 1985 et 1995. À cet âge, le PVC perd sa plasticité : il se rigidifie, les plis aux angles se figent et se fissurent, les soudures des coins et au droit du skimmer cèdent par fatigue. La recherche de fuite sur ces liners demande un colorant fluorescéine précis et une observation en apnée ou à la caméra, car les perforations sont souvent punctiformes (0,5 à 2 mm)."),
+            ("Joints de pièces à sceller desséchés", "Dans ces piscines installées il y a 25-35 ans, les joints mastic entre les pièces à sceller (skimmer, buses de refoulement, prise balai, bonde de fond) et le liner ou le béton sont souvent totalement desséchés. Nous identifions cette catégorie de fuite par injection de colorant au pourtour immédiat de chaque pièce et observation du cheminement. Remise en étanchéité par silicone piscine ou remplacement de bride après localisation."),
+            ("Canalisations PVC d'alimentation vieillissantes", "Les tuyaux PVC collés de 50 mm ou 63 mm qui alimentent skimmer et bonde de fond ont typiquement 25-35 ans sur les piscines du parc immobilier mérignacais. Les raccords collés subissent des chocs thermiques et des mouvements du terrain. Notre écoute électro-acoustique et le gaz traceur localisent précisément le raccord défectueux, souvent à 2-5 mètres sous la dalle du local technique ou sous la plage."),
+            ("Proximité aéroport et vibrations sol", "Certains quartiers proches de l'aéroport de Mérignac (Arlac, Capeyron sud, zones de Bersol voisines) subissent des vibrations régulières du sol liées au trafic aérien et aux installations militaires. Sur la durée, cela sollicite les raccords des canalisations enterrées. Nos techniciens, habitués à ce contexte, savent cibler les zones de contrainte mécanique accrue lors du diagnostic.")
+        ],
+        "cas_frequent": "Scénario type à Mérignac : pavillon Arlac des années 1990, piscine liner 8×4m d'origine, propriétaire qui constate après remise en eau au printemps une baisse de 2-3 cm par jour. Test du seau : fuite confirmée. Notre approche : inspection visuelle du liner à la caméra, colorant fluorescéine aux pièces à sceller, test de pression des canalisations. Dans 60 pourcent des cas, la fuite est au niveau du skimmer (joint mastic desséché), dans 25 pourcent sur la bonde de fond, et 15 pourcent sur une canalisation PVC enterrée au droit d'un raccord collé.",
+        "faq_locale": [
+            ("Ma piscine à Mérignac a 30 ans, vaut-il mieux rechercher la fuite ou tout refaire ?",
+             "Ça dépend. Si la fuite est isolée (un joint de skimmer, un raccord de canalisation), la réparation coûte 200 à 800 euros et prolonge le bassin de 10-15 ans. Si le liner est généralisé en fin de vie (plis multiples, soudures cédées, décolorations), un changement de liner s'impose (3 000 à 6 000 euros selon la taille). Notre diagnostic vous donne les éléments objectifs pour trancher : rapport complet sur l'état du liner et des pièces à sceller, avec préconisation claire."),
+            ("Intervenez-vous les week-ends à Mérignac pendant la saison estivale ?",
+             "Oui, du lundi au samedi, avec des créneaux prioritaires pour les piscines dont la fuite est active et importante (plus de 5 cm par jour). En saison haute (juin à septembre), nous organisons systématiquement des tournées dédiées piscines pour répondre sous 48 à 72 heures aux demandes de la métropole bordelaise."),
+            ("Ma piscine Mérignac perd 1 cm par jour : urgent ou pas ?",
+             "1 cm/jour correspond à une perte d'environ 600 litres pour une piscine 8×4 mètres. À l'échelle d'un été, c'est environ 60 m³ d'eau perdus, soit une facture supplémentaire de 200 à 400 euros en zone Suez Bordeaux Métropole. Économiquement, localiser et réparer la fuite se rentabilise en une saison. Techniquement, une fuite non traitée peut saturer les terres autour du bassin, provoquer un tassement et aggraver le problème.")
+        ],
     },
     {
         "slug": "piscine-arcachon",
         "ville": "Arcachon",
         "ville_article": "à Arcachon",
-        "ville_locatif": "Arcachon",
         "cp": "33120",
-        "contexte_local": "Les piscines d'Arcachon et de la Ville d'Hiver subissent un environnement spécifique : proximité de l'eau salée, vents porteurs de sable, variations hygrométriques importantes. Ces conditions accélèrent le vieillissement des joints, des pièces à sceller et des canalisations enterrées. L'air salin corrode aussi les équipements du local technique plus rapidement qu'à l'intérieur des terres.",
-        "zones_voisines": "La Teste-de-Buch, Gujan-Mestras, Le Teich, Pyla-sur-Mer",
-        "hero_image_alt": "Piscine privée à Arcachon proche du Bassin, zone d'intervention recherche de fuite",
+        "zones_voisines": "La Teste-de-Buch, Gujan-Mestras, Le Teich, Pyla-sur-Mer, Lège-Cap-Ferret",
+        "hero_image_alt": "Villa avec piscine chauffée dans le quartier d'Abatilles à Arcachon, zone d'intervention recherche de fuite sur Bassin d'Arcachon",
+        "intro_unique": "Arcachon présente un profil atypique en Gironde : ville balnéaire à forte population de résidences secondaires, densité de piscines très élevée par rapport à la population permanente, et parc immobilier haut de gamme concentré dans la Ville d'Hiver, Abatilles et le Moulleau. Les piscines y sont souvent plus équipées que la moyenne (chauffage par pompe à chaleur, couverture automatique, débordement, volet immergé), ce qui multiplie les points potentiels de fuite sur un réseau hydraulique complexe.",
+        "types_piscines": "À Arcachon, nous intervenons majoritairement sur des bassins béton armé de moyenne et grande taille (souvent 10×5 à 12×6 mètres), des piscines miroir avec débordement périphérique qui complexifient la recherche de fuite (perte apparente dans le bac tampon), des piscines chauffées par PAC air-eau ou échangeur thermique installées dans des locaux techniques corrodés par l'air marin, et plus rarement des liners PVC sur des bassins plus modestes des résidences secondaires plus anciennes.",
+        "quartiers_zones": "Les quartiers à concentration de piscines sont la Ville d'Hiver (villas néo-mauresques et chalets suisses avec bassins historiques), Abatilles (résidences modernes avec piscines équipées), le Moulleau (villas en front de plage avec piscines exposées), Pereire (quartier balnéaire résidentiel) et Arcachon Centre dans une moindre mesure. Nous intervenons aussi au Pyla-sur-Mer voisin.",
+        "specificites": [
+            ("Corrosion accélérée par air salin", "L'air chargé en embruns marins (le Bassin est à moins d'un kilomètre de la plupart des piscines arcachonaises) corrode à vitesse accélérée tout l'inox du local technique : échangeurs thermiques, vis de brides, raccords de capteurs, nourrices de distribution. Les pompes à chaleur piscine y ont une durée de vie de 7 à 10 ans au lieu de 12-15 ans en intérieur des terres. Nous diagnostiquons régulièrement des fuites de PAC piscine venant d'un condenseur corrodé, pas du bassin lui-même."),
+            ("Piscines miroir et débordement complexes", "Sur les piscines à débordement périphérique (très courantes à Abatilles et Pereire), la fuite n'est pas visible par la simple baisse de niveau du bassin : l'eau déborde en permanence dans le bac tampon qui compense. C'est le bac tampon qui baisse, ou la consommation d'eau de remise à niveau automatique qui augmente. Notre méthodologie sur ces bassins : test de coupure de la circulation, isolation séquentielle de chaque buse de débordement, inspection caméra des gouttières."),
+            ("Résidences secondaires et dégâts en hivernage", "Une partie importante de notre clientèle arcachonaise sont des résidents secondaires occupant leur villa 2 à 6 semaines par an. Une fuite non détectée à l'automne peut causer des dégâts considérables : 5 à 10 m³ perdus par semaine, affouillement des terres sous la dalle de plage, infiltration dans le local technique, dégradation du jardin. Nous proposons un contrat de diagnostic préventif saisonnier pour ces clients."),
+            ("Canalisations enterrées en sable et micro-tassements", "Le sol sableux typique d'Arcachon (sables blancs du Bassin) offre une excellente portance mais subit des tassements différentiels sur la durée. Les canalisations enterrées entre la piscine et le local technique, souvent sur 10 à 25 mètres de tracé, se désaxent lentement au niveau des raccords collés PVC. Le gaz traceur azote/hélium est notre méthode de référence pour localiser ces fuites au demi-mètre près sans excavation.")
+        ],
+        "cas_frequent": "Cas type arcachonais : villa de la Ville d'Hiver avec piscine béton 11×5 mètres chauffée par PAC, propriétaire résident de l'agglomération bordelaise qui occupe sa résidence secondaire 4-5 semaines par an. Constat à la réouverture printanière : bassin plus bas de 15 cm malgré couverture, compteur d'eau de remise à niveau anormal. Notre diagnostic combine test de pression des canalisations (première suspicion), inspection PAC (condenseur fuyant dans 30 pourcent des cas sur ce profil), puis colorant sur pièces à sceller. Dans 45 pourcent des cas, la fuite vient du réseau hydraulique entre bassin et local technique, au niveau d'un raccord désaxé par tassement sableux.",
+        "faq_locale": [
+            ("Dois-je hiverner ma piscine Arcachon en hiver ou la laisser en fonctionnement ?",
+             "Le climat océanique doux d'Arcachon permet de laisser la piscine en fonctionnement réduit toute l'année, ce que font beaucoup de propriétaires de résidences secondaires. Attention cependant : une fuite non détectée peut générer un sinistre majeur avant votre retour. Nous recommandons a minima un diagnostic préventif tous les 2-3 ans sur ce profil d'usage, et un hivernage actif dès que le propriétaire ne revient pas avant mars."),
+            ("La proximité de l'eau salée du Bassin peut-elle polluer ma piscine ?",
+             "Non, la piscine utilise de l'eau douce du réseau public, il n'y a pas de contamination directe par le Bassin d'Arcachon. En revanche, l'air salin accélère la corrosion des éléments métalliques : vis des pièces à sceller, brides de skimmer, échangeurs thermiques. Sur une piscine arcachonaise de plus de 15 ans, nous vérifions systématiquement l'état de l'inox au local technique en complément du diagnostic bassin."),
+            ("Intervenez-vous sur les piscines des villas classées de la Ville d'Hiver ?",
+             "Oui, nous sommes formés à intervenir sur les bâtiments classés et les abords protégés. Notre méthodologie strictement non destructive préserve les margelles en pierre d'origine, les plages carrelées d'époque et les décors paysagers matures. Un devis précis détaille les précautions prises et les limites techniques rencontrées sur ces configurations patrimoniales.")
+        ],
     },
     {
         "slug": "piscine-la-teste-de-buch",
         "ville": "La Teste-de-Buch",
         "ville_article": "à La Teste-de-Buch",
-        "ville_locatif": "La Teste-de-Buch",
         "cp": "33260",
-        "contexte_local": "La Teste-de-Buch, plus grande commune du bassin d'Arcachon par la superficie, compte une densité exceptionnelle de piscines privées dans les lotissements de Cazaux, du Pyla et du centre. Les sols sableux posent des défis spécifiques : affaissement léger des canalisations enterrées, désaxement des raccords, besoin de reprendre régulièrement l'étanchéité des pièces à sceller.",
         "zones_voisines": "Arcachon, Gujan-Mestras, Biganos, Le Teich",
-        "hero_image_alt": "Piscine privée avec sol sableux caractéristique de La Teste-de-Buch, zone d'intervention recherche de fuite",
+        "hero_image_alt": "Piscine dans un lotissement pavillonnaire de Cazaux à La Teste-de-Buch, zone d'intervention recherche de fuite",
+        "intro_unique": "La Teste-de-Buch couvre la plus grande superficie communale du bassin d'Arcachon et offre un parc de piscines privées très étendu, de profils contrastés : du pavillon familial des lotissements de Cazaux (années 1990-2010) aux villas d'exception du Pyla (bassins haut de gamme face à la dune), en passant par les maisons secondaires historiques du centre. Le sol sableux caractéristique rend les problématiques de canalisations enterrées particulièrement fréquentes sur ce territoire.",
+        "types_piscines": "À La Teste, nous intervenons sur trois grands profils : les piscines liner 8×4 à 10×5 mètres des lotissements pavillonnaires de Cazaux (majoritairement construites 2000-2015), les piscines coques polyester des quartiers plus récents (Pyla-La Teste, Pléneau), et les piscines béton armé haut de gamme du Pyla-sur-Mer (grand format, équipement complet : chauffage, volet, débordement partiel, traitement au sel). Le taux de piscines hors-sol est notable dans les lotissements les plus récents, souvent pour les jeunes familles.",
+        "quartiers_zones": "Les secteurs à forte densité de piscines : Cazaux (plus grand parc de lotissements pavillonnaires avec piscines standards), Pyla-sur-Mer et Pléneau (haut de gamme, villas front de dune), La Teste Centre (moins dense mais piscines de maisons anciennes), et les zones résidentielles près du Bassin (Conteste, Pinèdes). Le tissu commercial et les résidences de tourisme ajoutent à la charge d'intervention en saison estivale.",
+        "specificites": [
+            ("Sol sableux et désaxement des raccords enterrés", "La Teste-de-Buch est entièrement construite sur un sol sablonneux fin typique du bassin d'Arcachon. Les canalisations enterrées PVC collées subissent des micro-mouvements différentiels permanents, accélérés par le ballet des racines de pins et les variations hygrométriques saisonnières. Résultat : les raccords PVC de 15 à 25 ans d'âge cèdent avec une fréquence sensiblement plus élevée qu'en sol argileux. Notre gaz traceur est l'outil de référence sur ces configurations."),
+            ("Nappe phréatique haute par endroits", "Certains quartiers de La Teste (notamment en bordure du Bassin ou dans les zones lagunaires de Cazaux) présentent une nappe phréatique proche de la surface, parfois à moins d'un mètre. Cela interdit la vidange complète d'une piscine sans risque de soulèvement du bassin (effet flotteur). C'est pourquoi le diagnostic sans vidange que nous pratiquons est ici quasi obligatoire : aucune autre méthode n'est envisageable dans de nombreux cas."),
+            ("Résidences secondaires et usage saisonnier", "Comme Arcachon voisine, La Teste compte une proportion significative de résidences secondaires et de résidences de tourisme (locations saisonnières). Les piscines sont souvent peu entretenues hors saison, avec des remises en service au printemps qui révèlent les fuites accumulées pendant l'hiver. Notre pic de demande sur La Teste est entre avril et juin, suivi d'un pic estival sur les propriétaires résidents."),
+            ("Pins maritimes et racines envahissantes", "L'environnement forestier de pins maritimes typique du bassin (Cazaux, Pléneau) place régulièrement les piscines à moins de 5 à 10 mètres de grands arbres. Les racines peuvent à terme venir solliciter les canalisations enterrées, soit en les désaxant, soit en pénétrant des raccords défectueux. Nous identifions ces configurations via caméra endoscopique et recommandons parfois un traitement racinaire préventif.")
+        ],
+        "cas_frequent": "Cas récurrent à La Teste : pavillon de lotissement à Cazaux, piscine 8×4 mètres liner ou coque installée autour de 2005-2010, propriétaire qui note après l'hiver une baisse de niveau anormale alors que la piscine était couverte. Nos pistes : test de coupure sur les canalisations enterrées (première cause en sol sableux), diagnostic liner en cas d'usage intense l'été précédent, puis vérification du local technique. Dans 50 pourcent des cas, la fuite est localisée sur le réseau enterré à 3-8 mètres du bassin, au niveau d'un raccord PVC désaxé par le sable.",
+        "faq_locale": [
+            ("Puis-je vider ma piscine à La Teste en hiver ?",
+             "Non, ce n'est presque jamais conseillé à La Teste. La nappe phréatique proche de la surface dans de nombreux quartiers peut faire remonter le bassin vide (effet flotteur), causant fissures voire délogement complet du bassin. De plus, une vidange coûte 1 500 à 3 500 euros en eau et produits de remise en service. Notre méthode sans vidange (colorant, acoustique, pression) évite ces risques et coûts."),
+            ("Les racines de pins peuvent-elles endommager ma piscine à Cazaux ?",
+             "Oui, les pins maritimes ont un système racinaire superficiel qui peut atteindre 8 à 15 mètres horizontalement. Les racines cherchent l'humidité et pénètrent les raccords défectueux ou les canalisations enterrées. Sur les piscines de lotissements de Cazaux entourées de pins, nous recommandons une inspection caméra des canalisations enterrées tous les 10 ans à titre préventif."),
+            ("Combien coûte une intervention piscine à La Teste vs Bordeaux ?",
+             "Nos tarifs sont identiques sur toute la métropole et le bassin d'Arcachon : 300 à 700 euros HT selon la méthode. Un supplément forfaitaire de déplacement de 40 euros s'applique pour La Teste et les communes du bassin d'Arcachon au-delà des zones directement accessibles depuis Bordeaux. Ce supplément est inclus dans le devis communiqué avant intervention.")
+        ],
     },
     {
         "slug": "piscine-gujan-mestras",
         "ville": "Gujan-Mestras",
         "ville_article": "à Gujan-Mestras",
-        "ville_locatif": "Gujan-Mestras",
         "cp": "33470",
-        "contexte_local": "Commune dynamique du bassin d'Arcachon, Gujan-Mestras compte une forte proportion de résidences secondaires et de maisons familiales équipées de piscines. Le contexte côtier et les sols sableux favorisent des problèmes spécifiques aux canalisations enterrées ainsi qu'aux joints des pièces à sceller, soumis aux variations thermiques importantes entre l'hiver humide et l'été chaud.",
         "zones_voisines": "La Teste-de-Buch, Le Teich, Biganos, Arcachon",
-        "hero_image_alt": "Piscine privée dans une maison du Bassin d'Arcachon à Gujan-Mestras, zone d'intervention recherche de fuite",
+        "hero_image_alt": "Piscine familiale dans une maison de Gujan-Mestras près du Bassin d'Arcachon, zone d'intervention recherche de fuite",
+        "intro_unique": "Gujan-Mestras, commune emblématique du bassin d'Arcachon historiquement liée à l'ostréiculture, a connu un développement pavillonnaire important depuis les années 1990. Son parc de piscines privées, plus récent que celui de sa voisine La Teste, comprend une proportion élevée de coques polyester et de liners posés entre 2000 et 2020, sur des terrains sableux ou semi-sableux. Les résidences secondaires sont également nombreuses, avec leurs problématiques spécifiques d'usage saisonnier.",
+        "types_piscines": "À Gujan-Mestras, le parc de piscines est dominé par les coques polyester coco des années 2000-2015 (environ 45 pourcent des bassins que nous diagnostiquons), suivies par les liners PVC classiques de format moyen (35 pourcent), quelques piscines béton armé haut de gamme dans les quartiers les plus récents (15 pourcent) et une part croissante de piscines naturelles / bio-phytoépuration dans les zones résidentielles récentes soucieuses d'environnement (5 pourcent).",
+        "quartiers_zones": "Les principales zones d'intervention à Gujan-Mestras : centre historique autour du port et de la mairie (piscines anciennes dans maisons bourgeoises), La Hume (quartier résidentiel familial), Le Petit Piquey, les nouveaux lotissements entre RD650 et voie ferrée, et les villages ostréicoles le long du Bassin (Larros, Meyran, Gujan Port) qui comptent quelques piscines dans les maisons reconverties. Les résidences de tourisme et parcs d'attractions (La Coccinelle, Aqualand) ne sont pas dans notre scope (piscines collectives non privatives).",
+        "specificites": [
+            ("Coques polyester des années 2000-2015 en vieillissement", "Le parc de coques de Gujan-Mestras entre dans la phase de vieillissement où les gel-coats d'origine montrent leurs faiblesses : micro-cloques par osmose, fissures de retrait au niveau des bondes de fond moulées, délaminage entre couches de fibres de verre. Notre inspection caméra sous-marine identifie ces défauts et les différencie d'une simple fuite hydraulique. La fluorescéine complète le diagnostic en confirmant si un défaut visuel est bien fuyant."),
+            ("Proximité immédiate du Bassin d'Arcachon", "Une partie des piscines gujanaises se situe à moins de 500 mètres du Bassin, avec les mêmes effets d'air salin et humidité qu'à Arcachon : corrosion des inox, des pompes à chaleur, des éléments métalliques du local technique. Le diagnostic piscine doit systématiquement inclure la vérification du périphérique technique, la fuite pouvant venir d'un équipement corrodé plutôt que du bassin lui-même."),
+            ("Piscines naturelles et bio-phytoépuration", "Gujan-Mestras compte un nombre croissant de piscines naturelles à filtration végétale (lagunage, bassin de plantation). Ces installations nécessitent une approche spécifique : la fuite peut être dans le bassin de baignade, le bassin de lagunage, ou les canalisations de transfert entre les deux. Nos méthodes (colorant, acoustique, gaz traceur) s'adaptent à ces configurations non conventionnelles, plus complexes à diagnostiquer."),
+            ("Hivernage hétérogène selon usage", "Entre résidents principaux qui hivernent actif (couverture + filtration réduite), résidents secondaires qui hivernent passif (bassin bâché et couvrant) et locations saisonnières qui laissent à l'abandon total, la qualité d'hivernage varie fortement à Gujan. Une mauvaise hivernisation en région Bassin (où le gel est rare mais l'humidité extrême) endommage les joints des pièces à sceller, surtout si la piscine est placée en zone venteuse exposée.")
+        ],
+        "cas_frequent": "Scénario fréquent à Gujan-Mestras : coque polyester 8×4 mètres installée vers 2008 dans un lotissement de La Hume, propriétaire résident principal. Il constate après ouverture de saison une baisse de 2 cm/jour, sans changement d'usage. Notre méthodologie : inspection caméra complète de la coque (recherche de micro-fissures, cloques, défauts), injection de colorant aux 4 pièces à sceller, test de pression sur chaque circuit. Dans 40 pourcent des cas, la fuite est sur la coque elle-même (micro-fissure près d'une bride), dans 35 pourcent sur un joint, et 25 pourcent sur canalisation enterrée.",
+        "faq_locale": [
+            ("Ma coque polyester Gujan-Mestras a 15 ans, à quoi dois-je faire attention ?",
+             "Les coques polyester de 15 ans atteignent la phase où les défauts structurels apparaissent : osmose (cloques sur le gel-coat, signe d'humidité passée derrière la couche étanche), délaminage inter-couches (décollement entre strates de fibre), fissures au niveau des pièces moulées (bondes, marches). Notre inspection caméra sous-marine systématique sur ces coques détecte les défauts précoces et permet une réparation ciblée avant la fuite majeure."),
+            ("Puis-je installer une piscine naturelle malgré la proximité du Bassin ?",
+             "Oui, les piscines naturelles fonctionnent très bien sur la commune. Le sol sableux facilite les bassins de lagunage. Attention en revanche à respecter les règles locales d'installation (distance aux arbres, gestion du trop-plein, compatibilité avec la nappe phréatique parfois proche). Pour la recherche de fuite sur ce type d'installation, nous utilisons les mêmes méthodes que sur une piscine classique, avec une attention particulière aux transferts entre compartiments."),
+            ("Faut-il un matériel spécifique pour les piscines de résidences secondaires à Gujan ?",
+             "Pas de matériel spécifique, mais une méthodologie adaptée : nous combinons systématiquement inspection caméra, test de pression des canalisations et vérification du local technique (corrosion équipements), car les fuites de résidences secondaires peuvent s'être accumulées pendant plusieurs mois sans contrôle. Le rapport final détaille l'état global du bassin, utile pour les propriétaires qui ne sont pas sur place.")
+        ],
     },
     {
         "slug": "piscine-libourne",
         "ville": "Libourne",
         "ville_article": "à Libourne",
-        "ville_locatif": "Libourne",
         "cp": "33500",
-        "contexte_local": "Libourne et les communes du Libournais (Saint-Émilion, Pomerol, Fronsac) comptent de nombreuses piscines dans les propriétés viticoles et les maisons bourgeoises anciennes. Les bassins en béton armé de 20 à 40 ans d'âge nécessitent souvent une attention particulière aux fissures structurelles et à l'étanchéité des angles. Le sol argileux caractéristique de la région peut provoquer des mouvements qui désaxent les canalisations.",
-        "zones_voisines": "Saint-Émilion, Saint-Denis-de-Pile, Coutras, Castillon-la-Bataille",
-        "hero_image_alt": "Piscine privée dans une propriété du Libournais à Libourne, zone d'intervention recherche de fuite",
+        "zones_voisines": "Saint-Émilion, Pomerol, Fronsac, Saint-Denis-de-Pile, Coutras, Castillon-la-Bataille, Branne",
+        "hero_image_alt": "Piscine béton dans une propriété viticole du Libournais près de Libourne, zone d'intervention recherche de fuite",
+        "intro_unique": "Le Libournais concentre un parc de piscines particulier en Gironde : forte proportion de bassins anciens (30 à 50 ans) dans les propriétés viticoles et les maisons bourgeoises de négociants en vins, sol argileux très sensible aux mouvements saisonniers, et distance significative à la métropole bordelaise qui décourage les interventions low-cost non spécialisées. Notre méthodologie prend en compte ces spécificités patrimoniales et géologiques pour un diagnostic adapté aux bassins du Libournais.",
+        "types_piscines": "Le parc libournais se distingue par une forte présence de piscines béton projeté des années 1970-1990, avec enduit ciment d'origine et étanchéité par peinture époxy refaite plusieurs fois. On trouve aussi des bassins plus récents en liner PVC ou coques polyester dans les lotissements de Libourne intra-muros, quelques piscines hors-sol dans les maisons de négociants, et des bassins couloirs de nage dans les domaines viticoles haut de gamme de Saint-Émilion grand cru et Pomerol.",
+        "quartiers_zones": "Nos interventions se concentrent à Libourne centre (quartier bourgeois autour de la place Abel-Surchamp), La Ballastière et Verdet (lotissements récents), Fontenelle (résidentiel), et surtout dans les domaines viticoles alentours : Saint-Émilion (Château Cheval Blanc, Château Figeac secteurs), Pomerol (Château Pétrus voisinage), Fronsac et Canon-Fronsac, Côtes de Castillon. Saint-Denis-de-Pile, Coutras et Branne complètent notre zone de déplacement standard.",
+        "specificites": [
+            ("Piscines béton très anciennes et fissures structurelles", "Beaucoup de bassins du Libournais ont 30 à 50 ans, avec des technologies d'étanchéité dépassées : enduit ciment lissé, peinture époxy trente fois repeinte, fers d'armature parfois affleurants par corrosion. Les fissures structurelles sont fréquentes, surtout aux jonctions paroi/fond et aux angles. Notre caméra endoscopique sous-marine documente ces défauts et nous recommandons souvent un diagnostic structurel complémentaire par expert béton si la fissure est large."),
+            ("Sol argileux et retrait-gonflement saisonnier", "Le Libournais repose sur des sols argileux typiques des terroirs viticoles de Saint-Émilion à Fronsac, classés en aléa moyen à fort de retrait-gonflement. Les piscines y subissent des sollicitations mécaniques saisonnières : serrage en été sec, relâchement en hiver humide. Sur 30 ans, ces cycles fatiguent les structures et les canalisations enterrées. Nous incluons systématiquement cette donnée dans le diagnostic des bassins anciens du secteur."),
+            ("Entretien hétérogène sur domaines viticoles", "Les piscines des domaines viticoles sont souvent des équipements secondaires par rapport à l'activité principale (culture de vigne, vinification). Leur entretien peut être délégué à des prestataires irréguliers, voire négligé pendant les vendanges et périodes de tirage. Nous rencontrons régulièrement des piscines non utilisées depuis 3-5 ans, avec fuites multiples accumulées. Notre diagnostic complet remet le bassin dans un état d'état des lieux détaillé pour le propriétaire ou son gestionnaire."),
+            ("Distance à Bordeaux et interventions groupées", "Libourne est à 30 kilomètres du centre de Bordeaux. Pour optimiser les déplacements, nous organisons des tournées libournaises hebdomadaires en saison, permettant d'intervenir à tarif standard sans majoration géographique. Les domaines voisins (Saint-Émilion, Pomerol, Fronsac) sont couverts dans ces tournées. Un devis fixe est communiqué en amont.")
+        ],
+        "cas_frequent": "Cas type dans le Libournais : château avec piscine béton 12×5 mètres construite vers 1975, enduit ciment origine repeint dans les années 1990. Le gestionnaire constate une baisse d'eau accélérée après une pluie abondante : 4 à 6 cm/jour. Notre diagnostic : inspection caméra sous-marine (recherche fissures actives), colorant aux fissures identifiées et aux pièces à sceller, test de pression sur canalisations. Dans 50 pourcent des cas sur ce profil, la fuite est structurelle (fissure active sur paroi ou fond), dans 30 pourcent sur une ancienne canalisation fonte oubliée, 20 pourcent sur pièces à sceller.",
+        "faq_locale": [
+            ("Ma piscine château Libourne a 40 ans et fuit, faut-il la refaire entièrement ?",
+             "Pas nécessairement. Une fuite sur bassin ancien peut être ponctuelle (fissure isolée, pièce à sceller usée) et se réparer pour quelques centaines d'euros avec une remise en étanchéité locale. Mais si les fissures sont multiples et actives, si l'enduit d'origine est généralisé en fin de vie, une rénovation complète (rebéton, liner renforcé armé type PVC 150/100, ou chape d'étanchéité moderne) s'impose. Notre rapport évalue objectivement cette décision."),
+            ("Intervenez-vous sur les propriétés viticoles grands crus de Saint-Émilion ?",
+             "Oui, nous intervenons régulièrement sur les domaines grands crus classés et leurs dépendances : châteaux historiques, résidences, dépendances avec piscines. Notre approche respecte scrupuleusement les accès restreints, les consignes de discrétion, et la préservation des espaces paysagers. Un devis précis est établi après visite préalable si la configuration le justifie."),
+            ("Sols argileux Libournais : quel impact sur ma piscine ?",
+             "Les argiles du Libournais se rétractent en sécheresse et gonflent en humidité, sollicitant mécaniquement tout ce qui est enterré : canalisations, dalles de plage, parfois structure du bassin si les fondations sont insuffisantes. Pour une piscine neuve, une étude de sol est indispensable. Pour un bassin existant, un suivi des canalisations enterrées tous les 10-15 ans est recommandé : c'est souvent là que la fuite apparaît en premier.")
+        ],
     },
     {
         "slug": "piscine-le-bouscat",
         "ville": "Le Bouscat",
         "ville_article": "au Bouscat",
-        "ville_locatif": "Le Bouscat",
         "cp": "33110",
-        "contexte_local": "Le Bouscat, ville résidentielle limitrophe de Bordeaux, compte de nombreuses piscines dans les quartiers pavillonnaires (Parc Bordelais, La Châtaigneraie, Bourran). Les bassins sont souvent intégrés à des jardins matures avec racines proches, ce qui peut solliciter les canalisations enterrées. Les piscines plus anciennes, avec équipements techniques en sous-sol, nécessitent un diagnostic précis pour distinguer une fuite de bassin d'une fuite de local technique.",
         "zones_voisines": "Bordeaux, Caudéran, Bruges, Eysines, Mérignac",
-        "hero_image_alt": "Piscine privée dans un jardin pavillonnaire du Bouscat, zone d'intervention recherche de fuite",
+        "hero_image_alt": "Piscine traditionnelle dans un jardin mature du Bouscat près du Parc Bordelais, zone d'intervention recherche de fuite",
+        "intro_unique": "Le Bouscat, ville résidentielle bourgeoise collée à Bordeaux, concentre un parc de piscines relativement ancien dans ses quartiers les plus cossus : Parc Bordelais, La Châtaigneraie, Bourran. Beaucoup de bassins ont été installés dans les années 1970-1990 au cœur de grands jardins matures, aujourd'hui caractérisés par la proximité d'arbres développés dont les systèmes racinaires sollicitent les canalisations enterrées. Ce contexte demande une approche diagnostique particulière.",
+        "types_piscines": "Les piscines bouscataises se répartissent entre plusieurs profils : bassins béton armé classiques des années 1970-1980 (40 pourcent environ), coques polyester des années 1990-2010 posées en rénovation de bassins plus anciens (25 pourcent), liners PVC modernes sur bassins existants (20 pourcent), et quelques couloirs de nage ou piscines cintrées dans les jardins étroits de maisons bourgeoises (15 pourcent). Quelques piscines de caractère à la limite de Caudéran, avec margelles en pierre de Frontenac et décoration soignée.",
+        "quartiers_zones": "Les secteurs à forte densité sont Parc Bordelais (hôtels particuliers et grandes propriétés avec bassins historiques), La Châtaigneraie (résidentiel familial avec grands jardins), Bourran (quartier cossu aux frontières de Caudéran), Parc Rivière et Croix de Laubrescas (plus pavillonnaire récent). Les maisons bourgeoises des années 1910-1930 reconverties en résidences familiales présentent souvent des piscines ajoutées dans les années 1980 sans étude de sol contemporaine.",
+        "specificites": [
+            ("Racines d'arbres matures et canalisations enterrées", "La majorité des propriétés bouscataises à piscine possèdent des jardins paysagers matures avec platanes, chênes, tilleuls ou cèdres plantés il y a 40 à 80 ans. Ces systèmes racinaires cherchent l'humidité et pénètrent les raccords défectueux des canalisations enterrées. Nous intervenons régulièrement sur des fuites provoquées par une racine qui a progressivement désaxé puis percé un raccord PVC 20-30 ans après son installation. L'inspection caméra endoscopique est ici essentielle pour confirmer l'étiologie racinaire."),
+            ("Jardins étroits et accès technique limité", "Certaines propriétés historiques du Bouscat présentent des jardins en longueur avec piscines en fond de parcelle, accessibles uniquement par un couloir ou une porte cochère. Notre matériel compact (capteur acoustique portable, bouteilles de gaz traceur 5L, caméra endoscopique sans fil) permet d'intervenir dans ces configurations sans apport de gros équipement. Nous prévoyons aussi les protections anti-tache pour les sols et mobiliers extérieurs du jardin."),
+            ("Bassins profonds anciens (4 mètres de profondeur)", "Plusieurs piscines bouscataises construites dans les années 1970 ont un point profond à 3 ou 4 mètres, conçues pour la plongée. Ces bassins ont une structure soumise à une pression hydrostatique importante, et la bonde de fond à grande profondeur est un point de fuite difficile à diagnostiquer visuellement. Notre colorant fluorescéine en bouteille lestée permet d'atteindre le fond pour tester spécifiquement cette zone, sans plongée humaine systématique."),
+            ("Traitement paysager ancien et impact hydraulique", "Beaucoup de jardins bouscataises ont des systèmes d'arrosage enterrés des années 1980-1990 cohabitant avec les canalisations de piscine. Nous rencontrons régulièrement des fuites attribuées à tort à la piscine alors qu'elles proviennent du réseau d'arrosage enterré (ou vice versa). Notre diagnostic sépare systématiquement les deux circuits (piscine vs arrosage) par fermeture séquentielle et mesure différentielle.")
+        ],
+        "cas_frequent": "Scénario type au Bouscat : propriété familiale Parc Bordelais, piscine béton 10×5 mètres installée en 1982, jardin avec 3 grands platanes plantés en 1960. Le propriétaire constate une perte régulière de 2-3 cm/jour depuis le printemps, plus marquée après les grosses pluies (terrain saturé qui amplifie). Notre diagnostic : test du seau (confirmé fuite), colorant pièces à sceller, test pression canalisations, et inspection caméra du réseau enterré sur tracé complet. Dans 55 pourcent des cas sur ce profil, la fuite est sur canalisation enterrée percée par racine. Réparation : ouverture ponctuelle, remplacement du tronçon endommagé sur 1 à 2 mètres, rebouchage.",
+        "faq_locale": [
+            ("Mes arbres menacent-ils vraiment ma piscine au Bouscat ?",
+             "Oui, particulièrement les platanes et les saules qui ont des systèmes racinaires très étendus et agressifs. Un platane mature peut avoir des racines à 15-20 mètres horizontalement. Si vos arbres sont à moins de 10 mètres de la piscine ou de ses canalisations enterrées, une inspection caméra préventive tous les 10-15 ans est recommandée. Nous ne conseillons pas l'abattage systématique, mais un suivi technique."),
+            ("Ma piscine Parc Bordelais a 40 ans, vaut-il mieux la rénover ou la combler ?",
+             "Ça dépend de son état structurel, de l'usage prévu et de votre budget. Une piscine béton de 40 ans avec structure saine peut être rénovée (rebéton si nécessaire, nouvelle étanchéité par liner armé, remplacement des canalisations) pour 15 000 à 30 000 euros, soit bien moins qu'une piscine neuve. Le combler revient aussi cher (10 000 à 20 000 euros avec reprise de jardin). Notre rapport de fuite, couplé à un diagnostic structurel, aide à trancher."),
+            ("Peut-on localiser une fuite dans une piscine de 4 mètres de profondeur ?",
+             "Oui, sans problème. Nos sondes acoustiques et nos colorants en bouteille lestée atteignent le fond de tout bassin sans nécessiter de plongée humaine. Dans certains cas complexes, nous faisons intervenir un plongeur professionnel équipé (scaphandre autonome), notamment pour une inspection visuelle rapprochée de la bonde de fond. Cette option est facturée en supplément et proposée si le diagnostic acoustique et colorant est insuffisant.")
+        ],
     },
 ]
 
@@ -2515,6 +2627,25 @@ def page_piscine_ville(p):
     ville_article = p["ville_article"]
     cp = p["cp"]
     slug = p["slug"]
+
+    # Construction des specificites uniques
+    specificites_html = '\n'.join([
+        f'      <div class="arg-num-card"><span class="arg-num">{i:02d}</span><div class="arg-num-content"><h3>{titre}</h3><p>{contenu}</p></div></div>'
+        for i, (titre, contenu) in enumerate(p["specificites"], 1)
+    ])
+
+    # FAQ locale (questions uniques par ville)
+    faq_locale_html = '\n'.join([
+        f'    <h3>{q}</h3>\n    <p>{a}</p>'
+        for q, a in p["faq_locale"]
+    ])
+    faq_schema_entries = []
+    for q, a in p["faq_locale"]:
+        faq_schema_entries.append(
+            '{"@type":"Question","name":' + json.dumps(q, ensure_ascii=False) +
+            ',"acceptedAnswer":{"@type":"Answer","text":' + json.dumps(a, ensure_ascii=False) + '}}'
+        )
+    faq_schema_json = ',\n    '.join(faq_schema_entries)
 
     ld_local = f'''<script type="application/ld+json">
 {{
@@ -2570,36 +2701,7 @@ def page_piscine_ville(p):
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {{
-      "@type": "Question",
-      "name": "Comment savoir si ma piscine fuit vraiment ou si c'est juste de l'évaporation ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Faites le test du seau : posez un seau rempli d'eau sur la première marche de la piscine, marquez le niveau. Après 24 à 48 heures sans baignade et sans remise à niveau, comparez. Si le seau et la piscine baissent pareillement, c'est de l'évaporation. Si la piscine baisse plus, il y a une fuite. L'évaporation normale en Gironde est de 3 à 5 mm par jour l'été, 0 à 2 mm au printemps." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Faut-il vidanger la piscine pour localiser la fuite ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Non, dans 95 pourcent des cas. Le colorant fluorescéine, l'écoute électro-acoustique et le test de pression des canalisations localisent la fuite sans vidange. La vidange est à éviter : elle peut endommager le liner, faire remonter la nappe phréatique sous le bassin et coûte 1000 à 2000€ en eau et produits de remise en service." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Combien coûte une recherche de fuite sur une piscine à Bordeaux ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Le tarif d'une recherche de fuite piscine se situe entre 300 et 700 euros HT selon la taille du bassin, les méthodes à combiner et la complexité de l'installation (piscine miroir, débordement, chauffée). Ce coût est souvent pris en charge par votre assurance habitation dans le cadre de la garantie dégâts des eaux, sur présentation de notre rapport technique." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "La recherche de fuite piscine est-elle remboursée par l'assurance ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, la plupart des contrats multirisques habitation couvrent la recherche de fuite sur piscine au titre de la garantie recherche de fuite. Notre rapport détaillé (photos, méthodes employées, point de fuite localisé) est accepté par les principaux assureurs. Déclarez le sinistre dans les 5 jours ouvrables après constat." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Quelles sont les fuites les plus fréquentes sur piscine ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Par ordre de fréquence : fuite sur liner PVC (pli, perforation, soudure), fuite au niveau du skimmer ou de la buse de refoulement (joint fissuré), fuite sur canalisation enterrée (raccord ou fissure), fuite de la bonde de fond, fissure structurelle du bassin béton, fuite sur la ligne d'eau ou les margelles." }}
-    }},
-    {{
-      "@type": "Question",
-      "name": "Intervenez-vous en urgence sur une piscine qui perd beaucoup d'eau ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, nous intervenons sous 24 à 48h sur Bordeaux et sa métropole pour les fuites actives importantes (perte supérieure à 5 cm par jour). Pour limiter les dégâts en attendant, coupez l'arrivée d'eau de remplissage automatique et maintenez le niveau juste au-dessus du skimmer pour que la filtration continue de tourner." }}
-    }}
+    {faq_schema_json}
   ]
 }}
 </script>'''
@@ -2637,6 +2739,19 @@ def page_piscine_ville(p):
       <img src="/assets/piscine-privee-bordeaux.webp" alt="{p['hero_image_alt']}" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
     </figure>
 
+    <h2>Les piscines {ville_article} : un parc aux caractéristiques bien identifiées</h2>
+    <p>{p['intro_unique']}</p>
+
+    <h3>Types de piscines que nous diagnostiquons {ville_article}</h3>
+    <p>{p['types_piscines']}</p>
+
+    <h3>Zones d'intervention {ville_article} et périphérie</h3>
+    <p>{p['quartiers_zones']}</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
     <h2>Ma piscine perd de l'eau : fuite ou évaporation ?</h2>
     <p>Avant de parler de fuite, il faut écarter l'évaporation naturelle. En Gironde, une piscine extérieure sans abri perd en moyenne <strong>3 à 5 mm par jour en été</strong> (juin à septembre) et <strong>0 à 2 mm par jour au printemps et à l'automne</strong>. Au-delà, surtout si la perte dépasse 1 cm par jour, une fuite est probable.</p>
 
@@ -2657,7 +2772,7 @@ def page_piscine_ville(p):
   </div>
 </section>
 
-<section class="section section-alt" id="methodes">
+<section class="section" id="methodes">
   <div class="container" style="max-width:1080px;">
     <h2>Comment on localise une fuite de piscine sans vidange</h2>
     <p>Chaque méthode cible un type de fuite précis. Sur un chantier, nos techniciens combinent deux à quatre techniques pour isoler la source du problème avec certitude.</p>
@@ -2767,24 +2882,22 @@ def page_piscine_ville(p):
 
 <section class="section section-alt">
   <div class="container" style="max-width:1080px;">
-    <h2>Piscines à Bordeaux et sa métropole : les spécificités locales</h2>
-    <p>{p['contexte_local']}</p>
+    <h2>Spécificités des piscines {ville_article}</h2>
+    <p>Notre expérience des interventions {ville_article} nous a permis d'identifier les contraintes récurrentes propres à ce territoire. Chaque diagnostic intègre ces paramètres pour orienter efficacement les méthodes.</p>
 
     <figure style="margin:1.5rem 0;">
       <img src="/assets/technicien-recherche-fuite-piscine.webp" alt="Technicien spécialisé en recherche de fuite de piscine intervenant sur un bassin privé en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:360px;height:auto;object-fit:cover;border-radius:12px;display:block;">
     </figure>
 
-    <h3>Terrain argileux et mouvements de sol</h3>
-    <p>Une partie du territoire bordelais repose sur des sols argileux sensibles au retrait-gonflement selon la pluviométrie. Ces mouvements de terrain peuvent désaxer les canalisations enterrées autour de la piscine, provoquer des fissures sur les dalles de plage et, à terme, sur la structure du bassin. Nous prenons systématiquement en compte ce paramètre géologique lors du diagnostic.</p>
+    <div class="grid-3" style="margin-top:1.5rem;">
+{specificites_html}
+    </div>
 
-    <h3>Piscines du Bassin d'Arcachon et sable</h3>
-    <p>Dans les communes du bassin (La Teste-de-Buch, Gujan-Mestras, Arcachon, Andernos), les piscines posées sur sable nécessitent une attention particulière aux raccords des canalisations enterrées, qui subissent micro-mouvements permanents et corrosion par l'air salin.</p>
-
-    <h3>Piscines anciennes de propriétés viticoles (Médoc)</h3>
-    <p>Les piscines en béton projeté des chais et domaines viticoles ont souvent 30 à 50 ans. Les techniques de l'époque (étanchéité par enduit ciment, margelles pierre scellées au mortier) n'ont pas toujours bien vieilli. Notre méthodologie intègre ces bassins anciens où la fuite peut se cacher derrière un simple défaut d'étanchéité aux angles ou au contact margelle/bassin.</p>
+    <h3 style="margin-top:2.5rem;">Cas type que nous traitons {ville_article}</h3>
+    <p>{p['cas_frequent']}</p>
 
     <h3>Zones d'intervention autour de {ville}</h3>
-    <p>Nous intervenons sous 24 à 48h sur l'ensemble de la métropole bordelaise : {p['zones_voisines']}, ainsi que dans tout le département de la Gironde pour les piscines du Bassin d'Arcachon, du Médoc et du Libournais.</p>
+    <p>Nous intervenons sous 24 à 48h aux adresses suivantes : {p['zones_voisines']}. Nos tournées dédiées piscines en saison permettent d'optimiser les délais de rendez-vous.</p>
   </div>
 </section>
 
@@ -2821,22 +2934,15 @@ def page_piscine_ville(p):
 
 <section class="section section-alt">
   <div class="container" style="max-width:960px;">
-    <h2>Questions fréquentes sur la recherche de fuite piscine</h2>
+    <h2>Questions fréquentes sur la recherche de fuite piscine {ville_article}</h2>
 
-    <h3>Comment savoir si ma piscine fuit vraiment ou si c'est juste de l'évaporation ?</h3>
-    <p>Faites le test du seau : posez un seau rempli d'eau sur la première marche de la piscine, marquez le niveau. Après 24 à 48 heures sans baignade et sans remise à niveau, comparez. Si le seau et la piscine baissent pareillement, c'est de l'évaporation. Si la piscine baisse plus, il y a une fuite. L'évaporation normale en Gironde est de 3 à 5 mm par jour l'été.</p>
+{faq_locale_html}
 
     <h3>Faut-il vidanger la piscine pour localiser la fuite ?</h3>
     <p>Non, dans 95 pourcent des cas. Le colorant fluorescéine, l'écoute électro-acoustique et le test de pression des canalisations localisent la fuite sans vidange. La vidange est à éviter : elle peut endommager le liner, faire remonter la nappe phréatique sous le bassin et coûte 1 000 à 2 000 € en eau et produits de remise en service.</p>
 
-    <h3>Combien coûte une recherche de fuite sur une piscine à Bordeaux ?</h3>
-    <p>Le tarif d'une recherche de fuite piscine se situe entre 300 et 700 euros HT selon la taille du bassin, les méthodes à combiner et la complexité de l'installation. Ce coût est souvent pris en charge par votre assurance habitation dans le cadre de la garantie dégâts des eaux.</p>
-
     <h3>La recherche de fuite piscine est-elle remboursée par l'assurance ?</h3>
     <p>Oui, la plupart des contrats multirisques habitation couvrent la recherche de fuite sur piscine au titre de la garantie recherche de fuite. Notre rapport détaillé (photos, méthodes employées, point de fuite localisé) est accepté par les principaux assureurs. Déclarez le sinistre dans les 5 jours ouvrables après constat.</p>
-
-    <h3>Quelles sont les fuites les plus fréquentes sur piscine ?</h3>
-    <p>Par ordre de fréquence : fuite sur liner PVC (pli, perforation, soudure), fuite au niveau du skimmer ou de la buse de refoulement (joint fissuré), fuite sur canalisation enterrée (raccord ou fissure), fuite de la bonde de fond, fissure structurelle du bassin béton, fuite sur la ligne d'eau ou les margelles.</p>
 
     <h3>Intervenez-vous en urgence sur une piscine qui perd beaucoup d'eau ?</h3>
     <p>Oui, nous intervenons sous 24 à 48h sur Bordeaux et sa métropole pour les fuites actives importantes (perte supérieure à 5 cm par jour). Pour limiter les dégâts en attendant, coupez l'arrivée d'eau de remplissage automatique et maintenez le niveau juste au-dessus du skimmer pour que la filtration continue de tourner.</p>
