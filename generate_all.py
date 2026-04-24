@@ -1146,6 +1146,76 @@ GUIDE_PAGES = [
 <h2>Faites appel à un professionnel pour localiser la fuite</h2>
 <p>Une fois l'urgence gérée, il est indispensable de faire localiser la fuite par un professionnel avant toute remise en eau. En Gironde, nous intervenons sous 24h pour une <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">recherche de fuite non destructive</a> avec remise du rapport assurance.</p>"""
     },
+    {
+        "slug": "prix-recherche-fuite-bordeaux",
+        "title": "Prix d'une recherche de fuite à Bordeaux en 2026",
+        "title_seo": "Prix recherche de fuite Bordeaux tarif devis intervention 2026",
+        "desc": "Combien coûte une recherche de fuite à Bordeaux en 2026 ? Tarifs moyens par méthode, prise en charge assurance, loi Warsmann. Devis gratuit.",
+        "contenu": """<p>Vous cherchez à savoir combien coûte une recherche de fuite à Bordeaux avant de prendre rendez-vous ? Cet article détaille les tarifs pratiqués en 2026 selon les techniques employées, ce qui est pris en charge par votre assurance habitation et comment obtenir un écrêtement de facture d'eau en cas de fuite enterrée.</p>
+
+<h2>Tarifs moyens d'une recherche de fuite à Bordeaux en 2026</h2>
+<p>Le prix d'une recherche de fuite dépend de la méthode employée, de la complexité du réseau et du temps d'intervention. Voici les fourchettes tarifaires pratiquées sur Bordeaux et sa métropole en 2026.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
+<thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Type de diagnostic</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Durée</th></tr></thead>
+<tbody>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection visuelle + caméra endoscopique simple</td><td style="padding:.75rem;border:1px solid #D8D4CC;">250 à 350 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 h à 1 h 30</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Thermographie infrarouge (sol chaud, planch. chauffant)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">350 à 500 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 h 30 à 2 h</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Écoute électro-acoustique + corrélation</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 à 550 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 h à 3 h</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Gaz traceur azote/hélium (canalisation enterrée)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 à 700 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 h à 4 h</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Recherche piscine (colorant + pression + acoustique)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 à 700 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 h à 3 h</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Diagnostic combiné complexe (plusieurs méthodes)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">600 à 900 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 h à 5 h</td></tr>
+</tbody>
+</table>
+
+<p>Ces tarifs s'entendent hors taxes et hors travaux de réparation. Un devis fixe vous est communiqué avant intervention après un premier échange téléphonique. Aucun déplacement facturé si vous décidez de ne pas donner suite au devis.</p>
+
+<h2>Les facteurs qui font varier le prix</h2>
+<p>Plusieurs éléments influencent le coût final de votre recherche de fuite à Bordeaux.</p>
+<ul>
+<li><strong>La surface à inspecter</strong> : un appartement de 50 m² coûtera moins qu'une maison de 200 m² avec réseau enterré</li>
+<li><strong>L'accessibilité du réseau</strong> : apparent, encastré, enterré ou sous dalle béton</li>
+<li><strong>Le nombre de méthodes à combiner</strong> : une fuite bien caractérisée est souvent trouvée avec une seule technique, une fuite complexe peut en nécessiter trois</li>
+<li><strong>Le type de fuite</strong> : piscine, plancher chauffant, canalisation enterrée, copropriété</li>
+<li><strong>L'urgence</strong> : aucune majoration chez nous pour les interventions sous 24h, le tarif reste le même</li>
+</ul>
+
+<h2>Prise en charge par l'assurance habitation</h2>
+<p>La garantie « recherche de fuite » de votre contrat multirisque habitation rembourse tout ou partie des frais de recherche, à condition qu'un dégât des eaux soit constaté. Le rapport technique que nous remettons (photos, méthodes employées, point de fuite, préconisations) est reconnu par les principaux assureurs français : AXA, Allianz, MAAF, Groupama, Matmut, MACIF, MMA, GMF.</p>
+
+<p>Pour activer la garantie, trois étapes :</p>
+<ol>
+<li>Déclarez le sinistre à votre assureur dans les <strong>5 jours ouvrables</strong> après constat</li>
+<li>Faites réaliser la recherche de fuite (par nous-mêmes ou un prestataire de votre choix)</li>
+<li>Transmettez le rapport à votre assureur avec les photos des dégâts</li>
+</ol>
+
+<h2>Écrêtement de facture d'eau : la loi Warsmann de 2011</h2>
+<p>Si votre fuite se trouve sur une canalisation enterrée entre votre compteur et votre maison, et qu'elle était indétectable visuellement, vous pouvez bénéficier d'un écrêtement de facture auprès de Suez ou de votre régie des eaux. Votre consommation excédentaire est alors plafonnée à deux fois votre consommation habituelle.</p>
+
+<p>Trois conditions à remplir :</p>
+<ul>
+<li>La fuite doit concerner une canalisation enterrée privative (pas un robinet, pas un équipement visible)</li>
+<li>Elle doit être indétectable à l'œil nu (pas d'humidité de surface apparente)</li>
+<li>Vous devez fournir une attestation de réparation par un professionnel qualifié dans le mois qui suit la notification de surconsommation par le distributeur</li>
+</ul>
+
+<p>Notre rapport de recherche de fuite mentionne explicitement la localisation enterrée, la méthode de détection (gaz traceur, corrélation) et sert de justificatif pour la demande d'écrêtement.</p>
+
+<h2>Ce qui est inclus dans notre prestation</h2>
+<ul>
+<li>Déplacement dans toute la métropole bordelaise et la Gironde (Bordeaux, Mérignac, Pessac, Talence, Arcachon, Libourne, La Teste, Gujan-Mestras...)</li>
+<li>Devis fixe communiqué avant intervention, pas de surprise</li>
+<li>Intervention par un technicien qualifié avec équipement professionnel</li>
+<li>Rapport technique écrit remis le jour même ou sous 24h</li>
+<li>Photos et vidéos des investigations</li>
+<li>Préconisations de réparation chiffrées</li>
+<li>Pas de facturation si déplacement sans donner suite au devis</li>
+</ul>
+
+<h2>Demandez votre devis gratuit</h2>
+<p>Pour obtenir un <a href="/devis/" style="color:var(--green);text-decoration:underline;">devis gratuit de recherche de fuite à Bordeaux</a>, remplissez notre formulaire en décrivant les symptômes (tache, compteur anormal, sol humide, zone de jardin gorgée d'eau). Un technicien vous recontacte dans l'heure en journée pour préciser le tarif et convenir d'un rendez-vous sous 24 à 48h.</p>"""
+    },
 ]
 
 def page_guide_article(art):
@@ -1438,6 +1508,864 @@ def page_devis():
     )
 
 # ── Sitemap XML ────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════
+# PAGES USE CASE : Urgence fuite par ville
+# ═══════════════════════════════════════════════════════════════
+
+URGENCE_PAGES = [
+    {
+        "slug": "urgence-bordeaux",
+        "ville": "Bordeaux",
+        "ville_article": "à Bordeaux",
+        "cp": "33000",
+        "zones": "Mérignac, Pessac, Talence, Le Bouscat, Caudéran, Bègles",
+    },
+]
+
+def page_urgence_ville(p):
+    ville = p["ville"]
+    ville_article = p["ville_article"]
+    cp = p["cp"]
+    slug = p["slug"]
+
+    ld_local = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "EmergencyService",
+  "name": "Recherche Fuite Gironde — Intervention urgence",
+  "description": "Recherche de fuite d'eau en urgence {ville_article} et en Gironde, intervention sous 24 heures. Localisation sans démolition, rapport pour assurance.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/{slug}/",
+  "image": "https://recherche-fuite-gironde.fr/assets/urgence-fuite-eau.webp",
+  "address": {{
+    "@type": "PostalAddress",
+    "addressLocality": "{ville}",
+    "postalCode": "{cp}",
+    "addressCountry": "FR"
+  }},
+  "areaServed": {{ "@type": "City", "name": "{ville}" }},
+  "priceRange": "€€",
+  "availableService": {{
+    "@type": "Service",
+    "serviceType": "Recherche de fuite d'eau en urgence"
+  }}
+}}
+</script>'''
+
+    ld_faq = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{
+      "@type": "Question",
+      "name": "Intervenez-vous vraiment sous 24h {ville_article} ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, pour les fuites actives importantes sur Bordeaux et sa métropole, nous intervenons sous 24 heures, parfois le jour même selon l'horaire de votre appel. Un technicien vous recontacte dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Que faire en attendant l'arrivée du technicien ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Coupez immédiatement l'arrivée d'eau générale au compteur. Éloignez les appareils électriques et le mobilier de la zone inondée. Ne touchez pas aux tableaux électriques si le sol est mouillé. Placez des seaux et des bâches. Si vous êtes en copropriété, prévenez le gardien ou le syndic." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Les interventions d'urgence sont-elles plus chères ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Non. Nos tarifs de recherche de fuite restent les mêmes en urgence (300 à 600 € HT selon les méthodes). Seule la disponibilité change, avec un créneau prioritaire dans les 24 heures. Aucune majoration 'urgence' artificielle." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "L'assurance couvre-t-elle une intervention d'urgence ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, la garantie 'recherche de fuite' de votre multirisque habitation couvre l'intervention, urgente ou non, dès lors qu'un dégât des eaux est constaté. Notre rapport technique est reconnu par les principaux assureurs français. Déclarez le sinistre sous 5 jours ouvrables." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Intervenez-vous le week-end et les jours fériés ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Nos interventions s'effectuent du lundi au samedi. Pour les fuites avérées avec dégât des eaux important le dimanche ou un jour férié, contactez-nous : nous organisons autant que possible une intervention le premier jour ouvré suivant en créneau prioritaire." }}
+    }}
+  ]
+}}
+</script>'''
+
+    body = f'''
+<section class="hero-mini hero-urgence">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Détection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Urgence {ville}</span>
+    </nav>
+    <span class="badge-alert">Intervention sous 24h</span>
+    <h1>Recherche de fuite en urgence {ville_article}</h1>
+    <p class="hero-mini-lead">Fuite active, dégât des eaux en cours, inondation : nos techniciens spécialisés interviennent sous 24 heures sur Bordeaux et sa métropole. <strong>Localisation précise sans démolition</strong>, rapport technique remis le jour même pour votre assureur.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander une intervention urgente</a>
+      <a href="#reflexes" class="btn btn-outline-green">Gestes d'urgence</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/urgence-fuite-eau.webp" alt="Fuite d'eau active sur une canalisation, situation d'urgence nécessitant une intervention rapide à Bordeaux" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h2 id="reflexes">Les 4 gestes d'urgence avant l'arrivée du technicien</h2>
+    <p>Les premières minutes sont décisives pour limiter les dégâts d'une fuite active. Avant toute chose, voici la conduite à tenir.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Coupez l'arrivée d'eau générale</h3>
+          <p>Le robinet d'arrêt général se trouve en général sous l'évier de la cuisine, dans un placard technique, ou à défaut directement au compteur d'eau (regard en façade ou en cave). Dans un appartement, le robinet d'arrêt de l'étage est aussi une option.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Coupez l'électricité des zones inondées</h3>
+          <p>Si de l'eau atteint le sol près de prises ou de tableaux électriques, coupez le disjoncteur général au compteur avant de poser le pied dans la zone. Ne touchez jamais un appareil électrique mouillé.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Protégez meubles et documents</h3>
+          <p>Éloignez ou surélevez les meubles, les électroménagers, les documents administratifs. Placez des seaux, des serpillières et des bâches pour récupérer et canaliser l'eau. Photographiez les dégâts dès que possible pour votre assureur.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Prévenez les bons interlocuteurs</h3>
+          <p>En copropriété, prévenez le syndic ou le gardien. En location, informez votre propriétaire dans la foulée. Déclarez ensuite le sinistre à votre assurance habitation dans les 5 jours ouvrables pour activer la garantie dégâts des eaux.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Quand faut-il considérer qu'il y a urgence ?</h2>
+    <p>Toutes les fuites ne nécessitent pas une intervention sous 24 heures. Voici les situations qui justifient une prise en charge prioritaire et celles qui peuvent attendre un rendez-vous classique.</p>
+
+    <h3>Urgences réelles (intervention 24h)</h3>
+    <ul>
+      <li><strong>Dégât des eaux en cours</strong> : plafond qui goutte, eau qui ruisselle sur les murs, flaques qui s'étendent</li>
+      <li><strong>Fuite sur canalisation sous pression</strong> avec perte d'eau supérieure à 1 m³ par jour (compteur qui tourne en permanence)</li>
+      <li><strong>Inondation du local technique ou de la cave</strong> (risque électrique associé)</li>
+      <li><strong>Fuite active en copropriété impactant plusieurs lots</strong> (responsabilité syndic engagée)</li>
+      <li><strong>Fuite de piscine très rapide</strong> (perte supérieure à 5 cm par jour) impactant le jardin et les fondations</li>
+    </ul>
+
+    <h3>Situations non urgentes (rendez-vous sous 3 à 7 jours)</h3>
+    <ul>
+      <li>Facture d'eau anormalement élevée sans dégât visible (à diagnostiquer rapidement mais pas en urgence)</li>
+      <li>Tache d'humidité stable au plafond qui ne s'étend pas</li>
+      <li>Zone de jardin plus humide que la normale sans affaissement ni perte d'eau massive</li>
+      <li>Fuite goutte-à-goutte sur un robinet ou un flexible (intervention plombier généraliste plus adaptée)</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Notre protocole d'intervention urgence {ville_article}</h2>
+
+    <figure style="margin:1.5rem 0;">
+      <img src="/assets/technicien-intervention-urgence.webp" alt="Technicien en intervention d'urgence sur une canalisation à Bordeaux" width="1600" height="1067" loading="lazy" style="width:100%;max-height:360px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h3>Étape 1 : qualification téléphonique dans l'heure</h3>
+    <p>Dès votre demande via le formulaire ou notre ligne directe, un technicien vous rappelle dans l'heure qui suit (horaires ouvrés). Il pose les questions clés : depuis quand la fuite est active, avez-vous coupé l'eau, où sont les premiers dégâts visibles, y a-t-il un risque électrique ou un impact sur des voisins. Cette qualification permet d'engager les bons outils et d'estimer la durée d'intervention.</p>
+
+    <h3>Étape 2 : déplacement prioritaire</h3>
+    <p>Un créneau est bloqué dans les 24 heures, en général le jour même ou le lendemain matin selon l'heure de votre appel. Le technicien arrive avec l'ensemble du matériel : thermographie infrarouge, gaz traceur, écoute électro-acoustique, caméra endoscopique, humidimètre. Rien n'est à prévoir de votre côté.</p>
+
+    <h3>Étape 3 : localisation non destructive</h3>
+    <p>L'intervention dure en moyenne 1h30 à 3 heures. Les méthodes sont choisies en fonction des symptômes : sol chaud ou humidité en surface, compteur qui tourne, bruit caractéristique. Le point de fuite est localisé au mètre près, sans ouverture préalable des murs ni du sol.</p>
+
+    <h3>Étape 4 : rapport technique le jour même</h3>
+    <p>Un rapport écrit avec photos, méthodes employées, localisation précise et préconisations de réparation est remis sur place ou envoyé le jour même par email. Ce document est utilisable directement pour votre déclaration de sinistre et la prise en charge par votre assurance dans le cadre de la garantie recherche de fuite et dégâts des eaux.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur l'urgence fuite d'eau {ville_article}</h2>
+
+    <h3>Intervenez-vous vraiment sous 24 heures {ville_article} ?</h3>
+    <p>Oui, pour les fuites actives importantes sur Bordeaux et sa métropole, nous intervenons sous 24 heures, parfois le jour même selon l'horaire de votre appel. Un technicien vous recontacte dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous.</p>
+
+    <h3>Que faire en attendant l'arrivée du technicien ?</h3>
+    <p>Coupez immédiatement l'arrivée d'eau générale au compteur. Éloignez les appareils électriques et le mobilier de la zone inondée. Ne touchez pas aux tableaux électriques si le sol est mouillé. Placez des seaux et des bâches. Si vous êtes en copropriété, prévenez le gardien ou le syndic.</p>
+
+    <h3>Les interventions d'urgence sont-elles plus chères ?</h3>
+    <p>Non. Nos tarifs de recherche de fuite restent les mêmes en urgence (300 à 600 € HT selon les méthodes). Seule la disponibilité change, avec un créneau prioritaire dans les 24 heures. Aucune majoration « urgence » artificielle.</p>
+
+    <h3>L'assurance couvre-t-elle une intervention d'urgence ?</h3>
+    <p>Oui, la garantie « recherche de fuite » de votre multirisque habitation couvre l'intervention, urgente ou non, dès lors qu'un dégât des eaux est constaté. Notre rapport technique est reconnu par les principaux assureurs français. Déclarez le sinistre sous 5 jours ouvrables.</p>
+
+    <h3>Intervenez-vous le week-end et les jours fériés ?</h3>
+    <p>Nos interventions s'effectuent du lundi au samedi. Pour les fuites avérées avec dégât des eaux important le dimanche ou un jour férié, contactez-nous : nous organisons autant que possible une intervention le premier jour ouvré suivant en créneau prioritaire.</p>
+
+    <h3>Que faire si l'eau atteint les voisins du dessous ?</h3>
+    <p>Prévenez-les immédiatement et le syndic si vous êtes en copropriété. Prenez des photos datées avant tout nettoyage. Déclarez le sinistre à votre assurance en mentionnant les voisins impactés : la convention IRSI s'applique automatiquement entre assureurs pour les sinistres dégâts des eaux en copropriété jusqu'à 5 000 € HT.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander une intervention urgente</a>
+    </div>
+  </div>
+</section>
+
+{form_section(p['ville'])}
+'''
+
+    return html_base(
+        f'Recherche de fuite urgence {ville_article} | Intervention 24h',
+        f'Fuite d\'eau en urgence {ville_article} : intervention sous 24h, localisation sans démolition, rapport pour assurance. Nos techniciens spécialisés dans toute la Gironde.',
+        f'https://recherche-fuite-gironde.fr/detection-fuite/{slug}/',
+        body,
+        extra_ld=ld_local + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Fuite apres compteur d'eau
+# ═══════════════════════════════════════════════════════════════
+
+def page_fuite_apres_compteur():
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite après compteur d'eau",
+  "name": "Recherche de fuite après compteur à Bordeaux et en Gironde",
+  "description": "Localisation précise d'une fuite sur le réseau privatif après compteur d'eau (entre le compteur et la maison ou dans le logement), sans démolition. Méthodes : thermographie, gaz traceur, écoute électro-acoustique.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  },
+  "areaServed": { "@type": "Place", "name": "Gironde" }
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment savoir si la fuite est avant ou après le compteur ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fermez votre robinet d'arrêt général situé juste après le compteur. Si le compteur continue de tourner, la fuite est AVANT le compteur (partie publique, Suez ou régie). S'il s'arrête mais que vous perdez toujours de l'eau dans la maison, la fuite est APRÈS le compteur, à votre charge." }
+    },
+    {
+      "@type": "Question",
+      "name": "Qui paie la recherche de fuite après compteur ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "La partie après compteur relève du propriétaire ou de l'occupant. La recherche de fuite est à votre charge mais souvent remboursée par votre assurance habitation au titre de la garantie recherche de fuite. Certaines communes ou intercommunalités proposent un écrêtement de facture en cas de fuite enterrée non détectable." }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on faire écrêter la facture d'eau après une fuite ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, la loi Warsmann (2011) permet d'obtenir un écrêtement de la part excédentaire de votre facture si vous prouvez qu'une fuite sur canalisation enterrée (entre compteur et habitation) était indétectable. Il faut fournir une attestation de réparation par un professionnel et un rapport de localisation. Notre rapport technique peut servir de justificatif." }
+    },
+    {
+      "@type": "Question",
+      "name": "Où chercher la fuite sur le réseau après compteur ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les zones les plus fréquentes : 1) canalisation enterrée entre le regard de compteur et la maison (raccord qui lâche, fissure PVC), 2) réseau intérieur dans les murs ou sous la dalle, 3) arrivée des sanitaires (chasse d'eau, robinet qui fuit en permanence), 4) chauffe-eau ou ballon (joint, soupape). La thermographie et le gaz traceur permettent de cibler précisément." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte une recherche de fuite après compteur ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 300 et 700 € HT selon la méthode employée et la complexité du réseau (intérieur seul, partie enterrée, ou les deux). Un devis fixe est communiqué avant intervention. Cette somme est remboursable par votre assurance habitation si un dégât des eaux est constaté." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure l'intervention ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "En moyenne 1h30 à 3 heures sur site. Si la fuite est sur canalisation enterrée et que nous devons déployer le gaz traceur sur un tracé long, comptez une demi-journée. Un rapport écrit est remis le jour même ou dans les 24 heures par email." }
+    }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Détection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Fuite après compteur</span>
+    </nav>
+    <h1>Recherche de fuite après compteur d'eau à Bordeaux</h1>
+    <p class="hero-mini-lead">Facture d'eau anormale, compteur qui tourne la nuit, zone humide dans le jardin : votre fuite se situe <strong>après le compteur</strong>, sur votre réseau privatif. Nos techniciens localisent la fuite sans démolition ni tranchée, pour un écrêtement de facture et une prise en charge assurance optimale.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis gratuit</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/compteur-eau-bordeaux.webp" alt="Compteur d'eau à Bordeaux, point de démarcation entre réseau public Suez et réseau privatif du logement" width="1600" height="1067" loading="eager" style="width:100%;max-height:360px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h2>Avant tout : votre fuite est-elle avant ou après le compteur ?</h2>
+    <p>C'est la première question à trancher, car elle détermine qui paie la réparation et l'eau perdue. Le compteur d'eau est la limite entre deux mondes : avant (réseau public, responsabilité du distributeur Suez ou de votre régie des eaux), après (réseau privatif, votre responsabilité de propriétaire ou d'occupant).</p>
+
+    <h3>Le test des 30 minutes pour trancher</h3>
+    <ol>
+      <li>Fermez tous les points d'eau de votre maison : robinets, machine à laver, chauffe-eau, chasse d'eau vérifiées.</li>
+      <li>Repérez le robinet d'arrêt général situé juste après le compteur (en cave, garage ou placard technique).</li>
+      <li>Notez l'index du compteur d'eau (les petits chiffres rouges ou l'aiguille en étoile sur le cadran).</li>
+      <li>Attendez 30 minutes sans ouvrir aucun robinet.</li>
+      <li>Comparez le nouvel index avec le précédent.</li>
+    </ol>
+
+    <ul>
+      <li><strong>Si le compteur a bougé</strong> avec le robinet d'arrêt OUVERT : fuite APRÈS compteur, sur votre réseau privatif. Passez à la recherche.</li>
+      <li><strong>Si le compteur a bougé</strong> avec le robinet d'arrêt FERMÉ : fuite AVANT compteur, contactez Suez ou votre régie des eaux.</li>
+      <li><strong>Si le compteur n'a pas bougé</strong> : pas de fuite active détectable par ce test. Le problème peut être une humidité résiduelle ou un WC qui fuit en continu mais de façon imperceptible.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Où se cache la fuite sur le réseau après compteur ?</h2>
+    <p>Votre réseau privatif commence juste après le compteur et se compose de plusieurs segments. Voici les zones les plus fréquemment en cause.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Canalisation enterrée compteur → maison</h3>
+          <p>Entre le regard de compteur en limite de propriété et l'entrée de votre maison, la canalisation d'alimentation est enterrée sur plusieurs mètres. Un raccord qui lâche, une fissure PVC ou polyéthylène, un tassement du terrain peuvent provoquer une fuite qui s'écoule dans le sol sans signe visible pendant des semaines.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Réseau intérieur encastré</h3>
+          <p>Dans les murs et sous la dalle, les canalisations de cuivre, multicouche ou PER peuvent fuir à un raccord ou suite à une micro-perforation (clou, vis, gel). Thermographie infrarouge et écoute électro-acoustique localisent la fuite sans ouvrir le mur.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Arrivées et points d'eau</h3>
+          <p>Chasse d'eau qui fuit en permanence (peut représenter 600 litres par jour), robinet qui goutte, flexible fissuré sous l'évier, joint de machine à laver usé. Points souvent négligés mais qui expliquent une partie des surconsommations.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Chauffe-eau et équipements</h3>
+          <p>Ballon d'eau chaude percé, soupape de sécurité qui s'ouvre en permanence, joint de résistance usé. Fuite souvent visible dans le local technique, mais parfois invisible si l'eau s'évacue directement par le siphon de sol.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Réseau d'arrosage extérieur</h3>
+          <p>Canalisation enterrée d'arrosage mal hivernée qui a gelé, raccord de robinet extérieur fissuré. Zone de gazon anormalement verte, affaissement linéaire, présence de plaques d'humidité en plein été sans arrosage.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Réseau incendie / compteur secondaire</h3>
+          <p>Dans certaines copropriétés, un compteur général alimente plusieurs logements via des sous-compteurs. La fuite peut se trouver sur le réseau de distribution entre compteur principal et sous-compteurs, zone grise de responsabilité.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Écrêtement de facture : la loi Warsmann vous protège</h2>
+    <p>Depuis 2011, la loi Warsmann impose aux distributeurs d'eau d'appliquer un écrêtement automatique en cas de fuite après compteur sur canalisation enterrée et non détectable. Autrement dit, votre facture est plafonnée au double de votre consommation habituelle, au lieu de payer l'intégralité du volume perdu.</p>
+
+    <h3>Conditions à remplir</h3>
+    <ul>
+      <li>La fuite doit concerner une <strong>canalisation enterrée</strong> (pas un robinet, pas une chasse d'eau, pas un équipement visible)</li>
+      <li>La fuite doit avoir été <strong>indétectable à l'œil nu</strong> (pas de flaque, pas d'humidité visible)</li>
+      <li>Vous devez fournir une <strong>attestation de réparation</strong> par un professionnel qualifié, dans un délai d'un mois après information du distributeur</li>
+      <li>Le distributeur doit vous avoir informé d'une surconsommation anormale avant que vous ayez découvert la fuite</li>
+    </ul>
+
+    <h3>Ce que contient notre rapport</h3>
+    <p>Notre rapport de localisation mentionne explicitement : la nature de la canalisation concernée, sa localisation enterrée, la méthode de détection employée (gaz traceur par exemple pour signifier que la fuite n'était pas détectable visuellement), la date et les photos de l'intervention. Ce document est accepté par Suez, la Régie des eaux de Bordeaux Métropole et les autres distributeurs du département de la Gironde dans le cadre d'une demande d'écrêtement.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur la fuite après compteur</h2>
+
+    <h3>Comment savoir si la fuite est avant ou après le compteur ?</h3>
+    <p>Fermez votre robinet d'arrêt général situé juste après le compteur. Si le compteur continue de tourner, la fuite est AVANT le compteur (partie publique). S'il s'arrête mais que vous perdez toujours de l'eau dans la maison, la fuite est APRÈS le compteur, à votre charge.</p>
+
+    <h3>Qui paie la recherche de fuite après compteur ?</h3>
+    <p>La partie après compteur relève du propriétaire ou de l'occupant. La recherche de fuite est à votre charge mais souvent remboursée par votre assurance habitation au titre de la garantie recherche de fuite. Certaines communes ou intercommunalités proposent un écrêtement de facture en cas de fuite enterrée non détectable.</p>
+
+    <h3>Peut-on faire écrêter la facture d'eau après une fuite ?</h3>
+    <p>Oui, la loi Warsmann (2011) permet d'obtenir un écrêtement de la part excédentaire de votre facture si vous prouvez qu'une fuite sur canalisation enterrée (entre compteur et habitation) était indétectable. Il faut fournir une attestation de réparation par un professionnel et un rapport de localisation.</p>
+
+    <h3>Où chercher la fuite sur le réseau après compteur ?</h3>
+    <p>Les zones les plus fréquentes : canalisation enterrée entre le regard de compteur et la maison, réseau intérieur dans les murs ou sous la dalle, arrivée des sanitaires (chasse d'eau, robinet), chauffe-eau ou ballon. La thermographie et le gaz traceur permettent de cibler précisément.</p>
+
+    <h3>Combien coûte une recherche de fuite après compteur ?</h3>
+    <p>Entre 300 et 700 € HT selon la méthode employée et la complexité du réseau (intérieur seul, partie enterrée, ou les deux). Un devis fixe est communiqué avant intervention. Cette somme est remboursable par votre assurance habitation si un dégât des eaux est constaté.</p>
+
+    <h3>Combien de temps dure l'intervention ?</h3>
+    <p>En moyenne 1h30 à 3 heures sur site. Si la fuite est sur canalisation enterrée et que nous devons déployer le gaz traceur sur un tracé long, comptez une demi-journée. Un rapport écrit est remis le jour même ou dans les 24 heures par email.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander un diagnostic après compteur</a>
+    </div>
+  </div>
+</section>
+
+{form_section("Bordeaux")}
+'''
+
+    return html_base(
+        'Fuite d\'eau après compteur à Bordeaux | Recherche et localisation',
+        'Recherche de fuite après compteur d\'eau à Bordeaux et en Gironde : localisation sans démolition, écrêtement de facture possible (loi Warsmann), rapport pour assurance.',
+        'https://recherche-fuite-gironde.fr/detection-fuite/fuite-apres-compteur/',
+        body,
+        extra_ld=ld_service + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
+# PAGES USE CASE : Piscine par ville
+# ═══════════════════════════════════════════════════════════════
+
+PISCINE_PAGES = [
+    {
+        "slug": "piscine-bordeaux",
+        "ville": "Bordeaux",
+        "ville_article": "à Bordeaux",
+        "ville_locatif": "Bordeaux",
+        "cp": "33000",
+        "contexte_local": "Des propriétés viticoles du Médoc aux villas de Caudéran, du Bouscat ou de Saint-Augustin, les piscines privées de la métropole bordelaise présentent une grande diversité de configurations : bassins enterrés béton, coques polyester, liners PVC, margelles en pierre de Frontenac. Chaque structure exige une approche adaptée pour localiser une fuite sans vidange.",
+        "zones_voisines": "Mérignac, Pessac, Talence, Le Bouscat, Caudéran",
+        "hero_image_alt": "Piscine privée avec terrasse dans une propriété de la métropole bordelaise, zone d'intervention recherche de fuite",
+    },
+    {
+        "slug": "piscine-merignac",
+        "ville": "Mérignac",
+        "ville_article": "à Mérignac",
+        "ville_locatif": "Mérignac",
+        "cp": "33700",
+        "contexte_local": "Mérignac concentre une forte densité de maisons individuelles avec piscine dans les quartiers d'Arlac, Capeyron, Chemin Long et Beutre. Les bassins des années 1980 à 2000, souvent en béton projeté ou liner PVC, présentent des problématiques récurrentes : canalisations PVC vieillissantes, joints de skimmer durcis, liners en fin de vie. Notre diagnostic non destructif s'adapte à chacune de ces configurations.",
+        "zones_voisines": "Bordeaux, Le Haillan, Eysines, Pessac, Saint-Médard-en-Jalles",
+        "hero_image_alt": "Piscine privée en jardin d'une maison individuelle à Mérignac, zone d'intervention recherche de fuite sans vidange",
+    },
+    {
+        "slug": "piscine-arcachon",
+        "ville": "Arcachon",
+        "ville_article": "à Arcachon",
+        "ville_locatif": "Arcachon",
+        "cp": "33120",
+        "contexte_local": "Les piscines d'Arcachon et de la Ville d'Hiver subissent un environnement spécifique : proximité de l'eau salée, vents porteurs de sable, variations hygrométriques importantes. Ces conditions accélèrent le vieillissement des joints, des pièces à sceller et des canalisations enterrées. L'air salin corrode aussi les équipements du local technique plus rapidement qu'à l'intérieur des terres.",
+        "zones_voisines": "La Teste-de-Buch, Gujan-Mestras, Le Teich, Pyla-sur-Mer",
+        "hero_image_alt": "Piscine privée à Arcachon proche du Bassin, zone d'intervention recherche de fuite",
+    },
+    {
+        "slug": "piscine-la-teste-de-buch",
+        "ville": "La Teste-de-Buch",
+        "ville_article": "à La Teste-de-Buch",
+        "ville_locatif": "La Teste-de-Buch",
+        "cp": "33260",
+        "contexte_local": "La Teste-de-Buch, plus grande commune du bassin d'Arcachon par la superficie, compte une densité exceptionnelle de piscines privées dans les lotissements de Cazaux, du Pyla et du centre. Les sols sableux posent des défis spécifiques : affaissement léger des canalisations enterrées, désaxement des raccords, besoin de reprendre régulièrement l'étanchéité des pièces à sceller.",
+        "zones_voisines": "Arcachon, Gujan-Mestras, Biganos, Le Teich",
+        "hero_image_alt": "Piscine privée avec sol sableux caractéristique de La Teste-de-Buch, zone d'intervention recherche de fuite",
+    },
+    {
+        "slug": "piscine-gujan-mestras",
+        "ville": "Gujan-Mestras",
+        "ville_article": "à Gujan-Mestras",
+        "ville_locatif": "Gujan-Mestras",
+        "cp": "33470",
+        "contexte_local": "Commune dynamique du bassin d'Arcachon, Gujan-Mestras compte une forte proportion de résidences secondaires et de maisons familiales équipées de piscines. Le contexte côtier et les sols sableux favorisent des problèmes spécifiques aux canalisations enterrées ainsi qu'aux joints des pièces à sceller, soumis aux variations thermiques importantes entre l'hiver humide et l'été chaud.",
+        "zones_voisines": "La Teste-de-Buch, Le Teich, Biganos, Arcachon",
+        "hero_image_alt": "Piscine privée dans une maison du Bassin d'Arcachon à Gujan-Mestras, zone d'intervention recherche de fuite",
+    },
+    {
+        "slug": "piscine-libourne",
+        "ville": "Libourne",
+        "ville_article": "à Libourne",
+        "ville_locatif": "Libourne",
+        "cp": "33500",
+        "contexte_local": "Libourne et les communes du Libournais (Saint-Émilion, Pomerol, Fronsac) comptent de nombreuses piscines dans les propriétés viticoles et les maisons bourgeoises anciennes. Les bassins en béton armé de 20 à 40 ans d'âge nécessitent souvent une attention particulière aux fissures structurelles et à l'étanchéité des angles. Le sol argileux caractéristique de la région peut provoquer des mouvements qui désaxent les canalisations.",
+        "zones_voisines": "Saint-Émilion, Saint-Denis-de-Pile, Coutras, Castillon-la-Bataille",
+        "hero_image_alt": "Piscine privée dans une propriété du Libournais à Libourne, zone d'intervention recherche de fuite",
+    },
+    {
+        "slug": "piscine-le-bouscat",
+        "ville": "Le Bouscat",
+        "ville_article": "au Bouscat",
+        "ville_locatif": "Le Bouscat",
+        "cp": "33110",
+        "contexte_local": "Le Bouscat, ville résidentielle limitrophe de Bordeaux, compte de nombreuses piscines dans les quartiers pavillonnaires (Parc Bordelais, La Châtaigneraie, Bourran). Les bassins sont souvent intégrés à des jardins matures avec racines proches, ce qui peut solliciter les canalisations enterrées. Les piscines plus anciennes, avec équipements techniques en sous-sol, nécessitent un diagnostic précis pour distinguer une fuite de bassin d'une fuite de local technique.",
+        "zones_voisines": "Bordeaux, Caudéran, Bruges, Eysines, Mérignac",
+        "hero_image_alt": "Piscine privée dans un jardin pavillonnaire du Bouscat, zone d'intervention recherche de fuite",
+    },
+]
+
+def page_piscine_ville(p):
+    ville = p["ville"]
+    ville_article = p["ville_article"]
+    cp = p["cp"]
+    slug = p["slug"]
+
+    ld_local = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Recherche de fuite de piscine {ville_article} sans vidange. Colorant fluorescéine, écoute électro-acoustique, inspection sous-marine. Intervention 24h, rapport pour assurance.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/{slug}/",
+  "image": "https://recherche-fuite-gironde.fr/assets/piscine-privee-bordeaux.webp",
+  "address": {{
+    "@type": "PostalAddress",
+    "addressLocality": "{ville}",
+    "postalCode": "{cp}",
+    "addressCountry": "FR"
+  }},
+  "areaServed": {{ "@type": "City", "name": "{ville}" }},
+  "priceRange": "€€",
+  "serviceType": "Recherche de fuite de piscine"
+}}
+</script>'''
+
+    ld_service = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite de piscine sans vidange",
+  "name": "Recherche de fuite de piscine {ville_article}",
+  "description": "Localisation précise d'une fuite sur piscine enterrée, coque polyester ou liner PVC sans vidanger le bassin. Méthodes : colorant fluorescéine, écoute électro-acoustique, test de pression des canalisations, inspection sous-marine.",
+  "provider": {{
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  }},
+  "areaServed": {{ "@type": "Place", "name": "{ville} et métropole" }},
+  "category": "Détection de fuite aquatique"
+}}
+</script>'''
+
+    ld_breadcrumb = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" }},
+    {{ "@type": "ListItem", "position": 2, "name": "Détection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" }},
+    {{ "@type": "ListItem", "position": 3, "name": "Piscine {ville}", "item": "https://recherche-fuite-gironde.fr/detection-fuite/{slug}/" }}
+  ]
+}}
+</script>'''
+
+    ld_faq = f'''<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{
+      "@type": "Question",
+      "name": "Comment savoir si ma piscine fuit vraiment ou si c'est juste de l'évaporation ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Faites le test du seau : posez un seau rempli d'eau sur la première marche de la piscine, marquez le niveau. Après 24 à 48 heures sans baignade et sans remise à niveau, comparez. Si le seau et la piscine baissent pareillement, c'est de l'évaporation. Si la piscine baisse plus, il y a une fuite. L'évaporation normale en Gironde est de 3 à 5 mm par jour l'été, 0 à 2 mm au printemps." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Faut-il vidanger la piscine pour localiser la fuite ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Non, dans 95 pourcent des cas. Le colorant fluorescéine, l'écoute électro-acoustique et le test de pression des canalisations localisent la fuite sans vidange. La vidange est à éviter : elle peut endommager le liner, faire remonter la nappe phréatique sous le bassin et coûte 1000 à 2000€ en eau et produits de remise en service." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Combien coûte une recherche de fuite sur une piscine à Bordeaux ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Le tarif d'une recherche de fuite piscine se situe entre 300 et 700 euros HT selon la taille du bassin, les méthodes à combiner et la complexité de l'installation (piscine miroir, débordement, chauffée). Ce coût est souvent pris en charge par votre assurance habitation dans le cadre de la garantie dégâts des eaux, sur présentation de notre rapport technique." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "La recherche de fuite piscine est-elle remboursée par l'assurance ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, la plupart des contrats multirisques habitation couvrent la recherche de fuite sur piscine au titre de la garantie recherche de fuite. Notre rapport détaillé (photos, méthodes employées, point de fuite localisé) est accepté par les principaux assureurs. Déclarez le sinistre dans les 5 jours ouvrables après constat." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Quelles sont les fuites les plus fréquentes sur piscine ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Par ordre de fréquence : fuite sur liner PVC (pli, perforation, soudure), fuite au niveau du skimmer ou de la buse de refoulement (joint fissuré), fuite sur canalisation enterrée (raccord ou fissure), fuite de la bonde de fond, fissure structurelle du bassin béton, fuite sur la ligne d'eau ou les margelles." }}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Intervenez-vous en urgence sur une piscine qui perd beaucoup d'eau ?",
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, nous intervenons sous 24 à 48h sur Bordeaux et sa métropole pour les fuites actives importantes (perte supérieure à 5 cm par jour). Pour limiter les dégâts en attendant, coupez l'arrivée d'eau de remplissage automatique et maintenez le niveau juste au-dessus du skimmer pour que la filtration continue de tourner." }}
+    }}
+  ]
+}}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Détection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Piscine {ville}</span>
+    </nav>
+    <span class="badge-cp">Piscine · {cp}</span>
+    <h1>Recherche de fuite de piscine {ville_article}</h1>
+    <p class="hero-mini-lead">Votre piscine perd de l'eau plus vite que l'évaporation normale ? Nos techniciens localisent la fuite <strong>sans vidange ni démolition</strong>, en combinant colorant fluorescéine, écoute électro-acoustique et test de pression. Rapport technique remis le jour même, reconnu par les assureurs.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis gratuit</a>
+      <a href="#methodes" class="btn btn-outline-green">Nos méthodes</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/piscine-privee-bordeaux.webp" alt="{p['hero_image_alt']}" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h2>Ma piscine perd de l'eau : fuite ou évaporation ?</h2>
+    <p>Avant de parler de fuite, il faut écarter l'évaporation naturelle. En Gironde, une piscine extérieure sans abri perd en moyenne <strong>3 à 5 mm par jour en été</strong> (juin à septembre) et <strong>0 à 2 mm par jour au printemps et à l'automne</strong>. Au-delà, surtout si la perte dépasse 1 cm par jour, une fuite est probable.</p>
+
+    <h3>Le test du seau, première étape gratuite</h3>
+    <p>Posez un seau rempli d'eau sur la première marche de votre piscine (pour qu'il soit à la même température). Marquez au feutre le niveau intérieur du seau et le niveau de la piscine sur la paroi. Laissez 24 à 48 heures sans baignade, sans remise à niveau automatique et sans pluie. Si le seau et la piscine baissent de la même hauteur, c'est de l'évaporation. Si la piscine baisse nettement plus que le seau, vous avez une fuite et il est temps de nous contacter.</p>
+
+    <h3>Signes qui ne trompent pas</h3>
+    <ul>
+      <li>Perte d'eau régulière supérieure à 1 cm par jour, y compris par temps couvert</li>
+      <li>Zone anormalement humide autour du bassin, terrain gorgé d'eau ou sol qui s'affaisse sur un tracé linéaire</li>
+      <li>Bulles dans l'eau sans baigneur, visibles quand la filtration est à l'arrêt</li>
+      <li>Consommation d'eau en forte hausse sur la facture sans changement d'usage</li>
+      <li>Pression du filtre anormalement basse malgré un filtre propre</li>
+      <li>Liner qui se décolle localement, plis nouveaux, cloques sous l'eau</li>
+      <li>Margelle ou plage qui bougent, joints fissurés au pourtour</li>
+      <li>Local technique humide ou flaque au pied de la pompe</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt" id="methodes">
+  <div class="container" style="max-width:1080px;">
+    <h2>Comment on localise une fuite de piscine sans vidange</h2>
+    <p>Chaque méthode cible un type de fuite précis. Sur un chantier, nos techniciens combinent deux à quatre techniques pour isoler la source du problème avec certitude.</p>
+
+    <figure style="margin:1.5rem 0;">
+      <img src="/assets/niveau-eau-piscine-fuite.webp" alt="Piscine avec niveau d'eau anormalement bas, signe caractéristique d'une fuite à localiser sans vidanger" width="1600" height="1067" loading="lazy" style="width:100%;max-height:360px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <div class="grid-3" style="margin-top:2rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Colorant fluorescéine</h3>
+          <p>Un colorant fluorescent non toxique (de qualité alimentaire) est injecté à la seringue près des zones suspectes : skimmer, buses de refoulement, bonde de fond, fissures visibles. La filtration à l'arrêt, le colorant est aspiré vers la fuite et révèle son parcours exact. Méthode rapide pour les fuites de l'enceinte du bassin.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Écoute électro-acoustique</h3>
+          <p>Un amplificateur acoustique haute sensibilité capte le bruit caractéristique de l'eau qui fuit sous pression. Idéal pour les canalisations enterrées d'alimentation ou de refoulement autour de la piscine. Précision au mètre près, sans ouvrir le sol.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Test de pression hydraulique</h3>
+          <p>On isole chaque circuit (aspiration, refoulement, balai, bonde de fond) en obturant les bouches puis en mettant sous pression. La perte de pression mesurée identifie le circuit défectueux. Couplé à l'écoute, on localise ensuite le point exact.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Inspection sous-marine</h3>
+          <p>Caméra endoscopique étanche ou inspection masque et tuba pour détecter visuellement les perforations du liner, les décollements de soudures, les fissures du carrelage ou du béton. Souvent la dernière étape pour confirmer la fuite repérée par colorant.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Gaz traceur azote/hélium</h3>
+          <p>Pour les canalisations enterrées longues ou inaccessibles acoustiquement, on injecte un mélange d'azote et d'hélium dans le réseau mis sous pression. Le gaz remonte en surface au droit de la fuite et est détecté par un capteur de surface.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Thermographie infrarouge</h3>
+          <p>Une caméra thermique révèle les variations de température au sol et sur les margelles, utile pour repérer une fuite sous une terrasse ou près du local technique. Complément efficace quand la fuite est diffuse ou lointaine du bassin visible.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Types de fuites que nous traitons sur piscine</h2>
+    <p>La fuite peut provenir du bassin lui-même, du réseau hydraulique ou des équipements périphériques. Voici les cas les plus fréquents que nous rencontrons {ville_article} et dans sa métropole.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Fuite de liner PVC</h3>
+          <p>Perforation, accroc, décollement de soudure aux angles, cloque, pli marqué. Le liner fuit le plus souvent au niveau des pièces à sceller (skimmer, prise balai, buses) où les brides peuvent s'être desserrées avec le temps.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Fuite skimmer ou refoulement</h3>
+          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Fuite canalisation enterrée</h3>
+          <p>Raccord collé qui lâche, fissure sur un tuyau PVC pris dans la dalle, tassement de terrain qui désaxe un raccord. Le débit perdu peut être très important et ruiner un massif paysager en quelques semaines.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Fuite de bonde de fond</h3>
+          <p>Joint torique usé, bride cassée, obturateur d'hivernage oublié. Fuite difficile à détecter à l'œil car souvent sous une grille, mais aisément localisable au colorant ou par test de pression.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Fissure structurelle béton</h3>
+          <p>Bassin béton armé avec fissure verticale ou horizontale, souvent suite à un mouvement de terrain (argile, nappe phréatique). Peut concerner aussi une coque polyester délaminée.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Fuite équipement local technique</h3>
+          <p>Pompe qui fuit par le joint d'axe, filtre multivoies qui déverse par la voie égout, échangeur thermique de pompe à chaleur piscine percé. Pas de fuite du bassin lui-même, mais une perte réelle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Piscines à Bordeaux et sa métropole : les spécificités locales</h2>
+    <p>{p['contexte_local']}</p>
+
+    <figure style="margin:1.5rem 0;">
+      <img src="/assets/technicien-recherche-fuite-piscine.webp" alt="Technicien spécialisé en recherche de fuite de piscine intervenant sur un bassin privé en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:360px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h3>Terrain argileux et mouvements de sol</h3>
+    <p>Une partie du territoire bordelais repose sur des sols argileux sensibles au retrait-gonflement selon la pluviométrie. Ces mouvements de terrain peuvent désaxer les canalisations enterrées autour de la piscine, provoquer des fissures sur les dalles de plage et, à terme, sur la structure du bassin. Nous prenons systématiquement en compte ce paramètre géologique lors du diagnostic.</p>
+
+    <h3>Piscines du Bassin d'Arcachon et sable</h3>
+    <p>Dans les communes du bassin (La Teste-de-Buch, Gujan-Mestras, Arcachon, Andernos), les piscines posées sur sable nécessitent une attention particulière aux raccords des canalisations enterrées, qui subissent micro-mouvements permanents et corrosion par l'air salin.</p>
+
+    <h3>Piscines anciennes de propriétés viticoles (Médoc)</h3>
+    <p>Les piscines en béton projeté des chais et domaines viticoles ont souvent 30 à 50 ans. Les techniques de l'époque (étanchéité par enduit ciment, margelles pierre scellées au mortier) n'ont pas toujours bien vieilli. Notre méthodologie intègre ces bassins anciens où la fuite peut se cacher derrière un simple défaut d'étanchéité aux angles ou au contact margelle/bassin.</p>
+
+    <h3>Zones d'intervention autour de {ville}</h3>
+    <p>Nous intervenons sous 24 à 48h sur l'ensemble de la métropole bordelaise : {p['zones_voisines']}, ainsi que dans tout le département de la Gironde pour les piscines du Bassin d'Arcachon, du Médoc et du Libournais.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Prix d'une recherche de fuite sur piscine {ville_article}</h2>
+    <p>Le tarif d'une recherche de fuite piscine dépend principalement du nombre de méthodes à combiner et du temps d'intervention. Voici les fourchettes que nous pratiquons sur Bordeaux et sa métropole.</p>
+
+    <div style="overflow-x:auto;margin:1.5rem 0;">
+      <table style="width:100%;border-collapse:collapse;font-size:.95rem;background:var(--white);">
+        <thead>
+          <tr style="background:var(--c-primary);color:var(--white);">
+            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Type de diagnostic</th>
+            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Tarif moyen HT</th>
+            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Durée d'intervention</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:.8rem;border:1px solid var(--c-border);">Test d'évaporation seul (sans déplacement)</td><td style="padding:.8rem;border:1px solid var(--c-border);">Gratuit, à faire soi-même</td><td style="padding:.8rem;border:1px solid var(--c-border);">24 à 48 h</td></tr>
+          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Recherche colorant + inspection visuelle</td><td style="padding:.8rem;border:1px solid var(--c-border);">300 à 400 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">1 h 30 à 2 h</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--c-border);">Recherche complète (colorant + acoustique + pression)</td><td style="padding:.8rem;border:1px solid var(--c-border);">450 à 600 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">2 à 3 h</td></tr>
+          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Recherche avancée avec gaz traceur enterré</td><td style="padding:.8rem;border:1px solid var(--c-border);">600 à 800 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">3 à 4 h</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--c-border);">Vidange + inspection classique (méthode à éviter)</td><td style="padding:.8rem;border:1px solid var(--c-border);">1 000 à 2 000 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">1 à 3 jours</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Un devis fixe vous est communiqué avant intervention après un premier échange téléphonique sur les symptômes observés. Aucun déplacement facturé si vous décidez de ne pas donner suite.</p>
+
+    <h3>Prise en charge par l'assurance habitation</h3>
+    <p>La majorité des contrats multirisques habitation incluent une garantie « recherche de fuite » qui rembourse tout ou partie du diagnostic, dès lors que la fuite a provoqué un dégât des eaux (même mineur). Le rapport technique que nous remettons mentionne les méthodes employées, la localisation précise de la fuite et les photos d'intervention : il est reconnu par tous les principaux assureurs français. Déclarez le sinistre dans les 5 jours ouvrables.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur la recherche de fuite piscine</h2>
+
+    <h3>Comment savoir si ma piscine fuit vraiment ou si c'est juste de l'évaporation ?</h3>
+    <p>Faites le test du seau : posez un seau rempli d'eau sur la première marche de la piscine, marquez le niveau. Après 24 à 48 heures sans baignade et sans remise à niveau, comparez. Si le seau et la piscine baissent pareillement, c'est de l'évaporation. Si la piscine baisse plus, il y a une fuite. L'évaporation normale en Gironde est de 3 à 5 mm par jour l'été.</p>
+
+    <h3>Faut-il vidanger la piscine pour localiser la fuite ?</h3>
+    <p>Non, dans 95 pourcent des cas. Le colorant fluorescéine, l'écoute électro-acoustique et le test de pression des canalisations localisent la fuite sans vidange. La vidange est à éviter : elle peut endommager le liner, faire remonter la nappe phréatique sous le bassin et coûte 1 000 à 2 000 € en eau et produits de remise en service.</p>
+
+    <h3>Combien coûte une recherche de fuite sur une piscine à Bordeaux ?</h3>
+    <p>Le tarif d'une recherche de fuite piscine se situe entre 300 et 700 euros HT selon la taille du bassin, les méthodes à combiner et la complexité de l'installation. Ce coût est souvent pris en charge par votre assurance habitation dans le cadre de la garantie dégâts des eaux.</p>
+
+    <h3>La recherche de fuite piscine est-elle remboursée par l'assurance ?</h3>
+    <p>Oui, la plupart des contrats multirisques habitation couvrent la recherche de fuite sur piscine au titre de la garantie recherche de fuite. Notre rapport détaillé (photos, méthodes employées, point de fuite localisé) est accepté par les principaux assureurs. Déclarez le sinistre dans les 5 jours ouvrables après constat.</p>
+
+    <h3>Quelles sont les fuites les plus fréquentes sur piscine ?</h3>
+    <p>Par ordre de fréquence : fuite sur liner PVC (pli, perforation, soudure), fuite au niveau du skimmer ou de la buse de refoulement (joint fissuré), fuite sur canalisation enterrée (raccord ou fissure), fuite de la bonde de fond, fissure structurelle du bassin béton, fuite sur la ligne d'eau ou les margelles.</p>
+
+    <h3>Intervenez-vous en urgence sur une piscine qui perd beaucoup d'eau ?</h3>
+    <p>Oui, nous intervenons sous 24 à 48h sur Bordeaux et sa métropole pour les fuites actives importantes (perte supérieure à 5 cm par jour). Pour limiter les dégâts en attendant, coupez l'arrivée d'eau de remplissage automatique et maintenez le niveau juste au-dessus du skimmer pour que la filtration continue de tourner.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander un devis pour ma piscine</a>
+    </div>
+  </div>
+</section>
+
+{form_section(p['ville'])}
+'''
+
+    return html_base(
+        f'Recherche de fuite piscine {ville_article} | Sans vidange ({cp})',
+        f'Recherche de fuite sur piscine {ville_article} sans vidange : colorant fluorescéine, écoute acoustique, test de pression. Devis gratuit 24h, rapport pour assurance. Intervention en Gironde.',
+        f'https://recherche-fuite-gironde.fr/detection-fuite/{slug}/',
+        body,
+        extra_ld=ld_local + ld_service + ld_breadcrumb + ld_faq,
+    )
+
+
 def gen_sitemap():
     urls = ['https://recherche-fuite-gironde.fr/']
     urls += [
@@ -1453,6 +2381,9 @@ def gen_sitemap():
     urls += [f'https://recherche-fuite-gironde.fr/guide/{a["slug"]}/' for a in GUIDE_PAGES]
     urls += [f'https://recherche-fuite-gironde.fr/villes/{v["slug"]}/' for v in VILLES]
     urls += [f'https://recherche-fuite-gironde.fr/villes/{v["slug"]}/chemisage/' for v in VILLES]
+    urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in PISCINE_PAGES]
+    urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in URGENCE_PAGES]
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-apres-compteur/']
 
     items = '\n'.join([
         f'  <url><loc>{u}</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if u.endswith(".fr/") else "0.8"}</priority></url>'
@@ -1522,6 +2453,17 @@ def main():
     print('[7/8] Pages villes — chemisage (30)...')
     for v in VILLES:
         write(f'villes/{v["slug"]}/chemisage/index.html', page_ville_chemisage(v))
+
+    print('[7b] Pages use case — piscine par ville...')
+    for p in PISCINE_PAGES:
+        write(f'detection-fuite/{p["slug"]}/index.html', page_piscine_ville(p))
+
+    print('[7c] Pages use case — urgence par ville...')
+    for p in URGENCE_PAGES:
+        write(f'detection-fuite/{p["slug"]}/index.html', page_urgence_ville(p))
+
+    print('[7d] Page use case — fuite apres compteur...')
+    write('detection-fuite/fuite-apres-compteur/index.html', page_fuite_apres_compteur())
 
     print('[8/8] Fichiers techniques...')
     write('sitemap.xml', gen_sitemap())

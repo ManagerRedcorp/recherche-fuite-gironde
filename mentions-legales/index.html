@@ -123,7 +123,6 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     e.preventDefault();
     var btn=form.querySelector('[type=submit]');
     var origText=btn.textContent;
-    var successEl=form.dataset.success?document.getElementById(form.dataset.success):null;
     var errorEl=form.dataset.error?document.getElementById(form.dataset.error):null;
     btn.disabled=true;
     btn.textContent='Envoi en cours…';
@@ -140,8 +139,7 @@ document.querySelectorAll('form[data-ajax]').forEach(function(form){
     .then(function(r){return r.json();})
     .then(function(res){
       if(res.success==='true'||res.success===true){
-        form.style.display='none';
-        if(successEl)successEl.style.display='block';
+        window.location.href=window.location.origin+'/merci/';
       }else{
         btn.disabled=false;btn.textContent=origText;
         if(errorEl)errorEl.style.display='block';
