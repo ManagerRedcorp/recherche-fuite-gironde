@@ -1394,6 +1394,402 @@ GUIDE_PAGES = [
 <p>Nous intervenons sur toute la Gironde avec un rapport technique standardise, accepte par les principaux assureurs. Pour obtenir un devis prealable ou coordonner une intervention avec votre assureur, consultez notre page de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis</a> ou directement l'une de nos <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">pages piscine par ville</a> pour plus de details sur nos methodes d'intervention par zone geographique. Pour les aspects tarifaires, consultez notre guide dedie <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>.</p>"""
     },
     {
+        "slug": "ma-piscine-perd-de-l-eau-que-faire",
+        "title": "Ma piscine perd de l'eau : que faire ? Guide de diagnostic",
+        "title_seo": "Ma piscine perd de l eau que faire diagnostic etapes Gironde",
+        "desc": "Votre piscine perd de l'eau et vous ne savez pas par ou commencer ? Arbre de decision etape par etape pour diagnostiquer et agir, avant d'appeler un professionnel en Gironde.",
+        "contenu": """<p>Vous constatez une baisse anormale du niveau de votre piscine. Avant de paniquer ou d'appeler un professionnel, quelques verifications simples permettent de qualifier precisement la situation. Cet article est un guide de decision etape par etape : a chaque question, vous saurez ce qu'il faut faire et quand passer a l'etape suivante. L'objectif : arriver chez un pro de la recherche de fuite avec un diagnostic preliminaire solide, ce qui fait gagner du temps et souvent des euros.</p>
+
+<h2>Etape 1 : Combien perdez-vous reellement par jour ?</h2>
+<p>La premiere question a se poser est quantitative. La perception "ma piscine baisse rapidement" est tres subjective : une piscine de 8×4 metres avec 1 cm de baisse par jour perd environ 320 litres par jour. A l'echelle d'un ete (3 mois), cela represente 29 m³ d'eau. Est-ce anormal ? Cela depend de beaucoup de facteurs.</p>
+
+<h3>Comment mesurer precisement</h3>
+<ol>
+<li>Avec un metre ou un niveau laser, marquez au feutre effacable le niveau d'eau sur la paroi (liner) ou sur un carrelage (bassin beton). Choisissez un point facile a retrouver (angle d'escalier, marque de structure).</li>
+<li>Attendez exactement 24 heures, sans baignade, sans remplissage automatique en cours, et sans changement meteo majeur (pluie, canicule).</li>
+<li>Marquez le nouveau niveau et mesurez la difference en millimetres.</li>
+</ol>
+
+<h3>Reperes pour interpretation</h3>
+<ul>
+<li><strong>0 a 3 mm/jour</strong> : normal en avril-mai, septembre-octobre en Gironde. Pas de fuite a suspecter.</li>
+<li><strong>3 a 6 mm/jour</strong> : plage normale en plein ete juillet-aout, surtout en periode de vent et soleil intense.</li>
+<li><strong>6 a 10 mm/jour</strong> : suspect en toute saison. Anormal en intersaison. A investiguer.</li>
+<li><strong>Plus de 10 mm/jour (1 cm)</strong> : fuite quasi-certaine, sauf tres forte chaleur combinee au vent.</li>
+<li><strong>Plus de 3 cm/jour</strong> : fuite active importante, agir sous 48h pour eviter degats collateraux (affouillement, surconsommation importante).</li>
+</ul>
+
+<p>Si vos mesures tombent dans les plages normales (0-6 mm/jour selon saison), il n'y a probablement pas de fuite. Continuez vos baignades normales et refaites une mesure dans 2-3 semaines si vous restez inquiet. Si vous etes au-dessus, passez a l'etape 2.</p>
+
+<h2>Etape 2 : Faites le test du seau (fuite ou evaporation)</h2>
+<p>Le test du seau est universel, gratuit et incontournable. Il isole le facteur evaporation pour savoir si votre piscine perd plus que ce qu'une simple evaporation expliquerait.</p>
+
+<h3>Protocole precis</h3>
+<ol>
+<li>Prenez un seau de type "seau de chantier" (10 a 15 litres), rempli d'eau a hauteur similaire a votre piscine (2/3 environ).</li>
+<li>Posez-le sur la premiere marche de votre piscine, immerge a sa base mais avec sa paroi interieure au-dessus du niveau d'eau. Le seau est maintenu a la meme temperature que la piscine.</li>
+<li>Marquez au feutre : le niveau d'eau a l'interieur du seau, ET le niveau de la piscine sur sa paroi (liner ou margelle).</li>
+<li>Laissez 24 a 48 heures : pas de baignade, pas de remplissage automatique (coupez la regulation de niveau), pas de pluie attendue.</li>
+<li>Comparez les deux niveaux.</li>
+</ol>
+
+<h3>Interpretation des resultats</h3>
+<ul>
+<li><strong>Le seau et la piscine ont baisse de la meme hauteur</strong> : evaporation normale, pas de fuite. Vous pouvez dormir tranquille.</li>
+<li><strong>La piscine a baisse plus que le seau</strong> : la piscine fuit. La difference est l'indicateur du debit de fuite : 1 cm d'ecart = environ 320 L pour un 8×4 m.</li>
+<li><strong>La piscine et le seau ont tous deux enormement baisse</strong> (5+ cm en 48h) : canicule extreme, refaire le test en conditions meteo normales.</li>
+</ul>
+
+<h2>Etape 3 : Filtration en marche ou a l'arret ?</h2>
+<p>Si le test du seau confirme une fuite, l'etape suivante est de savoir si elle se situe sur le bassin lui-meme, sur les canalisations ou sur le local technique. Le test de la filtration le determine partiellement.</p>
+
+<h3>Test avec filtration en marche</h3>
+<p>Faites tourner la filtration normalement pendant 24 heures. Mesurez la perte d'eau.</p>
+
+<h3>Test avec filtration a l'arret</h3>
+<p>Coupez la filtration pendant 24 heures. Mesurez la perte d'eau.</p>
+
+<h3>Interpretation</h3>
+<ul>
+<li><strong>Perte plus rapide filtration MARCHE qu'ARRET</strong> : fuite sur le refoulement (canalisation apres la pompe, sous pression). C'est le cas frequent.</li>
+<li><strong>Perte plus rapide filtration ARRET qu'MARCHE</strong> : fuite sur l'aspiration (canalisation skimmer/bonde), car la pression negative sous pompe aspire l'air par la fuite au lieu de laisser sortir l'eau.</li>
+<li><strong>Perte identique dans les deux cas</strong> : fuite sur le bassin (liner, coque, joint piece a sceller, fissure beton). La filtration n'est pas en cause.</li>
+</ul>
+
+<h2>Etape 4 : Ou se situe exactement le niveau quand la perte s'arrete ?</h2>
+<p>Si votre piscine perd de l'eau mais que la baisse s'arrete a un certain niveau (ex : niveau du skimmer, niveau de la buse de refoulement), vous avez probablement identifie la zone de fuite.</p>
+
+<ul>
+<li><strong>Baisse s'arrete au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la piece). Tres frequent sur piscines liner de 25+ ans.</li>
+<li><strong>Baisse s'arrete au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le beton.</li>
+<li><strong>Baisse s'arrete au niveau de la prise balai</strong> : joint de prise balai ou raccord defectueux.</li>
+<li><strong>Baisse continue sans s'arreter</strong> : fuite sur liner (perforation), bonde de fond, canalisation enterree ou fissure structurelle.</li>
+</ul>
+
+<h2>Etape 5 : Inspecter visuellement</h2>
+<p>Avec votre propre observation, verifiez plusieurs points :</p>
+<ol>
+<li><strong>Margelles et plage</strong> : joints fissures, carrelages mobiles, zones anormalement humides ou affaissees.</li>
+<li><strong>Local technique</strong> : flaque au sol, pompe qui goutte, filtre qui suinte, echangeur thermique corrode.</li>
+<li><strong>Terrain autour</strong> : zone gorgee d'eau, gazon anormalement vert, terre qui s'affaisse sur un trace lineaire.</li>
+<li><strong>Liner ou coque</strong> : plis recents, cloques, decoloration localisee, trous visibles (utilisez un masque de plongee si necessaire).</li>
+</ol>
+
+<h2>Etape 6 : quand appeler un professionnel</h2>
+<p>Si vos diagnostics amateurs convergent vers une zone (skimmer, canalisation, liner) ou au contraire si vous etes perdu, il est temps de faire intervenir un specialiste de la recherche de fuite piscine. Le professionnel arrive avec :</p>
+<ul>
+<li>Colorant fluoresceine pour tester les pieces a sceller</li>
+<li>Ecoute electro-acoustique pour les canalisations enterrees</li>
+<li>Test de pression hydraulique pour isoler les circuits</li>
+<li>Camera endoscopique sous-marine pour l'inspection visuelle poussee</li>
+<li>Gaz traceur si fuite suspectee sur canalisations enterrees longues</li>
+</ul>
+
+<h2>Ce qu'il faut preparer avant l'intervention</h2>
+<ul>
+<li>Vos mesures de perte d'eau (avec dates)</li>
+<li>Les resultats de vos tests du seau</li>
+<li>L'historique de la piscine (annee de pose, dernier changement liner, interventions anterieures)</li>
+<li>Les photos des zones suspectes</li>
+<li>Votre contrat d'assurance habitation (pour verifier la garantie recherche de fuite)</li>
+</ul>
+
+<p>Cette preparation prealable peut vous faire economiser 30 a 50 % du temps d'intervention, donc potentiellement du tarif final. Pour les tarifs detailles selon le type de bassin, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine en Gironde</a>. Pour le remboursement assurance, voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine et assurance habitation</a>. Pour faire intervenir nos techniciens, contactez-nous via la page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine a Bordeaux</a> ou l'une de nos pages ville dediees.</p>"""
+    },
+    {
+        "slug": "fuite-liner-piscine",
+        "title": "Fuite liner piscine : signes, causes et diagnostic",
+        "title_seo": "Fuite liner piscine PVC signes causes diagnostic reparation",
+        "desc": "Comment detecter et traiter une fuite sur liner PVC de piscine. Signes caracteristiques, causes frequentes, methodes de diagnostic, reparation locale ou changement complet.",
+        "contenu": """<p>Le liner PVC est le revêtement le plus repandu sur les piscines privees en Gironde : environ 70 a 80 pourcent du parc existant, particulierement sur les bassins installés entre 1985 et 2015 dans les lotissements pavillonnaires de Merignac, Pessac, Le Bouscat, La Teste et Gujan-Mestras. Apres 20 a 30 ans d'usage, le liner entre dans sa phase critique ou les fuites deviennent frequentes. Cet article detaille comment identifier, diagnostiquer et traiter une fuite sur liner PVC.</p>
+
+<h2>Types de liners concernes par les fuites</h2>
+<p>Les liners PVC se declinent en plusieurs epaisseurs qui determinent leur longevite et leur susceptibilite aux fuites.</p>
+
+<h3>Liner 75/100 (0,75 mm d'epaisseur)</h3>
+<p>Le plus economique, souvent pose sur bassins familiaux simples (4×8 m, 5×10 m). Duree de vie theorique : 10 a 15 ans. En pratique, les bassins girondins avec liner 75/100 de plus de 12 ans montrent des signes d'usure generalise : plis figes, points de tension visibles, decoloration. Les fuites deviennent probables des 15 ans.</p>
+
+<h3>Liner 85/100 (0,85 mm)</h3>
+<p>Intermediaire, frequemment pose dans les annees 2000-2015 en remplacement de liners 75/100 d'origine. Duree de vie 15 a 20 ans. Resistance legerement superieure aux chocs et a l'usure sous-marche.</p>
+
+<h3>Liner 100/100 arme (1 mm d'epaisseur armee)</h3>
+<p>Liner renforce par armature textile, pose in situ et soudée. Duree de vie 20 a 30 ans. Frequemment choisi pour les renovations recentes ou les bassins haut de gamme. Tres resistant aux fuites localisees mais complexe a reparer (soudure a chaud specifique).</p>
+
+<h2>Signes caracteristiques d'une fuite de liner</h2>
+
+<h3>Signes visuels</h3>
+<ul>
+<li><strong>Pli ou boursouflure recente</strong> : decollement local du liner par rapport au support beton. Souvent precurseur d'une micro-perforation.</li>
+<li><strong>Tache brune ou noire circulaire</strong> : infiltration d'eau entre le liner et le support, favorisant la moisissure visible par transparence.</li>
+<li><strong>Angle qui se creuse</strong> : soudure au niveau des angles (souvent skimmer, marche, bonde) qui cede par fatigue mecanique.</li>
+<li><strong>Liner qui flotte localement</strong> : presence d'une lame d'eau ou d'air entre le liner et le support, indiquant une infiltration importante.</li>
+<li><strong>Decoloration brutale</strong> : zone localement plus claire ou plus sombre que le reste, signalant un contact different avec le support.</li>
+</ul>
+
+<h3>Signes hydrauliques</h3>
+<ul>
+<li>Baisse de niveau superieure a 1 cm par jour en conditions normales (voir <a href="/guide/ma-piscine-perd-de-l-eau-que-faire/" style="color:var(--green);text-decoration:underline;">guide ma piscine perd de l'eau</a> pour les reperes)</li>
+<li>Baisse qui s'arrete a un niveau precis (skimmer, buse), indiquant la zone de fuite</li>
+<li>Consommation d'eau en hausse sur la facture Suez ou regie</li>
+<li>Deformation de la plage ou des margelles (infiltration sous la dalle)</li>
+</ul>
+
+<h2>Causes principales des fuites de liner</h2>
+
+<h3>Vieillissement du PVC</h3>
+<p>Le PVC perd sa plasticite apres 15 a 25 ans d'exposition aux UV, aux variations thermiques et au chlore. Il devient rigide, se retracte localement, fissure aux points de tension (angles, bonde, skimmer). Vous ne pouvez pas empecher ce processus : l'age du liner est le premier facteur.</p>
+
+<h3>Brides desserrees</h3>
+<p>Les pieces a sceller (skimmer, buses de refoulement, bonde de fond, prise balai) sont solidarisees au liner par des brides inox ou plastique. Apres 10 a 20 ans, ces brides peuvent se desserrer legerement sous l'effet des vibrations et des mouvements thermiques, creant un microgap par ou le liner fuit.</p>
+
+<h3>Objets tranchants</h3>
+<p>Chute d'un objet dans la piscine (tournevis, ciseau de jardinage, debris d'elagage), raclures de robot de nettoyage mal etalonne, impact lors de l'hivernage (chute de branche, glace cristalline sous la bache). Ces chocs peuvent percer le liner, parfois de maniere ponctuelle difficile a detecter.</p>
+
+<h3>Chimie de l'eau defaillante</h3>
+<p>Un pH trop bas (en dessous de 7,0) ou un taux de chlore excessivement eleve (au-dessus de 3 mg/L en permanence) accelere la degradation chimique du PVC. Le liner devient cassant, se craquelle progressivement. Frequent dans les piscines mal entretenues ou a traitement choc repete.</p>
+
+<h3>Racines de plantes ou arbres</h3>
+<p>Les piscines dont les abords sont plantes (bambous, oliviers, pins) peuvent voir des racines pousser sous le liner via un defaut d'etancheite peripherique. Les racines penetrent, souleven le liner et creent des points de fuite.</p>
+
+<h3>Mouvements de terrain</h3>
+<p>Les sols argileux de Bordeaux et des environs sont sujets au retrait-gonflement saisonnier. Ces mouvements sollicitent la structure du bassin et peuvent provoquer des fissures du support beton, qui se repercutent sur le liner en le sollicitant localement.</p>
+
+<h2>Methodes de diagnostic pour fuite de liner</h2>
+
+<h3>Colorant fluoresceine (methode de reference)</h3>
+<p>On injecte a la seringue quelques gouttes de fluoresceine a proximite des zones suspectes, filtration a l'arret. Le colorant est aspire vers la fuite, revelant son parcours exact. C'est la methode privilegiee pour les fuites de pieces a sceller (skimmer, buses).</p>
+
+<h3>Inspection visuelle en apnée</h3>
+<p>Avec un masque et un tuba, inspection systematique des angles, soudures, pieces a sceller. Une perforation punctiforme (0,5 a 2 mm) se detecte par un leger courant d'eau sortant, visible aux debris flottants (poussieres, petites feuilles).</p>
+
+<h3>Camera endoscopique sous-marine</h3>
+<p>Camera etanche motorisée qui parcourt les parois et fond du bassin. Utile pour les piscines profondes (3-4 m) ou les zones d'acces difficile en apnée. Permet d'inspecter les soudures d'angles et les bondes de fond invisibles a l'oeil nu.</p>
+
+<h3>Test d'inversion de pression</h3>
+<p>On fait varier la pression dans les circuits d'alimentation pour reveler les fuites actives. Combine avec l'injection de colorant, cette methode est tres efficace sur les suspicions de fuites aux pieces a sceller.</p>
+
+<h2>Reparation locale ou changement complet ?</h2>
+
+<h3>Reparation locale (patch PVC)</h3>
+<p>Pour une fuite isolee bien localisee (perforation mecanique, decollement de bride), un patch PVC peut etre colle sur le liner. Cout : 100 a 400 euros HT selon la zone. Duree de vie du patch : 5 a 10 ans. Economiquement pertinent si le liner a moins de 20 ans et que le reste est en bon etat.</p>
+
+<h3>Reparation d'angle (soudure)</h3>
+<p>Les fuites aux soudures d'angles peuvent etre reparees par nouvelle soudure a chaud specifique. Requiert du materiel professionnel (extrudeur, vent pulse). Cout : 200 a 600 euros HT. Duree de vie : 5 a 10 ans.</p>
+
+<h3>Rejointoiement de piece a sceller</h3>
+<p>Pour une fuite au niveau d'un skimmer ou d'une buse, le demontage de la bride, le renouvellement du joint mastic (silicone piscine) et le resserrage de la bride resolvent le probleme sans changer le liner. Cout : 200 a 500 euros HT selon le nombre de pieces.</p>
+
+<h3>Changement complet du liner</h3>
+<p>Lorsque le liner presente plusieurs signes d'usure generalisee (plis multiples, decolorations, soudures cedees, perforations multiples), un changement complet est necessaire. Cout : 3 000 a 8 000 euros HT pour un bassin standard 8×4 m, 6 000 a 12 000 euros pour 10×5 m. Le choix de liner peut inclure une montee en gamme (75/100 vers 85/100 ou 100/100 arme) pour prolonger la prochaine duree de vie.</p>
+
+<h2>Decision : reparer ou changer ?</h2>
+<p>Trois criteres orientent la decision :</p>
+<ol>
+<li><strong>Age du liner</strong> : moins de 15 ans = reparation locale privilegiee. Plus de 25 ans = changement recommande meme pour une fuite isolée.</li>
+<li><strong>Nombre de fuites</strong> : une seule fuite localisee = reparation. Plusieurs fuites simultanees = le liner est en fin de vie, changement.</li>
+<li><strong>Etat visuel general</strong> : decolorations, plis multiples, soudures fatigees = changement. Liner homogene par ailleurs = reparation.</li>
+</ol>
+
+<p>Notre rapport de diagnostic evalue objectivement ces criteres et vous remet une preconisation chiffrée. Pour les tarifs detailles selon le type de bassin et la methode retenue, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>. Pour faire intervenir nos techniciens, consultez nos pages piscine par ville, notamment <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Merignac</a> qui concentre la plus forte densite de liners PVC en fin de vie en Gironde.</p>"""
+    },
+    {
+        "slug": "evaporation-vs-fuite-piscine",
+        "title": "Evaporation ou fuite de piscine ? Le guide precis",
+        "title_seo": "Evaporation eau piscine vs fuite Gironde climat test seau",
+        "desc": "Comment distinguer l'evaporation normale d'une fuite sur votre piscine en Gironde. Taux mensuels selon le climat, protocoles de test, seuils d'alerte.",
+        "contenu": """<p>Votre piscine perd de l'eau et la question tombe : est-ce une fuite, ou simplement de l'evaporation ? La reponse n'est pas toujours evidente, surtout en ete en Gironde ou l'evaporation peut etre importante. Cet article detaille les taux d'evaporation mensuels en climat aquitain, les facteurs qui les amplifient, et le protocole precis pour trancher entre evaporation et fuite.</p>
+
+<h2>L'evaporation de piscine : un phenomene physique predictible</h2>
+<p>L'evaporation est le passage de l'eau liquide a l'etat gazeux, provoque par la chaleur de l'eau et la sollicitation atmospherique. Contrairement aux idees recues, l'evaporation d'une piscine ne depend pas uniquement de la temperature de l'air : elle resulte d'un calcul complexe impliquant la temperature de l'eau, la temperature de l'air, l'humidite relative et surtout la vitesse du vent.</p>
+
+<h3>Les 4 facteurs qui determinent l'evaporation</h3>
+<ul>
+<li><strong>Temperature de l'eau</strong> : plus l'eau est chaude, plus elle s'evapore. Une piscine chauffee a 28 degrees evapore plus qu'une piscine a 22 degrees.</li>
+<li><strong>Temperature de l'air</strong> : importante mais moins que l'on pense. Une journee a 35 degrees provoque certes plus d'evaporation qu'a 25 degrees, mais l'ecart n'est pas aussi spectaculaire.</li>
+<li><strong>Humidite relative</strong> : plus l'air est sec, plus il peut absorber de l'humidite et donc plus l'evaporation est forte. Une journee a 30 pourcent d'humidite fait bien plus evaporer qu'a 80 pourcent.</li>
+<li><strong>Vitesse du vent</strong> : facteur le plus sous-estime. Le vent emporte la couche d'air humide a la surface de l'eau et permet a de l'air sec de la remplacer, relancant l'evaporation en continu. Une journee ventee peut quadrupler l'evaporation par rapport a une journee calme.</li>
+</ul>
+
+<h2>Taux d'evaporation mensuels en Gironde</h2>
+<p>Voici les moyennes mensuelles d'evaporation pour une piscine exterieure non abritee en plaine bordelaise, basees sur les donnees meteo historiques de la region. Valeurs en mm/jour (1 mm = 1 litre par m² de surface de piscine).</p>
+
+<table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
+<thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Mois</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Evaporation moy. (mm/jour)</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Pic observable</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Contexte</th></tr></thead>
+<tbody>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Janvier</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 1,5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage generalise, evaporation minimale</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Fevrier</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 2</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Vent d'ouest accentué en cas de depression</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Mars</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 a 3</td><td style="padding:.75rem;border:1px solid #D8D4CC;">5 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Remise en route, eau froide, vent printanier</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Avril</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 a 4</td><td style="padding:.75rem;border:1px solid #D8D4CC;">6 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Reprise saison, vents d'ouest reguliers</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Mai</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 a 5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">7 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Mois a forte evaporation par forte amplitude thermique</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Juin</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>4 a 6</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>8 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Pleine saison, chaleur + vents reguliers</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Juillet</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>5 a 7</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>10 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Canicule + vent d'ouest = pic d'evaporation</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Aout</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>5 a 7</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>10 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Similaire a juillet, possibles orages interrupteurs</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Septembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 a 5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">7 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Baisse progressive, encore forte en debut de mois</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Octobre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 a 3</td><td style="padding:.75rem;border:1px solid #D8D4CC;">5 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Retrocedence, hivernage imminent</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Novembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 2</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage en cours</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Decembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 1,5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage, evaporation minimale</td></tr>
+</tbody>
+</table>
+
+<h3>Facteurs multiplicateurs locaux</h3>
+<ul>
+<li><strong>Bassin d'Arcachon, Cap-Ferret, front de dune</strong> : vent marin permanent, evaporation augmentee de 20 a 40 pourcent par rapport a la valeur tablee</li>
+<li><strong>Pinede dense autour du bassin</strong> : effet de protection du vent, evaporation reduite de 15 a 25 pourcent</li>
+<li><strong>Piscine chauffee (PAC ou abri)</strong> : evaporation doublee car l'eau reste a 28-30 degrees toute la saison, augmentant le gradient thermique</li>
+<li><strong>Piscine debordement/miroir</strong> : evaporation multipliee par 1,5 a 2 en raison de la surface d'eau en contact avec l'air nettement plus large</li>
+</ul>
+
+<h2>Protocole scientifique pour distinguer evaporation et fuite</h2>
+
+<h3>Test de controle sur 48 heures</h3>
+<p>Le protocole rigoureux d'observation :</p>
+<ol>
+<li>Definissez une fenetre de 48 heures sans baignade, sans pluie attendue, sans canicule hors-norme. Idealement, choisissez un week-end normal ou vous n'utilisez pas la piscine.</li>
+<li>Arretez la filtration (pour les piscines qui ne necessitent pas de filtration continue) afin de limiter la variabilite.</li>
+<li>Relevez le niveau d'eau initial avec precision (millimetre pres) sur la paroi du bassin.</li>
+<li>Relevez simultanement le niveau dans un seau immerge aux 2/3 sur la premiere marche.</li>
+<li>Notez la meteo : temperature max/min, humidite, vent, absence de pluie.</li>
+<li>Apres 48 heures, relevez les deux niveaux et calculez la perte par jour de la piscine et du seau.</li>
+</ol>
+
+<h3>Formule de decision</h3>
+<p>Calculez le delta : <strong>perte piscine - perte seau = fuite presumee</strong></p>
+<ul>
+<li>Delta de 0 a 2 mm/jour : pas de fuite significative. Evaporation seule en cause.</li>
+<li>Delta de 2 a 5 mm/jour : fuite faible, a investiguer. Pourrait etre un joint qui fatigue.</li>
+<li>Delta de 5 a 10 mm/jour : fuite confirmee, intervention professionnelle recommandee sous 2 semaines.</li>
+<li>Delta superieur a 10 mm/jour : fuite importante, intervention urgente sous 48 heures pour eviter degats collateraux.</li>
+</ul>
+
+<h2>Pieges frequents a eviter</h2>
+
+<h3>Test fait pendant une canicule</h3>
+<p>Un test d'evaporation fait pendant un pic de chaleur avec forts vents peut sous-estimer la fuite reelle (car l'evaporation naturelle du seau masque partiellement la fuite). Attendez une periode meteorologique stable.</p>
+
+<h3>Oubli du remplissage automatique</h3>
+<p>De nombreuses piscines ont un regulateur de niveau automatique qui compense en permanence les baisses. Si vous ne le coupez pas pendant le test, vous ne verrez jamais la baisse : votre regulateur la masquera. Coupez imperativement cette regulation pendant le test.</p>
+
+<h3>Piscine en plein soleil direct toute la journee</h3>
+<p>Une piscine exposée plein sud chauffe vite, ce qui amplifie l'evaporation. Si votre piscine est particulierement exposee, vos taux d'evaporation peuvent depasser les valeurs de table de 30 a 50 pourcent. Faites plusieurs tests sur differents episodes meteo pour calibrer votre cas.</p>
+
+<h3>Confondre evaporation et micro-fuite chronique</h3>
+<p>Une fuite tres petite (2-3 mm/jour) sur une piscine en pleine saison peut se confondre avec l'evaporation normale. Seul le test rigoureux du seau tranche. Ne vous fiez pas a votre intuition : mesurer avant de conclure.</p>
+
+<h2>Quand refaire le test</h2>
+<p>Si vos premiers tests concluent a une simple evaporation mais que vous restez inquiet, refaites un test :</p>
+<ul>
+<li>Apres un changement meteo majeur (fin de canicule, arret des vents)</li>
+<li>Apres 1 mois, pour voir si la situation evolue</li>
+<li>Apres un evenement suspect (orage violent, chute dans la piscine)</li>
+</ul>
+
+<p>Si plusieurs tests independants concluent a une fuite, ou si votre consommation d'eau augmente de maniere marquee sans explication, il est temps de faire intervenir un professionnel. Pour en savoir plus sur les etapes a suivre, consultez notre guide <a href="/guide/ma-piscine-perd-de-l-eau-que-faire/" style="color:var(--green);text-decoration:underline;">ma piscine perd de l'eau, que faire</a>. Pour le diagnostic sur un liner PVC, voir l'article <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">fuite sur liner piscine</a>. Pour faire intervenir nos techniciens, consultez nos pages piscine par ville, avec le detail de nos methodes d'intervention non destructives.</p>"""
+    },
+    {
+        "slug": "loi-warsmann-ecretement-facture-eau",
+        "title": "Loi Warsmann : ecretement de facture d'eau apres fuite",
+        "title_seo": "Loi Warsmann ecretement facture eau fuite canalisation enterree",
+        "desc": "Comment beneficier de l'ecretement de facture d'eau apres une fuite sur canalisation enterree. La loi Warsmann 2011 expliquee : conditions, procedure, jurisprudence.",
+        "contenu": """<p>Une fuite sur votre canalisation enterrée peut faire exploser votre facture d'eau en quelques semaines. La loi dite Warsmann, adoptee en 2011 et codifiee a l'article L2224-12-4 du Code general des collectivites territoriales, limite le cout supporte par le consommateur dans ce cas precis. Encore faut-il connaître les conditions pour en beneficier. Cet article detaille la procedure, les documents a fournir, les ecueils frequents et les precedents jurisprudentiels.</p>
+
+<h2>Que dit la loi Warsmann ?</h2>
+<p>Le texte legal oblige les services publics d'eau a informer tout abonne d'une consommation anormale (superieure au double de la consommation moyenne sur les trois dernieres annees). L'abonne dispose alors d'un mois pour prouver qu'une fuite sur canalisation enterree, invisible et indetectable, est a l'origine de cette surconsommation. Si cette preuve est apportee, sa facture est plafonnee au double de sa consommation habituelle : c'est l'ecretement.</p>
+
+<h3>Le mecanisme d'ecretement en pratique</h3>
+<p>Concretement, si votre consommation habituelle est de 120 m³/an (moyenne sur 3 ans), votre facture ne pourra jamais depasser 240 m³/an au tarif de l'eau, meme si votre compteur a enregistre 800 m³ a cause de la fuite. Les 560 m³ restants ne vous sont pas factures. A 4 euros TTC le m³, cela represente une economie de 2 240 euros par rapport a une facturation integrale.</p>
+
+<h2>Les conditions obligatoires pour beneficier de l'ecretement</h2>
+
+<h3>Condition 1 : canalisation enterrée privative</h3>
+<p>La fuite doit concerner une canalisation enterrée qui appartient a votre reseau privatif : entre le compteur d'eau et votre habitation, ou reseaux enterres a l'interieur de votre propriete (arrosage, piscine, dependance). Les fuites suivantes <strong>ne sont pas eligibles</strong> :</p>
+<ul>
+<li>Fuite d'equipement visible (chasse d'eau, robinet, chauffe-eau)</li>
+<li>Fuite dans un mur ou sous une dalle (canalisation interieure, meme si invisible)</li>
+<li>Fuite sur reseau d'arrosage automatique classique</li>
+<li>Fuite sur le reseau public (avant le compteur) : a la charge du distributeur d'eau</li>
+</ul>
+
+<h3>Condition 2 : fuite indetectable visuellement</h3>
+<p>La fuite doit avoir ete indetectable a l'oeil nu avant sa decouverte par un professionnel. Si elle se manifestait par une flaque, une zone humide evidente, un affaissement du sol ou tout autre signe visuel avant que vous n'interveniez, l'ecretement peut etre refusé. C'est precisement ce qui differencie cette loi : elle protege le consommateur qui n'avait aucun moyen raisonnable de detecter la fuite.</p>
+
+<h3>Condition 3 : intervention d'un professionnel qualifié</h3>
+<p>Une attestation de reparation doit etre fournie, etablie par un professionnel (plombier, specialiste de la recherche de fuite). Cette attestation doit mentionner explicitement :</p>
+<ul>
+<li>La date de l'intervention</li>
+<li>La nature de la canalisation defectueuse et sa localisation enterree</li>
+<li>Le type de reparation effectuee</li>
+<li>L'attestation que la fuite a bien ete resolue</li>
+</ul>
+
+<h3>Condition 4 : delai d'un mois</h3>
+<p>Vous avez un mois apres notification de surconsommation par votre distributeur pour fournir l'attestation de reparation. Passé ce delai, l'ecretement n'est plus automatiquement accessible (mais un recours reste possible).</p>
+
+<h2>Procedure pas a pas pour obtenir l'ecretement</h2>
+
+<h3>Etape 1 : vous recevez la notification de surconsommation</h3>
+<p>Votre distributeur d'eau (Suez, Veolia, Regie des eaux) a l'obligation legale de vous alerter en cas de consommation anormalement elevee. La notification se fait par courrier, email ou via l'espace client. Le courrier indique votre surconsommation (en m³), la moyenne des 3 annees precedentes, et mentionne votre droit a l'ecretement selon la loi Warsmann.</p>
+
+<h3>Etape 2 : vous identifiez la fuite</h3>
+<p>Verifiez d'abord si la fuite est avant ou apres le compteur : fermez votre robinet d'arret general. Si le compteur continue de tourner, la fuite est avant (reseau public, pas votre responsabilite). S'il s'arrete mais vous constatez toujours une perte, la fuite est apres le compteur sur votre reseau privatif.</p>
+
+<h3>Etape 3 : localisation par un professionnel</h3>
+<p>Pour obtenir l'ecretement, il ne suffit pas de savoir qu'il y a une fuite : il faut la localiser precisement pour pouvoir la reparer. Nous intervenons avec du gaz traceur azote/helium pour localiser les fuites sur canalisations enterrees avec une precision au demi-metre. Notre rapport mentionne explicitement la localisation enterrée et le caractere indetectable visuellement, deux elements cles pour le dossier Warsmann.</p>
+
+<h3>Etape 4 : reparation et attestation</h3>
+<p>La reparation peut etre faite par le meme professionnel ou par un plombier mandate. A l'issue, demandez une attestation de reparation mentionnant : canalisation enterrée, localisation, date, certification que la fuite est resolue.</p>
+
+<h3>Etape 5 : envoi du dossier au distributeur</h3>
+<p>Envoyez en courrier recommande avec accuse de reception a votre distributeur d'eau :</p>
+<ul>
+<li>Copie de la notification de surconsommation</li>
+<li>Rapport de localisation de fuite</li>
+<li>Attestation de reparation</li>
+<li>Photos si disponibles (zone de fuite, reparation en cours)</li>
+<li>Courrier de demande explicite d'application de la loi Warsmann</li>
+</ul>
+
+<h3>Etape 6 : ecretement applique sur la facture suivante</h3>
+<p>Si le dossier est complet, le distributeur applique l'ecretement sur votre facture suivante (delai moyen 1 a 2 mois). La part excedentaire au-dessus du double de votre consommation habituelle est soit annulee, soit remboursee si deja payee.</p>
+
+<h2>Modele de courrier a envoyer</h2>
+
+<blockquote style="background:var(--c-bg);border-left:4px solid var(--c-primary);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
+<p>[Votre adresse]</p>
+<p>[Date]</p>
+<p>Objet : Demande d'ecretement de facture d'eau - Loi Warsmann - Reference client [numero]</p>
+<p>Madame, Monsieur,</p>
+<p>Suite a votre notification de surconsommation d'eau en date du [date], je vous adresse ci-joint les justificatifs permettant l'application de la loi n° 2011-525 du 17 mai 2011 (dite loi Warsmann) et l'ecretement de ma facture.</p>
+<p>Je vous confirme que la fuite concernait une canalisation enterree privative (entre mon compteur d'eau et mon habitation), indetectable a l'oeil nu, comme en atteste le rapport de recherche de fuite etabli par [nom de l'entreprise] le [date]. La reparation a ete effectuee le [date] et est documentee par l'attestation ci-jointe.</p>
+<p>Conformement a l'article L2224-12-4 du Code general des collectivites territoriales, je vous demande de bien vouloir plafonner ma facture au double de ma consommation moyenne des trois dernieres annees, soit [X] m³.</p>
+<p>Documents joints : rapport de recherche de fuite, attestation de reparation, photos de la zone.</p>
+<p>Je vous prie d'agreer, Madame, Monsieur, l'expression de mes salutations distinguees.</p>
+</blockquote>
+
+<h2>Cas complexes et jurisprudence</h2>
+
+<h3>Cas 1 : la fuite etait partiellement visible</h3>
+<p>Si l'humidite etait visible mais qu'il etait objectivement impossible de suspecter une fuite (ex : zone de pelouse legerement plus verte depuis plusieurs annees, interpretee comme effet d'arrosage naturel), la jurisprudence admet generalement l'ecretement. Notre rapport doit alors argumenter specifiquement pourquoi le signe visible etait ambigu et n'imposait pas intervention.</p>
+
+<h3>Cas 2 : delai depasse d'un mois</h3>
+<p>Si vous avez laisse passer le delai d'un mois, un recours est toujours possible en sollicitant le mediateur de l'eau ou en saisissant le tribunal judiciaire. Les distributeurs acceptent souvent l'ecretement apres mediation, meme hors delai, car le contentieux est couteux pour eux.</p>
+
+<h3>Cas 3 : plusieurs fuites dans l'annee</h3>
+<p>Si vous avez deja beneficie d'un ecretement dans les 5 annees precedentes, le distributeur peut contester le caractere exceptionnel de la demande. Dans ce cas, une expertise contradictoire peut etre mise en oeuvre.</p>
+
+<h3>Cas 4 : locataire ou proprietaire</h3>
+<p>L'ecretement s'applique au titulaire du contrat d'eau, qu'il soit proprietaire ou locataire. En location, le locataire demande l'ecretement mais doit informer le bailleur (qui est responsable de la reparation definitive si la fuite est sur une canalisation enterrée privative).</p>
+
+<h2>Economies realisables concretes</h2>
+<p>Quelques exemples reels de dossiers sur lesquels nous sommes intervenus en Gironde en 2025 :</p>
+<ul>
+<li>Maison Caudéran, fuite enterrée 40 m de canalisation PVC : surconsommation 680 m³ sur 6 mois. Facture initiale 3 200 euros, facture apres ecretement 950 euros. <strong>Economie : 2 250 euros.</strong></li>
+<li>Pavillon Merignac, fuite enterrée arrosage automatique: 420 m³ surconsommation. Facture initiale 1 680 euros, apres ecretement 580 euros. <strong>Economie : 1 100 euros.</strong></li>
+<li>Villa Arcachon, fuite tres lente 12 mois non detectee : 240 m³ surconsommation. Facture initiale 960 euros, apres ecretement 420 euros. <strong>Economie : 540 euros.</strong></li>
+</ul>
+
+<p>Notre intervention (environ 450 euros HT en moyenne pour la recherche de fuite enterrée) est largement rentabilisee par l'ecretement dans la majorite des cas. Pour en savoir plus sur notre methodologie gaz traceur, consultez notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée a Bordeaux</a>. Pour les fuites apres compteur plus generalement, voir <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau apres compteur</a>. Pour prendre rendez-vous, utilisez notre formulaire de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis gratuit</a>.</p>"""
+    },
+    {
         "slug": "prix-recherche-fuite-bordeaux",
         "title": "Prix d'une recherche de fuite à Bordeaux en 2026",
         "title_seo": "Prix recherche de fuite Bordeaux tarif devis intervention 2026",
@@ -2450,6 +2846,295 @@ def page_urgence_ville(p):
         f'https://recherche-fuite-gironde.fr/detection-fuite/{slug}/',
         body,
         extra_ld=ld_local + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Fuite plancher chauffant Bordeaux
+# ═══════════════════════════════════════════════════════════════
+
+def page_plancher_chauffant_bordeaux():
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite plancher chauffant",
+  "name": "Detection de fuite plancher chauffant a Bordeaux et metropole",
+  "description": "Localisation precise d'une fuite sur plancher chauffant hydraulique par thermographie infrarouge et test de pression. Sans casser la chape, pour reparation ciblee.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  },
+  "areaServed": { "@type": "Place", "name": "Bordeaux et metropole girondine" },
+  "category": "Detection de fuite non destructive"
+}
+</script>'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde - Plancher chauffant Bordeaux",
+  "description": "Specialiste de la recherche de fuite sur plancher chauffant hydraulique a Bordeaux et sa metropole. Thermographie infrarouge, test de pression, localisation au point.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33000",
+    "addressCountry": "FR"
+  },
+  "areaServed": { "@type": "City", "name": "Bordeaux" },
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Detection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Plancher chauffant Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment detectez-vous une fuite sur un plancher chauffant sans casser la chape ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Notre methode principale est la thermographie infrarouge : une camera thermique detecte les variations de temperature au sol. Avec le circuit en chauffe, la zone de fuite produit un halo thermique anormal visible a l'ecran. Le test de pression hydraulique sur chaque boucle complete le diagnostic : en isolant les boucles une par une, on identifie celle qui perd de la pression. La combinaison des deux permet une localisation au point en general." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont les signes d'une fuite sur plancher chauffant ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les signes caracteristiques sont : baisse de pression dans le circuit de chauffage sur le manometre, sol anormalement froid par zones (boucle non chauffante), tache d'humidite ou auréole au plafond de l'etage inferieur (en etage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquee (le circuit se remplit automatiquement), chaudiere qui se met en defaut de pression frequent." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coute une recherche de fuite sur plancher chauffant a Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 400 et 650 euros HT selon la surface du plancher chauffant et le nombre de boucles a tester. Pour une maison de 80 a 150 m² avec plancher chauffant principal, comptez 450 a 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation precise. Devis fixe communique avant intervention." }
+    },
+    {
+      "@type": "Question",
+      "name": "La reparation apres diagnostic necessite-t-elle de casser tout le sol ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non, nous localisons la fuite au point pres, ce qui permet une intervention ciblee. La reparation consiste a ouvrir la chape uniquement au droit de la perforation (zone de 25 a 40 cm de cote typiquement), remplacer 30 a 80 cm de tube PER ou polybutylene, refaire la chape et le revetement de sol localement. Aucun besoin de casser toute la piece." }
+    },
+    {
+      "@type": "Question",
+      "name": "Les planchers chauffants a Bordeaux sont-ils frequents ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, particulierement a Merignac, Pessac et dans les pavillons des annees 1985-2005 de la metropole. Environ 40 pourcent des maisons individuelles de cette periode ont un plancher chauffant hydraulique. Apres 20 a 40 ans, les micro-perforations sur tubes PER ou polybutylene deviennent frequentes. Nos techniciens sont specialises sur ce type d'installation." }
+    },
+    {
+      "@type": "Question",
+      "name": "La garantie decennale couvre-t-elle mon plancher chauffant ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Si votre installation a moins de 10 ans, la garantie decennale du poseur couvre les defauts de mise en oeuvre et de materiaux. Apres 10 ans, c'est l'assurance habitation multirisque qui prend en charge recherche de fuite et reparation via la garantie degats des eaux. Notre rapport technique est accepte par les principaux assureurs francais." }
+    }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Detection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Plancher chauffant Bordeaux</span>
+    </nav>
+    <h1>Recherche de fuite sur plancher chauffant a Bordeaux</h1>
+    <p class="hero-mini-lead">Pression de votre chaudiere qui chute, sol froid par zones, humidite au plafond du voisin du dessous : votre plancher chauffant hydraulique fuit. Nos techniciens le localisent <strong>au point pres grace a la thermographie infrarouge</strong>, sans casser votre chape. Reparation ciblee sur 25 a 40 cm de sol au lieu de refaire toute la piece.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis plancher chauffant</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Le plancher chauffant hydraulique : un systeme tres repandu en metropole bordelaise</h2>
+    <p>Les pavillons construits a Bordeaux et sa metropole entre 1985 et 2005 ont massivement adopte le plancher chauffant hydraulique comme systeme de chauffage principal. A Merignac (Arlac, Capeyron, Chemin Long, Beutre), a Pessac (Alouette, Saige, Camponac), au Haillan, a Eysines, dans les lotissements de Talence et du Bouscat, environ 40 pourcent des maisons individuelles de cette periode en sont equipees. C'est une proportion nettement superieure aux radiateurs classiques sur ces tranches d'age.</p>
+
+    <p>Le systeme fonctionne par circulation d'eau chaude (35-45 degrees) dans des tubes PER (polyethylene reticulé) ou polybutylene integres dans la chape beton. Chaque piece est alimentee par une ou plusieurs boucles qui partent d'un collecteur central (generalement dans une pièce technique ou un placard). Apres 20 a 40 ans, les micro-perforations et les defaillances de raccordement deviennent frequentes.</p>
+
+    <h2>Les 6 signes d'une fuite de plancher chauffant</h2>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Baisse de pression chronique</h3>
+          <p>La pression de votre circuit chauffage baisse regulierement sur le manometre de la chaudiere. Vous devez remettre en pression manuellement chaque semaine ou chaque mois. Le circuit perd de l'eau quelque part, presque toujours au niveau du plancher chauffant si c'est votre type d'installation.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Zones de sol froides</h3>
+          <p>Une piece ou une zone precise de la maison reste froide malgre le chauffage en marche. Une boucle du plancher chauffant ne circule plus correctement. Posez la main au sol : le contraste thermique entre zones chauffees et zones defaillantes est nettement perceptible.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Tache au plafond (si etage)</h3>
+          <p>Pour les maisons a etage avec plancher chauffant a l'etage superieur, une fuite se manifeste par une tache d'humidite ou une auréole au plafond du rez-de-chaussee. Elle peut apparaitre tres localement (au droit exact de la fuite) ou de maniere diffuse (migration de l'eau le long des poutres).</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Parquet ou carrelage qui se decolle</h3>
+          <p>Le revetement de sol au-dessus de la zone fuyante montre des signes d'humidite : lame de parquet gonflee, joint de carrelage qui fonce, carrelage qui sonne creux. Ces signes apparaissent souvent des mois avant que la fuite soit clairement identifiee.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Chaudiere en defaut de pression</h3>
+          <p>La chaudiere se met en defaut et s'arrete automatiquement, avec un code d'erreur "pression basse" ou equivalent. Cela arrive de plus en plus frequemment. Votre chauffagiste reamorce mais le probleme revient. Le circuit perd de l'eau en permanence par la fuite.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Surconsommation d'eau inexpliquee</h3>
+          <p>Le remplissage automatique de votre circuit de chauffage compense en permanence la fuite. Votre compteur d'eau indique une surconsommation sans que vous ne trouviez de point d'eau responsable. C'est la fuite du plancher chauffant qui alimente une fuite d'eau continue dans le sol.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Notre methode : thermographie + test de pression</h2>
+    <p>La recherche de fuite sur plancher chauffant hydraulique est notre specialite sur la metropole bordelaise. Nous combinons deux methodes complementaires pour localiser la fuite au point pres sans casser la chape.</p>
+
+    <h3>Etape 1 : preparation du circuit</h3>
+    <p>Avant notre arrivee, maintenez votre chauffage en fonctionnement normal pendant au moins 4 heures. Le plancher doit etre a temperature operationnelle pour que la thermographie revele les contrastes thermiques caracteristiques.</p>
+
+    <h3>Etape 2 : thermographie infrarouge du sol</h3>
+    <p>Avec une camera thermique haute definition, notre technicien balaie methodiquement la surface des pieces. Une fuite active produit un halo thermique anormal : soit une zone plus chaude (eau chaude qui sort localement sous le revetement) soit une zone plus froide (boucle qui ne circule plus en aval du point de fuite). La lecture experte de ces signatures thermiques permet de pointer la zone a 20-30 cm pres.</p>
+
+    <h3>Etape 3 : identification de la boucle en defaut</h3>
+    <p>Au collecteur, chaque boucle alimentant une piece est identifiee. Nous isolons les boucles une par une en fermant les vannes manuelles, et mesurons la pression residuelle dans chacune apres un delai de stabilisation. La boucle qui perd de la pression en isolement est celle qui fuit.</p>
+
+    <h3>Etape 4 : test de pression cible sur la boucle suspecte</h3>
+    <p>Avec la boucle suspecte identifiee, nous effectuons un test de pression plus precis avec manometre haute sensibilite. En combinaison avec la thermographie, cela confirme la zone exacte dans la boucle (debut, milieu, fin de la boucle, serpentin chauffant).</p>
+
+    <h3>Etape 5 : marquage et rapport</h3>
+    <p>Le point de fuite est marque au sol (scotch ou feutre effacable). Le rapport technique detaille les mesures effectuees, la zone localisee en coordonnees cartesiennes par rapport aux murs, et la preconisation de reparation : ouverture de chape 25-40 cm de cote, remplacement de 30-80 cm de tube, refection chape et revetement.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Causes frequentes des fuites sur plancher chauffant</h2>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Micro-perforation par corrosion interne</h3>
+          <p>Les tubes PER des annees 1985-1995 peuvent subir une corrosion interne lente si l'eau du circuit n'a pas ete correctement traitee (absence d'inhibiteur de corrosion). La perforation est souvent punctiforme (0,2 a 1 mm) mais suffit a provoquer une perte de pression continue.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Perforation par clou ou vis</h3>
+          <p>Lors de travaux ulterieurs (pose de plinthe, fixation d'un meuble, installation d'une cloison), un clou ou une vis peut perforer le tube. La fuite apparait quelques semaines ou mois plus tard. Cas tres frequent dans les maisons avec historique de reamenagements.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Defaut de raccordement au collecteur</h3>
+          <p>Le raccordement entre la boucle et le collecteur (sertissage, collier de serrage) peut lacher par fatigue apres 15 a 25 ans. Cette fuite est souvent visible dans le placard du collecteur si on regarde attentivement.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Mouvement de la chape</h3>
+          <p>Un mouvement du support (tassement, fissure de la dalle, mouvement de terrain argileux bordelais) peut cisailler le tube enrobe. Cas moins frequent mais observe sur les maisons anciennes renovees avec plancher chauffant rajoute.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Chocs thermiques repetes</h3>
+          <p>Un chauffage pousse regulierement au maximum puis coupe brutalement provoque des dilatations/contractions rapides. Sur 30 ans, cela fatigue les raccords et peut provoquer des fuites aux jonctions.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Polybutylene de la generation 1990</h3>
+          <p>Certains lots de tubes polybutylene des annees 1990 ont ete rappeles pour defaut de fabrication. Si votre installation date de cette periode et que vous avez des fuites multiples, un changement complet peut etre plus economique a terme qu'une succession de reparations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Cas type d'intervention a Merignac</h2>
+    <p>Scenario recurrent : pavillon Merignac Arlac construit en 1992, plancher chauffant hydraulique sur rez-de-chaussee (80 m²). Le proprietaire constate depuis 6 mois que la pression de sa chaudiere baisse de 1,5 a 1,0 bar chaque semaine. Il doit reamorcer manuellement. Depuis 2 mois, le salon reste anormalement froid alors que la chambre et la cuisine sont bien chauffees. Sa facture d'eau a augmente de 8 m³ par mois.</p>
+
+    <p>Notre intervention : thermographie infrarouge systematique du sol, boucle par boucle. La boucle salon (42 m lineaires de tube PER dans une serpentin) montre un contraste thermique caracteristique a 4,2 metres du mur nord et 2,8 metres du mur est : zone froide nette au-dela de ce point, preuve que la fuite est localisee la. Test de pression sur cette boucle : perte confirmee de 0,3 bar en 30 minutes en isolement.</p>
+
+    <p>Reparation : ouverture de chape 35×35 cm au point marque, decouverte d'une micro-perforation sur le tube PER a 38 cm de profondeur, remplacement de 60 cm de tube avec raccords mecaniques certifies, refection chape avec mortier fibre, repose du carrelage d'origine (conservé lors de l'ouverture). Duree totale intervention + reparation : 2 jours. Cout total : 1 800 euros HT. Pris en charge a 70 pourcent par l'assurance multirisque habitation apres examen du rapport et devis.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions frequentes sur la fuite de plancher chauffant a Bordeaux</h2>
+
+    <h3>Comment detectez-vous une fuite sur un plancher chauffant sans casser la chape ?</h3>
+    <p>Notre methode principale est la thermographie infrarouge : une camera thermique detecte les variations de temperature au sol. Avec le circuit en chauffe, la zone de fuite produit un halo thermique anormal. Le test de pression hydraulique sur chaque boucle complete le diagnostic. La combinaison des deux permet une localisation au point en general.</p>
+
+    <h3>Quels sont les signes d'une fuite sur plancher chauffant ?</h3>
+    <p>Baisse de pression chronique sur le manometre, sol anormalement froid par zones, tache d'humidite au plafond de l'etage inferieur (en etage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquee, chaudiere en defaut de pression frequent.</p>
+
+    <h3>Combien coute une recherche de fuite sur plancher chauffant a Bordeaux ?</h3>
+    <p>Entre 400 et 650 euros HT selon la surface et le nombre de boucles a tester. Pour une maison de 80 a 150 m² avec plancher chauffant principal, comptez 450 a 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation precise.</p>
+
+    <h3>La reparation apres diagnostic necessite-t-elle de casser tout le sol ?</h3>
+    <p>Non, nous localisons la fuite au point pres, ce qui permet une intervention ciblee. La reparation consiste a ouvrir la chape uniquement au droit de la perforation (zone de 25 a 40 cm de cote typiquement), remplacer 30 a 80 cm de tube, refaire la chape et le revetement de sol localement.</p>
+
+    <h3>Les planchers chauffants a Bordeaux sont-ils frequents ?</h3>
+    <p>Oui, particulierement a Merignac, Pessac et dans les pavillons des annees 1985-2005. Environ 40 pourcent des maisons individuelles de cette periode ont un plancher chauffant hydraulique. Apres 20 a 40 ans, les micro-perforations deviennent frequentes. Pour une intervention specifique a votre ville, consultez <a href="/villes/merignac/" style="color:var(--green);text-decoration:underline;">recherche de fuite Merignac</a> ou <a href="/villes/pessac/" style="color:var(--green);text-decoration:underline;">recherche de fuite Pessac</a>.</p>
+
+    <h3>La garantie decennale couvre-t-elle mon plancher chauffant ?</h3>
+    <p>Si votre installation a moins de 10 ans, la garantie decennale du poseur couvre les defauts. Apres 10 ans, c'est l'assurance habitation multirisque qui prend en charge recherche de fuite et reparation via la garantie degats des eaux. Notre rapport technique est accepte par les principaux assureurs.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Demander un diagnostic plancher chauffant</a>
+    </div>
+  </div>
+</section>
+
+{form_section("Bordeaux")}
+'''
+
+    return html_base(
+        'Fuite plancher chauffant Bordeaux | Thermographie sans casse',
+        "Recherche de fuite sur plancher chauffant hydraulique a Bordeaux et sa metropole : thermographie infrarouge, test de pression, localisation au point sans casser la chape.",
+        'https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/',
+        body,
+        extra_ld=ld_service + ld_local + ld_breadcrumb + ld_faq,
     )
 
 
@@ -4191,6 +4876,7 @@ def gen_sitemap():
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/']
 
     items = '\n'.join([
         f'  <url><loc>{u}</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if u.endswith(".fr/") else "0.8"}</priority></url>'
@@ -4286,6 +4972,9 @@ def main():
 
     print('[7g] Page use case — chemisage Bordeaux landing...')
     write('detection-fuite/chemisage-bordeaux/index.html', page_chemisage_bordeaux())
+
+    print('[7h] Page use case — fuite plancher chauffant Bordeaux...')
+    write('detection-fuite/fuite-plancher-chauffant-bordeaux/index.html', page_plancher_chauffant_bordeaux())
 
     print('[8/8] Fichiers techniques...')
     write('sitemap.xml', gen_sitemap())
