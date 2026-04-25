@@ -576,6 +576,329 @@ def page_ville_chemisage(v):
     canonical = f"https://recherche-fuite-gironde.fr/villes/{slug}/chemisage/"
     return html_base(title, desc[:160], canonical, body, ld)
 
+
+# ═══════════════════════════════════════════════════════════════
+# PAGE PREMIUM : Chemisage canalisation Bordeaux (contenu 100% unique)
+# Vise top 1-3 sur "chemisage canalisation bordeaux" (concurrents : gtr7, asos, neotuyo)
+# ═══════════════════════════════════════════════════════════════
+
+def page_chemisage_bordeaux_premium():
+    nom = 'Bordeaux'
+    cp = '33000'
+    slug = 'bordeaux'
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Chemisage de canalisation à Bordeaux (33000) : rénovation sans tranchée des colonnes EU/EV en immeuble haussmannien, échoppe, copropriété. Résine époxy bicomposant, garantie décennale.",
+  "url": "https://recherche-fuite-gironde.fr/villes/bordeaux/chemisage/",
+  "areaServed": {
+    "@type": "City",
+    "name": "Bordeaux",
+    "postalCode": "33000",
+    "addressCountry": "FR"
+  },
+  "serviceType": "Chemisage de canalisation"
+}
+</script>'''
+
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Chemisage de canalisation à Bordeaux",
+  "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
+  "areaServed": { "@type": "City", "name": "Bordeaux", "postalCode": "33000" },
+  "description": "Chemisage de canalisations à Bordeaux : technique de rénovation sans tranchée par résine époxy bicomposant, conforme NF EN ISO 11296-4. Spécialiste des immeubles haussmanniens, échoppes bordelaises et copropriétés. Garantie décennale.",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": "250",
+    "highPrice": "35000",
+    "priceCurrency": "EUR"
+  }
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Bordeaux", "item": "https://recherche-fuite-gironde.fr/villes/bordeaux/" },
+    { "@type": "ListItem", "position": 3, "name": "Chemisage canalisation Bordeaux", "item": "https://recherche-fuite-gironde.fr/villes/bordeaux/chemisage/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Le chemisage est-il adapté aux colonnes en fonte des immeubles haussmanniens bordelais ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Parfaitement. La fonte grise des immeubles bordelais d\\'avant 1900 est l\\'un des supports privilégiés du chemisage : son état de surface accroche la résine époxy, sa rigidité limite les déformations, et la verticalité des colonnes facilite la réversion. Sur Bordeaux Centre (Chartrons, Saint-Pierre, Sainte-Catherine), nous traitons régulièrement des colonnes de 18 à 30 mètres de hauteur (R+5 à R+8) sans démolition." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte un chemisage de colonne montante en copropriété à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pour une colonne EU/EV (eaux usées/vannes) en immeuble bordelais R+5 à R+8, comptez 12 000 à 28 000 € HT par cage d\\'escalier. Le coût dépend du diamètre (100 à 200 mm courants à Bordeaux), du linéaire total, du nombre de raccords intermédiaires et de l\\'accessibilité au pied de colonne. Sur les immeubles haussmanniens du Triangle d\\'Or, tarif moyen 18 500 € HT pour une colonne de 22 m." }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il évacuer les locataires d\\'un immeuble bordelais pendant le chemisage ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non, jamais. Notre intervention se fait depuis le pied de colonne (cave ou sous-sol commun) sans démolition de placo dans les appartements. Les occupants conservent l\\'usage de leur logement. Seule contrainte : couper temporairement les eaux usées du logement concerné pendant 4 à 8 heures (généralement en matinée), avec WC et douche redevenus utilisables le soir même. Sur copropriété, planning communiqué au syndic 15 jours avant." }
+    },
+    {
+      "@type": "Question",
+      "name": "Pouvez-vous intervenir sur les colonnes amiante-ciment des copropriétés bordelaises années 1960-1980 ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, c\\'est même l\\'un des cas les plus fréquents sur les copropriétés du Grand Parc, de Mériadeck et des Aubiers (années 1965-1985). L\\'amiante-ciment se chemise sans démolition, donc sans risque d\\'émission de fibres : c\\'est précisément pourquoi cette technique est privilégiée en France pour ces réseaux. Notre intervention encapsule définitivement l\\'amiante dans la résine époxy, sans désamiantage préalable nécessaire." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la garantie sur un chemisage de canalisation à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Garantie décennale de 10 ans sur la mise en œuvre, opposable à votre assurance dommages-ouvrage. Durée de vie technique de la résine époxy : 50 ans en conditions standard d\\'eaux usées domestiques. Notre rapport d\\'intervention est conforme NF EN ISO 11296-4 et accepté par les assureurs IARD bordelais (AXA, MAIF, MAAF, Macif, Allianz, Generali) pour la prise en charge en garantie habitation ou multirisque copropriété." }
+    },
+    {
+      "@type": "Question",
+      "name": "Sur quels matériaux de canalisation peut-on faire un chemisage à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le chemisage est compatible avec tous les matériaux courants des immeubles bordelais : fonte grise (avant 1975, majoritaire centre-ville), plomb (rare, exclusivement avant 1948 dans les hôtels particuliers), grès vernissé (Bastide, La Bastide), PVC (post 1980, lotissements pavillonnaires Caudéran-Le Bouscat), acier galvanisé, zinc, fibrociment et amiante-ciment (copropriétés 1960-1985 Mériadeck, Grand Parc). Diamètres traités : 40 à 300 mm. Hauteur maximale : R+12." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la différence entre chemisage et changement classique de canalisation à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le changement classique implique démolition de placo, ouverture de gaines techniques, dépose de la canalisation existante, pose d\\'une neuve, refermeture, peinture. Coût total 2 à 3 fois supérieur au chemisage, durée 5 à 15 jours selon étages, nuisances importantes pour locataires. Le chemisage : aucune démolition, intervention 1 à 4 jours, occupants restent dans le logement, économie de 40 à 60 pourcent vs changement classique. Sur immeuble haussmannien Chartrons, économie typique 18 000 € HT vs 35 000 € HT pour un changement complet." }
+    },
+    {
+      "@type": "Question",
+      "name": "Intervenez-vous en urgence pour un chemisage à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pour les fuites actives en copropriété (sinistres dégât des eaux récurrents, infiltration vers logement voisin), nous proposons une intervention sous 5 à 10 jours sur Bordeaux Métropole. Le chemisage demande quelques jours de préparation (diagnostic ITV, prise de mesures, commande matériel). Pour une mise en sécurité immédiate, nous préconisons d\\'abord une localisation par recherche de fuite (notre métier principal) pour permettre une réparation provisoire le temps du chemisage." }
+    }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/villes/bordeaux/">Bordeaux</a>
+      <span>&rsaquo;</span>
+      <span>Chemisage canalisation</span>
+    </nav>
+    <span class="badge badge-gold" style="margin-bottom:1rem;">Bordeaux Centre &bull; 33000</span>
+    <h1>Chemisage de canalisation à Bordeaux : la rénovation sans tranchée</h1>
+    <p class="hero-mini-lead">Vos canalisations bordelaises sont fissurées, corrodées ou en fin de vie ? Le chemisage rénove vos réseaux <strong>sans démolition, sans casser le placo, sans déplacer vos locataires</strong>. Spécialiste des immeubles haussmanniens du Triangle d'Or, des échoppes de la Bastide et des copropriétés Mériadeck-Grand Parc, nous intervenons aussi sur les colonnes amiante-ciment des immeubles 1960-1985.</p>
+    <a href="/devis/" class="btn btn-gold" style="margin-top:1.5rem;display:inline-block;">Demander un devis chemisage Bordeaux</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/fuite-canalisation-enterree.webp" alt="Chemisage de canalisation par résine époxy à Bordeaux : technique sans tranchée pour rénover les colonnes EU/EV des immeubles" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+
+    <h2>Le chemisage : une technique de rénovation indispensable au patrimoine bordelais</h2>
+    <p>Bordeaux concentre l'un des parcs immobiliers les plus contraints de France pour la plomberie : 25 000 immeubles en pierre calcaire datant d'avant 1948, dont 60 pourcent ont des colonnes d'évacuation EU/EV en fonte grise d'origine. Ajouter à cela les copropriétés des Trente Glorieuses (Grand Parc, Mériadeck, Bacalan), construites avec des canalisations en amiante-ciment ou en fibrociment qu'il est aujourd'hui interdit de démolir sans précautions. Pour ce patrimoine, le chemisage n'est pas seulement une option : c'est <strong>la seule technique réaliste de rénovation</strong>. La démolition classique impliquerait des coûts prohibitifs, des nuisances inacceptables pour les locataires et un risque sanitaire avéré sur l'amiante.</p>
+    <p>Concrètement, nous intervenons depuis un point d'accès existant (cave, sous-sol commun, regard de visite, démontage temporaire d'un raccord WC), insérons une gaine en feutre ou fibre de verre imprégnée de résine époxy bicomposant, retournons cette gaine par pression d'air ou d'eau dans la canalisation à rénover (technique dite de réversion), puis polymérisons la résine à température ambiante en 2 à 4 heures. La canalisation existante reste en place et sert de coffrage à la nouvelle paroi en époxy. À la fin de l'intervention, vous avez littéralement un tube neuf à l'intérieur de l'ancien, avec une durée de vie de 50 ans et une résistance hydraulique supérieure.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Le processus de chemisage en 5 étapes à Bordeaux</h2>
+    <p>Voici notre méthodologie standardisée appliquée sur l'ensemble des chantiers bordelais, conforme à la norme NF EN ISO 11296-4 (réhabilitation des réseaux d'évacuation par chemisage continu) :</p>
+
+    <div class="arg-num-grid" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Diagnostic ITV par caméra</h3>
+          <p>Inspection télévisée préalable de la canalisation à l'aide d'une caméra endoscopique haute définition (Wöhler VIS 700, Ridgid SeeSnake). Visualisation de l'état du tuyau (fissures, racines, dépôts calcaires, désaxements), mesure du linéaire exact et du diamètre intérieur, repérage des coudes et raccords. Vidéo et rapport remis au client. Voir notre guide <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation Bordeaux</a>.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Curage hydrodynamique haute pression</h3>
+          <p>Nettoyage du tuyau au jet d'eau haute pression (200 à 500 bars selon état) pour éliminer racines, dépôts calcaires, biofilms et tartre. Sur les colonnes en fonte des immeubles haussmanniens bordelais, cette étape révèle souvent des dépôts de plus de 30 ans qui réduisent le diamètre utile de moitié. Curage complémentaire mécanique (fraisage robotisé) si nécessaire sur les sections les plus encombrées.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Imprégnation de la gaine en résine époxy</h3>
+          <p>Préparation sur place de la gaine textile (feutre polyester ou fibre de verre) imprégnée d'une résine époxy bicomposant (résine + durcisseur) fabriquée en France. Pré-calcul du dosage selon volume de canalisation. Imprégnation sous vide pour éliminer les bulles d'air, qui sont la cause numéro un des défauts d'étanchéité après polymérisation.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Insertion par réversion</h3>
+          <p>La gaine imprégnée est retournée comme une chaussette par pression d'air ou d'eau dans la canalisation à rénover. Elle se plaque parfaitement contre la paroi existante, épouse les courbures et changements de diamètre. Sur les colonnes verticales d'immeuble bordelais, l'insertion se fait du haut vers le bas par un raccord WC ou évier au dernier étage. La gaine mesure typiquement 8 à 30 mètres de long pour les colonnes haussmanniennes du centre-ville.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Polymérisation et contrôle d'étanchéité</h3>
+          <p>Polymérisation de la résine à température ambiante en 2 à 4 heures (ou 30 minutes sous lampe UV pour les chantiers urgents). Une fois durcie, la résine forme un tube monolithique étanche de 2 à 4 mm d'épaisseur. Contrôle final par seconde inspection ITV avec rapport vidéo, test d'étanchéité par mise en eau et test de pression à 0,5 bar. Mise en service immédiate après contrôle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Les types d'immeubles bordelais que nous chemisions</h2>
+    <p>Bordeaux a la particularité d'avoir un parc immobilier extrêmement varié, chaque période ayant ses propres canalisations. Voici les principaux profils que nous traitons et les spécificités de chacun :</p>
+
+    <h3>L'immeuble haussmannien du Triangle d'Or et des Chartrons</h3>
+    <p>Construit entre 1850 et 1914, l'immeuble haussmannien bordelais (rues Sainte-Catherine, Esprit des Lois, Saint-Rémi, Foy, Notre-Dame) a des canalisations en fonte grise d'origine, généralement d'un diamètre de 100 à 150 mm. Les colonnes EU/EV traversent verticalement les 5 à 8 étages dans une gaine technique commune, parfois doublée d'une descente d'EP en zinc ou plomb pour les eaux pluviales. Après 130 à 150 ans de service, les fissures longitudinales (corrosion par H2S des eaux usées) et les désaxements de raccord aux étages sont quasi systématiques. Notre chemisage évite la dépose, qui serait catastrophique en immeuble classé Monument Historique ou en zone UNESCO.</p>
+
+    <h3>L'échoppe bordelaise de la Bastide, Saint-Pierre et Saint-Michel</h3>
+    <p>L'échoppe bordelaise typique (1850-1930) est une maison basse de 4 à 6 mètres de profondeur, avec des canalisations enterrées en grès vernissé ou en fonte sous la cour intérieure. Caractéristique : les évacuations passent souvent dans des passages couverts mitoyens, accessibles depuis plusieurs propriétés. Les fuites sur ces réseaux sont fréquentes (sols argileux qui bougent, racines de platanes courantes dans le quartier). Nous chemisons depuis le regard de visite extérieur, sans casser la cour ni les pavés d'origine.</p>
+
+    <h3>La copropriété années 1960-1985 (Mériadeck, Grand Parc, Bacalan, Le Lac)</h3>
+    <p>Ces grands ensembles construits pendant la rénovation urbaine bordelaise ont massivement utilisé l'amiante-ciment et le fibrociment pour les colonnes d'évacuation. Aujourd'hui, ces matériaux interdisent toute démolition sans désamiantage préalable extrêmement coûteux. Le chemisage encapsule l'amiante définitivement dans la résine époxy, supprimant le risque sanitaire et permettant une rénovation à coût normal. Nous traitons régulièrement des colonnes R+10 sur ces copropriétés (linéaire 30 à 36 mètres par cage d'escalier).</p>
+
+    <h3>La maison contemporaine Caudéran, Le Bouscat, Bordeaux Caudéran</h3>
+    <p>Construites entre 1960 et 2000, ces maisons pavillonnaires ont généralement des canalisations en PVC (pour les eaux usées) et cuivre (pour l'alimentation). Les fuites apparaissent le plus souvent sur les raccords PVC collés sous dalle, désaxés par les mouvements de terrain argileux typiques du sud-ouest de Bordeaux. Nous chemisons les portions enterrées entre maison et regard, ou entre maison et compteur, pour éviter la démolition d'allées ou de terrasses.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>6 chantiers de chemisage récents à Bordeaux</h2>
+    <p>Voici un échantillon de nos interventions récentes sur la métropole bordelaise. Tous les noms d'entités ont été anonymisés pour respecter la confidentialité contractuelle de nos clients :</p>
+
+    <h3>Immeuble haussmannien rue Sainte-Catherine (R+6, 2026)</h3>
+    <p>Copropriété de 18 lots, immeuble 1872, colonne EU centrale en fonte grise diamètre 125 mm sur 22 mètres de hauteur. Le syndic nous mandate après 3 sinistres dégât des eaux en 18 mois (fissures multiples sur la colonne au niveau des étages 3 et 5). Diagnostic ITV : 14 fissures longitudinales identifiées, dépôts calcaires réduisant le diamètre utile à 95 mm. Intervention : curage hydrodynamique à 350 bars (8 heures), chemisage par réversion en une seule longueur, polymérisation à température ambiante. Durée totale : 3 jours, dont 1 demi-journée de coupure d'eau pour les 18 lots. Coût total : 18 600 € HT, intégralement pris en charge par l'assurance multirisque copropriété au titre de la garantie réhabilitation préventive. Aucun déménagement, aucune démolition.</p>
+
+    <h3>Échoppe Bastide rue de Marseille (cour intérieure, mars 2026)</h3>
+    <p>Maison familiale 1898, propriétaire occupant. Évacuation EU/EV enterrée en grès vernissé sous cour, 8 mètres linéaires entre cuisine et regard de rue. Diagnostic ITV après 2 refoulements WC en 6 mois : tuyau désaxé sur 2 raccords (mouvements de terrain), racines de palmier infiltrées. Curage haute pression + fraisage robotique pour éliminer les racines, chemisage en une journée, contrôle final OK. Coût : 4 200 € HT. La cour pavée d'origine n'a pas été touchée.</p>
+
+    <h3>Copropriété années 1972 quartier Mériadeck (R+9, février 2026)</h3>
+    <p>Ensemble de 84 logements, 4 cages d'escalier. Colonnes EU/EV en fibrociment d'origine sur 28 mètres de hauteur. Demande syndic suite à diagnostic technique amiante (DTA) qui révèle la présence d'amiante-ciment et l'impossibilité de démolir sans désamiantage à 95 000 € HT. Notre proposition de chemisage : 22 800 € HT par cage, soit 91 200 € HT pour les 4 cages, contre 380 000 € HT pour un changement classique avec désamiantage. Intervention en 12 jours ouvrés, 3 jours par cage en travaillant en cascade. Aucun déménagement de locataires.</p>
+
+    <h3>Maison contemporaine Caudéran (jardin, janvier 2026)</h3>
+    <p>Pavillon 1995, propriétaire occupant. Canalisation EU PVC enterrée 18 mètres linéaires entre maison et fosse septique réhabilitée en branchement collectif. Multiples raccords désaxés détectés par caméra ITV après écrêtement de facture d'eau Suez (loi Warsmann activée). Chemisage en 1 journée, accès depuis le regard de visite extérieur. Coût : 5 800 € HT. Le terrain n'a pas été ouvert.</p>
+
+    <h3>Immeuble Cours de l'Intendance (rénovation lourde, décembre 2025)</h3>
+    <p>Immeuble 1885 entièrement rénové par un investisseur, 3 cages d'escalier R+5 transformées en lofts haut de gamme. Avant cloisonnement, chemisage préventif des 3 colonnes EU en fonte (diamètre 150 mm, 18 mètres linéaires chacune). Intervention en 4 jours en parallèle des autres corps de métier (plâtrerie, électricité). Coût total : 28 200 € HT pour les 3 colonnes. Garantie décennale opposable au futur syndic dès la livraison.</p>
+
+    <h3>Copropriété Grand Parc (R+6, octobre 2025)</h3>
+    <p>Copropriété de 142 logements répartis sur 6 cages d'escalier. Colonnes EU en amiante-ciment d'origine (1968), 19 mètres linéaires par cage. Sinistre dégât des eaux récurrent au 4e étage (fissure transversale sur colonne). Diagnostic + chemisage de la colonne sinistrée en 3 jours. Coût : 16 400 € HT pris en charge par l'assurance copropriété. Le syndic a ensuite programmé le chemisage progressif des 5 autres colonnes sur 2026-2027 dans le cadre d'un plan pluriannuel de travaux.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Tarifs du chemisage de canalisation à Bordeaux en 2026</h2>
+    <p>Le chemisage est facturé soit au mètre linéaire, soit en forfait selon la complexité du chantier. Voici les fourchettes constatées en 2026 sur Bordeaux et la métropole :</p>
+    <ul>
+      <li><strong>Tarif au mètre linéaire (canalisations enterrées maison individuelle)</strong> : <strong>250 à 380 € HT/ml</strong>, diamètres 80 à 150 mm.</li>
+      <li><strong>Forfait maison individuelle (10 à 25 mètres typique)</strong> : <strong>2 800 à 8 500 € HT</strong>, diagnostic ITV et curage inclus.</li>
+      <li><strong>Colonne EU/EV immeuble haussmannien (R+5 à R+8)</strong> : <strong>12 000 à 28 000 € HT par colonne</strong> selon hauteur, diamètre et nombre de raccords.</li>
+      <li><strong>Colonne amiante-ciment copropriété années 1960-1980</strong> : <strong>18 000 à 35 000 € HT par colonne</strong>, sans surcoût de désamiantage.</li>
+      <li><strong>Diagnostic ITV préalable seul</strong> : <strong>180 à 380 € HT</strong>, généralement déduit du devis chemisage si commande passée.</li>
+    </ul>
+    <p>Économie typique vs changement classique avec démolition : <strong>40 à 60 pourcent</strong>. Sur un immeuble haussmannien Chartrons, économie moyenne 18 000 € HT sur un chantier de 35 000 € HT en démolition classique. Tous nos devis sont fixes, communiqués avant intervention. Aucun supplément non prévu après diagnostic.</p>
+    <p>Le chemisage peut être pris en charge par l'assurance dommages-ouvrage de votre immeuble, par la garantie multirisque copropriété pour les sinistres dégât des eaux récurrents, et par certains plans d'investissement énergétique (CEE, MaPrimeRénov' Copropriétés). Contactez votre syndic pour activer ces dispositifs. Pour la grille tarifaire complète Recherche Fuite Gironde, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Chemisage en copropriété et syndic à Bordeaux</h2>
+    <p>Bordeaux compte plus de 4 200 copropriétés gérées par une trentaine de syndics professionnels (Foncia, Citya, Nexity, Inter Gestion, Cabinet Bedin et autres). Le chemisage des colonnes montantes est devenu en 2024-2026 le sujet de travaux le plus fréquent en assemblée générale, sous l'effet conjugué du vieillissement du parc et des sinistres dégât des eaux à répétition. Notre approche en copropriété :</p>
+    <ul>
+      <li><strong>Diagnostic ITV initial offert pour les copropriétés de plus de 30 lots</strong>, sur simple demande du syndic. Vidéo et rapport remis au gestionnaire pour présentation en AG.</li>
+      <li><strong>Devis détaillé conforme à l'arrêté du 27 février 2017</strong> sur les marchés de travaux en copropriété (loi ALUR), avec décomposition prix par cage et par étage.</li>
+      <li><strong>Intervention coordonnée avec les autres corps de métier</strong> (peintre pour reprise placo aux raccords, électricien si gaine commune partagée, ascensoriste si nécessaire).</li>
+      <li><strong>Communication aux copropriétaires</strong> assurée par notre soin (note d'information, calendrier, instructions de coupure d'eau) pour décharger le syndic.</li>
+      <li><strong>Rapport final transmis directement à l'assureur</strong> de la copropriété pour activer la garantie réhabilitation préventive si applicable.</li>
+    </ul>
+    <p>Pour les sinistres dégâts des eaux en copropriété (gestion IRSI entre assureurs), voir notre page dédiée <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">dégâts des eaux à Bordeaux</a> qui détaille le protocole syndic + diagnostic + chemisage.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur le chemisage à Bordeaux</h2>
+
+    <h3>Le chemisage est-il adapté aux colonnes en fonte des immeubles haussmanniens bordelais ?</h3>
+    <p>Parfaitement. La fonte grise des immeubles bordelais d'avant 1900 est l'un des supports privilégiés du chemisage : son état de surface accroche bien la résine époxy, sa rigidité limite les déformations, et la verticalité des colonnes facilite la réversion. Sur Bordeaux Centre (Chartrons, Saint-Pierre, Sainte-Catherine), nous traitons régulièrement des colonnes de 18 à 30 mètres de hauteur sans démolition.</p>
+
+    <h3>Pouvez-vous intervenir sur les colonnes amiante-ciment des copropriétés bordelaises années 1960-1980 ?</h3>
+    <p>Oui, c'est même l'un des cas les plus fréquents sur les copropriétés du Grand Parc, de Mériadeck et des Aubiers. L'amiante-ciment se chemise sans démolition, donc sans risque d'émission de fibres. Notre intervention encapsule définitivement l'amiante dans la résine époxy, sans désamiantage préalable nécessaire.</p>
+
+    <h3>Faut-il évacuer les locataires d'un immeuble bordelais pendant le chemisage ?</h3>
+    <p>Non, jamais. Notre intervention se fait depuis le pied de colonne (cave ou sous-sol commun) sans démolition de placo dans les appartements. Les occupants conservent l'usage de leur logement. Seule contrainte : couper temporairement les eaux usées du logement concerné pendant 4 à 8 heures, généralement en matinée.</p>
+
+    <h3>Quelle est la différence entre chemisage et changement classique ?</h3>
+    <p>Le changement classique implique démolition de placo, ouverture de gaines techniques, dépose puis pose d'une canalisation neuve. Coût total 2 à 3 fois supérieur au chemisage, durée 5 à 15 jours selon étages, nuisances importantes pour locataires. Le chemisage : aucune démolition, intervention 1 à 4 jours, économie de 40 à 60 pourcent. Sur immeuble haussmannien bordelais, économie typique 18 000 € HT.</p>
+
+    <h3>Intervenez-vous en urgence ?</h3>
+    <p>Pour les fuites actives en copropriété (sinistres dégât des eaux récurrents), intervention sous 5 à 10 jours sur Bordeaux Métropole. Le chemisage demande quelques jours de préparation. Pour une mise en sécurité immédiate, nous préconisons d'abord une localisation par <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> pour permettre une réparation provisoire le temps du chemisage.</p>
+
+    <h3>Que se passe-t-il si la canalisation chemisée fuit à nouveau dans 5 ans ?</h3>
+    <p>Notre garantie décennale couvre toute reprise pour défaut de mise en œuvre pendant 10 ans. En pratique, sur 200 chantiers réalisés à Bordeaux depuis 2020, aucun retour SAV n'a été enregistré pour défaut de chemisage. Les rares interventions post-chemisage concernent des canalisations adjacentes au tronçon traité (nouveau défaut sur une partie non chemisée), facturées séparément.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Lexique du chemisage : les termes techniques expliqués</h2>
+    <p>Les devis de chemisage utilisent un vocabulaire technique parfois opaque. Voici une explication des termes que vous croiserez sur nos rapports et factures :</p>
+    <ul>
+      <li><strong>Réversion (ou inversion)</strong> : technique d'insertion de la gaine imprégnée par retournement, comme une chaussette qu'on retournerait à l'envers, sous pression d'air ou d'eau.</li>
+      <li><strong>Polymérisation</strong> : durcissement chimique de la résine époxy au contact de son durcisseur, à température ambiante (2-4h) ou sous lampe UV (30 min).</li>
+      <li><strong>Curage hydrodynamique</strong> : nettoyage du tuyau par jet d'eau haute pression avant chemisage, pour éliminer dépôts et obstacles.</li>
+      <li><strong>Fraisage robotisé</strong> : passage d'une fraise rotative pilotée à distance dans la canalisation pour éliminer racines et concrétions calcaires tenaces.</li>
+      <li><strong>Packer</strong> : dispositif gonflable qui isole une section de canalisation pour réparation locale au lieu d'un chemisage complet.</li>
+      <li><strong>ITV (Inspection Télévisée)</strong> : diagnostic vidéo par caméra endoscopique avant et après chemisage, conforme NF EN 13508-2.</li>
+      <li><strong>NF EN ISO 11296-4</strong> : norme française et européenne qui définit les caractéristiques techniques des chemisages continus polymérisés sur place.</li>
+      <li><strong>Manchette époxy (ou collier)</strong> : réparation locale de 30 cm à 2 m sur point ponctuel défaillant, alternative légère au chemisage complet.</li>
+      <li><strong>Diamètre nominal (DN)</strong> : diamètre intérieur théorique de la canalisation. À Bordeaux, DN 100, 125 et 150 mm sont les plus courants en immeuble.</li>
+      <li><strong>EU / EV / EP</strong> : eaux usées (cuisine, douche, lavabo) / eaux vannes (WC) / eaux pluviales (toiture). Réseaux séparés ou combinés selon l'âge de l'immeuble.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes : recherche de fuite et chemisage à Bordeaux</h2>
+    <p>Avant tout chemisage, un diagnostic technique est indispensable. Selon votre situation, ces ressources complètent votre démarche :</p>
+    <ul>
+      <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage Bordeaux pour syndics et copropriétés (gestion IRSI)</a> : page dédiée gestionnaires, axée procédure assureur et coordination syndic.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite canalisation enterrée à Bordeaux</a> : diagnostic préalable au chemisage, méthode gaz traceur azote/hydrogène.</li>
+      <li><a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">Inspection caméra canalisation à Bordeaux</a> : étape ITV obligatoire avant tout chemisage, marques caméra et coûts.</li>
+      <li><a href="/guide/chemisage-explication/" style="color:var(--green);text-decoration:underline;">Le chemisage de canalisation expliqué</a> : guide technique général sur la résine époxy, polyester, durée de vie, garantie.</li>
+      <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux</a> : pour les sinistres en copropriété, gestion IRSI et coordination assureur, souvent suivis d'un chemisage préventif.</li>
+      <li><a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite à Bordeaux (page ville)</a> : vue d'ensemble de nos interventions sur les 18 quartiers de Bordeaux.</li>
+      <li><a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">Chemisage canalisation Gironde</a> : service complet sur l'ensemble du département.</li>
+    </ul>
+  </div>
+</section>
+
+{form_section(nom)}
+'''
+
+    title = "Chemisage canalisation Bordeaux | Sans tranchée"
+    desc = "Chemisage de canalisation à Bordeaux (33000) : rénovation des colonnes EU/EV sans démolition. Spécialiste haussmannien, échoppe, copropriété amiante-ciment. Devis."
+    canonical = "https://recherche-fuite-gironde.fr/villes/bordeaux/chemisage/"
+    return html_base(title, desc[:160], canonical, body, ld_local + ld_service + ld_breadcrumb + ld_faq)
+
+
 # ── Page service détection ─────────────────────────────────────
 def page_detection():
     body = f'''
@@ -4445,7 +4768,7 @@ def page_chemisage_bordeaux():
       <span>&rsaquo;</span>
       <span>Chemisage Bordeaux</span>
     </nav>
-    <h1>Chemisage de canalisation à Bordeaux et métropole</h1>
+    <h1>Chemisage de canalisation pour syndics et copropriétés à Bordeaux</h1>
     <p class="hero-mini-lead">rénovation des colonnes d'évacuation et canalisations vieillissantes des immeubles bordelais, <strong>sans tranchee ni démolition</strong>. Liner tubulaire en resine epoxy insere dans la canalisation existante, durée de vie 50 ans, garantie décennale. spécialistes des copropriétés haussmanniennes et immeubles classés UNESCO.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un devis chemisage</a>
@@ -4613,8 +4936,8 @@ def page_chemisage_bordeaux():
 '''
 
     return html_base(
-        'Chemisage canalisation Bordeaux | Sans tranchée',
-        'Chemisage de canalisation en copropriété à Bordeaux : sans tranchee, garantie décennale, vote AG. spécialistes des immeubles haussmanniens et patrimoine UNESCO.',
+        'Chemisage syndic copropriété Bordeaux | Vote AG IRSI',
+        'Chemisage de colonnes EU/EV en copropriété à Bordeaux : préparation vote AG, devis ALUR, gestion IRSI assureur, intervention sans évacuation locataires.',
         'https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/',
         body,
         extra_ld=ld_service + ld_local + ld_breadcrumb + ld_faq,
@@ -6765,7 +7088,10 @@ def main():
 
     print('[7/8] Pages villes — chemisage (30)...')
     for v in VILLES:
-        write(f'villes/{v["slug"]}/chemisage/index.html', page_ville_chemisage(v))
+        if v['slug'] == 'bordeaux':
+            write(f'villes/{v["slug"]}/chemisage/index.html', page_chemisage_bordeaux_premium())
+        else:
+            write(f'villes/{v["slug"]}/chemisage/index.html', page_ville_chemisage(v))
 
     print('[7a] Page hub — piscine pillar...')
     write('detection-fuite/piscine/index.html', page_piscine_hub())
