@@ -429,10 +429,10 @@ def page_ville_detection(v):
 {form_section(nom)}
 {maillage_villes(slug)}'''
 
-    title = f"Recherche fuite eau {nom} {cp} détection non destructive"
+    title = f"Fuite eau {nom} {cp} | Sans démolition"
     desc = f"Fuite d'eau à {nom} ? Détection non destructive en 24h, sans démolition. Rapport assurance inclus. Devis gratuit sur toute la Gironde (33)."
     canonical = f"https://recherche-fuite-gironde.fr/villes/{slug}/"
-    return html_base(title[:60], desc[:160], canonical, body, ld)
+    return html_base(title, desc[:160], canonical, body, ld)
 
 # ── Générateur page ville — chemisage ────────────────────────
 def page_ville_chemisage(v):
@@ -571,10 +571,10 @@ def page_ville_chemisage(v):
 {form_section(nom)}
 {maillage_villes(slug)}'''
 
-    title = f"Chemisage canalisation {nom} {cp} rénovation sans travaux"
+    title = f"Chemisage {nom} {cp} | Sans tranchée"
     desc = f"Chemisage de canalisation à {nom} ({cp}). Rénovation sans démolition, sans tranchée. Devis gratuit, intervention rapide en Gironde (33)."
     canonical = f"https://recherche-fuite-gironde.fr/villes/{slug}/chemisage/"
-    return html_base(title[:60], desc[:160], canonical, body, ld)
+    return html_base(title, desc[:160], canonical, body, ld)
 
 # ── Page service détection ─────────────────────────────────────
 def page_detection():
@@ -769,7 +769,7 @@ def page_detection():
   }
   </script>'''
     return html_base(
-        "Détection fuite non destructive Gironde 33 intervention rapide",
+        "Détection de fuite non destructive Gironde 33",
         "Détection de fuite non destructive en Gironde (33). Corrélation acoustique, caméra endoscopique, gaz traceur. Rapport assurance. Devis gratuit.",
         "https://recherche-fuite-gironde.fr/detection-fuite/",
         body, ld
@@ -863,7 +863,7 @@ def page_chemisage_service():
   }
   </script>'''
     return html_base(
-        "Chemisage canalisation Gironde 33 rénovation sans travaux",
+        "Chemisage canalisation Gironde 33 | Sans tranchée",
         "Chemisage de canalisation en Gironde (33). Rénovation sans démolition, sans tranchée. Résine époxy longue durée. Devis gratuit sur toute la Gironde.",
         "https://recherche-fuite-gironde.fr/chemisage-canalisation/",
         body, ld
@@ -1100,7 +1100,7 @@ GUIDE_PAGES = [
     {
         "slug": "comment-detecter-une-fuite",
         "title": "Comment détecter une fuite chez soi",
-        "title_seo": "Comment détecter une fuite d'eau chez soi premiers signes",
+        "title_seo": "Comment détecter une fuite d'eau chez soi",
         "desc": "Les signes qui indiquent une fuite d'eau chez vous et les premières vérifications à faire avant d'appeler un technicien en Gironde.",
         "contenu": """<p>Une fuite d'eau peut rester invisible pendant des semaines, voire des mois, avant de se manifester clairement. savoir la détecter tôt permet d'éviter des dégâts importants et des factures d'eau en hausse.</p>
 <h2>Les signes qui doivent vous alerter</h2>
@@ -1128,7 +1128,7 @@ GUIDE_PAGES = [
     {
         "slug": "causes-fuites-eau",
         "title": "Les causes de fuites d'eau les plus fréquentes",
-        "title_seo": "Causes fuites eau maison canalisation défaillance réseau",
+        "title_seo": "Causes fréquentes des fuites d'eau en maison",
         "desc": "Pourquoi une canalisation fuit-elle ? Les causes les plus fréquentes de fuites d'eau dans les maisons et appartements en Gironde.",
         "contenu": """<p>Une fuite d'eau n'arrive jamais par hasard. comprendre les causes les plus fréquentes permet d'anticiper les risques et d'adapter la solution de réparation.</p>
 <h2>La corrosion des canalisations</h2>
@@ -1147,7 +1147,7 @@ GUIDE_PAGES = [
     {
         "slug": "fuite-sous-dalle",
         "title": "Fuite sous dalle : diagnostic et solutions",
-        "title_seo": "Fuite sous dalle béton carrelage détection réparation Gironde",
+        "title_seo": "Fuite sous dalle : détection et réparation Gironde",
         "desc": "Comment détecter et traiter une fuite sous dalle en Gironde. Techniques non destructives pour localiser et réparer sans casse.",
         "contenu": """<p>La fuite sous dalle est l'une des plus redoutées car elle est invisible, silencieuse et peut causer des dégâts considérables avant d'être détectée. En Gironde, c'est l'une des interventions les plus fréquentes dans notre secteur.</p>
 <h2>Comment se manifeste une fuite sous dalle ?</h2>
@@ -1169,7 +1169,7 @@ GUIDE_PAGES = [
     {
         "slug": "fuite-canalisation-enterree",
         "title": "Fuite sur canalisation enterrée",
-        "title_seo": "Fuite canalisation enterrée jardin voirie détection Gironde",
+        "title_seo": "Fuite canalisation enterrée Gironde | Détection",
         "desc": "Comment détecter une fuite sur une canalisation enterrée en Gironde. Méthodes acoustiques et traceur gaz pour localiser sans creuser.",
         "contenu": """<p>Une fuite sur canalisation enterrée est particulièrement difficile à détecter car elle peut courir sur des dizaines de mètres sous un jardin ou une allée avant de se manifester en surface - parfois jamais.</p>
 <h2>Les signes d'une fuite enterrée</h2>
@@ -1195,7 +1195,7 @@ GUIDE_PAGES = [
     {
         "slug": "chemisage-explication",
         "title": "Le chemisage de canalisation expliqué",
-        "title_seo": "Chemisage canalisation résine epoxy technique explication",
+        "title_seo": "Chemisage canalisation : la technique expliquée",
         "desc": "Comment fonctionne le chemisage de canalisation ? La technique, les matériaux et les étapes d'une intervention en Gironde expliqués simplement.",
         "contenu": """<p>Le chemisage de canalisation est une technique de rénovation qui consiste à créer un nouveau tuyau à l'intérieur de l'ancien, sans démolition. C'est la solution idéale quand la canalisation est trop dégradée pour une réparation ponctuelle.</p>
 <h2>Le principe du chemisage</h2>
@@ -1219,7 +1219,7 @@ GUIDE_PAGES = [
     {
         "slug": "cout-recherche-fuite",
         "title": "Quel est le coût d'une recherche de fuite ?",
-        "title_seo": "Coût prix recherche fuite eau Gironde tarif intervention",
+        "title_seo": "Coût d'une recherche de fuite d'eau Gironde",
         "desc": "Quel budget prévoir pour une recherche de fuite en Gironde ? Facteurs qui influencent le tarif et prise en charge assurance.",
         "contenu": """<p>Le coût d'une recherche de fuite varie selon plusieurs facteurs. Voici ce qu'il faut savoir pour estimer votre budget et comprendre comment l'assurance peut intervenir.</p>
 <h2>Les facteurs qui influencent le tarif</h2>
@@ -1244,7 +1244,7 @@ GUIDE_PAGES = [
     {
         "slug": "assurance-fuite-eau",
         "title": "Fuite d'eau et assurance habitation",
-        "title_seo": "Assurance habitation fuite eau dégât eaux remboursement dossier",
+        "title_seo": "Assurance habitation et fuite d'eau : remboursement",
         "desc": "Comment faire prendre en charge une fuite d'eau par votre assurance habitation ? Le dossier, les démarches et le rapport de recherche de fuite.",
         "contenu": """<p>Une fuite d'eau peut générer des dégâts importants. Heureusement, votre assurance habitation couvre dans la plupart des cas les frais de recherche de fuite et les réparations qui en découlent.</p>
 <h2>Ce que couvre l'assurance habitation</h2>
@@ -1266,7 +1266,7 @@ GUIDE_PAGES = [
     {
         "slug": "urgence-fuite-eau",
         "title": "Que faire en cas d'urgence fuite d'eau ?",
-        "title_seo": "Urgence fuite eau que faire premiers gestes Gironde",
+        "title_seo": "Urgence fuite d'eau : que faire en Gironde",
         "desc": "Fuite d'eau soudaine ou importante en Gironde ? Les bons réflexes à avoir immédiatement pour limiter les dégâts en attendant l'intervention.",
         "contenu": """<p>Face à une fuite d'eau importante, chaque minute compte. Voici les bons gestes à adopter pour limiter les dégâts en attendant l'intervention d'un technicien.</p>
 <h2>Les gestes immédiats</h2>
@@ -1285,7 +1285,7 @@ GUIDE_PAGES = [
     {
         "slug": "recherche-fuite-piscine-tarif",
         "title": "Tarif recherche de fuite piscine en Gironde : prix par type de bassin",
-        "title_seo": "Tarif recherche fuite piscine Gironde prix type bassin 2026",
+        "title_seo": "Tarif recherche fuite piscine Gironde 2026",
         "desc": "Tarif d'une recherche de fuite piscine en Gironde selon le type de bassin (liner, coque, béton), la méthode employee et la taille. Grille détaillée 2026.",
         "contenu": """<p>Combien coûte reellement une recherche de fuite sur une piscine en Gironde ? La reponse depend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
 
@@ -1362,7 +1362,7 @@ GUIDE_PAGES = [
     {
         "slug": "recherche-fuite-piscine-assurance",
         "title": "Recherche fuite piscine et assurance habitation : le remboursement",
-        "title_seo": "Recherche fuite piscine assurance habitation remboursement IRSI",
+        "title_seo": "Recherche fuite piscine et assurance | Remboursement",
         "desc": "Comment faire rembourser une recherche de fuite sur piscine par votre assurance habitation en Gironde. Clauses, procédure, IRSI copropriété, cas complexes.",
         "contenu": """<p>La recherche de fuite sur une piscine privée représente un investissement de 300 a 800 euros HT selon les cas. La bonne nouvelle : votre assurance habitation multirisque couvre souvent tout ou partie de cette prestation, sous réservé de connaitre les clauses applicables et de respecter la procédure de déclaration. Cet article détaillé les modalites propres aux piscines, qui différent sensiblement de celles d'un simple dégât des eaux en logement.</p>
 
@@ -1452,7 +1452,7 @@ GUIDE_PAGES = [
     {
         "slug": "ma-piscine-perd-de-l-eau-que-faire",
         "title": "Ma piscine perd de l'eau : que faire ? Guide de diagnostic",
-        "title_seo": "Ma piscine perd de l eau que faire diagnostic étapes Gironde",
+        "title_seo": "Ma piscine perd de l'eau : que faire ?",
         "desc": "Votre piscine perd de l'eau et vous ne savez pas par ou commencer ? Arbre de décision étape par étape pour diagnostiquer et agir, avant d'appeler un professionnel en Gironde.",
         "contenu": """<p>Vous constatez une baisse anormale du niveau de votre piscine. Avant de paniquer ou d'appeler un professionnel, quelques vérifications simples permettent de qualifier précisément la situation. Cet article est un guide de décision étape par étape : à chaque question, vous saurez ce qu'il faut faire et quand passer à l'étape suivante. L'objectif : arriver chez un pro de la recherche de fuite avec un diagnostic preliminaire solide, ce qui fait gagner du temps et souvent des euros.</p>
 
@@ -1555,7 +1555,7 @@ GUIDE_PAGES = [
     {
         "slug": "fuite-liner-piscine",
         "title": "Fuite liner piscine : signes, causes et diagnostic",
-        "title_seo": "Fuite liner piscine PVC signes causes diagnostic réparation",
+        "title_seo": "Fuite liner piscine PVC : signes et diagnostic",
         "desc": "Comment détecter et traiter une fuite sur liner PVC de piscine. Signes caractéristiques, causes fréquentes, méthodes de diagnostic, réparation locale ou changement complet.",
         "contenu": """<p>Le liner PVC est le revêtement le plus repandu sur les piscines privées en Gironde : environ 70 a 80 pourcent du parc existant, particulierement sur les bassins installés entre 1985 et 2015 dans les lotissements pavillonnaires de Mérignac, Pessac, Le Bouscat, La Teste et Gujan-Mestras. après 20 a 30 ans d'usage, le liner entre dans sa phase critique ou les fuites deviennent fréquentes. Cet article détaillé comment identifier, diagnostiquer et traiter une fuite sur liner PVC.</p>
 
@@ -1651,7 +1651,7 @@ GUIDE_PAGES = [
     {
         "slug": "evaporation-vs-fuite-piscine",
         "title": "Évaporation ou fuite de piscine ? Le guide précis",
-        "title_seo": "Évaporation eau piscine vs fuite Gironde climat test seau",
+        "title_seo": "Évaporation ou fuite de piscine : test du seau",
         "desc": "Comment distinguer l'évaporation normale d'une fuite sur votre piscine en Gironde. Taux mensuels selon le climat, protocoles de test, seuils d'alerte.",
         "contenu": """<p>Votre piscine perd de l'eau et la question tombe : est-ce une fuite, ou simplement de l'évaporation ? La reponse n'est pas toujours évidente, surtout en été en Gironde ou l'évaporation peut être importante. Cet article détaillé les taux d'évaporation mensuels en climat aquitain, les facteurs qui les amplifient, et le protocole précis pour trancher entre évaporation et fuite.</p>
 
@@ -1744,7 +1744,7 @@ GUIDE_PAGES = [
     {
         "slug": "loi-warsmann-ecretement-facture-eau",
         "title": "Loi Warsmann : écrêtement de facture d'eau après fuite",
-        "title_seo": "Loi Warsmann écrêtement facture eau fuite canalisation enterrée",
+        "title_seo": "Loi Warsmann : écrêtement de facture d'eau",
         "desc": "Comment bénéficier de l'écrêtement de facture d'eau après une fuite sur canalisation enterrée. La loi Warsmann 2011 expliquée : conditions, procédure, jurisprudence.",
         "contenu": """<p>Une fuite sur votre canalisation enterrée peut faire exploser votre facture d'eau en quelques semaines. La loi dite Warsmann, adoptee en 2011 et codifiee à l'article L2224-12-4 du Code général des collectivites territoriales, limite le coût supporte par le consommateur dans ce cas précis. Encore faut-il connaître les conditions pour en bénéficier. Cet article détaillé la procédure, les documents a fournir, les ecueils fréquents et les précédents jurisprudentiels.</p>
 
@@ -1848,7 +1848,7 @@ GUIDE_PAGES = [
     {
         "slug": "prix-recherche-fuite-bordeaux",
         "title": "Prix d'une recherche de fuite à Bordeaux en 2026",
-        "title_seo": "Prix recherche de fuite Bordeaux tarif devis intervention 2026",
+        "title_seo": "Prix recherche de fuite à Bordeaux 2026",
         "desc": "Combien coûte une recherche de fuite à Bordeaux en 2026 ? Tarifs moyens par méthode, prise en charge assurance, loi Warsmann. Devis gratuit.",
         "contenu": """<p>Vous cherchez à savoir combien coûte une recherche de fuite à Bordeaux avant de prendre rendez-vous ? Cet article détaille les tarifs pratiqués en 2026 selon les techniques employées, ce qui est pris en charge par votre assurance habitation et comment obtenir un écrêtement de facture d'eau en cas de fuite enterrée.</p>
 
@@ -1918,7 +1918,7 @@ GUIDE_PAGES = [
     {
         "slug": "reparation-liner-piscine",
         "title": "Réparation d'une fuite de liner piscine : méthodes et coûts",
-        "title_seo": "Réparation fuite liner piscine techniques durée prix Gironde",
+        "title_seo": "Réparation fuite liner piscine : méthodes et prix",
         "desc": "Comment réparer une fuite sur liner piscine PVC : rustine subaquatique, soudure thermique, remplacement complet. Coûts, durée de vie, garantie.",
         "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/reparation-liner-piscine.webp" alt="Piscine privée avec liner bleu en Gironde avant réparation d'une fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
@@ -2043,7 +2043,7 @@ def page_guide_article(art):
 {form_section()}'''
 
     return html_base(
-        art["title_seo"][:60],
+        art["title_seo"],
         art["desc"][:160],
         f"https://recherche-fuite-gironde.fr/guide/{art['slug']}/",
         body
@@ -2163,7 +2163,7 @@ def page_guide_index():
 {form_section()}'''
 
     return html_base(
-        "Guide fuites d'eau Gironde 33 détection chemisage assurance",
+        "Guide fuites d'eau Gironde | Détection & assurance",
         "Guide complet sur les fuites d'eau en Gironde (33). Détection, chemisage, assurance, urgences. Conseils d'experts.",
         "https://recherche-fuite-gironde.fr/guide/",
         body
@@ -2282,7 +2282,7 @@ def page_devis():
 </section>'''
 
     return html_base(
-        "Devis gratuit recherche fuite Gironde 33 sans engagement",
+        "Devis gratuit recherche de fuite Gironde 33",
         "Demandez votre devis gratuit pour une recherche de fuite ou un chemisage en Gironde (33). Réponse sous 24h, intervention sous 24h.",
         "https://recherche-fuite-gironde.fr/devis/",
         body,
@@ -2802,7 +2802,7 @@ def page_ville_detection_premium(v):
 '''
 
     return html_base(
-        f'Recherche de fuite d\'eau {ville_article} ({cp}) | Sans démolition',
+        f'Recherche de fuite {ville} ({cp}) | Sans démolition',
         f'Recherche de fuite d\'eau {ville_article} : thermographie, gaz traceur, caméra endoscopique. Intervention sous 24h, rapport pour assurance. Spécialistes patrimoine local.',
         f'https://recherche-fuite-gironde.fr/villes/{slug}/',
         body,
@@ -3236,7 +3236,7 @@ def page_piscine_hub():
 '''
 
     return html_base(
-        'Recherche de fuite piscine en Gironde | Sans vidange',
+        'Recherche de fuite piscine Gironde | Sans vidange',
         "Recherche de fuite sur piscine privée en Gironde sans vidanger : colorant fluorescéine, acoustique, test de pression. couverture Bordeaux, Bassin d'Arcachon, Libournais. Devis gratuit.",
         'https://recherche-fuite-gironde.fr/detection-fuite/piscine/',
         body,
@@ -3539,7 +3539,7 @@ def page_plancher_chauffant_bordeaux():
 '''
 
     return html_base(
-        'Fuite plancher chauffant Bordeaux | Thermographie sans casse',
+        'Fuite plancher chauffant Bordeaux | Thermographie',
         "Recherche de fuite sur plancher chauffant hydraulique à Bordeaux et sa métropole : thermographie infrarouge, test de pression, localisation au point sans casser la chape.",
         'https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/',
         body,
@@ -3866,7 +3866,7 @@ def page_degats_eaux_bordeaux():
 '''
 
     return html_base(
-        "Dégâts des eaux Bordeaux | Recherche d'origine pour syndics IRSI",
+        "Dégâts des eaux Bordeaux | Origine IRSI syndic",
         "Recherche d'origine de dégâts des eaux à Bordeaux en copropriété : rapport IRSI opposable, coordination syndic et assureur, intervention 24h. Pour syndics et propriétaires.",
         'https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/',
         body,
@@ -4143,7 +4143,7 @@ def page_chemisage_bordeaux():
 '''
 
     return html_base(
-        'Chemisage canalisation Bordeaux | Syndic copropriété sans tranchee',
+        'Chemisage canalisation Bordeaux | Sans tranchée',
         'Chemisage de canalisation en copropriété à Bordeaux : sans tranchee, garantie décennale, vote AG. spécialistes des immeubles haussmanniens et patrimoine UNESCO.',
         'https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/',
         body,
@@ -4447,7 +4447,7 @@ def page_canalisation_enterree_bordeaux():
 '''
 
     return html_base(
-        'Recherche fuite canalisation enterrée Bordeaux | Gaz traceur précis',
+        'Fuite canalisation enterrée Bordeaux | Gaz traceur',
         'Recherche de fuite sur canalisation enterrée à Bordeaux sans excavation : gaz traceur azote/helium, précision demi-metre, rapport pour assurance. spécialistes terrain argileux.',
         'https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/',
         body,
@@ -4676,7 +4676,7 @@ def page_fuite_apres_compteur():
 '''
 
     return html_base(
-        'Fuite d\'eau après compteur à Bordeaux | Recherche et localisation',
+        'Fuite après compteur Bordeaux | Loi Warsmann',
         'Recherche de fuite après compteur d\'eau à Bordeaux et en Gironde : localisation sans démolition, écrêtement de facture possible (loi Warsmann), rapport pour assurance.',
         'https://recherche-fuite-gironde.fr/detection-fuite/fuite-apres-compteur/',
         body,
@@ -5191,7 +5191,7 @@ def page_fluoresceine_piscine_bordeaux():
 </script>'''
 
     return html_base(
-        'Recherche fuite piscine fluorescéine Bordeaux & Gironde',
+        'Fluorescéine piscine Bordeaux | Colorant traceur',
         'Recherche de fuite piscine par colorant fluorescéine sodique à Bordeaux : méthode visuelle, non toxique, sans vidange. Diagnostic ciblé liner, coque, béton.',
         'https://recherche-fuite-gironde.fr/detection-fuite/fluoresceine-piscine-bordeaux/',
         body,
@@ -5459,7 +5459,7 @@ def page_thermographie_infrarouge_bordeaux():
 </script>'''
 
     return html_base(
-        'Thermographie infrarouge fuite eau Bordeaux & Gironde',
+        'Thermographie infrarouge fuite eau Bordeaux',
         'Recherche de fuite par thermographie infrarouge à Bordeaux : plancher chauffant, canalisations encastrées, copropriétés. Diagnostic non destructif, rapport assurance.',
         'https://recherche-fuite-gironde.fr/detection-fuite/thermographie-infrarouge-bordeaux/',
         body,
@@ -5849,7 +5849,7 @@ def page_piscine_ville(p):
 '''
 
     return html_base(
-        f'Recherche de fuite piscine {ville_article} | Sans vidange ({cp})',
+        f'Fuite piscine {ville_article} ({cp}) | Sans vidange',
         f'Recherche de fuite sur piscine {ville_article} sans vidange : colorant fluorescéine, écoute acoustique, test de pression. Devis gratuit 24h, rapport pour assurance. Intervention en Gironde.',
         f'https://recherche-fuite-gironde.fr/detection-fuite/{slug}/',
         body,
@@ -5917,7 +5917,7 @@ def page_index():
 </script>'''
 
     return html_base(
-        "Entreprise de recherche de fuites en Gironde - détection non destructive",
+        "Recherche de fuite Gironde 33 | Sans démolition",
         "Spécialiste de la recherche de fuites d'eau en Gironde (33). Détection non destructive, intervention rapide sur 30 communes. Devis gratuit, rapport assurance.",
         "https://recherche-fuite-gironde.fr/",
         body,
