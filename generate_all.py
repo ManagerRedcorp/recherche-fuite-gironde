@@ -29,6 +29,8 @@ def header(active=''):
           <div class="nav-dropdown-menu">
             <a href="/detection-fuite/">Toutes les méthodes</a>
             <a href="/detection-fuite/piscine-bordeaux/">Fuite piscine Bordeaux</a>
+            <a href="/detection-fuite/fluoresceine-piscine-bordeaux/">Fluorescéine piscine</a>
+            <a href="/detection-fuite/thermographie-infrarouge-bordeaux/">Thermographie infrarouge</a>
             <a href="/detection-fuite/urgence-bordeaux/">Urgence fuite 24h Bordeaux</a>
             <a href="/detection-fuite/fuite-apres-compteur/">Fuite après compteur</a>
           </div>
@@ -740,6 +742,19 @@ def page_detection():
   </div>
 </section>
 
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Nos pages techniques par méthode</h2>
+    <p>Au-delà des pages par cas d\'usage, nous avons consacré des pages dédiées à nos méthodes phares. Pour comprendre laquelle s\'applique à votre situation et son protocole précis :</p>
+    <ul>
+      <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">Thermographie infrarouge à Bordeaux</a> : caméra thermique haute résolution pour le plancher chauffant, les canalisations encastrées, les copropriétés haussmanniennes.</li>
+      <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Fluorescéine piscine en Gironde</a> : colorant traceur non toxique pour localiser visuellement une fuite de bassin sans vidange.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée à Bordeaux</a> : gaz traceur azote/hydrogène pour les réseaux extérieurs sous jardin ou trottoir.</li>
+      <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : rénovation sans tranchée des colonnes montantes en immeuble ancien.</li>
+    </ul>
+  </div>
+</section>
+
 {villes_detection_section()}
 {form_section()}'''
 
@@ -1024,6 +1039,8 @@ def page_plan():
         <li><a href="/detection-fuite/degats-des-eaux-bordeaux/">Dégât des eaux à Bordeaux (syndics et copropriétés IRSI)</a></li>
         <li><a href="/detection-fuite/chemisage-bordeaux/">Chemisage de canalisation à Bordeaux (immeubles haussmanniens)</a></li>
         <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/">Fuite sur plancher chauffant à Bordeaux (thermographie)</a></li>
+        <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/">Thermographie infrarouge à Bordeaux (caméra thermique)</a></li>
+        <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/">Fluorescéine piscine Bordeaux (colorant traceur)</a></li>
       </ul>
 
       <h2>Recherche de fuite piscine par ville</h2>
@@ -1056,6 +1073,7 @@ def page_plan():
         <li><a href="/guide/fuite-liner-piscine/">Fuite sur liner de piscine : signes, causes et diagnostic</a></li>
         <li><a href="/guide/evaporation-vs-fuite-piscine/">Évaporation ou fuite de piscine : taux mensuels Gironde</a></li>
         <li><a href="/guide/loi-warsmann-ecretement-facture-eau/">Loi Warsmann : écrêtement de facture d'eau après fuite</a></li>
+        <li><a href="/guide/reparation-liner-piscine/">Réparation d'une fuite de liner piscine : méthodes et coûts</a></li>
       </ul>
 
       <h2>Recherche de fuite par ville (30 communes)</h2>
@@ -1628,7 +1646,7 @@ GUIDE_PAGES = [
 <li><strong>Etat visuel général</strong> : decolorations, plis multiples, soudures fatigees = changement. Liner homogène par ailleurs = réparation.</li>
 </ol>
 
-<p>Notre rapport de diagnostic evalue objectivement ces criteres et vous remet une préconisation chiffrée. Pour les tarifs détaillés selon le type de bassin et la méthode retenue, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>. Pour faire intervenir nos techniciens, consultez nos pages piscine par ville, notamment <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Mérignac</a> qui concentre la plus forte densite de liners PVC en fin de vie en Gironde.</p>"""
+<p>Notre rapport de diagnostic evalue objectivement ces criteres et vous remet une préconisation chiffrée. Pour les tarifs détaillés selon le type de bassin et la méthode retenue, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>. Une fois la fuite identifiée, voir notre guide complémentaire <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d'une fuite de liner piscine</a> qui détaille les trois familles de réparation (rustine subaquatique, soudure thermique, changement complet) avec coûts constatés. Pour la méthode de localisation au colorant, voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a>. Pour faire intervenir nos techniciens, consultez nos pages piscine par ville, notamment <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Mérignac</a> qui concentre la plus forte densite de liners PVC en fin de vie en Gironde.</p>"""
     },
     {
         "slug": "evaporation-vs-fuite-piscine",
@@ -1896,6 +1914,87 @@ GUIDE_PAGES = [
 
 <h2>Demandez votre devis gratuit</h2>
 <p>Pour obtenir un <a href="/devis/" style="color:var(--green);text-decoration:underline;">devis gratuit de recherche de fuite à Bordeaux</a>, remplissez notre formulaire en décrivant les symptômes (tache, compteur anormal, sol humide, zone de jardin gorgée d'eau). Un technicien vous recontacte dans l'heure en journée pour préciser le tarif et convenir d'un rendez-vous sous 24 à 48h.</p>"""
+    },
+    {
+        "slug": "reparation-liner-piscine",
+        "title": "Réparation d'une fuite de liner piscine : méthodes et coûts",
+        "title_seo": "Réparation fuite liner piscine techniques durée prix Gironde",
+        "desc": "Comment réparer une fuite sur liner piscine PVC : rustine subaquatique, soudure thermique, remplacement complet. Coûts, durée de vie, garantie.",
+        "contenu": """<p>Une fois la fuite localisée par notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">diagnostic à la fluorescéine</a> ou par les autres méthodes utilisées sur les piscines girondines, la question suivante tombe immédiatement : comment la réparer, à quel coût et avec quelle durée de vie ? Cet article détaille les trois grandes familles de réparation d'un liner PVC fuyard, les configurations où chacune est pertinente et les ordres de grandeur tarifaires constatés en Gironde en 2026.</p>
+
+<h2>Diagnostic préalable : que dit l\'état du liner ?</h2>
+<p>Avant toute réparation, il faut évaluer l\'état général du liner. Une fuite ponctuelle sur un liner de moins de 10 ans avec une teinte uniforme et une bonne souplesse mérite une réparation locale. À l\'inverse, une fuite sur un liner de plus de 18-20 ans présentant plis figés, points de tension, décoloration jaunâtre ou bleu pâle, plis qui craquellent au toucher : la réparation locale est techniquement possible mais économiquement absurde, car la prochaine fuite arrive sous 6 à 24 mois.</p>
+
+<p>Notre rapport de diagnostic donne systématiquement une préconisation argumentée : nous indiquons l\'âge présumé du liner, son état général, le nombre de zones suspectes secondaires repérées (au-delà de la fuite identifiée), et nous chiffrons les deux scénarios : réparation locale ou remplacement. Le client choisit en pleine conscience. Voir aussi notre guide complémentaire sur le <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic d\'une fuite de liner piscine</a> pour comprendre les signes d\'alerte précoce.</p>
+
+<h2>Méthode 1 : la rustine PVC subaquatique</h2>
+<p>C\'est la solution la plus simple, la plus rapide et la moins coûteuse. Elle consiste à appliquer une pièce de PVC souple (chute du liner d\'origine de préférence, sinon PVC standard) sur la fissure ou le trou, en utilisant une colle PVC spéciale piscine compatible avec une application en immersion. La pièce est appliquée directement par un plongeur, sans vidange du bassin.</p>
+
+<h3>Quand utiliser une rustine</h3>
+<ul>
+<li><strong>Trou ponctuel</strong> de 1 à 30 mm de diamètre (perforation par objet pointu, brûlure cigarette, déchirure de griffe d\'animal)</li>
+<li><strong>Fissure droite</strong> de moins de 10 cm sur paroi ou fond, hors zones de tension (pli, angle, raccord)</li>
+<li><strong>Liner en bon état général</strong> de moins de 12 ans</li>
+<li><strong>Fissure inaccessible par démontage</strong> (sous escalier, derrière coffre filtration)</li>
+</ul>
+
+<h3>Limites et précautions</h3>
+<p>La rustine ne fonctionne pas sur les zones soumises à de fortes contraintes mécaniques : raccords pièces à sceller, joints d\'angle, bords de marches. Sur ces zones, le liner travaille en permanence et la rustine se décolle en quelques mois. La durée de vie typique d\'une rustine subaquatique correctement posée sur une zone neutre est de 3 à 7 ans, parfois plus si l\'eau est bien équilibrée chimiquement.</p>
+
+<h3>Coût et durée d\'intervention</h3>
+<p>Une réparation par rustine subaquatique coûte entre <strong>180 et 350 euros HT</strong> selon l\'accessibilité et le nombre de rustines à poser. L\'intervention dure 30 minutes à 1 heure 30. Sur les bassins équipés d\'une pompe de surpression, on peut parfois éviter la plongée et coller depuis la surface, ce qui réduit le tarif à 150-200 euros HT. La rustine peut être posée immédiatement après notre diagnostic si le client le souhaite.</p>
+
+<h2>Méthode 2 : la soudure thermique localisée</h2>
+<p>Plus technique et plus coûteuse, la soudure thermique consiste à fondre localement le PVC du liner pour reconstituer la matière au point de fuite, sans pièce rapportée. Elle nécessite une vidange partielle ou totale de la zone à traiter, ce qui exclut les fuites en grand fond ou les fuites multiples sur tout le bassin.</p>
+
+<h3>Quand utiliser la soudure thermique</h3>
+<ul>
+<li><strong>Décollement de soudure d\'origine</strong> entre deux lés de liner (cas fréquent sur les liners de 8 à 15 ans)</li>
+<li><strong>Fissure le long d\'un raccord</strong> pièces à sceller (skimmer, refoulement, projecteur) où une rustine ne tiendrait pas</li>
+<li><strong>Coupures fines</strong> ou perforations propres où le PVC peut être refondu sans apport de matière</li>
+</ul>
+
+<h3>Le matériel et la technique</h3>
+<p>L\'opérateur utilise un fer à souder spécifique PVC souple (température 320 à 380 °C selon l\'épaisseur du liner) avec embouts dédiés. Le PVC est chauffé au point de friction jusqu\'à ramollissement, puis pressé pour reconstituer une étanchéité monobloc. Sur les fissures supérieures à 5 cm, on ajoute un cordon PVC fondu en complément. La compétence de l\'opérateur est déterminante : un mauvais soudage peut détériorer durablement le liner sur 20 à 40 cm autour du point d\'origine.</p>
+
+<h3>Coût et durée</h3>
+<p>Comptez <strong>320 à 580 euros HT</strong> pour une soudure thermique localisée incluant la vidange partielle nécessaire. La durée d\'intervention est de 2 à 4 heures, plus le temps de remplissage du bassin. La durée de vie d\'une soudure thermique propre est de 5 à 10 ans, équivalente à la longévité résiduelle du liner. C\'est donc une réparation durable mais qui mérite un liner globalement en bon état pour être justifiée économiquement.</p>
+
+<h2>Méthode 3 : le changement complet du liner</h2>
+<p>Quand le liner approche ou dépasse sa durée de vie nominale (15 à 25 ans selon l\'épaisseur et l\'entretien), ou quand les fuites se multiplient en plusieurs points sur la même saison, le remplacement complet devient incontournable. C\'est une opération majeure mais qui repart pour 15 à 25 ans de tranquillité.</p>
+
+<h3>Le déroulement</h3>
+<ol>
+<li><strong>Vidange complète</strong> du bassin (1 à 2 jours selon volume)</li>
+<li><strong>Démontage</strong> des pièces à sceller, du liner d\'origine et du feutre de protection</li>
+<li><strong>Inspection structurelle</strong> du voile béton ou des panneaux : détection des fissures, ferraillage corrodé, chape dégradée</li>
+<li><strong>Remise en état préalable</strong> si nécessaire : ragréage chape, traitement des fissures structurelles, calage des angles</li>
+<li><strong>Pose feutre</strong> géotextile neuf de 400 à 800 g/m² sous le liner</li>
+<li><strong>Pose liner sur mesure</strong> avec aspiration sous vide pour mariage parfait à la forme du bassin</li>
+<li><strong>Reposition</strong> des pièces à sceller (souvent à remplacer si plus de 15 ans : skimmers, projecteurs, brides, joints)</li>
+<li><strong>Remplissage</strong> du bassin et mise en service</li>
+</ol>
+
+<h3>Coût constaté en Gironde</h3>
+<p>Le tarif d\'un changement de liner complet en 2026 sur la métropole bordelaise se situe entre <strong>3 800 et 7 500 euros TTC</strong> pour une piscine standard de 8×4 mètres. Les variations dépendent de l\'épaisseur du liner choisi (75/100, 85/100 ou 100/100), de la qualité du feutre, du remplacement éventuel des pièces à sceller usagées, de l\'accessibilité du bassin et de la nécessité de réparations structurelles préalables. Pour une piscine plus grande de 10×5 ou 12×5 mètres, prévoir 5 500 à 10 000 euros TTC.</p>
+
+<p>Cette dépense ne nous concerne pas directement (nous ne posons pas de liner, nous faisons exclusivement du diagnostic). Mais nous travaillons avec des piscinistes partenaires en Gironde à qui nous transmettons le rapport technique : ils gagnent du temps en intervention, le client économise une partie du coût de leur diagnostic préalable et obtient parfois un meilleur prix grâce à notre rapport déjà établi.</p>
+
+<h2>Quelle prise en charge par l\'assurance ?</h2>
+<p>La garantie recherche de fuite de votre contrat multirisque habitation rembourse uniquement le diagnostic, pas la réparation. Cependant, si la fuite a provoqué un dégât des eaux périphérique (terrain affaissé, jardin saturé, infiltration vers cave ou voisin), votre assurance peut couvrir tout ou partie des dommages consécutifs.</p>
+
+<p>Pour les piscines anciennes dont la fuite est due à un défaut structurel ou à un vice de construction (moins de 10 ans), la garantie décennale du constructeur peut être actionnée. Notre rapport technique sert alors de pièce justificative pour engager une procédure auprès de l\'assurance dommages-ouvrage. Plus de détails dans notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a> avec la procédure pas-à-pas et les pièces à fournir.</p>
+
+<h2>Comment éviter une nouvelle fuite après réparation ?</h2>
+<p>Quel que soit le type de réparation, l\'entretien post-intervention est déterminant pour la longévité de la solution. Trois bonnes pratiques sortent du lot après nos 200+ diagnostics annuels :</p>
+<ol>
+<li><strong>Stabiliser le pH et le TAC en permanence</strong>. Un pH supérieur à 7,8 ou inférieur à 7,0 fragilise le PVC accélérément. Mesurer chaque semaine, corriger immédiatement.</li>
+<li><strong>Limiter le chlore choc</strong>. Les chlorations choc à 5-10 mg/L régulières attaquent le liner sur le long terme. Privilégier la chloration lente continue à 1-2 mg/L stable.</li>
+<li><strong>Couvrir le bassin hors saison</strong>. UV et gel sont les premiers ennemis du liner. Une bâche d\'hivernage opaque divise par 2 à 3 la dégradation hors saison.</li>
+</ol>
+
+<h2>Demandez un diagnostic avant réparation</h2>
+<p>Avant de vous lancer dans l\'une de ces réparations, faites-nous appeler pour un diagnostic précis. Nous localisons la fuite au point exact (méthode <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a>, test de pression, écoute acoustique, caméra endoscopique selon le cas) et nous vous remettons un rapport technique chiffré qui guide la suite. Pour une intervention sur Bordeaux et sa métropole, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>. Pour le Bassin d\'Arcachon, voir <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>. Pour les autres communes, voir notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub recherche de fuite piscine en Gironde</a>. Pour faire le test seau préalable, voir <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite : test du seau</a>. Pour les tarifs détaillés, consultez notre <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine en Gironde</a>.</p>"""
     },
 ]
 
@@ -2492,6 +2591,8 @@ def page_ville_detection_premium(v):
       <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux</a> : intervention syndic et copropriété, gestion IRSI, coordination assureur.</li>
       <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : rénovation sans tranchée des colonnes montantes en immeuble haussmannien.</li>
       <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite plancher chauffant à Bordeaux</a> : thermographie infrarouge sur tubes PER hydrauliques.</li>
+      <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">Thermographie infrarouge à Bordeaux</a> : méthode reine pour les canalisations encastrées et les copropriétés haussmanniennes.</li>
+      <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Fluorescéine piscine Bordeaux</a> : colorant traceur pour localiser une fuite de bassin sans vidange.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Tarifs de recherche de fuite à Bordeaux</a> : grille prix par type de méthode et de canalisation.</li>
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : procédure complète après une fuite enterrée.</li>
     </ul>
@@ -2928,6 +3029,7 @@ def page_urgence_ville(p):
       <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite d'eau après compteur</a> : si votre compteur tourne en permanence et votre facture explose, la fuite est probablement sur votre réseau privatif enterré.</li>
       <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite canalisation enterrée à Bordeaux</a> : pour les fuites au jardin ou sur réseau enterré entre compteur et maison, méthode gaz traceur.</li>
       <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite plancher chauffant à Bordeaux</a> : tache au plafond du voisin du dessous, souvent due à une perforation sur tube PER de plancher chauffant.</li>
+      <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">Thermographie infrarouge à Bordeaux</a> : caméra thermique haute résolution pour localiser une fuite encastrée en moins d'une heure.</li>
       <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux</a> : sinistre constaté chez vous ou chez un voisin, gestion IRSI et coordination assureur.</li>
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : après une fuite enterrée, vous pouvez obtenir le plafonnement de la surfacturation auprès de Suez ou de la régie.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Prix d'une recherche de fuite à Bordeaux</a> : grille tarifaire détaillée par type de méthode et de canalisation.</li>
@@ -3022,6 +3124,8 @@ def page_piscine_hub():
     </div>
 
     <p style="margin-top:1.5rem;">Vous habitez une autre commune de Gironde ? Nous intervenons aussi sur Talence, Pessac, Le Haillan, Eysines, Bruges, Cenon, Lormont, Floirac et toute la metropole bordelaise. Consultez notre <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">page Bordeaux</a> ou contactez-nous directement pour les communes hors metropole (Lege-Cap-Ferret, Andernos-les-Bains, Lesparre-Medoc, Saint-Émilion, Langon).</p>
+
+    <p style="margin-top:1.5rem;">Pour le détail technique de notre méthode phare, consultez notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a> : protocole d'injection, cas concrets, durée et coût d'une intervention. Une fois la fuite localisée, voir <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">comment réparer une fuite de liner piscine</a> (rustine, soudure thermique, remplacement complet) avec ordres de grandeur tarifaires Gironde 2026.</p>
   </div>
 </section>
 
@@ -3420,6 +3524,7 @@ def page_plancher_chauffant_bordeaux():
     <h2>Situations connexes au plancher chauffant</h2>
     <p>Une fuite de plancher chauffant peut être confondue avec d'autres types de fuites. Ces ressources peuvent vous aider :</p>
     <ul>
+      <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">Thermographie infrarouge à Bordeaux</a> : la méthode phare pour le plancher chauffant, page dédiée avec protocole détaillé, matériel et cas concrets.</li>
       <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégât des eaux à Bordeaux</a> : si la fuite a déjà tâché le plafond du voisin du dessous (en immeuble) ou un autre lot.</li>
       <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence</a> : si votre chaudière se met en défaut de pression plusieurs fois par semaine, la fuite est importante et nécessite une intervention rapide.</li>
       <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite d'eau après compteur</a> : pour distinguer une fuite de plancher chauffant (circuit fermé de chauffage) d'une fuite sur le réseau d'eau sanitaire (compteur qui tourne).</li>
@@ -3750,6 +3855,7 @@ def page_degats_eaux_bordeaux():
       <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence Bordeaux</a> : pour les sinistres avec fuite active impactant plusieurs lots simultanément.</li>
       <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée Bordeaux</a> : pour les sinistres venant des réseaux enterrés sous cour intérieure ou trottoir privé.</li>
       <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite plancher chauffant Bordeaux</a> : cause fréquente de tache au plafond du voisin du dessous.</li>
+      <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">Thermographie infrarouge à Bordeaux</a> : la méthode reine pour identifier la source exacte d'un sinistre dans une copropriété haussmannienne.</li>
     </ul>
   </div>
 </section>
@@ -4807,6 +4913,542 @@ PISCINE_PAGES = [
     },
 ]
 
+# ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Fluorescéine / colorant traceur piscine Bordeaux
+# ═══════════════════════════════════════════════════════════════
+
+def page_fluoresceine_piscine_bordeaux():
+    body = '''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Détection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Fluorescéine piscine</span>
+    </nav>
+    <span class="badge-cp">Colorant traceur</span>
+    <h1>Recherche de fuite piscine à la fluorescéine en Gironde</h1>
+    <p class="hero-mini-lead">Localisation d\'une fuite de piscine par injection de colorant fluorescéine sodique : <strong>méthode visuelle, non toxique, validée sur tous types de bassins</strong> (liner, coque polyester, béton). Sans vidange, sans démolition, avec rapport d\'intervention pour votre assureur.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis fluorescéine</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Qu\'est-ce que la fluorescéine sodique en recherche de fuite piscine ?</h2>
+    <p>La fluorescéine sodique (uranine) est un colorant fluorescent jaune-vert, soluble dans l\'eau, biodégradable et non toxique pour l\'homme, les animaux et les écosystèmes aquatiques. Utilisée depuis plus d\'un siècle en hydrologie pour traquer les circulations souterraines, elle est devenue depuis les années 1990 l\'un des outils de référence du diagnostic piscine. À très faible concentration (0,1 à 1 mg/L), elle reste invisible à l\'œil nu mais devient fluorescente sous une simple lampe UV ou par contraste lumineux dans une eau claire.</p>
+    <p>Concrètement, nos techniciens injectent la fluorescéine à un endroit ciblé du bassin (skimmer, refoulement, prise balai, projecteur, fond, escalier, joint suspect) et observent où le colorant migre. Une fissure de liner, un joint défaillant ou un raccord percé aspire le colorant vers l\'extérieur du bassin. La trace fluorescente persistante, suivie en temps réel, indique le point de fuite avec une précision de quelques centimètres. Sur les piscines à eau parfaitement claire, l\'observation se fait à l\'œil nu. Sur les eaux vert clair ou troubles, la lampe UV portative confirme la migration.</p>
+    <p>Cette méthode est <strong>la seule technique qui prouve visuellement le passage de l\'eau au point de fuite</strong>. Là où la thermographie ou l\'écoute acoustique signalent une anomalie indirecte, la fluorescéine apporte la preuve par contact. C\'est pourquoi nous la combinons systématiquement à d\'autres méthodes pour les diagnostics complexes (test pression, inspection caméra), mais elle reste l\'outil dédié et autonome sur 60 pourcent des fuites de piscine que nous traitons en Gironde.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Quand la fluorescéine est-elle la bonne méthode ?</h2>
+    <p>Le colorant traceur n\'est pas universel. Voici les configurations où il est <strong>la solution la plus rapide et économique</strong> par rapport aux autres techniques de notre arsenal :</p>
+    <ul>
+      <li><strong>Suspicion de fuite sur pièces à sceller</strong> (skimmer, buse de refoulement, prise balai, projecteur encastré, bonde de fond) : la fluorescéine confirme en 5 minutes si une pièce est défaillante en injectant le colorant à proximité immédiate. Très efficace sur les piscines de 8 à 20 ans dont les joints d\'étanchéité commencent à durcir.</li>
+      <li><strong>Fissures actives sur liner PVC</strong> : sur liner clair (sable, gris perle, bleu pâle), les fissures absorbent le colorant et révèlent un faisceau de lignes fluorescentes. Idéal pour les liners de Mérignac, Pessac et Le Bouscat dont l\'âge médian dépasse 15 ans.</li>
+      <li><strong>Coque polyester osmosée ou microfissurée</strong> : en injectant le colorant en surface au point suspect, le passage à travers la coque devient visible en 10 à 30 minutes selon la taille de la microfissure. Méthode privilégiée sur le parc de Gujan-Mestras et Andernos-les-Bains.</li>
+      <li><strong>Test sur joint d\'escalier maçonné, joint de margelle</strong> : la fluorescéine appliquée localement infiltre les microfissures invisibles à l\'œil nu et trahit les remontées d\'humidité dans les marches ou la plage.</li>
+      <li><strong>Vérification après réparation</strong> : nous injectons systématiquement de la fluorescéine en fin d\'intervention pour valider l\'étanchéité de la zone réparée. Aucun client ne doit nous appeler 6 mois plus tard pour la même fuite.</li>
+    </ul>
+    <p style="margin-top:1.5rem;">À l\'inverse, la fluorescéine seule <strong>ne suffit pas</strong> pour les fuites enterrées sur les canalisations en aval du local technique (refoulement vers le bassin, retour des skimmers vers la pompe). Sur ces tracés, nous combinons gaz traceur azote/hydrogène, écoute électro-acoustique et test de pression. Idem pour les fuites en circuit fermé chauffage piscine ou plancher chauffant : voir notre page dédiée <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">thermographie infrarouge à Bordeaux</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Le protocole fluorescéine en intervention</h2>
+    <div class="arg-num-grid">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Stabilisation du bassin</h3>
+          <p>Arrêt complet de la filtration au moins 30 minutes avant l\'injection. Vérification du niveau d\'eau, de la température et de la limpidité. Plus l\'eau est calme, plus la trace du colorant sera lisible.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Diagnostic préalable</h3>
+          <p>Repérage des zones suspectes par observation directe (auréoles, dépôts calcaires, déformations du liner) et par questions ciblées au propriétaire (vitesse de baisse, périodicité, installations récentes).</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Injection ciblée</h3>
+          <p>Dépôt précis de quelques millilitres de colorant à proximité du point suspect, à l\'aide d\'une pipette ou seringue lestée. Concentration ajustée selon la profondeur et le volume du bassin.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Observation</h3>
+          <p>Suivi visuel pendant 5 à 30 minutes selon le débit suspecté. Le colorant aspiré par la fuite forme un filet directionnel caractéristique. Photo et vidéo systématiques pour le rapport.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Confirmation par contre-test</h3>
+          <p>Nouvelle injection à un point témoin pour valider l\'absence de courant parasite (filtration résiduelle, vent de surface). Le contre-test élimine 95 pourcent des faux positifs.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Lampe UV si nécessaire</h3>
+          <p>Sur eau verte ou trouble, lampe UV portative à 365 nm pour révéler la fluorescence du colorant et tracer son cheminement dans la zone d\'aspiration.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Cas concrets de diagnostic fluorescéine en Gironde</h2>
+    <p>Voici trois interventions récentes qui illustrent l\'efficacité du colorant traceur sur des configurations différentes :</p>
+    <h3>Piscine liner PVC à Mérignac (Capeyron, août 2025)</h3>
+    <p>Bassin de 8×4 mètres installé en 2007, liner d\'origine. Le propriétaire constate une perte de 2 cm par jour et soupçonne le skimmer après recollage récent. Injection de fluorescéine à proximité du skimmer : aucune migration en 15 minutes. Nouvelle injection sous le projecteur encastré (côté petit bain) : trace fluorescente nettement visible vers la traversée de paroi en 4 minutes. Démontage du projecteur, joint torique craquelé. Remplacement, contre-test fluorescéine, étanchéité validée. Coût total intervention : 320 euros HT, dont 90 euros de pièce.</p>
+    <h3>Piscine coque polyester à Gujan-Mestras (mars 2026)</h3>
+    <p>Coque blanche 9×4,5 mètres de 2012, micro-fissures osmotiques suspectées par le propriétaire. Test pression hydraulique des canalisations : aucune anomalie. Injection fluorescéine en surface au niveau de boursouflures visibles côté grand bain : passage du colorant à travers la coque visible à la lampe UV en 22 minutes, sortant côté terre dans le local technique. Préconisation : ponçage et réparation gel-coat sur 1,2 m². Coût diagnostic : 380 euros HT, prestation gel-coat sous-traitée à un pisciniste partenaire.</p>
+    <h3>Piscine béton armé à Caudéran Bordeaux (mai 2025)</h3>
+    <p>Bassin 10×5 mètres de 1985, joints maçonnés d\'origine entre carrelage et structure. Baisse irrégulière, 1 à 3 cm par jour selon les périodes. Combinaison fluorescéine + écoute acoustique : 3 points d\'injection ciblés sur les joints les plus suspects (escalier, raccord retour skimmer côté ouest, jonction fond/paroi). Le 3e point révèle une migration vers la chape extérieure en 8 minutes. Intervention conservatoire : reprise du joint en résine époxy spécifique piscine sur 80 cm. Coût total : 580 euros HT.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pourquoi la fluorescéine plutôt qu\'un autre colorant ?</h2>
+    <p>Plusieurs colorants existent en plomberie et hydrologie : bleu de méthylène, rouge fuchsine, indigo, éosine, rhodamine. Chacun a ses usages. Pour la piscine, <strong>la fluorescéine sodique reste la référence pour cinq raisons techniques</strong> :</p>
+    <ul>
+      <li><strong>Innocuité totale</strong> : approuvée par l\'OMS pour le traçage des eaux potables à très faible concentration. Aucun risque pour la baignade après dilution naturelle (le colorant disparaît visuellement en 24 à 48 heures sous filtration).</li>
+      <li><strong>Détectabilité extrême</strong> : la fluorescéine reste visible à des concentrations de 0,001 mg/L sous lampe UV. Aucun autre colorant ne permet de tracer un débit aussi faible (microfissures à 50 mL/heure).</li>
+      <li><strong>Pas d\'altération du liner ou des coques</strong> : à la différence du bleu de méthylène, qui peut tacher durablement les liners pâles ou les coques en gel-coat blanc. Aucune décoloration observée sur 200 interventions annuelles.</li>
+      <li><strong>Comportement hydraulique fiable</strong> : la fluorescéine ne se sépare pas de l\'eau (densité quasi identique), elle suit fidèlement les écoulements. Le bleu de méthylène, plus lourd, donne des faux positifs en stratification thermique.</li>
+      <li><strong>Compatibilité avec tous les traitements</strong> : chlore, brome, sel, oxygène actif, PHMB. Aucune dégradation chimique observée. Le pH de la piscine n\'altère pas la lecture.</li>
+    </ul>
+    <p style="margin-top:1.5rem;">Nous utilisons une fluorescéine pharmaceutique de grade analytique, certifiée Codex et conforme aux normes alimentaires ANSES, achetée en France auprès d\'un distributeur agréé. Conservation en bouteille opaque à l\'abri de la lumière, durée de vie 2 ans. Coût matière par intervention : moins de 2 euros, ce qui en fait également une méthode très économique.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Combien coûte un diagnostic fluorescéine sur une piscine en Gironde ?</h2>
+    <p>Le tarif d\'un diagnostic au colorant traceur dépend de la complexité du bassin et du nombre de points à tester. Voici nos fourchettes constatées sur la métropole bordelaise :</p>
+    <ul>
+      <li><strong>Diagnostic ciblé fluorescéine seule</strong> (piscine de moins de 100 m³, hypothèse de fuite déjà localisée par le propriétaire) : <strong>240 à 320 euros HT</strong>, intervention 1 à 2 heures, rapport photo inclus.</li>
+      <li><strong>Diagnostic fluorescéine combiné test pression</strong> (cas le plus fréquent, hypothèse mixte bassin + canalisations) : <strong>380 à 520 euros HT</strong>, intervention 2 à 3 heures.</li>
+      <li><strong>Diagnostic complet fluorescéine + caméra endoscopique + acoustique</strong> (piscine ancienne, fuite récurrente, copropriété) : <strong>520 à 750 euros HT</strong>, intervention 3 à 5 heures, rapport assurance complet.</li>
+    </ul>
+    <p>Pour une vue d\'ensemble des tarifs de recherche de fuite piscine selon le type de bassin et la méthode, consultez notre <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine en Gironde</a>. Le diagnostic est presque toujours pris en charge par votre assurance multirisque habitation au titre de la garantie recherche de fuite : voir notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a> pour la procédure de remboursement et les pièces à fournir.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur la fluorescéine en piscine</h2>
+
+    <h3>La fluorescéine est-elle dangereuse pour les baigneurs ou les animaux ?</h3>
+    <p>Non. À la concentration utilisée pour le diagnostic (moins de 1 mg/L après dilution dans le volume du bassin), la fluorescéine sodique est totalement inoffensive. Elle est d\'ailleurs utilisée en ophtalmologie (test à la fluorescéine cornéenne) et en hydrogéologie pour le traçage des eaux destinées à la consommation humaine. Aucune contre-indication pour les enfants, animaux domestiques ou poissons d\'agrément. La couleur jaune-vert disparaît visuellement en 24 à 48 heures sous filtration normale. La baignade reste possible immédiatement après le diagnostic si la concentration est faible, ou après un cycle de filtration de 6 à 12 heures pour les plus prudents.</p>
+
+    <h3>Le colorant peut-il tacher mon liner ou mon revêtement ?</h3>
+    <p>Aucune coloration durable n\'a été observée sur les liners PVC, coques polyester, carrelage, peinture polyuréthane ou enduit ciment. La fluorescéine est extrêmement diluée et ne pénètre pas les matériaux. Sur les liners très clairs (sable, blanc), une légère teinte verdâtre peut subsister 2 à 6 heures avant disparition complète sous filtration. Sur les liners sombres (gris anthracite, bleu marine, vert algue), aucune trace visible. Notre fluorescéine pharmaceutique est exempte de pigments tertiaires qui pourraient marquer durablement.</p>
+
+    <h3>Peut-on faire un test fluorescéine soi-même avant de nous appeler ?</h3>
+    <p>Techniquement oui, mais le risque de faux positif est élevé sans expérience. La fluorescéine vendue en magasin de bricolage est souvent à concentration excessive et donne une teinte verte uniforme du bassin, masquant la migration directionnelle. Un test fait par un propriétaire conduit dans 70 pourcent des cas à une mauvaise interprétation : courants thermiques pris pour une fuite, vent de surface qui déplace artificiellement le colorant, filtration mal arrêtée qui crée une aspiration parasite. Notre méthode, avec des doses calibrées et un protocole d\'observation rigoureux, est nettement plus fiable. Avant de nous appeler, vous pouvez toutefois faire le <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">test du seau</a> pour confirmer qu\'il s\'agit bien d\'une fuite et non d\'évaporation naturelle.</p>
+
+    <h3>La fluorescéine fonctionne-t-elle sur une piscine couverte ou enterrée sous abri ?</h3>
+    <p>Oui, c\'est même là que la méthode est la plus performante. À l\'abri du vent et du soleil, l\'eau est plus calme et la fluorescence du colorant plus contrastée. Sur les piscines couvertes par abri télescopique en Gironde (très répandues sur Mérignac, Pessac et Le Bouscat), l\'éclairage UV est parfois inutile, l\'œil suffit. Pour les piscines intérieures ou véranda, le diagnostic est encore plus précis car l\'évaporation parasite est nulle.</p>
+
+    <h3>Quelle est la précision réelle du diagnostic fluorescéine ?</h3>
+    <p>Sur les piscines à parois lisses (liner, coque), la précision est de l\'ordre de 5 à 10 centimètres. La trace fluorescente converge vers le point exact de fuite. Sur les piscines béton avec joints maçonnés, la précision peut descendre à 20-30 centimètres en raison du cheminement de l\'eau dans les joints poreux. Dans tous les cas, c\'est une précision largement suffisante pour cibler une réparation locale, sans casser plus que strictement nécessaire.</p>
+
+    <h3>Combien de temps dure une intervention fluorescéine à Bordeaux ?</h3>
+    <p>Pour un diagnostic ciblé sur 1 à 3 points suspects, comptez 1 heure à 1 heure 30 sur place. Pour un diagnostic complet avec scan systématique de toutes les pièces à sceller du bassin, prévoir 2 heures à 2 heures 30. Le rapport technique avec photos et préconisations est rédigé dans la journée et envoyé par email le soir même. Devis pour réparation joint dans la foulée si vous le souhaitez.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes : recherche de fuite piscine Gironde</h2>
+    <p>La fluorescéine est l\'une de nos méthodes phares mais elle s\'inscrit dans un dispositif complet. Voici les pages qui complètent votre lecture :</p>
+    <ul>
+      <li><a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite piscine à Bordeaux</a> : page ville détaillant nos méthodes sur les piscines bordelaises (Caudéran, Le Bouscat, propriétés bourgeoises).</li>
+      <li><a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">Recherche de fuite piscine à Arcachon</a> : intervention villas haut de gamme du Pyla et Ville d\'Hiver.</li>
+      <li><a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">Hub recherche de fuite piscine en Gironde</a> : vue d\'ensemble des 7 villes couvertes et des méthodes.</li>
+      <li><a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">Guide diagnostic fuite sur liner PVC</a> : signes, causes, age critique du liner.</li>
+      <li><a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">Réparation d\'une fuite de liner piscine</a> : techniques, coûts et durée de vie après réparation.</li>
+      <li><a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">Évaporation ou fuite : test du seau</a> : à faire avant de demander un diagnostic.</li>
+      <li><a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">Tarifs recherche de fuite piscine</a> : grille de prix par méthode et type de bassin.</li>
+      <li><a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">Remboursement assurance piscine</a> : procédure pour faire prendre en charge le diagnostic.</li>
+    </ul>
+  </div>
+</section>
+
+''' + form_section("Bordeaux") + '''
+'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Recherche de fuite piscine par colorant fluorescéine sodique à Bordeaux et en Gironde. Méthode visuelle non destructive, sans vidange.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/fluoresceine-piscine-bordeaux/",
+  "areaServed": [
+    { "@type": "City", "name": "Bordeaux", "postalCode": "33000" },
+    { "@type": "City", "name": "Mérignac", "postalCode": "33700" },
+    { "@type": "City", "name": "Pessac", "postalCode": "33600" },
+    { "@type": "City", "name": "Arcachon", "postalCode": "33120" },
+    { "@type": "City", "name": "La Teste-de-Buch", "postalCode": "33260" },
+    { "@type": "City", "name": "Gujan-Mestras", "postalCode": "33470" },
+    { "@type": "City", "name": "Libourne", "postalCode": "33500" },
+    { "@type": "City", "name": "Le Bouscat", "postalCode": "33110" }
+  ],
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite piscine par colorant fluorescéine",
+  "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
+  "areaServed": "Gironde",
+  "description": "Localisation d\\'une fuite de piscine par injection de fluorescéine sodique. Méthode non toxique, validée sur liner, coque polyester et béton.",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": "240",
+    "highPrice": "750",
+    "priceCurrency": "EUR"
+  }
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Détection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Fluorescéine piscine Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/fluoresceine-piscine-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "La fluorescéine est-elle dangereuse pour les baigneurs ou les animaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non. À la concentration utilisée pour le diagnostic (moins de 1 mg/L), la fluorescéine sodique est totalement inoffensive. Elle est utilisée en ophtalmologie et en hydrogéologie pour le traçage des eaux destinées à la consommation humaine." }
+    },
+    {
+      "@type": "Question",
+      "name": "Le colorant peut-il tacher mon liner ou mon revêtement ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Aucune coloration durable n\\'a été observée sur les liners PVC, coques polyester, carrelage, peinture polyuréthane ou enduit ciment. Une légère teinte verdâtre peut subsister 2 à 6 heures sur les liners très clairs avant disparition complète sous filtration." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte un diagnostic fluorescéine sur une piscine en Gironde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 240 et 320 euros HT pour un diagnostic ciblé. Entre 380 et 520 euros HT pour un diagnostic combiné fluorescéine + test pression. Entre 520 et 750 euros HT pour un diagnostic complet avec caméra endoscopique et écoute acoustique." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la précision réelle du diagnostic fluorescéine ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sur piscines liner ou coque, précision de 5 à 10 cm. Sur béton avec joints maçonnés, précision de 20 à 30 cm en raison du cheminement de l\\'eau dans les joints poreux. Précision largement suffisante pour cibler une réparation locale." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure une intervention fluorescéine à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "1 heure à 1 heure 30 pour un diagnostic ciblé sur 1 à 3 points suspects. 2 heures à 2 heures 30 pour un diagnostic complet avec scan systématique de toutes les pièces à sceller. Rapport envoyé le soir même par email." }
+    }
+  ]
+}
+</script>'''
+
+    return html_base(
+        'Recherche fuite piscine fluorescéine Bordeaux & Gironde',
+        'Recherche de fuite piscine par colorant fluorescéine sodique à Bordeaux : méthode visuelle, non toxique, sans vidange. Diagnostic ciblé liner, coque, béton.',
+        'https://recherche-fuite-gironde.fr/detection-fuite/fluoresceine-piscine-bordeaux/',
+        body,
+        extra_ld=ld_local + ld_service + ld_breadcrumb + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Thermographie infrarouge fuite Bordeaux
+# ═══════════════════════════════════════════════════════════════
+
+def page_thermographie_infrarouge_bordeaux():
+    body = '''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Détection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Thermographie infrarouge</span>
+    </nav>
+    <span class="badge-cp">33000 · Métropole bordelaise</span>
+    <h1>Thermographie infrarouge : recherche de fuite à Bordeaux</h1>
+    <p class="hero-mini-lead">Localisation d\'une fuite d\'eau par caméra thermique infrarouge à Bordeaux : <strong>plancher chauffant, canalisation encastrée dans une cloison, dalle béton, plafond suspect</strong>. Détection sans démolition, en moins d\'une heure sur la zone d\'intervention.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un diagnostic thermographie</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Comment fonctionne la thermographie infrarouge en recherche de fuite ?</h2>
+    <p>Toute matière émet un rayonnement infrarouge dont l\'intensité dépend de sa température de surface. La caméra thermique convertit ce rayonnement invisible en image colorée, où chaque pixel correspond à une mesure de température. Une fuite d\'eau crée presque toujours une signature thermique anormale : une zone plus froide (par évaporation latente), une zone plus chaude (eau du circuit chauffage qui sort), ou un dégradé inhabituel autour d\'une canalisation. La caméra révèle cette anomalie sans aucun contact avec la surface.</p>
+    <p>Les caméras professionnelles que nous utilisons ont une résolution thermique de 0,03 à 0,05 °C et une définition de 320×240 à 640×480 pixels. Cela permet de distinguer une variation de température de quelques centièmes de degré sur une surface de 10 cm². Concrètement, sur un plancher chauffant en chauffe à 35 °C, une fuite produira un halo à 28-30 °C visible immédiatement à l\'écran. Sur une cloison sèche cachant une canalisation d\'eau froide, une infiltration apparaîtra comme une tache plus froide de 2 à 4 °C par évaporation.</p>
+    <p>La thermographie n\'est pas magique : elle n\'identifie pas la cause de la fuite, seulement sa localisation. Et elle ne fonctionne que si <strong>il existe un gradient thermique entre le fluide et son environnement</strong>. Sur un circuit d\'eau froide en hiver, il faut souvent forcer le contraste en injectant de l\'eau chaude ou en augmentant la pression. Sur un plancher chauffant éteint depuis plusieurs jours, on doit le remettre en chauffe deux à trois heures avant l\'intervention. C\'est pourquoi nous prescrivons toujours un protocole précis avant la visite, pour que la caméra travaille dans des conditions optimales.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Quand utiliser la thermographie infrarouge ?</h2>
+    <p>La caméra thermique est particulièrement performante dans cinq scénarios que nous rencontrons régulièrement à Bordeaux :</p>
+    <ul>
+      <li><strong>Fuite sur plancher chauffant hydraulique</strong> : c\'est l\'application reine. La thermographie identifie le tube PER fuyard en moins de 30 minutes, sans casser la chape. Méthode privilégiée sur les pavillons des années 2000-2020 de Mérignac, Pessac, Le Haillan, Bruges. Voir notre page dédiée <a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite plancher chauffant à Bordeaux</a>.</li>
+      <li><strong>Canalisation encastrée dans une cloison</strong> : tube cuivre ou PER passant dans une cloison BA13, en doublage isolant, derrière un carrelage. La caméra repère la trace humide quand la fuite est active. Très efficace dans les appartements bordelais des années 1980-2010.</li>
+      <li><strong>Tache d\'humidité au plafond ou au mur</strong> : sur les copropriétés haussmanniennes ou échoppes de Bordeaux, une auréole peut venir d\'une multitude de sources (toiture, façade, voisin du dessus, canalisation EU/EV). La thermographie aide à trier en localisant la zone la plus humide réellement, par opposition à la tache visible qui peut être décalée de 2 à 5 mètres du point de fuite.</li>
+      <li><strong>Dalle béton sur vide sanitaire ou cave</strong> : suspicion de fuite sur canalisation noyée dans la dalle. La caméra révèle les zones froides en dessous (vu du vide sanitaire) ou plus chaudes au-dessus (selon le sens du fluide).</li>
+      <li><strong>Diagnostic préventif après sinistre</strong> : après un dégât des eaux résolu, vérification thermographique pour s\'assurer qu\'il n\'y a pas de seconde fuite passée inaperçue (cas fréquent sur les vieilles installations, et facteur d\'aggravation rapide en cas de récidive).</li>
+    </ul>
+    <p style="margin-top:1.5rem;">À l\'inverse, la thermographie est <strong>peu efficace ou inutile</strong> sur les piscines (privilégier <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">la fluorescéine</a>), sur les canalisations enterrées sous terrain extérieur (privilégier le <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur</a>), et sur les fuites trop anciennes dont le gradient thermique a disparu (l\'humidité s\'est diffusée uniformément).</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Notre matériel et notre protocole thermographie</h2>
+    <div class="arg-num-grid">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Caméra FLIR T540 / T865</h3>
+          <p>Résolution thermique 30 mK (0,03 °C), définition 464×348 ou 640×480 pixels selon configuration. Plage -40 à +1500 °C. Optique macro pour les inspections rapprochées de cloisons.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Mise en condition thermique</h3>
+          <p>Pour plancher chauffant : remise en chauffe 2 à 3h à pleine puissance avant intervention. Pour eau froide : injection d\'eau chaude ou mise en pression accrue pour créer un contraste exploitable.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Cartographie systématique</h3>
+          <p>Scan thermographique pièce par pièce, avec relevés à 0,5 m, 1 m et 2 m de la surface. Annotation des points chauds et froids sur plan technique transmis au client.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Confirmation par humidimètre</h3>
+          <p>Là où la caméra signale une anomalie, mesure de la teneur en eau à pointes capacitives ou résistives pour distinguer une variation thermique pure d\'une infiltration réelle.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Test de pression complémentaire</h3>
+          <p>Si circuit isolable (boucle de plancher chauffant, antenne sanitaire), test à 4-6 bars pour confirmer le débit de fuite et préciser la localisation par chute de pression différentielle.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Rapport thermique annoté</h3>
+          <p>Export des images thermiques avec marquage du point de fuite, plan d\'intervention pour le plombier ou le maçon, fourchette de coût de réparation. Délai de remise : le jour même.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Cas concrets de diagnostic thermographique en Gironde</h2>
+
+    <h3>Pavillon plancher chauffant à Bruges (octobre 2025)</h3>
+    <p>Maison de 130 m² construite en 2008, plancher chauffant hydraulique sur les deux niveaux. La chaudière se met en défaut de pression deux fois par semaine, le propriétaire complète manuellement le circuit à chaque fois. Notre protocole : remise en chauffe à 40 °C pendant 3 heures avant intervention. Scan thermographique systématique étage par étage : halo thermique anormal à 31 °C dans le salon (au lieu de 27 °C ailleurs), forme circulaire de 35 cm autour d\'un point central. Test de pression sur la boucle correspondante : chute de 0,3 bar en 12 minutes (boucle saine : moins de 0,05 bar de chute sur la même durée). Localisation confirmée. Préconisation : ouverture chape sur 30×30 cm, remplacement 70 cm de tube PER 16x2. Coût intervention thermographie : 480 euros HT. Réparation par plombier partenaire : 850 euros HT.</p>
+
+    <h3>Appartement haussmannien rue Sainte-Catherine Bordeaux (juillet 2025)</h3>
+    <p>3e étage, immeuble 1872, tache d\'humidité au plafond du séjour qui s\'agrandit lentement depuis 6 mois. Le voisin du dessus (M. X) affirme ne rien constater chez lui. Le syndic nous mandate. Visite chez M. X : aucun signe visible de fuite mais relevé thermographique du sol sous le doublage parquet ancien. Découverte : zone plus froide de 4 °C au niveau du raccord d\'arrivée d\'eau froide de la baignoire encastrée, à 2,30 m de la tache visible chez la voisine du dessous. La fuite, très faible (quelques gouttes par jour), avait migré le long d\'une solive avant de tacher le plafond du dessous. Démontage tablier baignoire, raccord cuivre fissuré sur soudure, remplacement, étanchéité validée. Coût total intervention thermographie : 380 euros HT, pris en charge par l\'assurance copropriété au titre de la convention IRSI.</p>
+
+    <h3>Maison contemporaine à Pessac (janvier 2026)</h3>
+    <p>Villa 2015, dalle béton sur vide sanitaire accessible, suspicion de fuite sur le réseau d\'eau chaude sanitaire passant dans la dalle. Aucune trace visible au sol. Inspection thermographique depuis le vide sanitaire (caméra inversée vers le dessous de la dalle) : trace continue plus chaude de 6 °C sur 2,40 m linéaires correspondant au tracé du circuit ECS. Pic de chaleur localisé à 1,80 m de l\'arrivée chaudière. Intervention : ouverture dalle au point précis (carrottage diamant 30 cm de diamètre), découverte raccord laiton corrodé. Réparation, rebouchage. Coût diagnostic thermographie : 420 euros HT. Réparation : 720 euros HT par maçon partenaire.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Combien coûte une recherche de fuite par thermographie à Bordeaux ?</h2>
+    <p>Le tarif dépend de la surface à scanner, de la complexité du bâtiment et du nombre de points à confirmer :</p>
+    <ul>
+      <li><strong>Diagnostic ciblé thermographie seule</strong> (zone réduite, hypothèse de fuite déjà localisée) : <strong>320 à 420 euros HT</strong>, intervention 1 à 2 heures.</li>
+      <li><strong>Diagnostic plancher chauffant complet (jusqu\'à 150 m²)</strong> : <strong>450 à 650 euros HT</strong>, intervention 2 à 3 heures, incluant test pression et rapport assurance.</li>
+      <li><strong>Diagnostic immeuble en copropriété (recherche d\'origine d\'un sinistre)</strong> : <strong>480 à 750 euros HT</strong>, intervention 3 à 4 heures, incluant visite des deux logements et rapport pour syndic.</li>
+    </ul>
+    <p>Comme pour toutes nos prestations, le diagnostic est généralement remboursé par votre assurance multirisque habitation au titre de la garantie recherche de fuite. Pour les détails de la procédure d\'indemnisation, consultez notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d\'eau</a>. Notre rapport technique standardisé est accepté par l\'ensemble des principaux assureurs français (AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut). Pour la grille tarifaire complète de nos méthodes, voir le <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur la thermographie infrarouge</h2>
+
+    <h3>La caméra thermique fonctionne-t-elle à travers les murs ?</h3>
+    <p>Non, c\'est un mythe répandu. La caméra mesure uniquement la température de surface du matériau qu\'elle voit. Elle ne traverse rien. Mais comme une fuite chauffe ou refroidit la surface au-dessus d\'elle, on peut indirectement localiser un défaut situé à 5-15 cm sous la surface (dans une chape, un doublage, une cloison sèche). Au-delà de 20 cm de profondeur ou derrière des matériaux très isolants, la signature thermique devient indétectable.</p>
+
+    <h3>Y a-t-il des conditions où la thermographie ne marche pas ?</h3>
+    <p>Oui. Les conditions défavorables sont : exposition solaire directe sur la zone à scanner (chauffe artificielle qui masque la fuite), forts courants d\'air, gradient thermique inversé (pièce plus froide que la fuite), peinture métallique réfléchissante, surfaces très brillantes (carrelage poli haute brillance, miroir). Dans ces cas, nous différons l\'intervention ou créons artificiellement un contraste (chauffage des locaux, eau chaude dans le circuit, mise en pression accrue).</p>
+
+    <h3>Faut-il préchauffer le plancher chauffant avant votre intervention ?</h3>
+    <p>Oui, c\'est essentiel. Nous demandons une remise en chauffe à pleine puissance pendant au moins 3 heures avant notre arrivée, idéalement la veille au soir. Plus le plancher est en régime stationnaire, plus la signature thermique d\'une fuite est nette. Si la chaudière est en panne ou si le plancher est éteint depuis longtemps, nous prévoyons une remise en service progressive en début d\'intervention, ce qui rallonge la visite de 2 à 3 heures.</p>
+
+    <h3>La thermographie peut-elle remplacer une recherche de fuite par caméra endoscopique ?</h3>
+    <p>Non, ce sont des méthodes complémentaires. La thermographie scanne de larges surfaces rapidement et localise la zone de fuite. La caméra endoscopique inspecte l\'intérieur des canalisations elles-mêmes pour identifier la cause exacte (fissure, corrosion, racine). Sur un diagnostic complexe, nous combinons souvent les deux : thermographie pour cibler, endoscopie pour qualifier.</p>
+
+    <h3>La thermographie peut-elle servir à détecter une fuite de gaz ?</h3>
+    <p>Pas directement avec une caméra thermique standard. Pour le gaz, on utilise des caméras OGI (Optical Gas Imaging) à filtre spécifique, beaucoup plus coûteuses et que nous ne déployons pas en routine. Si vous suspectez une fuite de gaz à votre domicile, contactez immédiatement GRDF (numéro vert urgence gaz : 0 800 47 33 33) avant toute intervention de notre équipe.</p>
+
+    <h3>Pouvez-vous intervenir en thermographie sur une copropriété en même temps que sur le logement sinistré ?</h3>
+    <p>Oui, c\'est même la meilleure pratique en cas de dégâts des eaux à Bordeaux. Nous demandons l\'autorisation au syndic et au voisin du dessus, puis intervenons dans les deux logements à la suite. Le diagnostic croisé permet d\'identifier la source exacte (lot, voisin commun, circuit collectif) et facilite l\'application de la <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">convention IRSI</a> par les assureurs.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes : thermographie et autres méthodes</h2>
+    <p>La thermographie est une méthode parmi d\'autres dans notre arsenal. Selon votre situation, ces pages peuvent compléter ou réorienter votre recherche :</p>
+    <ul>
+      <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite sur plancher chauffant à Bordeaux</a> : application principale de la thermographie, page complète avec cas types Mérignac et Pessac.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée à Bordeaux</a> : pour les réseaux extérieurs où la thermographie laisse place au gaz traceur.</li>
+      <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux (syndics et copropriétés)</a> : intervention thermographique en immeuble pour identifier la source d\'un sinistre.</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence Bordeaux</a> : intervention sous 24h avec caméra thermique en équipement standard.</li>
+      <li><a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite à Bordeaux (page ville)</a> : vue d\'ensemble de nos interventions sur les 18 quartiers de Bordeaux.</li>
+      <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Fluorescéine piscine Bordeaux</a> : méthode complémentaire pour les bassins, où la thermographie est inopérante.</li>
+      <li><a href="/guide/fuite-canalisation-enterree/" style="color:var(--green);text-decoration:underline;">Guide fuite canalisation enterrée</a> : article explicatif sur les techniques de diagnostic enterré.</li>
+      <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Tarifs recherche de fuite à Bordeaux</a> : grille de prix par méthode et type de canalisation.</li>
+    </ul>
+  </div>
+</section>
+
+''' + form_section("Bordeaux") + '''
+'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Recherche de fuite par thermographie infrarouge à Bordeaux et en Gironde. Plancher chauffant, canalisations encastrées, dégâts des eaux. Sans démolition.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/thermographie-infrarouge-bordeaux/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33000",
+    "addressCountry": "FR"
+  },
+  "areaServed": { "@type": "City", "name": "Bordeaux", "postalCode": "33000" },
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite par thermographie infrarouge",
+  "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
+  "areaServed": "Gironde",
+  "description": "Détection d\\'une fuite d\\'eau par caméra thermique infrarouge à Bordeaux et en Gironde. Application plancher chauffant, canalisations encastrées, copropriété.",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": "320",
+    "highPrice": "750",
+    "priceCurrency": "EUR"
+  }
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Détection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Thermographie infrarouge Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/thermographie-infrarouge-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "La caméra thermique fonctionne-t-elle à travers les murs ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non. La caméra mesure la température de surface uniquement. Mais une fuite chauffe ou refroidit la surface au-dessus d\\'elle, ce qui permet de localiser un défaut situé à 5-15 cm sous la surface (chape, doublage, cloison)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Y a-t-il des conditions où la thermographie ne marche pas ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui : exposition solaire directe, courants d\\'air forts, peintures métalliques réfléchissantes, surfaces très brillantes. Dans ces cas, nous différons l\\'intervention ou créons un contraste artificiel." }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il préchauffer le plancher chauffant avant l\\'intervention ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, remise en chauffe à pleine puissance pendant au moins 3 heures avant l\\'arrivée du technicien. Plus le plancher est en régime stationnaire, plus la signature thermique d\\'une fuite est nette." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte une recherche de fuite par thermographie à Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 320 et 420 euros HT pour un diagnostic ciblé. Entre 450 et 650 euros HT pour un diagnostic plancher chauffant complet jusqu\\'à 150 m². Entre 480 et 750 euros HT pour un diagnostic immeuble copropriété." }
+    },
+    {
+      "@type": "Question",
+      "name": "La thermographie peut-elle servir à détecter une fuite de gaz ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pas avec une caméra thermique standard. Pour le gaz, on utilise des caméras OGI à filtre spécifique. En cas de suspicion de fuite de gaz, contacter immédiatement GRDF au 0 800 47 33 33." }
+    }
+  ]
+}
+</script>'''
+
+    return html_base(
+        'Thermographie infrarouge fuite eau Bordeaux & Gironde',
+        'Recherche de fuite par thermographie infrarouge à Bordeaux : plancher chauffant, canalisations encastrées, copropriétés. Diagnostic non destructif, rapport assurance.',
+        'https://recherche-fuite-gironde.fr/detection-fuite/thermographie-infrarouge-bordeaux/',
+        body,
+        extra_ld=ld_local + ld_service + ld_breadcrumb + ld_faq,
+    )
+
+
 def page_piscine_ville(p):
     ville = p["ville"]
     ville_article = p["ville_article"]
@@ -4960,6 +5602,8 @@ def page_piscine_ville(p):
 <p style="margin-top:1rem;">Vous etes propriétaire dans une autre ville de Gironde ? Voyez aussi nos pages dédiées : {sibling_links_html}. Pour une vue d'ensemble de notre service piscine, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine en Gironde</a>.</p>
 
     <p style="margin-top:1rem;">Avant de nous appeler, vous pouvez d'abord vérifier si votre piscine fuit reellement ou s'il s'agit d'évaporation normale : voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a> avec les taux mensuels en Gironde et le protocole du test du seau.</p>
+
+    <p style="margin-top:1rem;">Pour le détail technique de notre méthode de localisation par colorant, voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a>. Une fois la fuite identifiée, consultez notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d'une fuite de liner piscine</a> qui présente les options (rustine, soudure thermique, remplacement complet) et leurs coûts en Gironde.</p>
   </div>
 </section>
 
@@ -5292,6 +5936,8 @@ def gen_sitemap():
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/degats-des-eaux-bordeaux/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/chemisage-bordeaux/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fluoresceine-piscine-bordeaux/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/thermographie-infrarouge-bordeaux/']
 
     items = '\n'.join([
         f'  <url><loc>{u}</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if u.endswith(".fr/") else "0.8"}</priority></url>'
@@ -5393,6 +6039,12 @@ def main():
 
     print('[7h] Page use case — fuite plancher chauffant Bordeaux...')
     write('detection-fuite/fuite-plancher-chauffant-bordeaux/index.html', page_plancher_chauffant_bordeaux())
+
+    print('[7i] Page use case — fluorescéine piscine Bordeaux...')
+    write('detection-fuite/fluoresceine-piscine-bordeaux/index.html', page_fluoresceine_piscine_bordeaux())
+
+    print('[7j] Page use case — thermographie infrarouge Bordeaux...')
+    write('detection-fuite/thermographie-infrarouge-bordeaux/index.html', page_thermographie_infrarouge_bordeaux())
 
     print('[8/8] Fichiers techniques...')
     write('sitemap.xml', gen_sitemap())
