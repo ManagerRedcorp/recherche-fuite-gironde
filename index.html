@@ -12,12 +12,50 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": "https://recherche-fuite-gironde.fr/#organization",
   "name": "Recherche Fuite Gironde",
-  "description": "Spécialiste de la recherche et de la détection de fuites d'eau en Gironde (33). Méthodes non destructives, intervention rapide.",
+  "alternateName": "RFG - Spécialiste recherche de fuite Gironde",
+  "description": "Spécialiste de la recherche et de la détection de fuites d'eau en Gironde (33). Méthodes non destructives : thermographie infrarouge, gaz traceur azote/hélium, écoute électro-acoustique, caméra endoscopique, fluorescéine. Intervention rapide, rapport assurance inclus.",
   "url": "https://recherche-fuite-gironde.fr/",
-  "areaServed": { "@type": "AdministrativeArea", "name": "Gironde" },
+  "image": "https://recherche-fuite-gironde.fr/assets/hero-gironde.webp",
+  "logo": "https://recherche-fuite-gironde.fr/assets/logo-recherche-fuite-gironde.png",
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Gironde", "addressCountry": "FR" },
+    { "@type": "City", "name": "Bordeaux" },
+    { "@type": "City", "name": "Mérignac" },
+    { "@type": "City", "name": "Pessac" },
+    { "@type": "City", "name": "Talence" },
+    { "@type": "City", "name": "Arcachon" },
+    { "@type": "City", "name": "La Teste-de-Buch" },
+    { "@type": "City", "name": "Libourne" },
+    { "@type": "City", "name": "Le Bouscat" }
+  ],
   "address": { "@type": "PostalAddress", "addressRegion": "Gironde", "addressCountry": "FR" },
-  "serviceType": ["Recherche de fuite", "Détection de fuite", "Chemisage de canalisation"]
+  "serviceType": ["Recherche de fuite d'eau", "Détection de fuite non destructive", "Chemisage de canalisation", "Recherche de fuite piscine", "Diagnostic plancher chauffant", "Intervention urgence dégât des eaux"],
+  "knowsAbout": [
+    "Recherche de fuite d'eau",
+    "Détection non destructive",
+    "Thermographie infrarouge",
+    "Gaz traceur azote hélium",
+    "Écoute électro-acoustique",
+    "Caméra endoscopique ITV",
+    "Fluorescéine et colorant UV",
+    "Chemisage tubulaire de canalisation",
+    "Convention IRSI copropriété",
+    "Loi Warsmann écrêtement facture eau",
+    "Diagnostic piscine sans vidange",
+    "Plancher chauffant hydraulique"
+  ],
+  "priceRange": "€€",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services Recherche Fuite Gironde",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recherche de fuite d'eau", "url": "https://recherche-fuite-gironde.fr/detection-fuite/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recherche de fuite piscine", "url": "https://recherche-fuite-gironde.fr/detection-fuite/piscine/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chemisage de canalisation", "url": "https://recherche-fuite-gironde.fr/chemisage-canalisation/" } }
+    ]
+  }
 }
 </script>
 </head>

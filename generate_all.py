@@ -4901,7 +4901,9 @@ def page_piscine_ville(p):
 
     <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre page <a href="/villes/{p.get('ville').lower().replace(' ', '-').replace('é','e').replace('è','e').replace('ê','e')}/" style="color:var(--c-primary-light);text-decoration:underline;">recherche de fuite à {p['ville']}</a> pour les interventions hors piscine (canalisations encastrées, planchers chauffants, dégâts des eaux).</p>
 
-    <p style="margin-top:1rem;">Vous etes proprietaire dans une autre ville de Gironde ? Voyez aussi nos pages dediees : {sibling_links_html}. Pour une vue d'ensemble de notre service piscine, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine en Gironde</a>.</p>
+<p style="margin-top:1rem;">Vous etes proprietaire dans une autre ville de Gironde ? Voyez aussi nos pages dediees : {sibling_links_html}. Pour une vue d'ensemble de notre service piscine, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine en Gironde</a>.</p>
+
+    <p style="margin-top:1rem;">Avant de nous appeler, vous pouvez d'abord verifier si votre piscine fuit reellement ou s'il s'agit d'evaporation normale : voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">evaporation ou fuite de piscine</a> avec les taux mensuels en Gironde et le protocole du test du seau.</p>
   </div>
 </section>
 
@@ -5155,12 +5157,50 @@ def page_index():
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": "https://recherche-fuite-gironde.fr/#organization",
   "name": "Recherche Fuite Gironde",
-  "description": "Spécialiste de la recherche et de la détection de fuites d'eau en Gironde (33). Méthodes non destructives, intervention rapide.",
+  "alternateName": "RFG - Spécialiste recherche de fuite Gironde",
+  "description": "Spécialiste de la recherche et de la détection de fuites d'eau en Gironde (33). Méthodes non destructives : thermographie infrarouge, gaz traceur azote/hélium, écoute électro-acoustique, caméra endoscopique, fluorescéine. Intervention rapide, rapport assurance inclus.",
   "url": "https://recherche-fuite-gironde.fr/",
-  "areaServed": { "@type": "AdministrativeArea", "name": "Gironde" },
+  "image": "https://recherche-fuite-gironde.fr/assets/hero-gironde.webp",
+  "logo": "https://recherche-fuite-gironde.fr/assets/logo-recherche-fuite-gironde.png",
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Gironde", "addressCountry": "FR" },
+    { "@type": "City", "name": "Bordeaux" },
+    { "@type": "City", "name": "Mérignac" },
+    { "@type": "City", "name": "Pessac" },
+    { "@type": "City", "name": "Talence" },
+    { "@type": "City", "name": "Arcachon" },
+    { "@type": "City", "name": "La Teste-de-Buch" },
+    { "@type": "City", "name": "Libourne" },
+    { "@type": "City", "name": "Le Bouscat" }
+  ],
   "address": { "@type": "PostalAddress", "addressRegion": "Gironde", "addressCountry": "FR" },
-  "serviceType": ["Recherche de fuite", "Détection de fuite", "Chemisage de canalisation"]
+  "serviceType": ["Recherche de fuite d'eau", "Détection de fuite non destructive", "Chemisage de canalisation", "Recherche de fuite piscine", "Diagnostic plancher chauffant", "Intervention urgence dégât des eaux"],
+  "knowsAbout": [
+    "Recherche de fuite d'eau",
+    "Détection non destructive",
+    "Thermographie infrarouge",
+    "Gaz traceur azote hélium",
+    "Écoute électro-acoustique",
+    "Caméra endoscopique ITV",
+    "Fluorescéine et colorant UV",
+    "Chemisage tubulaire de canalisation",
+    "Convention IRSI copropriété",
+    "Loi Warsmann écrêtement facture eau",
+    "Diagnostic piscine sans vidange",
+    "Plancher chauffant hydraulique"
+  ],
+  "priceRange": "€€",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services Recherche Fuite Gironde",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recherche de fuite d'eau", "url": "https://recherche-fuite-gironde.fr/detection-fuite/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Recherche de fuite piscine", "url": "https://recherche-fuite-gironde.fr/detection-fuite/piscine/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chemisage de canalisation", "url": "https://recherche-fuite-gironde.fr/chemisage-canalisation/" } }
+    ]
+  }
 }
 </script>'''
 
