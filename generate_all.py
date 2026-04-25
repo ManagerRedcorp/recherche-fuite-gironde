@@ -3015,7 +3015,7 @@ def page_urgence_ville(p):
     <p>Nos interventions s'effectuent du lundi au samedi. Pour les fuites avérées avec dégât des eaux important le dimanche ou un jour férié, contactez-nous : nous organisons autant que possible une intervention le premier jour ouvré suivant en créneau prioritaire.</p>
 
     <h3>Que faire si l'eau atteint les voisins du dessous ?</h3>
-    <p>Prévenez-les immédiatement et le syndic si vous êtes en copropriété. Prenez des photos datées avant tout nettoyage. Déclarez le sinistre à votre assurance en mentionnant les voisins impactés : la convention IRSI s'applique automatiquement entre assureurs pour les sinistres dégâts des eaux en copropriété jusqu'à 5 000 € HT. Voir notre page dédiée <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">dégât des eaux à Bordeaux pour syndics et copropriétés</a> pour la procédure complète.</p>
+    <p>Prévenez-les immédiatement et le syndic si vous êtes en copropriété. Prenez des photos datées avant tout nettoyage. Déclarez le sinistre à votre assurance en mentionnant les voisins impactés : la convention IRSI s'applique automatiquement entre assureurs pour les sinistres dégâts des eaux en copropriété jusqu'à 5 000 € HT. Voir notre page dédiée <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">dégâts des eaux à Bordeaux pour syndics et copropriétés</a> pour la procédure complète.</p>
 
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander une intervention urgente</a>
@@ -3557,7 +3557,7 @@ def page_degats_eaux_bordeaux():
   "@context": "https://schema.org",
   "@type": "Service",
   "serviceType": "Recherche d'origine de dégât des eaux",
-  "name": "Localisation de dégât des eaux à Bordeaux pour syndics et copropriétés",
+  "name": "Localisation de dégâts des eaux à Bordeaux pour syndics et copropriétés",
   "description": "identification précise de l'origine d'un dégât des eaux en copropriété bordelaise. Rapport technique opposable en convention IRSI, intervention sous 24h, coordination avec assureurs et syndic.",
   "provider": {
     "@type": "LocalBusiness",
@@ -3626,7 +3626,7 @@ def page_degats_eaux_bordeaux():
     },
     {
       "@type": "Question",
-      "name": "Combien de temps prend un diagnostic de dégât des eaux à Bordeaux ?",
+      "name": "Combien de temps prend un diagnostic de dégâts des eaux à Bordeaux ?",
       "acceptedAnswer": { "@type": "Answer", "text": "Intervention sous 24h dans la majorite des cas, avec un diagnostic sur site de 1h30 a 3h. Le rapport technique est remis le jour même ou sous 24h par email, pret a être transmis à l'assureur et au syndic. Pour les sinistres complexes impactant plusieurs lots, un diagnostic plus long (demi-journée) peut être nécessaire avec rapport détaillé sous 48h." }
     },
     {
@@ -3653,7 +3653,7 @@ def page_degats_eaux_bordeaux():
       <span>&rsaquo;</span>
       <span>dégâts des eaux Bordeaux</span>
     </nav>
-    <h1>Recherche d'origine de dégât des eaux à Bordeaux</h1>
+    <h1>Recherche d'origine de dégâts des eaux à Bordeaux</h1>
     <p class="hero-mini-lead">Tache au plafond, infiltration dans un appartement, humidite persistante en copropriété bordelaise ? Nos techniciens identifient précisément l'origine du sinistre pour activer la convention IRSI entre assureurs. <strong>Rapport opposable remis sous 24h</strong>, coordination avec syndic et compagnies d'assurance, intervention prioritaire.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander une intervention</a>
@@ -3833,7 +3833,7 @@ def page_degats_eaux_bordeaux():
     <h3>Un syndic peut-il mandater directement votre intervention ?</h3>
     <p>Oui, nous travaillons régulièrement en mandatement direct par syndic professionnel ou conseil syndical. Le rapport est remis au syndic avec identification précise de la responsabilité (partie privative ou commune). La facturation se fait à la copropriété, qui se retourne ensuite vers l'assurance PNO ou le responsable identifié.</p>
 
-    <h3>Combien de temps prend un diagnostic de dégât des eaux à Bordeaux ?</h3>
+    <h3>Combien de temps prend un diagnostic de dégâts des eaux à Bordeaux ?</h3>
     <p>Intervention sous 24h dans la majorite des cas, avec un diagnostic sur site de 1h30 a 3h. Le rapport technique est remis le jour même ou sous 24h par email, pret a être transmis à l'assureur et au syndic. Pour les sinistres complexes impactant plusieurs lots, un diagnostic plus long (demi-journée) peut être nécessaire avec rapport détaillé sous 48h.</p>
 
     <h3>Les propriétaires occupants ou les locataires peuvent-ils nous contacter directement ?</h3>
