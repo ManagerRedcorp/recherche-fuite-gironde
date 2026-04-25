@@ -751,6 +751,7 @@ def page_detection():
       <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Fluorescéine piscine en Gironde</a> : colorant traceur non toxique pour localiser visuellement une fuite de bassin sans vidange.</li>
       <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée à Bordeaux</a> : gaz traceur azote/hydrogène pour les réseaux extérieurs sous jardin ou trottoir.</li>
       <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : rénovation sans tranchée des colonnes montantes en immeuble ancien.</li>
+      <li><a href="/guide/detecteur-fuite-eau-professionnel/" style="color:var(--green);text-decoration:underline;">Détecteur de fuite d'eau professionnel</a> : tour d'horizon des appareils utilisés par nos techniciens (corrélateur acoustique, gaz traceur, caméra thermique, hydrophone, endoscopie).</li>
     </ul>
   </div>
 </section>
@@ -1074,6 +1075,9 @@ def page_plan():
         <li><a href="/guide/evaporation-vs-fuite-piscine/">Évaporation ou fuite de piscine : taux mensuels Gironde</a></li>
         <li><a href="/guide/loi-warsmann-ecretement-facture-eau/">Loi Warsmann : écrêtement de facture d'eau après fuite</a></li>
         <li><a href="/guide/reparation-liner-piscine/">Réparation d'une fuite de liner piscine : méthodes et coûts</a></li>
+        <li><a href="/guide/reparation-skimmer-piscine-resine-epoxy/">Réparation skimmer piscine à la résine époxy</a></li>
+        <li><a href="/guide/fuite-canalisation-enterree-assurance/">Fuite canalisation enterrée et assurance habitation</a></li>
+        <li><a href="/guide/detecteur-fuite-eau-professionnel/">Détecteur de fuite d'eau professionnel : matériel et méthodes</a></li>
       </ul>
 
       <h2>Recherche de fuite par ville (30 communes)</h2>
@@ -1261,7 +1265,7 @@ GUIDE_PAGES = [
 <h2>Le rapport de recherche de fuite</h2>
 <p>C'est le document central de votre dossier. Il doit mentionner : la localisation précise de la fuite, la technique utilisée, les photos de l'intervention et les préconisations de réparation. Nous fournissons systématiquement ce rapport à l'issue de chaque intervention en Gironde.</p>
 <h2>Cas de la fuite après compteur : la loi Warsmann</h2>
-<p>Si la fuite se situe sur votre réseau privatif enterré (entre compteur et habitation), vous pouvez cumuler la prise en charge assurance ET un écrêtement de facture d'eau auprès de votre distributeur. La loi Warsmann de 2011 plafonné la surfacturation due à une fuite enterrée indétectable. Consultez notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur à Bordeaux</a> pour la procédure complète.</p>"""
+<p>Si la fuite se situe sur votre réseau privatif enterré (entre compteur et habitation), vous pouvez cumuler la prise en charge assurance ET un écrêtement de facture d'eau auprès de votre distributeur. La loi Warsmann de 2011 plafonné la surfacturation due à une fuite enterrée indétectable. Consultez notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur à Bordeaux</a> pour la procédure complète. Pour le détail spécifique de la prise en charge sur fuite enterrée (procédure pas à pas, cas concrets, exclusions), voir notre guide <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">fuite canalisation enterrée et assurance habitation</a>.</p>"""
     },
     {
         "slug": "urgence-fuite-eau",
@@ -1997,6 +2001,222 @@ GUIDE_PAGES = [
 
 <h2>Demandez un diagnostic avant réparation</h2>
 <p>Avant de vous lancer dans l\'une de ces réparations, faites-nous appeler pour un diagnostic précis. Nous localisons la fuite au point exact (méthode <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a>, test de pression, écoute acoustique, caméra endoscopique selon le cas) et nous vous remettons un rapport technique chiffré qui guide la suite. Pour une intervention sur Bordeaux et sa métropole, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>. Pour le Bassin d\'Arcachon, voir <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>. Pour les autres communes, voir notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub recherche de fuite piscine en Gironde</a>. Pour faire le test seau préalable, voir <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite : test du seau</a>. Pour les tarifs détaillés, consultez notre <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine en Gironde</a>.</p>"""
+    },
+    {
+        "slug": "reparation-skimmer-piscine-resine-epoxy",
+        "title": "Réparation skimmer piscine à la résine époxy : méthode et coûts",
+        "title_seo": "Réparation skimmer piscine résine époxy",
+        "desc": "Réparer un skimmer fissuré ou désaxé à la résine époxy bicomposant : protocole pas à pas, coût (80 à 250 € HT), durée de vie, alternative remplacement complet.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/reparation-skimmer-piscine.webp" alt="Skimmer en bord de piscine privée avant réparation à la résine époxy" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Le skimmer est l\'une des pièces les plus fragiles de la piscine. Exposé en permanence aux UV, à la chloration et aux variations de niveau d\'eau, il finit par fissurer ou par se désaxer du voile béton à mesure que les saisons passent. Sur les piscines girondines de plus de 12 ans, c\'est notre cas de réparation le plus fréquent après le diagnostic à la <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a>. Cet article détaille la méthode de réparation à la résine époxy bicomposant : quand elle s\'applique, comment l\'exécuter proprement et combien elle coûte en 2026.</p>
+
+<h2>Diagnostic préalable : votre skimmer fuit-il vraiment ?</h2>
+<p>Avant tout achat de résine, il faut confirmer que la fuite vient bien du skimmer et pas d\'une pièce voisine. Trois indices typiques nous orientent vers le skimmer pendant nos diagnostics en Gironde :</p>
+<ul>
+<li><strong>Niveau qui se stabilise pile sous le skimmer</strong> : la piscine perd de l\'eau jusqu\'à atteindre la base du skimmer puis arrête de baisser. Signe quasi pathognomonique d\'une fuite côté skimmer ou côté joint d\'étanchéité.</li>
+<li><strong>Humidité côté terre derrière le skimmer</strong> : carrelage de plage qui se décolle, terre saturée juste derrière, voire remontée d\'eau visible quand on creuse 20 cm.</li>
+<li><strong>Test fluorescéine positif sur le skimmer</strong> : nous injectons quelques millilitres de colorant à l\'aide d\'une seringue à proximité du skimmer, filtration coupée. Une migration vers la traversée de paroi confirme la fuite.</li>
+</ul>
+<p>Sans ces indices, la réparation à la résine époxy ne sert à rien. Voir aussi notre guide <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic fuite liner piscine</a> pour distinguer skimmer et liner sur les piscines de plus de 15 ans où les deux peuvent fuir simultanément.</p>
+
+<h2>Quelle résine époxy choisir pour réparer un skimmer ?</h2>
+<p>Toutes les résines époxy ne se valent pas. Pour un skimmer immergé en permanence, vous devez impérativement choisir une résine spécifiquement formulée pour usage piscine : résistance chimique au chlore et au pH 7,0 à 7,8, prise en milieu humide, élasticité résiduelle pour absorber les micro-mouvements du voile béton, durée de vie 10 à 15 ans en immersion permanente. Voici nos recommandations selon le profil de réparation :</p>
+<ul>
+<li><strong>Résine époxy bicomposant Sika SikaPool ou équivalent (résine + durcisseur)</strong> : référence du marché professionnel. Coût matière 35 à 60 € le kit 1 kg, suffisant pour 2 à 3 skimmers. Prise en 30 minutes, mise en eau 24 heures après.</li>
+<li><strong>Mastic époxy à modeler (Plastic Padding Aquaroc, Loctite EA 3463)</strong> : se présente sous forme de pâte à modeler que l\'on pétrit pour activer le durcisseur. Idéal pour les fissures longues (15 à 30 cm) ou les angles. Coût 12 à 20 € la barre.</li>
+<li><strong>Bande d\'étanchéité résine pré-imprégnée</strong> : pour renforcer une zone fragile au-delà du point de fuite (cas des skimmers très anciens). Coût 25 à 40 € le mètre.</li>
+</ul>
+<p>Évitez les résines polyester (durée de vie 2 à 4 ans en immersion, jaunissent vite) et les colles silicones piscine (faux ami, ne tiennent pas plus de 18 mois sur skimmer fissuré).</p>
+
+<h2>Protocole de réparation skimmer à la résine époxy</h2>
+<p>Voici le protocole que nos partenaires piscinistes appliquent en Gironde, validé sur plus de 100 réparations en 2024-2026 :</p>
+<ol>
+<li><strong>Vidange partielle du bassin</strong> jusqu\'à 5 cm sous le niveau du skimmer. Inutile de vidanger plus, le coût en eau et en remise en service ne le justifie pas.</li>
+<li><strong>Démontage de la trappe et de la bride avant du skimmer</strong>. Photographier la position des joints pour le remontage.</li>
+<li><strong>Nettoyage haute pression de la zone à réparer</strong> : éliminer toute trace d\'algues, de calcaire, de vieux mastic. Sécher la zone à l\'air comprimé (compresseur 5 bars suffisants).</li>
+<li><strong>Ponçage léger au papier 80 puis 120</strong> sur 5 cm autour de la fissure pour créer une accroche pour la résine.</li>
+<li><strong>Dégraissage à l\'acétone</strong> et séchage 15 minutes minimum.</li>
+<li><strong>Application de la résine époxy</strong> selon les indications du fabricant (mélange 1:1 ou 2:1 selon le produit). Étaler en couche de 3 à 5 mm sur la fissure et 2 cm au-delà sur les bords.</li>
+<li><strong>Lissage au doigt mouillé d\'eau savonneuse</strong> pour une finition propre. Si fissure profonde, deuxième couche après 10 minutes de prise.</li>
+<li><strong>Temps de prise hors d\'eau : 24 heures minimum à 20 °C</strong>. À 15 °C, prévoir 36 à 48 heures.</li>
+<li><strong>Remise en eau lente</strong> (sans choc), filtration redémarrée 12 heures plus tard pour vérifier l\'étanchéité.</li>
+<li><strong>Test fluorescéine de validation</strong> 48 heures après remise en service pour confirmer l\'absence de fuite résiduelle.</li>
+</ol>
+
+<h2>Combien coûte une réparation skimmer en Gironde ?</h2>
+<p>Le coût total d\'une intervention dépend de la formule choisie. Voici les fourchettes constatées sur la métropole bordelaise et le Bassin d\'Arcachon en 2026 :</p>
+<ul>
+<li><strong>Résine époxy en kit, achat et application par le propriétaire</strong> : 50 à 90 € de matière, plus 1 demi-journée de travail. Méthode économique mais nécessite un minimum de bricolage.</li>
+<li><strong>Réparation par un pisciniste partenaire (résine + main d\'œuvre)</strong> : 180 à 320 € HT pour un skimmer standard, 320 à 480 € HT si plusieurs skimmers ou si fissure longue (cas fréquent sur les skimmers de plus de 18 ans).</li>
+<li><strong>Diagnostic préalable Recherche Fuite Gironde</strong> : 240 à 380 € HT pour confirmer la localisation par fluorescéine et test de pression. Souvent remboursé par votre assurance habitation. Voir notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>.</li>
+<li><strong>Remplacement complet du skimmer (si fissure structurelle ou bride éclatée)</strong> : 450 à 850 € HT en intervention pisciniste, hors démolition partielle de la plage si nécessaire.</li>
+</ul>
+
+<h2>Réparation époxy ou remplacement complet ?</h2>
+<p>La réparation à la résine époxy est durable (10 à 15 ans en moyenne) mais elle n\'est pas adaptée à toutes les situations. Voici nos critères de décision sur la base de notre expérience terrain :</p>
+
+<h3>Privilégier la réparation époxy si</h3>
+<ul>
+<li>Fissure visible inférieure à 15 cm de longueur</li>
+<li>Bride avant du skimmer en bon état (pas de morceau cassé)</li>
+<li>Skimmer de moins de 20 ans, pas de signe de fragilisation généralisée</li>
+<li>Pas de mouvement structurel du voile béton (pas de fissures dans le carrelage de plage)</li>
+<li>Budget contraint et pas de remise en eau urgente</li>
+</ul>
+
+<h3>Privilégier le remplacement complet si</h3>
+<ul>
+<li>Bride avant éclatée ou manquante</li>
+<li>Fissures multiples sur le corps du skimmer</li>
+<li>Skimmer de plus de 25 ans avec PVC qui se craquelle au toucher</li>
+<li>Mouvement structurel du voile béton autour du skimmer</li>
+<li>Vous prévoyez de changer le liner dans les 3 à 5 ans : combiner les deux opérations économise la main d\'œuvre</li>
+</ul>
+
+<h2>Et si la fuite ne vient pas du skimmer ?</h2>
+<p>Plus de 30 pourcent des suspicions de fuite skimmer s\'avèrent en réalité venir d\'autres sources : raccord refoulement, prise balai, projecteur encastré, fissure de liner ou canalisation enterrée. C\'est pourquoi nous insistons sur le diagnostic complet par fluorescéine et test de pression avant toute intervention. Une réparation époxy sur un skimmer sain ne résout évidemment pas le problème et fait perdre 200 à 400 € au propriétaire.</p>
+<p>Pour faire intervenir un technicien sur Bordeaux, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>. Pour le Bassin d\'Arcachon, voir <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>. Pour les autres communes de Gironde, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub recherche de fuite piscine en Gironde</a>. Pour les tarifs des autres types de réparations piscine, voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d\'une fuite de liner piscine</a>.</p>"""
+    },
+    {
+        "slug": "fuite-canalisation-enterree-assurance",
+        "title": "Fuite canalisation enterrée et assurance habitation : prise en charge",
+        "title_seo": "Fuite canalisation enterrée et assurance | Remboursement",
+        "desc": "Comment faire prendre en charge une fuite sur canalisation enterrée par votre assurance habitation : conditions, écrêtement loi Warsmann, rapport technique opposable.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/canalisation-enterree-assurance.webp" alt="Réseau de canalisations enterrées en Gironde, contexte d'intervention recherche de fuite et prise en charge assurance" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Une fuite sur canalisation enterrée est l\'un des sinistres les plus coûteux pour un propriétaire en Gironde : surconsommation d\'eau qui peut atteindre plusieurs milliers de mètres cubes en quelques mois, terrain saturé, fondations fragilisées, fuite invisible qui s\'aggrave dans le temps. Heureusement, la plupart des contrats d\'assurance multirisque habitation couvrent une partie de la prise en charge, à condition de respecter une procédure précise. Cet article détaille comment activer votre garantie, ce qui est remboursé, le mécanisme de l\'écrêtement loi Warsmann pour la facture d\'eau, et les pièges à éviter.</p>
+
+<h2>Ce que couvre l\'assurance habitation sur une fuite enterrée</h2>
+<p>Votre contrat multirisque habitation comprend en général trois garanties qui peuvent être activées en cascade quand une fuite enterrée est détectée :</p>
+
+<h3>1. La garantie « recherche de fuite »</h3>
+<p>Présente dans 90 pourcent des contrats français, elle rembourse tout ou partie du diagnostic technique de localisation, dès lors que la fuite a provoqué un dégât des eaux ou une surconsommation anormale. Plafond de remboursement habituel : 1 500 à 5 000 € selon le contrat. Notre intervention typique pour une recherche de fuite canalisation enterrée à Bordeaux coûte entre 380 et 580 € HT, donc largement dans le plafond. Voir notre page dédiée <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a> avec la méthode gaz traceur azote/hydrogène et nos cas concrets.</p>
+
+<h3>2. La garantie « dégâts des eaux »</h3>
+<p>Couvre les dommages matériels causés par la fuite : terrain affaissé, fondations dégradées, infiltrations dans la cave ou le sous-sol, dommage au jardin (pelouse arrachée, plantations à remplacer), dégradation de la chape ou du carrelage extérieur. Plafond souvent élevé (10 000 à 50 000 € selon contrats). Pour les sinistres en copropriété, c\'est la <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">convention IRSI</a> qui s\'applique entre assureurs jusqu\'à 5 000 € HT.</p>
+
+<h3>3. L\'écrêtement de facture d\'eau loi Warsmann</h3>
+<p>Ce dispositif n\'est pas une garantie d\'assurance à proprement parler mais une obligation légale du distributeur d\'eau (Suez, Régie des eaux de Bordeaux Métropole, etc.) de plafonner votre facture après une fuite enterrée. Pour bénéficier du plafonnement, vous devez fournir un rapport technique d\'un professionnel (le nôtre est accepté) attestant la localisation enterrée et la non-détectabilité visible. Le plafond légal est de deux fois la consommation moyenne des trois dernières années. Voir notre guide complet <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">loi Warsmann : écrêtement de facture d\'eau</a> avec procédure pas à pas et modèle de courrier.</p>
+
+<h2>Conditions à remplir pour être indemnisé</h2>
+<p>Cinq conditions doivent être remplies pour activer la prise en charge assurance d\'une fuite enterrée :</p>
+<ul>
+<li><strong>Déclaration du sinistre dans les 5 jours ouvrables</strong> après constat (par téléphone, email ou courrier recommandé). Tout retard peut justifier un refus de prise en charge.</li>
+<li><strong>Rapport technique d\'un professionnel agréé</strong> attestant la localisation, la nature de la fuite et les méthodes employées. Notre rapport standardisé est accepté par AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut, GMF, Crédit Mutuel, etc.</li>
+<li><strong>Facture de la recherche de fuite</strong> en bonne et due forme, à votre nom de propriétaire ou locataire selon le contrat.</li>
+<li><strong>Preuve du dégât des eaux ou de la surconsommation</strong> : photos datées, factures d\'eau anormalement hautes, témoignages, devis de réparation.</li>
+<li><strong>Pas d\'exclusion contractuelle</strong>. Vérifiez votre contrat : certaines polices excluent les fuites en sous-sol non aménagé, les fuites liées à un défaut d\'entretien manifeste, les fuites antérieures à votre prise de contrat.</li>
+</ul>
+
+<h2>Procédure pas à pas : comment activer votre prise en charge</h2>
+
+<h3>Étape 1 : déclaration du sinistre</h3>
+<p>Dès que vous constatez la fuite ou la surconsommation (pic facture eau, terrain saturé, compteur qui tourne), prévenez votre assureur. Mode de déclaration recommandé : par téléphone pour démarrer le dossier, suivi d\'un courrier recommandé avec accusé de réception sous 48 heures. Donnez la date d\'apparition des symptômes, l\'étendue présumée du sinistre, le numéro de votre contrat.</p>
+
+<h3>Étape 2 : commande du diagnostic technique</h3>
+<p>Avant de payer la moindre réparation, faites localiser la fuite par un professionnel. Pour la Gironde, contactez-nous via notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a> ou directement notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée à Bordeaux</a>. Notre intervention dure 2 à 4 heures, le rapport est rédigé dans la journée et envoyé par email avec photos, méthodes et localisation au mètre près.</p>
+
+<h3>Étape 3 : transmission du rapport à l\'assureur</h3>
+<p>Envoyez le rapport technique, la facture de recherche, vos factures d\'eau des 24 derniers mois et toutes pièces justifiant le sinistre par email ou courrier à votre assureur. L\'expert d\'assurance vous contactera sous 5 à 10 jours ouvrés.</p>
+
+<h3>Étape 4 : visite éventuelle de l\'expert</h3>
+<p>Si le sinistre dépasse 1 500 € de dommages, l\'assureur mandate généralement un expert. Préparez les documents (rapport, factures, devis). L\'expert valide la prise en charge et négocie les montants. Notre rapport sert de référence technique et limite les contestations.</p>
+
+<h3>Étape 5 : indemnisation et écrêtement Warsmann</h3>
+<p>Une fois la prise en charge validée, l\'assurance vous rembourse selon votre contrat. En parallèle, envoyez votre rapport au distributeur d\'eau (Suez ou Régie de Bordeaux Métropole) pour activer la procédure Warsmann d\'écrêtement de facture. Délai de réponse du distributeur : 30 à 60 jours.</p>
+
+<h2>Pièges et refus fréquents</h2>
+<p>Sur 100 dossiers que nous accompagnons, 5 à 10 rencontrent un refus initial ou un litige avec l\'assureur. Voici les pièges les plus fréquents :</p>
+<ul>
+<li><strong>Fuite ancienne déclarée tardivement</strong> : si l\'assureur peut prouver que la fuite existait avant la souscription du contrat, refus presque automatique. Conservez les factures d\'eau qui montrent l\'évolution.</li>
+<li><strong>Défaut d\'entretien</strong> : pour les canalisations en plomb, fonte ou cuivre fragilisées par la corrosion, l\'assureur peut invoquer un défaut d\'entretien. Notre rapport mentionne explicitement la cause technique de la fuite (perforation par mouvement de terrain, joint désaxé, racine, gel, etc.) pour distinguer du défaut d\'entretien.</li>
+<li><strong>Plafond de remboursement atteint</strong> : si le diagnostic + les réparations dépassent le plafond garantie, le delta reste à votre charge. Le rapport bien construit aide à dimensionner les devis pour rester dans le plafond.</li>
+<li><strong>Exclusion fuite extérieure au bâti</strong> : certaines polices excluent les fuites au-delà du bâti. Vérifiez votre contrat avant tout, ou demandez-nous conseil sur la formulation à privilégier dans la déclaration.</li>
+</ul>
+
+<h2>Cas concret : fuite enterrée à Caudéran Bordeaux (mars 2026)</h2>
+<p>M. R., propriétaire d\'une maison bourgeoise à Caudéran (33000), reçoit une facture d\'eau de 1 850 € pour le trimestre alors que sa moyenne historique est de 280 €. Diagnostic Recherche Fuite Gironde par gaz traceur : fuite localisée à 8 mètres du compteur, sur un raccord cuivre désaxé sous la pelouse. Notre intervention : 480 € HT.</p>
+<p>Procédure d\'indemnisation :</p>
+<ul>
+<li>Garantie recherche de fuite (AXA Confiance) : remboursement intégral des 480 € HT</li>
+<li>Garantie dégâts des eaux : pelouse refaite (320 €) + canalisation reprise (1 200 €) pris en charge à 80 pourcent</li>
+<li>Loi Warsmann auprès de Suez : facture d\'eau plafonnée à 560 € au lieu de 1 850 €. Économie nette : 1 290 €</li>
+</ul>
+<p>Coût net pour M. R. après tous les remboursements : 230 € sur un sinistre initial à plus de 3 850 €. Délai total de résolution : 7 semaines entre notre intervention et la dernière indemnisation.</p>
+
+<h2>Faites-vous accompagner dès le diagnostic</h2>
+<p>Notre intervention ne se limite pas au diagnostic : nous vous remettons un rapport technique standardisé, accepté par les assureurs et les distributeurs d\'eau, avec photos, méthodes employées (gaz traceur, écoute électro-acoustique, caméra endoscopique), localisation au mètre près et préconisations chiffrées. Pour les sinistres importants, nous restons disponibles pendant 6 mois pour répondre aux questions de l\'expert mandaté ou produire des compléments de rapport.</p>
+<p>Pour démarrer une procédure assurance après une fuite enterrée à Bordeaux ou en Gironde, voir notre <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">page canalisation enterrée Bordeaux</a> ou contactez-nous via le <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a>. Pour comprendre la procédure d\'écrêtement de facture en détail, voir le guide <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">loi Warsmann : écrêtement de facture d\'eau</a>. Pour la procédure générale assurance fuite d\'eau (intérieure et extérieure), voir <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">fuite d\'eau et assurance habitation</a>."""
+    },
+    {
+        "slug": "detecteur-fuite-eau-professionnel",
+        "title": "Détecteur de fuite d'eau professionnel : matériel et méthodes",
+        "title_seo": "Détecteur de fuite d'eau professionnel | Outils pro",
+        "desc": "Quels détecteurs de fuite d'eau utilisent les professionnels ? Corrélateur acoustique, gaz traceur, caméra thermique, hydrophone : matériel pro vs grand public.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/detecteur-fuite-eau-professionnel.webp" alt="Outils professionnels de détection de fuite d'eau utilisés par les techniciens en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous cherchez un détecteur de fuite d\'eau professionnel ? Cet article fait le tour des appareils que nos techniciens utilisent quotidiennement en Gironde, leur principe de fonctionnement, leur prix et leur niveau de précision. Vous comprendrez aussi pourquoi les détecteurs grand public vendus dans les grandes surfaces de bricolage (de 30 à 200 €) ne remplaceront jamais l\'arsenal d\'un professionnel sur les fuites complexes : enterrées, encastrées, en circuit fermé.</p>
+
+<h2>Pourquoi les détecteurs grand public sont insuffisants</h2>
+<p>Les détecteurs de fuite vendus chez Castorama, Leroy Merlin ou Amazon coûtent entre 30 et 250 € et s\'apparentent en pratique à des humidimètres simplifiés ou des stéthoscopes acoustiques bas de gamme. Ils détectent une humidité présente sur une surface ou amplifient un bruit sourd, mais sans capacité d\'analyse fine. En pratique, ils permettent au mieux de confirmer qu\'une zone est humide. Ils ne savent pas localiser au point précis sous une dalle béton, dans une cloison BA13 ou sur un réseau enterré à 80 cm de profondeur. Notre expérience sur 200 interventions annuelles : un client sur trois a tenté un détecteur grand public avant de nous appeler, sans aucun résultat exploitable.</p>
+<p>Pour les fuites simples et superficielles (joint robinet, raccord visible), un détecteur grand public peut suffire. Pour tout le reste, le matériel professionnel est indispensable.</p>
+
+<h2>1. Le corrélateur acoustique haute sensibilité</h2>
+<p>Outil reine pour les fuites sur canalisations sous pression. Le corrélateur utilise deux capteurs piézoélectriques posés en deux points du réseau et mesure le délai exact entre les deux signaux acoustiques de la fuite. Par calcul de propagation, il localise au demi-mètre près le point d\'origine.</p>
+<ul>
+<li><strong>Matériel</strong> : Sewerin AquaTest A100, Vivax-Metrotech vLoc Series, SebaKMT FerroLux. Coût d\'achat 8 000 à 18 000 € HT pour un appareil pro.</li>
+<li><strong>Cas d\'usage</strong> : fuite sur réseau d\'eau froide ou chaude sous pression, encastrée dans une chape ou enterrée sous jardin. Très efficace sur cuivre, PVC, PER, multicouche.</li>
+<li><strong>Limites</strong> : ne fonctionne que sur fluide sous pression. Inopérant sur évacuation gravitaire (EU/EV) et sur très petites fuites (moins de 0,5 L/heure).</li>
+</ul>
+
+<h2>2. Le gaz traceur azote/hydrogène</h2>
+<p>Méthode imbattable pour les canalisations enterrées profondes (au-delà de 60 cm) et les réseaux longs (plusieurs dizaines de mètres). On vidange la canalisation suspecte, on la met en pression avec un mélange azote 95 pourcent + hydrogène 5 pourcent, on suit en surface avec un capteur électrochimique sensible à l\'hydrogène. Le gaz remonte par capillarité jusqu\'à la surface au point de fuite et déclenche le capteur.</p>
+<ul>
+<li><strong>Matériel</strong> : capteur Sewerin H2 Sniff ou Inficon HLD6000, bouteilles azote/hydrogène 5L, manomètre régulateur. Coût matériel 5 000 à 12 000 € HT.</li>
+<li><strong>Cas d\'usage</strong> : recherche de fuite canalisation enterrée à Bordeaux, fuite sous dalle béton non accessible, réseau d\'arrosage extérieur, alimentation eau potable extérieure. Voir notre page dédiée <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a> avec cas concrets.</li>
+<li><strong>Limites</strong> : nécessite vidange préalable du réseau. Inutilisable si plusieurs niveaux de canalisations superposés (le gaz remonte au plus court chemin).</li>
+</ul>
+
+<h2>3. La caméra thermique haute résolution</h2>
+<p>Indispensable pour les planchers chauffants hydrauliques et les canalisations encastrées en chauffe. La caméra thermique mesure la température de surface au centième de degré (résolution 30 mK). Une fuite produit une signature thermique anormale : zone plus chaude (eau du circuit) ou plus froide (évaporation latente), visible immédiatement à l\'écran.</p>
+<ul>
+<li><strong>Matériel</strong> : FLIR T540 ou T865, Testo 890, Fluke TiX580. Définition 464×348 à 640×480 pixels. Coût d\'achat 6 000 à 18 000 € HT.</li>
+<li><strong>Cas d\'usage</strong> : <a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite plancher chauffant à Bordeaux</a>, canalisation encastrée dans cloison, dalle béton sur vide sanitaire. Voir aussi notre page <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">thermographie infrarouge Bordeaux</a>.</li>
+<li><strong>Limites</strong> : nécessite un gradient thermique entre la fuite et son environnement. Inopérant sur eau froide en été à température ambiante.</li>
+</ul>
+
+<h2>4. L\'hydrophone (microphone sous-marin)</h2>
+<p>Outil dédié aux fuites de piscine. L\'hydrophone capte les bruits de l\'eau qui s\'échappe à travers une fissure de liner, un joint défaillant ou un raccord percé. Le technicien le promène le long des parois immergées et localise le point de fuite par variation d\'intensité sonore.</p>
+<ul>
+<li><strong>Matériel</strong> : Aquatec OnEvent, Anderson Instrument LD-22. Coût d\'achat 1 500 à 4 500 € HT.</li>
+<li><strong>Cas d\'usage</strong> : recherche de fuite piscine sans vidange. Complémentaire du <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">colorant fluorescéine</a> sur les fuites discrètes.</li>
+<li><strong>Limites</strong> : peu efficace sur les très grosses fuites (bruit dispersé) ou sur eau très agitée. Sensible aux bruits parasites (filtration, autre baigneur).</li>
+</ul>
+
+<h2>5. La caméra endoscopique haute définition</h2>
+<p>Permet d\'inspecter visuellement l\'intérieur des canalisations, gaines techniques, vide sanitaires inaccessibles. Caméra étanche montée sur tige flexible de 5 à 30 mètres, résolution Full HD, éclairage LED intégré, inclinomètre pour suivre le tracé.</p>
+<ul>
+<li><strong>Matériel</strong> : Wöhler VIS 700, Ridgid SeeSnake, Inspector Camera GE. Coût d\'achat 2 500 à 8 000 € HT pour les modèles pro.</li>
+<li><strong>Cas d\'usage</strong> : inspection avant chemisage, identification de la cause exacte d\'une fuite (fissure, racine, désaxement), validation après réparation.</li>
+<li><strong>Limites</strong> : ne traverse pas les coudes serrés (plus de 60 degrés). Nécessite un point d\'accès au réseau (regard, démontage de pièce à sceller).</li>
+</ul>
+
+<h2>6. L\'humidimètre à pointes capacitives</h2>
+<p>Mesure la teneur en eau d\'un matériau par effet capacitif (sans pointe physique) ou résistif (avec pointes). Permet de cartographier précisément une zone humide et de distinguer une infiltration ponctuelle (gradient fort) d\'une remontée capillaire (humidité diffuse).</p>
+<ul>
+<li><strong>Matériel</strong> : Tramex CMEXpert II, Protimeter MMS3, Skipper PinPoint. Coût d\'achat 400 à 1 200 € HT.</li>
+<li><strong>Cas d\'usage</strong> : confirmation thermographique, distinction infiltration vs remontée, suivi post-réparation.</li>
+<li><strong>Limites</strong> : ne traverse pas les matériaux denses (béton armé). Nécessite une certaine profondeur de pénétration.</li>
+</ul>
+
+<h2>Pourquoi un seul détecteur ne suffit pas</h2>
+<p>Aucun outil n\'est universel. Notre équipe en Gironde déploie systématiquement <strong>au moins 3 méthodes complémentaires</strong> sur chaque diagnostic complexe : par exemple thermographie + corrélateur acoustique + humidimètre pour une fuite encastrée, ou gaz traceur + écoute acoustique + caméra endoscopique pour un réseau enterré. Cette redondance méthodologique nous permet d\'obtenir une localisation au point précis dans 95 pourcent des interventions.</p>
+<p>Un détecteur grand public à 100 € ne dispose que d\'un seul mode de mesure et d\'une sensibilité limitée. C\'est pourquoi la localisation par un professionnel reste indispensable sur les fuites non visibles, en circuit fermé ou enterrées profondes.</p>
+
+<h2>Combien coûte un diagnostic professionnel en Gironde ?</h2>
+<p>Faire intervenir un professionnel équipé de cet arsenal coûte entre 280 et 750 € HT selon la complexité du cas. Le rapport technique remis est accepté par les assureurs et permet souvent un remboursement intégral via la <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">garantie recherche de fuite</a>. Pour la grille tarifaire complète, voir notre guide <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">prix d\'une recherche de fuite à Bordeaux</a>.</p>
+<p>Pour faire intervenir nos techniciens à Bordeaux et en Gironde, voir notre page <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">détection de fuite non destructive Gironde</a> ou directement la page d\'urgence <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> pour une intervention sous 24 heures."""
     },
 ]
 
@@ -4439,6 +4659,7 @@ def page_canalisation_enterree_bordeaux():
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann et écrêtement de facture</a> : pour plafonner légalement votre facture d'eau après une fuite enterrée non détectable.</li>
       <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : alternative sans tranchée pour rénover le réseau enterré dégradé sur sa totalité.</li>
       <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence</a> : si la fuite est importante et provoque déjà des dégâts visibles (terrain saturé, fondation impactée).</li>
+      <li><a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">Prise en charge assurance d'une fuite enterrée</a> : conditions, procédure pas à pas, cas concrets de remboursement en Gironde.</li>
     </ul>
   </div>
 </section>
@@ -5715,7 +5936,7 @@ def page_piscine_ville(p):
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Fuite skimmer ou refoulement</h3>
-          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages.</p>
+          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
         </div>
       </div>
       <div class="arg-num-card">
