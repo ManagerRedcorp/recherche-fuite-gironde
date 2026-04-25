@@ -985,6 +985,10 @@ def page_plan():
         f'<li><a href="/villes/{v["slug"]}/chemisage/">Chemisage de canalisation à {v["nom"]} ({v["code_postal"]})</a></li>'
         for v in VILLES
     ])
+    piscine_pages = '\n'.join([
+        f'<li><a href="/detection-fuite/{p["slug"]}/">Recherche de fuite piscine {p["ville_article"]} ({p["cp"]})</a></li>'
+        for p in PISCINE_PAGES
+    ])
     body = f'''
 <section class="hero-mini">
   <div class="container">
@@ -994,6 +998,7 @@ def page_plan():
       <span>Plan du site</span>
     </nav>
     <h1>Plan du site</h1>
+    <p class="hero-mini-lead">Toutes les pages du site recherche-fuite-gironde.fr classées par section.</p>
   </div>
 </section>
 <section class="section">
@@ -1008,6 +1013,24 @@ def page_plan():
         <li><a href="/contact/">Contact</a></li>
         <li><a href="/mentions-legales/">Mentions légales</a></li>
       </ul>
+
+      <h2>Pages spécialisées par cas d'usage</h2>
+      <p>Pages dédiées aux situations spécifiques que nous traitons quotidiennement, avec contenu approfondi et tarifs détaillés.</p>
+      <ul>
+        <li><a href="/detection-fuite/urgence-bordeaux/">Recherche de fuite en urgence à Bordeaux (intervention 24h)</a></li>
+        <li><a href="/detection-fuite/fuite-apres-compteur/">Fuite d'eau après compteur à Bordeaux (loi Warsmann)</a></li>
+        <li><a href="/detection-fuite/canalisation-enterree-bordeaux/">Recherche de fuite canalisation enterrée à Bordeaux (gaz traceur)</a></li>
+        <li><a href="/detection-fuite/degats-des-eaux-bordeaux/">Dégât des eaux à Bordeaux (syndics et copropriétés IRSI)</a></li>
+        <li><a href="/detection-fuite/chemisage-bordeaux/">Chemisage de canalisation à Bordeaux (immeubles haussmanniens)</a></li>
+        <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/">Fuite sur plancher chauffant à Bordeaux (thermographie)</a></li>
+      </ul>
+
+      <h2>Recherche de fuite piscine par ville</h2>
+      <p>Pages dédiées à la recherche de fuite sur piscine, sans vidange, par commune de Gironde.</p>
+      <ul>
+        {piscine_pages}
+      </ul>
+
       <h2>Guide pratique fuite d'eau</h2>
       <ul>
         <li><a href="/guide/">Sommaire du guide</a></li>
@@ -1021,10 +1044,24 @@ def page_plan():
         <li><a href="/guide/urgence-fuite-eau/">Que faire en cas d'urgence fuite d'eau ?</a></li>
         <li><a href="/guide/faq/">FAQ - Questions fréquentes sur les fuites d'eau</a></li>
       </ul>
+
+      <h2>Guide spécialisé Bordeaux et piscine</h2>
+      <p>Articles approfondis sur les thématiques à fort enjeu : prix, assurance, diagnostic piscine, écrêtement de facture.</p>
+      <ul>
+        <li><a href="/guide/prix-recherche-fuite-bordeaux/">Prix d'une recherche de fuite à Bordeaux en 2026</a></li>
+        <li><a href="/guide/recherche-fuite-piscine-tarif/">Tarif recherche de fuite piscine en Gironde par type de bassin</a></li>
+        <li><a href="/guide/recherche-fuite-piscine-assurance/">Recherche de fuite piscine et assurance habitation : remboursement</a></li>
+        <li><a href="/guide/ma-piscine-perd-de-l-eau-que-faire/">Ma piscine perd de l'eau : guide de diagnostic étape par étape</a></li>
+        <li><a href="/guide/fuite-liner-piscine/">Fuite sur liner de piscine : signes, causes et diagnostic</a></li>
+        <li><a href="/guide/evaporation-vs-fuite-piscine/">Évaporation ou fuite de piscine : taux mensuels Gironde</a></li>
+        <li><a href="/guide/loi-warsmann-ecretement-facture-eau/">Loi Warsmann : écrêtement de facture d'eau après fuite</a></li>
+      </ul>
+
       <h2>Recherche de fuite par ville (30 communes)</h2>
       <ul>
         {villes_detection}
       </ul>
+
       <h2>Chemisage de canalisation par ville (30 communes)</h2>
       <ul>
         {villes_chemisage}
@@ -1034,7 +1071,7 @@ def page_plan():
 </section>'''
     return html_base(
         "Plan du site - Recherche Fuite Gironde",
-        "Plan du site recherche-fuite-gironde.fr. Toutes les pages : services, villes de Gironde, guide pratique.",
+        "Plan du site recherche-fuite-gironde.fr. Toutes les pages : services, villes de Gironde, pages spécialisées (piscine, urgence, chemisage), guide pratique.",
         "https://recherche-fuite-gironde.fr/plan-du-site/",
         body
     )
