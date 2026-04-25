@@ -722,8 +722,8 @@ def page_detection():
       <a href="/detection-fuite/piscine-le-bouscat/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Le Bouscat</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33110 · Parc Bordelais, Bourran</span></a>
     </div>
 
-    <h3 style="font-family:var(--font-title,inherit);margin-top:3rem;margin-bottom:1rem;">Pages détection par ville (contenu enrichi)</h3>
-    <p style="margin-bottom:1.5rem;">Pages villes avec contenu local détaillé (quartiers, patrimoine, spécificités géologiques) pour les 5 villes stratégiques de Gironde.</p>
+    <h3 style="font-family:var(--font-title,inherit);margin-top:3rem;margin-bottom:1rem;">Recherche de fuite par ville en Gironde</h3>
+    <p style="margin-bottom:1.5rem;">Nous intervenons sur 30 communes de Gironde. Voici les pages dédiées aux principales villes de la métropole bordelaise et du Bassin d'Arcachon, avec les particularités locales (quartiers, patrimoine, géologie) qui orientent notre diagnostic.</p>
     <div class="grid-3">
       <a href="/villes/bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Bordeaux (33000)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Haussmanniens, UNESCO, pierre calcaire</span></a>
       <a href="/villes/merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Mérignac (33700)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Pavillons, planchers chauffants</span></a>
@@ -2866,11 +2866,23 @@ def page_urgence_ville(p):
     <p>Nos interventions s'effectuent du lundi au samedi. Pour les fuites avérées avec dégât des eaux important le dimanche ou un jour férié, contactez-nous : nous organisons autant que possible une intervention le premier jour ouvré suivant en créneau prioritaire.</p>
 
     <h3>Que faire si l'eau atteint les voisins du dessous ?</h3>
-    <p>Prévenez-les immédiatement et le syndic si vous êtes en copropriété. Prenez des photos datées avant tout nettoyage. Déclarez le sinistre à votre assurance en mentionnant les voisins impactés : la convention IRSI s'applique automatiquement entre assureurs pour les sinistres dégâts des eaux en copropriété jusqu'à 5 000 € HT.</p>
+    <p>Prévenez-les immédiatement et le syndic si vous êtes en copropriété. Prenez des photos datées avant tout nettoyage. Déclarez le sinistre à votre assurance en mentionnant les voisins impactés : la convention IRSI s'applique automatiquement entre assureurs pour les sinistres dégâts des eaux en copropriété jusqu'à 5 000 € HT. Voir notre page dédiée <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">dégât des eaux à Bordeaux pour syndics et copropriétés</a> pour la procédure complète.</p>
 
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander une intervention urgente</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Autres situations qui peuvent s'apparenter à une urgence</h2>
+    <p>Selon la nature de votre fuite, plusieurs situations connexes peuvent s'apparenter à une urgence ou en découler. Notre réseau de pages spécialisées vous aide à identifier le bon point d'entrée.</p>
+    <ul>
+      <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite d'eau après compteur</a> : si votre compteur tourne en permanence et votre facture explose, la fuite est probablement sur votre réseau privatif enterré.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite canalisation enterrée à Bordeaux</a> : pour les fuites au jardin ou sur réseau enterré entre compteur et maison, méthode gaz traceur.</li>
+      <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite plancher chauffant à Bordeaux</a> : tache au plafond du voisin du dessous, souvent due à une perforation sur tube PER de plancher chauffant.</li>
+    </ul>
   </div>
 </section>
 
@@ -2883,6 +2895,197 @@ def page_urgence_ville(p):
         f'https://recherche-fuite-gironde.fr/detection-fuite/{slug}/',
         body,
         extra_ld=ld_local + ld_faq,
+    )
+
+
+# ═══════════════════════════════════════════════════════════════
+# PAGE HUB : Recherche de fuite piscine (pillar)
+# ═══════════════════════════════════════════════════════════════
+
+def page_piscine_hub():
+    villes_cards = '\n'.join([
+        f'''<a href="/detection-fuite/{p["slug"]}/" class="loc-card" style="text-decoration:none;color:inherit;padding:1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;">
+          <strong style="display:block;color:var(--c-primary);font-size:1.05rem;margin-bottom:.4rem;">Piscine {p["ville"]}</strong>
+          <span style="font-size:.85rem;color:var(--c-text-muted);">{p["cp"]} · {p["zones_voisines"].split(",")[0].strip()} et environs</span>
+        </a>'''
+        for p in PISCINE_PAGES
+    ])
+
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Recherche de fuite de piscine sans vidange",
+  "name": "Recherche de fuite de piscine en Gironde",
+  "description": "Localisation precise de fuite sur piscine privee sans vidanger le bassin. Methodes : colorant fluoresceine, ecoute electro-acoustique, test de pression, inspection sous-marine, gaz traceur. Couverture toute la Gironde : Bordeaux, Bassin d'Arcachon, Libournais, Medoc.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Recherche Fuite Gironde",
+    "url": "https://recherche-fuite-gironde.fr/"
+  },
+  "areaServed": { "@type": "AdministrativeArea", "name": "Gironde" },
+  "category": "Detection de fuite aquatique"
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Detection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Recherche de fuite piscine", "item": "https://recherche-fuite-gironde.fr/detection-fuite/piscine/" }
+  ]
+}
+</script>'''
+
+    body = f'''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Detection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Piscine</span>
+    </nav>
+    <h1>Recherche de fuite de piscine en Gironde</h1>
+    <p class="hero-mini-lead">Votre piscine perd de l'eau anormalement ? Nos techniciens specialises localisent la fuite <strong>sans vidanger le bassin</strong> grace a 6 methodes complementaires : colorant fluoresceine, ecoute electro-acoustique, test de pression, inspection sous-marine, gaz traceur azote/helium, thermographie infrarouge. Intervention sur toute la Gironde, rapport pour assurance.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un devis piscine</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>La piscine, premiere cause de fuite en Gironde</h2>
+    <p>Sur les 132 conversions issues de notre campagne d'acquisition l'an dernier, plus d'une sur quatre concernait une piscine privee. Le parc bordelais et girondin compte plusieurs milliers de bassins prives, dont une part importante atteint l'age critique ou les fuites deviennent frequentes : 25 a 35 ans pour les liners PVC, 15 a 25 ans pour les coques polyester, 30 a 50 ans pour les bassins beton armé.</p>
+
+    <p>Plutot que vidanger pour inspecter (couteux, risque de soulevement du bassin sur sols sableux ou nappe phreatique haute), notre methodologie non destructive identifie la fuite directement, bassin plein. Notre rapport est ensuite utilisable pour la prise en charge par votre assurance habitation.</p>
+
+    <h2>Recherche de fuite piscine par ville en Gironde</h2>
+    <p>Sept communes a forte densite de piscines disposent d'une page dediee avec les specificites locales (type de bassins majoritaires, problematiques geologiques, exemples d'interventions recurrentes).</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      {villes_cards}
+    </div>
+
+    <p style="margin-top:1.5rem;">Vous habitez une autre commune de Gironde ? Nous intervenons aussi sur Talence, Pessac, Le Haillan, Eysines, Bruges, Cenon, Lormont, Floirac et toute la metropole bordelaise. Consultez notre <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">page Bordeaux</a> ou contactez-nous directement pour les communes hors metropole (Lege-Cap-Ferret, Andernos-les-Bains, Lesparre-Medoc, Saint-Emilion, Langon).</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Guides piscine pour comprendre avant d'agir</h2>
+    <p>Avant d'appeler un professionnel, plusieurs questions valent la peine d'etre creusees. Nos articles guide vous orientent dans le diagnostic, la decision economique et la procedure assurance.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <a href="/guide/ma-piscine-perd-de-l-eau-que-faire/" class="service-card" style="text-decoration:none;color:inherit;">
+        <h3>Ma piscine perd de l'eau : que faire ?</h3>
+        <p>Arbre de decision en 6 etapes pour qualifier la situation, faire le test du seau et savoir quand appeler un professionnel.</p>
+      </a>
+      <a href="/guide/evaporation-vs-fuite-piscine/" class="service-card" style="text-decoration:none;color:inherit;">
+        <h3>Evaporation ou fuite ?</h3>
+        <p>Tableau des taux d'evaporation mensuels en Gironde, protocole de test 48h precis, pieges a eviter pour ne pas confondre.</p>
+      </a>
+      <a href="/guide/recherche-fuite-piscine-tarif/" class="service-card" style="text-decoration:none;color:inherit;">
+        <h3>Tarifs par type de bassin</h3>
+        <p>Grille tarifaire detaillee : liner PVC, coque polyester, beton armé, naturelle. Comparatif diagnostic vs vidange classique.</p>
+      </a>
+      <a href="/guide/recherche-fuite-piscine-assurance/" class="service-card" style="text-decoration:none;color:inherit;">
+        <h3>Remboursement assurance habitation</h3>
+        <p>Clauses a verifier, procedure de declaration, convention IRSI en copropriete avec piscine, courrier type a envoyer.</p>
+      </a>
+      <a href="/guide/fuite-liner-piscine/" class="service-card" style="text-decoration:none;color:inherit;">
+        <h3>Diagnostic fuite sur liner PVC</h3>
+        <p>70 pourcent du parc girondin. Signes, causes, methodes de detection, decision reparation locale ou changement complet.</p>
+      </a>
+      <a href="/guide/cout-recherche-fuite/" class="service-card" style="text-decoration:none;color:inherit;">
+        <h3>Cout d'une recherche de fuite</h3>
+        <p>Article general sur le tarif d'une intervention en Gironde, prise en charge assurance, devis gratuit avant deplacement.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <h2>Notre methode pour piscines en Gironde</h2>
+    <p>Chaque type de bassin demande une combinaison de methodes adaptees. Voici le protocole que nos techniciens deploient sur le terrain.</p>
+
+    <div class="grid-3" style="margin-top:1.5rem;">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Test d'evaporation prealable</h3>
+          <p>Avant deplacement, nous vous guidons par telephone pour realiser le test du seau et qualifier la perte. Si la perte est dans la fourchette evaporation normale, pas d'intervention necessaire.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Inspection visuelle et camera</h3>
+          <p>Inspection en apnee ou par camera endoscopique sous-marine pour detecter perforations liner, fissures coque, ou defauts visibles aux pieces a sceller.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Colorant fluoresceine</h3>
+          <p>Injection de colorant non toxique pres des zones suspectes (skimmer, buses, bonde de fond). Filtration a l'arret, le colorant est aspire vers la fuite et revele son trajet.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Test de pression hydraulique</h3>
+          <p>Isolation sequentielle de chaque circuit (aspiration, refoulement, balai, bonde) avec mise en pression. Le circuit qui perd la pression est identifie.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Ecoute electro-acoustique</h3>
+          <p>Amplificateur acoustique haute sensibilite pour capter le bruit de fuite sur canalisations enterrees autour de la piscine. Precision au demi-metre pres.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Gaz traceur azote/helium</h3>
+          <p>Pour les fuites enterrees longues ou inaccessibles acoustiquement. Injection sous pression, detection en surface au capteur. Methode complementaire de derniere ligne.</p>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin-top:2rem;">Pour comprendre la methodologie en detail, consultez la page de votre commune : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a> (proprietes bourgeoises Caudéran/Le Bouscat), <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Merignac</a> (parc liner pavillonnaire), <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a> (villas haut de gamme avec PAC), <a href="/detection-fuite/piscine-la-teste-de-buch/" style="color:var(--green);text-decoration:underline;">piscine La Teste-de-Buch</a> (sols sableux Cazaux), <a href="/detection-fuite/piscine-gujan-mestras/" style="color:var(--green);text-decoration:underline;">piscine Gujan-Mestras</a> (coques polyester), <a href="/detection-fuite/piscine-libourne/" style="color:var(--green);text-decoration:underline;">piscine Libourne</a> (chais viticoles anciens) ou <a href="/detection-fuite/piscine-le-bouscat/" style="color:var(--green);text-decoration:underline;">piscine Le Bouscat</a> (jardins matures avec racines).</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Combien coute une recherche de fuite piscine en Gironde ?</h2>
+    <p>En general entre <strong>300 et 700 euros HT</strong> selon le type de bassin et les methodes a combiner. Notre <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif piscine detaille</a> donne les fourchettes precises par type (liner, coque, beton). Le diagnostic est tres souvent rembourse par votre assurance multirisque habitation au titre de la garantie recherche de fuite. Consultez notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a> pour la procedure complete.</p>
+
+    <p>Pour les fuites enterrees autour de votre piscine (canalisation d'alimentation, refoulement, prise balai), voyez aussi notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterree a Bordeaux</a> qui detaille la methode gaz traceur en sol argileux ou sableux.</p>
+
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="/devis/" class="btn btn-gold">Obtenir un devis pour ma piscine</a>
+    </div>
+  </div>
+</section>
+
+{form_section("Bordeaux")}
+'''
+
+    return html_base(
+        'Recherche de fuite piscine en Gironde | Sans vidange',
+        "Recherche de fuite sur piscine privee en Gironde sans vidanger : colorant fluoresceine, acoustique, test de pression. Couverture Bordeaux, Bassin d'Arcachon, Libournais. Devis gratuit.",
+        'https://recherche-fuite-gironde.fr/detection-fuite/piscine/',
+        body,
+        extra_ld=ld_service + ld_breadcrumb,
     )
 
 
@@ -3160,6 +3363,19 @@ def page_plancher_chauffant_bordeaux():
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un diagnostic plancher chauffant</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Situations connexes au plancher chauffant</h2>
+    <p>Une fuite de plancher chauffant peut etre confondue avec d'autres types de fuites. Ces ressources peuvent vous aider :</p>
+    <ul>
+      <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégât des eaux à Bordeaux</a> : si la fuite a déjà tâché le plafond du voisin du dessous (en immeuble) ou un autre lot.</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence</a> : si votre chaudière se met en défaut de pression plusieurs fois par semaine, la fuite est importante et nécessite une intervention rapide.</li>
+      <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite d'eau après compteur</a> : pour distinguer une fuite de plancher chauffant (circuit fermé de chauffage) d'une fuite sur le réseau d'eau sanitaire (compteur qui tourne).</li>
+      <li><a href="/villes/merignac/" style="color:var(--green);text-decoration:underline;">Recherche de fuite à Mérignac</a> : Mérignac concentre la plus forte densité de planchers chauffants en métropole bordelaise (40 pourcent du parc pavillonnaire).</li>
+    </ul>
   </div>
 </section>
 
@@ -3476,6 +3692,19 @@ def page_degats_eaux_bordeaux():
   </div>
 </section>
 
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes pour syndics et copropriétés</h2>
+    <p>Au-delà du diagnostic d'origine, voici les ressources qui complètent l'intervention :</p>
+    <ul>
+      <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux pour copropriétés</a> : si le diagnostic révèle une colonne d'évacuation EU/EV en fin de vie, le chemisage évite la démolition.</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence Bordeaux</a> : pour les sinistres avec fuite active impactant plusieurs lots simultanément.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée Bordeaux</a> : pour les sinistres venant des réseaux enterrés sous cour intérieure ou trottoir privé.</li>
+      <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite plancher chauffant Bordeaux</a> : cause fréquente de tache au plafond du voisin du dessous.</li>
+    </ul>
+  </div>
+</section>
+
 {form_section("Bordeaux")}
 '''
 
@@ -3737,6 +3966,19 @@ def page_chemisage_bordeaux():
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un devis chemisage Bordeaux</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes pour copropriétés bordelaises</h2>
+    <p>Le chemisage intervient souvent dans un contexte plus large de gestion d'un sinistre ou d'une rénovation préventive. Voici les ressources connexes :</p>
+    <ul>
+      <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégât des eaux à Bordeaux pour syndics</a> : avant le chemisage, le diagnostic d'origine de la fuite est essentiel pour activer la convention IRSI.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée Bordeaux</a> : pour les réseaux enterrés sous cour intérieure ou en sous-sol, le chemisage est aussi applicable après diagnostic gaz traceur.</li>
+      <li><a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite à Bordeaux</a> : page ville détaillant nos interventions sur l'ensemble du parc bordelais (haussmanniens, échoppes, copropriétés).</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence</a> : pour les fuites actives nécessitant un diagnostic prioritaire avant chantier de chemisage.</li>
+    </ul>
   </div>
 </section>
 
@@ -4023,11 +4265,24 @@ def page_canalisation_enterree_bordeaux():
     <p>Oui, nous couvrons l'ensemble des 18 quartiers de Bordeaux ainsi que les communes voisines de la metropole. Pour plus de details sur notre intervention ville par ville, consultez notre page <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite a Bordeaux</a>.</p>
 
     <h3>Faut-il creuser pour reparer apres votre diagnostic ?</h3>
-    <p>Oui, mais de maniere tres ciblee. Notre diagnostic localise la fuite au demi-metre pres, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour eviter totalement le creusement, deux alternatives : le <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation</a> (rehabilitation sans tranchee par resine epoxy, adapte aux reseaux de 40 a 600 mm) ou le remplacement de la canalisation existante si son etat general l'exige.</p>
+    <p>Oui, mais de maniere tres ciblee. Notre diagnostic localise la fuite au demi-metre pres, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour eviter totalement le creusement, deux alternatives : le <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation a Bordeaux</a> (rehabilitation sans tranchee par resine epoxy, adapte aux reseaux de 40 a 600 mm) ou le remplacement de la canalisation existante si son etat general l'exige.</p>
 
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un devis canalisation enterree</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes : fuite enterrée et alternatives</h2>
+    <p>Une fuite sur canalisation enterrée touche plusieurs sujets connexes. Selon votre cas, ces ressources sont pertinentes :</p>
+    <ul>
+      <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite d'eau après compteur à Bordeaux</a> : si votre compteur tourne en permanence et votre facture grimpe, c'est l'angle privilégié à explorer.</li>
+      <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann et écrêtement de facture</a> : pour plafonner légalement votre facture d'eau après une fuite enterrée non détectable.</li>
+      <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : alternative sans tranchée pour rénover le réseau enterré dégradé sur sa totalité.</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence</a> : si la fuite est importante et provoque déjà des dégâts visibles (terrain saturé, fondation impactée).</li>
+    </ul>
   </div>
 </section>
 
@@ -4242,6 +4497,18 @@ def page_fuite_apres_compteur():
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un diagnostic après compteur</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pour aller plus loin sur la fuite après compteur</h2>
+    <p>Une fuite après compteur peut prendre plusieurs formes. Selon votre situation, ces ressources connexes vous aideront :</p>
+    <ul>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite sur canalisation enterrée à Bordeaux</a> : la méthode gaz traceur expliquée pour les fuites entre compteur et habitation, ou réseau d'arrosage enterré.</li>
+      <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : article complet sur la procédure pour obtenir un plafonnement de votre facture, modèle de courrier inclus.</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence à Bordeaux</a> : si la perte d'eau est importante (plus de 1 m³/jour) et qu'un dégât des eaux est imminent ou en cours.</li>
+    </ul>
   </div>
 </section>
 
@@ -4511,6 +4778,18 @@ def page_piscine_ville(p):
         f'      <div class="arg-num-card"><span class="arg-num">{i:02d}</span><div class="arg-num-content"><h3>{titre}</h3><p>{contenu}</p></div></div>'
         for i, (titre, contenu) in enumerate(p.get("patterns_frequents", []), 1)
     ])
+
+    # Cross-linking sibling : 3 autres villes piscine avec anchor varié
+    siblings = [s for s in PISCINE_PAGES if s["slug"] != slug][:3]
+    sibling_anchors = [
+        f'piscine {siblings[0]["ville_article"]}',
+        f'recherche de fuite sur bassin {siblings[1]["ville_article"]}' if len(siblings) > 1 else '',
+        f'diagnostic piscine {siblings[2]["ville_article"]}' if len(siblings) > 2 else '',
+    ]
+    sibling_links_html = ', '.join([
+        f'<a href="/detection-fuite/{siblings[i]["slug"]}/" style="color:var(--green);text-decoration:underline;">{sibling_anchors[i]}</a>'
+        for i in range(len(siblings)) if sibling_anchors[i]
+    ])
     faq_schema_entries = []
     for q, a in p["faq_locale"]:
         faq_schema_entries.append(
@@ -4617,10 +4896,12 @@ def page_piscine_ville(p):
     <h3>Types de piscines que nous diagnostiquons {ville_article}</h3>
     <p>{p['types_piscines']}</p>
 
-    <h3>Zones d'intervention {ville_article} et périphérie</h3>
+<h3>Zones d'intervention {ville_article} et périphérie</h3>
     <p>{p['quartiers_zones']}</p>
 
     <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre page <a href="/villes/{p.get('ville').lower().replace(' ', '-').replace('é','e').replace('è','e').replace('ê','e')}/" style="color:var(--c-primary-light);text-decoration:underline;">recherche de fuite à {p['ville']}</a> pour les interventions hors piscine (canalisations encastrées, planchers chauffants, dégâts des eaux).</p>
+
+    <p style="margin-top:1rem;">Vous etes proprietaire dans une autre ville de Gironde ? Voyez aussi nos pages dediees : {sibling_links_html}. Pour une vue d'ensemble de notre service piscine, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine en Gironde</a>.</p>
   </div>
 </section>
 
@@ -4907,6 +5188,7 @@ def gen_sitemap():
     urls += [f'https://recherche-fuite-gironde.fr/guide/{a["slug"]}/' for a in GUIDE_PAGES]
     urls += [f'https://recherche-fuite-gironde.fr/villes/{v["slug"]}/' for v in VILLES]
     urls += [f'https://recherche-fuite-gironde.fr/villes/{v["slug"]}/chemisage/' for v in VILLES]
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/piscine/']
     urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in PISCINE_PAGES]
     urls += [f'https://recherche-fuite-gironde.fr/detection-fuite/{p["slug"]}/' for p in URGENCE_PAGES]
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-apres-compteur/']
@@ -4989,6 +5271,9 @@ def main():
     print('[7/8] Pages villes — chemisage (30)...')
     for v in VILLES:
         write(f'villes/{v["slug"]}/chemisage/index.html', page_ville_chemisage(v))
+
+    print('[7a] Page hub — piscine pillar...')
+    write('detection-fuite/piscine/index.html', page_piscine_hub())
 
     print('[7b] Pages use case — piscine par ville...')
     for p in PISCINE_PAGES:
