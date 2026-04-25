@@ -132,7 +132,7 @@ def form_section(ville_defaut=''):
       </div>
       <div id="form-main-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
       <form data-ajax data-error="form-main-error">
-        <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Nouvelle demandé de devis">
+        <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Nouvelle demande de devis">
         <input type="hidden" name="site_source" value="">
         <div class="form-grid-2" style="margin-bottom:1rem;">
           <div class="form-group">
@@ -179,7 +179,7 @@ def form_section(ville_defaut=''):
           <label class="form-label" for="message">Décrivez votre situation</label>
           <textarea class="form-input form-textarea" id="message" name="message" placeholder="Ex : compteur qui tourne la nuit, tache d'humidité au plafond, sol chaud..." required></textarea>
         </div>
-        <button type="submit" class="btn btn-gold btn-full">Envoyer ma demandé</button>
+        <button type="submit" class="btn btn-gold btn-full">Envoyer ma demande</button>
         <p style="font-size:.8rem;color:rgba(247,246,242,.4);text-align:center;margin-top:.75rem;">Aucune donnée personnelle n'est transmise à des tiers. Réponse sous 24h ouvrées.</p>
       </form>
     </div>
@@ -325,7 +325,7 @@ def page_ville_detection(v):
   <h3>Intervention à {nom}</h3>
   <div id="form-mini-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:.75rem;text-align:center;margin-bottom:.75rem;"><p style="color:#991b1b;font-size:.85rem;margin:0;">Erreur, veuillez r\u00e9essayer.</p></div>
   <form data-ajax data-error="form-mini-error" class="ville-cta-form">
-    <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] demandé détection à {nom}">
+    <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] demande détection à {nom}">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="site_source" value="">
     <div class="form-group" style="margin-bottom:.75rem;">
@@ -357,7 +357,7 @@ def page_ville_detection(v):
       <label class="form-label" for="msg-mini">Votre situation</label>
       <textarea class="form-input form-textarea" id="msg-mini" name="message" placeholder="Décrivez votre problème..." style="min-height:80px;" required></textarea>
     </div>
-    <button type="submit" class="btn btn-green btn-full">Envoyer ma demandé</button>
+    <button type="submit" class="btn btn-green btn-full">Envoyer ma demande</button>
   </form>
 </div>'''
 
@@ -463,7 +463,7 @@ def page_ville_chemisage(v):
   <h3>Chemisage à {nom}</h3>
   <div id="form-mini-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:.75rem;text-align:center;margin-bottom:.75rem;"><p style="color:#991b1b;font-size:.85rem;margin:0;">Erreur, veuillez r\u00e9essayer.</p></div>
   <form data-ajax data-error="form-mini-error" class="ville-cta-form">
-    <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] demandé chemisage à {nom}">
+    <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] demande chemisage à {nom}">
     <input type="hidden" name="ville" value="{nom}">
     <input type="hidden" name="service" value="Chemisage">
     <input type="hidden" name="site_source" value="">
@@ -880,7 +880,7 @@ def page_contact():
       <span>Contact</span>
     </nav>
     <h1>Contactez-nous</h1>
-    <p class="hero-mini-lead">Une question sur nos services ? Un renseignement avant de faire une demandé ? Écrivez-nous, nous vous répondons sous 24h ouvrées.</p>
+    <p class="hero-mini-lead">Une question sur nos services ? Un renseignement avant de faire une demande ? Écrivez-nous, nous vous répondons sous 24h ouvrées.</p>
   </div>
 </section>
 
@@ -889,7 +889,7 @@ def page_contact():
     <div class="section-header-center" style="margin-bottom:2.5rem;">
       <span class="section-eyebrow">Formulaire de contact</span>
       <h2 class="section-title">Envoyez-nous un message</h2>
-      <p class="section-lead" style="margin-bottom:0;">Pour une demandé de devis, utilisez plutôt notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">page devis dédiée</a>.</p>
+      <p class="section-lead" style="margin-bottom:0;">Pour une demande de devis, utilisez plutôt notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">page devis dédiée</a>.</p>
     </div>
 
     <div id="form-contact-error" style="display:none;background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#991b1b;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
@@ -976,7 +976,7 @@ def page_mentions():
       <h2>Propriété intellectuelle</h2>
       <p>L'ensemble du contenu de ce site (textes, visuels, structure) est protégé par le droit d'auteur. Toute reproduction sans autorisation est interdite.</p>
       <h2>Données personnelles</h2>
-      <p>Les données collectées via le formulaire de contact (nom, ville, message) sont utilisées uniquement pour répondre à votre demandé. Elles ne sont jamais transmises à des tiers à des fins commerciales. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.</p>
+      <p>Les données collectées via le formulaire de contact (nom, ville, message) sont utilisées uniquement pour répondre à votre demande. Elles ne sont jamais transmises à des tiers à des fins commerciales. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.</p>
       <h2>Cookies</h2>
       <p>Ce site n'utilise pas de cookies de tracking ou de profilage. Aucun outil d'analyse comportementale n'est actif.</p>
       <h2>Responsabilité</h2>
@@ -1227,7 +1227,7 @@ GUIDE_PAGES = [
 <ul>
 <li><strong>Le type de réseau</strong> : apparent, encastré, enterré ou sous dalle - l'accessibilité conditionne le temps d'intervention</li>
 <li><strong>La technique utilisée</strong> : corrélation acoustique, gaz traceur ou thermographie peuvent être combinées</li>
-<li><strong>La complexité de l'installation</strong> : un réseau ancien ou labyrinthique demandé plus de temps</li>
+<li><strong>La complexité de l'installation</strong> : un réseau ancien ou labyrinthique demande plus de temps</li>
 <li><strong>La distance</strong> : le déplacement en Gironde est inclus dans nos zones d'intervention</li>
 </ul>
 <h2>La prise en charge par l'assurance</h2>
@@ -1290,7 +1290,7 @@ GUIDE_PAGES = [
         "contenu": """<p>Combien coûte reellement une recherche de fuite sur une piscine en Gironde ? La reponse depend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
 
 <h2>Pourquoi le type de bassin déterminé le tarif ?</h2>
-<p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la méthode principale - gaz traceur ou acoustique - s'applique partout de manière similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demandé une inspection camera spécifique aux défauts structurels (osmose, délaminage). Un liner PVC impose colorant fluorescéine et inspection visuelle des soudures. Un bassin béton armé nécessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisée. Ce paramètre technique fait varier notre devis de 30 a 50 pourcent selon les cas.</p>
+<p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la méthode principale - gaz traceur ou acoustique - s'applique partout de manière similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demande une inspection camera spécifique aux défauts structurels (osmose, délaminage). Un liner PVC impose colorant fluorescéine et inspection visuelle des soudures. Un bassin béton armé nécessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisée. Ce paramètre technique fait varier notre devis de 30 a 50 pourcent selon les cas.</p>
 
 <h2>Tarif par type de bassin (2026)</h2>
 
@@ -1357,7 +1357,7 @@ GUIDE_PAGES = [
 <li>Paiement après intervention sur facture, aucun acompte demandé</li>
 </ul>
 
-<p>Obtenez un devis personnalise en decrivant votre situation via notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de demandé de devis</a>, ou consultez directement notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine a Bordeaux</a> ou la <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">page piscine Arcachon</a> si vous etes sur le Bassin.</p>"""
+<p>Obtenez un devis personnalise en decrivant votre situation via notre <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de demande de devis</a>, ou consultez directement notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine a Bordeaux</a> ou la <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">page piscine Arcachon</a> si vous etes sur le Bassin.</p>"""
     },
     {
         "slug": "recherche-fuite-piscine-assurance",
@@ -1447,7 +1447,7 @@ GUIDE_PAGES = [
 <p>La franchise contractuelle s'applique (souvent 150 a 300 euros sur les dégâts des eaux). Dans certains cas, si la fuite n'a pas provoque de dégât des eaux effectif (ex : fuite localisee rapidement sans impact sur les biens), la garantie « recherche de fuite » peut ne pas être activee. Un bon rapport technique, qui documente l'impact potentiel si la fuite n'avait pas été traitee, aide a justifier la prise en charge.</p>
 
 <h2>Besoin d'un diagnostic compatible avec votre assurance ?</h2>
-<p>Nous intervenons sur toute la Gironde avec un rapport technique standardise, accepte par les principaux assureurs. Pour obtenir un devis préalable ou coordonner une intervention avec votre assureur, consultez notre page de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demandé de devis</a> ou directement l'une de nos <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">pages piscine par ville</a> pour plus de détails sur nos méthodes d'intervention par zone géographique. Pour les aspects tarifaires, consultez notre guide dédié <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>.</p>"""
+<p>Nous intervenons sur toute la Gironde avec un rapport technique standardise, accepte par les principaux assureurs. Pour obtenir un devis préalable ou coordonner une intervention avec votre assureur, consultez notre page de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis</a> ou directement l'une de nos <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">pages piscine par ville</a> pour plus de détails sur nos méthodes d'intervention par zone géographique. Pour les aspects tarifaires, consultez notre guide dédié <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>.</p>"""
     },
     {
         "slug": "ma-piscine-perd-de-l-eau-que-faire",
@@ -1801,7 +1801,7 @@ GUIDE_PAGES = [
 <li>Rapport de localisation de fuite</li>
 <li>Attestation de réparation</li>
 <li>Photos si disponibles (zone de fuite, réparation en cours)</li>
-<li>Courrier de demandé explicite d'application de la loi Warsmann</li>
+<li>Courrier de demande explicite d'application de la loi Warsmann</li>
 </ul>
 
 <h3>étape 6 : écrêtement applique sur la facture suivante</h3>
@@ -1812,11 +1812,11 @@ GUIDE_PAGES = [
 <blockquote style="background:var(--c-bg);border-left:4px solid var(--c-primary);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
 <p>[Votre adresse]</p>
 <p>[Date]</p>
-<p>Objet : demandé d'écrêtement de facture d'eau - Loi Warsmann - référence client [numero]</p>
+<p>Objet : demande d'écrêtement de facture d'eau - Loi Warsmann - référence client [numero]</p>
 <p>Madame, Monsieur,</p>
 <p>Suite a votre notification de surconsommation d'eau en date du [date], je vous adresse ci-joint les justificatifs permettant l'application de la loi n° 2011-525 du 17 mai 2011 (dite loi Warsmann) et l'écrêtement de ma facture.</p>
 <p>Je vous confirme que la fuite concernait une canalisation enterrée privative (entre mon compteur d'eau et mon habitation), indétectable a l'oeil nu, comme en atteste le rapport de recherche de fuite établi par [nom de l'entreprise] le [date]. La réparation a été effectuee le [date] et est documentee par l'attestation ci-jointe.</p>
-<p>Conformement a l'article L2224-12-4 du Code général des collectivites territoriales, je vous demandé de bien vouloir plafonner ma facture au double de ma consommation moyenne des trois dernières années, soit [X] m³.</p>
+<p>Conformement a l'article L2224-12-4 du Code général des collectivites territoriales, je vous demande de bien vouloir plafonner ma facture au double de ma consommation moyenne des trois dernières années, soit [X] m³.</p>
 <p>Documents joints : rapport de recherche de fuite, attestation de réparation, photos de la zone.</p>
 <p>Je vous prie d'agreer, Madame, Monsieur, l'expression de mes salutations distinguees.</p>
 </blockquote>
@@ -1830,10 +1830,10 @@ GUIDE_PAGES = [
 <p>Si vous avez laisse passer le délai d'un mois, un recours est toujours possible en sollicitant le mediateur de l'eau ou en saisissant le tribunal judiciaire. Les distributeurs acceptent souvent l'écrêtement après mediation, même hors délai, car le contentieux est coûteux pour eux.</p>
 
 <h3>Cas 3 : plusieurs fuites dans l'année</h3>
-<p>Si vous avez déjà bénéficie d'un écrêtement dans les 5 années précédentes, le distributeur peut contester le caractère exceptionnel de la demandé. Dans ce cas, une expertise contradictoire peut être mise en oeuvre.</p>
+<p>Si vous avez déjà bénéficie d'un écrêtement dans les 5 années précédentes, le distributeur peut contester le caractère exceptionnel de la demande. Dans ce cas, une expertise contradictoire peut être mise en oeuvre.</p>
 
 <h3>Cas 4 : locataire ou propriétaire</h3>
-<p>L'écrêtement s'applique au titulaire du contrat d'eau, qu'il soit propriétaire ou locataire. En location, le locataire demandé l'écrêtement mais doit informer le bailleur (qui est responsable de la réparation definitive si la fuite est sur une canalisation enterrée privative).</p>
+<p>L'écrêtement s'applique au titulaire du contrat d'eau, qu'il soit propriétaire ou locataire. En location, le locataire demande l'écrêtement mais doit informer le bailleur (qui est responsable de la réparation definitive si la fuite est sur une canalisation enterrée privative).</p>
 
 <h2>économies realisables concretes</h2>
 <p>quelques exemples reels de dossiers sur lesquels nous sommes intervenus en Gironde en 2025 :</p>
@@ -1843,7 +1843,7 @@ GUIDE_PAGES = [
 <li>Villa Arcachon, fuite très lente 12 mois non détectée : 240 m³ surconsommation. Facture initiale 960 euros, après écrêtement 420 euros. <strong>économie : 540 euros.</strong></li>
 </ul>
 
-<p>Notre intervention (environ 450 euros HT en moyenne pour la recherche de fuite enterrée) est largement rentabilisee par l'écrêtement dans la majorite des cas. Pour en savoir plus sur notre methodologie gaz traceur, consultez notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée a Bordeaux</a>. Pour les fuites après compteur plus généralement, voir <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur</a>. Pour prendre rendez-vous, utilisez notre formulaire de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demandé de devis gratuit</a>.</p>"""
+<p>Notre intervention (environ 450 euros HT en moyenne pour la recherche de fuite enterrée) est largement rentabilisee par l'écrêtement dans la majorite des cas. Pour en savoir plus sur notre methodologie gaz traceur, consultez notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée a Bordeaux</a>. Pour les fuites après compteur plus généralement, voir <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur</a>. Pour prendre rendez-vous, utilisez notre formulaire de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis gratuit</a>.</p>"""
     },
     {
         "slug": "prix-recherche-fuite-bordeaux",
@@ -1899,7 +1899,7 @@ GUIDE_PAGES = [
 <li>Vous devez fournir une attestation de réparation par un professionnel qualifié dans le mois qui suit la notification de surconsommation par le distributeur</li>
 </ul>
 
-<p>Notre rapport de recherche de fuite mentionne explicitement la localisation enterrée, la méthode de détection (gaz traceur, corrélation) et sert de justificatif pour la demandé d'écrêtement.</p>
+<p>Notre rapport de recherche de fuite mentionne explicitement la localisation enterrée, la méthode de détection (gaz traceur, corrélation) et sert de justificatif pour la demande d'écrêtement.</p>
 
 <h2>Ce qui est inclus dans notre prestation</h2>
 <ul>
@@ -1920,7 +1920,9 @@ GUIDE_PAGES = [
         "title": "Réparation d'une fuite de liner piscine : méthodes et coûts",
         "title_seo": "Réparation fuite liner piscine techniques durée prix Gironde",
         "desc": "Comment réparer une fuite sur liner piscine PVC : rustine subaquatique, soudure thermique, remplacement complet. Coûts, durée de vie, garantie.",
-        "contenu": """<p>Une fois la fuite localisée par notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">diagnostic à la fluorescéine</a> ou par les autres méthodes utilisées sur les piscines girondines, la question suivante tombe immédiatement : comment la réparer, à quel coût et avec quelle durée de vie ? Cet article détaille les trois grandes familles de réparation d'un liner PVC fuyard, les configurations où chacune est pertinente et les ordres de grandeur tarifaires constatés en Gironde en 2026.</p>
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/reparation-liner-piscine.webp" alt="Piscine privée avec liner bleu en Gironde avant réparation d'une fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Une fois la fuite localisée par notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">diagnostic à la fluorescéine</a> ou par les autres méthodes utilisées sur les piscines girondines, la question suivante tombe immédiatement : comment la réparer, à quel coût et avec quelle durée de vie ? Cet article détaille les trois grandes familles de réparation d'un liner PVC fuyard, les configurations où chacune est pertinente et les ordres de grandeur tarifaires constatés en Gironde en 2026.</p>
 
 <h2>Diagnostic préalable : que dit l\'état du liner ?</h2>
 <p>Avant toute réparation, il faut évaluer l\'état général du liner. Une fuite ponctuelle sur un liner de moins de 10 ans avec une teinte uniforme et une bonne souplesse mérite une réparation locale. À l\'inverse, une fuite sur un liner de plus de 18-20 ans présentant plis figés, points de tension, décoloration jaunâtre ou bleu pâle, plis qui craquellent au toucher : la réparation locale est techniquement possible mais économiquement absurde, car la prochaine fuite arrive sous 6 à 24 mois.</p>
@@ -2179,7 +2181,7 @@ def page_devis():
     <nav class="breadcrumb">
       <a href="/">Accueil</a>
       <span>&rsaquo;</span>
-      <span>demandé de devis</span>
+      <span>demande de devis</span>
     </nav>
     <span class="badge badge-gold" style="margin-bottom:1rem;">Gratuit &bull; Sans engagement &bull; Réponse sous 24h</span>
     <h1>Demandez votre devis gratuit</h1>
@@ -2221,10 +2223,10 @@ def page_devis():
         </div>
       </div>
       <div class="devis-form" style="background:var(--green-dark);padding:2rem;border-radius:var(--r-lg);">
-        <h2 style="font-family:var(--f-title);font-size:1.3rem;font-weight:700;color:var(--text-inv);margin-bottom:1.5rem;">Votre demandé de devis</h2>
+        <h2 style="font-family:var(--f-title);font-size:1.3rem;font-weight:700;color:var(--text-inv);margin-bottom:1.5rem;">Votre demande de devis</h2>
         <div id="form-devis-error" style="display:none;background:rgba(239,68,68,.2);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:1rem;text-align:center;margin-bottom:1rem;"><p style="color:#fecaca;font-size:.9rem;margin:0;">Une erreur est survenue. Veuillez r\u00e9essayer ou nous appeler directement.</p></div>
         <form data-ajax data-error="form-devis-error">
-          <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] demandé de devis">
+          <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] demande de devis">
           <input type="hidden" name="site_source" value="">
           <div class="form-grid-2" style="margin-bottom:1rem;">
             <div class="form-group">
@@ -2271,7 +2273,7 @@ def page_devis():
             <label class="form-label" for="message">Décrivez votre situation</label>
             <textarea class="form-input form-textarea" id="message" name="message" placeholder="Ex : compteur qui tourne la nuit, tache d'humidité au plafond, sol chaud..." required></textarea>
           </div>
-          <button type="submit" class="btn btn-gold btn-full">Envoyer ma demandé</button>
+          <button type="submit" class="btn btn-gold btn-full">Envoyer ma demande</button>
           <p style="font-size:.8rem;color:rgba(247,246,242,.4);text-align:center;margin-top:.75rem;">Aucune donnée personnelle n'est transmise à des tiers.</p>
         </form>
       </div>
@@ -2303,7 +2305,7 @@ VILLES_PREMIUM = {
         "quartiers": "Les Chartrons, Bacalan, Centre-Ville, Saint-Pierre, Saint-Michel, La Victoire, Les Capucins, Saint-Jean, Nansouty, Saint-Genès, Saint-Seurin, Caudéran, Saint-Augustin, La Bastide, Belcier, Le Lac, Bassins à Flot, Mériadeck",
         "zones_voisines": "Mérignac, Pessac, Talence, Le Bouscat, Bègles, Caudéran",
         "spécificités": [
-            ("Immeubles haussmanniens et copropriétés anciennes", "Le centre historique bordelais abrite un patrimoine classé à l'UNESCO (Port de la Lune). Les immeubles du Triangle d'Or, du cours de l'Intendance ou de la place Gambetta présentent des colonnes montantes en fonte ou en plomb parfois centenaires. La recherche de fuite y demandé de combiner écoute électro-acoustique et thermographie pour éviter de dégrader les finitions d'époque (moulures, parquets Versailles, cheminées marbre)."),
+            ("Immeubles haussmanniens et copropriétés anciennes", "Le centre historique bordelais abrite un patrimoine classé à l'UNESCO (Port de la Lune). Les immeubles du Triangle d'Or, du cours de l'Intendance ou de la place Gambetta présentent des colonnes montantes en fonte ou en plomb parfois centenaires. La recherche de fuite y demande de combiner écoute électro-acoustique et thermographie pour éviter de dégrader les finitions d'époque (moulures, parquets Versailles, cheminées marbre)."),
             ("Pierre calcaire bordelaise et humidité", "La pierre de Frontenac ou de Bourg, très présente dans les façades et murs de refend, est poreuse. Une fuite cachée provoque rapidement des auréoles, du salpêtre, voire des dégradations structurelles. Notre diagnostic localise la source avant que l'humidité ne se diffuse dans les matériaux."),
             ("Échoppes bordelaises et maisons individuelles", "Aux Chartrons, à Saint-Genès ou à Caudéran, les échoppes traditionnelles (maison basse en pierre) ont souvent vu leurs réseaux d'évacuation refaits en PVC moderne branchés sur des canalisations fonte d'origine. Les points de raccordement sont les zones de fuite les plus fréquentes que nous identifions."),
             ("Réseaux enterrés et sols argileux", "Une partie du territoire bordelais repose sur des sols argileux sensibles au retrait-gonflement. Ces mouvements de terrain peuvent désaxer les canalisations d'évacuation sous dalle ou les alimentations enterrées depuis le regard de compteur. Le gaz traceur reste la méthode la plus efficace dans ces configurations.")
@@ -2360,7 +2362,7 @@ VILLES_PREMIUM = {
             ("Résidences secondaires et dégâts en hivernage", "De nombreuses propriétés sont occupées quelques semaines par an. Une fuite non détectée à l'automne peut provoquer des dégâts considérables avant le retour des propriétaires au printemps. Nous intervenons en contrat d'entretien préventif pour ce type de configuration."),
             ("Canalisations enterrées en sable et mouvements", "Le sous-sol sableux d'Arcachon offre une excellente portance mais subit des micro-tassements au gré des variations hygrométriques. Les raccords des canalisations enterrées (alimentation, évacuation, arrosage) peuvent se désaxer lentement et provoquer des fuites progressives.")
         ],
-        "cas_frequent": "Cas récurrent arcachonais : villa de la Ville d'Hiver, propriétaires résidents secondaires vivant à Paris, retour pour les vacances de Pâques. Ils découvrent en ouvrant la maison une humidité au sol du sous-sol et au pied de la cuisine. Notre diagnostic : thermographie pour cartographier la zone humide, écoute acoustique sur la canalisation de cuivre d'alimentation, humidimètre pour mesurer l'étendue. Fuite identifiée sur raccord cuivre au niveau de la traversée mur, corrodée par l'air salin. Durée sans détection estimée à 4-6 mois. Consommation d'eau perdue : environ 180 m³. Rapport utilisable pour demandé d'écrêtement auprès de la Régie des eaux et pour la déclaration à l'assureur.",
+        "cas_frequent": "Cas récurrent arcachonais : villa de la Ville d'Hiver, propriétaires résidents secondaires vivant à Paris, retour pour les vacances de Pâques. Ils découvrent en ouvrant la maison une humidité au sol du sous-sol et au pied de la cuisine. Notre diagnostic : thermographie pour cartographier la zone humide, écoute acoustique sur la canalisation de cuivre d'alimentation, humidimètre pour mesurer l'étendue. Fuite identifiée sur raccord cuivre au niveau de la traversée mur, corrodée par l'air salin. Durée sans détection estimée à 4-6 mois. Consommation d'eau perdue : environ 180 m³. Rapport utilisable pour demande d'écrêtement auprès de la Régie des eaux et pour la déclaration à l'assureur.",
         "methodes_focus": "À Arcachon, où l'air salin, les résidences secondaires et le patrimoine historique imposent des contraintes particulières, notre méthodologie s'adapte en deux temps. Contrôle systématique préalable du local technique (corrosion des cuivres et inox par l'air salin) car la fuite vient souvent d'un équipement, pas du bâti. Puis thermographie infrarouge et humidimètre pour distinguer une vraie fuite d'une remontée d'humidité par capillarité (fréquente en sous-sol au bord du Bassin). L'écoute électro-acoustique cible les canalisations anciennes en fonte ou cuivre d'origine des villas de la Ville d'Hiver et du Moulleau. Le gaz traceur reste notre outil de référence pour les canalisations enterrées en sol sableux, qui subissent micro-tassements permanents.",
         "faq_locale": [
             ("Ma résidence secondaire à Arcachon a eu une fuite durant l'hiver, qui paye ?",
@@ -2381,7 +2383,7 @@ VILLES_PREMIUM = {
         "quartiers": "Libourne Centre, Vieux Libourne, La Ballastière, Verdet, Fontenelle",
         "zones_voisines": "Saint-Émilion, Pomerol, Fronsac, Saint-Denis-de-Pile, Coutras, Castillon-la-Bataille, Branne",
         "spécificités": [
-            ("Chais et propriétés viticoles anciennes", "Les chais des grands domaines (Saint-Émilion, Pomerol) ont été agrandis à plusieurs reprises sur un bâti parfois médiéval. Les réseaux hydrauliques y sont souvent hétérogènes : fonte ancienne, cuivre des années 50, PVC moderne. La localisation d'une fuite dans ces configurations demandé expérience et méthode."),
+            ("Chais et propriétés viticoles anciennes", "Les chais des grands domaines (Saint-Émilion, Pomerol) ont été agrandis à plusieurs reprises sur un bâti parfois médiéval. Les réseaux hydrauliques y sont souvent hétérogènes : fonte ancienne, cuivre des années 50, PVC moderne. La localisation d'une fuite dans ces configurations demande expérience et méthode."),
             ("Sol argileux et bastides médiévales", "Le Libournais repose sur des sols calcaires et argileux sujets aux mouvements saisonniers. Les bastides médiévales de Libourne et des environs ont des fondations peu profondes, sensibles à ces variations. Les canalisations enterrées sont particulièrement exposées."),
             ("Maisons bourgeoises du XIXe siècle", "Le centre de Libourne compte de nombreuses maisons bourgeoises de négociants en vins, avec des chemins d'évacuation complexes depuis les étages jusqu'aux caves voûtées. La thermographie et le gaz traceur permettent de suivre le trajet de la fuite sans descendre en cave à chaque étape."),
             ("Proximité Dordogne et nappe phréatique", "La position au confluent de deux rivières place la nappe phréatique proche de la surface. Les caves et sous-sols des propriétés anciennes sont sensibles aux remontées capillaires, qu'il faut distinguer d'une vraie fuite par des mesures d'humidimètre méthodiques.")
@@ -2684,7 +2686,7 @@ def page_ville_detection_premium(v):
     {{
       "@type": "Question",
       "name": "Intervenez-vous sous 24h {ville_article} ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, pour les fuites actives importantes sur {ville} et les communes voisines, nous intervenons sous 24 heures. Un technicien vous rappelle dans l'heure après votre demandé pour qualifier la situation et caler un rendez-vous prioritaire." }}
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, pour les fuites actives importantes sur {ville} et les communes voisines, nous intervenons sous 24 heures. Un technicien vous rappelle dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous prioritaire." }}
     }},
     {{
       "@type": "Question",
@@ -2780,7 +2782,7 @@ def page_ville_detection_premium(v):
     <p>Entre 300 et 900 euros HT selon la méthode employée et la complexité du réseau. Un devis fixe est communiqué avant intervention, aucun déplacement facturé si vous décidez de ne pas donner suite. Souvent remboursable par votre assurance habitation au titre de la garantie recherche de fuite.</p>
 
     <h3>Intervenez-vous sous 24h {ville_article} ?</h3>
-    <p>Oui, pour les fuites actives importantes sur {ville} et les communes voisines, nous intervenons sous 24 heures. Un technicien vous rappelle dans l'heure après votre demandé pour qualifier la situation et caler un rendez-vous prioritaire.</p>
+    <p>Oui, pour les fuites actives importantes sur {ville} et les communes voisines, nous intervenons sous 24 heures. Un technicien vous rappelle dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous prioritaire.</p>
 
     <h3>Le rapport est-il reconnu par les assurances ?</h3>
     <p>Oui, notre rapport technique (photos, méthodes employées, point de fuite localisé, préconisations) est accepté par les principaux assureurs français. En copropriété, il facilite l'application de la convention IRSI pour les sinistres dégâts des eaux jusqu'à 5 000 euros HT.</p>
@@ -2859,7 +2861,7 @@ def page_urgence_ville(p):
     {{
       "@type": "Question",
       "name": "Intervenez-vous vraiment sous 24h {ville_article} ?",
-      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, pour les fuites actives importantes sur Bordeaux et sa métropole, nous intervenons sous 24 heures, parfois le jour même selon l'horaire de votre appel. Un technicien vous recontacte dans l'heure après votre demandé pour qualifier la situation et caler un rendez-vous." }}
+      "acceptedAnswer": {{ "@type": "Answer", "text": "Oui, pour les fuites actives importantes sur Bordeaux et sa métropole, nous intervenons sous 24 heures, parfois le jour même selon l'horaire de votre appel. Un technicien vous recontacte dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous." }}
     }},
     {{
       "@type": "Question",
@@ -2980,7 +2982,7 @@ def page_urgence_ville(p):
     </figure>
 
     <h3>Étape 1 : qualification téléphonique dans l'heure</h3>
-    <p>Dès votre demandé via le formulaire ou notre ligne directe, un technicien vous rappelle dans l'heure qui suit (horaires ouvrés). Il pose les questions clés : depuis quand la fuite est active, avez-vous coupé l'eau, où sont les premiers dégâts visibles, y a-t-il un risque électrique ou un impact sur des voisins. Cette qualification permet d'engager les bons outils et d'estimer la durée d'intervention.</p>
+    <p>Dès votre demande via le formulaire ou notre ligne directe, un technicien vous rappelle dans l'heure qui suit (horaires ouvrés). Il pose les questions clés : depuis quand la fuite est active, avez-vous coupé l'eau, où sont les premiers dégâts visibles, y a-t-il un risque électrique ou un impact sur des voisins. Cette qualification permet d'engager les bons outils et d'estimer la durée d'intervention.</p>
 
     <h3>Étape 2 : déplacement prioritaire</h3>
     <p>Un créneau est bloqué dans les 24 heures, en général le jour même ou le lendemain matin selon l'heure de votre appel. Le technicien arrive avec l'ensemble du matériel : thermographie infrarouge, gaz traceur, écoute électro-acoustique, caméra endoscopique, humidimètre. Rien n'est à prévoir de votre côté.</p>
@@ -2998,7 +3000,7 @@ def page_urgence_ville(p):
     <h2>Questions fréquentes sur l'urgence fuite d'eau {ville_article}</h2>
 
     <h3>Intervenez-vous vraiment sous 24 heures {ville_article} ?</h3>
-    <p>Oui, pour les fuites actives importantes sur Bordeaux et sa métropole, nous intervenons sous 24 heures, parfois le jour même selon l'horaire de votre appel. Un technicien vous recontacte dans l'heure après votre demandé pour qualifier la situation et caler un rendez-vous.</p>
+    <p>Oui, pour les fuites actives importantes sur Bordeaux et sa métropole, nous intervenons sous 24 heures, parfois le jour même selon l'horaire de votre appel. Un technicien vous recontacte dans l'heure après votre demande pour qualifier la situation et caler un rendez-vous.</p>
 
     <h3>Que faire en attendant l'arrivée du technicien ?</h3>
     <p>Coupez immédiatement l'arrivée d'eau générale au compteur. Éloignez les appareils électriques et le mobilier de la zone inondée. Ne touchez pas aux tableaux électriques si le sol est mouillé. Placez des seaux et des bâches. Si vous êtes en copropriété, prévenez le gardien ou le syndic.</p>
@@ -3166,7 +3168,7 @@ def page_piscine_hub():
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <h2>Notre méthode pour piscines en Gironde</h2>
-    <p>Chaque type de bassin demandé une combinaison de méthodes adaptees. Voici le protocole que nos techniciens deploient sur le terrain.</p>
+    <p>Chaque type de bassin demande une combinaison de méthodes adaptees. Voici le protocole que nos techniciens deploient sur le terrain.</p>
 
     <div class="grid-3" style="margin-top:1.5rem;">
       <div class="arg-num-card">
@@ -4046,7 +4048,7 @@ def page_chemisage_bordeaux():
     <p>Le syndic reçoit plusieurs signalements de fuites recurrentes dans la même zone de l'immeuble (plafonds tachés au 3e et 4e étage, par exemple). Il commande un pre-diagnostic par recherche de fuite non destructive (notre prestation). Notre rapport etablit la cause : colonne fonte fatiguee, fuites multiples sur 4 étages, réparation ponctuelle non durable.</p>
 
     <h3>étape 2 : devis chemisage et preparation AG</h3>
-    <p>Le syndic demandé plusieurs devis (au moins 2 obligatoires selon la loi). Notre devis chemisage chiffre précisément le lineaire a traiter, la technique retenue (polymerisation UV ou vapeur), les garanties, le planning. Le devis est inscrit a l'ordre du jour de la prochaine AG ordinaire avec toute la documentation technique.</p>
+    <p>Le syndic demande plusieurs devis (au moins 2 obligatoires selon la loi). Notre devis chemisage chiffre précisément le lineaire a traiter, la technique retenue (polymerisation UV ou vapeur), les garanties, le planning. Le devis est inscrit a l'ordre du jour de la prochaine AG ordinaire avec toute la documentation technique.</p>
 
     <h3>étape 3 : vote en assemblee générale ordinaire</h3>
     <p>Les travaux de chemisage sur parties communes se votent à la majorite de l'article 25 (majorite absolue de tous les copropriétaires, présents/représentés/absents). Si le vote article 25 echoue mais recueille au moins un tiers des voix, un second vote immédiat à la majorite simple de l'article 24 peut être organisé dans la même AG. Cette procédure articulée en deux temps évité de repasser par une AG extraordinaire.</p>
@@ -4340,7 +4342,7 @@ def page_canalisation_enterree_bordeaux():
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <h2>Quartiers de Bordeaux ou nous intervenons le plus sur canalisation enterrée</h2>
-    <p>Certains quartiers concentrent les demandés pour fuite enterrée en raison de leur typologie bâtie et de leur environnement paysager.</p>
+    <p>Certains quartiers concentrent les demandes pour fuite enterrée en raison de leur typologie bâtie et de leur environnement paysager.</p>
 
     <div class="grid-3" style="margin-top:1.5rem;">
       <div class="arg-num-card">
@@ -4623,7 +4625,7 @@ def page_fuite_apres_compteur():
     </ul>
 
     <h3>Ce que contient notre rapport</h3>
-    <p>Notre rapport de localisation mentionne explicitement : la nature de la canalisation concernée, sa localisation enterrée, la méthode de détection employée (gaz traceur par exemple pour signifier que la fuite n'était pas détectable visuellement), la date et les photos de l'intervention. Ce document est accepté par Suez, la Régie des eaux de Bordeaux Métropole et les autres distributeurs du département de la Gironde dans le cadre d'une demandé d'écrêtement.</p>
+    <p>Notre rapport de localisation mentionne explicitement : la nature de la canalisation concernée, sa localisation enterrée, la méthode de détection employée (gaz traceur par exemple pour signifier que la fuite n'était pas détectable visuellement), la date et les photos de l'intervention. Ce document est accepté par Suez, la Régie des eaux de Bordeaux Métropole et les autres distributeurs du département de la Gironde dans le cadre d'une demande d'écrêtement.</p>
   </div>
 </section>
 
@@ -4730,7 +4732,7 @@ PISCINE_PAGES = [
         "types_piscines": "À Mérignac, environ 80 pourcent des piscines que nous diagnostiquons sont des bassins enterrés avec liner PVC 75/100 ou 85/100 d'épaisseur, de format standard 4×8 ou 5×10 mètres. On trouve aussi des coques polyester coco des années 1990-2000, souvent installées dans les lotissements de Capeyron ou Beutre, et plus rarement des piscines béton projeté récentes dans les maisons haut de gamme du Chemin Long. Les piscines hors-sol et semi-enterrées sont minoritaires mais présentes dans les jardins plus récents de Beaudésert.",
         "quartiers_zones": "Les quartiers à forte densité de piscines à Mérignac sont Arlac (pavillons 1970-1990 avec grands terrains), Capeyron (résidentiel familial des années 1980), Chemin Long et Beutre (terrains plus spacieux, piscines plus grandes), Les Eyquems et Beaudésert (pavillons plus récents). La proximité de l'aéroport concentre également des logements de location saisonnière avec piscines peu entretenues.",
         "spécificités": [
-            ("Piscines liner PVC en fin de première vie (25-35 ans)", "La majorité des liners que nous rencontrons à Mérignac ont été posés entre 1985 et 1995. À cet âge, le PVC perd sa plasticité : il se rigidifie, les plis aux angles se figent et se fissurent, les soudures des coins et au droit du skimmer cèdent par fatigue. La recherche de fuite sur ces liners demandé un colorant fluorescéine précis et une observation en apnée ou à la caméra, car les perforations sont souvent punctiformes (0,5 à 2 mm)."),
+            ("Piscines liner PVC en fin de première vie (25-35 ans)", "La majorité des liners que nous rencontrons à Mérignac ont été posés entre 1985 et 1995. À cet âge, le PVC perd sa plasticité : il se rigidifie, les plis aux angles se figent et se fissurent, les soudures des coins et au droit du skimmer cèdent par fatigue. La recherche de fuite sur ces liners demande un colorant fluorescéine précis et une observation en apnée ou à la caméra, car les perforations sont souvent punctiformes (0,5 à 2 mm)."),
             ("Joints de pièces à sceller desséchés", "Dans ces piscines installées il y a 25-35 ans, les joints mastic entre les pièces à sceller (skimmer, buses de refoulement, prise balai, bonde de fond) et le liner ou le béton sont souvent totalement desséchés. Nous identifions cette catégorie de fuite par injection de colorant au pourtour immédiat de chaque pièce et observation du cheminement. Remise en étanchéité par silicone piscine ou remplacement de bride après localisation."),
             ("Canalisations PVC d'alimentation vieillissantes", "Les tuyaux PVC collés de 50 mm ou 63 mm qui alimentent skimmer et bonde de fond ont typiquement 25-35 ans sur les piscines du parc immobilier mérignacais. Les raccords collés subissent des chocs thermiques et des mouvements du terrain. Notre écoute électro-acoustique et le gaz traceur localisent précisément le raccord défectueux, souvent à 2-5 mètres sous la dalle du local technique ou sous la plage."),
             ("Proximité aéroport et vibrations sol", "Certains quartiers proches de l'aéroport de Mérignac (Arlac, Capeyron sud, zones de Bersol voisines) subissent des vibrations régulières du sol liées au trafic aérien et aux installations militaires. Sur la durée, cela sollicite les raccords des canalisations enterrées. Nos techniciens, habitués à ce contexte, savent cibler les zones de contrainte mécanique accrue lors du diagnostic.")
@@ -4740,7 +4742,7 @@ PISCINE_PAGES = [
             ("Ma piscine à Mérignac a 30 ans, vaut-il mieux rechercher la fuite ou tout refaire ?",
              "Ça dépend. Si la fuite est isolée (un joint de skimmer, un raccord de canalisation), la réparation coûte 200 à 800 euros et prolonge le bassin de 10-15 ans. Si le liner est généralisé en fin de vie (plis multiples, soudures cédées, décolorations), un changement de liner s'impose (3 000 à 6 000 euros selon la taille). Notre diagnostic vous donne les éléments objectifs pour trancher : rapport complet sur l'état du liner et des pièces à sceller, avec préconisation claire."),
             ("Intervenez-vous les week-ends à Mérignac pendant la saison estivale ?",
-             "Oui, du lundi au samedi, avec des créneaux prioritaires pour les piscines dont la fuite est active et importante (plus de 5 cm par jour). En saison haute (juin à septembre), nous organisons systématiquement des tournées dédiées piscines pour répondre sous 48 à 72 heures aux demandés de la métropole bordelaise."),
+             "Oui, du lundi au samedi, avec des créneaux prioritaires pour les piscines dont la fuite est active et importante (plus de 5 cm par jour). En saison haute (juin à septembre), nous organisons systématiquement des tournées dédiées piscines pour répondre sous 48 à 72 heures aux demandes de la métropole bordelaise."),
             ("Ma piscine Mérignac perd 1 cm par jour : urgent ou pas ?",
              "1 cm/jour correspond à une perte d'environ 600 litres pour une piscine 8×4 mètres. À l'échelle d'un été, c'est environ 60 m³ d'eau perdus, soit une facture supplémentaire de 200 à 400 euros en zone Suez Bordeaux Métropole. Économiquement, localiser et réparer la fuite se rentabilise en une saison. Techniquement, une fuite non traitée peut saturer les terres autour du bassin, provoquer un tassement et aggraver le problème.")
         ],
@@ -4796,7 +4798,7 @@ PISCINE_PAGES = [
         "spécificités": [
             ("Sol sableux et désaxement des raccords enterrés", "La Teste-de-Buch est entièrement construite sur un sol sablonneux fin typique du bassin d'Arcachon. Les canalisations enterrées PVC collées subissent des micro-mouvements différentiels permanents, accélérés par le ballet des racines de pins et les variations hygrométriques saisonnières. Résultat : les raccords PVC de 15 à 25 ans d'âge cèdent avec une fréquence sensiblement plus élevée qu'en sol argileux. Notre gaz traceur est l'outil de référence sur ces configurations."),
             ("Nappe phréatique haute par endroits", "Certains quartiers de La Teste (notamment en bordure du Bassin ou dans les zones lagunaires de Cazaux) présentent une nappe phréatique proche de la surface, parfois à moins d'un mètre. Cela interdit la vidange complète d'une piscine sans risque de soulèvement du bassin (effet flotteur). C'est pourquoi le diagnostic sans vidange que nous pratiquons est ici quasi obligatoire : aucune autre méthode n'est envisageable dans de nombreux cas."),
-            ("Résidences secondaires et usage saisonnier", "Comme Arcachon voisine, La Teste compte une proportion significative de résidences secondaires et de résidences de tourisme (locations saisonnières). Les piscines sont souvent peu entretenues hors saison, avec des remises en service au printemps qui révèlent les fuites accumulées pendant l'hiver. Notre pic de demandé sur La Teste est entre avril et juin, suivi d'un pic estival sur les propriétaires résidents."),
+            ("Résidences secondaires et usage saisonnier", "Comme Arcachon voisine, La Teste compte une proportion significative de résidences secondaires et de résidences de tourisme (locations saisonnières). Les piscines sont souvent peu entretenues hors saison, avec des remises en service au printemps qui révèlent les fuites accumulées pendant l'hiver. Notre pic de demande sur La Teste est entre avril et juin, suivi d'un pic estival sur les propriétaires résidents."),
             ("Pins maritimes et racines envahissantes", "L'environnement forestier de pins maritimes typique du bassin (Cazaux, Pléneau) place régulièrement les piscines à moins de 5 à 10 mètres de grands arbres. Les racines peuvent à terme venir solliciter les canalisations enterrées, soit en les désaxant, soit en pénétrant des raccords défectueux. Nous identifions ces configurations via caméra endoscopique et recommandons parfois un traitement racinaire préventif.")
         ],
         "cas_frequent": "Cas récurrent à La Teste : pavillon de lotissement à Cazaux, piscine 8×4 mètres liner ou coque installée autour de 2005-2010, propriétaire qui note après l'hiver une baisse de niveau anormale alors que la piscine était couverte. Nos pistes : test de coupure sur les canalisations enterrées (première cause en sol sableux), diagnostic liner en cas d'usage intense l'été précédent, puis vérification du local technique. Dans 50 pourcent des cas, la fuite est localisée sur le réseau enterré à 3-8 mètres du bassin, au niveau d'un raccord PVC désaxé par le sable.",
@@ -4886,7 +4888,7 @@ PISCINE_PAGES = [
         "cp": "33110",
         "zones_voisines": "Bordeaux, Caudéran, Bruges, Eysines, Mérignac",
         "hero_image_alt": "Piscine traditionnelle dans un jardin mature du Bouscat près du Parc Bordelais, zone d'intervention recherche de fuite",
-        "intro_unique": "Le Bouscat, ville résidentielle bourgeoise collée à Bordeaux, concentre un parc de piscines relativement ancien dans ses quartiers les plus cossus : Parc Bordelais, La Châtaigneraie, Bourran. Beaucoup de bassins ont été installés dans les années 1970-1990 au cœur de grands jardins matures, aujourd'hui caractérisés par la proximité d'arbres développés dont les systèmes racinaires sollicitent les canalisations enterrées. Ce contexte demandé une approche diagnostiqué particulière.",
+        "intro_unique": "Le Bouscat, ville résidentielle bourgeoise collée à Bordeaux, concentre un parc de piscines relativement ancien dans ses quartiers les plus cossus : Parc Bordelais, La Châtaigneraie, Bourran. Beaucoup de bassins ont été installés dans les années 1970-1990 au cœur de grands jardins matures, aujourd'hui caractérisés par la proximité d'arbres développés dont les systèmes racinaires sollicitent les canalisations enterrées. Ce contexte demande une approche diagnostiqué particulière.",
         "types_piscines": "Les piscines bouscataises se répartissent entre plusieurs profils : bassins béton armé classiques des années 1970-1980 (40 pourcent environ), coques polyester des années 1990-2010 posées en rénovation de bassins plus anciens (25 pourcent), liners PVC modernes sur bassins existants (20 pourcent), et quelques couloirs de nage ou piscines cintrées dans les jardins étroits de maisons bourgeoises (15 pourcent). quelques piscines de caractère à la limite de Caudéran, avec margelles en pierre de Frontenac et décoration soignée.",
         "quartiers_zones": "Les secteurs à forte densité sont Parc Bordelais (hôtels particuliers et grandes propriétés avec bassins historiques), La Châtaigneraie (résidentiel familial avec grands jardins), Bourran (quartier cossu aux frontières de Caudéran), Parc Rivière et Croix de Laubrescas (plus pavillonnaire récent). Les maisons bourgeoises des années 1910-1930 reconverties en résidences familiales présentent souvent des piscines ajoutées dans les années 1980 sans étude de sol contemporaine.",
         "spécificités": [
@@ -4934,6 +4936,14 @@ def page_fluoresceine_piscine_bordeaux():
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un devis fluorescéine</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/piscine-fluoresceine-bordeaux.webp" alt="Piscine privée à eau bleue claire en Gironde, contexte d\'application du diagnostic à la fluorescéine" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
   </div>
 </section>
 
@@ -5210,6 +5220,14 @@ def page_thermographie_infrarouge_bordeaux():
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un diagnostic thermographie</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/thermographie-fuite-bordeaux.webp" alt="Intérieur de maison contemporaine à Bordeaux avec plancher en parquet, contexte d\'intervention thermographie infrarouge sur plancher chauffant" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
   </div>
 </section>
 
@@ -5597,13 +5615,7 @@ def page_piscine_ville(p):
 <h3>Zones d'intervention {ville_article} et périphérie</h3>
     <p>{p['quartiers_zones']}</p>
 
-    <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre <a href="/villes/{p['slug'].replace('piscine-', '')}/" style="color:var(--c-primary-light);text-decoration:underline;">gamme complète de recherche de fuite à {p['ville']}</a> (canalisations encastrées, planchers chauffants, dégâts des eaux, urgence). Pour les tarifs, voir notre guide <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--c-primary-light);text-decoration:underline;">prix d'une recherche de fuite à Bordeaux</a>.</p>
-
-<p style="margin-top:1rem;">Vous etes propriétaire dans une autre ville de Gironde ? Voyez aussi nos pages dédiées : {sibling_links_html}. Pour une vue d'ensemble de notre service piscine, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine en Gironde</a>.</p>
-
-    <p style="margin-top:1rem;">Avant de nous appeler, vous pouvez d'abord vérifier si votre piscine fuit reellement ou s'il s'agit d'évaporation normale : voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a> avec les taux mensuels en Gironde et le protocole du test du seau.</p>
-
-    <p style="margin-top:1rem;">Pour le détail technique de notre méthode de localisation par colorant, voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a>. Une fois la fuite identifiée, consultez notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d'une fuite de liner piscine</a> qui présente les options (rustine, soudure thermique, remplacement complet) et leurs coûts en Gironde.</p>
+    <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre <a href="/villes/{p['slug'].replace('piscine-', '')}/" style="color:var(--c-primary-light);text-decoration:underline;">gamme complète de recherche de fuite à {p['ville']}</a> (canalisations encastrées, planchers chauffants, dégâts des eaux, urgence).</p>
   </div>
 </section>
 
@@ -5613,7 +5625,7 @@ def page_piscine_ville(p):
     <p>Avant de parler de fuite, il faut écarter l'évaporation naturelle. En Gironde, une piscine extérieure sans abri perd en moyenne <strong>3 à 5 mm par jour en été</strong> (juin à septembre) et <strong>0 à 2 mm par jour au printemps et à l'automne</strong>. Au-delà, surtout si la perte dépasse 1 cm par jour, une fuite est probable.</p>
 
     <h3>Le test du seau, première étape gratuite</h3>
-    <p>Posez un seau rempli d'eau sur la première marche de votre piscine (pour qu'il soit à la même température). Marquez au feutre le niveau intérieur du seau et le niveau de la piscine sur la paroi. Laissez 24 à 48 heures sans baignade, sans remise à niveau automatique et sans pluie. Si le seau et la piscine baissent de la même hauteur, c'est de l'évaporation. Si la piscine baisse nettement plus que le seau, vous avez une fuite et il est temps de nous contacter.</p>
+    <p>Posez un seau rempli d'eau sur la première marche de votre piscine (pour qu'il soit à la même température). Marquez au feutre le niveau intérieur du seau et le niveau de la piscine sur la paroi. Laissez 24 à 48 heures sans baignade, sans remise à niveau automatique et sans pluie. Si le seau et la piscine baissent de la même hauteur, c'est de l'évaporation. Si la piscine baisse nettement plus que le seau, vous avez une fuite et il est temps de nous contacter. Pour les taux d'évaporation mensuels en Gironde et un protocole plus rigoureux, voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a>.</p>
 
     <h3>Signes qui ne trompent pas</h3>
     <ul>
@@ -5644,7 +5656,7 @@ def page_piscine_ville(p):
         <span class="arg-num">01</span>
         <div class="arg-num-content">
           <h3>Colorant fluorescéine</h3>
-          <p>Un colorant fluorescent non toxique (de qualité alimentaire) est injecté à la seringue près des zones suspectes : skimmer, buses de refoulement, bonde de fond, fissures visibles. La filtration à l'arrêt, le colorant est aspiré vers la fuite et révèle son parcours exact. Méthode rapide pour les fuites de l'enceinte du bassin.</p>
+          <p>Un colorant fluorescent non toxique (de qualité alimentaire) est injecté à la seringue près des zones suspectes : skimmer, buses de refoulement, bonde de fond, fissures visibles. La filtration à l'arrêt, le colorant est aspiré vers la fuite et révèle son parcours exact. Méthode rapide pour les fuites de l'enceinte du bassin. <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Voir le protocole détaillé</a>.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5696,7 +5708,7 @@ def page_piscine_ville(p):
         <span class="arg-num">01</span>
         <div class="arg-num-content">
           <h3>Fuite de liner PVC</h3>
-          <p>Perforation, accroc, décollement de soudure aux angles, cloque, pli marqué. Le liner fuit le plus souvent au niveau des pièces à sceller (skimmer, prise balai, buses) où les brides peuvent s'être desserrées avec le temps.</p>
+          <p>Perforation, accroc, décollement de soudure aux angles, cloque, pli marqué. Le liner fuit le plus souvent au niveau des pièces à sceller (skimmer, prise balai, buses) où les brides peuvent s'être desserrées avec le temps. Une fois la fuite localisée, voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d'une fuite de liner</a> (rustine, soudure thermique, remplacement complet).</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5794,7 +5806,7 @@ def page_piscine_ville(p):
       </table>
     </div>
 
-    <p>Un devis fixe vous est communiqué avant intervention après un premier échange téléphonique sur les symptômes observés. Aucun déplacement facturé si vous décidez de ne pas donner suite.</p>
+    <p>Un devis fixe vous est communiqué avant intervention après un premier échange téléphonique sur les symptômes observés. Aucun déplacement facturé si vous décidez de ne pas donner suite. Pour la grille tarifaire complète selon le type de fuite (piscine, canalisation enterrée, plancher chauffant), voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
 
     <h3>Prise en charge par l'assurance habitation</h3>
     <p>La majorité des contrats multirisques habitation incluent une garantie « recherche de fuite » qui rembourse tout ou partie du diagnostic, dès lors que la fuite a provoqué un dégât des eaux (même mineur). Le rapport technique que nous remettons mentionne les méthodes employées, la localisation précise de la fuite et les photos d'intervention : il est reconnu par tous les principaux assureurs français. Déclarez le sinistre dans les 5 jours ouvrables.</p>
@@ -5825,7 +5837,7 @@ def page_piscine_ville(p):
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <h2 style="text-align:center;">Recherche de fuite piscine dans d'autres villes de Gironde</h2>
-    <p style="text-align:center;margin-bottom:1.5rem;">Nous intervenons sur l'ensemble de la métropole bordelaise et du Bassin d'Arcachon.</p>
+    <p style="text-align:center;margin-bottom:1.5rem;">Nous intervenons sur l'ensemble de la métropole bordelaise et du Bassin d'Arcachon. Pour une vue d'ensemble, voir notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine en Gironde</a>.</p>
     <div class="grid-3">
       {autres_html}
     </div>
