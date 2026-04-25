@@ -843,7 +843,7 @@ def page_chemisage_service():
         <span class="section-eyebrow">Cas concret</span>
         <h2>Le chemisage sur canalisation enterrée : aucune tranchée</h2>
         <p>Qu\'il s\'agisse d\'une canalisation sous jardin, sous dalle ou en sous-sol, le chemisage s\'effectue depuis un accès existant. Le liner en résine est introduit, gonflé et durci sur place en quelques heures.</p>
-        <p style="margin-top:1rem;">Pour comprendre le détail technique de la procédure (résines époxy/polyester, durée de vie, garantie décennale), consultez notre guide <a href="/guide/chemisage-explication/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation expliqué</a>. Pour les copropriétés bordelaises (immeubles haussmanniens, colonnes montantes en fonte), nous avons une page dédiée <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage à Bordeaux</a> avec retours d\'expérience syndic.</p>
+        <p style="margin-top:1rem;">Pour comprendre le détail technique de la procédure (résines époxy/polyester, durée de vie, garantie décennale), consultez notre guide <a href="/guide/chemisage-explication/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation expliqué</a>. Pour les copropriétés bordelaises (immeubles haussmanniens, colonnes montantes en fonte), nous avons une page dédiée <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage à Bordeaux</a> avec retours d\'expérience syndic. Avant tout chemisage, une <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra de la canalisation</a> est obligatoire pour valider la faisabilité.</p>
         <a href="/devis/" class="btn btn-green">Obtenir un devis</a>
       </div>
     </div>
@@ -1042,6 +1042,7 @@ def page_plan():
         <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/">Fuite sur plancher chauffant à Bordeaux (thermographie)</a></li>
         <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/">Thermographie infrarouge à Bordeaux (caméra thermique)</a></li>
         <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/">Fluorescéine piscine Bordeaux (colorant traceur)</a></li>
+        <li><a href="/detection-fuite/depannage-piscine-bordeaux/">Dépannage piscine à Bordeaux (diagnostic + réparation)</a></li>
       </ul>
 
       <h2>Recherche de fuite piscine par ville</h2>
@@ -1078,6 +1079,9 @@ def page_plan():
         <li><a href="/guide/reparation-skimmer-piscine-resine-epoxy/">Réparation skimmer piscine à la résine époxy</a></li>
         <li><a href="/guide/fuite-canalisation-enterree-assurance/">Fuite canalisation enterrée et assurance habitation</a></li>
         <li><a href="/guide/detecteur-fuite-eau-professionnel/">Détecteur de fuite d'eau professionnel : matériel et méthodes</a></li>
+        <li><a href="/guide/piscine-qui-fuit-perte-eau/">Piscine qui fuit ou perte d'eau : que faire ?</a></li>
+        <li><a href="/guide/fuite-coque-polyester-piscine/">Fuite sur coque polyester : diagnostic et réparation</a></li>
+        <li><a href="/guide/inspection-camera-canalisation-bordeaux/">Inspection caméra canalisation à Bordeaux</a></li>
       </ul>
 
       <h2>Recherche de fuite par ville (30 communes)</h2>
@@ -2150,6 +2154,251 @@ GUIDE_PAGES = [
 <p>Pour démarrer une procédure assurance après une fuite enterrée à Bordeaux ou en Gironde, voir notre <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">page canalisation enterrée Bordeaux</a> ou contactez-nous via le <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a>. Pour comprendre la procédure d\'écrêtement de facture en détail, voir le guide <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">loi Warsmann : écrêtement de facture d\'eau</a>. Pour la procédure générale assurance fuite d\'eau (intérieure et extérieure), voir <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">fuite d\'eau et assurance habitation</a>."""
     },
     {
+        "slug": "piscine-qui-fuit-perte-eau",
+        "title": "Piscine qui fuit ou perte d'eau anormale : que faire ?",
+        "title_seo": "Piscine qui fuit : causes et solutions Gironde",
+        "desc": "Votre piscine perd de l'eau anormalement ? Arbre de décision en 6 questions pour distinguer évaporation, fuite et erreur d'usage. Cas types Gironde.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-qui-fuit-perte-eau.webp" alt="Piscine privée avec niveau d'eau anormalement bas, suspicion de fuite en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine perd de l'eau et vous ne savez pas si c'est grave. Avant de paniquer (ou de vous résigner à payer un diagnostic), prenez 10 minutes pour suivre cet arbre de décision en 6 questions. Il s'inspire de notre expérience sur plus de 200 diagnostics annuels en Gironde et vous permet de qualifier votre cas. Dans 1 cas sur 3, la perte d'eau s'avère être un phénomène normal qui ne nécessite aucune intervention. Dans les 2 autres cas, vous saurez exactement quoi faire et qui appeler.</p>
+
+<h2>Question 1 : combien de centimètres perdez-vous par jour ?</h2>
+<p>C'est la question fondamentale. Mesurez précisément avec un mètre ruban depuis un repère fixe (margelle, premier joint de carrelage, marche d'escalier). Mesurez au même moment de la journée (idéalement le matin avant baignade) sur 48 à 72 heures sans pluie ni baignade.</p>
+<ul>
+<li><strong>Moins de 0,5 cm/jour</strong> : évaporation strictement normale en Gironde, quel que soit le mois. Pas de fuite. Aucune action requise.</li>
+<li><strong>0,5 à 1,5 cm/jour</strong> : zone grise. En été (juin à septembre), c'est de l'évaporation normale, en particulier sur Bassin d'Arcachon ou pour piscines exposées plein vent. En hiver, c'est suspect.</li>
+<li><strong>1,5 à 3 cm/jour</strong> : forte probabilité de fuite. Évaporation seule ne dépasse pas 1,5 cm/jour même en pic de chaleur en Gironde.</li>
+<li><strong>Plus de 3 cm/jour</strong> : fuite confirmée, et probablement importante. Un diagnostic urgent s'impose pour éviter dégâts collatéraux (terrain saturé, fondations, voisins).</li>
+</ul>
+<p>Pour comprendre les taux d'évaporation mensuels précis en climat aquitain, voir notre guide complet <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a> avec tableau détaillé et facteurs aggravants (vent, exposition, chauffage).</p>
+
+<h2>Question 2 : avez-vous fait le test du seau ?</h2>
+<p>C'est le seul test gratuit qui distingue avec certitude évaporation et fuite. Posez un seau rempli d'eau sur la première marche immergée de la piscine (pour qu'il soit à la même température que l'eau). Marquez au feutre indélébile le niveau dans le seau et le niveau dans la piscine. Laissez 24 à 48 heures sans baignade ni remise à niveau automatique. Comparez les baisses :</p>
+<ul>
+<li><strong>Seau et piscine baissent de la même hauteur</strong> : c'est de l'évaporation pure. Aucune fuite. Vous pouvez dormir tranquille.</li>
+<li><strong>Piscine baisse plus que le seau</strong> : différence = volume perdu par fuite. Si l'écart dépasse 0,5 cm en 24h, c'est une fuite à diagnostiquer.</li>
+<li><strong>Seau baisse plus que la piscine</strong> : impossible en théorie. Vérifiez que le seau n'a pas été déplacé ou que la piscine n'a pas reçu d'eau (pluie, remise à niveau auto qui s'est déclenchée).</li>
+</ul>
+
+<h2>Question 3 : à quel niveau la baisse s'arrête-t-elle ?</h2>
+<p>Si la fuite est confirmée, observez où la baisse se stabilise. Cette information oriente directement le diagnostic :</p>
+<ul>
+<li><strong>Niveau qui baisse jusqu'au skimmer puis s'arrête</strong> : fuite côté skimmer (joint mastic, bride, fissure de skimmer). Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</li>
+<li><strong>Niveau qui baisse jusqu'à la bouche de refoulement</strong> : fuite sur buse de refoulement ou canalisation de refoulement.</li>
+<li><strong>Niveau qui baisse jusqu'à un projecteur encastré</strong> : fuite sur le projecteur, sa traversée de paroi ou son joint d'étanchéité.</li>
+<li><strong>Niveau qui continue de baisser sous le skimmer (au-delà de 30 cm)</strong> : fuite sur la structure du bassin (liner, coque, béton), bonde de fond ou canalisation enterrée. Diagnostic plus complexe nécessaire.</li>
+</ul>
+
+<h2>Question 4 : observez-vous des signes extérieurs ?</h2>
+<p>Une piscine qui fuit laisse souvent des traces visibles autour du bassin. Vérifiez ces 5 indices avant de nous appeler :</p>
+<ul>
+<li><strong>Pelouse anormalement verte ou détrempée</strong> à un endroit précis : signe d'une fuite enterrée sur canalisation d'alimentation ou de refoulement.</li>
+<li><strong>Carrelage de plage qui se décolle</strong> ou joints qui s'effritent : infiltration sous la dalle.</li>
+<li><strong>Terrain qui s'affaisse en linéaire</strong> à 1-3 m du bassin : fuite chronique avec lessivage du sol.</li>
+<li><strong>Auréole d'humidité dans le local technique</strong> : fuite sur tuyauterie après filtration.</li>
+<li><strong>Bulles dans l'eau côté skimmer ou refoulement</strong>, filtration arrêtée : fuite avec retour d'air.</li>
+</ul>
+
+<h2>Question 5 : depuis quand observez-vous le phénomène ?</h2>
+<p>L'historique est crucial pour distinguer une fuite récente d'une fuite chronique :</p>
+<ul>
+<li><strong>Apparu brutalement après un événement</strong> (orage, gel, intervention récente, baisse de pression chaudière) : fuite ponctuelle souvent localisable rapidement.</li>
+<li><strong>Apparu progressivement sur 1-3 mois</strong> : usure d'un joint, fissure liner qui s'agrandit, raccord qui se desserre.</li>
+<li><strong>Présent depuis plusieurs saisons</strong>, accentué en été : évaporation forte + petite fuite chronique. Diagnostic plus exigeant.</li>
+</ul>
+
+<h2>Question 6 : votre piscine a quel âge ?</h2>
+<p>L'âge oriente fortement les hypothèses de localisation et de coût :</p>
+<ul>
+<li><strong>Moins de 5 ans</strong> : fuite rare et souvent due à un défaut de pose. La garantie décennale du constructeur peut s'activer. Vérifier les pièces à sceller (skimmer, refoulement, projecteur, bonde de fond) en priorité.</li>
+<li><strong>5 à 15 ans</strong> : fuites possibles sur joints d'étanchéité, premiers signes de fatigue du liner. Réparation locale presque toujours suffisante.</li>
+<li><strong>15 à 25 ans</strong> : phase critique. Le liner approche sa fin de vie nominale, plusieurs fuites simultanées peuvent apparaître. Voir notre guide <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic fuite sur liner</a> pour décider entre réparation et remplacement.</li>
+<li><strong>Plus de 25 ans</strong> : changement de liner souvent inévitable. Pour les piscines béton, fissures structurelles à examiner.</li>
+</ul>
+
+<h2>Cas types fréquents en Gironde</h2>
+
+<h3>Cas 1 : piscine pavillonnaire Mérignac, liner 12 ans, 2 cm/jour</h3>
+<p>Le test du seau confirme la fuite. Niveau s'arrête sous le skimmer. Diagnostic le plus probable : joint skimmer ou raccord de canalisation enterrée près du local technique. Démarche : appeler un technicien <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Mérignac</a> pour diagnostic complet. Coût intervention 380 à 580 € HT, souvent remboursé par assurance habitation.</p>
+
+<h3>Cas 2 : piscine Bassin d'Arcachon, été, 1,2 cm/jour</h3>
+<p>Avec vent marin permanent et exposition plein soleil, l'évaporation peut atteindre 1,2 cm/jour en juillet-août. Le test du seau montre seau et piscine qui baissent de la même hauteur. Pas de fuite. Aucune action requise. Conseil : couvrir le bassin la nuit pour réduire l'évaporation de 30 à 50 pourcent.</p>
+
+<h3>Cas 3 : piscine béton Caudéran 30 ans, 4 cm/jour brutalement</h3>
+<p>Apparu après un hiver rigoureux. Diagnostic suspecté : fissure structurelle réveillée par cycle gel/dégel. Cas complexe nécessitant écoute acoustique + colorant fluorescéine + caméra endoscopique. Voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Bordeaux</a>. Coût diagnostic 580 à 750 € HT. Réparation béton 1 200 à 4 000 € HT selon localisation.</p>
+
+<h2>Quand appeler un professionnel ?</h2>
+<p>Appelez un spécialiste si :</p>
+<ul>
+<li>Test du seau confirme une fuite supérieure à 0,5 cm/jour (au-delà de l'évaporation)</li>
+<li>Vous observez des signes extérieurs (pelouse détrempée, carrelage qui se décolle)</li>
+<li>Votre consommation d'eau a explosé sur la facture trimestrielle</li>
+<li>La fuite s'aggrave malgré vos recherches</li>
+<li>Vous prévoyez de remettre en service la piscine au printemps après hivernage</li>
+</ul>
+<p>Pour faire intervenir nos techniciens, voir nos pages dédiées : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a>, <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>, ou notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub piscine en Gironde</a> qui couvre les 7 communes principales. Pour les tarifs détaillés selon le type de bassin, consultez notre <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine</a>. Pour la prise en charge assurance, voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">remboursement assurance piscine</a>."""
+    },
+    {
+        "slug": "fuite-coque-polyester-piscine",
+        "title": "Fuite sur coque polyester piscine : diagnostic et réparation",
+        "title_seo": "Fuite coque polyester piscine | Réparation gel-coat",
+        "desc": "Diagnostic d'une fuite sur coque polyester de piscine : osmose, microfissures gel-coat, désaxement. Méthodes de réparation, coûts en Gironde, durée de vie.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-coque-polyester-piscine.webp" alt="Piscine coque polyester en Gironde, contexte d'intervention recherche de fuite et réparation gel-coat" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Les piscines coque polyester représentent environ 25 pourcent du parc privé en Gironde, en forte croissance sur Gujan-Mestras, La Teste-de-Buch et les lotissements récents de la métropole bordelaise. Plus rapides à installer qu'un bassin béton et plus durables qu'un liner PVC, elles n'en sont pas pour autant exemptes de fuites. Cet article détaille les pathologies spécifiques aux coques polyester, les méthodes de diagnostic adaptées et les options de réparation avec leurs coûts en 2026.</p>
+
+<h2>Anatomie d'une coque polyester de piscine</h2>
+<p>Une coque polyester est un mono-bloc préfabriqué en usine, composé de plusieurs strates :</p>
+<ul>
+<li><strong>Gel-coat externe (couche brillante)</strong> : 0,8 à 1,2 mm d'épaisseur, formulation polyester ou vinylester chargée en pigments. C'est ce qui donne la couleur et l'aspect lisse au contact de l'eau.</li>
+<li><strong>Couches de stratification</strong> : fibre de verre + résine polyester ou vinylester, 4 à 8 mm cumulés. C'est la structure mécanique de la coque.</li>
+<li><strong>Couche d'arrêt extérieure</strong> : finition brute, sert d'étanchéité secondaire et de tampon contre l'humidité du sol.</li>
+</ul>
+<p>Les fuites apparaissent quand l'une de ces strates se dégrade : gel-coat qui se microfissure (osmose), stratification qui se délamine, ou raccord pièces à sceller mal posé.</p>
+
+<h2>Les 4 pathologies spécifiques aux coques polyester</h2>
+
+<h3>1. L'osmose (cloques gel-coat)</h3>
+<p>C'est la pathologie reine. Au fil des années, l'eau de la piscine pénètre par les microfissures invisibles du gel-coat, se mélange à des résidus de styrène non réactés et forme des cloques sous la surface. Visibles à l'œil nu sur les coques de plus de 10 ans : petites bulles de 2 à 15 mm, parfois groupées en plaques. Quand une cloque éclate, elle laisse passer l'eau dans la stratification et crée une fuite progressive.</p>
+
+<h3>2. Les microfissures de gel-coat (toiles d'araignée)</h3>
+<p>Visible à proximité des angles, des marches, des plages immergées. Réseau de fissures fines (largeur < 0,3 mm) en patte d'oie. Souvent dues à un calage insuffisant de la coque au moment de la pose ou à un mouvement de terrain. Fuite progressive, difficile à localiser sans colorant.</p>
+
+<h3>3. Le délaminage de stratification</h3>
+<p>Plus rare et plus grave. Les couches de fibre de verre se décollent les unes des autres sous l'effet de l'eau qui s'infiltre. Visible par déformation locale (bombement, creux) et par bruit creux à la percussion (test au mailloche caoutchouc). Réparation lourde, parfois irréparable selon l'étendue.</p>
+
+<h3>4. Les raccords pièces à sceller défaillants</h3>
+<p>Les skimmers, projecteurs, buses de refoulement et bondes de fond sont collés ou vissés sur la coque polyester. Les joints peuvent se dégrader, les vis se desserrer, les colles polyester se fragiliser. C'est le cas le plus fréquent (60 pourcent des fuites coque dans notre expérience Gironde).</p>
+
+<h2>Diagnostic d'une fuite sur coque polyester</h2>
+<p>Le diagnostic combine plusieurs méthodes spécifiques aux coques :</p>
+
+<h3>Inspection visuelle systématique</h3>
+<p>Première étape obligatoire. Inspection des angles, marches, plages immergées, raccords. Recherche de cloques d'osmose (à la main, on les sent au toucher), de microfissures (avec lampe rasante), de tâches d'humidité côté terre (vue depuis le local technique).</p>
+
+<h3>Test à la fluorescéine</h3>
+<p>Ultra efficace sur coque polyester. Le colorant injecté en surface au point suspect passe à travers la fissure et apparaît côté terre dans le local technique en 15 à 45 minutes. Voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine fluorescéine</a> avec protocole détaillé.</p>
+
+<h3>Test de pression hydraulique des canalisations</h3>
+<p>Permet d'isoler le réseau hydraulique de la coque elle-même. Une chute de pression isole la fuite sur les canalisations enterrées plutôt que sur la coque proprement dite. Indispensable pour distinguer fuite coque vs fuite refoulement.</p>
+
+<h3>Inspection caméra endoscopique des canalisations</h3>
+<p>Si la fuite est sur le réseau hydraulique (refoulement, prise balai), une inspection caméra des canalisations identifie le point exact de fuite. Voir notre guide <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</p>
+
+<h2>Réparation : les 3 options selon la pathologie</h2>
+
+<h3>Option 1 : reprise locale gel-coat (osmose ponctuelle, microfissures)</h3>
+<p>Procédure : ponçage local du gel-coat dégradé, application d'une nouvelle couche de gel-coat polyester ou vinylester, ponçage de finition, polissage. Doit être effectuée hors d'eau (vidange partielle ou totale). Coût : <strong>180 à 450 € HT</strong> par zone réparée. Durée de vie : 5 à 10 ans selon la qualité de la résine et les conditions chimiques.</p>
+
+<h3>Option 2 : reprise complète gel-coat (osmose étendue)</h3>
+<p>Si l'osmose touche plus de 30 pourcent de la surface, mieux vaut tout reprendre. Procédure : vidange totale, ponçage complet du gel-coat, séchage long (4 à 8 semaines selon météo), application d'un primer époxy bouche-pores, nouveau gel-coat complet en 2 couches, ponçage et polissage final. Coût : <strong>3 500 à 8 500 € TTC</strong> selon la taille du bassin. Durée de vie : 15 à 25 ans en environnement chimique stable.</p>
+
+<h3>Option 3 : reprise stratification + gel-coat (délaminage)</h3>
+<p>Si la stratification est délaminée, il faut découper la zone, refaire la stratification fibre de verre + résine, puis appliquer un nouveau gel-coat. Réparation complexe, à confier à un mouliste piscine spécialisé. Coût : <strong>1 500 à 4 500 € HT</strong> par zone, hors gel-coat. Durée de vie : 10 à 20 ans si bien exécutée.</p>
+
+<h3>Option 4 : remplacement raccord pièces à sceller</h3>
+<p>Si la fuite vient d'un skimmer ou refoulement, remplacement de la pièce + joint neuf + remasticage. Coût : <strong>120 à 280 € HT</strong> par pièce remplacée. Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a> pour les cas d'usure légère.</p>
+
+<h2>Combien coûte une intervention en Gironde ?</h2>
+<p>Tarifs constatés en 2026 sur la métropole bordelaise et le Bassin d'Arcachon :</p>
+<ul>
+<li><strong>Diagnostic complet (Recherche Fuite Gironde)</strong> : 380 à 580 € HT, comprend inspection visuelle, fluorescéine, test pression, rapport technique pour assurance.</li>
+<li><strong>Réparation locale gel-coat par mouliste partenaire</strong> : 180 à 450 € HT par zone.</li>
+<li><strong>Reprise complète osmose</strong> : 3 500 à 8 500 € TTC selon bassin.</li>
+<li><strong>Diagnostic + réparation pièces à sceller (cas le plus fréquent)</strong> : 500 à 850 € HT all-in.</li>
+</ul>
+<p>La majorité de ces interventions sont remboursées par votre assurance habitation au titre de la garantie recherche de fuite, sous condition d'un dégât des eaux constaté ou d'une surconsommation. Voir notre guide <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">remboursement assurance piscine</a> pour la procédure.</p>
+
+<h2>Comment prévenir les fuites sur coque polyester ?</h2>
+<p>Trois bonnes pratiques tirées de notre expérience :</p>
+<ol>
+<li><strong>Stabiliser le pH entre 7,2 et 7,6</strong>. Un pH trop acide (< 7,0) attaque le gel-coat lentement. Un pH trop basique (> 7,8) favorise le calcaire qui fragilise les microfissures.</li>
+<li><strong>Limiter la chloration choc</strong>. Au-delà de 5 mg/L de chlore libre, le gel-coat se dégrade plus vite. Privilégier la chloration lente continue.</li>
+<li><strong>Couvrir le bassin hors saison</strong>. UV et gel sont les premiers ennemis du gel-coat polyester. Une bâche d'hivernage opaque double la durée de vie de la coque.</li>
+</ol>
+
+<h2>Demandez un diagnostic adapté à votre coque</h2>
+<p>Avant de vous lancer dans une réparation lourde (souvent 3 000 € et plus pour une reprise complète), faites diagnostiquer précisément l'origine et l'étendue. Notre rapport technique sert de référence pour le pisciniste qui interviendra et pour votre assureur. Voir nos pages dédiées par ville : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a>, <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>, <a href="/detection-fuite/piscine-gujan-mestras/" style="color:var(--green);text-decoration:underline;">piscine Gujan-Mestras</a> qui concentre la plus forte densité de coques polyester en Gironde. Pour les tarifs complets, consultez le <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine</a>. Pour les piscines liner PVC plutôt que coque, voir notre guide complémentaire <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">fuite sur liner piscine</a>."""
+    },
+    {
+        "slug": "inspection-camera-canalisation-bordeaux",
+        "title": "Inspection caméra canalisation à Bordeaux : diagnostic visuel précis",
+        "title_seo": "Inspection caméra canalisation Bordeaux | Diagnostic",
+        "desc": "Inspection caméra endoscopique de canalisation à Bordeaux : diagnostic visuel sans démolition, repérage racines, fissures, désaxements. Coût et matériel.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/inspection-camera-canalisation.webp" alt="Caméra endoscopique haute définition pour inspection de canalisation à Bordeaux et en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>L'inspection caméra de canalisation est devenue l'outil indispensable du diagnostic plomberie moderne. Là où il fallait autrefois casser une dalle ou ouvrir un mur pour identifier un défaut, une simple caméra endoscopique sur tige flexible donne aujourd'hui une image vidéo haute définition de l'intérieur du tuyau, sans démolition et en moins d'une heure. Cet article détaille la technique, les cas d'usage à Bordeaux, le matériel utilisé et les coûts en 2026.</p>
+
+<h2>Comment fonctionne une caméra d'inspection de canalisation ?</h2>
+<p>Une caméra endoscopique professionnelle se compose de quatre éléments principaux :</p>
+<ul>
+<li><strong>Tête de caméra</strong> : capteur Full HD ou 4K, étanche, diamètre 22 à 50 mm selon les modèles, équipée d'un anneau LED haute luminosité pour éclairer l'intérieur du tuyau.</li>
+<li><strong>Tige flexible (push-rod)</strong> : longueur 5 à 60 mètres, en fibre composite renforcée, qui pousse la caméra dans le réseau sans s'écraser ni se vriller.</li>
+<li><strong>Module de mesure de distance</strong> : affiche en temps réel la position exacte de la caméra dans le réseau (au cm près).</li>
+<li><strong>Émetteur radio (sonde)</strong> : permet de localiser la position de la caméra à travers le sol grâce à un récepteur en surface, jusqu'à 2 mètres de profondeur.</li>
+</ul>
+<p>L'opérateur visionne en direct l'image sur un écran portable, marque les anomalies (racines, fissures, désaxements, bouchons), repère leur position exacte au sol grâce à l'émetteur radio, et exporte un rapport vidéo daté pour le client.</p>
+
+<h2>Quand utiliser l'inspection caméra à Bordeaux ?</h2>
+<p>L'inspection caméra est l'outil de référence dans 5 contextes :</p>
+
+<h3>1. Diagnostic d'une canalisation bouchée récurrente</h3>
+<p>Si vous avez régulièrement des évacuations qui refoulent (lavabo, WC, douche), la caméra identifie en quelques minutes la cause : racine d'arbre, accumulation de calcaire, désaxement de raccord, contre-pente. Indispensable avant tout débouchage manuel ou chimique.</p>
+
+<h3>2. Recherche de fuite sur canalisation enterrée</h3>
+<p>En complément du <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur</a> ou du <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">diagnostic thermographique</a>, la caméra confirme visuellement le point de fuite et qualifie la cause (perforation, joint éclaté, désaxement). Crucial pour décider entre réparation locale et chemisage complet.</p>
+
+<h3>3. Diagnostic préalable à un chemisage de canalisation</h3>
+<p>Avant tout chemisage (rénovation sans tranchée), une inspection caméra obligatoire évalue l'état des conduites : diamètre, longueur, courbures, présence de raccords, état général. Le devis de chemisage en dépend. Voir notre page <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage canalisation à Bordeaux</a> pour les copropriétés haussmanniennes.</p>
+
+<h3>4. Achat ou vente d'un bien immobilier</h3>
+<p>Plusieurs études notariales bordelaises recommandent une inspection caméra des canalisations principales avant signature, surtout pour les biens de plus de 50 ans. Permet d'anticiper des travaux coûteux (réseaux fonte ou plomb en fin de vie) et d'argumenter une décote ou des conditions suspensives.</p>
+
+<h3>5. Sinistre dégât des eaux en copropriété</h3>
+<p>L'inspection caméra des colonnes d'évacuation EU/EV identifie l'origine d'un sinistre. Combinée à notre <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">diagnostic dégât des eaux à Bordeaux</a> avec rapport opposable IRSI, elle facilite la coordination syndic + assureur.</p>
+
+<h2>Quels défauts l'inspection caméra révèle-t-elle ?</h2>
+<p>Voici les pathologies les plus fréquentes que nous identifions sur les canalisations bordelaises :</p>
+
+<h3>Racines d'arbres dans les canalisations</h3>
+<p>Cas typique sur les propriétés de Caudéran, Le Bouscat et Bordeaux Centre avec arbres matures (platanes, chênes, tilleuls). Les racines s'infiltrent par les microfissures de raccord et obstruent progressivement le réseau. La caméra montre clairement le filament racinaire en croissance dans le tuyau.</p>
+
+<h3>Désaxement de raccord</h3>
+<p>Très fréquent sur les canalisations enterrées de plus de 30 ans en sol argileux ou sableux (typique du Bassin d'Arcachon et de la métropole bordelaise). Les raccords PVC collés ou en fonte se déplacent sous l'effet des micro-mouvements de sol. La caméra mesure précisément l'angle de désaxement.</p>
+
+<h3>Fissures structurelles</h3>
+<p>Sur les vieilles canalisations en fonte, plomb ou grès (immeubles haussmanniens), des fissures longitudinales peuvent apparaître sous l'effet de la corrosion ou du gel. La caméra détaille la longueur, la largeur et la position de chaque fissure.</p>
+
+<h3>Bouchons calcaires ou de graisse</h3>
+<p>Très courants dans les canalisations d'évacuation cuisine. Le calcaire et les graisses se déposent en couche progressive et finissent par obstruer 50 à 90 pourcent du diamètre utile. La caméra mesure le diamètre résiduel.</p>
+
+<h3>Effondrement de canalisation</h3>
+<p>Rare mais grave. Sur les très vieilles canalisations en grès ou amiante-ciment, un effondrement partiel peut bloquer complètement le réseau. La caméra confirme et permet de quantifier la longueur à reprendre.</p>
+
+<h2>Combien coûte une inspection caméra à Bordeaux ?</h2>
+<p>Le tarif dépend de la complexité du réseau et de l'objectif du diagnostic. Voici les fourchettes constatées en 2026 sur Bordeaux et la Gironde :</p>
+<ul>
+<li><strong>Inspection caméra simple (1 canalisation, moins de 15 m)</strong> : <strong>180 à 280 € HT</strong>, intervention 1 heure, rapport vidéo + photos remis le jour même.</li>
+<li><strong>Inspection avec localisation radio (sonde émettrice)</strong> : <strong>280 à 380 € HT</strong>, idéale pour identifier le point précis d'un défaut sous une dalle béton ou sous jardin.</li>
+<li><strong>Inspection complète multi-canalisations (copropriété, bien immobilier)</strong> : <strong>380 à 650 € HT</strong>, intervention 2 à 4 heures, rapport détaillé pour syndic ou notaire.</li>
+<li><strong>Inspection préalable à chemisage</strong> : souvent incluse dans le devis chemisage (la caméra valide la faisabilité).</li>
+</ul>
+<p>Notre rapport vidéo + photos est accepté par les assureurs au titre de la garantie recherche de fuite et par les notaires pour les diagnostics avant vente.</p>
+
+<h2>Inspection caméra ou autre méthode ?</h2>
+<p>L'inspection caméra n'est pas systématiquement la première méthode de diagnostic. Voici les bons couplages :</p>
+<ul>
+<li><strong>Fuite suspectée enterrée + perte d'eau quantifiée</strong> : commencer par <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur</a> pour localiser, puis caméra pour qualifier la cause.</li>
+<li><strong>Bouchon récurrent ou refoulement</strong> : caméra directement, c'est l'outil dédié.</li>
+<li><strong>Fuite encastrée plancher chauffant</strong> : <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">thermographie infrarouge</a> en première intention, caméra inutile en chape.</li>
+<li><strong>Fuite piscine</strong> : <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a> + caméra pour les canalisations de filtration.</li>
+<li><strong>Diagnostic avant achat immobilier</strong> : caméra directement, c'est l'examen standard.</li>
+</ul>
+
+<h2>Demandez votre inspection caméra en Gironde</h2>
+<p>Pour faire intervenir nos techniciens à Bordeaux, dans la métropole bordelaise ou en Gironde plus largement, contactez-nous via le <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a>. Pour comprendre les autres outils du diagnostic professionnel, voir notre guide <a href="/guide/detecteur-fuite-eau-professionnel/" style="color:var(--green);text-decoration:underline;">détecteur de fuite d'eau professionnel</a> qui détaille l'arsenal complet (caméra endoscopique, gaz traceur, FLIR, hydrophone, corrélateur acoustique). Pour le chemisage en complément d'une inspection révélant un réseau dégradé, voir notre service <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation en Gironde</a>."""
+    },
+    {
         "slug": "detecteur-fuite-eau-professionnel",
         "title": "Détecteur de fuite d'eau professionnel : matériel et méthodes",
         "title_seo": "Détecteur de fuite d'eau professionnel | Outils pro",
@@ -2815,6 +3064,7 @@ def page_ville_detection_premium(v):
       <li><a href="/detection-fuite/fuite-plancher-chauffant-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite plancher chauffant à Bordeaux</a> : thermographie infrarouge sur tubes PER hydrauliques.</li>
       <li><a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">Thermographie infrarouge à Bordeaux</a> : méthode reine pour les canalisations encastrées et les copropriétés haussmanniennes.</li>
       <li><a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Fluorescéine piscine Bordeaux</a> : colorant traceur pour localiser une fuite de bassin sans vidange.</li>
+      <li><a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Dépannage piscine à Bordeaux</a> : diagnostic + coordination réparation avec piscinistes partenaires.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Tarifs de recherche de fuite à Bordeaux</a> : grille prix par type de méthode et de canalisation.</li>
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : procédure complète après une fuite enterrée.</li>
     </ul>
@@ -3347,7 +3597,7 @@ def page_piscine_hub():
 
     <p style="margin-top:1.5rem;">Vous habitez une autre commune de Gironde ? Nous intervenons aussi sur Talence, Pessac, Le Haillan, Eysines, Bruges, Cenon, Lormont, Floirac et toute la métropole bordelaise. Consultez notre <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">page Bordeaux</a> ou contactez-nous directement pour les communes hors métropole (Lege-Cap-Ferret, Andernos-les-Bains, Lesparre-Medoc, Saint-Émilion, Langon).</p>
 
-    <p style="margin-top:1.5rem;">Pour le détail technique de notre méthode phare, consultez notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a> : protocole d'injection, cas concrets, durée et coût d'une intervention. Une fois la fuite localisée, voir <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">comment réparer une fuite de liner piscine</a> (rustine, soudure thermique, remplacement complet) avec ordres de grandeur tarifaires Gironde 2026.</p>
+    <p style="margin-top:1.5rem;">Pour un dépannage piscine complet (diagnostic + coordination réparation avec piscinistes partenaires), voir notre page dédiée <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine à Bordeaux</a>. Avant tout diagnostic, suivez notre arbre de décision <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">piscine qui fuit ou perte d'eau anormale : que faire</a> pour qualifier votre situation en 6 questions. Pour le détail technique de notre méthode phare, voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a> : protocole d'injection, cas concrets, durée et coût d'une intervention. Une fois la fuite localisée, voir <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">comment réparer une fuite de liner piscine</a> (rustine, soudure thermique, remplacement complet).</p>
   </div>
 </section>
 
@@ -5184,7 +5434,7 @@ def page_fluoresceine_piscine_bordeaux():
     <ul>
       <li><strong>Suspicion de fuite sur pièces à sceller</strong> (skimmer, buse de refoulement, prise balai, projecteur encastré, bonde de fond) : la fluorescéine confirme en 5 minutes si une pièce est défaillante en injectant le colorant à proximité immédiate. Très efficace sur les piscines de 8 à 20 ans dont les joints d\'étanchéité commencent à durcir.</li>
       <li><strong>Fissures actives sur liner PVC</strong> : sur liner clair (sable, gris perle, bleu pâle), les fissures absorbent le colorant et révèlent un faisceau de lignes fluorescentes. Idéal pour les liners de Mérignac, Pessac et Le Bouscat dont l\'âge médian dépasse 15 ans.</li>
-      <li><strong>Coque polyester osmosée ou microfissurée</strong> : en injectant le colorant en surface au point suspect, le passage à travers la coque devient visible en 10 à 30 minutes selon la taille de la microfissure. Méthode privilégiée sur le parc de Gujan-Mestras et Andernos-les-Bains.</li>
+      <li><strong>Coque polyester osmosée ou microfissurée</strong> : en injectant le colorant en surface au point suspect, le passage à travers la coque devient visible en 10 à 30 minutes selon la taille de la microfissure. Méthode privilégiée sur le parc de Gujan-Mestras et Andernos-les-Bains. Voir notre guide spécifique <a href="/guide/fuite-coque-polyester-piscine/" style="color:var(--green);text-decoration:underline;">fuite coque polyester piscine</a>.</li>
       <li><strong>Test sur joint d\'escalier maçonné, joint de margelle</strong> : la fluorescéine appliquée localement infiltre les microfissures invisibles à l\'œil nu et trahit les remontées d\'humidité dans les marches ou la plage.</li>
       <li><strong>Vérification après réparation</strong> : nous injectons systématiquement de la fluorescéine en fin d\'intervention pour valider l\'étanchéité de la zone réparée. Aucun client ne doit nous appeler 6 mois plus tard pour la même fuite.</li>
     </ul>
@@ -5688,6 +5938,275 @@ def page_thermographie_infrarouge_bordeaux():
     )
 
 
+# ═══════════════════════════════════════════════════════════════
+# PAGE USE CASE : Dépannage piscine Bordeaux (réparation + diagnostic)
+# ═══════════════════════════════════════════════════════════════
+
+def page_depannage_piscine_bordeaux():
+    body = '''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <a href="/detection-fuite/">Détection de fuite</a>
+      <span>&rsaquo;</span>
+      <span>Dépannage piscine Bordeaux</span>
+    </nav>
+    <span class="badge-cp">Bordeaux Métropole · Bassin d\'Arcachon</span>
+    <h1>Dépannage piscine à Bordeaux : diagnostic et réparation</h1>
+    <p class="hero-mini-lead">Votre piscine fuit, ne filtre plus, ou présente une anomalie technique ? <strong>Diagnostic complet sous 24h, sans vidange du bassin</strong>. Nous identifions la panne ou la fuite, vous remettons un rapport chiffré, puis coordonnons la réparation avec nos piscinistes partenaires en Gironde.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un dépannage</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/depannage-piscine-bordeaux.webp" alt="Technicien intervenant sur une piscine privée à Bordeaux pour dépannage et diagnostic" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Notre rôle dans le dépannage de votre piscine</h2>
+    <p>Notre métier de spécialiste recherche de fuite nous place au cœur de la chaîne de dépannage piscine en Gironde. Quand un problème survient (perte d\'eau anormale, filtration défaillante, équipement bloqué), nous sommes la première étape : nous identifions la cause exacte, nous chiffrons l\'intervention de réparation et nous orientons vers les bons spécialistes selon la nature du problème. Nos partenaires piscinistes interviennent ensuite sur la base de notre rapport technique, souvent en bénéficiant d\'un délai d\'intervention plus rapide grâce à un diagnostic déjà fait.</p>
+    <p>Cette spécialisation nous distingue des piscinistes généralistes : nous intervenons exclusivement sur le diagnostic non destructif (sans vidange, sans démolition), avec un arsenal d\'outils professionnels (colorant fluorescéine, écoute acoustique, test de pression, caméra endoscopique, gaz traceur). Le pisciniste, lui, fait la réparation. Cette division des rôles évite les conflits d\'intérêt et garantit un diagnostic objectif.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:1080px;">
+    <h2>Les 8 cas de dépannage piscine que nous traitons en Gironde</h2>
+    <div class="arg-num-grid">
+      <div class="arg-num-card">
+        <span class="arg-num">01</span>
+        <div class="arg-num-content">
+          <h3>Perte d\'eau anormale</h3>
+          <p>Le cas le plus fréquent. Diagnostic complet par fluorescéine, écoute acoustique et test de pression pour localiser le point exact de fuite. Voir notre guide <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">piscine qui fuit ou perte d\'eau</a> pour qualifier votre cas avant l\'intervention.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">02</span>
+        <div class="arg-num-content">
+          <h3>Skimmer fissuré ou désaxé</h3>
+          <p>Joint mastic dégradé, bride desserrée, fissure de la pièce plastique. Diagnostic par fluorescéine, réparation possible à la <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">résine époxy</a> ou remplacement de la pièce.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">03</span>
+        <div class="arg-num-content">
+          <h3>Liner percé ou décollé</h3>
+          <p>Perforation, accroc, décollement de soudure. Voir notre guide <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic fuite liner piscine</a> et les options de <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation liner</a>.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">04</span>
+        <div class="arg-num-content">
+          <h3>Coque polyester fuyante</h3>
+          <p>Osmose, microfissures gel-coat, désaxement. Voir notre guide spécifique <a href="/guide/fuite-coque-polyester-piscine/" style="color:var(--green);text-decoration:underline;">fuite coque polyester piscine</a>.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">05</span>
+        <div class="arg-num-content">
+          <h3>Canalisation enterrée fuyarde</h3>
+          <p>Réseau d\'alimentation ou de refoulement entre local technique et bassin. Diagnostic par gaz traceur, écoute acoustique. Voir notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a>.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">06</span>
+        <div class="arg-num-content">
+          <h3>Fissure structurelle béton</h3>
+          <p>Sur les piscines béton armé de plus de 25 ans, des fissures réveillées par cycle gel/dégel ou mouvements de terrain. Diagnostic par <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a> + écoute acoustique + caméra sous-marine.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">07</span>
+        <div class="arg-num-content">
+          <h3>Bonde de fond ou projecteur défaillant</h3>
+          <p>Joint torique craquelé, bride desserrée, traversée de paroi qui fuit. Diagnostic ciblé fluorescéine, remplacement par pisciniste partenaire.</p>
+        </div>
+      </div>
+      <div class="arg-num-card">
+        <span class="arg-num">08</span>
+        <div class="arg-num-content">
+          <h3>Filtration ou pompe défectueuse</h3>
+          <p>Pour les pannes électriques, hydrauliques ou mécaniques (pompe qui ne démarre plus, vanne 6 voies bloquée, joint d\'étanchéité de filtre HS), nous orientons directement vers nos piscinistes partenaires sans diagnostic préalable nécessaire.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Comment se déroule un dépannage piscine avec Recherche Fuite Gironde ?</h2>
+
+    <h3>Étape 1 : qualification téléphonique (sous 1 heure en journée)</h3>
+    <p>Vous nous décrivez les symptômes (vitesse de baisse d\'eau, traces extérieures, équipement concerné, âge de la piscine, type de bassin). Nous évaluons l\'urgence et chiffrons une fourchette d\'intervention selon nos statistiques sur cas similaires.</p>
+
+    <h3>Étape 2 : intervention diagnostic (sous 24 à 48h)</h3>
+    <p>Notre technicien vient sur place avec l\'arsenal complet (colorant fluorescéine, capteurs acoustiques, manomètres, caméra endoscopique). Selon le cas, l\'intervention dure 1 à 4 heures. Nous identifions précisément la panne ou la fuite, photographions tout, prenons les mesures.</p>
+
+    <h3>Étape 3 : remise du rapport (jour même)</h3>
+    <p>Rapport technique standardisé envoyé par email le soir même : photos, méthodes employées, localisation au mètre près, cause technique identifiée, devis chiffré pour la réparation. Document accepté par toutes les assurances habitation pour la garantie recherche de fuite.</p>
+
+    <h3>Étape 4 : coordination réparation</h3>
+    <p>Selon votre choix, nous transmettons le rapport à un pisciniste partenaire en Gironde qui intervient avec les pièces et compétences adaptées. Le pisciniste fait sa propre proposition tarifaire, vous restez libre du choix final.</p>
+
+    <h3>Étape 5 : vérification post-intervention</h3>
+    <p>Si vous le souhaitez, nous repassons après réparation pour valider l\'étanchéité (test fluorescéine de contrôle). Service gratuit dans la limite de 6 mois après notre diagnostic initial.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Combien coûte un dépannage piscine en Gironde ?</h2>
+    <p>Le coût total d\'un dépannage piscine inclut deux postes : le diagnostic (notre intervention) et la réparation (effectuée par un pisciniste partenaire). Voici les fourchettes constatées en 2026 :</p>
+    <ul>
+      <li><strong>Diagnostic complet Recherche Fuite Gironde</strong> : <strong>380 à 580 € HT</strong> selon complexité, intervention 1 à 4 heures, rapport assurance inclus.</li>
+      <li><strong>Réparation skimmer ou refoulement</strong> : 180 à 380 € HT par pièce.</li>
+      <li><strong>Réparation locale liner</strong> : 180 à 350 € HT (rustine subaquatique).</li>
+      <li><strong>Soudure thermique liner ou réparation gel-coat coque</strong> : 320 à 580 € HT.</li>
+      <li><strong>Réparation canalisation enterrée</strong> : 450 à 1 200 € HT selon profondeur et accès.</li>
+      <li><strong>Remplacement complet liner</strong> : 3 800 à 7 500 € TTC selon taille du bassin.</li>
+      <li><strong>Reprise complète gel-coat coque polyester (osmose étendue)</strong> : 3 500 à 8 500 € TTC.</li>
+    </ul>
+    <p>Le diagnostic initial est presque toujours pris en charge par votre assurance habitation au titre de la garantie recherche de fuite. Voir notre guide <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">remboursement assurance piscine</a>. Pour les tarifs détaillés selon le type de bassin, consultez le <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Zone d\'intervention dépannage piscine en Gironde</h2>
+    <p>Nous intervenons sur l\'ensemble de la métropole bordelaise et du Bassin d\'Arcachon, avec un délai de 24 à 48 heures sur les zones suivantes :</p>
+    <ul>
+      <li><strong>Bordeaux Métropole</strong> : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a> (Caudéran, Le Bouscat, Saint-Augustin), <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Mérignac</a> (lotissements pavillonnaires), Pessac, Talence, Gradignan, Bègles, Eysines, Bruges.</li>
+      <li><strong>Bassin d\'Arcachon</strong> : <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a> (villas Ville d\'Hiver, Pyla), <a href="/detection-fuite/piscine-la-teste-de-buch/" style="color:var(--green);text-decoration:underline;">piscine La Teste-de-Buch</a> (Cazaux), <a href="/detection-fuite/piscine-gujan-mestras/" style="color:var(--green);text-decoration:underline;">piscine Gujan-Mestras</a> (coques polyester).</li>
+      <li><strong>Libournais et Médoc</strong> : <a href="/detection-fuite/piscine-libourne/" style="color:var(--green);text-decoration:underline;">piscine Libourne</a> et propriétés viticoles, Lesparre-Médoc, Pauillac.</li>
+      <li><strong>Communes hors métropole</strong> : Andernos-les-Bains, Lège-Cap-Ferret, Saint-Émilion, Langon (intervention sur devis selon distance).</li>
+    </ul>
+    <p>Pour une vue d\'ensemble de notre service piscine en Gironde, consultez notre <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">page hub recherche de fuite piscine</a>.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur le dépannage piscine</h2>
+
+    <h3>Intervenez-vous en urgence le week-end ?</h3>
+    <p>Pour les fuites importantes avec dégâts collatéraux imminents (terrain saturé, voisin impacté, infiltration vers cave), nous prévoyons des créneaux d\'urgence le samedi sur la métropole bordelaise. Service avec majoration tarifaire de 30 pourcent. Pour les pannes le dimanche, nous orientons vers nos piscinistes partenaires d\'astreinte.</p>
+
+    <h3>Faites-vous la réparation ou seulement le diagnostic ?</h3>
+    <p>Notre métier est exclusivement le diagnostic non destructif. La réparation est confiée à nos piscinistes partenaires en Gironde, choisis pour leur fiabilité et leur réactivité. Cette séparation garantit l\'objectivité du diagnostic (pas de conflit d\'intérêt) et permet au client de comparer plusieurs devis de réparation.</p>
+
+    <h3>Combien de temps dure l\'intervention de dépannage ?</h3>
+    <p>Le diagnostic dure 1 à 4 heures selon la complexité du cas. Le rapport est rédigé dans la journée et envoyé par email le soir même. La réparation par le pisciniste partenaire dépend du type de panne : 30 minutes pour un joint, 2 jours pour un changement de liner complet, jusqu\'à 1 semaine pour une reprise structurelle béton.</p>
+
+    <h3>Le diagnostic est-il remboursé par l\'assurance habitation ?</h3>
+    <p>Oui dans 90 pourcent des cas. La garantie recherche de fuite de votre contrat multirisque habitation rembourse tout ou partie du diagnostic dès lors que la fuite a provoqué un dégât des eaux, même mineur (auréole, terrain saturé, infiltration vers local technique). Notre rapport est accepté par AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut, GMF.</p>
+
+    <h3>Comment éviter de futures pannes après réparation ?</h3>
+    <p>Trois recommandations issues de notre expérience : stabiliser le pH entre 7,2 et 7,6 en permanence, limiter la chloration choc, couvrir le bassin hors saison. Voir aussi notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite</a> qui aide à détecter une fuite naissante avant qu\'elle ne s\'aggrave.</p>
+  </div>
+</section>
+
+''' + form_section("Bordeaux") + '''
+'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Dépannage piscine à Bordeaux et en Gironde : diagnostic non destructif sans vidange, coordination réparation avec piscinistes partenaires.",
+  "url": "https://recherche-fuite-gironde.fr/detection-fuite/depannage-piscine-bordeaux/",
+  "areaServed": [
+    { "@type": "City", "name": "Bordeaux", "postalCode": "33000" },
+    { "@type": "City", "name": "Mérignac", "postalCode": "33700" },
+    { "@type": "City", "name": "Arcachon", "postalCode": "33120" },
+    { "@type": "City", "name": "Libourne", "postalCode": "33500" }
+  ],
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Dépannage piscine et diagnostic recherche de fuite",
+  "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
+  "areaServed": "Gironde",
+  "description": "Dépannage de piscine privée à Bordeaux et en Gironde : diagnostic non destructif des fuites et pannes, coordination réparation avec piscinistes partenaires.",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": "380",
+    "highPrice": "750",
+    "priceCurrency": "EUR"
+  }
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Détection de fuite", "item": "https://recherche-fuite-gironde.fr/detection-fuite/" },
+    { "@type": "ListItem", "position": 3, "name": "Dépannage piscine Bordeaux", "item": "https://recherche-fuite-gironde.fr/detection-fuite/depannage-piscine-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Intervenez-vous en urgence le week-end pour un dépannage piscine ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pour les fuites importantes avec dégâts collatéraux imminents, créneaux d\\'urgence le samedi sur la métropole bordelaise (majoration 30 pourcent). Pour le dimanche, orientation vers piscinistes partenaires d\\'astreinte." }
+    },
+    {
+      "@type": "Question",
+      "name": "Faites-vous la réparation ou seulement le diagnostic ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Diagnostic non destructif exclusivement. La réparation est confiée à nos piscinistes partenaires en Gironde. Cette séparation garantit objectivité du diagnostic et permet de comparer plusieurs devis de réparation." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte un dépannage piscine en Gironde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Diagnostic 380 à 580 € HT. Réparations selon nature : skimmer 180-380 € HT, liner local 180-350 € HT, canalisation enterrée 450-1200 € HT, remplacement liner complet 3800-7500 € TTC." }
+    },
+    {
+      "@type": "Question",
+      "name": "Le diagnostic est-il remboursé par l\\'assurance habitation ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui dans 90 pourcent des cas. Garantie recherche de fuite du contrat multirisque habitation. Notre rapport accepté par AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut, GMF." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure l\\'intervention de dépannage piscine ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Diagnostic 1 à 4 heures selon complexité. Rapport envoyé par email le soir même. Réparation pisciniste partenaire : 30 min pour un joint, 2 jours pour changement liner complet, 1 semaine pour reprise béton structurelle." }
+    }
+  ]
+}
+</script>'''
+
+    return html_base(
+        'Dépannage piscine Bordeaux | Diagnostic et réparation',
+        'Dépannage de piscine privée à Bordeaux : diagnostic non destructif sous 24h, coordination réparation avec piscinistes partenaires. Rapport assurance inclus.',
+        'https://recherche-fuite-gironde.fr/detection-fuite/depannage-piscine-bordeaux/',
+        body,
+        extra_ld=ld_local + ld_service + ld_breadcrumb + ld_faq,
+    )
+
+
 def page_piscine_ville(p):
     ville = p["ville"]
     ville_article = p["ville_article"]
@@ -6171,6 +6690,7 @@ def gen_sitemap():
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fuite-plancher-chauffant-bordeaux/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/fluoresceine-piscine-bordeaux/']
     urls += ['https://recherche-fuite-gironde.fr/detection-fuite/thermographie-infrarouge-bordeaux/']
+    urls += ['https://recherche-fuite-gironde.fr/detection-fuite/depannage-piscine-bordeaux/']
 
     items = '\n'.join([
         f'  <url><loc>{u}</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if u.endswith(".fr/") else "0.8"}</priority></url>'
@@ -6278,6 +6798,9 @@ def main():
 
     print('[7j] Page use case — thermographie infrarouge Bordeaux...')
     write('detection-fuite/thermographie-infrarouge-bordeaux/index.html', page_thermographie_infrarouge_bordeaux())
+
+    print('[7k] Page use case — dépannage piscine Bordeaux...')
+    write('detection-fuite/depannage-piscine-bordeaux/index.html', page_depannage_piscine_bordeaux())
 
     print('[8/8] Fichiers techniques...')
     write('sitemap.xml', gen_sitemap())
