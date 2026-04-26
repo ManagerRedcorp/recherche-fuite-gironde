@@ -1405,6 +1405,16 @@ def page_plan():
         <li><a href="/guide/piscine-qui-fuit-perte-eau/">Piscine qui fuit ou perte d'eau : que faire ?</a></li>
         <li><a href="/guide/fuite-coque-polyester-piscine/">Fuite sur coque polyester : diagnostic et réparation</a></li>
         <li><a href="/guide/inspection-camera-canalisation-bordeaux/">Inspection caméra canalisation à Bordeaux</a></li>
+        <li><a href="/guide/fuite-piscine-desjoyaux-bordeaux/">Fuite piscine Desjoyaux à Bordeaux</a></li>
+        <li><a href="/guide/fuite-piscine-magiline-bordeaux/">Fuite piscine Magiline à Bordeaux</a></li>
+        <li><a href="/guide/fuite-piscine-diffazur-bordeaux/">Fuite piscine Diffazur à Bordeaux</a></li>
+        <li><a href="/guide/fuite-piscine-waterair-bordeaux/">Fuite piscine Waterair à Bordeaux</a></li>
+        <li><a href="/guide/piscine-perd-3-cm-par-jour/">Piscine qui perd 3 cm par jour</a></li>
+        <li><a href="/guide/compteur-eau-qui-tourne-sans-utilisation/">Compteur d'eau qui tourne sans utilisation</a></li>
+        <li><a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/">Facture Suez doublée à Bordeaux</a></li>
+        <li><a href="/guide/colonne-fonte-haussmannien-bordeaux-fuite/">Colonne en fonte haussmannien Bordeaux</a></li>
+        <li><a href="/guide/convention-irsi-copropriete-bordeaux-degats-eaux/">Convention IRSI copropriété Bordeaux</a></li>
+        <li><a href="/guide/fuite-pvc-enterree-jardin-bordeaux/">Fuite PVC enterrée jardin Bordeaux</a></li>
       </ul>
 
       <h2>Recherche de fuite par ville (30 communes)</h2>
@@ -2863,7 +2873,378 @@ GUIDE_PAGES = [
 <p>Faire intervenir un professionnel équipé de cet arsenal coûte entre 280 et 750 € HT selon la complexité du cas. Le rapport technique remis est accepté par les assureurs et permet souvent un remboursement intégral via la <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">garantie recherche de fuite</a>. Pour la grille tarifaire complète, voir notre guide <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">prix d\'une recherche de fuite à Bordeaux</a>.</p>
 <p>Pour faire intervenir nos techniciens à Bordeaux et en Gironde, voir notre page <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">détection de fuite non destructive Gironde</a> ou directement la page d\'urgence <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> pour une intervention sous 24 heures."""
     },
-]
+    {
+        "slug": "fuite-piscine-desjoyaux-bordeaux",
+        "title": "Fuite piscine Desjoyaux à Bordeaux : diagnostic et réparation",
+        "title_seo": "Fuite piscine Desjoyaux Bordeaux | Diagnostic",
+        "desc": "Votre piscine Desjoyaux fuit à Bordeaux ? Pathologies spécifiques au monobloc béton coulé : raccord skimmer, joint liner, traversée paroi. Diagnostic en 2h.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Desjoyaux à Bordeaux avec liner gris perle, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous possédez une piscine Desjoyaux à Bordeaux et vous constatez une perte d'eau anormale ? Le système constructif Desjoyaux (panneaux modulaires en polypropylène, béton coulé en place, liner armé ou grand bain) présente des pathologies spécifiques que nos techniciens diagnostiquent en moyenne 50 fois par an sur la métropole bordelaise. Cet article détaille les 4 zones de fuite typiques de ce constructeur, les méthodes de diagnostic adaptées et les tarifs constatés en 2026.</p>
+
+<h2>Pourquoi les piscines Desjoyaux ont des fuites spécifiques</h2>
+<p>Le système breveté Desjoyaux repose sur des panneaux en polypropylène (PEHD) intégrant le système de filtration sans local technique séparé (filtre intégré dans le panneau coffrant). Cette architecture unique crée 4 points de fragilité connus :</p>
+<ul>
+<li><strong>Raccord skimmer/panneau</strong> : le skimmer Desjoyaux est intégré directement au panneau de structure. Après 12 à 18 ans, le joint entre la pièce et le panneau peut se fragiliser sous l'effet du chlore et des cycles thermiques. Symptôme typique : perte de 1 à 3 cm/jour qui s'arrête au niveau du skimmer.</li>
+<li><strong>Joint mastic liner armé/coque</strong> : le liner armé Desjoyaux (75/100 ou 150/100) est soudé sur place et fixé par un joint mastic au niveau de la margelle. Avec le temps, ce joint peut se craqueler, surtout sur les piscines exposées plein sud à Caudéran ou Le Bouscat.</li>
+<li><strong>Traversée de paroi pour la pompe filtrante intégrée</strong> : la spécificité Desjoyaux est d'avoir la pompe dans le panneau, ce qui crée des traversées étanches multiples. Les joints toriques de ces traversées vieillissent en 10 à 15 ans.</li>
+<li><strong>Bonde de fond</strong> : moins fréquente sur Desjoyaux que sur béton classique, mais présente sur certains modèles avec point profond. Joint à vérifier sur les piscines de plus de 15 ans.</li>
+</ul>
+
+<h2>Comment diagnostiquons-nous une fuite Desjoyaux ?</h2>
+<p>Notre intervention type sur une piscine Desjoyaux à Bordeaux dure 2 à 3 heures et combine 3 méthodes adaptées au matériau polypropylène et au liner armé :</p>
+<ol>
+<li><strong>Test du seau préalable</strong> (réalisé par le propriétaire avant notre venue) pour confirmer la fuite vs évaporation. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide test du seau</a>.</li>
+<li><strong>Inspection visuelle systématique</strong> du périmètre du bassin : joints de margelle, soudures liner, raccords pièces à sceller. Sur Desjoyaux, attention particulière au skimmer intégré et à la pompe filtrante.</li>
+<li><strong>Test à la fluorescéine</strong> ciblé sur les zones suspectes. Sur liner armé clair, le colorant est très lisible. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page fluorescéine</a>.</li>
+<li><strong>Test de pression hydraulique</strong> sur le circuit de filtration intégré pour isoler une fuite côté pompe ou côté refoulement.</li>
+</ol>
+<p>Notre rapport technique localise précisément la fuite et indique si la réparation peut être faite par votre pisciniste Desjoyaux habituel (si garantie active) ou par un autre prestataire spécialisé.</p>
+
+<h2>Notre intervention sur Bordeaux Métropole</h2>
+<p>Tarif diagnostic complet sur piscine Desjoyaux à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité, intervention 2 à 4 heures, rapport technique remis le jour même par email. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>).</p>
+<p>Pour les piscines Desjoyaux datant de moins de 10 ans, vérifiez d'abord la garantie décennale du constructeur : si la fuite est due à un défaut de construction, la prise en charge est gratuite par Desjoyaux. Pour les piscines plus anciennes, nous coordonnons avec un pisciniste partenaire pour la réparation. Voir aussi notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et notre <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">service dépannage piscine Bordeaux</a> pour les autres marques."""
+    },
+    {
+        "slug": "fuite-piscine-magiline-bordeaux",
+        "title": "Fuite piscine Magiline à Bordeaux : diagnostic structures inox",
+        "title_seo": "Fuite piscine Magiline Bordeaux | Structure inox",
+        "desc": "Diagnostic d'une fuite sur piscine Magiline à Bordeaux : panneaux modulaires, structure inox 304, joints entre modules. Méthodes adaptées et coûts 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Magiline avec structure modulaire à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine Magiline à Bordeaux perd de l'eau anormalement ? Le système constructif Magiline (panneaux modulaires en acier inoxydable 304L, blocs préfabriqués MyPiscine, liner ou enduit) a des pathologies bien identifiées que nous traitons régulièrement sur la métropole bordelaise. Cet article détaille les zones de fuite typiques, les méthodes de diagnostic adaptées à la structure inox, et les coûts 2026.</p>
+
+<h2>Spécificités du système Magiline et points de fragilité</h2>
+<p>Magiline a démocratisé en France les piscines à panneaux modulaires en acier inoxydable. La structure est stable et durable mais crée des points de jonction qu'il faut surveiller :</p>
+<ul>
+<li><strong>Joints entre panneaux modulaires</strong> : c'est le point principal de vigilance. Les panneaux Magiline sont assemblés par boulons inox + joints d'étanchéité EPDM. Après 15 à 20 ans, les EPDM peuvent durcir, surtout sur les bassins très chlorés ou en eau salée. Symptôme : fuite linéaire qui suit la verticale d'un assemblage.</li>
+<li><strong>Pièces à sceller (skimmer, refoulement, projecteur)</strong> : montées en bride sur la paroi inox, étanchéité par joint torique. Les vis inox peuvent se desserrer sous cycles thermiques. Inspection à 10 ans.</li>
+<li><strong>Joint d'angle structure/escalier</strong> : les escaliers Magiline (intégrés ou rapportés) ont une jonction maçonnée avec la structure principale qui peut craqueler.</li>
+<li><strong>Bonde de fond et traversée de paroi</strong> : les modèles équipés de bonde au point bas ont une étanchéité spécifique à vérifier.</li>
+</ul>
+
+<h2>Notre méthode de diagnostic sur Magiline</h2>
+<p>Sur une piscine Magiline, nos techniciens à Bordeaux suivent ce protocole :</p>
+<ol>
+<li><strong>Inspection ciblée des joints inter-panneaux</strong> à la lampe rasante (les microfissures EPDM sont visibles obliquement).</li>
+<li><strong>Test à la fluorescéine</strong> à proximité des assemblages les plus suspects. Le colorant est aspiré par les joints fissurés et apparaît côté terre. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page fluorescéine piscine</a>.</li>
+<li><strong>Test pression hydraulique</strong> du circuit de filtration pour isoler les fuites côté refoulement vs côté bassin.</li>
+<li><strong>Inspection caméra endoscopique</strong> des canalisations enterrées entre local technique et bassin si nécessaire (voir <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra</a>).</li>
+</ol>
+
+<h2>Coûts et coordination réparation à Bordeaux</h2>
+<p>Diagnostic complet sur piscine Magiline à Bordeaux : <strong>380 à 580 € HT</strong>. Intervention 2 à 3 heures, rapport remis le jour même. Pour la réparation, nous coordonnons avec un pisciniste partenaire spécialisé inox (les EPDM doivent être en grade marine, attention aux qualités industrielles inadaptées).</p>
+<p>Tarif moyen réparation joint inter-panneaux : 280 à 580 € HT par jonction selon accessibilité. Pour les piscines Magiline encore sous garantie décennale (moins de 10 ans), prise en charge constructeur possible si défaut de mise en œuvre prouvé. Voir aussi notre <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page recherche de fuite piscine Bordeaux</a> et le <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance</a>."""
+    },
+    {
+        "slug": "fuite-piscine-diffazur-bordeaux",
+        "title": "Fuite piscine Diffazur à Bordeaux : mosaïque pâte de verre",
+        "title_seo": "Fuite piscine Diffazur Bordeaux | Mosaïque",
+        "desc": "Diagnostic d'une fuite sur piscine Diffazur à Bordeaux : structure béton armé, mosaïque pâte de verre, joints carrelage. Pathologies typiques et tarifs.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Diffazur béton revêtement mosaïque à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine Diffazur à Bordeaux présente une perte d'eau anormale ? Diffazur, leader français de la piscine béton armé revêtue de mosaïque pâte de verre, équipe environ 8 % des piscines privées girondines, principalement dans le segment haut de gamme (Caudéran, Le Bouscat, villas du Pyla). Le système constructif béton + mosaïque offre une excellente durabilité (35-50 ans) mais présente des pathologies bien identifiées après 20 ans de service.</p>
+
+<h2>Pathologies typiques sur piscines Diffazur</h2>
+<p>Le système Diffazur combine une structure en béton armé monobloc, un revêtement intérieur en mosaïque pâte de verre 2,5×2,5 cm, et des joints en mortier hydrofugé. Trois zones concentrent 80 % des fuites que nous diagnostiquons :</p>
+<ul>
+<li><strong>Joints de mortier entre tesselles</strong> : sur les piscines de plus de 18 ans, les joints peuvent se craqueler par cycle gel/dégel ou par dérive du pH. Microfissures invisibles à l'œil nu mais qui laissent passer 0,5 à 2 cm/jour. Très typique sur les piscines exposées plein sud avec amplitude thermique forte.</li>
+<li><strong>Fissure structurelle béton</strong> : plus rare mais grave. Fissure verticale ou en angle de paroi due à un mouvement de terrain ou un défaut de calage initial. Sur Bordeaux, les terrains argileux de Caudéran sont sensibles aux cycles retrait/gonflement saisonniers.</li>
+<li><strong>Pièces à sceller (skimmer, projecteur, prise balai)</strong> : scellement mortier qui se craquelle au pourtour de la pièce après 20-25 ans.</li>
+</ul>
+
+<h2>Diagnostic adapté au revêtement mosaïque</h2>
+<p>Sur une piscine Diffazur, le diagnostic combine :</p>
+<ol>
+<li><strong>Inspection visuelle à la lampe rasante</strong> de toute la mosaïque pour repérer microfissures et tesselles décollées (test au tournevis sur les tesselles suspectes : sonore = collée, sourd = décollée).</li>
+<li><strong>Test fluorescéine zone par zone</strong> : injection ciblée à proximité des joints suspects. Le colorant est aspiré par les microfissures et confirme le passage. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine</a>.</li>
+<li><strong>Test pression hydraulique</strong> des canalisations pour isoler les fuites bassin vs réseau enterré.</li>
+<li><strong>Inspection caméra sous-marine</strong> pour les fissures structurelles suspectées en grand bain.</li>
+</ol>
+
+<h2>Réparation et coût d'intervention à Bordeaux</h2>
+<p>Notre diagnostic Diffazur : <strong>380 à 580 € HT</strong>. Pour la réparation des joints mosaïque, nous orientons vers un pisciniste partenaire mosaïste spécialisé (compétence rare en Gironde, 2 prestataires identifiés). Coût moyen reprise joint mosaïque locale : 480 à 1 200 € HT par mètre carré traité. Pour les fissures structurelles, intervention plus lourde 1 500 à 4 500 € HT par zone (résine d'injection époxy + reprise mosaïque).</p>
+<p>Sur les piscines Diffazur de moins de 10 ans, la garantie décennale couvre les défauts de mise en œuvre. Au-delà, prise en charge possible par votre assurance habitation si dégât des eaux constaté (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement</a>). Pour les autres marques de piscine ou pour une vue d'ensemble de notre service, voir <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>."""
+    },
+    {
+        "slug": "fuite-piscine-waterair-bordeaux",
+        "title": "Fuite piscine Waterair à Bordeaux : panneaux acier galvanisé",
+        "title_seo": "Fuite piscine Waterair Bordeaux | Panneaux acier",
+        "desc": "Diagnostic d'une fuite sur piscine Waterair à Bordeaux : panneaux acier galvanisé, liner PVC armé, raccords filtration. Méthodes spécifiques et tarifs.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Waterair structure acier galvanisé à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine Waterair à Bordeaux perd de l'eau ? Waterair propose depuis 1973 un système constructif unique en France : panneaux modulaires en acier galvanisé revêtu, liner PVC armé 75/100 ou 85/100, livré en kit avec installation simplifiée par le client ou par un installateur agréé. Cette architecture présente des pathologies spécifiques que nos techniciens diagnostiquent à Bordeaux et en Gironde.</p>
+
+<h2>Points de vigilance sur le système Waterair</h2>
+<p>Le système Waterair repose sur 4 éléments principaux : panneaux acier galvanisé (épaisseur 1,5 mm), feutre géotextile, liner PVC armé soudé sur place, et margelles béton coffrées en place. 4 zones concentrent les fuites observées à Bordeaux :</p>
+<ul>
+<li><strong>Corrosion ponctuelle des panneaux acier</strong> : très rare en service normal, mais peut survenir si le galvanisé a été éraflé pendant la pose (gravier, outil) et que l'humidité côté terre attaque l'acier. Cause cumulative qui n'apparaît qu'après 15-25 ans.</li>
+<li><strong>Soudure liner défaillante</strong> : les soudures sur place du liner PVC (à l'air chaud à 480 °C) peuvent se fragiliser après 18-22 ans, en particulier sur les angles, escaliers et raccords pièces à sceller. Cas le plus fréquent sur Waterair (60 % des fuites).</li>
+<li><strong>Joint mastic skimmer/refoulement</strong> : le scellement mastic entre la pièce à sceller et le panneau acier peut se craqueler avec les cycles thermiques. Refonte en 30 minutes par notre pisciniste partenaire.</li>
+<li><strong>Traversée de paroi pour canalisations</strong> : étanchéité par joint torique double, à vérifier après 12-15 ans.</li>
+</ul>
+
+<h2>Notre méthode de diagnostic sur Waterair</h2>
+<p>Sur une piscine Waterair, nos techniciens à Bordeaux suivent un protocole adapté à la structure acier + liner armé :</p>
+<ol>
+<li><strong>Inspection visuelle complète</strong> du liner PVC à la lampe rasante : recherche de plis, soudures fatiguées, points de tension. Sur les Waterair de plus de 15 ans, on identifie souvent visuellement la zone de soudure suspecte.</li>
+<li><strong>Test fluorescéine ciblé</strong> à proximité des soudures et raccords. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page fluorescéine piscine</a>.</li>
+<li><strong>Inspection acoustique</strong> des canalisations enterrées entre local technique et bassin (méthode complémentaire pour les fuites côté refoulement).</li>
+<li><strong>Test de pression</strong> sur les circuits de filtration pour isoler les fuites bassin vs réseau hydraulique.</li>
+</ol>
+
+<h2>Coût d'intervention à Bordeaux Métropole</h2>
+<p>Diagnostic complet sur piscine Waterair à Bordeaux : <strong>380 à 520 € HT</strong>, intervention 2 à 3 heures. Pour les fuites de liner, réparation possible par soudure thermique locale (320 à 480 € HT) ou rustine subaquatique (180 à 280 € HT) selon configuration. Voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation fuite liner piscine</a>.</p>
+<p>Sur les piscines Waterair encore sous garantie décennale, prise en charge constructeur possible si défaut de mise en œuvre. Au-delà, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>."""
+    },
+    {
+        "slug": "piscine-perd-3-cm-par-jour",
+        "title": "Piscine qui perd 3 cm par jour : fuite ou évaporation ?",
+        "title_seo": "Piscine perd 3 cm par jour | Diagnostic Gironde",
+        "desc": "Votre piscine perd 3 cm d'eau par jour à Bordeaux ? Tableau évaporation par mois en Gironde, test du seau, sources de fuite probables et coûts du diagnostic.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/niveau-eau-piscine-fuite.webp" alt="Niveau d'eau anormalement bas dans une piscine privée en Gironde, perte de 3 cm par jour" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine perd 3 cm d'eau par jour et vous ne savez pas si c'est normal ? Cette baisse est <strong>nettement au-dessus des seuils d'évaporation naturelle en Gironde</strong>, même en pic de chaleur. Dans 90 % des cas, une perte régulière de 3 cm par jour signifie une fuite à diagnostiquer. Cet article vous donne le diagnostic exact en 5 minutes et le coût de l'intervention si vous nous faites venir à Bordeaux.</p>
+
+<h2>3 cm par jour : ce qui est normal et ce qui ne l'est pas</h2>
+<p>L'évaporation naturelle d'une piscine extérieure non couverte en Gironde varie selon la saison et l'exposition. Voici les valeurs normales constatées sur 200 diagnostics annuels :</p>
+<ul>
+<li><strong>Janvier-février</strong> : 0,2 à 0,5 cm par jour (hivernage, évaporation très faible)</li>
+<li><strong>Mars-avril</strong> : 0,4 à 0,8 cm par jour</li>
+<li><strong>Mai-juin</strong> : 0,8 à 1,3 cm par jour</li>
+<li><strong>Juillet-août</strong> : 1,2 à 1,8 cm par jour (pic d'évaporation, canicule, vent)</li>
+<li><strong>Septembre-octobre</strong> : 0,7 à 1,1 cm par jour</li>
+<li><strong>Novembre-décembre</strong> : 0,3 à 0,6 cm par jour</li>
+</ul>
+<p>Sur le Bassin d'Arcachon (vent marin permanent, exposition forte), majorez ces valeurs de 20 à 40 %. Mais même au pic estival sur Arcachon ou La Teste-de-Buch, l'évaporation ne dépasse jamais 2,5 cm/jour. <strong>Une perte de 3 cm/jour est donc anormale 11 mois sur 12 en Gironde</strong>, et même en juillet-août c'est suspect.</p>
+
+<h2>Confirmez la fuite avec le test du seau (gratuit, 24h)</h2>
+<p>Avant de nous appeler, faites le test du seau pour distinguer évaporation forte et fuite réelle. Posez un seau rempli d'eau sur la première marche de votre piscine pour qu'il soit à la même température. Marquez au feutre indélébile le niveau dans le seau et le niveau de la piscine. Laissez 24 à 48 heures sans baignade ni remise à niveau automatique. Comparez :</p>
+<ul>
+<li><strong>Seau et piscine baissent de la même hauteur</strong> : c'est de l'évaporation pure (rare à 3 cm/jour mais possible en pic de chaleur sur le Bassin d'Arcachon).</li>
+<li><strong>Piscine baisse plus que le seau</strong> : fuite confirmée. L'écart entre la baisse seau et la baisse piscine = volume perdu par la fuite.</li>
+</ul>
+<p>Pour les protocoles complets et les pièges du test du seau (vent qui déplace le seau, baignade non documentée, remise à niveau automatique), voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite</a>.</p>
+
+<h2>Sources probables d'une fuite à 3 cm/jour</h2>
+<p>À ce débit (3 cm/jour sur une piscine standard 8×4 = 960 litres/jour ou 350 m³/an), la fuite est moyenne : ni microfissure invisible, ni rupture catastrophique. Sources les plus fréquentes :</p>
+<ol>
+<li><strong>Joint skimmer ou refoulement fissuré</strong> (60 % des cas à ce débit) : remplacement joint torique 12 à 35 € de pièce, 120 à 180 € HT en intervention pisciniste.</li>
+<li><strong>Canalisation enterrée fissurée</strong> (20 % des cas) : raccord PVC désaxé sur sol sableux Bassin d'Arcachon ou retrait/gonflement argileux Caudéran. Voir notre <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">page canalisation enterrée Bordeaux</a>.</li>
+<li><strong>Liner PVC fissuré ou désoudu</strong> (15 % des cas) : voir notre <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">guide fuite liner piscine</a>.</li>
+<li><strong>Bonde de fond ou projecteur</strong> (5 % des cas) : remplacement joint, intervention en apnée.</li>
+</ol>
+
+<h2>Notre intervention à Bordeaux</h2>
+<p>Diagnostic complet d'une fuite à 3 cm/jour : <strong>380 à 580 € HT</strong> selon la complexité (8 % de chance que ce soit complexe à ce débit). Intervention 2 à 4 heures, rapport remis le jour même. Souvent remboursé par votre assurance multirisque habitation. Voir nos pages <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a> et <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>."""
+    },
+    {
+        "slug": "compteur-eau-qui-tourne-sans-utilisation",
+        "title": "Compteur d'eau qui tourne sans utilisation : que faire ?",
+        "title_seo": "Compteur eau qui tourne sans utilisation | Bordeaux",
+        "desc": "Votre compteur d'eau tourne sans aucune utilisation à votre domicile ? Tests à faire ce soir, sources de fuite probables, écrêtement loi Warsmann à Bordeaux.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/compteur-eau-bordeaux.webp" alt="Compteur d'eau Bordeaux Métropole qui continue de tourner sans utilisation, signe de fuite enterrée" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous avez fermé tous les robinets de votre domicile, vous êtes assuré qu'aucun appareil ne consomme d'eau, et pourtant votre compteur d'eau continue de tourner ? C'est le symptôme le plus typique d'une <strong>fuite sur votre réseau privatif</strong>, c'est-à-dire entre votre compteur et votre habitation. À Bordeaux et en Gironde, ce phénomène concerne environ 15 % des propriétaires de maisons individuelles, principalement sur les habitations de plus de 30 ans avec canalisations enterrées en cuivre, plomb ou PVC vieillissants.</p>
+
+<h2>Confirmer que le compteur tourne vraiment sans utilisation</h2>
+<p>Avant tout diagnostic, faites un test simple en 3 étapes le soir avant de vous coucher :</p>
+<ol>
+<li>Fermez TOUS les robinets de la maison (cuisine, salle de bain, WC, machine à laver, lave-vaisselle, arrosage automatique, ballon eau chaude si possible).</li>
+<li>Allez relever votre compteur d'eau (généralement en regard de jardin ou en limite de propriété sur la voie publique). Notez le chiffre exact, photographie l'écran ou le cadran.</li>
+<li>Le lendemain matin, sans avoir utilisé d'eau, relevez à nouveau le compteur. Si le chiffre a augmenté, vous avez une fuite confirmée.</li>
+</ol>
+<p>Vérifiez également pendant le test : le robinet d'arrivée principal est-il bien ouvert ? Une chasse d'eau peut-elle fuir silencieusement ? Un robinet extérieur d'arrosage peut-il être resté ouvert ? Ces vérifications éliminent 30 % des faux positifs.</p>
+
+<h2>Localisation : où peut être la fuite ?</h2>
+<p>Sur le réseau privatif (entre compteur et habitation), 4 zones concentrent 95 % des fuites :</p>
+<ul>
+<li><strong>Canalisation enterrée entre compteur et maison</strong> (60 % des cas) : raccord PVC désaxé sur sol sableux ou argileux, perforation par racine d'arbre, micro-fissure due au gel. Diagnostic par gaz traceur azote/hydrogène. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a>.</li>
+<li><strong>Robinet d'arrosage extérieur fuyard</strong> (15 % des cas) : fuite goutte à goutte qui s'accumule. Vérification visuelle simple.</li>
+<li><strong>Chasse d'eau WC qui fuit silencieusement</strong> (12 % des cas) : test au papier toilette dans la cuvette pendant la nuit pour détecter un filet d'eau invisible.</li>
+<li><strong>Canalisation encastrée dans cloison ou dalle</strong> (8 % des cas) : tache d'humidité visible, sol anormalement chaud (eau chaude sanitaire). Diagnostic par thermographie infrarouge. Voir <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">thermographie Bordeaux</a>.</li>
+</ul>
+
+<h2>Combien va vous coûter cette fuite ?</h2>
+<p>Sur le plan financier, une fuite enterrée non détectée peut faire exploser votre facture de 300 % à 1 000 % en quelques mois. Heureusement, deux mécanismes vous protègent en France :</p>
+<ul>
+<li><strong>Loi Warsmann 2011</strong> : si la fuite est sur réseau enterré non visible, votre distributeur (Suez ou Régie de Bordeaux Métropole) est tenu de plafonner votre facture à 2× la consommation moyenne des 3 dernières années. Procédure complète dans notre <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a>.</li>
+<li><strong>Garantie recherche de fuite assurance habitation</strong> : votre contrat multirisque rembourse tout ou partie du diagnostic professionnel. Voir <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance fuite enterrée</a>.</li>
+</ul>
+
+<h2>Notre intervention à Bordeaux</h2>
+<p>Diagnostic complet d'une fuite après compteur à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité du réseau, intervention 2 à 4 heures, rapport accepté par tous les distributeurs et assureurs français. Voir aussi notre page service <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> pour les détails de notre méthode et notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">service urgence 24h</a> pour les fuites importantes."""
+    },
+    {
+        "slug": "facture-eau-suez-doublee-fuite-bordeaux",
+        "title": "Facture eau Suez doublée à Bordeaux : que faire ?",
+        "title_seo": "Facture eau Suez doublée Bordeaux | Loi Warsmann",
+        "desc": "Votre facture d'eau Suez à Bordeaux a doublé ou triplé ? Procédure d'écrêtement loi Warsmann pas à pas, conditions, modèle de courrier, délais.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/compteur-eau-bordeaux.webp" alt="Facture d'eau Suez Bordeaux Métropole anormalement élevée, suspicion de fuite et procédure d'écrêtement" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre facture d'eau Suez à Bordeaux est passée de 250 € à 600 €, voire 1 500 € sur le dernier trimestre alors que votre consommation n'a pas changé ? Vous avez probablement une fuite enterrée non détectée sur votre réseau privatif, et la bonne nouvelle, c'est que la loi Warsmann de 2011 vous permet de plafonner cette facture à 2 fois votre consommation moyenne. Cet article détaille la procédure pas à pas pour Bordeaux Métropole en 2026.</p>
+
+<h2>Confirmer que la sur-consommation vient bien d'une fuite</h2>
+<p>Avant d'engager la procédure d'écrêtement, vérifiez en 24 heures que la sur-consommation ne vient pas d'un changement d'usage (nouvel occupant, lave-linge cassé, robinet d'arrosage oublié) :</p>
+<ol>
+<li>Fermez tous les robinets de votre domicile à 22h.</li>
+<li>Relevez votre compteur d'eau (chiffre exact + photo).</li>
+<li>Le lendemain à 7h, sans avoir utilisé d'eau, relevez à nouveau. Si le compteur a tourné = fuite confirmée.</li>
+</ol>
+<p>Pour les détails et faux positifs (chasse d'eau qui fuit silencieusement, robinet extérieur, etc.), voir notre <a href="/guide/compteur-eau-qui-tourne-sans-utilisation/" style="color:var(--green);text-decoration:underline;">guide compteur d'eau qui tourne</a>.</p>
+
+<h2>La loi Warsmann 2011 : ce qu'elle dit</h2>
+<p>L'article L2224-12-4 du Code général des collectivités territoriales (loi du 17 mai 2011 dite « loi Warsmann ») prévoit que : <em>« Pour le client occupant un local d'habitation, en cas de fuite d'eau due à un défaut sur la canalisation après compteur, le service d'eau, dès qu'il constate une consommation excédant le double de la consommation moyenne, en informe l'abonné. »</em></p>
+<p>Concrètement, votre facture est plafonnée à <strong>deux fois la consommation moyenne des trois dernières années</strong>, à condition de :</p>
+<ul>
+<li>Faire réparer la fuite dans le mois qui suit la notification de Suez</li>
+<li>Fournir un certificat de plombier ou un rapport de recherche de fuite professionnel attestant la localisation enterrée non visible</li>
+<li>Que la fuite soit bien sur le réseau privatif après compteur (intérieur ou enterré, mais pas sur installations électroménagers ou robinetterie)</li>
+</ul>
+
+<h2>Procédure pas à pas avec Suez à Bordeaux</h2>
+<ol>
+<li><strong>Réception de la facture anormale</strong> : conservez l'original.</li>
+<li><strong>Diagnostic professionnel obligatoire</strong> : Suez ou la Régie de Bordeaux Métropole exige un rapport technique attestant la fuite enterrée. Notre intervention coûte 380 à 580 € HT, voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a>. Le rapport est conforme aux exigences Suez et accepté.</li>
+<li><strong>Réparation de la fuite</strong> : par un plombier ou pisciniste partenaire dans les 30 jours suivant le diagnostic. Conservez la facture de réparation.</li>
+<li><strong>Courrier d'écrêtement</strong> : envoyez à Suez (par courrier recommandé avec AR) un dossier comprenant la facture anormale, le rapport de diagnostic, la facture de réparation, et un courrier demandant l'application de la loi Warsmann. Modèle disponible dans notre <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a>.</li>
+<li><strong>Réponse Suez sous 30 à 60 jours</strong> : Suez recalcule votre facture et vous rembourse l'excédent (ou crédite votre compte client).</li>
+</ol>
+
+<h2>Cas concret : maison à Caudéran (mars 2026)</h2>
+<p>M. R., propriétaire à Caudéran (33000), reçoit une facture Suez de 1 850 € sur le trimestre janvier-mars 2026 alors que sa moyenne historique est de 280 €. Diagnostic Recherche Fuite Gironde par gaz traceur : fuite localisée à 8 mètres du compteur, sur un raccord cuivre désaxé sous la pelouse. Notre intervention : 480 € HT (remboursée à 100 % par AXA assurance habitation).</p>
+<p>Procédure Warsmann auprès de Suez : <strong>facture plafonnée à 560 €</strong> au lieu de 1 850 €. Économie nette : 1 290 €. Délai total entre diagnostic et remboursement : 6 semaines.</p>
+
+<h2>Notre intervention à Bordeaux</h2>
+<p>Pour une intervention sous 24 à 48h en cas de surconsommation Suez critique, voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence recherche de fuite à Bordeaux</a>. Pour la procédure d'assurance complète, consultez le <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide fuite canalisation enterrée et assurance</a>."""
+    },
+    {
+        "slug": "colonne-fonte-haussmannien-bordeaux-fuite",
+        "title": "Colonne en fonte haussmannien Bordeaux : fuite et chemisage",
+        "title_seo": "Colonne fonte haussmannien Bordeaux fuite",
+        "desc": "Fuite sur colonne EU/EV en fonte d'immeuble haussmannien à Bordeaux : pathologies typiques, diagnostic, chemisage sans démolition, coordination syndic.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/ville-bordeaux-patrimoine.webp" alt="Immeuble haussmannien à Bordeaux avec colonnes EU/EV en fonte d'origine, contexte d'intervention diagnostic fuite et chemisage" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous êtes copropriétaire ou syndic d'un immeuble haussmannien à Bordeaux et vous suspectez une fuite sur les colonnes EU/EV en fonte d'origine ? Le centre-ville historique de Bordeaux compte plus de 25 000 immeubles construits entre 1850 et 1914, dont 60 % conservent leurs colonnes d'évacuation en fonte grise d'origine. Après 130 à 170 ans de service, ces colonnes sont en fin de vie et présentent des pathologies bien identifiées que nous traitons régulièrement à Bordeaux Centre, Chartrons, Saint-Pierre, Saint-Augustin et Caudéran.</p>
+
+<h2>Pathologies typiques sur colonnes fonte haussmanniennes bordelaises</h2>
+<p>La fonte grise (matériau quasi exclusif des immeubles bordelais d'avant 1914) résiste mal aux eaux usées sur le très long terme. Les défauts les plus fréquents que nous diagnostiquons :</p>
+<ul>
+<li><strong>Fissures longitudinales par corrosion H2S</strong> : le sulfure d'hydrogène présent dans les eaux usées attaque progressivement la fonte sur sa face intérieure. Après 130-150 ans, fissures verticales de 5 à 30 cm fréquentes, souvent au milieu des sections entre étages.</li>
+<li><strong>Désaxement de raccord aux étages</strong> : les jonctions entre tronçons de colonne (généralement à chaque palier) sont étanchéifiées par mastic plomb ou caoutchouc. Ces joints durcissent et fissurent. Cas type : sinistre dégât des eaux récurrent au plafond du logement situé sous la jonction.</li>
+<li><strong>Perforation par corrosion externe</strong> : sur les colonnes encastrées dans les murs porteurs en pierre calcaire bordelaise (très hygroscopique), l'humidité côté terre peut attaquer la fonte de l'extérieur. Plus rare mais plus grave.</li>
+<li><strong>Bouchage par dépôts calcaires + graisses</strong> : pas une fuite à proprement parler, mais cause indirecte. Le diamètre utile peut être réduit de 50 % à 80 %, créant des refoulements qui imitent une fuite.</li>
+</ul>
+
+<h2>Diagnostic adapté aux immeubles haussmanniens</h2>
+<p>Sur un immeuble haussmannien bordelais, notre intervention combine plusieurs méthodes pour cibler précisément la pathologie :</p>
+<ol>
+<li><strong>Inspection ITV par caméra endoscopique</strong> de la colonne sur toute sa hauteur (R+5 à R+8 typique). Voir notre <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">guide inspection caméra</a>. Permet de localiser au cm près chaque fissure ou désaxement.</li>
+<li><strong>Localisation radio</strong> de la position exacte de la caméra à travers les cloisons et planchers, pour cibler les futures interventions sans démolition exploratoire.</li>
+<li><strong>Test étanchéité par mise en eau</strong> sur tronçon isolé pour quantifier le débit de fuite si nécessaire.</li>
+<li><strong>Diagnostic structurel des cheminements</strong> : sur Bordeaux Centre, les colonnes anciennes traversent souvent des gaines techniques mutualisées avec d'autres réseaux (gaz, électricité). Notre rapport indique la coordination nécessaire avec d'autres corps de métier.</li>
+</ol>
+
+<h2>Solution : chemisage sans démolition</h2>
+<p>Pour les colonnes haussmanniennes en fonte fissurée, la démolition classique est presque toujours inappropriée : nuisances majeures pour les locataires, risques structurels en immeuble classé, coûts prohibitifs (35 000 € HT typique pour une colonne R+5). La solution est <strong>le chemisage par résine époxy bicomposant</strong>, qui crée un tube neuf à l'intérieur de l'ancien sans aucune démolition.</p>
+<p>Voir notre page dédiée <a href="/villes/bordeaux/chemisage/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation à Bordeaux</a> qui détaille la technique en 5 étapes (ITV, curage, imprégnation, réversion, contrôle) et notre <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">page chemisage syndic et copropriété</a> pour la procédure de vote en AG et la prise en charge IRSI.</p>
+
+<h2>Coordination avec votre syndic à Bordeaux</h2>
+<p>Notre intervention typique sur immeuble haussmannien R+6 (rue Sainte-Catherine, Cours de l'Intendance, Quai des Chartrons, Place Saint-Pierre, etc.) :</p>
+<ul>
+<li><strong>Diagnostic ITV + rapport syndic</strong> : 380 à 580 € HT, intervention 2 à 4 heures.</li>
+<li><strong>Chemisage de la colonne sinistrée</strong> (pisciniste partenaire spécialisé) : 12 000 à 28 000 € HT par colonne selon hauteur et diamètre, intervention 2 à 4 jours, sans évacuation des locataires.</li>
+<li><strong>Prise en charge IRSI</strong> possible sur les sinistres dégâts des eaux jusqu'à 5 000 € HT par lot. Voir notre <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">page dégâts des eaux Bordeaux</a>.</li>
+</ul>
+<p>Pour préparer un vote en AG ou un dossier syndic, contactez-nous pour un diagnostic ITV gratuit en copropriété de plus de 30 lots."""
+    },
+    {
+        "slug": "convention-irsi-copropriete-bordeaux-degats-eaux",
+        "title": "Convention IRSI copropriété Bordeaux dégâts des eaux : guide",
+        "title_seo": "Convention IRSI copropriété Bordeaux | Sinistres",
+        "desc": "Application de la convention IRSI sur sinistre dégâts des eaux en copropriété à Bordeaux : seuils, gestion syndic, expert assureur, recours, délais.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/ville-bordeaux-patrimoine.webp" alt="Immeuble en copropriété à Bordeaux concerné par la convention IRSI sur sinistre dégât des eaux" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous êtes copropriétaire ou syndic d'un immeuble à Bordeaux confronté à un sinistre dégât des eaux ? La convention IRSI (Indemnisation et Recours Sinistres Immeubles), entrée en vigueur le 1er juin 2018 et remplaçant l'ancienne convention CIDRE, simplifie considérablement la gestion des sinistres entre assureurs en copropriété. Cet article détaille son application concrète à Bordeaux en 2026, les seuils, les délais et les pièges à éviter.</p>
+
+<h2>Comment fonctionne la convention IRSI ?</h2>
+<p>La convention IRSI est un accord interassureurs signé par la quasi-totalité des compagnies françaises (AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut, GMF, Crédit Mutuel, Banque Postale, Aviva). Elle organise la prise en charge des sinistres dégâts des eaux dans les immeubles collectifs, sans recours entre assureurs en dessous de certains seuils.</p>
+<p><strong>Seuils 2026 (revalorisés)</strong> :</p>
+<ul>
+<li><strong>Moins de 1 600 € HT par lot</strong> : prise en charge intégrale par l'assureur du lot sinistré, sans recherche de responsabilité.</li>
+<li><strong>1 600 à 5 000 € HT par lot</strong> : prise en charge IRSI standard. L'assureur du lot sinistré indemnise, puis se retourne contre l'assureur du lot d'origine sur barème.</li>
+<li><strong>Plus de 5 000 € HT par lot</strong> : sortie du périmètre IRSI. Application du droit commun avec expertise contradictoire.</li>
+</ul>
+
+<h2>Application concrète sur sinistre à Bordeaux</h2>
+<p>Cas typique : votre plafond a une tache d'humidité provoquée par une fuite chez le voisin du dessus. Procédure :</p>
+<ol>
+<li><strong>Déclaration sinistre</strong> à votre assureur dans les 5 jours ouvrables. Joindre photos datées, premier constat des dégâts.</li>
+<li><strong>Déclaration parallèle</strong> au syndic de copropriété pour qu'il informe les autres lots concernés (voisin du dessus si fuite identifiée).</li>
+<li><strong>Diagnostic recherche de fuite</strong> obligatoire pour identifier la source. Notre intervention à Bordeaux : 380 à 580 € HT, rapport conforme convention IRSI accepté par tous les assureurs. Voir <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">dégâts des eaux à Bordeaux</a>.</li>
+<li><strong>Si sinistre < 5 000 € HT</strong> : votre assureur indemnise vos dommages directement, sans expertise contradictoire. Délai 30 à 60 jours.</li>
+<li><strong>Si sinistre > 5 000 € HT</strong> : expertise contradictoire mandatée par chacun des assureurs concernés. Délai 60 à 120 jours.</li>
+</ol>
+
+<h2>Rôle du syndic dans la procédure IRSI</h2>
+<p>À Bordeaux, les syndics professionnels (Foncia, Citya, Nexity, Inter Gestion, Cabinet Bedin, Audet Immobilier, Gironde Habitat) sont rompus à cette procédure. Le syndic intervient principalement :</p>
+<ul>
+<li><strong>Pour identifier l'origine du sinistre dans les parties communes</strong> (colonne montante, gaine technique, toiture). Si la fuite vient des communs, c'est l'assurance multirisque copropriété qui prend en charge.</li>
+<li><strong>Pour autoriser et faciliter les diagnostics</strong> dans les autres lots et parties communes (clés, accès, planning).</li>
+<li><strong>Pour engager les travaux de réparation des communs</strong> (chemisage de colonne, reprise toiture, etc.). Voir notre page <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage syndic Bordeaux</a>.</li>
+<li><strong>Pour communiquer aux copropriétaires impactés</strong> (note d'information, convocation AG si travaux significatifs).</li>
+</ul>
+
+<h2>Pièges fréquents et délais à respecter</h2>
+<p>Sur 50 dossiers IRSI accompagnés annuellement à Bordeaux, voici les erreurs les plus fréquentes :</p>
+<ul>
+<li><strong>Déclaration tardive (au-delà de 5 jours)</strong> : motif valable de refus de prise en charge. Toujours déclarer dans les 48 à 72h pour sécurité.</li>
+<li><strong>Réparation avant diagnostic</strong> : si vous réparez la fuite avant que l'expert assureur ait pu la constater, la prise en charge peut être contestée. Toujours photographier avant + faire diagnostiquer + attendre accord assureur.</li>
+<li><strong>Confusion partie privative / commune</strong> : la colonne montante EU/EV en gaine technique commune relève de la copropriété, pas de votre lot. Une canalisation dans votre cloison de salle de bain relève de votre lot privatif. Ce point détermine quel assureur est compétent.</li>
+<li><strong>Sinistre supérieur à 5 000 € HT non détecté</strong> : sortie du périmètre IRSI = procédure beaucoup plus lourde. Faire évaluer rapidement les dommages dès le constat initial.</li>
+</ul>
+
+<h2>Notre rôle dans la procédure IRSI à Bordeaux</h2>
+<p>Notre intervention de diagnostic est <strong>l'étape clé qui détermine la suite du dossier</strong> : identification de la source (privative ou commune), responsable (lot, copropriété, syndic), et chiffrage de la réparation. Notre rapport technique conforme convention IRSI est accepté par tous les assureurs IARD français, et nous restons disponibles 6 mois après l'intervention pour répondre aux questions de l'expert mandaté.</p>
+<p>Voir aussi nos pages connexes : <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence recherche de fuite Bordeaux</a> pour les sinistres aigus, <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d'eau</a> pour la procédure générale, et <a href="/villes/bordeaux/chemisage/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation à Bordeaux</a> pour la réparation préventive des colonnes haussmanniennes en fin de vie."""
+    },
+    {
+        "slug": "fuite-pvc-enterree-jardin-bordeaux",
+        "title": "Fuite PVC enterrée jardin à Bordeaux : diagnostic gaz traceur",
+        "title_seo": "Fuite PVC enterrée jardin Bordeaux | Gaz traceur",
+        "desc": "Diagnostic d'une fuite sur canalisation PVC enterrée sous jardin à Bordeaux : raccords désaxés, racines, sols argilo-calcaires. Méthode gaz traceur, coût.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-canalisation-enterree.webp" alt="Canalisation PVC enterrée sous jardin à Bordeaux, contexte d'intervention diagnostic fuite par gaz traceur" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre canalisation PVC enterrée sous jardin à Bordeaux fuit ? C'est l'un des cas les plus fréquents que nous traitons en Gironde, particulièrement sur les pavillons construits entre 1980 et 2010 avec réseaux PVC collés enterrés à 60-100 cm de profondeur. Cet article détaille les causes typiques, la méthode de diagnostic adaptée et les coûts de réparation à Bordeaux en 2026.</p>
+
+<h2>Pourquoi les canalisations PVC enterrées fuient</h2>
+<p>Le PVC collé est un excellent matériau pour canalisations d'eau froide enterrées (durée de vie théorique 50-70 ans), mais il présente trois faiblesses sur les terrains girondins :</p>
+<ul>
+<li><strong>Désaxement de raccord par mouvement de sol</strong> (50 % des cas) : sur les sols argileux du sud-ouest de Bordeaux (Caudéran, Le Bouscat, Gradignan), les cycles retrait/gonflement saisonniers déplacent les raccords PVC collés. Sur le Bassin d'Arcachon (Pyla, La Teste, Gujan), le sol sableux fluide a le même effet par tassement différentiel.</li>
+<li><strong>Perforation par racine d'arbre</strong> (30 % des cas) : platanes, chênes, tilleuls, saules pleureurs et bambous sont les pires. Les racines repèrent les microfuites de raccord et s'infiltrent à travers le joint, finissant par perforer la paroi PVC en quelques années. Cas type : maison de Caudéran avec platane à 5-10 mètres de la canalisation.</li>
+<li><strong>Cycle gel/dégel</strong> (15 % des cas) : sur les hivers rigoureux (rares à Bordeaux mais possibles tous les 5-10 ans), le gel peut faire éclater une canalisation mal enterrée (moins de 50 cm). Plus fréquent sur les robinets de jardin et tuyauteries proches de la surface.</li>
+<li><strong>Vétusté des colles PVC d'origine</strong> (5 % des cas) : sur les pavillons des années 1970-1985, les colles PVC d'époque peuvent perdre leur élasticité après 40 ans et fissurer aux raccords sous contrainte mécanique légère.</li>
+</ul>
+
+<h2>Comment diagnostiquons-nous une fuite PVC enterrée ?</h2>
+<p>Notre méthode de référence sur les canalisations PVC enterrées en Gironde combine deux techniques :</p>
+<ol>
+<li><strong>Test de pression hydraulique</strong> : isolation du tronçon suspecté, mise en pression à 4-6 bars, mesure de la chute de pression sur 15 minutes. Permet de quantifier le débit de fuite et confirmer la zone à investiguer.</li>
+<li><strong>Gaz traceur azote/hydrogène</strong> : vidange du tronçon, mise en pression avec mélange 95 % azote + 5 % hydrogène, suivi en surface au capteur électrochimique sensible à l'hydrogène. Le gaz remonte par capillarité jusqu'à la surface au point de fuite et déclenche le détecteur. Précision : 30-50 cm. Voir notre <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">page canalisation enterrée Bordeaux</a> pour le détail technique.</li>
+<li><strong>Inspection caméra endoscopique</strong> en complément si la canalisation est accessible depuis un regard. Permet de qualifier la cause exacte (raccord désaxé vs racine vs fissure). Voir <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">guide inspection caméra</a>.</li>
+</ol>
+
+<h2>Réparation : tranchée locale ou chemisage ?</h2>
+<p>Une fois la fuite localisée au mètre près, deux options de réparation :</p>
+<ul>
+<li><strong>Tranchée locale ciblée</strong> : creusement sur 1 à 3 mètres au point de fuite, remplacement du tronçon défectueux, rebouchage. Coût 600 à 1 500 € HT selon profondeur et accès. Adapté si la canalisation est globalement saine et que la fuite est ponctuelle.</li>
+<li><strong>Chemisage par résine époxy</strong> : si la canalisation a plusieurs défauts ou est globalement vieillissante, le chemisage rénove le tube sans tranchée. Voir notre <a href="/villes/bordeaux/chemisage/" style="color:var(--green);text-decoration:underline;">page chemisage canalisation Bordeaux</a>. Coût 250 à 380 € HT par mètre linéaire.</li>
+</ul>
+
+<h2>Notre intervention sur Bordeaux Métropole et Bassin d'Arcachon</h2>
+<p>Diagnostic complet d'une fuite PVC enterrée à Bordeaux : <strong>380 à 580 € HT</strong>, intervention 2 à 4 heures, rapport technique remis le jour même. Souvent intégralement remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance fuite enterrée</a>).</p>
+<p>Si votre facture d'eau a explosé, vous pouvez aussi activer la procédure d'écrêtement loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole : voir notre <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a> et <a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide facture Suez doublée</a>."""
+    },]
 
 def page_guide_article(art):
     sidebar = f'''<div class="aside-cta">
