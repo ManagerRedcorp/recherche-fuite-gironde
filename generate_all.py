@@ -641,27 +641,27 @@ def page_chemisage_bordeaux_premium():
     {
       "@type": "Question",
       "name": "Le chemisage est-il adapté aux colonnes en fonte des immeubles haussmanniens bordelais ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Parfaitement. La fonte grise des immeubles bordelais d\\'avant 1900 est l\\'un des supports privilégiés du chemisage : son état de surface accroche la résine époxy, sa rigidité limite les déformations, et la verticalité des colonnes facilite la réversion. Sur Bordeaux Centre (Chartrons, Saint-Pierre, Sainte-Catherine), nous traitons régulièrement des colonnes de 18 à 30 mètres de hauteur (R+5 à R+8) sans démolition." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Parfaitement. La fonte grise des immeubles bordelais d'avant 1900 est l'un des supports privilégiés du chemisage : son état de surface accroche la résine époxy, sa rigidité limite les déformations, et la verticalité des colonnes facilite la réversion. Sur Bordeaux Centre (Chartrons, Saint-Pierre, Sainte-Catherine), nous traitons régulièrement des colonnes de 18 à 30 mètres de hauteur (R+5 à R+8) sans démolition." }
     },
     {
       "@type": "Question",
       "name": "Combien coûte un chemisage de colonne montante en copropriété à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Pour une colonne EU/EV (eaux usées/vannes) en immeuble bordelais R+5 à R+8, comptez 12 000 à 28 000 € HT par cage d\\'escalier. Le coût dépend du diamètre (100 à 200 mm courants à Bordeaux), du linéaire total, du nombre de raccords intermédiaires et de l\\'accessibilité au pied de colonne. Sur les immeubles haussmanniens du Triangle d\\'Or, tarif moyen 18 500 € HT pour une colonne de 22 m." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Pour une colonne EU/EV (eaux usées/vannes) en immeuble bordelais R+5 à R+8, comptez 12 000 à 28 000 € HT par cage d'escalier. Le coût dépend du diamètre (100 à 200 mm courants à Bordeaux), du linéaire total, du nombre de raccords intermédiaires et de l'accessibilité au pied de colonne. Sur les immeubles haussmanniens du Triangle d'Or, tarif moyen 18 500 € HT pour une colonne de 22 m." }
     },
     {
       "@type": "Question",
-      "name": "Faut-il évacuer les locataires d\\'un immeuble bordelais pendant le chemisage ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Non, jamais. Notre intervention se fait depuis le pied de colonne (cave ou sous-sol commun) sans démolition de placo dans les appartements. Les occupants conservent l\\'usage de leur logement. Seule contrainte : couper temporairement les eaux usées du logement concerné pendant 4 à 8 heures (généralement en matinée), avec WC et douche redevenus utilisables le soir même. Sur copropriété, planning communiqué au syndic 15 jours avant." }
+      "name": "Faut-il évacuer les locataires d'un immeuble bordelais pendant le chemisage ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non, jamais. Notre intervention se fait depuis le pied de colonne (cave ou sous-sol commun) sans démolition de placo dans les appartements. Les occupants conservent l'usage de leur logement. Seule contrainte : couper temporairement les eaux usées du logement concerné pendant 4 à 8 heures (généralement en matinée), avec WC et douche redevenus utilisables le soir même. Sur copropriété, planning communiqué au syndic 15 jours avant." }
     },
     {
       "@type": "Question",
       "name": "Pouvez-vous intervenir sur les colonnes amiante-ciment des copropriétés bordelaises années 1960-1980 ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Oui, c\\'est même l\\'un des cas les plus fréquents sur les copropriétés du Grand Parc, de Mériadeck et des Aubiers (années 1965-1985). L\\'amiante-ciment se chemise sans démolition, donc sans risque d\\'émission de fibres : c\\'est précisément pourquoi cette technique est privilégiée en France pour ces réseaux. Notre intervention encapsule définitivement l\\'amiante dans la résine époxy, sans désamiantage préalable nécessaire." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, c'est même l'un des cas les plus fréquents sur les copropriétés du Grand Parc, de Mériadeck et des Aubiers (années 1965-1985). L'amiante-ciment se chemise sans démolition, donc sans risque d'émission de fibres : c'est précisément pourquoi cette technique est privilégiée en France pour ces réseaux. Notre intervention encapsule définitivement l'amiante dans la résine époxy, sans désamiantage préalable nécessaire." }
     },
     {
       "@type": "Question",
       "name": "Quelle est la garantie sur un chemisage de canalisation à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Garantie décennale de 10 ans sur la mise en œuvre, opposable à votre assurance dommages-ouvrage. Durée de vie technique de la résine époxy : 50 ans en conditions standard d\\'eaux usées domestiques. Notre rapport d\\'intervention est conforme NF EN ISO 11296-4 et accepté par les assureurs IARD bordelais (AXA, MAIF, MAAF, Macif, Allianz, Generali) pour la prise en charge en garantie habitation ou multirisque copropriété." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Garantie décennale de 10 ans sur la mise en œuvre, opposable à votre assurance dommages-ouvrage. Durée de vie technique de la résine époxy : 50 ans en conditions standard d'eaux usées domestiques. Notre rapport d'intervention est conforme NF EN ISO 11296-4 et accepté par les assureurs IARD bordelais (AXA, MAIF, MAAF, Macif, Allianz, Generali) pour la prise en charge en garantie habitation ou multirisque copropriété." }
     },
     {
       "@type": "Question",
@@ -671,12 +671,12 @@ def page_chemisage_bordeaux_premium():
     {
       "@type": "Question",
       "name": "Quelle est la différence entre chemisage et changement classique de canalisation à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Le changement classique implique démolition de placo, ouverture de gaines techniques, dépose de la canalisation existante, pose d\\'une neuve, refermeture, peinture. Coût total 2 à 3 fois supérieur au chemisage, durée 5 à 15 jours selon étages, nuisances importantes pour locataires. Le chemisage : aucune démolition, intervention 1 à 4 jours, occupants restent dans le logement, économie de 40 à 60 pourcent vs changement classique. Sur immeuble haussmannien Chartrons, économie typique 18 000 € HT vs 35 000 € HT pour un changement complet." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Le changement classique implique démolition de placo, ouverture de gaines techniques, dépose de la canalisation existante, pose d'une neuve, refermeture, peinture. Coût total 2 à 3 fois supérieur au chemisage, durée 5 à 15 jours selon étages, nuisances importantes pour locataires. Le chemisage : aucune démolition, intervention 1 à 4 jours, occupants restent dans le logement, économie de 40 à 60 pourcent vs changement classique. Sur immeuble haussmannien Chartrons, économie typique 18 000 € HT vs 35 000 € HT pour un changement complet." }
     },
     {
       "@type": "Question",
       "name": "Intervenez-vous en urgence pour un chemisage à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Pour les fuites actives en copropriété (sinistres dégât des eaux récurrents, infiltration vers logement voisin), nous proposons une intervention sous 5 à 10 jours sur Bordeaux Métropole. Le chemisage demande quelques jours de préparation (diagnostic ITV, prise de mesures, commande matériel). Pour une mise en sécurité immédiate, nous préconisons d\\'abord une localisation par recherche de fuite (notre métier principal) pour permettre une réparation provisoire le temps du chemisage." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Pour les fuites actives en copropriété (sinistres dégât des eaux récurrents, infiltration vers logement voisin), nous proposons une intervention sous 5 à 10 jours sur Bordeaux Métropole. Le chemisage demande quelques jours de préparation (diagnostic ITV, prise de mesures, commande matériel). Pour une mise en sécurité immédiate, nous préconisons d'abord une localisation par recherche de fuite (notre métier principal) pour permettre une réparation provisoire le temps du chemisage." }
     }
   ]
 }
@@ -6001,7 +6001,7 @@ def page_fluoresceine_piscine_bordeaux():
   "serviceType": "Recherche de fuite piscine par colorant fluorescéine",
   "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
   "areaServed": "Gironde",
-  "description": "Localisation d\\'une fuite de piscine par injection de fluorescéine sodique. Méthode non toxique, validée sur liner, coque polyester et béton.",
+  "description": "Localisation d'une fuite de piscine par injection de fluorescéine sodique. Méthode non toxique, validée sur liner, coque polyester et béton.",
   "offers": {
     "@type": "AggregateOffer",
     "lowPrice": "240",
@@ -6036,7 +6036,7 @@ def page_fluoresceine_piscine_bordeaux():
     {
       "@type": "Question",
       "name": "Le colorant peut-il tacher mon liner ou mon revêtement ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Aucune coloration durable n\\'a été observée sur les liners PVC, coques polyester, carrelage, peinture polyuréthane ou enduit ciment. Une légère teinte verdâtre peut subsister 2 à 6 heures sur les liners très clairs avant disparition complète sous filtration." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Aucune coloration durable n'a été observée sur les liners PVC, coques polyester, carrelage, peinture polyuréthane ou enduit ciment. Une légère teinte verdâtre peut subsister 2 à 6 heures sur les liners très clairs avant disparition complète sous filtration." }
     },
     {
       "@type": "Question",
@@ -6046,7 +6046,7 @@ def page_fluoresceine_piscine_bordeaux():
     {
       "@type": "Question",
       "name": "Quelle est la précision réelle du diagnostic fluorescéine ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Sur piscines liner ou coque, précision de 5 à 10 cm. Sur béton avec joints maçonnés, précision de 20 à 30 cm en raison du cheminement de l\\'eau dans les joints poreux. Précision largement suffisante pour cibler une réparation locale." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Sur piscines liner ou coque, précision de 5 à 10 cm. Sur béton avec joints maçonnés, précision de 20 à 30 cm en raison du cheminement de l'eau dans les joints poreux. Précision largement suffisante pour cibler une réparation locale." }
     },
     {
       "@type": "Question",
@@ -6269,7 +6269,7 @@ def page_thermographie_infrarouge_bordeaux():
   "serviceType": "Recherche de fuite par thermographie infrarouge",
   "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
   "areaServed": "Gironde",
-  "description": "Détection d\\'une fuite d\\'eau par caméra thermique infrarouge à Bordeaux et en Gironde. Application plancher chauffant, canalisations encastrées, copropriété.",
+  "description": "Détection d'une fuite d'eau par caméra thermique infrarouge à Bordeaux et en Gironde. Application plancher chauffant, canalisations encastrées, copropriété.",
   "offers": {
     "@type": "AggregateOffer",
     "lowPrice": "320",
@@ -6299,22 +6299,22 @@ def page_thermographie_infrarouge_bordeaux():
     {
       "@type": "Question",
       "name": "La caméra thermique fonctionne-t-elle à travers les murs ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Non. La caméra mesure la température de surface uniquement. Mais une fuite chauffe ou refroidit la surface au-dessus d\\'elle, ce qui permet de localiser un défaut situé à 5-15 cm sous la surface (chape, doublage, cloison)." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Non. La caméra mesure la température de surface uniquement. Mais une fuite chauffe ou refroidit la surface au-dessus d'elle, ce qui permet de localiser un défaut situé à 5-15 cm sous la surface (chape, doublage, cloison)." }
     },
     {
       "@type": "Question",
       "name": "Y a-t-il des conditions où la thermographie ne marche pas ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Oui : exposition solaire directe, courants d\\'air forts, peintures métalliques réfléchissantes, surfaces très brillantes. Dans ces cas, nous différons l\\'intervention ou créons un contraste artificiel." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui : exposition solaire directe, courants d'air forts, peintures métalliques réfléchissantes, surfaces très brillantes. Dans ces cas, nous différons l'intervention ou créons un contraste artificiel." }
     },
     {
       "@type": "Question",
-      "name": "Faut-il préchauffer le plancher chauffant avant l\\'intervention ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Oui, remise en chauffe à pleine puissance pendant au moins 3 heures avant l\\'arrivée du technicien. Plus le plancher est en régime stationnaire, plus la signature thermique d\\'une fuite est nette." }
+      "name": "Faut-il préchauffer le plancher chauffant avant l'intervention ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, remise en chauffe à pleine puissance pendant au moins 3 heures avant l'arrivée du technicien. Plus le plancher est en régime stationnaire, plus la signature thermique d'une fuite est nette." }
     },
     {
       "@type": "Question",
       "name": "Combien coûte une recherche de fuite par thermographie à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Entre 320 et 420 euros HT pour un diagnostic ciblé. Entre 450 et 650 euros HT pour un diagnostic plancher chauffant complet jusqu\\'à 150 m². Entre 480 et 750 euros HT pour un diagnostic immeuble copropriété." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 320 et 420 euros HT pour un diagnostic ciblé. Entre 450 et 650 euros HT pour un diagnostic plancher chauffant complet jusqu'à 150 m². Entre 480 et 750 euros HT pour un diagnostic immeuble copropriété." }
     },
     {
       "@type": "Question",
@@ -6568,7 +6568,7 @@ def page_depannage_piscine_bordeaux():
     {
       "@type": "Question",
       "name": "Intervenez-vous en urgence le week-end pour un dépannage piscine ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Pour les fuites importantes avec dégâts collatéraux imminents, créneaux d\\'urgence le samedi sur la métropole bordelaise (majoration 30 pourcent). Pour le dimanche, orientation vers piscinistes partenaires d\\'astreinte." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Pour les fuites importantes avec dégâts collatéraux imminents, créneaux d'urgence le samedi sur la métropole bordelaise (majoration 30 pourcent). Pour le dimanche, orientation vers piscinistes partenaires d'astreinte." }
     },
     {
       "@type": "Question",
@@ -6582,12 +6582,12 @@ def page_depannage_piscine_bordeaux():
     },
     {
       "@type": "Question",
-      "name": "Le diagnostic est-il remboursé par l\\'assurance habitation ?",
+      "name": "Le diagnostic est-il remboursé par l'assurance habitation ?",
       "acceptedAnswer": { "@type": "Answer", "text": "Oui dans 90 pourcent des cas. Garantie recherche de fuite du contrat multirisque habitation. Notre rapport accepté par AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut, GMF." }
     },
     {
       "@type": "Question",
-      "name": "Combien de temps dure l\\'intervention de dépannage piscine ?",
+      "name": "Combien de temps dure l'intervention de dépannage piscine ?",
       "acceptedAnswer": { "@type": "Answer", "text": "Diagnostic 1 à 4 heures selon complexité. Rapport envoyé par email le soir même. Réparation pisciniste partenaire : 30 min pour un joint, 2 jours pour changement liner complet, 1 semaine pour reprise béton structurelle." }
     }
   ]
