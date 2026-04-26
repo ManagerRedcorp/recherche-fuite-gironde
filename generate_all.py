@@ -1618,7 +1618,7 @@ GUIDE_PAGES = [
         "title": "Tarif recherche de fuite piscine en Gironde : prix par type de bassin",
         "title_seo": "Tarif recherche fuite piscine Gironde 2026",
         "desc": "Tarif d'une recherche de fuite piscine en Gironde selon le type de bassin (liner, coque, béton), la méthode employee et la taille. Grille détaillée 2026.",
-        "contenu": """<p>Combien coûte réellement une recherche de fuite sur une piscine en Gironde ? La reponse depend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
+        "contenu": """<p>Combien coûte réellement une recherche de fuite sur une piscine en Gironde ? La reponse dépend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
 
 <h2>Pourquoi le type de bassin déterminé le tarif ?</h2>
 <p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la méthode principale - gaz traceur ou acoustique - s'applique partout de manière similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demande une inspection camera spécifique aux défauts structurels (osmose, délaminage). Un liner PVC impose colorant fluorescéine et inspection visuelle des soudures. Un bassin béton armé nécessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisée. Ce paramètre technique fait varier notre devis de 30 a 50 pourcent selon les cas.</p>
@@ -1788,12 +1788,12 @@ GUIDE_PAGES = [
         "contenu": """<p>Vous constatez une baisse anormale du niveau de votre piscine. Avant de paniquer ou d'appeler un professionnel, quelques vérifications simples permettent de qualifier précisément la situation. Cet article est un guide de décision étape par étape : à chaque question, vous saurez ce qu'il faut faire et quand passer à l'étape suivante. L'objectif : arriver chez un pro de la recherche de fuite avec un diagnostic preliminaire solide, ce qui fait gagner du temps et souvent des euros.</p>
 
 <h2>étape 1 : Combien perdez-vous réellement par jour ?</h2>
-<p>La première question a se poser est quantitative. La perception "ma piscine baisse rapidement" est très subjective : une piscine de 8×4 metres avec 1 cm de baisse par jour perd environ 320 litres par jour. A l'échelle d'un été (3 mois), cela représente 29 m³ d'eau. Est-ce anormal ? Cela depend de beaucoup de facteurs.</p>
+<p>La première question a se poser est quantitative. La perception "ma piscine baisse rapidement" est très subjective : une piscine de 8×4 metres avec 1 cm de baisse par jour perd environ 320 litres par jour. A l'échelle d'un été (3 mois), cela représente 29 m³ d'eau. Est-ce anormal ? Cela dépend de beaucoup de facteurs.</p>
 
 <h3>Comment mesurer précisément</h3>
 <ol>
 <li>Avec un metre ou un niveau laser, marquez au feutre effacable le niveau d'eau sur la paroi (liner) ou sur un carrelage (bassin béton). Choisissez un point facile a retrouver (angle d'escalier, marque de structure).</li>
-<li>Attendez exactement 24 heures, sans baignade, sans remplissage automatique en cours, et sans changement meteo majeur (pluie, canicule).</li>
+<li>Attendez exactement 24 heures, sans baignade, sans remplissage automatique en cours, et sans changement météo majeur (pluie, canicule).</li>
 <li>Marquez le nouveau niveau et mesurez la différence en millimetres.</li>
 </ol>
 
@@ -1824,7 +1824,7 @@ GUIDE_PAGES = [
 <ul>
 <li><strong>Le seau et la piscine ont baisse de la même hauteur</strong> : évaporation normale, pas de fuite. Vous pouvez dormir tranquille.</li>
 <li><strong>La piscine a baisse plus que le seau</strong> : la piscine fuit. La différence est l'indicateur du débit de fuite : 1 cm d'écart = environ 320 L pour un 8×4 m.</li>
-<li><strong>La piscine et le seau ont tous deux enormement baisse</strong> (5+ cm en 48h) : canicule extrême, refaire le test en conditions meteo normales.</li>
+<li><strong>La piscine et le seau ont tous deux enormement baisse</strong> (5+ cm en 48h) : canicule extrême, refaire le test en conditions météo normales.</li>
 </ul>
 
 <h2>étape 3 : Filtration en marche ou à l'arrêt ?</h2>
@@ -1987,18 +1987,18 @@ GUIDE_PAGES = [
         "contenu": """<p>Votre piscine perd de l'eau et la question tombe : est-ce une fuite, ou simplement de l'évaporation ? La reponse n'est pas toujours évidente, surtout en été en Gironde ou l'évaporation peut être importante. Cet article détaillé les taux d'évaporation mensuels en climat aquitain, les facteurs qui les amplifient, et le protocole précis pour trancher entre évaporation et fuite.</p>
 
 <h2>L'évaporation de piscine : un phénomène physique predictible</h2>
-<p>L'évaporation est le passage de l'eau liquide à l'etat gazeux, provoque par la chaleur de l'eau et la sollicitation atmospherique. Contrairement aux idées recues, l'évaporation d'une piscine ne depend pas uniquement de la température de l'air : elle resulte d'un calcul complexe impliquant la température de l'eau, la température de l'air, l'humidite relative et surtout la vitesse du vent.</p>
+<p>L'évaporation est le passage de l'eau liquide à l'etat gazeux, provoque par la chaleur de l'eau et la sollicitation atmospherique. Contrairement aux idées recues, l'évaporation d'une piscine ne dépend pas uniquement de la température de l'air : elle resulte d'un calcul complexe impliquant la température de l'eau, la température de l'air, l'humidité relative et surtout la vitesse du vent.</p>
 
 <h3>Les 4 facteurs qui determinent l'évaporation</h3>
 <ul>
 <li><strong>température de l'eau</strong> : plus l'eau est chaude, plus elle s'évapore. Une piscine chauffée a 28 degrés évapore plus qu'une piscine a 22 degrés.</li>
 <li><strong>température de l'air</strong> : importante mais moins que l'on pense. Une journée a 35 degrés provoque certes plus d'évaporation qu'a 25 degrés, mais l'écart n'est pas aussi spectaculaire.</li>
-<li><strong>Humidite relative</strong> : plus l'air est sec, plus il peut absorber de l'humidite et donc plus l'évaporation est forte. Une journée a 30 pourcent d'humidite fait bien plus évaporer qu'a 80 pourcent.</li>
+<li><strong>Humidité relative</strong> : plus l'air est sec, plus il peut absorber de l'humidité et donc plus l'évaporation est forte. Une journée a 30 pourcent d'humidité fait bien plus évaporer qu'a 80 pourcent.</li>
 <li><strong>Vitesse du vent</strong> : facteur le plus sous-estime. Le vent emporte la couche d'air humide à la surface de l'eau et permet a de l'air sec de la remplacer, relancant l'évaporation en continu. Une journée ventee peut quadrupler l'évaporation par rapport à une journée calme.</li>
 </ul>
 
 <h2>Taux d'évaporation mensuels en Gironde</h2>
-<p>Voici les moyennes mensuelles d'évaporation pour une piscine extérieure non abritee en plaine bordelaise, basees sur les données meteo historiques de la région. Valeurs en mm/jour (1 mm = 1 litre par m² de surface de piscine).</p>
+<p>Voici les moyennes mensuelles d'évaporation pour une piscine extérieure non abritee en plaine bordelaise, basees sur les données météo historiques de la région. Valeurs en mm/jour (1 mm = 1 litre par m² de surface de piscine).</p>
 
 <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
 <thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Mois</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Évaporation moy. (mm/jour)</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Pic observable</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Contexte</th></tr></thead>
@@ -2035,7 +2035,7 @@ GUIDE_PAGES = [
 <li>arrêtez la filtration (pour les piscines qui ne nécessitent pas de filtration continue) afin de limiter la variabilite.</li>
 <li>Relevez le niveau d'eau initial avec précision (millimetre près) sur la paroi du bassin.</li>
 <li>Relevez simultanement le niveau dans un seau immerge aux 2/3 sur la première marche.</li>
-<li>Notez la meteo : température max/min, humidite, vent, absence de pluie.</li>
+<li>Notez la météo : température max/min, humidité, vent, absence de pluie.</li>
 <li>après 48 heures, relevez les deux niveaux et calculez la perte par jour de la piscine et du seau.</li>
 </ol>
 
@@ -2051,13 +2051,13 @@ GUIDE_PAGES = [
 <h2>Pieges fréquents à éviter</h2>
 
 <h3>Test fait pendant une canicule</h3>
-<p>Un test d'évaporation fait pendant un pic de chaleur avec forts vents peut sous-estimer la fuite réelle (car l'évaporation naturelle du seau masque partiellement la fuite). Attendez une période meteorologique stable.</p>
+<p>Un test d'évaporation fait pendant un pic de chaleur avec forts vents peut sous-estimer la fuite réelle (car l'évaporation naturelle du seau masque partiellement la fuite). Attendez une période météorologique stable.</p>
 
 <h3>Oubli du remplissage automatique</h3>
 <p>De nombreuses piscines ont un regulateur de niveau automatique qui compensé en permanence les baisses. Si vous ne le coupez pas pendant le test, vous ne verrez jamais la baisse : votre regulateur la masquera. Coupez imperativement cette régulation pendant le test.</p>
 
 <h3>Piscine en plein soleil direct toute là journée</h3>
-<p>Une piscine exposée plein sud chauffe vite, ce qui amplifie l'évaporation. Si votre piscine est particulierement exposee, vos taux d'évaporation peuvent depasser les valeurs de table de 30 a 50 pourcent. Faites plusieurs tests sur différents episodes meteo pour calibrer votre cas.</p>
+<p>Une piscine exposée plein sud chauffe vite, ce qui amplifie l'évaporation. Si votre piscine est particulierement exposee, vos taux d'évaporation peuvent dépasser les valeurs de table de 30 a 50 pourcent. Faites plusieurs tests sur différents episodes météo pour calibrer votre cas.</p>
 
 <h3>Confondre évaporation et micro-fuite chronique</h3>
 <p>Une fuite très petite (2-3 mm/jour) sur une piscine en pleine saison peut se confondre avec l'évaporation normale. Seul le test rigoureux du seau tranche. Ne vous fiez pas à votre intuition : mesurer avant de conclure.</p>
@@ -2065,7 +2065,7 @@ GUIDE_PAGES = [
 <h2>Quand refaire le test</h2>
 <p>Si vos premiers tests concluent à une simple évaporation mais que vous restez inquiet, refaites un test :</p>
 <ul>
-<li>après un changement meteo majeur (fin de canicule, arrêt des vents)</li>
+<li>après un changement météo majeur (fin de canicule, arrêt des vents)</li>
 <li>après 1 mois, pour voir si la situation evolue</li>
 <li>après un événement suspect (orage violent, chute dans la piscine)</li>
 </ul>
@@ -2083,7 +2083,7 @@ GUIDE_PAGES = [
 <p>Le texte légal oblige les services publics d'eau a informer tout abonne d'une consommation anormale (supérieure au double de la consommation moyenne sur les trois dernières années). L'abonne dispose alors d'un mois pour prouver qu'une fuite sur canalisation enterrée, invisible et indétectable, est à l'origine de cette surconsommation. Si cette preuve est apportee, sa facture est plafonnée au double de sa consommation habituelle : c'est l'écrêtement.</p>
 
 <h3>Le mecanisme d'écrêtement en pratique</h3>
-<p>Concretement, si votre consommation habituelle est de 120 m³/an (moyenne sur 3 ans), votre facture ne pourra jamais depasser 240 m³/an au tarif de l'eau, même si votre compteur a enregistré 800 m³ à cause de la fuite. Les 560 m³ restants ne vous sont pas factures. A 4 euros TTC le m³, cela représente une économie de 2 240 euros par rapport à une facturation intégrale.</p>
+<p>Concretement, si votre consommation habituelle est de 120 m³/an (moyenne sur 3 ans), votre facture ne pourra jamais dépasser 240 m³/an au tarif de l'eau, même si votre compteur a enregistré 800 m³ à cause de la fuite. Les 560 m³ restants ne vous sont pas factures. A 4 euros TTC le m³, cela représente une économie de 2 240 euros par rapport à une facturation intégrale.</p>
 
 <h2>Les conditions obligatoires pour bénéficier de l'écrêtement</h2>
 
@@ -2155,9 +2155,9 @@ GUIDE_PAGES = [
 <h2>Cas complexes et jurisprudence</h2>
 
 <h3>Cas 1 : la fuite etait partiellement visible</h3>
-<p>Si l'humidite etait visible mais qu'il etait objectivement impossible de suspecter une fuite (ex : zone de pelouse legerement plus verte depuis plusieurs années, interpretee comme effet d'arrosage naturel), la jurisprudence admet généralement l'écrêtement. Notre rapport doit alors argumenter spécifiquement pourquoi le signe visible etait ambigu et n'imposait pas intervention.</p>
+<p>Si l'humidité etait visible mais qu'il etait objectivement impossible de suspecter une fuite (ex : zone de pelouse legerement plus verte depuis plusieurs années, interpretee comme effet d'arrosage naturel), la jurisprudence admet généralement l'écrêtement. Notre rapport doit alors argumenter spécifiquement pourquoi le signe visible etait ambigu et n'imposait pas intervention.</p>
 
-<h3>Cas 2 : délai depasse d'un mois</h3>
+<h3>Cas 2 : délai dépassé d'un mois</h3>
 <p>Si vous avez laisse passer le délai d'un mois, un recours est toujours possible en sollicitant le mediateur de l'eau ou en saisissant le tribunal judiciaire. Les distributeurs acceptent souvent l'écrêtement après mediation, même hors délai, car le contentieux est coûteux pour eux.</p>
 
 <h3>Cas 3 : plusieurs fuites dans l'année</h3>
@@ -4175,7 +4175,7 @@ def page_plancher_chauffant_bordeaux():
     {
       "@type": "Question",
       "name": "Quels sont les signes d'une fuite sur plancher chauffant ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Les signes caractéristiques sont : baisse de pression dans le circuit de chauffage sur le manometre, sol anormalement froid par zones (boucle non chauffante), tache d'humidite ou auréole au plafond de l'étage inférieur (en étage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquée (le circuit se remplit automatiquement), chaudiere qui se met en défaut de pression fréquent." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Les signes caractéristiques sont : baisse de pression dans le circuit de chauffage sur le manometre, sol anormalement froid par zones (boucle non chauffante), tache d'humidité ou auréole au plafond de l'étage inférieur (en étage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquée (le circuit se remplit automatiquement), chaudiere qui se met en défaut de pression fréquent." }
     },
     {
       "@type": "Question",
@@ -4212,7 +4212,7 @@ def page_plancher_chauffant_bordeaux():
       <span>Plancher chauffant Bordeaux</span>
     </nav>
     <h1>Recherche de fuite sur plancher chauffant à Bordeaux</h1>
-    <p class="hero-mini-lead">Pression de votre chaudiere qui chute, sol froid par zones, humidite au plafond du voisin du dessous : votre plancher chauffant hydraulique fuit. Nos techniciens le localisent <strong>au point près grâce à la thermographie infrarouge</strong>, sans casser votre chape. réparation ciblée sur 25 a 40 cm de sol au lieu de refaire toute la piece.</p>
+    <p class="hero-mini-lead">Pression de votre chaudiere qui chute, sol froid par zones, humidité au plafond du voisin du dessous : votre plancher chauffant hydraulique fuit. Nos techniciens le localisent <strong>au point près grâce à la thermographie infrarouge</strong>, sans casser votre chape. réparation ciblée sur 25 a 40 cm de sol au lieu de refaire toute la piece.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un devis plancher chauffant</a>
     </div>
@@ -4247,14 +4247,14 @@ def page_plancher_chauffant_bordeaux():
         <span class="arg-num">03</span>
         <div class="arg-num-content">
           <h3>Tache au plafond (si étage)</h3>
-          <p>Pour les maisons a étage avec plancher chauffant à l'étage supérieur, une fuite se manifeste par une tache d'humidite ou une auréole au plafond du rez-de-chaussee. Elle peut apparaitre très localement (au droit exact de la fuite) ou de manière diffuse (migration de l'eau le long des poutres).</p>
+          <p>Pour les maisons a étage avec plancher chauffant à l'étage supérieur, une fuite se manifeste par une tache d'humidité ou une auréole au plafond du rez-de-chaussee. Elle peut apparaitre très localement (au droit exact de la fuite) ou de manière diffuse (migration de l'eau le long des poutres).</p>
         </div>
       </div>
       <div class="arg-num-card">
         <span class="arg-num">04</span>
         <div class="arg-num-content">
           <h3>Parquet ou carrelage qui se decolle</h3>
-          <p>Le revetement de sol au-dessus de la zone fuyante montre des signes d'humidite : lame de parquet gonflee, joint de carrelage qui fonce, carrelage qui sonne creux. Ces signes apparaissent souvent des mois avant que la fuite soit clairement identifiée.</p>
+          <p>Le revetement de sol au-dessus de la zone fuyante montre des signes d'humidité : lame de parquet gonflee, joint de carrelage qui fonce, carrelage qui sonne creux. Ces signes apparaissent souvent des mois avant que la fuite soit clairement identifiée.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4367,7 +4367,7 @@ def page_plancher_chauffant_bordeaux():
     <p>Notre méthode principale est la thermographie infrarouge : une camera thermique détecté les variations de température au sol. Avec le circuit en chauffe, la zone de fuite produit un halo thermique anormal. Le test de pression hydraulique sur chaque boucle complète le diagnostic. La combinaison des deux permet une localisation au point en général.</p>
 
     <h3>Quels sont les signes d'une fuite sur plancher chauffant ?</h3>
-    <p>Baisse de pression chronique sur le manometre, sol anormalement froid par zones, tache d'humidite au plafond de l'étage inférieur (en étage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquée, chaudiere en défaut de pression fréquent.</p>
+    <p>Baisse de pression chronique sur le manometre, sol anormalement froid par zones, tache d'humidité au plafond de l'étage inférieur (en étage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquée, chaudiere en défaut de pression fréquent.</p>
 
     <h3>Combien coûte une recherche de fuite sur plancher chauffant à Bordeaux ?</h3>
     <p>Entre 400 et 650 euros HT selon la surface et le nombre de boucles a tester. Pour une maison de 80 a 150 m² avec plancher chauffant principal, comptez 450 a 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation précise.</p>
@@ -4478,7 +4478,7 @@ def page_degats_eaux_bordeaux():
     {
       "@type": "Question",
       "name": "Quelle est la différence entre une fuite et un dégât des eaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Une fuite est la cause technique : perforation, joint défaillant, raccord désaxé, liner percé. Un dégât des eaux est la conséquence : tache d'humidite, plafond abîme, parquet gonfle, mobilier endommage. Un dégât des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de dégât des eaux (fuite enterrée dans le jardin par exemple). Pour l'assurance, c'est le dégât des eaux qui déclenché la prise en charge." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Une fuite est la cause technique : perforation, joint défaillant, raccord désaxé, liner percé. Un dégât des eaux est la conséquence : tache d'humidité, plafond abîme, parquet gonfle, mobilier endommage. Un dégât des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de dégât des eaux (fuite enterrée dans le jardin par exemple). Pour l'assurance, c'est le dégât des eaux qui déclenché la prise en charge." }
     },
     {
       "@type": "Question",
@@ -4520,7 +4520,7 @@ def page_degats_eaux_bordeaux():
       <span>dégâts des eaux Bordeaux</span>
     </nav>
     <h1>Recherche d'origine de dégâts des eaux à Bordeaux</h1>
-    <p class="hero-mini-lead">Tache au plafond, infiltration dans un appartement, humidite persistante en copropriété bordelaise ? Nos techniciens identifient précisément l'origine du sinistre pour activer la convention IRSI entre assureurs. <strong>Rapport opposable remis sous 24h</strong>, coordination avec syndic et compagnies d'assurance, intervention prioritaire.</p>
+    <p class="hero-mini-lead">Tache au plafond, infiltration dans un appartement, humidité persistante en copropriété bordelaise ? Nos techniciens identifient précisément l'origine du sinistre pour activer la convention IRSI entre assureurs. <strong>Rapport opposable remis sous 24h</strong>, coordination avec syndic et compagnies d'assurance, intervention prioritaire.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander une intervention</a>
     </div>
@@ -4530,7 +4530,7 @@ def page_degats_eaux_bordeaux():
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <figure style="margin:0 0 2rem;">
-      <img src="/assets/fuite-sous-dalle.webp" alt="dégât des eaux en copropriété bordelaise, tache d'humidite au plafond, intervention recherche d'origine" width="700" height="467" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+      <img src="/assets/fuite-sous-dalle.webp" alt="dégât des eaux en copropriété bordelaise, tache d'humidité au plafond, intervention recherche d'origine" width="700" height="467" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
     </figure>
 
     <h2>Fuite ou dégât des eaux : une distinction essentielle pour l'assurance</h2>
@@ -4586,7 +4586,7 @@ def page_degats_eaux_bordeaux():
         <span class="arg-num">06</span>
         <div class="arg-num-content">
           <h3>Remontee capillaire confondue</h3>
-          <p>Attention aux faux positifs : certaines humidités en sous-sol bordelais ne sont pas des fuites mais des remontées capillaires du terrain argileux. Notre humidimetre distingué précisément une infiltration active (gradient fort, zone localisee) d'une humidite diffuse structurelle.</p>
+          <p>Attention aux faux positifs : certaines humidités en sous-sol bordelais ne sont pas des fuites mais des remontées capillaires du terrain argileux. Notre humidimetre distingué précisément une infiltration active (gradient fort, zone localisee) d'une humidité diffuse structurelle.</p>
         </div>
       </div>
     </div>
@@ -4678,7 +4678,7 @@ def page_degats_eaux_bordeaux():
 <section class="section section-alt">
   <div class="container" style="max-width:960px;">
     <h2>Cas type : dégât des eaux en immeuble haussmannien</h2>
-    <p>Scenario récurrent sur Bordeaux Centre : immeuble haussmannien de la rue Sainte-Catherine, 6 lots sur 5 étages. Mme X au 3e étage signalé au syndic une tache d'humidite en expansion sur le plafond de sa chambre, avec écoulement visible après fortes chutes d'eau. Le voisin du dessus (M. Y, 4e étage) affirme ne rien constater chez lui. Le syndic nous mandate sous 24h.</p>
+    <p>Scenario récurrent sur Bordeaux Centre : immeuble haussmannien de la rue Sainte-Catherine, 6 lots sur 5 étages. Mme X au 3e étage signalé au syndic une tache d'humidité en expansion sur le plafond de sa chambre, avec écoulement visible après fortes chutes d'eau. Le voisin du dessus (M. Y, 4e étage) affirme ne rien constater chez lui. Le syndic nous mandate sous 24h.</p>
 
     <p>Notre intervention : thermographie infrarouge au plafond du 3e pour cartographier la zone humide, écoute electro-acoustique sur le tracé de la colonne d'évacuation EU/EV passant dans la cloison mitoyenne, camera endoscopique dans la gaine technique commune via le regard d'acces du palier. découverte : fissure sur la colonne fonte commune entre le 3e et le 4e étage, a 1,50 metres au-dessus du plafond de Mme X. responsabilité copropriété, ni Mme X ni M. Y ne sont directement en cause.</p>
 
@@ -4691,7 +4691,7 @@ def page_degats_eaux_bordeaux():
     <h2>Questions fréquentes sur les dégâts des eaux à Bordeaux</h2>
 
     <h3>quelle est la différence entre une fuite et un dégât des eaux ?</h3>
-    <p>Une fuite est la cause technique : perforation, joint défaillant, raccord désaxé, liner perce. Un dégât des eaux est la conséquence : tache d'humidite, plafond abîme, parquet gonfle, mobilier endommage. Un dégât des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de dégât des eaux (fuite enterrée dans le jardin par exemple). Pour l'assurance, c'est le dégât des eaux qui déclenché la prise en charge.</p>
+    <p>Une fuite est la cause technique : perforation, joint défaillant, raccord désaxé, liner perce. Un dégât des eaux est la conséquence : tache d'humidité, plafond abîme, parquet gonfle, mobilier endommage. Un dégât des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de dégât des eaux (fuite enterrée dans le jardin par exemple). Pour l'assurance, c'est le dégât des eaux qui déclenché la prise en charge.</p>
 
     <h3>Comment fonctionne la convention IRSI en copropriété bordelaise ?</h3>
     <p>La convention IRSI s'applique automatiquement entre assureurs pour les dégâts des eaux en copropriété jusqu'à 5 000 euros HT. L'assureur du lot 'victime' prend en charge les dommages sans recherche de responsabilité préalable, puis se retourne contre l'assureur du responsable. Cette procédure accéléré considérablement l'indemnisation (15 a 30 jours typiquement au lieu de 3 a 6 mois en expertise contradictoire).</p>
@@ -4933,7 +4933,7 @@ def page_chemisage_bordeaux():
 <section class="section">
   <div class="container" style="max-width:960px;">
     <h2>Tarifs du chemisage en copropriété bordelaise</h2>
-    <p>Le coût du chemisage depend principalement du lineaire a traiter, du diamètre de la canalisation et de l'accessibilite. Voici les fourchettes applicables à Bordeaux en 2026.</p>
+    <p>Le coût du chemisage dépend principalement du lineaire a traiter, du diamètre de la canalisation et de l'accessibilite. Voici les fourchettes applicables à Bordeaux en 2026.</p>
 
     <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
     <thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Configuration</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT par metre lineaire</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Exemple sur 15 metres</th></tr></thead>
@@ -5260,7 +5260,7 @@ def page_canalisation_enterree_bordeaux():
 <section class="section section-alt">
   <div class="container" style="max-width:960px;">
     <h2>Cas type d'intervention à Bordeaux</h2>
-    <p>Scenario récurrent : maison familiale a Caudéran, canalisation d'alimentation enterrée de 1989 sur 35 metres entre le regard de compteur en façade et l'entrée de la maison. Le propriétaire constate une facture Suez doublée (de 40 m³ a 80 m³ par trimestre), sans changement d'usage. Aucune trace d'humidite visible dans le jardin ni dans la maison.</p>
+    <p>Scenario récurrent : maison familiale a Caudéran, canalisation d'alimentation enterrée de 1989 sur 35 metres entre le regard de compteur en façade et l'entrée de la maison. Le propriétaire constate une facture Suez doublée (de 40 m³ a 80 m³ par trimestre), sans changement d'usage. Aucune trace d'humidité visible dans le jardin ni dans la maison.</p>
 
     <p>Notre intervention : vérification du robinet d'arrêt général (compteur qui continue de tourner après coupure maison = fuite après compteur sur partie privative). Isolation du circuit d'arrosage (compteur qui s'arrête = arrosage hors cause). Mise sous pression du tronçon compteur-maison avec gaz traceur. détection au sol le long du tracé : remontée du gaz à 22 metres du regard de compteur, sous l'allée gravillonnée. Marquage au sol et materialisation de la fuite.</p>
 
