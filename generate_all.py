@@ -1038,24 +1038,24 @@ def page_detection():
     <h3 style="font-family:var(--font-title,inherit);margin-top:3rem;margin-bottom:1rem;">Recherche de fuite piscine par ville</h3>
     <p style="margin-bottom:1.5rem;">Le thème piscine est notre première cause d'intervention en Gironde. Pages spécifiques pour les communes à forte densité de bassins privés.</p>
     <div class="grid-3">
-      <a href="/detection-fuite/piscine-bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Bordeaux</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33000 · Centre, Caudéran, Médoc</span></a>
-      <a href="/detection-fuite/piscine-merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Mérignac</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33700 · Arlac, Capeyron, Beutre</span></a>
-      <a href="/detection-fuite/piscine-arcachon/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Arcachon</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33120 · Ville d'Hiver, Bassin</span></a>
-      <a href="/detection-fuite/piscine-la-teste-de-buch/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine La Teste-de-Buch</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33260 · Cazaux, Pyla</span></a>
-      <a href="/detection-fuite/piscine-gujan-mestras/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Gujan-Mestras</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33470 · Bassin d'Arcachon</span></a>
-      <a href="/detection-fuite/piscine-libourne/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Libourne</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33500 · Libournais, St-Émilion</span></a>
-      <a href="/detection-fuite/piscine-le-bouscat/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine Le Bouscat</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">33110 · Parc Bordelais, Bourran</span></a>
+      <a href="/detection-fuite/piscine-bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine Bordeaux</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33000 · Centre, Caudéran, Médoc</span></a>
+      <a href="/detection-fuite/piscine-merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine Mérignac</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33700 · Arlac, Capeyron, Beutre</span></a>
+      <a href="/detection-fuite/piscine-arcachon/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine Arcachon</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33120 · Ville d'Hiver, Bassin</span></a>
+      <a href="/detection-fuite/piscine-la-teste-de-buch/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine La Teste-de-Buch</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33260 · Cazaux, Pyla</span></a>
+      <a href="/detection-fuite/piscine-gujan-mestras/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine Gujan-Mestras</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33470 · Bassin d'Arcachon</span></a>
+      <a href="/detection-fuite/piscine-libourne/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine Libourne</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33500 · Libournais, St-Émilion</span></a>
+      <a href="/detection-fuite/piscine-le-bouscat/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine Le Bouscat</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">33110 · Parc Bordelais, Bourran</span></a>
     </div>
 
     <h3 style="font-family:var(--font-title,inherit);margin-top:3rem;margin-bottom:1rem;">Recherche de fuite par ville en Gironde</h3>
     <p style="margin-bottom:1.5rem;">Nous intervenons sur 30 communes de Gironde. Voici les pages dédiées aux principales villes de la métropole bordelaise et du Bassin d'Arcachon, avec les particularités locales (quartiers, patrimoine, géologie) qui orientent notre diagnostic.</p>
     <div class="grid-3">
-      <a href="/villes/bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Bordeaux (33000)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Haussmanniens, UNESCO, pierre calcaire</span></a>
-      <a href="/villes/merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Mérignac (33700)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Pavillons, planchers chauffants</span></a>
-      <a href="/villes/arcachon/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Arcachon (33120)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Villas Ville d'Hiver, air salin</span></a>
-      <a href="/villes/libourne/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Libourne (33500)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Chais viticoles, sol argileux</span></a>
-      <a href="/villes/pessac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Pessac (33600)</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Cité Frugès UNESCO, copropriétés</span></a>
-      <a href="/plan-du-site/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--c-bg);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>+25 autres villes</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">Toute la Gironde au plan du site &rarr;</span></a>
+      <a href="/villes/bordeaux/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Bordeaux (33000)</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">Haussmanniens, UNESCO, pierre calcaire</span></a>
+      <a href="/villes/merignac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Mérignac (33700)</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">Pavillons, planchers chauffants</span></a>
+      <a href="/villes/arcachon/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Arcachon (33120)</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">Villas Ville d'Hiver, air salin</span></a>
+      <a href="/villes/libourne/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Libourne (33500)</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">Chais viticoles, sol argileux</span></a>
+      <a href="/villes/pessac/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Pessac (33600)</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">Cité Frugès UNESCO, copropriétés</span></a>
+      <a href="/plan-du-site/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;display:block;"><strong>+25 autres villes</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">Toute la Gironde au plan du site &rarr;</span></a>
     </div>
 
     <div style="text-align:center;margin-top:2rem;">
@@ -1758,7 +1758,7 @@ GUIDE_PAGES = [
 <h2>Courrier type de déclaration à l'assureur</h2>
 <p>Voici un modèle de courrier que vous pouvez adapter :</p>
 
-<blockquote style="background:var(--c-bg);border-left:4px solid var(--c-primary);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
+<blockquote style="background:var(--bg-alt);border-left:4px solid var(--green);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
 <p>Madame, Monsieur,</p>
 <p>Je vous informe par la présente de la découverte d'une fuite sur ma piscine privative situee a [adresse], que je constate depuis le [date].</p>
 <p>Les signes suivants m'amenent a vous le signaler : [perte d'eau de X cm par jour, consommation d'eau anormale, zones humides dans le jardin, etc.].</p>
@@ -2140,7 +2140,7 @@ GUIDE_PAGES = [
 
 <h2>Modele de courrier a envoyer</h2>
 
-<blockquote style="background:var(--c-bg);border-left:4px solid var(--c-primary);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
+<blockquote style="background:var(--bg-alt);border-left:4px solid var(--green);padding:1rem;margin:1rem 0;font-family:Georgia,serif;">
 <p>[Votre adresse]</p>
 <p>[Date]</p>
 <p>Objet : demande d'écrêtement de facture d'eau - Loi Warsmann - référence client [numéro]</p>
@@ -2605,18 +2605,18 @@ GUIDE_PAGES = [
 </ul>
 <p>Action : <strong>inspection visuelle minutieuse</strong> de chaque pièce à sceller, ressserage des brides accessibles, et test du colorant sur les joints suspects. Réparation typique : remplacement du joint torique (12 à 25 €) ou re-mastiquage à la résine époxy (80 à 180 € HT par pièce). Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a> pour le détail.</p>
 
-<table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--c-border);">
+<table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--border);">
 <thead>
 <tr>
-<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Symptôme observé</th>
-<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Source probable</th>
-<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Action</th>
+<th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Symptôme observé</th>
+<th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Source probable</th>
+<th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Action</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Niveau s'arrête sous le skimmer</td><td style="padding:.8rem;border:1px solid var(--c-border);">Joint skimmer ou bride</td><td style="padding:.8rem;border:1px solid var(--c-border);">Resserrage ou remplacement joint</td></tr>
-<tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Niveau s'arrête à un projecteur</td><td style="padding:.8rem;border:1px solid var(--c-border);">Joint projecteur</td><td style="padding:.8rem;border:1px solid var(--c-border);">Remplacement joint torique</td></tr>
-<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Bulles côté skimmer filtration ON</td><td style="padding:.8rem;border:1px solid var(--c-border);">Aspiration d'air, joint pré-filtre</td><td style="padding:.8rem;border:1px solid var(--c-border);">Vérification couvercle pré-filtre</td></tr>
+<tr><td style="padding:.8rem;border:1px solid var(--border);">Niveau s'arrête sous le skimmer</td><td style="padding:.8rem;border:1px solid var(--border);">Joint skimmer ou bride</td><td style="padding:.8rem;border:1px solid var(--border);">Resserrage ou remplacement joint</td></tr>
+<tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);">Niveau s'arrête à un projecteur</td><td style="padding:.8rem;border:1px solid var(--border);">Joint projecteur</td><td style="padding:.8rem;border:1px solid var(--border);">Remplacement joint torique</td></tr>
+<tr><td style="padding:.8rem;border:1px solid var(--border);">Bulles côté skimmer filtration ON</td><td style="padding:.8rem;border:1px solid var(--border);">Aspiration d'air, joint pré-filtre</td><td style="padding:.8rem;border:1px solid var(--border);">Vérification couvercle pré-filtre</td></tr>
 </tbody>
 </table>
 
@@ -2624,18 +2624,18 @@ GUIDE_PAGES = [
 <p>Sur le Bassin d'Arcachon (Gujan-Mestras, La Teste-de-Buch, Andernos-les-Bains) où le sol est sableux, les canalisations PVC enterrées entre le local technique et le bassin subissent des micro-mouvements permanents qui finissent par désaxer les raccords collés. Sur les terrains argileux de Caudéran ou du Bouscat, ce sont plutôt les cycles retrait/gonflement saisonniers qui fragilisent les coudes et les tés.</p>
 <p>Action : si votre test repère ON/OFF a montré une fuite côté refoulement ou aspiration, c'est probablement une canalisation enterrée. <strong>Test impossible à faire soi-même</strong> sans matériel professionnel. Notre méthode : test de pression hydraulique pour quantifier la fuite, gaz traceur azote/hydrogène pour la localiser au mètre près. Voir notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée à Bordeaux</a>.</p>
 
-<table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--c-border);">
+<table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--border);">
 <thead>
 <tr>
-<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Indice extérieur</th>
-<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Cause probable</th>
-<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Méthode pro</th>
+<th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Indice extérieur</th>
+<th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Cause probable</th>
+<th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Méthode pro</th>
 </tr>
 </thead>
 <tbody>
-<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Pelouse anormalement verte près du bassin</td><td style="padding:.8rem;border:1px solid var(--c-border);">Fuite refoulement enterrée</td><td style="padding:.8rem;border:1px solid var(--c-border);">Gaz traceur</td></tr>
-<tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Affaissement linéaire sur 1 à 3 m</td><td style="padding:.8rem;border:1px solid var(--c-border);">Fuite chronique avec lessivage du sol</td><td style="padding:.8rem;border:1px solid var(--c-border);">Inspection caméra + gaz traceur</td></tr>
-<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Humidité côté local technique</td><td style="padding:.8rem;border:1px solid var(--c-border);">Fuite traversée de paroi</td><td style="padding:.8rem;border:1px solid var(--c-border);">Test pression + colorant</td></tr>
+<tr><td style="padding:.8rem;border:1px solid var(--border);">Pelouse anormalement verte près du bassin</td><td style="padding:.8rem;border:1px solid var(--border);">Fuite refoulement enterrée</td><td style="padding:.8rem;border:1px solid var(--border);">Gaz traceur</td></tr>
+<tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);">Affaissement linéaire sur 1 à 3 m</td><td style="padding:.8rem;border:1px solid var(--border);">Fuite chronique avec lessivage du sol</td><td style="padding:.8rem;border:1px solid var(--border);">Inspection caméra + gaz traceur</td></tr>
+<tr><td style="padding:.8rem;border:1px solid var(--border);">Humidité côté local technique</td><td style="padding:.8rem;border:1px solid var(--border);">Fuite traversée de paroi</td><td style="padding:.8rem;border:1px solid var(--border);">Test pression + colorant</td></tr>
 </tbody>
 </table>
 
@@ -3391,18 +3391,18 @@ TABLEAU_COMPARATIF_BLOCK = '''
       <table style="width:100%;border-collapse:collapse;font-size:.95rem;background:var(--white);">
         <thead>
           <tr>
-            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Critère</th>
-            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Détection non destructive</th>
-            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Percement classique</th>
+            <th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Critère</th>
+            <th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Détection non destructive</th>
+            <th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Percement classique</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Ouverture des murs/sols</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Aucune avant localisation</td><td style="padding:.8rem;border:1px solid var(--c-border);">Multiples points au hasard</td></tr>
-          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Durée du diagnostic</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">1h30 à 3h</td><td style="padding:.8rem;border:1px solid var(--c-border);">Plusieurs jours</td></tr>
-          <tr><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Reprise des finitions</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Nulle ou très limitée</td><td style="padding:.8rem;border:1px solid var(--c-border);">Lourde (carrelage, plâtre)</td></tr>
-          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Coût global</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">300 à 900 € HT</td><td style="padding:.8rem;border:1px solid var(--c-border);">Souvent &gt; 2 000 €</td></tr>
-          <tr><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Rapport assurance</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Inclus, opposable IRSI</td><td style="padding:.8rem;border:1px solid var(--c-border);">Variable, souvent insuffisant</td></tr>
-          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);"><strong>Occupation logement</strong></td><td style="padding:.8rem;border:1px solid var(--c-border);">Maintenue</td><td style="padding:.8rem;border:1px solid var(--c-border);">Souvent impossible</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--border);"><strong>Ouverture des murs/sols</strong></td><td style="padding:.8rem;border:1px solid var(--border);">Aucune avant localisation</td><td style="padding:.8rem;border:1px solid var(--border);">Multiples points au hasard</td></tr>
+          <tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);"><strong>Durée du diagnostic</strong></td><td style="padding:.8rem;border:1px solid var(--border);">1h30 à 3h</td><td style="padding:.8rem;border:1px solid var(--border);">Plusieurs jours</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--border);"><strong>Reprise des finitions</strong></td><td style="padding:.8rem;border:1px solid var(--border);">Nulle ou très limitée</td><td style="padding:.8rem;border:1px solid var(--border);">Lourde (carrelage, plâtre)</td></tr>
+          <tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);"><strong>Coût global</strong></td><td style="padding:.8rem;border:1px solid var(--border);">300 à 900 € HT</td><td style="padding:.8rem;border:1px solid var(--border);">Souvent &gt; 2 000 €</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--border);"><strong>Rapport assurance</strong></td><td style="padding:.8rem;border:1px solid var(--border);">Inclus, opposable IRSI</td><td style="padding:.8rem;border:1px solid var(--border);">Variable, souvent insuffisant</td></tr>
+          <tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);"><strong>Occupation logement</strong></td><td style="padding:.8rem;border:1px solid var(--border);">Maintenue</td><td style="padding:.8rem;border:1px solid var(--border);">Souvent impossible</td></tr>
         </tbody>
       </table>
     </div>
@@ -3923,9 +3923,9 @@ def page_urgence_ville(p):
 
 def page_piscine_hub():
     villes_cards = '\n'.join([
-        f'''<a href="/detection-fuite/{p["slug"]}/" class="loc-card" style="text-decoration:none;color:inherit;padding:1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;">
-          <strong style="display:block;color:var(--c-primary);font-size:1.05rem;margin-bottom:.4rem;">Piscine {p["ville"]}</strong>
-          <span style="font-size:.85rem;color:var(--c-text-muted);">{p["cp"]} · {p["zones_voisines"].split(",")[0].strip()} et environs</span>
+        f'''<a href="/detection-fuite/{p["slug"]}/" class="loc-card" style="text-decoration:none;color:inherit;padding:1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;">
+          <strong style="display:block;color:var(--green);font-size:1.05rem;margin-bottom:.4rem;">Piscine {p["ville"]}</strong>
+          <span style="font-size:.85rem;color:var(--muted);">{p["cp"]} · {p["zones_voisines"].split(",")[0].strip()} et environs</span>
         </a>'''
         for p in PISCINE_PAGES
     ])
@@ -6712,7 +6712,7 @@ def page_piscine_ville(p):
     # Autres villes piscine pour maillage sibling
     autres_piscine = [p for p in PISCINE_PAGES if p["slug"] != slug]
     autres_html = '\n'.join([
-        f'<a href="/detection-fuite/{p["slug"]}/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--c-border);border-radius:12px;display:block;"><strong>Piscine {p["ville"]}</strong><span style="display:block;font-size:.85rem;color:var(--c-text-muted);margin-top:.25rem;">{p["cp"]}</span></a>'
+        f'<a href="/detection-fuite/{p["slug"]}/" class="loc-card" style="text-decoration:none;color:inherit;padding:1rem 1.25rem;background:var(--white);border:1px solid var(--border);border-radius:12px;display:block;"><strong>Piscine {p["ville"]}</strong><span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.25rem;">{p["cp"]}</span></a>'
         for p in autres_piscine
     ])
 
@@ -6751,7 +6751,7 @@ def page_piscine_ville(p):
 <h3>Zones d'intervention {ville_article} et périphérie</h3>
     <p>{p['quartiers_zones']}</p>
 
-    <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre <a href="/villes/{p['slug'].replace('piscine-', '')}/" style="color:var(--c-primary-light);text-decoration:underline;">gamme complète de recherche de fuite à {p['ville']}</a> (canalisations encastrées, planchers chauffants, dégâts des eaux, urgence).</p>
+    <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre <a href="/villes/{p['slug'].replace('piscine-', '')}/" style="color:var(--green-mid);text-decoration:underline;">gamme complète de recherche de fuite à {p['ville']}</a> (canalisations encastrées, planchers chauffants, dégâts des eaux, urgence).</p>
   </div>
 </section>
 
@@ -6927,17 +6927,17 @@ def page_piscine_ville(p):
       <table style="width:100%;border-collapse:collapse;font-size:.95rem;background:var(--white);">
         <thead>
           <tr>
-            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Type de diagnostic</th>
-            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Tarif moyen HT</th>
-            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Durée d'intervention</th>
+            <th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Type de diagnostic</th>
+            <th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Tarif moyen HT</th>
+            <th style="padding:.8rem;text-align:left;background:var(--green);color:var(--white);border:1px solid var(--green-dark);">Durée d'intervention</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td style="padding:.8rem;border:1px solid var(--c-border);">Test d'évaporation seul (sans déplacement)</td><td style="padding:.8rem;border:1px solid var(--c-border);">Gratuit, à faire soi-même</td><td style="padding:.8rem;border:1px solid var(--c-border);">24 à 48 h</td></tr>
-          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Recherche colorant + inspection visuelle</td><td style="padding:.8rem;border:1px solid var(--c-border);">300 à 400 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">1 h 30 à 2 h</td></tr>
-          <tr><td style="padding:.8rem;border:1px solid var(--c-border);">Recherche complète (colorant + acoustique + pression)</td><td style="padding:.8rem;border:1px solid var(--c-border);">450 à 600 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">2 à 3 h</td></tr>
-          <tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Recherche avancée avec gaz traceur enterré</td><td style="padding:.8rem;border:1px solid var(--c-border);">600 à 800 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">3 à 4 h</td></tr>
-          <tr><td style="padding:.8rem;border:1px solid var(--c-border);">Vidange + inspection classique (méthode à éviter)</td><td style="padding:.8rem;border:1px solid var(--c-border);">1 000 à 2 000 €</td><td style="padding:.8rem;border:1px solid var(--c-border);">1 à 3 jours</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--border);">Test d'évaporation seul (sans déplacement)</td><td style="padding:.8rem;border:1px solid var(--border);">Gratuit, à faire soi-même</td><td style="padding:.8rem;border:1px solid var(--border);">24 à 48 h</td></tr>
+          <tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);">Recherche colorant + inspection visuelle</td><td style="padding:.8rem;border:1px solid var(--border);">300 à 400 €</td><td style="padding:.8rem;border:1px solid var(--border);">1 h 30 à 2 h</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--border);">Recherche complète (colorant + acoustique + pression)</td><td style="padding:.8rem;border:1px solid var(--border);">450 à 600 €</td><td style="padding:.8rem;border:1px solid var(--border);">2 à 3 h</td></tr>
+          <tr style="background:var(--bg-alt);"><td style="padding:.8rem;border:1px solid var(--border);">Recherche avancée avec gaz traceur enterré</td><td style="padding:.8rem;border:1px solid var(--border);">600 à 800 €</td><td style="padding:.8rem;border:1px solid var(--border);">3 à 4 h</td></tr>
+          <tr><td style="padding:.8rem;border:1px solid var(--border);">Vidange + inspection classique (méthode à éviter)</td><td style="padding:.8rem;border:1px solid var(--border);">1 000 à 2 000 €</td><td style="padding:.8rem;border:1px solid var(--border);">1 à 3 jours</td></tr>
         </tbody>
       </table>
     </div>
