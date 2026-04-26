@@ -1618,7 +1618,7 @@ GUIDE_PAGES = [
         "title": "Tarif recherche de fuite piscine en Gironde : prix par type de bassin",
         "title_seo": "Tarif recherche fuite piscine Gironde 2026",
         "desc": "Tarif d'une recherche de fuite piscine en Gironde selon le type de bassin (liner, coque, béton), la méthode employee et la taille. Grille détaillée 2026.",
-        "contenu": """<p>Combien coûte reellement une recherche de fuite sur une piscine en Gironde ? La reponse depend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
+        "contenu": """<p>Combien coûte réellement une recherche de fuite sur une piscine en Gironde ? La reponse depend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
 
 <h2>Pourquoi le type de bassin déterminé le tarif ?</h2>
 <p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la méthode principale - gaz traceur ou acoustique - s'applique partout de manière similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demande une inspection camera spécifique aux défauts structurels (osmose, délaminage). Un liner PVC impose colorant fluorescéine et inspection visuelle des soudures. Un bassin béton armé nécessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisée. Ce paramètre technique fait varier notre devis de 30 a 50 pourcent selon les cas.</p>
@@ -1787,7 +1787,7 @@ GUIDE_PAGES = [
         "desc": "Votre piscine perd de l'eau et vous ne savez pas par ou commencer ? Arbre de décision étape par étape pour diagnostiquer et agir, avant d'appeler un professionnel en Gironde.",
         "contenu": """<p>Vous constatez une baisse anormale du niveau de votre piscine. Avant de paniquer ou d'appeler un professionnel, quelques vérifications simples permettent de qualifier précisément la situation. Cet article est un guide de décision étape par étape : à chaque question, vous saurez ce qu'il faut faire et quand passer à l'étape suivante. L'objectif : arriver chez un pro de la recherche de fuite avec un diagnostic preliminaire solide, ce qui fait gagner du temps et souvent des euros.</p>
 
-<h2>étape 1 : Combien perdez-vous reellement par jour ?</h2>
+<h2>étape 1 : Combien perdez-vous réellement par jour ?</h2>
 <p>La première question a se poser est quantitative. La perception "ma piscine baisse rapidement" est très subjective : une piscine de 8×4 metres avec 1 cm de baisse par jour perd environ 320 litres par jour. A l'échelle d'un été (3 mois), cela représente 29 m³ d'eau. Est-ce anormal ? Cela depend de beaucoup de facteurs.</p>
 
 <h3>Comment mesurer précisément</h3>
@@ -1991,9 +1991,9 @@ GUIDE_PAGES = [
 
 <h3>Les 4 facteurs qui determinent l'évaporation</h3>
 <ul>
-<li><strong>température de l'eau</strong> : plus l'eau est chaude, plus elle s'evapore. Une piscine chauffee a 28 degrees evapore plus qu'une piscine a 22 degrees.</li>
-<li><strong>température de l'air</strong> : importante mais moins que l'on pense. Une journée a 35 degrees provoque certes plus d'évaporation qu'a 25 degrees, mais l'écart n'est pas aussi spectaculaire.</li>
-<li><strong>Humidite relative</strong> : plus l'air est sec, plus il peut absorber de l'humidite et donc plus l'évaporation est forte. Une journée a 30 pourcent d'humidite fait bien plus evaporer qu'a 80 pourcent.</li>
+<li><strong>température de l'eau</strong> : plus l'eau est chaude, plus elle s'évapore. Une piscine chauffée a 28 degrés évapore plus qu'une piscine a 22 degrés.</li>
+<li><strong>température de l'air</strong> : importante mais moins que l'on pense. Une journée a 35 degrés provoque certes plus d'évaporation qu'a 25 degrés, mais l'écart n'est pas aussi spectaculaire.</li>
+<li><strong>Humidite relative</strong> : plus l'air est sec, plus il peut absorber de l'humidite et donc plus l'évaporation est forte. Une journée a 30 pourcent d'humidite fait bien plus évaporer qu'a 80 pourcent.</li>
 <li><strong>Vitesse du vent</strong> : facteur le plus sous-estime. Le vent emporte la couche d'air humide à la surface de l'eau et permet a de l'air sec de la remplacer, relancant l'évaporation en continu. Une journée ventee peut quadrupler l'évaporation par rapport à une journée calme.</li>
 </ul>
 
@@ -2022,7 +2022,7 @@ GUIDE_PAGES = [
 <ul>
 <li><strong>Bassin d'Arcachon, Cap-Ferret, front de dune</strong> : vent marin permanent, évaporation augmentee de 20 a 40 pourcent par rapport à la valeur tablee</li>
 <li><strong>Pinede dense autour du bassin</strong> : effet de protection du vent, évaporation réduite de 15 a 25 pourcent</li>
-<li><strong>Piscine chauffee (PAC ou abri)</strong> : évaporation doublée car l'eau reste a 28-30 degrees toute la saison, augmentant le gradient thermique</li>
+<li><strong>Piscine chauffée (PAC ou abri)</strong> : évaporation doublée car l'eau reste a 28-30 degrés toute la saison, augmentant le gradient thermique</li>
 <li><strong>Piscine débordement/miroir</strong> : évaporation multipliee par 1,5 a 2 en raison de la surface d'eau en contact avec l'air nettement plus large</li>
 </ul>
 
@@ -2051,7 +2051,7 @@ GUIDE_PAGES = [
 <h2>Pieges fréquents à éviter</h2>
 
 <h3>Test fait pendant une canicule</h3>
-<p>Un test d'évaporation fait pendant un pic de chaleur avec forts vents peut sous-estimer la fuite reelle (car l'évaporation naturelle du seau masque partiellement la fuite). Attendez une période meteorologique stable.</p>
+<p>Un test d'évaporation fait pendant un pic de chaleur avec forts vents peut sous-estimer la fuite réelle (car l'évaporation naturelle du seau masque partiellement la fuite). Attendez une période meteorologique stable.</p>
 
 <h3>Oubli du remplissage automatique</h3>
 <p>De nombreuses piscines ont un regulateur de niveau automatique qui compensé en permanence les baisses. Si vous ne le coupez pas pendant le test, vous ne verrez jamais la baisse : votre regulateur la masquera. Coupez imperativement cette régulation pendant le test.</p>
@@ -2167,7 +2167,7 @@ GUIDE_PAGES = [
 <p>L'écrêtement s'applique au titulaire du contrat d'eau, qu'il soit propriétaire ou locataire. En location, le locataire demande l'écrêtement mais doit informer le bailleur (qui est responsable de la réparation definitive si la fuite est sur une canalisation enterrée privative).</p>
 
 <h2>économies realisables concretes</h2>
-<p>quelques exemples reels de dossiers sur lesquels nous sommes intervenus en Gironde en 2025 :</p>
+<p>quelques exemples réels de dossiers sur lesquels nous sommes intervenus en Gironde en 2025 :</p>
 <ul>
 <li>Maison Caudéran, fuite enterrée 40 m de canalisation PVC : surconsommation 680 m³ sur 6 mois. Facture initiale 3 200 euros, facture après écrêtement 950 euros. <strong>économie : 2 250 euros.</strong></li>
 <li>Pavillon Mérignac, fuite enterrée arrosage automatique: 420 m³ surconsommation. Facture initiale 1 680 euros, après écrêtement 580 euros. <strong>économie : 1 100 euros.</strong></li>
@@ -4224,7 +4224,7 @@ def page_plancher_chauffant_bordeaux():
     <h2>Le plancher chauffant hydraulique : un système très repandu en métropole bordelaise</h2>
     <p>Les pavillons construits à Bordeaux et sa métropole entre 1985 et 2005 ont massivement adopte le plancher chauffant hydraulique comme système de chauffage principal. A Mérignac (Arlac, Capeyron, Chemin Long, Beutre), à Pessac (Alouette, Saige, Camponac), au Haillan, à Eysines, dans les lotissements de Talence et du Bouscat, environ 40 pourcent des maisons individuelles de cette période en sont équipées. C'est une proportion nettement supérieure aux radiateurs classiques sur ces tranches d'âgé.</p>
 
-    <p>Le système fonctionne par circulation d'eau chaude (35-45 degrees) dans des tubes PER (polyethylene reticulé) ou polybutylene intégrés dans la chape béton. Chaque piece est alimentee par une ou plusieurs boucles qui partent d'un collecteur central (généralement dans une pièce technique ou un placard). après 20 a 40 ans, les micro-perforations et les défaillances de raccordement deviennent fréquentes.</p>
+    <p>Le système fonctionne par circulation d'eau chaude (35-45 degrés) dans des tubes PER (polyethylene reticulé) ou polybutylene intégrés dans la chape béton. Chaque piece est alimentee par une ou plusieurs boucles qui partent d'un collecteur central (généralement dans une pièce technique ou un placard). après 20 a 40 ans, les micro-perforations et les défaillances de raccordement deviennent fréquentes.</p>
 
     <h2>Les 6 signes d'une fuite de plancher chauffant</h2>
 
@@ -4240,7 +4240,7 @@ def page_plancher_chauffant_bordeaux():
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Zones de sol froides</h3>
-          <p>Une piece ou une zone précise de la maison reste froide malgre le chauffage en marche. Une boucle du plancher chauffant ne circule plus correctement. Posez la main au sol : le contraste thermique entre zones chauffees et zones defaillantes est nettement perceptible.</p>
+          <p>Une piece ou une zone précise de la maison reste froide malgre le chauffage en marche. Une boucle du plancher chauffant ne circule plus correctement. Posez la main au sol : le contraste thermique entre zones chauffées et zones defaillantes est nettement perceptible.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4351,7 +4351,7 @@ def page_plancher_chauffant_bordeaux():
 <section class="section section-alt">
   <div class="container" style="max-width:960px;">
     <h2>Cas type d'intervention à Mérignac</h2>
-    <p>Scenario récurrent : pavillon Mérignac Arlac construit en 1992, plancher chauffant hydraulique sur rez-de-chaussee (80 m²). Le propriétaire constate depuis 6 mois que la pression de sà chaudiere baisse de 1,5 a 1,0 bar chaque semaine. Il doit reamorcer manuellement. Depuis 2 mois, le salon reste anormalement froid alors que la chambre et la cuisine sont bien chauffees. Sa facture d'eau a augmente de 8 m³ par mois.</p>
+    <p>Scenario récurrent : pavillon Mérignac Arlac construit en 1992, plancher chauffant hydraulique sur rez-de-chaussee (80 m²). Le propriétaire constate depuis 6 mois que la pression de sà chaudiere baisse de 1,5 a 1,0 bar chaque semaine. Il doit reamorcer manuellement. Depuis 2 mois, le salon reste anormalement froid alors que la chambre et la cuisine sont bien chauffées. Sa facture d'eau a augmente de 8 m³ par mois.</p>
 
     <p>Notre intervention : thermographie infrarouge systématique du sol, boucle par boucle. La boucle salon (42 m lineaires de tube PER dans une serpentin) montre un contraste thermique caractéristique a 4,2 metres du mur nord et 2,8 metres du mur est : zone froide nette au-delà de ce point, preuve que la fuite est localisee la. Test de pression sur cette boucle : perte confirmee de 0,3 bar en 30 minutes en isolement.</p>
 
