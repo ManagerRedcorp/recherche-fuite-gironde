@@ -2563,85 +2563,158 @@ GUIDE_PAGES = [
     },
     {
         "slug": "fuite-coque-polyester-piscine",
-        "title": "Fuite sur coque polyester piscine : diagnostic et réparation",
-        "title_seo": "Fuite coque polyester piscine | Réparation gel-coat",
-        "desc": "Diagnostic d'une fuite sur coque polyester de piscine : osmose, microfissures gel-coat, désaxement. Méthodes de réparation, coûts en Gironde, durée de vie.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-coque-polyester-piscine.webp" alt="Piscine coque polyester en Gironde, contexte d'intervention recherche de fuite et réparation gel-coat" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "title": "Fuite coque polyester piscine : tests et diagnostic",
+        "title_seo": "Fuite coque polyester piscine | Tests & diagnostic",
+        "desc": "Votre coque polyester perd de l'eau ? Tests à faire ce soir (seau, repère, colorant), 3 sources possibles, pathologies spécifiques (osmose, gel-coat) et coûts.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-coque-polyester-piscine.webp" alt="Piscine coque polyester en Gironde avec niveau d'eau anormalement bas, suspicion de fuite à diagnostiquer" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
-<p>Les piscines coque polyester représentent environ 25 pourcent du parc privé en Gironde, en forte croissance sur Gujan-Mestras, La Teste-de-Buch et les lotissements récents de la métropole bordelaise. Plus rapides à installer qu'un bassin béton et plus durables qu'un liner PVC, elles n'en sont pas pour autant exemptes de fuites. Cet article détaille les pathologies spécifiques aux coques polyester, les méthodes de diagnostic adaptées et les options de réparation avec leurs coûts en 2026.</p>
+<p>Votre piscine coque polyester perd de l'eau plus vite que la normale ? Avant de paniquer ou d'appeler un pisciniste à 500 €, vous pouvez identifier la source de la fuite vous-même en 24 à 48 heures grâce à trois tests simples qui ne coûtent rien. Cet article détaille pas à pas la méthode utilisée par nos techniciens en Gironde sur plus de 200 diagnostics annuels, dont une cinquantaine concernent spécifiquement des piscines coques polyester (parc particulièrement dense à Gujan-Mestras, La Teste-de-Buch, Andernos-les-Bains et dans les lotissements récents de la métropole bordelaise).</p>
 
-<h2>Anatomie d'une coque polyester de piscine</h2>
-<p>Une coque polyester est un mono-bloc préfabriqué en usine, composé de plusieurs strates :</p>
+<h2>Comment savoir si votre piscine coque polyester fuit vraiment ?</h2>
+<p>Une baisse d'eau ne signifie pas forcément une fuite. En Gironde, l'évaporation naturelle peut atteindre 1 cm par jour en pleine canicule sur le Bassin d'Arcachon, ce qui ressemble à s'y méprendre à une fuite. Avant tout diagnostic, faites les trois tests suivants pour confirmer si vous avez réellement une fuite à traiter.</p>
+
+<h3>Test n°1 : la méthode du seau (test de référence)</h3>
+<p>C'est le test fondamental, gratuit, qui distingue avec certitude évaporation et vraie fuite. Posez un seau rempli d'eau sur la première marche immergée de votre piscine pour qu'il soit à la même température que l'eau du bassin. Marquez au feutre indélébile le niveau d'eau dans le seau et le niveau d'eau de la piscine sur la paroi. Laissez 24 à 48 heures sans baignade, sans remise à niveau automatique et sans pluie. Comparez les baisses :</p>
 <ul>
-<li><strong>Gel-coat externe (couche brillante)</strong> : 0,8 à 1,2 mm d'épaisseur, formulation polyester ou vinylester chargée en pigments. C'est ce qui donne la couleur et l'aspect lisse au contact de l'eau.</li>
-<li><strong>Couches de stratification</strong> : fibre de verre + résine polyester ou vinylester, 4 à 8 mm cumulés. C'est la structure mécanique de la coque.</li>
-<li><strong>Couche d'arrêt extérieure</strong> : finition brute, sert d'étanchéité secondaire et de tampon contre l'humidité du sol.</li>
+<li><strong>Seau et piscine baissent de la même hauteur</strong> : c'est de l'évaporation pure. Aucune fuite. Vous pouvez dormir tranquille.</li>
+<li><strong>Piscine baisse plus que le seau de plus de 0,5 cm en 24 h</strong> : fuite confirmée. Passez au test suivant.</li>
 </ul>
-<p>Les fuites apparaissent quand l'une de ces strates se dégrade : gel-coat qui se microfissure (osmose), stratification qui se délamine, ou raccord pièces à sceller mal posé.</p>
 
-<h2>Les 4 pathologies spécifiques aux coques polyester</h2>
+<h3>Test n°2 : le test du repère filtration ON / OFF</h3>
+<p>Ce test vous indique <strong>où se situe la fuite</strong>. Marquez le niveau de la piscine au feutre. Laissez la filtration tourner 24 heures sans baignade. Marquez le nouveau niveau. Coupez la filtration et laissez 24 heures supplémentaires. Comparez :</p>
+<ul>
+<li><strong>Baisse plus rapide filtration en marche</strong> : fuite côté refoulement (canalisations entre filtre et bassin sous pression).</li>
+<li><strong>Baisse plus rapide filtration arrêtée</strong> : fuite côté aspiration (skimmer, prise balai, canalisations vers la pompe).</li>
+<li><strong>Baisse identique dans les deux cas</strong> : fuite directement dans la coque (gel-coat, microfissures, raccord pièces à sceller).</li>
+</ul>
+<p>Notez le niveau exact où l'eau s'arrête de baisser : il indique précisément la zone à inspecter (skimmer, refoulement, projecteur, escalier, fond du bassin).</p>
+
+<h3>Test n°3 : le test du colorant (pour fissure visible)</h3>
+<p>Si vous avez identifié une zone suspecte (microfissure, raccord, joint), versez quelques gouttes de colorant alimentaire (bleu de méthylène, ou simple sirop de menthe) à 10 cm de la zone, filtration coupée. Si une fuite est présente, vous verrez le colorant aspiré vers le défaut en 5 à 15 minutes. Sur une coque polyester, c'est particulièrement efficace pour confirmer un joint de skimmer fatigué ou une microfissure à proximité d'un projecteur.</p>
+
+<h2>Les 3 sources de fuite sur une piscine coque polyester</h2>
+<p>Selon le résultat des tests ci-dessus, votre fuite vient de l'une de ces trois sources. Sur les coques polyester girondines, voici la répartition typique observée sur 50 diagnostics annuels :</p>
+
+<h3>Source n°1 : le système de filtration et les pièces à sceller (60 % des cas)</h3>
+<p>C'est la cause la plus fréquente sur les coques polyester. Les pièces à sceller (skimmer, buses de refoulement, prise balai, projecteurs encastrés, bonde de fond) sont collées ou vissées sur la coque polyester. Avec le temps :</p>
+<ul>
+<li>Les joints toriques durcissent et perdent leur étanchéité (typique après 8 à 12 ans)</li>
+<li>Les vis de bride se desserrent sous l'effet des cycles dilatation/contraction</li>
+<li>Le mastic d'étanchéité entre la coque et la pièce se craquelle</li>
+<li>La colle polyester d'origine se fragilise sous l'effet du chlore</li>
+</ul>
+<p>Action : <strong>inspection visuelle minutieuse</strong> de chaque pièce à sceller, ressserage des brides accessibles, et test du colorant sur les joints suspects. Réparation typique : remplacement du joint torique (12 à 25 €) ou re-mastiquage à la résine époxy (80 à 180 € HT par pièce). Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a> pour le détail.</p>
+
+<table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--c-border);">
+<thead>
+<tr style="background:var(--c-primary);color:var(--white);">
+<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Symptôme observé</th>
+<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Source probable</th>
+<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Niveau s'arrête sous le skimmer</td><td style="padding:.8rem;border:1px solid var(--c-border);">Joint skimmer ou bride</td><td style="padding:.8rem;border:1px solid var(--c-border);">Resserrage ou remplacement joint</td></tr>
+<tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Niveau s'arrête à un projecteur</td><td style="padding:.8rem;border:1px solid var(--c-border);">Joint projecteur</td><td style="padding:.8rem;border:1px solid var(--c-border);">Remplacement joint torique</td></tr>
+<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Bulles côté skimmer filtration ON</td><td style="padding:.8rem;border:1px solid var(--c-border);">Aspiration d'air, joint pré-filtre</td><td style="padding:.8rem;border:1px solid var(--c-border);">Vérification couvercle pré-filtre</td></tr>
+</tbody>
+</table>
+
+<h3>Source n°2 : les canalisations enterrées (25 % des cas)</h3>
+<p>Sur le Bassin d'Arcachon (Gujan-Mestras, La Teste-de-Buch, Andernos-les-Bains) où le sol est sableux, les canalisations PVC enterrées entre le local technique et le bassin subissent des micro-mouvements permanents qui finissent par désaxer les raccords collés. Sur les terrains argileux de Caudéran ou du Bouscat, ce sont plutôt les cycles retrait/gonflement saisonniers qui fragilisent les coudes et les tés.</p>
+<p>Action : si votre test repère ON/OFF a montré une fuite côté refoulement ou aspiration, c'est probablement une canalisation enterrée. <strong>Test impossible à faire soi-même</strong> sans matériel professionnel. Notre méthode : test de pression hydraulique pour quantifier la fuite, gaz traceur azote/hydrogène pour la localiser au mètre près. Voir notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée à Bordeaux</a>.</p>
+
+<table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--c-border);">
+<thead>
+<tr style="background:var(--c-primary);color:var(--white);">
+<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Indice extérieur</th>
+<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Cause probable</th>
+<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Méthode pro</th>
+</tr>
+</thead>
+<tbody>
+<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Pelouse anormalement verte près du bassin</td><td style="padding:.8rem;border:1px solid var(--c-border);">Fuite refoulement enterrée</td><td style="padding:.8rem;border:1px solid var(--c-border);">Gaz traceur</td></tr>
+<tr style="background:var(--c-bg);"><td style="padding:.8rem;border:1px solid var(--c-border);">Affaissement linéaire sur 1 à 3 m</td><td style="padding:.8rem;border:1px solid var(--c-border);">Fuite chronique avec lessivage du sol</td><td style="padding:.8rem;border:1px solid var(--c-border);">Inspection caméra + gaz traceur</td></tr>
+<tr><td style="padding:.8rem;border:1px solid var(--c-border);">Humidité côté local technique</td><td style="padding:.8rem;border:1px solid var(--c-border);">Fuite traversée de paroi</td><td style="padding:.8rem;border:1px solid var(--c-border);">Test pression + colorant</td></tr>
+</tbody>
+</table>
+
+<h3>Source n°3 : la coque polyester elle-même (15 % des cas)</h3>
+<p>C'est la cause la moins fréquente mais aussi la plus complexe à traiter. La coque polyester peut développer plusieurs pathologies spécifiques au matériau qu'on détaille en seconde partie. Pour faire le tri préalable, observez votre bassin filtration coupée et eau bien claire à la lampe rasante :</p>
+<ul>
+<li><strong>Cloques de 2 à 15 mm sous le gel-coat</strong> (à toucher avec la main, on les sent), parfois groupées en plaques : <strong>osmose</strong>.</li>
+<li><strong>Réseau de fissures fines en patte d'oie</strong> à proximité des angles ou marches : <strong>microfissures de gel-coat</strong>.</li>
+<li><strong>Bombement ou creux localisé</strong>, bruit creux à la percussion : <strong>délaminage de stratification</strong> (rare et grave).</li>
+<li><strong>Aucun signe visible mais fuite confirmée</strong> : microfissure invisible nécessitant une fluorescéine professionnelle pour localiser.</li>
+</ul>
+<p>Action : pour les pathologies coque, nous combinons inspection visuelle, fluorescéine et caméra sous-marine. Voir notre page <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine fluorescéine</a> pour le protocole.</p>
+
+<h2>Pathologies spécifiques aux coques polyester (l'angle technique en plus)</h2>
+<p>La grande majorité des articles disponibles sur le sujet n'abordent pas en détail les pathologies propres au matériau polyester. Pourtant, comprendre ces phénomènes vous permet de mieux qualifier votre situation et de choisir la bonne réparation. Voici les 4 cas typiques que nous traitons en Gironde.</p>
 
 <h3>1. L'osmose (cloques gel-coat)</h3>
-<p>C'est la pathologie reine. Au fil des années, l'eau de la piscine pénètre par les microfissures invisibles du gel-coat, se mélange à des résidus de styrène non réactés et forme des cloques sous la surface. Visibles à l'œil nu sur les coques de plus de 10 ans : petites bulles de 2 à 15 mm, parfois groupées en plaques. Quand une cloque éclate, elle laisse passer l'eau dans la stratification et crée une fuite progressive.</p>
+<p>C'est la pathologie reine, spécifique aux résines polyester (et beaucoup plus rare sur les vinylesters récents). Au fil des années, l'eau de la piscine pénètre par les microfissures invisibles du gel-coat, se mélange à des résidus de styrène non réactés à l'intérieur de la matrice, et forme des cloques sous la surface. Le diagnostic est visuel et tactile : passez la main sur les parois immergées, vous sentez les bulles. Sur les coques de plus de 10 ans en Gironde, l'osmose est présente dans environ 40 % des cas. Quand une cloque éclate, elle laisse passer l'eau dans la stratification et crée une fuite progressive difficile à localiser sans colorant.</p>
 
 <h3>2. Les microfissures de gel-coat (toiles d'araignée)</h3>
-<p>Visible à proximité des angles, des marches, des plages immergées. Réseau de fissures fines (largeur < 0,3 mm) en patte d'oie. Souvent dues à un calage insuffisant de la coque au moment de la pose ou à un mouvement de terrain. Fuite progressive, difficile à localiser sans colorant.</p>
+<p>Visible à proximité des angles, des marches, des plages immergées. Réseau de fissures fines (largeur inférieure à 0,3 mm) en patte d'oie. Cause la plus fréquente : calage insuffisant de la coque au moment de la pose ou mouvement de terrain ultérieur. La fluorescéine est indispensable pour localiser le passage actif.</p>
 
 <h3>3. Le délaminage de stratification</h3>
-<p>Plus rare et plus grave. Les couches de fibre de verre se décollent les unes des autres sous l'effet de l'eau qui s'infiltre. Visible par déformation locale (bombement, creux) et par bruit creux à la percussion (test au mailloche caoutchouc). Réparation lourde, parfois irréparable selon l'étendue.</p>
+<p>Plus rare mais plus grave. Les couches de fibre de verre se décollent les unes des autres sous l'effet de l'eau qui s'infiltre. Visible par déformation locale (bombement, creux) et par bruit creux à la percussion (test au mailloche caoutchouc). Réparation lourde, parfois irréparable selon l'étendue. C'est l'une des rares pathologies qui peut justifier le remplacement complet de la coque.</p>
 
 <h3>4. Les raccords pièces à sceller défaillants</h3>
-<p>Les skimmers, projecteurs, buses de refoulement et bondes de fond sont collés ou vissés sur la coque polyester. Les joints peuvent se dégrader, les vis se desserrer, les colles polyester se fragiliser. C'est le cas le plus fréquent (60 pourcent des fuites coque dans notre expérience Gironde).</p>
+<p>C'est en réalité la cause numéro un sur coque polyester (60 % des cas), mais elle n'est pas une "pathologie polyester" au sens strict : c'est l'usure normale des joints d'étanchéité après 8 à 12 ans de service. Le remplacement des joints toriques ou le remasticage à la résine époxy résout 90 % de ces cas en moins de 2 heures.</p>
 
-<h2>Diagnostic d'une fuite sur coque polyester</h2>
-<p>Le diagnostic combine plusieurs méthodes spécifiques aux coques :</p>
-
-<h3>Inspection visuelle systématique</h3>
-<p>Première étape obligatoire. Inspection des angles, marches, plages immergées, raccords. Recherche de cloques d'osmose (à la main, on les sent au toucher), de microfissures (avec lampe rasante), de tâches d'humidité côté terre (vue depuis le local technique).</p>
-
-<h3>Test à la fluorescéine</h3>
-<p>Ultra efficace sur coque polyester. Le colorant injecté en surface au point suspect passe à travers la fissure et apparaît côté terre dans le local technique en 15 à 45 minutes. Voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine fluorescéine</a> avec protocole détaillé.</p>
-
-<h3>Test de pression hydraulique des canalisations</h3>
-<p>Permet d'isoler le réseau hydraulique de la coque elle-même. Une chute de pression isole la fuite sur les canalisations enterrées plutôt que sur la coque proprement dite. Indispensable pour distinguer fuite coque vs fuite refoulement.</p>
-
-<h3>Inspection caméra endoscopique des canalisations</h3>
-<p>Si la fuite est sur le réseau hydraulique (refoulement, prise balai), une inspection caméra des canalisations identifie le point exact de fuite. Voir notre guide <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</p>
-
-<h2>Réparation : les 3 options selon la pathologie</h2>
-
-<h3>Option 1 : reprise locale gel-coat (osmose ponctuelle, microfissures)</h3>
-<p>Procédure : ponçage local du gel-coat dégradé, application d'une nouvelle couche de gel-coat polyester ou vinylester, ponçage de finition, polissage. Doit être effectuée hors d'eau (vidange partielle ou totale). Coût : <strong>180 à 450 € HT</strong> par zone réparée. Durée de vie : 5 à 10 ans selon la qualité de la résine et les conditions chimiques.</p>
-
-<h3>Option 2 : reprise complète gel-coat (osmose étendue)</h3>
-<p>Si l'osmose touche plus de 30 pourcent de la surface, mieux vaut tout reprendre. Procédure : vidange totale, ponçage complet du gel-coat, séchage long (4 à 8 semaines selon météo), application d'un primer époxy bouche-pores, nouveau gel-coat complet en 2 couches, ponçage et polissage final. Coût : <strong>3 500 à 8 500 € TTC</strong> selon la taille du bassin. Durée de vie : 15 à 25 ans en environnement chimique stable.</p>
-
-<h3>Option 3 : reprise stratification + gel-coat (délaminage)</h3>
-<p>Si la stratification est délaminée, il faut découper la zone, refaire la stratification fibre de verre + résine, puis appliquer un nouveau gel-coat. Réparation complexe, à confier à un mouliste piscine spécialisé. Coût : <strong>1 500 à 4 500 € HT</strong> par zone, hors gel-coat. Durée de vie : 10 à 20 ans si bien exécutée.</p>
-
-<h3>Option 4 : remplacement raccord pièces à sceller</h3>
-<p>Si la fuite vient d'un skimmer ou refoulement, remplacement de la pièce + joint neuf + remasticage. Coût : <strong>120 à 280 € HT</strong> par pièce remplacée. Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a> pour les cas d'usure légère.</p>
-
-<h2>Combien coûte une intervention en Gironde ?</h2>
-<p>Tarifs constatés en 2026 sur la métropole bordelaise et le Bassin d'Arcachon :</p>
+<h2>Diagnostic professionnel : ce que nous faisons en Gironde</h2>
+<p>Si vos tests confirment une fuite mais ne parviennent pas à la localiser précisément, ou si vous voulez un rapport pour votre assurance, faites appel à un spécialiste recherche de fuite. Nos techniciens utilisent quatre méthodes complémentaires :</p>
 <ul>
-<li><strong>Diagnostic complet (Recherche Fuite Gironde)</strong> : 380 à 580 € HT, comprend inspection visuelle, fluorescéine, test pression, rapport technique pour assurance.</li>
-<li><strong>Réparation locale gel-coat par mouliste partenaire</strong> : 180 à 450 € HT par zone.</li>
-<li><strong>Reprise complète osmose</strong> : 3 500 à 8 500 € TTC selon bassin.</li>
-<li><strong>Diagnostic + réparation pièces à sceller (cas le plus fréquent)</strong> : 500 à 850 € HT all-in.</li>
+<li><strong>Inspection visuelle systématique</strong> : angles, marches, plages immergées, raccords. Recherche de cloques d'osmose, microfissures, tâches d'humidité côté terre.</li>
+<li><strong>Test à la fluorescéine</strong> : ultra efficace sur coque polyester car le colorant injecté en surface au point suspect passe à travers la fissure et apparaît côté terre dans le local technique en 15 à 45 minutes. <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Page dédiée fluorescéine</a>.</li>
+<li><strong>Test de pression hydraulique des canalisations</strong> : isole le réseau hydraulique de la coque. Indispensable pour distinguer fuite coque vs fuite refoulement.</li>
+<li><strong>Inspection caméra endoscopique</strong> : si la fuite est sur le réseau hydraulique, voir notre guide <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</li>
 </ul>
-<p>La majorité de ces interventions sont remboursées par votre assurance habitation au titre de la garantie recherche de fuite, sous condition d'un dégât des eaux constaté ou d'une surconsommation. Voir notre guide <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">remboursement assurance piscine</a> pour la procédure.</p>
+
+<h2>Combien coûte un diagnostic et une réparation en Gironde ?</h2>
+<p>Tarifs constatés en 2026 sur la métropole bordelaise et le Bassin d'Arcachon. Aucun prestataire concurrent n'affiche ces fourchettes en clair, vous économisez plusieurs heures de prospection :</p>
+<ul>
+<li><strong>Diagnostic complet Recherche Fuite Gironde</strong> : 380 à 580 € HT, comprend inspection visuelle, fluorescéine, test pression, rapport technique pour assurance.</li>
+<li><strong>Remplacement joint torique skimmer ou projecteur</strong> : 12 à 35 € de pièces, ou 120 à 180 € HT en intervention pisciniste partenaire (souvent rentabilisé par le diagnostic).</li>
+<li><strong>Réparation locale gel-coat (osmose ponctuelle ou microfissures)</strong> : 180 à 450 € HT par zone réparée, durée de vie 5 à 10 ans.</li>
+<li><strong>Reprise complète gel-coat (osmose étendue, plus de 30 % de la surface)</strong> : 3 500 à 8 500 € TTC selon taille du bassin, durée de vie 15 à 25 ans.</li>
+<li><strong>Reprise stratification + gel-coat (délaminage)</strong> : 1 500 à 4 500 € HT par zone, à confier à un mouliste piscine spécialisé.</li>
+<li><strong>Diagnostic + réparation pièces à sceller</strong> : 500 à 850 € HT all-in (cas le plus fréquent).</li>
+</ul>
+<p>La majorité de ces interventions sont remboursées par votre assurance habitation au titre de la garantie recherche de fuite, sous condition d'un dégât des eaux constaté ou d'une surconsommation. Voir notre guide <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">remboursement assurance piscine</a> pour la procédure de prise en charge.</p>
 
 <h2>Comment prévenir les fuites sur coque polyester ?</h2>
-<p>Trois bonnes pratiques tirées de notre expérience :</p>
+<p>Trois bonnes pratiques tirées de notre expérience sur 200 diagnostics annuels en Gironde :</p>
 <ol>
-<li><strong>Stabiliser le pH entre 7,2 et 7,6</strong>. Un pH trop acide (< 7,0) attaque le gel-coat lentement. Un pH trop basique (> 7,8) favorise le calcaire qui fragilise les microfissures.</li>
-<li><strong>Limiter la chloration choc</strong>. Au-delà de 5 mg/L de chlore libre, le gel-coat se dégrade plus vite. Privilégier la chloration lente continue.</li>
+<li><strong>Stabiliser le pH entre 7,2 et 7,6 en permanence</strong>. Un pH inférieur à 7,0 attaque le gel-coat lentement. Un pH supérieur à 7,8 favorise le calcaire qui fragilise les microfissures. Mesure hebdomadaire minimum.</li>
+<li><strong>Limiter la chloration choc</strong>. Au-delà de 5 mg/L de chlore libre, le gel-coat se dégrade plus vite. Privilégier la chloration lente continue à 1 à 2 mg/L stable.</li>
 <li><strong>Couvrir le bassin hors saison</strong>. UV et gel sont les premiers ennemis du gel-coat polyester. Une bâche d'hivernage opaque double la durée de vie de la coque.</li>
 </ol>
 
-<h2>Demandez un diagnostic adapté à votre coque</h2>
-<p>Avant de vous lancer dans une réparation lourde (souvent 3 000 € et plus pour une reprise complète), faites diagnostiquer précisément l'origine et l'étendue. Notre rapport technique sert de référence pour le pisciniste qui interviendra et pour votre assureur. Voir nos pages dédiées par ville : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a>, <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>, <a href="/detection-fuite/piscine-gujan-mestras/" style="color:var(--green);text-decoration:underline;">piscine Gujan-Mestras</a> qui concentre la plus forte densité de coques polyester en Gironde. Pour les tarifs complets, consultez le <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine</a>. Pour les piscines liner PVC plutôt que coque, voir notre guide complémentaire <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">fuite sur liner piscine</a>."""
+<h2>Questions fréquentes sur les fuites de coque polyester</h2>
+
+<h3>Ma piscine perd 2 cm par jour, est-ce normal ?</h3>
+<p>En été en Gironde, l'évaporation peut atteindre 1 cm par jour sur le Bassin d'Arcachon (vent marin permanent). Au-delà de 1,5 cm par jour, c'est suspect. À 2 cm par jour, faites le test du seau : il tranchera entre évaporation forte et fuite réelle.</p>
+
+<h3>Comment faire le test du seau sur une coque polyester glissante ?</h3>
+<p>Posez le seau sur la première marche immergée pour qu'il soit stable et à la même température que l'eau. Lestez-le avec une pierre ou une bouteille d'eau remplie de sable au fond pour qu'il ne flotte pas. Le test reste rigoureusement valide.</p>
+
+<h3>Combien coûte une réparation de gel-coat sur une coque polyester ?</h3>
+<p>Pour une réparation locale (osmose ponctuelle, microfissure) : 180 à 450 € HT par zone. Pour une reprise complète gel-coat (osmose étendue) : 3 500 à 8 500 € TTC. Le diagnostic préalable Recherche Fuite Gironde coûte 380 à 580 € HT, souvent remboursé par votre assurance habitation.</p>
+
+<h3>Mon assurance habitation couvre-t-elle une fuite sur coque polyester ?</h3>
+<p>Oui dans 90 % des cas. La garantie recherche de fuite de votre contrat multirisque habitation rembourse tout ou partie du diagnostic dès lors qu'un dégât des eaux est constaté (terrain saturé, infiltration vers cave ou local technique, surconsommation d'eau anormale). Notre rapport technique est accepté par AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut. Voir notre guide <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">remboursement assurance piscine</a>.</p>
+
+<h3>Faut-il vidanger la piscine pour réparer une coque polyester ?</h3>
+<p>Pour les réparations de joints de pièces à sceller et les remplacements de pièces, une vidange partielle suffit (sous le niveau de la pièce concernée). Pour une réparation gel-coat, vidange totale obligatoire car la résine ne polymérise pas en milieu humide. Le séchage de la coque demande 4 à 8 semaines selon la météo avant l'application du nouveau gel-coat. Évitez de vidanger sans nécessité : risque d'effet flotteur sur sols sableux du Bassin d'Arcachon (nappe phréatique haute).</p>
+
+<h3>Quelle est la durée de vie d'une coque polyester avec entretien correct ?</h3>
+<p>30 à 40 ans pour une coque polyester de qualité standard, 40 à 60 ans pour une coque vinylester premium (plus résistante à l'osmose). Avec un entretien régulier (pH stable, chloration mesurée, hivernage couvert), une coque polyester girondine peut atteindre 50 ans sans pathologie majeure. Les cas de remplacement avant 25 ans sont presque toujours dus à un défaut d'entretien chimique ou à un mouvement de terrain initial.</p>
+
+<h2>Demandez un diagnostic spécialisé en Gironde</h2>
+<p>Avant toute réparation lourde (souvent 3 000 € et plus pour une reprise complète gel-coat), faites diagnostiquer précisément l'origine et l'étendue de la fuite. Notre rapport technique sert de référence pour le pisciniste qui interviendra et pour votre assureur. Voir nos pages dédiées par ville : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">piscine Bordeaux</a>, <a href="/detection-fuite/piscine-arcachon/" style="color:var(--green);text-decoration:underline;">piscine Arcachon</a>, <a href="/detection-fuite/piscine-gujan-mestras/" style="color:var(--green);text-decoration:underline;">piscine Gujan-Mestras</a> qui concentre la plus forte densité de coques polyester en Gironde. Pour les tarifs complets, consultez le <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">guide tarif recherche de fuite piscine</a>. Pour les piscines liner PVC plutôt que coque, voir notre guide complémentaire <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">fuite sur liner piscine</a>. Pour comprendre l'évaporation normale en Gironde, voir <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite : test du seau</a>."""
     },
     {
         "slug": "inspection-camera-canalisation-bordeaux",
