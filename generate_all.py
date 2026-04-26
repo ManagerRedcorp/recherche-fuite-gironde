@@ -2607,10 +2607,10 @@ GUIDE_PAGES = [
 
 <table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--c-border);">
 <thead>
-<tr style="background:var(--c-primary);color:var(--white);">
-<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Symptôme observé</th>
-<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Source probable</th>
-<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Action</th>
+<tr>
+<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Symptôme observé</th>
+<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Source probable</th>
+<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Action</th>
 </tr>
 </thead>
 <tbody>
@@ -2626,10 +2626,10 @@ GUIDE_PAGES = [
 
 <table style="width:100%;margin:1.5rem 0;border-collapse:collapse;border:1px solid var(--c-border);">
 <thead>
-<tr style="background:var(--c-primary);color:var(--white);">
-<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Indice extérieur</th>
-<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Cause probable</th>
-<th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Méthode pro</th>
+<tr>
+<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Indice extérieur</th>
+<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Cause probable</th>
+<th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Méthode pro</th>
 </tr>
 </thead>
 <tbody>
@@ -3390,10 +3390,10 @@ TABLEAU_COMPARATIF_BLOCK = '''
     <div style="overflow-x:auto;margin:1.5rem 0;">
       <table style="width:100%;border-collapse:collapse;font-size:.95rem;background:var(--white);">
         <thead>
-          <tr style="background:var(--c-primary);color:var(--white);">
-            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Critère</th>
-            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Détection non destructive</th>
-            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Percement classique</th>
+          <tr>
+            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Critère</th>
+            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Détection non destructive</th>
+            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Percement classique</th>
           </tr>
         </thead>
         <tbody>
@@ -6926,10 +6926,10 @@ def page_piscine_ville(p):
     <div style="overflow-x:auto;margin:1.5rem 0;">
       <table style="width:100%;border-collapse:collapse;font-size:.95rem;background:var(--white);">
         <thead>
-          <tr style="background:var(--c-primary);color:var(--white);">
-            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Type de diagnostic</th>
-            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Tarif moyen HT</th>
-            <th style="padding:.8rem;text-align:left;border:1px solid var(--c-primary-mid);">Durée d'intervention</th>
+          <tr>
+            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Type de diagnostic</th>
+            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Tarif moyen HT</th>
+            <th style="padding:.8rem;text-align:left;background:var(--c-primary);color:var(--white);border:1px solid var(--c-primary-mid);">Durée d'intervention</th>
           </tr>
         </thead>
         <tbody>
