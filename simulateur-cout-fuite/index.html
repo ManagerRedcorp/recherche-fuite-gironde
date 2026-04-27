@@ -425,35 +425,33 @@ function calculerCanal() {
   var coutAn = volumeAn * tarif;
   var coutMois = coutAn / 12;
   var baignoires = (fuiteJour * 1000 / 200).toFixed(1);
-  var equivalence = "<strong>" + baignoires + " baignoires/jour</strong> gaspillées (200L par baignoire). Sur un an, vous perdez l équivalent de " + Math.round(volumeAn / 3.5) + " piscines remplies à pleine capacité.";
+  var litresJour = Math.round(fuiteJour * 1000);
+  var equivalence = "<strong>" + baignoires + " baignoires perdues par jour</strong> (soit " + litresJour + " litres/jour). Sur un an, " + Math.round(volumeAn) + " m³ gaspillés, l’équivalent de la consommation annuelle d’un foyer de " + Math.round(volumeAn / 50) + " personnes.";
   var consoMoyenne = nbPersonnes * 0.12 * 365;
   var seuilWarsmann = consoMoyenne * 2;
   var warsmann;
   if (volumeAn > seuilWarsmann) {
-    warsmann = "<strong>Vous êtes éligible à l écrêtement Warsmann</strong>. Votre facture peut être plafonnée à " + Math.round(seuilWarsmann * tarif) + " € (2× votre conso moyenne) au lieu de " + Math.round(coutAn) + " €. Économie potentielle : " + Math.round((coutAn - seuilWarsmann * tarif)) + " €.";
+    warsmann = "<strong>Vous êtes éligible à l’écrêtement Warsmann</strong>. Votre facture peut être plafonnée à " + Math.round(seuilWarsmann * tarif) + " € (2× votre consommation moyenne) au lieu de " + Math.round(coutAn) + " €. Économie potentielle : " + Math.round((coutAn - seuilWarsmann * tarif)) + " € sur l’année.";
   } else {
-    warsmann = "Surconsommation insuffisante pour activer la loi Warsmann (seuil " + Math.round(seuilWarsmann) + " m³/an). Mais l assurance habitation peut prendre en charge le diagnostic.";
+    warsmann = "Surconsommation insuffisante pour activer la loi Warsmann (seuil " + Math.round(seuilWarsmann) + " m³/an au-dessus de votre conso moyenne). Mais l’assurance habitation peut prendre en charge le diagnostic.";
   }
   var reco, ctaUrl, ctaLabel, niveauAlerte;
+  ctaUrl = "/devis/";
   if (coutAn < 100) {
-    reco = "Consommation dans la norme. Si la baisse continue, surveillez sur 14 jours.";
-    ctaUrl = "/guide/compteur-eau-qui-tourne-sans-utilisation/";
-    ctaLabel = "Vérifier mon compteur";
+    reco = "Consommation dans la norme. Si la baisse continue, surveillez sur 14 jours et refaites le calcul. En cas de doute, demandez un avis gratuit.";
+    ctaLabel = "Demander un avis gratuit";
     niveauAlerte = "info";
   } else if (coutAn < 500) {
-    reco = "Fuite modérée confirmée. Diagnostic recommandé sous 30 à 60 jours pour éviter aggravation. Souvent remboursé par assurance habitation.";
-    ctaUrl = "/detection-fuite/fuite-apres-compteur/";
-    ctaLabel = "Demander un diagnostic fuite";
+    reco = "Fuite modérée confirmée. Diagnostic recommandé sous 30 à 60 jours pour éviter aggravation. Souvent remboursé par votre assurance habitation.";
+    ctaLabel = "Demander un devis de diagnostic";
     niveauAlerte = "warning";
   } else if (coutAn < 2000) {
-    reco = "Fuite importante. Diagnostic urgent sous 7 à 14 jours. Vous êtes éligible à la procédure d écrêtement loi Warsmann pour plafonner votre facture.";
-    ctaUrl = "/detection-fuite/canalisation-enterree-bordeaux/";
-    ctaLabel = "Diagnostic urgent à Bordeaux";
+    reco = "Fuite importante. Diagnostic urgent sous 7 à 14 jours. Vous êtes éligible à la procédure d’écrêtement loi Warsmann pour plafonner votre facture.";
+    ctaLabel = "Demander un devis urgent";
     niveauAlerte = "warning";
   } else {
     reco = "Fuite critique. Intervention urgence sous 24h conseillée. Risque de dégâts collatéraux (terrain saturé, fondations, voisins).";
-    ctaUrl = "/detection-fuite/urgence-bordeaux/";
-    ctaLabel = "Intervention urgence 24h";
+    ctaLabel = "Demander une intervention 24h";
     niveauAlerte = "danger";
   }
   afficherResultat(coutMois, coutAn, volumeAn, equivalence, warsmann, reco, ctaUrl, ctaLabel, niveauAlerte);
@@ -484,28 +482,28 @@ function calculerPiscine() {
   var coutAn = volumeAn * tarif;
   var coutMois = coutAn / 12;
   var baignoires = (volumeJourL / 200).toFixed(1);
-  var equivalence = "<strong>" + baignoires + " baignoires/jour</strong> perdues. Soit " + Math.round(volumeAn) + " m³/an, l équivalent de remplir 12 fois votre piscine en un an.";
-  var warsmann = "La loi Warsmann ne s applique pas aux piscines (réservée aux fuites enterrées entre compteur et habitation). Pour la prise en charge, voir notre guide assurance recherche de fuite piscine.";
+  var profondeurMoy = 1.4;
+  var volumeBassin = surface * profondeurMoy;
+  var foisRemplies = volumeAn / volumeBassin;
+  var equivalence = "<strong>" + baignoires + " baignoires perdues par jour</strong> (soit " + Math.round(volumeJourL) + " litres/jour). Sur un an, " + Math.round(volumeAn) + " m³ gaspillés, l’équivalent de remplir " + foisRemplies.toFixed(1) + " fois votre piscine.";
+  var warsmann = "La loi Warsmann ne s’applique pas aux piscines (réservée aux fuites enterrées entre compteur et habitation). Mais votre assurance habitation peut prendre en charge le diagnostic au titre de la garantie recherche de fuite.";
   var reco, ctaUrl, ctaLabel, niveauAlerte;
+  ctaUrl = "/devis/";
   if (perteReelle <= 0) {
-    reco = "Perte d eau dans la norme d évaporation pour cette saison et cette zone. Aucune fuite probable. Surveillez sur 7 à 14 jours.";
-    ctaUrl = "/guide/evaporation-vs-fuite-piscine/";
-    ctaLabel = "Voir le guide évaporation";
+    reco = "Perte d’eau dans la norme d’évaporation pour cette saison et cette zone. Aucune fuite probable. Surveillez sur 7 à 14 jours et refaites le calcul.";
+    ctaLabel = "Demander un avis gratuit";
     niveauAlerte = "info";
   } else if (perteReelle < 1) {
-    reco = "Petite fuite probable au-delà de l évaporation normale. Faites le test du seau pour confirmer puis diagnostic sous 30 jours si confirmé.";
-    ctaUrl = "/guide/piscine-qui-fuit-perte-eau/";
-    ctaLabel = "Voir l arbre de décision piscine";
+    reco = "Petite fuite probable au-delà de l’évaporation normale. Faites le test du seau pour confirmer puis diagnostic sous 30 jours si confirmé.";
+    ctaLabel = "Demander un diagnostic piscine";
     niveauAlerte = "warning";
   } else if (perteReelle < 3) {
     reco = "Fuite modérée à importante. Diagnostic professionnel sous 14 jours recommandé. Notre intervention est généralement remboursée par votre assurance habitation.";
-    ctaUrl = "/detection-fuite/piscine-bordeaux/";
-    ctaLabel = "Diagnostic piscine Bordeaux";
+    ctaLabel = "Demander un devis diagnostic";
     niveauAlerte = "warning";
   } else {
-    reco = "Fuite critique. Intervention urgente conseillée. Couper la remise en eau automatique pour limiter les pertes en attendant.";
-    ctaUrl = "/detection-fuite/depannage-piscine-bordeaux/";
-    ctaLabel = "Dépannage piscine urgent";
+    reco = "Fuite critique. Intervention urgente conseillée. Coupez la remise en eau automatique pour limiter les pertes en attendant.";
+    ctaLabel = "Demander une intervention urgente";
     niveauAlerte = "danger";
   }
   afficherResultat(coutMois, coutAn, volumeAn, equivalence, warsmann, reco, ctaUrl, ctaLabel, niveauAlerte);
