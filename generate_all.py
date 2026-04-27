@@ -33,6 +33,7 @@ def header(active=''):
             <a href="/detection-fuite/thermographie-infrarouge-bordeaux/">Thermographie infrarouge</a>
             <a href="/detection-fuite/urgence-bordeaux/">Urgence fuite 24h Bordeaux</a>
             <a href="/detection-fuite/fuite-apres-compteur/">Fuite après compteur</a>
+            <a href="/simulateur-cout-fuite/">Simulateur coût fuite</a>
           </div>
         </div>
         <a href="/chemisage-canalisation/">Chemisage</a>
@@ -1193,6 +1194,489 @@ def page_chemisage_service():
         body, ld
     )
 
+# ── Page simulateur coût fuite ────────────────────────────────
+def page_simulateur_cout_fuite():
+    body = '''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <span>Simulateur coût fuite</span>
+    </nav>
+    <h1>Simulateur de coût d\'une fuite d\'eau à Bordeaux et en Gironde</h1>
+    <p class="hero-mini-lead">Combien vous coûte vraiment votre fuite d\'eau ? Calculez en 30 secondes le coût mensuel et annuel de votre fuite avec les <strong>tarifs réels Suez et Régie de Bordeaux Métropole 2026</strong>, et découvrez si la loi Warsmann peut plafonner votre facture. Calculateur gratuit et anonyme, sans inscription.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,0.05);">
+      <div style="display:flex;gap:.5rem;margin-bottom:2rem;border-bottom:2px solid var(--border);" id="tabs">
+        <button id="tab-canal" type="button" onclick="switchTab('canal')" style="flex:1;padding:1rem;background:var(--green);color:var(--white);border:none;border-radius:8px 8px 0 0;font-family:var(--f-title);font-size:1.05rem;font-weight:700;cursor:pointer;">Canalisation maison</button>
+        <button id="tab-piscine" type="button" onclick="switchTab('piscine')" style="flex:1;padding:1rem;background:var(--bg-alt);color:var(--text);border:none;border-radius:8px 8px 0 0;font-family:var(--f-title);font-size:1.05rem;font-weight:700;cursor:pointer;">Piscine</button>
+      </div>
+
+      <div id="form-canal" style="display:block;">
+        <h2 style="margin-top:0;font-size:1.4rem;">Calculer le coût d\'une fuite sur canalisation</h2>
+        <p style="color:var(--muted);margin-bottom:1.5rem;">Renseignez les chiffres de votre compteur et nous calculons votre surconsommation, le coût avec les tarifs réels de votre distributeur, et vérifions l\'éligibilité à la loi Warsmann.</p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+          <div>
+            <label for="releve-ancien" style="display:block;font-weight:600;margin-bottom:.4rem;">Ancien relevé (m³)</label>
+            <input id="releve-ancien" type="number" min="0" step="0.1" placeholder="Ex : 248" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+          <div>
+            <label for="releve-nouveau" style="display:block;font-weight:600;margin-bottom:.4rem;">Relevé actuel (m³)</label>
+            <input id="releve-nouveau" type="number" min="0" step="0.1" placeholder="Ex : 442" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+          <div>
+            <label for="periode-jours" style="display:block;font-weight:600;margin-bottom:.4rem;">Période entre relevés (jours)</label>
+            <input id="periode-jours" type="number" min="1" placeholder="Ex : 90" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+          <div>
+            <label for="distributeur" style="display:block;font-weight:600;margin-bottom:.4rem;">Distributeur d\'eau</label>
+            <select id="distributeur" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+              <option value="suez">Suez (Bordeaux et 19 communes)</option>
+              <option value="regie">Régie de l\'Eau Bordeaux Métropole (8 communes)</option>
+              <option value="autre">Autre commune Gironde</option>
+            </select>
+          </div>
+          <div style="grid-column:1 / -1;">
+            <label for="nb-personnes" style="display:block;font-weight:600;margin-bottom:.4rem;">Nombre de personnes au foyer</label>
+            <input id="nb-personnes" type="number" min="1" max="10" value="2" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+        </div>
+
+        <button type="button" onclick="calculerCanal()" style="margin-top:1.5rem;padding:1rem 2rem;background:var(--gold);color:var(--white);border:none;border-radius:8px;font-family:var(--f-title);font-weight:700;font-size:1.05rem;cursor:pointer;width:100%;">Calculer le coût de ma fuite</button>
+      </div>
+
+      <div id="form-piscine" style="display:none;">
+        <h2 style="margin-top:0;font-size:1.4rem;">Calculer le coût d\'une fuite de piscine</h2>
+        <p style="color:var(--muted);margin-bottom:1.5rem;">Mesurez la perte d\'eau de votre piscine sur 24 à 48 heures et nous calculons le volume perdu, le coût annuel et la part imputable à l\'évaporation naturelle en Gironde.</p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+          <div>
+            <label for="longueur" style="display:block;font-weight:600;margin-bottom:.4rem;">Longueur du bassin (m)</label>
+            <input id="longueur" type="number" min="2" step="0.1" placeholder="Ex : 8" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+          <div>
+            <label for="largeur" style="display:block;font-weight:600;margin-bottom:.4rem;">Largeur du bassin (m)</label>
+            <input id="largeur" type="number" min="2" step="0.1" placeholder="Ex : 4" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+          <div>
+            <label for="perte-cm" style="display:block;font-weight:600;margin-bottom:.4rem;">Perte de niveau (cm/jour)</label>
+            <input id="perte-cm" type="number" min="0" step="0.1" placeholder="Ex : 2,5" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+          </div>
+          <div>
+            <label for="saison" style="display:block;font-weight:600;margin-bottom:.4rem;">Saison actuelle</label>
+            <select id="saison" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+              <option value="ete_canicule">Été pic canicule (juillet-août)</option>
+              <option value="ete">Été standard (juin/septembre)</option>
+              <option value="mi_saison">Mi-saison (avril-mai/octobre)</option>
+              <option value="hiver">Hivernage (novembre-mars)</option>
+            </select>
+          </div>
+          <div>
+            <label for="couverture" style="display:block;font-weight:600;margin-bottom:.4rem;">Bassin couvert ?</label>
+            <select id="couverture" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+              <option value="non">Non, à découvert</option>
+              <option value="oui">Oui (bâche ou abri)</option>
+            </select>
+          </div>
+          <div>
+            <label for="zone-piscine" style="display:block;font-weight:600;margin-bottom:.4rem;">Zone géographique</label>
+            <select id="zone-piscine" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
+              <option value="metropole">Métropole bordelaise</option>
+              <option value="bassin">Bassin d\'Arcachon (vent marin +20%)</option>
+              <option value="medoc">Médoc viticole</option>
+              <option value="libournais">Libournais</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" onclick="calculerPiscine()" style="margin-top:1.5rem;padding:1rem 2rem;background:var(--gold);color:var(--white);border:none;border-radius:8px;font-family:var(--f-title);font-weight:700;font-size:1.05rem;cursor:pointer;width:100%;">Calculer le coût de ma fuite piscine</button>
+      </div>
+
+      <div id="resultats" style="display:none;margin-top:2rem;padding:2rem;background:var(--bg-alt);border-radius:12px;">
+        <h2 style="margin-top:0;font-size:1.4rem;color:var(--green-dark);">Résultat de votre simulation</h2>
+
+        <div id="alerte-niveau" style="padding:1rem;border-radius:8px;margin-bottom:1.5rem;font-weight:600;"></div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+          <div style="background:var(--white);padding:1rem;border-radius:8px;text-align:center;">
+            <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">Coût mensuel</div>
+            <div style="font-size:1.8rem;font-weight:700;color:var(--green-dark);" id="cout-mensuel">- €</div>
+          </div>
+          <div style="background:var(--white);padding:1rem;border-radius:8px;text-align:center;">
+            <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">Coût annuel</div>
+            <div style="font-size:1.8rem;font-weight:700;color:var(--gold);" id="cout-annuel">- €</div>
+          </div>
+          <div style="background:var(--white);padding:1rem;border-radius:8px;text-align:center;">
+            <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">Volume perdu</div>
+            <div style="font-size:1.8rem;font-weight:700;color:var(--green);" id="volume-perdu">- m³/an</div>
+          </div>
+        </div>
+
+        <div style="background:var(--white);padding:1rem;border-radius:8px;margin-bottom:1rem;">
+          <strong>Équivalence concrète :</strong> <span id="equivalence">-</span>
+        </div>
+
+        <div id="warsmann-bloc" style="background:var(--white);padding:1rem;border-radius:8px;margin-bottom:1rem;border-left:4px solid var(--gold);">
+          <strong>Loi Warsmann 2011 :</strong> <span id="warsmann-text">-</span>
+        </div>
+
+        <div id="recommandation-bloc" style="background:var(--white);padding:1rem;border-radius:8px;margin-bottom:1.5rem;border-left:4px solid var(--green);">
+          <strong>Notre recommandation :</strong> <span id="recommandation-text">-</span>
+        </div>
+
+        <a id="cta-action" href="/devis/" class="btn btn-gold" style="display:block;text-align:center;text-decoration:none;padding:1rem;font-size:1.05rem;">Demander un diagnostic gratuit</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Comment fonctionne le simulateur de coût de fuite ?</h2>
+    <p>Notre simulateur applique les <strong>tarifs réels 2026 des distributeurs d\'eau de Bordeaux Métropole</strong> à votre situation pour calculer le coût exact de votre fuite. Voici les paramètres pris en compte et la méthode de calcul détaillée.</p>
+
+    <h3>Pour les fuites sur canalisation</h3>
+    <p>Le calcul compare votre relevé actuel à votre relevé précédent, divisé par la période en jours, pour déterminer votre consommation quotidienne réelle. Cette consommation est comparée à une consommation moyenne de référence (120 litres/jour/personne en France selon l\'INSEE 2026, soit 0,12 m³/jour/personne). L\'écart entre les deux représente votre fuite quotidienne, valorisée au tarif de votre distributeur.</p>
+
+    <p><strong>Tarifs eau Bordeaux Métropole 2026</strong> (TTC, moyenne hors abonnement) :</p>
+    <ul>
+      <li><strong>Suez</strong> (Bordeaux Centre, Caudéran, Le Bouscat, Saint-Augustin, Bègles, Floirac, Cenon, Lormont, Bouliac, Carbon-Blanc, Bassens, Ambarès-et-Lagrave, Saint-Louis-de-Montferrand, Saint-Vincent-de-Paul, Ambès, Bouliac, Le Taillan-Médoc, Mérignac partie Beutre) : <strong>4,87 €/m³</strong></li>
+      <li><strong>Régie de l\'Eau Bordeaux Métropole</strong> (Mérignac centre, Pessac, Talence, Gradignan, Le Haillan, Eysines, Bruges, Blanquefort) : <strong>3,90 €/m³</strong> (économie de 20 % vs Suez)</li>
+      <li><strong>Autres communes Gironde</strong> (Régies syndicales, SAUR, autres) : moyenne 4,50 €/m³ utilisée par le simulateur</li>
+    </ul>
+
+    <h3>Pour les fuites de piscine</h3>
+    <p>Le calcul prend en compte la surface du bassin (longueur × largeur), la perte de niveau quotidienne en cm, et soustrait l\'évaporation normale selon la saison et la zone géographique. L\'évaporation naturelle moyenne en Gironde varie de <strong>0,3 cm/jour en hivernage à 1,8 cm/jour en pic canicule estivale</strong>. Sur le Bassin d\'Arcachon (vent marin permanent), majoration de 20 %. Une bâche ou un abri réduit l\'évaporation de 80 %.</p>
+
+    <p>Le volume perdu se calcule : <em>surface (m²) × perte réelle (m) × 1000 = litres/jour</em>. Ce volume est ensuite valorisé au tarif moyen Gironde (4,50 €/m³).</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Que faire selon le résultat du simulateur ?</h2>
+    <p>Selon le coût annuel calculé et le volume perdu, votre situation appelle une action différente. Voici nos préconisations issues de 200 diagnostics annuels en Gironde :</p>
+
+    <h3>Coût annuel inférieur à 100 € (perte mineure)</h3>
+    <p>Probable évaporation naturelle en saison chaude ou très petite fuite chronique. Ne nécessite pas d\'intervention urgente. Surveillez la perte sur 7 à 14 jours et refaites le test du seau pour confirmer. Voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a>.</p>
+
+    <h3>Coût annuel entre 100 € et 500 € (fuite modérée)</h3>
+    <p>Fuite confirmée mais modérée. Diagnostic professionnel recommandé sous 30 à 60 jours pour éviter aggravation et dégâts collatéraux. Notre intervention de diagnostic à Bordeaux : 380 à 580 € HT, généralement remboursée par votre assurance habitation. Voir notre <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">page détection de fuite</a> ou <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Bordeaux</a> selon votre situation.</p>
+
+    <h3>Coût annuel entre 500 € et 2 000 € (fuite importante)</h3>
+    <p>Diagnostic urgent recommandé sous 7 à 14 jours. À ce niveau de surconsommation, vous êtes éligible à l\'écrêtement loi Warsmann auprès de votre distributeur. Notre rapport technique facilite la procédure. Voir le guide complet <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">loi Warsmann écrêtement de facture d\'eau</a>.</p>
+
+    <h3>Coût annuel supérieur à 2 000 € (fuite critique)</h3>
+    <p>Intervention en urgence sous 24 à 48 heures recommandée. À ce niveau, les dégâts collatéraux (terrain saturé, fondations, voisins) progressent rapidement. Voir notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">service urgence recherche de fuite Bordeaux</a> avec intervention sous 24h et qualification téléphonique dans l\'heure.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>La loi Warsmann 2011 : plafonner votre facture</h2>
+    <p>Si la fuite se situe sur votre réseau enterré privatif (entre compteur et habitation), la loi Warsmann de 2011 plafonne votre facture à <strong>deux fois la consommation moyenne des trois dernières années</strong>. Cette procédure peut diviser votre facture par 3 à 8 selon l\'ampleur de la fuite.</p>
+    <p>Conditions à respecter :</p>
+    <ul>
+      <li>Fuite sur réseau enterré non visible (canalisation entre compteur et habitation)</li>
+      <li>Réparation effectuée dans les 30 jours après notification du distributeur</li>
+      <li>Rapport technique d\'un professionnel attestant la localisation enterrée</li>
+    </ul>
+    <p>Notre rapport est conforme aux exigences de Suez et de la Régie de l\'Eau Bordeaux Métropole. Procédure complète dans le <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes sur le simulateur</h2>
+
+    <h3>Le simulateur est-il vraiment gratuit et anonyme ?</h3>
+    <p>Oui, totalement. Aucune donnée personnelle n\'est demandée pour utiliser le simulateur. Les calculs se font directement dans votre navigateur, aucune information n\'est envoyée à un serveur. Le simulateur est libre d\'usage pour tous les habitants de Gironde.</p>
+
+    <h3>Les tarifs Suez et Régie de Bordeaux Métropole sont-ils fiables ?</h3>
+    <p>Les tarifs utilisés sont les tarifs publiés par les distributeurs en 2026 (Suez 4,87 €/m³ et Régie de l\'Eau Bordeaux Métropole 3,90 €/m³, hors abonnement). Pour le calcul de votre facture finale, ajoutez le forfait abonnement annuel (environ 80 €) et la TVA. Les tarifs peuvent évoluer chaque année au 1er janvier.</p>
+
+    <h3>Pourquoi mon volume perdu est plus élevé que ma facture réelle ?</h3>
+    <p>Le simulateur calcule le coût brut de votre surconsommation. Votre facture réelle peut être inférieure si vous bénéficiez de l\'écrêtement loi Warsmann (plafonnement à 2× la consommation moyenne) ou d\'un dégrèvement exceptionnel accordé par votre distributeur. Si votre facture est plus élevée que notre estimation, vérifiez l\'abonnement, la TVA (5,5 %) et la redevance assainissement.</p>
+
+    <h3>Puis-je calculer une fuite déjà réparée pour estimer la perte rétroactive ?</h3>
+    <p>Oui, en utilisant les relevés du compteur avant et après la période de fuite. Le simulateur calculera le coût total de la surconsommation pendant la période concernée. C\'est utile pour évaluer si l\'écrêtement Warsmann aurait pu s\'appliquer ou pour négocier avec votre distributeur a posteriori.</p>
+
+    <h3>Ce simulateur est-il valide pour les autres distributeurs en France ?</h3>
+    <p>Le calcul de volume perdu est universel. Pour le coût, sélectionnez « Autre commune » qui utilise une moyenne nationale de 4,50 €/m³. Pour un calcul précis hors Gironde, utilisez le tarif réel de votre commune (généralement disponible sur le site de votre distributeur ou de votre commune).</p>
+
+    <h3>Que faire si le simulateur indique une fuite mais que je n\'en trouve pas ?</h3>
+    <p>Les fuites enterrées sur canalisation entre compteur et habitation sont invisibles à l\'œil nu dans 60 % des cas. Notre méthode professionnelle (gaz traceur azote/hydrogène, écoute électro-acoustique, caméra endoscopique) localise au mètre près sans démolition. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>.</p>
+
+    <h3>Mon assurance prend-elle en charge le coût d\'un diagnostic ?</h3>
+    <p>Dans 90 % des cas oui. La garantie « recherche de fuite » de votre contrat multirisque habitation rembourse tout ou partie du diagnostic, sous condition d\'un dégât des eaux constaté ou d\'une surconsommation anormale. Notre rapport est accepté par AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut, GMF. Voir <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d\'eau</a>.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages connexes : agir face à une fuite à Bordeaux</h2>
+    <ul>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Urgence recherche de fuite à Bordeaux</a> : intervention sous 24h pour les fuites importantes.</li>
+      <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite après compteur Bordeaux</a> : diagnostic du réseau privatif enterré.</li>
+      <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée à Bordeaux</a> : gaz traceur azote/hydrogène pour réseaux extérieurs.</li>
+      <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d\'eau</a> : procédure complète pas à pas.</li>
+      <li><a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Facture Suez doublée à Bordeaux</a> : démarche en cas de surfacturation.</li>
+      <li><a href="/guide/compteur-eau-qui-tourne-sans-utilisation/" style="color:var(--green);text-decoration:underline;">Compteur d\'eau qui tourne sans utilisation</a> : tests à faire ce soir.</li>
+      <li><a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite piscine Bordeaux</a> : diagnostic sans vidange.</li>
+      <li><a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">Évaporation ou fuite piscine</a> : test du seau et taux mensuels.</li>
+    </ul>
+  </div>
+</section>
+
+<script>
+function switchTab(tab) {
+  var canal = document.getElementById("form-canal");
+  var piscine = document.getElementById("form-piscine");
+  var btnCanal = document.getElementById("tab-canal");
+  var btnPiscine = document.getElementById("tab-piscine");
+  if (tab === "canal") {
+    canal.style.display = "block";
+    piscine.style.display = "none";
+    btnCanal.style.background = "var(--green)";
+    btnCanal.style.color = "var(--white)";
+    btnPiscine.style.background = "var(--bg-alt)";
+    btnPiscine.style.color = "var(--text)";
+  } else {
+    canal.style.display = "none";
+    piscine.style.display = "block";
+    btnPiscine.style.background = "var(--green)";
+    btnPiscine.style.color = "var(--white)";
+    btnCanal.style.background = "var(--bg-alt)";
+    btnCanal.style.color = "var(--text)";
+  }
+  document.getElementById("resultats").style.display = "none";
+}
+
+function afficherResultat(coutMensuel, coutAnnuel, volumeM3, equivalence, warsmann, reco, ctaUrl, ctaLabel, niveauAlerte) {
+  document.getElementById("cout-mensuel").textContent = Math.round(coutMensuel) + " €";
+  document.getElementById("cout-annuel").textContent = Math.round(coutAnnuel) + " €";
+  document.getElementById("volume-perdu").textContent = volumeM3.toFixed(1) + " m³/an";
+  document.getElementById("equivalence").innerHTML = equivalence;
+  document.getElementById("warsmann-text").innerHTML = warsmann;
+  document.getElementById("recommandation-text").innerHTML = reco;
+  var cta = document.getElementById("cta-action");
+  cta.href = ctaUrl;
+  cta.textContent = ctaLabel;
+  var alerte = document.getElementById("alerte-niveau");
+  if (niveauAlerte === "info") {
+    alerte.style.background = "#E0F2FE";
+    alerte.style.color = "#0369A1";
+    alerte.textContent = "Probable évaporation naturelle, surveillance recommandée";
+  } else if (niveauAlerte === "warning") {
+    alerte.style.background = "#FEF3C7";
+    alerte.style.color = "#92400E";
+    alerte.textContent = "Fuite confirmée, diagnostic professionnel recommandé";
+  } else {
+    alerte.style.background = "#FEE2E2";
+    alerte.style.color = "#991B1B";
+    alerte.textContent = "Fuite critique, intervention urgente conseillée";
+  }
+  document.getElementById("resultats").style.display = "block";
+  document.getElementById("resultats").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function calculerCanal() {
+  var ancien = parseFloat(document.getElementById("releve-ancien").value);
+  var nouveau = parseFloat(document.getElementById("releve-nouveau").value);
+  var periode = parseFloat(document.getElementById("periode-jours").value);
+  var distributeur = document.getElementById("distributeur").value;
+  var nbPersonnes = parseInt(document.getElementById("nb-personnes").value) || 2;
+  if (isNaN(ancien) || isNaN(nouveau) || isNaN(periode) || nouveau <= ancien || periode <= 0) {
+    alert("Merci de renseigner des valeurs valides (relevé actuel supérieur à l ancien, période > 0).");
+    return;
+  }
+  var tarifs = { suez: 4.87, regie: 3.90, autre: 4.50 };
+  var tarif = tarifs[distributeur];
+  var consoTotale = nouveau - ancien;
+  var consoJour = consoTotale / periode;
+  var consoNormale = nbPersonnes * 0.12;
+  var fuiteJour = Math.max(0, consoJour - consoNormale);
+  var volumeAn = fuiteJour * 365;
+  var coutAn = volumeAn * tarif;
+  var coutMois = coutAn / 12;
+  var baignoires = (fuiteJour * 1000 / 200).toFixed(1);
+  var equivalence = "<strong>" + baignoires + " baignoires/jour</strong> gaspillées (200L par baignoire). Sur un an, vous perdez l équivalent de " + Math.round(volumeAn / 3.5) + " piscines remplies à pleine capacité.";
+  var consoMoyenne = nbPersonnes * 0.12 * 365;
+  var seuilWarsmann = consoMoyenne * 2;
+  var warsmann;
+  if (volumeAn > seuilWarsmann) {
+    warsmann = "<strong>Vous êtes éligible à l écrêtement Warsmann</strong>. Votre facture peut être plafonnée à " + Math.round(seuilWarsmann * tarif) + " € (2× votre conso moyenne) au lieu de " + Math.round(coutAn) + " €. Économie potentielle : " + Math.round((coutAn - seuilWarsmann * tarif)) + " €.";
+  } else {
+    warsmann = "Surconsommation insuffisante pour activer la loi Warsmann (seuil " + Math.round(seuilWarsmann) + " m³/an). Mais l assurance habitation peut prendre en charge le diagnostic.";
+  }
+  var reco, ctaUrl, ctaLabel, niveauAlerte;
+  if (coutAn < 100) {
+    reco = "Consommation dans la norme. Si la baisse continue, surveillez sur 14 jours.";
+    ctaUrl = "/guide/compteur-eau-qui-tourne-sans-utilisation/";
+    ctaLabel = "Vérifier mon compteur";
+    niveauAlerte = "info";
+  } else if (coutAn < 500) {
+    reco = "Fuite modérée confirmée. Diagnostic recommandé sous 30 à 60 jours pour éviter aggravation. Souvent remboursé par assurance habitation.";
+    ctaUrl = "/detection-fuite/fuite-apres-compteur/";
+    ctaLabel = "Demander un diagnostic fuite";
+    niveauAlerte = "warning";
+  } else if (coutAn < 2000) {
+    reco = "Fuite importante. Diagnostic urgent sous 7 à 14 jours. Vous êtes éligible à la procédure d écrêtement loi Warsmann pour plafonner votre facture.";
+    ctaUrl = "/detection-fuite/canalisation-enterree-bordeaux/";
+    ctaLabel = "Diagnostic urgent à Bordeaux";
+    niveauAlerte = "warning";
+  } else {
+    reco = "Fuite critique. Intervention urgence sous 24h conseillée. Risque de dégâts collatéraux (terrain saturé, fondations, voisins).";
+    ctaUrl = "/detection-fuite/urgence-bordeaux/";
+    ctaLabel = "Intervention urgence 24h";
+    niveauAlerte = "danger";
+  }
+  afficherResultat(coutMois, coutAn, volumeAn, equivalence, warsmann, reco, ctaUrl, ctaLabel, niveauAlerte);
+}
+
+function calculerPiscine() {
+  var longueur = parseFloat(document.getElementById("longueur").value);
+  var largeur = parseFloat(document.getElementById("largeur").value);
+  var perteCm = parseFloat(document.getElementById("perte-cm").value);
+  var saison = document.getElementById("saison").value;
+  var couverture = document.getElementById("couverture").value;
+  var zone = document.getElementById("zone-piscine").value;
+  if (isNaN(longueur) || isNaN(largeur) || isNaN(perteCm) || longueur <= 0 || largeur <= 0 || perteCm < 0) {
+    alert("Merci de renseigner des valeurs valides pour la longueur, largeur et perte.");
+    return;
+  }
+  var evapBase = { ete_canicule: 1.5, ete: 1.0, mi_saison: 0.6, hiver: 0.3 };
+  var evap = evapBase[saison];
+  var coefZone = { metropole: 1.0, bassin: 1.2, medoc: 1.0, libournais: 1.0 };
+  evap = evap * coefZone[zone];
+  if (couverture === "oui") evap = evap * 0.2;
+  var perteReelle = Math.max(0, perteCm - evap);
+  var surface = longueur * largeur;
+  var volumeJourL = surface * perteReelle * 10;
+  var volumeJourM3 = volumeJourL / 1000;
+  var volumeAn = volumeJourM3 * 365;
+  var tarif = 4.50;
+  var coutAn = volumeAn * tarif;
+  var coutMois = coutAn / 12;
+  var baignoires = (volumeJourL / 200).toFixed(1);
+  var equivalence = "<strong>" + baignoires + " baignoires/jour</strong> perdues. Soit " + Math.round(volumeAn) + " m³/an, l équivalent de remplir 12 fois votre piscine en un an.";
+  var warsmann = "La loi Warsmann ne s applique pas aux piscines (réservée aux fuites enterrées entre compteur et habitation). Pour la prise en charge, voir notre guide assurance recherche de fuite piscine.";
+  var reco, ctaUrl, ctaLabel, niveauAlerte;
+  if (perteReelle <= 0) {
+    reco = "Perte d eau dans la norme d évaporation pour cette saison et cette zone. Aucune fuite probable. Surveillez sur 7 à 14 jours.";
+    ctaUrl = "/guide/evaporation-vs-fuite-piscine/";
+    ctaLabel = "Voir le guide évaporation";
+    niveauAlerte = "info";
+  } else if (perteReelle < 1) {
+    reco = "Petite fuite probable au-delà de l évaporation normale. Faites le test du seau pour confirmer puis diagnostic sous 30 jours si confirmé.";
+    ctaUrl = "/guide/piscine-qui-fuit-perte-eau/";
+    ctaLabel = "Voir l arbre de décision piscine";
+    niveauAlerte = "warning";
+  } else if (perteReelle < 3) {
+    reco = "Fuite modérée à importante. Diagnostic professionnel sous 14 jours recommandé. Notre intervention est généralement remboursée par votre assurance habitation.";
+    ctaUrl = "/detection-fuite/piscine-bordeaux/";
+    ctaLabel = "Diagnostic piscine Bordeaux";
+    niveauAlerte = "warning";
+  } else {
+    reco = "Fuite critique. Intervention urgente conseillée. Couper la remise en eau automatique pour limiter les pertes en attendant.";
+    ctaUrl = "/detection-fuite/depannage-piscine-bordeaux/";
+    ctaLabel = "Dépannage piscine urgent";
+    niveauAlerte = "danger";
+  }
+  afficherResultat(coutMois, coutAn, volumeAn, equivalence, warsmann, reco, ctaUrl, ctaLabel, niveauAlerte);
+}
+</script>
+'''
+
+    ld_app = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Simulateur de coût de fuite d'eau Bordeaux Gironde",
+  "url": "https://recherche-fuite-gironde.fr/simulateur-cout-fuite/",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Web",
+  "description": "Calculez gratuitement le coût d'une fuite d'eau (canalisation ou piscine) avec les tarifs réels Suez et Régie de l'Eau Bordeaux Métropole. Vérification éligibilité loi Warsmann.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+}
+</script>'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "url": "https://recherche-fuite-gironde.fr/",
+  "areaServed": { "@type": "AdministrativeArea", "name": "Gironde" },
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Simulateur coût fuite", "item": "https://recherche-fuite-gironde.fr/simulateur-cout-fuite/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Le simulateur de coût de fuite est-il vraiment gratuit ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, totalement gratuit et anonyme. Aucune donnée personnelle demandée. Les calculs se font dans votre navigateur sans envoi serveur." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels tarifs eau utilise le simulateur pour Bordeaux ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Tarifs 2026 publiés : Suez 4,87 €/m³ pour Bordeaux Centre et 19 communes, Régie de l'Eau Bordeaux Métropole 3,90 €/m³ pour Mérignac, Pessac, Talence, Gradignan et 4 autres communes. Hors abonnement et TVA." }
+    },
+    {
+      "@type": "Question",
+      "name": "Le simulateur prend-il en compte la loi Warsmann ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Si votre surconsommation dépasse 2× votre consommation moyenne (calculée selon le nombre de personnes au foyer), le simulateur vous indique l'éligibilité à l'écrêtement Warsmann et l'économie potentielle." }
+    },
+    {
+      "@type": "Question",
+      "name": "Que faire si le simulateur indique une fuite mais que je n'en trouve pas ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les fuites enterrées sont invisibles dans 60 % des cas. Notre méthode pro (gaz traceur, écoute acoustique, caméra) localise au mètre près sans démolition. Voir page canalisation enterrée Bordeaux." }
+    },
+    {
+      "@type": "Question",
+      "name": "Le simulateur fonctionne-t-il pour les piscines coque ou liner ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, le calcul de volume est universel pour tous types de bassins. Les pathologies diffèrent (osmose pour coque polyester, fissures pour béton, perforation pour liner) mais le coût de la perte d'eau est identique." }
+    },
+    {
+      "@type": "Question",
+      "name": "Mon assurance habitation prend-elle en charge le diagnostic ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Dans 90 % des cas oui. Garantie recherche de fuite des contrats multirisques habitation, sous condition de dégât des eaux constaté ou surconsommation. Notre rapport accepté par AXA, MAIF, MAAF, Macif, Generali, Groupama, Allianz, Matmut." }
+    }
+  ]
+}
+</script>'''
+
+    return html_base(
+        "Simulateur coût fuite eau Bordeaux | Calcul gratuit",
+        "Simulateur gratuit du coût d'une fuite d'eau (canalisation ou piscine) à Bordeaux et en Gironde. Tarifs Suez et Régie de l'Eau 2026, éligibilité loi Warsmann.",
+        "https://recherche-fuite-gironde.fr/simulateur-cout-fuite/",
+        body,
+        ld_app + ld_local + ld_breadcrumb + ld_faq
+    )
+
+
 # ── Page contact ───────────────────────────────────────────────
 def page_contact():
     body = '''
@@ -1352,6 +1836,11 @@ def page_plan():
         <li><a href="/devis/">Devis gratuit</a></li>
         <li><a href="/contact/">Contact</a></li>
         <li><a href="/mentions-legales/">Mentions légales</a></li>
+      </ul>
+
+      <h2>Outils gratuits</h2>
+      <ul>
+        <li><a href="/simulateur-cout-fuite/">Simulateur de coût d'une fuite (canalisation ou piscine)</a></li>
       </ul>
 
       <h2>Pages spécialisées par cas d'usage</h2>
@@ -4282,6 +4771,7 @@ def page_urgence_ville(p):
       <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux</a> : sinistre constaté chez vous ou chez un voisin, gestion IRSI et coordination assureur.</li>
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : après une fuite enterrée, vous pouvez obtenir le plafonnement de la surfacturation auprès de Suez ou de la régie.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Prix d'une recherche de fuite à Bordeaux</a> : grille tarifaire détaillée par type de méthode et de canalisation.</li>
+      <li><a href="/simulateur-cout-fuite/" style="color:var(--green);text-decoration:underline;">Simulateur de coût de fuite à Bordeaux</a> : calculez en 30 secondes le coût mensuel et annuel de votre fuite avec les tarifs réels Suez et Régie.</li>
     </ul>
   </div>
 </section>
@@ -5916,6 +6406,7 @@ def page_fuite_apres_compteur():
       <li><a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite à Bordeaux</a> : page ville complète (haussmanniens, échoppes, copropriétés) avec toutes nos méthodes d'intervention.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Tarifs d'une recherche de fuite à Bordeaux</a> : grille de prix selon la méthode et le type de canalisation.</li>
       <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux</a> : pour les sinistres en copropriété avec gestion IRSI et coordination assureur.</li>
+      <li><a href="/simulateur-cout-fuite/" style="color:var(--green);text-decoration:underline;">Simulateur du coût de votre fuite</a> : calcul gratuit en 30 secondes avec les tarifs réels Bordeaux Métropole + éligibilité loi Warsmann automatique.</li>
     </ul>
   </div>
 </section>
@@ -7453,6 +7944,7 @@ def gen_sitemap():
         'https://recherche-fuite-gironde.fr/mentions-legales/',
         'https://recherche-fuite-gironde.fr/plan-du-site/',
         'https://recherche-fuite-gironde.fr/guide/faq/',
+        'https://recherche-fuite-gironde.fr/simulateur-cout-fuite/',
     ]
     urls += [f'https://recherche-fuite-gironde.fr/guide/{a["slug"]}/' for a in GUIDE_PAGES]
     urls += [f'https://recherche-fuite-gironde.fr/villes/{v["slug"]}/' for v in VILLES]
@@ -7522,6 +8014,7 @@ def main():
     write('devis/index.html', page_devis())
     write('mentions-legales/index.html', page_mentions())
     write('plan-du-site/index.html', page_plan())
+    write('simulateur-cout-fuite/index.html', page_simulateur_cout_fuite())
 
     print('[3/8] Guide — sommaire...')
     write('guide/index.html', page_guide_index())
