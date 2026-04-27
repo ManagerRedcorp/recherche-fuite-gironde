@@ -1631,33 +1631,33 @@ GUIDE_PAGES = [
         "contenu": """<p>Combien coûte réellement une recherche de fuite sur une piscine en Gironde ? La reponse dépend fortement du type de bassin que vous avez. Un liner PVC, une coque polyester et un bassin béton armé ne se diagnostiquent pas avec les mêmes méthodes ni le même temps d'intervention. Cet article détaillé la grille tarifaire 2026 par type de bassin, avec les méthodes associees et les cas complexes qui peuvent faire varier le prix final.</p>
 
 <h2>Pourquoi le type de bassin déterminé le tarif ?</h2>
-<p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la méthode principale - gaz traceur ou acoustique - s'applique partout de manière similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demande une inspection camera spécifique aux défauts structurels (osmose, délaminage). Un liner PVC impose colorant fluorescéine et inspection visuelle des soudures. Un bassin béton armé nécessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisée. Ce paramètre technique fait varier notre devis de 30 a 50 pourcent selon les cas.</p>
+<p>Contrairement aux recherches de fuite sur canalisation d'eau classique (ou la méthode principale - gaz traceur ou acoustique - s'applique partout de manière similaire), le diagnostic d'une fuite de piscine varie fortement selon la structure du bassin. Une coque polyester demande une inspection camera spécifique aux défauts structurels (osmose, délaminage). Un liner PVC impose colorant fluorescéine et inspection visuelle des soudures. Un bassin béton armé nécessite potentiellement un diagnostic structurel pour distinguer une fissure active d'une fissure stabilisée. Ce paramètre technique fait varier notre devis de 30 à 50 pourcent selon les cas.</p>
 
 <h2>Tarif par type de bassin (2026)</h2>
 
-<h3>Piscine liner PVC - tarif 300 a 500 € HT</h3>
-<p>Les piscines avec liner PVC 75/100 ou 85/100, dominant le parc girondin des années 1990-2010, représentent notre diagnostic le plus rapide. Méthodologie : inspection visuelle du liner en apnee ou camera, colorant fluorescéine sur pieces a sceller (skimmer, buses de refoulement, bonde de fond), test de pression hydraulique sur canalisations. durée d'intervention : 1h30 a 2h. Tarif moyen : 300 a 500 € HT selon la taille du bassin (4x8m jusqu'à 5x10m couverts dans cette fourchette). Au-delà (piscines familiales de plus de 10m), supplement de 50 a 100 €.</p>
+<h3>Piscine liner PVC - tarif 300 à 500 € HT</h3>
+<p>Les piscines avec liner PVC 75/100 ou 85/100, dominant le parc girondin des années 1990-2010, représentent notre diagnostic le plus rapide. Méthodologie : inspection visuelle du liner en apnee ou camera, colorant fluorescéine sur pièces a sceller (skimmer, buses de refoulement, bonde de fond), test de pression hydraulique sur canalisations. durée d'intervention : 1h30 a 2h. Tarif moyen : 300 à 500 € HT selon la taille du bassin (4x8m jusqu'à 5x10m couverts dans cette fourchette). Au-delà (piscines familiales de plus de 10m), supplement de 50 à 100 €.</p>
 
-<h3>Piscine coque polyester - tarif 400 a 600 € HT</h3>
-<p>Les coques polyester monoblocs installées entre 2000 et 2020 demandent une inspection camera sous-marine plus minutieuse pour détecter les signes d'osmose (cloques sur le gel-coat), les microfissures au niveau des pieces moulees (bondes de fond, marches romaines, escaliers intégrés) et les delaminages inter-couches de fibre. La fluorescéine confirme les défauts visuels suspectes. Tarif moyen : 400 a 600 € HT, incluant le rapport photo détaillé indispensable pour faire jouer la garantie décennale de pose si le bassin à moins de 10 ans.</p>
+<h3>Piscine coque polyester - tarif 400 à 600 € HT</h3>
+<p>Les coques polyester monoblocs installées entre 2000 et 2020 demandent une inspection camera sous-marine plus minutieuse pour détecter les signes d'osmose (cloques sur le gel-coat), les microfissures au niveau des pièces moulees (bondes de fond, marches romaines, escaliers intégrés) et les delaminages inter-couches de fibre. La fluorescéine confirme les défauts visuels suspectes. Tarif moyen : 400 à 600 € HT, incluant le rapport photo détaillé indispensable pour faire jouer la garantie décennale de pose si le bassin à moins de 10 ans.</p>
 
-<h3>Piscine béton armé - tarif 450 a 700 € HT</h3>
-<p>Les bassins béton armé, fréquents dans les grandes propriétés (villas Arcachon, chais viticoles Libournais, propriétés Caudéran) ou construits sur mesure, nécessitent notre diagnostic le plus approfondi. Inspection camera complète, test colorant, écoute electro-acoustique sur canalisations enterrées, et parfois inspection structurelle si des fissures sont détectées. Tarif moyen : 450 a 700 € HT. Les piscines de plus de 50 m³ (12×5 ou 15×4) ou avec configuration complexe (miroir, débordement periphérique, volet immergé) peuvent monter a 800 € HT.</p>
+<h3>Piscine béton armé - tarif 450 à 700 € HT</h3>
+<p>Les bassins béton armé, fréquents dans les grandes propriétés (villas Arcachon, chais viticoles Libournais, propriétés Caudéran) ou construits sur mesure, nécessitent notre diagnostic le plus approfondi. Inspection camera complète, test colorant, écoute électro-acoustique sur canalisations enterrées, et parfois inspection structurelle si des fissures sont détectées. Tarif moyen : 450 à 700 € HT. Les piscines de plus de 50 m³ (12×5 ou 15×4) ou avec configuration complexe (miroir, débordement periphérique, volet immergé) peuvent monter a 800 € HT.</p>
 
-<h3>Piscine naturelle / bio-phytoépuration - tarif 500 a 800 € HT</h3>
-<p>Les piscines naturelles a lagunage vegetal, en croissance en Gironde (Gujan-Mestras, La Teste, quelques installations à Mérignac), demandent une approche spécifique. Isolation séquentielle des différents compartiments (bassin de baignade, bassin de filtration vegetale, canalisations de transfert), mesure différentielle sur 48h pour identifier la zone fuyante, puis diagnostic fin. Tarif moyen : 500 a 800 € HT, plus élevé en raison du temps d'intervention double sur deux passages.</p>
+<h3>Piscine naturelle / bio-phytoépuration - tarif 500 à 800 € HT</h3>
+<p>Les piscines naturelles a lagunage vegetal, en croissance en Gironde (Gujan-Mestras, La Teste, quelques installations à Mérignac), demandent une approche spécifique. Isolation séquentielle des différents compartiments (bassin de baignade, bassin de filtration vegetale, canalisations de transfert), mesure différentielle sur 48h pour identifier la zone fuyante, puis diagnostic fin. Tarif moyen : 500 à 800 € HT, plus élevé en raison du temps d'intervention double sur deux passages.</p>
 
 <h2>Tarif par méthode (si diagnostic cible)</h2>
 <p>Pour un problème déjà identifié ou suspecte sur un circuit précis, une intervention ciblée sur une seule méthode est possible a tarif réduit.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
-<thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">méthode isolee</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Cas d'usage</th></tr></thead>
+<thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">méthode isolée</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Cas d'usage</th></tr></thead>
 <tbody>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Colorant fluorescéine + visuelle</td><td style="padding:.75rem;border:1px solid #D8D4CC;">250 a 350 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Fuite suspectee sur pieces a sceller connues</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Test de pression canalisations</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 a 400 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Chute de pression filtration inexpliquée</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection camera sous-marine</td><td style="padding:.75rem;border:1px solid #D8D4CC;">280 a 380 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Suspicion de fissure coque ou liner</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Gaz traceur canalisation enterrée</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 a 550 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Fuite hors bassin, réseau enterré jardin</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection complète + rapport</td><td style="padding:.75rem;border:1px solid #D8D4CC;">450 a 800 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Aucune piste, diagnostic exhaustif</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Colorant fluorescéine + visuelle</td><td style="padding:.75rem;border:1px solid #D8D4CC;">250 à 350 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Fuite suspectee sur pièces a sceller connues</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Test de pression canalisations</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 à 400 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Chute de pression filtration inexpliquée</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection camera sous-marine</td><td style="padding:.75rem;border:1px solid #D8D4CC;">280 à 380 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Suspicion de fissure coque ou liner</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Gaz traceur canalisation enterrée</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 à 550 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Fuite hors bassin, réseau enterré jardin</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Inspection complète + rapport</td><td style="padding:.75rem;border:1px solid #D8D4CC;">450 à 800 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Aucune piste, diagnostic exhaustif</td></tr>
 </tbody>
 </table>
 
@@ -1665,7 +1665,7 @@ GUIDE_PAGES = [
 <ul>
 <li><strong>Intervention urgence (24h)</strong> : aucun supplement chez nous, notre planning intégré des creneaux prioritaires</li>
 <li><strong>Piscine couverte par volet immerge ou abri</strong> : supplement de 50 € pour manipulation securisee</li>
-<li><strong>Piscine très profonde (4m+)</strong> : supplement plongeur professionnel de 300 a 500 € si plongee humaine nécessaire</li>
+<li><strong>Piscine très profonde (4m+)</strong> : supplement plongeur professionnel de 300 à 500 € si plongee humaine nécessaire</li>
 <li><strong>déplacement hors métropole bordelaise</strong> : forfait 40 € pour Bassin d'Arcachon, Medoc, Libournais</li>
 <li><strong>Hivernage en cours</strong> : pas de supplement mais creneau limite (novembre a mars, intervention possible si bassin accessible)</li>
 </ul>
@@ -1676,11 +1676,11 @@ GUIDE_PAGES = [
 <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
 <thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Poste</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">diagnostic moderne</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Vidange classique</th></tr></thead>
 <tbody>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Tarif recherche</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 a 700 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 a 1000 €</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">coût vidange + remise en eau</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0 € (pas de vidange)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 a 1500 € (eau + chimie)</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Tarif recherche</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 à 700 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 à 1000 €</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">coût vidange + remise en eau</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0 € (pas de vidange)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">500 à 1500 € (eau + chimie)</td></tr>
 <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Risque structurel sur bassin vide</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Nul</td><td style="padding:.75rem;border:1px solid #D8D4CC;">élevé en zone nappe phreatique</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">durée totale</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 a 4 h</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 a 5 jours</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">coût total moyen</td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>500 € HT</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>1 500 a 2 500 € HT</strong></td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">durée totale</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 à 4 h</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 à 5 jours</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">coût total moyen</td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>500 € HT</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>1 500 à 2 500 € HT</strong></td></tr>
 </tbody>
 </table>
 
@@ -1705,12 +1705,12 @@ GUIDE_PAGES = [
         "title": "Recherche fuite piscine et assurance habitation : le remboursement",
         "title_seo": "Recherche fuite piscine et assurance | Remboursement",
         "desc": "Comment faire rembourser une recherche de fuite sur piscine par votre assurance habitation en Gironde. Clauses, procédure, IRSI copropriété, cas complexes.",
-        "contenu": """<p>La recherche de fuite sur une piscine privée représente un investissement de 300 a 800 euros HT selon les cas. La bonne nouvelle : votre assurance habitation multirisque couvre souvent tout ou partie de cette prestation, sous réservé de connaitre les clauses applicables et de respecter la procédure de déclaration. Cet article détaillé les modalites propres aux piscines, qui différent sensiblement de celles d'un simple dégât des eaux en logement.</p>
+        "contenu": """<p>La recherche de fuite sur une piscine privée représente un investissement de 300 à 800 euros HT selon les cas. La bonne nouvelle : votre assurance habitation multirisque couvre souvent tout ou partie de cette prestation, sous réservé de connaitre les clauses applicables et de respecter la procédure de déclaration. Cet article détaillé les modalites propres aux piscines, qui différent sensiblement de celles d'un simple dégât des eaux en logement.</p>
 
 <h2>Votre piscine est-elle couverte par votre assurance habitation ?</h2>
 <p>La majorite des contrats multirisques habitation en France incluent automatiquement la piscine privée dans les biens couverts, avec deux conditions souvent oubliees : déclaration initiale au moment de la souscription (ou modification en cours de contrat) et conformite aux normes de sécurité (alarme, couverture, barriere, abri). Si vous avez installé votre piscine après la souscription du contrat sans le signaler à votre assureur, la couverture peut être refusee.</p>
 
-<p>Pour vérifier votre couverture piscine, consultez les conditions générales (section « biens extérieurs couverts » ou « annexes du logement ») et les conditions particulieres (montant assure spécifique piscine, franchise applicable). En cas de doute, demandez par écrit à votre assureur une confirmation de votre couverture piscine.</p>
+<p>Pour vérifier votre couverture piscine, consultez les conditions générales (section « biens extérieurs couverts » ou « annexes du logement ») et les conditions particulières (montant assure spécifique piscine, franchise applicable). En cas de doute, demandez par écrit à votre assureur une confirmation de votre couverture piscine.</p>
 
 <h2>Ce qui est couvert par votre assurance</h2>
 <ul>
@@ -1723,7 +1723,7 @@ GUIDE_PAGES = [
 
 <h2>Ce qui n'est PAS couvert</h2>
 <ul>
-<li><strong>Usure normale</strong> : un liner de 25 ans qui fuit par fatigue n'est généralement pas indemnise (relevé de l'entretien)</li>
+<li><strong>Usure normale</strong> : un liner de 25 ans qui fuit par fatigué n'est généralement pas indemnise (relevé de l'entretien)</li>
 <li><strong>défaut d'entretien caractérisé</strong> : piscine abandonnee plusieurs saisons, hivernage mal réalisé</li>
 <li><strong>défauts de construction</strong> : pour une piscine neuve (moins de 10 ans), c'est la garantie décennale du constructeur qui s'applique, pas l'assurance habitation</li>
 <li><strong>Equipements haut de gamme non declares</strong> : PAC, volet automatique, abri, local technique équipé - a lister spécifiquement dans le contrat</li>
@@ -1760,7 +1760,7 @@ GUIDE_PAGES = [
 <p>Les fuites decouvertes au retour après plusieurs mois d'inoccupation posent une question juridique : l'assureur peut arguer que le défaut de surveillance est fautif. contre-argument : une fuite sur canalisation enterrée etait indétectable visuellement (loi Warsmann). Notre rapport documente explicitement ce point pour faciliter la prise en charge.</p>
 
 <h3>Piscine partagee entre plusieurs lots (copropriété horizontale)</h3>
-<p>quelques copropriétés horizontales dans la métropole (Pessac, Mérignac) ont des piscines partagees entre 2 a 10 maisons. Le statut juridique de la piscine est defini dans le règlement de copropriété. Notre rapport identifié la zone de responsabilité pour le règlement entre assureurs des lots concernes.</p>
+<p>quelques copropriétés horizontales dans la métropole (Pessac, Mérignac) ont des piscines partagees entre 2 à 10 maisons. Le statut juridique de la piscine est defini dans le règlement de copropriété. Notre rapport identifié la zone de responsabilité pour le règlement entre assureurs des lots concernes.</p>
 
 <h3>Piscine municipale ou publique</h3>
 <p>Nous n'intervenons pas sur les piscines municipales (Stade Nautique, Piscine Galin, etc.) qui relevent de marches publics spécifiques. Notre scope est exclusivement la piscine privative.</p>
@@ -1781,11 +1781,11 @@ GUIDE_PAGES = [
 <p>Dans la majorite des dossiers que nous traitons, le remboursement couvre :</p>
 <ul>
 <li>100 pourcent de la recherche de fuite si un dégât des eaux effectif est constate</li>
-<li>50 a 100 pourcent des travaux de réparation selon la cause (accidentelle vs usure)</li>
+<li>50 à 100 pourcent des travaux de réparation selon la cause (accidentelle vs usure)</li>
 <li>Totalite des dégâts collateraux (jardin abîmé, mobilier extérieur)</li>
 <li>Consommation d'eau perdue via écrêtement de facture (loi Warsmann) si fuite enterrée</li>
 </ul>
-<p>La franchise contractuelle s'applique (souvent 150 a 300 euros sur les dégâts des eaux). Dans certains cas, si la fuite n'a pas provoque de dégât des eaux effectif (ex : fuite localisee rapidement sans impact sur les biens), la garantie « recherche de fuite » peut ne pas être activee. Un bon rapport technique, qui documente l'impact potentiel si la fuite n'avait pas été traitee, aide a justifier la prise en charge.</p>
+<p>La franchise contractuelle s'applique (souvent 150 à 300 euros sur les dégâts des eaux). Dans certains cas, si la fuite n'a pas provoque de dégât des eaux effectif (ex : fuite localisée rapidement sans impact sur les biens), la garantie « recherche de fuite » peut ne pas être activee. Un bon rapport technique, qui documente l'impact potentiel si la fuite n'avait pas été traitee, aide a justifier la prise en charge.</p>
 
 <h2>Besoin d'un diagnostic compatible avec votre assurance ?</h2>
 <p>Nous intervenons sur toute la Gironde avec un rapport technique standardise, accepte par les principaux assureurs. Pour obtenir un devis préalable ou coordonner une intervention avec votre assureur, consultez notre page de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis</a> ou directement l'une de nos <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">pages piscine par ville</a> pour plus de détails sur nos méthodes d'intervention par zone géographique. Pour les aspects tarifaires, consultez notre guide dédié <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>.</p>"""
@@ -1809,9 +1809,9 @@ GUIDE_PAGES = [
 
 <h3>Reperes pour interprétation</h3>
 <ul>
-<li><strong>0 a 3 mm/jour</strong> : normal en avril-mai, septembre-octobre en Gironde. Pas de fuite a suspecter.</li>
-<li><strong>3 a 6 mm/jour</strong> : plage normale en plein été juillet-aout, surtout en période de vent et soleil intense.</li>
-<li><strong>6 a 10 mm/jour</strong> : suspect en toute saison. Anormal en intersaison. A investiguer.</li>
+<li><strong>0 à 3 mm/jour</strong> : normal en avril-mai, septembre-octobre en Gironde. Pas de fuite a suspecter.</li>
+<li><strong>3 à 6 mm/jour</strong> : plage normale en plein été juillet-aout, surtout en période de vent et soleil intense.</li>
+<li><strong>6 à 10 mm/jour</strong> : suspect en toute saison. Anormal en intersaison. A investiguer.</li>
 <li><strong>Plus de 10 mm/jour (1 cm)</strong> : fuite quasi-certaine, sauf très forte chaleur combinee au vent.</li>
 <li><strong>Plus de 3 cm/jour</strong> : fuite active importante, agir sous 48h pour éviter dégâts collateraux (affouillement, surconsommation importante).</li>
 </ul>
@@ -1823,10 +1823,10 @@ GUIDE_PAGES = [
 
 <h3>Protocole précis</h3>
 <ol>
-<li>Prenez un seau de type "seau de chantier" (10 a 15 litres), rempli d'eau a hauteur similaire à votre piscine (2/3 environ).</li>
+<li>Prenez un seau de type "seau de chantier" (10 à 15 litres), rempli d'eau a hauteur similaire à votre piscine (2/3 environ).</li>
 <li>Posez-le sur la première marche de votre piscine, immerge à sa base mais avec sa paroi intérieure au-dessus du niveau d'eau. Le seau est maintenu à la même température que la piscine.</li>
 <li>Marquez au feutre : le niveau d'eau à l'intérieur du seau, ET le niveau de la piscine sur sa paroi (liner ou margelle).</li>
-<li>Laissez 24 a 48 heures : pas de baignade, pas de remplissage automatique (coupez la régulation de niveau), pas de pluie attendue.</li>
+<li>Laissez 24 à 48 heures : pas de baignade, pas de remplissage automatique (coupez la régulation de niveau), pas de pluie attendue.</li>
 <li>Comparez les deux niveaux.</li>
 </ol>
 
@@ -1850,14 +1850,14 @@ GUIDE_PAGES = [
 <ul>
 <li><strong>Perte plus rapide filtration MARCHE qu'arrêt</strong> : fuite sur le refoulement (canalisation après la pompe, sous pression). C'est le cas fréquent.</li>
 <li><strong>Perte plus rapide filtration arrêt qu'MARCHE</strong> : fuite sur l'aspiration (canalisation skimmer/bonde), car la pression negative sous pompe aspire l'air par la fuite au lieu de laisser sortir l'eau.</li>
-<li><strong>Perte identique dans les deux cas</strong> : fuite sur le bassin (liner, coque, joint piece a sceller, fissure béton). La filtration n'est pas en cause.</li>
+<li><strong>Perte identique dans les deux cas</strong> : fuite sur le bassin (liner, coque, joint pièce a sceller, fissure béton). La filtration n'est pas en cause.</li>
 </ul>
 
 <h2>étape 4 : Ou se situe exactement le niveau quand la perte s'arrêté ?</h2>
 <p>Si votre piscine perd de l'eau mais que la baisse s'arrêté à un certain niveau (ex : niveau du skimmer, niveau de la buse de refoulement), vous avez probablement identifié la zone de fuite.</p>
 
 <ul>
-<li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la piece). très fréquent sur piscines liner de 25+ ans.</li>
+<li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la pièce). très fréquent sur piscines liner de 25+ ans.</li>
 <li><strong>Baisse s'arrêté au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le béton.</li>
 <li><strong>Baisse s'arrêté au niveau de la prise balai</strong> : joint de prise balai ou raccord defectueux.</li>
 <li><strong>Baisse continue sans s'arrêter</strong> : fuite sur liner (perforation), bonde de fond, canalisation enterrée ou fissure structurelle.</li>
@@ -1869,14 +1869,14 @@ GUIDE_PAGES = [
 <li><strong>Margelles et plage</strong> : joints fissures, carrelages mobiles, zones anormalement humides ou affaissees.</li>
 <li><strong>Local technique</strong> : flaque au sol, pompe qui goutte, filtre qui suinte, échangeur thermique corrode.</li>
 <li><strong>Terrain autour</strong> : zone gorgee d'eau, gazon anormalement vert, terre qui s'affaisse sur un trace lineaire.</li>
-<li><strong>Liner ou coque</strong> : plis récents, cloques, decoloration localisee, trous visibles (utilisez un masque de plongee si nécessaire).</li>
+<li><strong>Liner ou coque</strong> : plis récents, cloques, décoloration localisée, trous visibles (utilisez un masque de plongee si nécessaire).</li>
 </ol>
 
 <h2>étape 6 : quand appeler un professionnel</h2>
 <p>Si vos diagnostics amateurs convergent vers une zone (skimmer, canalisation, liner) ou au contraire si vous etes perdu, il est temps de faire intervenir un spécialiste de la recherche de fuite piscine. Le professionnel arrive avec :</p>
 <ul>
-<li>Colorant fluorescéine pour tester les pieces a sceller</li>
-<li>écoute electro-acoustique pour les canalisations enterrées</li>
+<li>Colorant fluorescéine pour tester les pièces a sceller</li>
+<li>écoute électro-acoustique pour les canalisations enterrées</li>
 <li>Test de pression hydraulique pour isoler les circuits</li>
 <li>Camera endoscopique sous-marine pour l'inspection visuelle poussee</li>
 <li>Gaz traceur si fuite suspectee sur canalisations enterrées longues</li>
@@ -1891,103 +1891,103 @@ GUIDE_PAGES = [
 <li>Votre contrat d'assurance habitation (pour vérifier la garantie recherche de fuite)</li>
 </ul>
 
-<p>Cette preparation préalable peut vous faire économiser 30 a 50 % du temps d'intervention, donc potentiellement du tarif final. Pour les tarifs détaillés selon le type de bassin, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine en Gironde</a>. Pour le remboursement assurance, voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine et assurance habitation</a>. Pour faire intervenir nos techniciens, contactez-nous via la page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> ou l'une de nos pages ville dédiées.</p>"""
+<p>Cette preparation préalable peut vous faire économiser 30 à 50 % du temps d'intervention, donc potentiellement du tarif final. Pour les tarifs détaillés selon le type de bassin, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine en Gironde</a>. Pour le remboursement assurance, voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine et assurance habitation</a>. Pour faire intervenir nos techniciens, contactez-nous via la page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> ou l'une de nos pages ville dédiées.</p>"""
     },
     {
         "slug": "fuite-liner-piscine",
         "title": "Fuite liner piscine : signes, causes et diagnostic",
         "title_seo": "Fuite liner piscine PVC : signes et diagnostic",
         "desc": "Comment détecter et traiter une fuite sur liner PVC de piscine. Signes caractéristiques, causes fréquentes, méthodes de diagnostic, réparation locale ou changement complet.",
-        "contenu": """<p>Le liner PVC est le revêtement le plus repandu sur les piscines privées en Gironde : environ 70 a 80 pourcent du parc existant, particulierement sur les bassins installés entre 1985 et 2015 dans les lotissements pavillonnaires de Mérignac, Pessac, Le Bouscat, La Teste et Gujan-Mestras. après 20 a 30 ans d'usage, le liner entre dans sa phase critique ou les fuites deviennent fréquentes. Cet article détaillé comment identifier, diagnostiquer et traiter une fuite sur liner PVC.</p>
+        "contenu": """<p>Le liner PVC est le revêtement le plus répandu sur les piscines privées en Gironde : environ 70 à 80 pourcent du parc existant, particulièrement sur les bassins installés entre 1985 et 2015 dans les lotissements pavillonnaires de Mérignac, Pessac, Le Bouscat, La Teste et Gujan-Mestras. après 20 à 30 ans d'usage, le liner entre dans sa phase critique ou les fuites deviennent fréquentes. Cet article détaillé comment identifier, diagnostiquer et traiter une fuite sur liner PVC.</p>
 
 <h2>Types de liners concernes par les fuites</h2>
-<p>Les liners PVC se declinent en plusieurs epaisseurs qui determinent leur longevite et leur susceptibilite aux fuites.</p>
+<p>Les liners PVC se déclinent en plusieurs épaisseurs qui déterminent leur longévité et leur susceptibilité aux fuites.</p>
 
-<h3>Liner 75/100 (0,75 mm d'epaisseur)</h3>
-<p>Le plus économique, souvent pose sur bassins familiaux simples (4×8 m, 5×10 m). durée de vie theorique : 10 a 15 ans. En pratique, les bassins girondins avec liner 75/100 de plus de 12 ans montrent des signes d'usure généralisé : plis figes, points de tension visibles, decoloration. Les fuites deviennent probables des 15 ans.</p>
+<h3>Liner 75/100 (0,75 mm d'épaisseur)</h3>
+<p>Le plus économique, souvent pose sur bassins familiaux simples (4×8 m, 5×10 m). durée de vie théorique : 10 à 15 ans. En pratique, les bassins girondins avec liner 75/100 de plus de 12 ans montrent des signes d'usure généralisé : plis figes, points de tension visibles, décoloration. Les fuites deviennent probables dès 15 ans.</p>
 
 <h3>Liner 85/100 (0,85 mm)</h3>
-<p>intermédiaire, fréquemment pose dans les années 2000-2015 en remplacement de liners 75/100 d'origine. durée de vie 15 a 20 ans. Resistance legerement supérieure aux chocs et à l'usure sous-marche.</p>
+<p>intermédiaire, fréquemment pose dans les années 2000-2015 en remplacement de liners 75/100 d'origine. durée de vie 15 à 20 ans. Résistance légèrement supérieure aux chocs et à l'usure sous-marche.</p>
 
-<h3>Liner 100/100 armé (1 mm d'epaisseur armée)</h3>
-<p>Liner renforce par armature textile, pose in situ et soudée. durée de vie 20 a 30 ans. fréquemment choisi pour les rénovations récentes ou les bassins haut de gamme. très resistant aux fuites localisees mais complexe a réparer (soudure à chaud spécifique).</p>
+<h3>Liner 100/100 armé (1 mm d'épaisseur armée)</h3>
+<p>Liner renforce par armature textile, pose in situ et soudée. durée de vie 20 à 30 ans. fréquemment choisi pour les rénovations récentes ou les bassins haut de gamme. très résistant aux fuites localisées mais complexe a réparer (soudure à chaud spécifique).</p>
 
 <h2>Signes caractéristiques d'une fuite de liner</h2>
 
 <h3>Signes visuels</h3>
 <ul>
-<li><strong>Pli ou boursouflure récente</strong> : decollement local du liner par rapport au support béton. Souvent precurseur d'une micro-perforation.</li>
+<li><strong>Pli ou boursouflure récente</strong> : décollement local du liner par rapport au support béton. Souvent précurseur d'une micro-perforation.</li>
 <li><strong>Tache brune ou noire circulaire</strong> : infiltration d'eau entre le liner et le support, favorisant la moisissure visible par transparence.</li>
-<li><strong>Angle qui se creusé</strong> : soudure au niveau des angles (souvent skimmer, marche, bonde) qui cede par fatigue mécanique.</li>
+<li><strong>Angle qui se creusé</strong> : soudure au niveau des angles (souvent skimmer, marche, bonde) qui cède par fatigué mécanique.</li>
 <li><strong>Liner qui flotte localement</strong> : présence d'une lame d'eau ou d'air entre le liner et le support, indiquant une infiltration importante.</li>
-<li><strong>Decoloration brutale</strong> : zone localement plus claire ou plus sombre que le reste, signalant un contact différent avec le support.</li>
+<li><strong>Décoloration brutale</strong> : zone localement plus claire ou plus sombre que le reste, signalant un contact différent avec le support.</li>
 </ul>
 
 <h3>Signes hydrauliques</h3>
 <ul>
-<li>Baisse de niveau supérieure a 1 cm par jour en conditions normales (voir <a href="/guide/ma-piscine-perd-de-l-eau-que-faire/" style="color:var(--green);text-decoration:underline;">guide ma piscine perd de l'eau</a> pour les reperes)</li>
+<li>Baisse de niveau supérieure a 1 cm par jour en conditions normales (voir <a href="/guide/ma-piscine-perd-de-l-eau-que-faire/" style="color:var(--green);text-decoration:underline;">guide ma piscine perd de l'eau</a> pour les repères)</li>
 <li>Baisse qui s'arrêté à un niveau précis (skimmer, buse), indiquant la zone de fuite</li>
 <li>Consommation d'eau en hausse sur la facture Suez ou régie</li>
-<li>Deformation de la plage ou des margelles (infiltration sous la dalle)</li>
+<li>Déformation de la plage ou des margelles (infiltration sous la dalle)</li>
 </ul>
 
 <h2>Causes principales des fuites de liner</h2>
 
 <h3>Vieillissement du PVC</h3>
-<p>Le PVC perd sa plasticite après 15 a 25 ans d'exposition aux UV, aux variations thermiques et au chlore. Il devient rigide, se retracte localement, fissure aux points de tension (angles, bonde, skimmer). Vous ne pouvez pas empecher ce processus : l'âgé du liner est le premier facteur.</p>
+<p>Le PVC perd sa plasticite après 15 à 25 ans d'exposition aux UV, aux variations thermiques et au chlore. Il devient rigide, se rétracte localement, fissure aux points de tension (angles, bonde, skimmer). Vous ne pouvez pas empêcher ce processus : l'âgé du liner est le premier facteur.</p>
 
-<h3>Brides desserrees</h3>
-<p>Les pieces a sceller (skimmer, buses de refoulement, bonde de fond, prise balai) sont solidarisees au liner par des brides inox ou plastique. après 10 a 20 ans, ces brides peuvent se desserrer legerement sous l'effet des vibrations et des mouvements thermiques, creant un microgap par ou le liner fuit.</p>
+<h3>Brides desserrées</h3>
+<p>Les pièces a sceller (skimmer, buses de refoulement, bonde de fond, prise balai) sont solidarisées au liner par des brides inox ou plastique. après 10 à 20 ans, ces brides peuvent se desserrer légèrement sous l'effet des vibrations et des mouvements thermiques, créant un microgap par ou le liner fuit.</p>
 
 <h3>Objets tranchants</h3>
-<p>Chute d'un objet dans la piscine (tournevis, ciseau de jardinage, debris d'elagage), raclures de robot de nettoyage mal etalonne, impact lors de l'hivernage (chute de branche, glace cristalline sous la bache). Ces chocs peuvent percer le liner, parfois de manière ponctuelle difficile a détecter.</p>
+<p>Chute d'un objet dans la piscine (tournevis, ciseau de jardinage, débris d'élagage), raclures de robot de nettoyage mal étalonné, impact lors de l'hivernage (chute de branche, glace cristalline sous la bâche). Ces chocs peuvent percer le liner, parfois de manière ponctuelle difficile a détecter.</p>
 
 <h3>Chimie de l'eau défaillante</h3>
 <p>Un pH trop bas (en dessous de 7,0) ou un taux de chlore excessivement élevé (au-dessus de 3 mg/L en permanence) accéléré la dégradation chimique du PVC. Le liner devient cassant, se craquelle progressivement. fréquent dans les piscines mal entretenues ou a traitement choc répété.</p>
 
 <h3>Racines de plantes ou arbres</h3>
-<p>Les piscines dont les abords sont plantes (bambous, oliviers, pins) peuvent voir des racines pousser sous le liner via un défaut d'etancheite peripherique. Les racines penetrent, souleven le liner et créent des points de fuite.</p>
+<p>Les piscines dont les abords sont plantes (bambous, oliviers, pins) peuvent voir des racines pousser sous le liner via un défaut d'étanchéité périphérique. Les racines pénètrent, soulèvent le liner et créent des points de fuite.</p>
 
 <h3>Mouvements de terrain</h3>
-<p>Les sols argileux de Bordeaux et des environs sont sujets au retrait-gonflement saisonnier. Ces mouvements sollicitent la structure du bassin et peuvent provoquer des fissures du support béton, qui se repercutent sur le liner en le sollicitant localement.</p>
+<p>Les sols argileux de Bordeaux et des environs sont sujets au retrait-gonflement saisonnier. Ces mouvements sollicitent la structure du bassin et peuvent provoquer des fissures du support béton, qui se répercutent sur le liner en le sollicitant localement.</p>
 
 <h2>méthodes de diagnostic pour fuite de liner</h2>
 
 <h3>Colorant fluorescéine (méthode de référence)</h3>
-<p>On injecte à la seringue quelques gouttes de fluorescéine a proximité des zones suspectes, filtration à l'arrêt. Le colorant est aspire vers la fuite, revelant son parcours exact. C'est la méthode privilegiee pour les fuites de pieces a sceller (skimmer, buses).</p>
+<p>On injecté à la seringue quelques gouttes de fluorescéine a proximité des zones suspectes, filtration à l'arrêt. Le colorant est aspire vers la fuite, révélant son parcours exact. C'est la méthode privilégiée pour les fuites de pièces a sceller (skimmer, buses).</p>
 
 <h3>Inspection visuelle en apnée</h3>
-<p>Avec un masque et un tuba, inspection systématique des angles, soudures, pieces a sceller. Une perforation punctiforme (0,5 a 2 mm) se détecté par un leger courant d'eau sortant, visible aux debris flottants (poussieres, petites feuilles).</p>
+<p>Avec un masque et un tuba, inspection systématique des angles, soudures, pièces a sceller. Une perforation punctiforme (0,5 à 2 mm) se détecté par un léger courant d'eau sortant, visible aux débris flottants (poussières, petites feuilles).</p>
 
 <h3>Camera endoscopique sous-marine</h3>
-<p>Camera etanche motorisée qui parcourt les parois et fond du bassin. Utile pour les piscines profondes (3-4 m) ou les zones d'acces difficile en apnée. Permet d'inspecter les soudures d'angles et les bondes de fond invisibles à l'oeil nu.</p>
+<p>Camera étanche motorisée qui parcourt les parois et fond du bassin. Utile pour les piscines profondes (3-4 m) ou les zones d'accès difficile en apnée. Permet d'inspecter les soudures d'angles et les bondes de fond invisibles à l'oeil nu.</p>
 
 <h3>Test d'inversion de pression</h3>
-<p>On fait varier la pression dans les circuits d'alimentation pour révéler les fuites actives. Combine avec l'injection de colorant, cette méthode est très efficace sur les suspicions de fuites aux pieces a sceller.</p>
+<p>On fait varier la pression dans les circuits d'alimentation pour révéler les fuites actives. Combine avec l'injection de colorant, cette méthode est très efficace sur les suspicions de fuites aux pièces a sceller.</p>
 
 <h2>réparation locale ou changement complet ?</h2>
 
 <h3>réparation locale (patch PVC)</h3>
-<p>Pour une fuite isolee bien localisee (perforation mécanique, decollement de bride), un patch PVC peut être colle sur le liner. coût : 100 a 400 euros HT selon la zone. durée de vie du patch : 5 a 10 ans. économiquement pertinent si le liner à moins de 20 ans et que le reste est en bon etat.</p>
+<p>Pour une fuite isolée bien localisée (perforation mécanique, décollement de bride), un patch PVC peut être colle sur le liner. coût : 100 à 400 euros HT selon la zone. durée de vie du patch : 5 à 10 ans. économiquement pertinent si le liner à moins de 20 ans et que le reste est en bon etat.</p>
 
 <h3>réparation d'angle (soudure)</h3>
-<p>Les fuites aux soudures d'angles peuvent être réparées par nouvelle soudure à chaud spécifique. Requiert du materiel professionnel (extrudeur, vent pulse). coût : 200 a 600 euros HT. durée de vie : 5 a 10 ans.</p>
+<p>Les fuites aux soudures d'angles peuvent être réparées par nouvelle soudure à chaud spécifique. Requiert du matériel professionnel (extrudeur, vent pulse). coût : 200 à 600 euros HT. durée de vie : 5 à 10 ans.</p>
 
-<h3>Rejointoiement de piece a sceller</h3>
-<p>Pour une fuite au niveau d'un skimmer ou d'une buse, le demontage de la bride, le renouvellement du joint mastic (silicone piscine) et le resserrage de la bride resolvent le problème sans changer le liner. coût : 200 a 500 euros HT selon le nombre de pieces.</p>
+<h3>Rejointoiement de pièce a sceller</h3>
+<p>Pour une fuite au niveau d'un skimmer ou d'une buse, le démontage de la bride, le renouvellement du joint mastic (silicone piscine) et le resserrage de la bride résolvent le problème sans changer le liner. coût : 200 à 500 euros HT selon le nombre de pièces.</p>
 
 <h3>Changement complet du liner</h3>
-<p>Lorsque le liner présente plusieurs signes d'usure généralisée (plis multiples, decolorations, soudures cedees, perforations multiples), un changement complet est nécessaire. coût : 3 000 a 8 000 euros HT pour un bassin standard 8×4 m, 6 000 a 12 000 euros pour 10×5 m. Le choix de liner peut inclure une montee en gamme (75/100 vers 85/100 ou 100/100 armé) pour prolonger la prochaine durée de vie.</p>
+<p>Lorsque le liner présente plusieurs signes d'usure généralisée (plis multiples, décolorations, soudures cédées, perforations multiples), un changement complet est nécessaire. coût : 3 000 à 8 000 euros HT pour un bassin standard 8×4 m, 6 000 à 12 000 euros pour 10×5 m. Le choix de liner peut inclure une montée en gamme (75/100 vers 85/100 ou 100/100 armé) pour prolonger la prochaine durée de vie.</p>
 
 <h2>décision : réparer ou changer ?</h2>
-<p>Trois criteres orientent la décision :</p>
+<p>Trois critères orientent la décision :</p>
 <ol>
-<li><strong>Âge du liner</strong> : moins de 15 ans = réparation locale privilegiee. Plus de 25 ans = changement recommandé même pour une fuite isolée.</li>
-<li><strong>Nombre de fuites</strong> : une seule fuite localisee = réparation. Plusieurs fuites simultanees = le liner est en fin de vie, changement.</li>
-<li><strong>Etat visuel général</strong> : decolorations, plis multiples, soudures fatigees = changement. Liner homogène par ailleurs = réparation.</li>
+<li><strong>Âge du liner</strong> : moins de 15 ans = réparation locale privilégiée. Plus de 25 ans = changement recommandé même pour une fuite isolée.</li>
+<li><strong>Nombre de fuites</strong> : une seule fuite localisée = réparation. Plusieurs fuites simultanées = le liner est en fin de vie, changement.</li>
+<li><strong>Etat visuel général</strong> : décolorations, plis multiples, soudures fatiguées = changement. Liner homogène par ailleurs = réparation.</li>
 </ol>
 
-<p>Notre rapport de diagnostic evalue objectivement ces criteres et vous remet une préconisation chiffrée. Pour les tarifs détaillés selon le type de bassin et la méthode retenue, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>. Une fois la fuite identifiée, voir notre guide complémentaire <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d'une fuite de liner piscine</a> qui détaille les trois familles de réparation (rustine subaquatique, soudure thermique, changement complet) avec coûts constatés. Pour la méthode de localisation au colorant, voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a>. Pour faire intervenir nos techniciens, consultez nos pages piscine par ville, notamment <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Mérignac</a> qui concentre la plus forte densite de liners PVC en fin de vie en Gironde.</p>"""
+<p>Notre rapport de diagnostic evalue objectivement ces critères et vous remet une préconisation chiffrée. Pour les tarifs détaillés selon le type de bassin et la méthode retenue, consultez notre guide <a href="/guide/recherche-fuite-piscine-tarif/" style="color:var(--green);text-decoration:underline;">tarif recherche de fuite piscine</a>. Une fois la fuite identifiée, voir notre guide complémentaire <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation d'une fuite de liner piscine</a> qui détaille les trois familles de réparation (rustine subaquatique, soudure thermique, changement complet) avec coûts constatés. Pour la méthode de localisation au colorant, voir notre page dédiée <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à la fluorescéine</a>. Pour faire intervenir nos techniciens, consultez nos pages piscine par ville, notamment <a href="/detection-fuite/piscine-merignac/" style="color:var(--green);text-decoration:underline;">piscine Mérignac</a> qui concentre la plus forte densité de liners PVC en fin de vie en Gironde.</p>"""
     },
     {
         "slug": "evaporation-vs-fuite-piscine",
@@ -1999,7 +1999,7 @@ GUIDE_PAGES = [
 <h2>L'évaporation de piscine : un phénomène physique predictible</h2>
 <p>L'évaporation est le passage de l'eau liquide à l'etat gazeux, provoque par la chaleur de l'eau et la sollicitation atmospherique. Contrairement aux idées recues, l'évaporation d'une piscine ne dépend pas uniquement de la température de l'air : elle resulte d'un calcul complexe impliquant la température de l'eau, la température de l'air, l'humidité relative et surtout la vitesse du vent.</p>
 
-<h3>Les 4 facteurs qui determinent l'évaporation</h3>
+<h3>Les 4 facteurs qui déterminent l'évaporation</h3>
 <ul>
 <li><strong>température de l'eau</strong> : plus l'eau est chaude, plus elle s'évapore. Une piscine chauffée a 28 degrés évapore plus qu'une piscine a 22 degrés.</li>
 <li><strong>température de l'air</strong> : importante mais moins que l'on pense. Une journée a 35 degrés provoque certes plus d'évaporation qu'a 25 degrés, mais l'écart n'est pas aussi spectaculaire.</li>
@@ -2013,27 +2013,27 @@ GUIDE_PAGES = [
 <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
 <thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Mois</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Évaporation moy. (mm/jour)</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Pic observable</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Contexte</th></tr></thead>
 <tbody>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Janvier</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 1,5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage généralisé, évaporation minimale</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Fevrier</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 2</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Vent d'ouest accentué en cas de depression</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Mars</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 a 3</td><td style="padding:.75rem;border:1px solid #D8D4CC;">5 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Remise en route, eau froide, vent printanier</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Avril</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 a 4</td><td style="padding:.75rem;border:1px solid #D8D4CC;">6 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Reprise saison, vents d'ouest réguliers</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Mai</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 a 5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">7 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Mois a forte évaporation par forte amplitude thermique</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Juin</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>4 a 6</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>8 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Pleine saison, chaleur + vents réguliers</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Juillet</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>5 a 7</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>10 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Canicule + vent d'ouest = pic d'évaporation</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Aout</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>5 a 7</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>10 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Similaire a juillet, possibles orages interrupteurs</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Septembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 a 5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">7 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Baisse progressive, encore forte en début de mois</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Octobre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 a 3</td><td style="padding:.75rem;border:1px solid #D8D4CC;">5 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Retrocedence, hivernage imminent</td></tr>
-<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Novembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 2</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage en cours</td></tr>
-<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">décembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 a 1,5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage, évaporation minimale</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Janvier</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 à 1,5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage généralisé, évaporation minimale</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Fevrier</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 à 2</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Vent d'ouest accentué en cas de depression</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Mars</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 à 3</td><td style="padding:.75rem;border:1px solid #D8D4CC;">5 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Remise en route, eau froide, vent printanier</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Avril</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 à 4</td><td style="padding:.75rem;border:1px solid #D8D4CC;">6 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Reprise saison, vents d'ouest réguliers</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Mai</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 à 5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">7 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Mois a forte évaporation par forte amplitude thermique</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Juin</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>4 à 6</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>8 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Pleine saison, chaleur + vents réguliers</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Juillet</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>5 à 7</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>10 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Canicule + vent d'ouest = pic d'évaporation</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>Aout</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>5 à 7</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;"><strong>10 mm</strong></td><td style="padding:.75rem;border:1px solid #D8D4CC;">Similaire a juillet, possibles orages interrupteurs</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Septembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 à 5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">7 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Baisse progressive, encore forte en début de mois</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Octobre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">1 à 3</td><td style="padding:.75rem;border:1px solid #D8D4CC;">5 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Retrocedence, hivernage imminent</td></tr>
+<tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Novembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 à 2</td><td style="padding:.75rem;border:1px solid #D8D4CC;">3 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage en cours</td></tr>
+<tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">décembre</td><td style="padding:.75rem;border:1px solid #D8D4CC;">0,5 à 1,5</td><td style="padding:.75rem;border:1px solid #D8D4CC;">2 mm</td><td style="padding:.75rem;border:1px solid #D8D4CC;">Hivernage, évaporation minimale</td></tr>
 </tbody>
 </table>
 
 <h3>Facteurs multiplicateurs locaux</h3>
 <ul>
-<li><strong>Bassin d'Arcachon, Cap-Ferret, front de dune</strong> : vent marin permanent, évaporation augmentee de 20 a 40 pourcent par rapport à la valeur tablee</li>
-<li><strong>Pinede dense autour du bassin</strong> : effet de protection du vent, évaporation réduite de 15 a 25 pourcent</li>
+<li><strong>Bassin d'Arcachon, Cap-Ferret, front de dune</strong> : vent marin permanent, évaporation augmentee de 20 à 40 pourcent par rapport à la valeur tablee</li>
+<li><strong>Pinede dense autour du bassin</strong> : effet de protection du vent, évaporation réduite de 15 à 25 pourcent</li>
 <li><strong>Piscine chauffée (PAC ou abri)</strong> : évaporation doublée car l'eau reste a 28-30 degrés toute la saison, augmentant le gradient thermique</li>
-<li><strong>Piscine débordement/miroir</strong> : évaporation multipliee par 1,5 a 2 en raison de la surface d'eau en contact avec l'air nettement plus large</li>
+<li><strong>Piscine débordement/miroir</strong> : évaporation multipliee par 1,5 à 2 en raison de la surface d'eau en contact avec l'air nettement plus large</li>
 </ul>
 
 <h2>Protocole scientifique pour distinguer évaporation et fuite</h2>
@@ -2052,9 +2052,9 @@ GUIDE_PAGES = [
 <h3>Formule de décision</h3>
 <p>Calculez le delta : <strong>perte piscine - perte seau = fuite presumee</strong></p>
 <ul>
-<li>Delta de 0 a 2 mm/jour : pas de fuite significative. Évaporation seule en cause.</li>
-<li>Delta de 2 a 5 mm/jour : fuite faible, a investiguer. Pourrait être un joint qui fatigue.</li>
-<li>Delta de 5 a 10 mm/jour : fuite confirmee, intervention professionnelle recommandée sous 2 semaines.</li>
+<li>Delta de 0 à 2 mm/jour : pas de fuite significative. Évaporation seule en cause.</li>
+<li>Delta de 2 à 5 mm/jour : fuite faible, a investiguer. Pourrait être un joint qui fatigué.</li>
+<li>Delta de 5 à 10 mm/jour : fuite confirmee, intervention professionnelle recommandée sous 2 semaines.</li>
 <li>Delta supérieur a 10 mm/jour : fuite importante, intervention urgente sous 48 heures pour éviter dégâts collateraux.</li>
 </ul>
 
@@ -2067,7 +2067,7 @@ GUIDE_PAGES = [
 <p>De nombreuses piscines ont un regulateur de niveau automatique qui compensé en permanence les baisses. Si vous ne le coupez pas pendant le test, vous ne verrez jamais la baisse : votre regulateur la masquera. Coupez imperativement cette régulation pendant le test.</p>
 
 <h3>Piscine en plein soleil direct toute là journée</h3>
-<p>Une piscine exposée plein sud chauffe vite, ce qui amplifie l'évaporation. Si votre piscine est particulierement exposee, vos taux d'évaporation peuvent dépasser les valeurs de table de 30 a 50 pourcent. Faites plusieurs tests sur différents episodes météo pour calibrer votre cas.</p>
+<p>Une piscine exposée plein sud chauffe vite, ce qui amplifie l'évaporation. Si votre piscine est particulièrement exposee, vos taux d'évaporation peuvent dépasser les valeurs de table de 30 à 50 pourcent. Faites plusieurs tests sur différents episodes météo pour calibrer votre cas.</p>
 
 <h3>Confondre évaporation et micro-fuite chronique</h3>
 <p>Une fuite très petite (2-3 mm/jour) sur une piscine en pleine saison peut se confondre avec l'évaporation normale. Seul le test rigoureux du seau tranche. Ne vous fiez pas à votre intuition : mesurer avant de conclure.</p>
@@ -2130,7 +2130,7 @@ GUIDE_PAGES = [
 <p>Verifiez d'abord si la fuite est avant ou après le compteur : fermez votre robinet d'arrêt général. Si le compteur continue de tourner, la fuite est avant (réseau public, pas votre responsabilité). S'il s'arrêté mais vous constatez toujours une perte, la fuite est après le compteur sur votre réseau privatif.</p>
 
 <h3>étape 3 : localisation par un professionnel</h3>
-<p>Pour obtenir l'écrêtement, il ne suffit pas de savoir qu'il y à une fuite : il faut la localiser précisément pour pouvoir la réparer. Nous intervenons avec du gaz traceur azote/helium pour localiser les fuites sur canalisations enterrées avec une précision au demi-metre. Notre rapport mentionne explicitement la localisation enterrée et le caractère indétectable visuellement, deux elements clés pour le dossier Warsmann.</p>
+<p>Pour obtenir l'écrêtement, il ne suffit pas de savoir qu'il y à une fuite : il faut la localiser précisément pour pouvoir la réparer. Nous intervenons avec du gaz traceur azote/hélium pour localiser les fuites sur canalisations enterrées avec une précision au demi-metre. Notre rapport mentionne explicitement la localisation enterrée et le caractère indétectable visuellement, deux elements clés pour le dossier Warsmann.</p>
 
 <h3>étape 4 : réparation et attestation</h3>
 <p>La réparation peut être faite par le même professionnel ou par un plombier mandate. A l'issue, demandez une attestation de réparation mentionnant : canalisation enterrée, localisation, date, certification que la fuite est résolue.</p>
@@ -2146,7 +2146,7 @@ GUIDE_PAGES = [
 </ul>
 
 <h3>étape 6 : écrêtement applique sur la facture suivante</h3>
-<p>Si le dossier est complet, le distributeur applique l'écrêtement sur votre facture suivante (délai moyen 1 a 2 mois). Là part excedentaire au-dessus du double de votre consommation habituelle est soit annulee, soit remboursee si déjà payee.</p>
+<p>Si le dossier est complet, le distributeur applique l'écrêtement sur votre facture suivante (délai moyen 1 à 2 mois). Là part excedentaire au-dessus du double de votre consommation habituelle est soit annulee, soit remboursee si déjà payee.</p>
 
 <h2>Modele de courrier a envoyer</h2>
 
@@ -2165,7 +2165,7 @@ GUIDE_PAGES = [
 <h2>Cas complexes et jurisprudence</h2>
 
 <h3>Cas 1 : la fuite etait partiellement visible</h3>
-<p>Si l'humidité etait visible mais qu'il etait objectivement impossible de suspecter une fuite (ex : zone de pelouse legerement plus verte depuis plusieurs années, interpretee comme effet d'arrosage naturel), la jurisprudence admet généralement l'écrêtement. Notre rapport doit alors argumenter spécifiquement pourquoi le signe visible etait ambigu et n'imposait pas intervention.</p>
+<p>Si l'humidité etait visible mais qu'il etait objectivement impossible de suspecter une fuite (ex : zone de pelouse légèrement plus verte depuis plusieurs années, interpretee comme effet d'arrosage naturel), la jurisprudence admet généralement l'écrêtement. Notre rapport doit alors argumenter spécifiquement pourquoi le signe visible etait ambigu et n'imposait pas intervention.</p>
 
 <h3>Cas 2 : délai dépassé d'un mois</h3>
 <p>Si vous avez laisse passer le délai d'un mois, un recours est toujours possible en sollicitant le mediateur de l'eau ou en saisissant le tribunal judiciaire. Les distributeurs acceptent souvent l'écrêtement après mediation, même hors délai, car le contentieux est coûteux pour eux.</p>
@@ -2544,7 +2544,7 @@ GUIDE_PAGES = [
 <p>L'âge oriente fortement les hypothèses de localisation et de coût :</p>
 <ul>
 <li><strong>Moins de 5 ans</strong> : fuite rare et souvent due à un défaut de pose. La garantie décennale du constructeur peut s'activer. Vérifier les pièces à sceller (skimmer, refoulement, projecteur, bonde de fond) en priorité.</li>
-<li><strong>5 à 15 ans</strong> : fuites possibles sur joints d'étanchéité, premiers signes de fatigue du liner. Réparation locale presque toujours suffisante.</li>
+<li><strong>5 à 15 ans</strong> : fuites possibles sur joints d'étanchéité, premiers signes de fatigué du liner. Réparation locale presque toujours suffisante.</li>
 <li><strong>15 à 25 ans</strong> : phase critique. Le liner approche sa fin de vie nominale, plusieurs fuites simultanées peuvent apparaître. Voir notre guide <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic fuite sur liner</a> pour décider entre réparation et remplacement.</li>
 <li><strong>Plus de 25 ans</strong> : changement de liner souvent inévitable. Pour les piscines béton, fissures structurelles à examiner.</li>
 </ul>
@@ -4317,7 +4317,7 @@ def page_piscine_hub():
   "@type": "Service",
   "serviceType": "Recherche de fuite de piscine sans vidange",
   "name": "Recherche de fuite de piscine en Gironde",
-  "description": "Localisation précise de fuite sur piscine privée sans vidanger le bassin. méthodes : colorant fluorescéine, écoute electro-acoustique, test de pression, inspection sous-marine, gaz traceur. couverture toute la Gironde : Bordeaux, Bassin d'Arcachon, Libournais, Medoc.",
+  "description": "Localisation précise de fuite sur piscine privée sans vidanger le bassin. méthodes : colorant fluorescéine, écoute électro-acoustique, test de pression, inspection sous-marine, gaz traceur. couverture toute la Gironde : Bordeaux, Bassin d'Arcachon, Libournais, Medoc.",
   "provider": {
     "@type": "LocalBusiness",
     "name": "Recherche Fuite Gironde",
@@ -4351,7 +4351,7 @@ def page_piscine_hub():
       <span>Piscine</span>
     </nav>
     <h1>Recherche de fuite de piscine en Gironde</h1>
-    <p class="hero-mini-lead">Votre piscine perd de l'eau anormalement ? Nos techniciens spécialisés localisent la fuite <strong>sans vidanger le bassin</strong> grâce a 6 méthodes complementaires : colorant fluorescéine, écoute electro-acoustique, test de pression, inspection sous-marine, gaz traceur azote/helium, thermographie infrarouge. Intervention sur toute la Gironde, rapport pour assurance.</p>
+    <p class="hero-mini-lead">Votre piscine perd de l'eau anormalement ? Nos techniciens spécialisés localisent la fuite <strong>sans vidanger le bassin</strong> grâce a 6 méthodes complementaires : colorant fluorescéine, écoute électro-acoustique, test de pression, inspection sous-marine, gaz traceur azote/hélium, thermographie infrarouge. Intervention sur toute la Gironde, rapport pour assurance.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un devis piscine</a>
     </div>
@@ -4361,12 +4361,12 @@ def page_piscine_hub():
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <h2>La piscine, première cause de fuite en Gironde</h2>
-    <p>Sur les 132 conversions issues de notre campagne d'acquisition l'an dernier, plus d'une sur quatre concernait une piscine privée. Le parc bordelais et girondin compte plusieurs milliers de bassins privés, dont une part importante atteint l'âgé critique ou les fuites deviennent fréquentes : 25 a 35 ans pour les liners PVC, 15 a 25 ans pour les coques polyester, 30 a 50 ans pour les bassins béton armé.</p>
+    <p>Sur les 132 conversions issues de notre campagne d'acquisition l'an dernier, plus d'une sur quatre concernait une piscine privée. Le parc bordelais et girondin compte plusieurs milliers de bassins privés, dont une part importante atteint l'âgé critique ou les fuites deviennent fréquentes : 25 à 35 ans pour les liners PVC, 15 à 25 ans pour les coques polyester, 30 à 50 ans pour les bassins béton armé.</p>
 
     <p>Plutot que vidanger pour inspecter (coûteux, risque de soulèvement du bassin sur sols sableux ou nappe phreatique haute), notre méthodologie non destructive identifié la fuite directement, bassin plein. Notre rapport est ensuite utilisable pour la prise en charge par votre assurance habitation.</p>
 
     <h2>Recherche de fuite piscine par ville en Gironde</h2>
-    <p>Sept communes a forte densite de piscines disposent d'une page dédiée avec les spécificités locales (type de bassins majoritaires, problématiques geologiques, exemples d'interventions récurrentes).</p>
+    <p>Sept communes a forte densité de piscines disposent d'une page dédiée avec les spécificités locales (type de bassins majoritaires, problématiques geologiques, exemples d'interventions récurrentes).</p>
 
     <div class="grid-3" style="margin-top:1.5rem;">
       {villes_cards}
@@ -4429,7 +4429,7 @@ def page_piscine_hub():
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Inspection visuelle et camera</h3>
-          <p>Inspection en apnee ou par camera endoscopique sous-marine pour détecter perforations liner, fissures coque, ou défauts visibles aux pieces a sceller.</p>
+          <p>Inspection en apnee ou par camera endoscopique sous-marine pour détecter perforations liner, fissures coque, ou défauts visibles aux pièces a sceller.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4449,14 +4449,14 @@ def page_piscine_hub():
       <div class="arg-num-card">
         <span class="arg-num">05</span>
         <div class="arg-num-content">
-          <h3>écoute electro-acoustique</h3>
+          <h3>écoute électro-acoustique</h3>
           <p>Amplificateur acoustique haute sensibilite pour capter le bruit de fuite sur canalisations enterrées autour de la piscine. précision au demi-metre près.</p>
         </div>
       </div>
       <div class="arg-num-card">
         <span class="arg-num">06</span>
         <div class="arg-num-content">
-          <h3>Gaz traceur azote/helium</h3>
+          <h3>Gaz traceur azote/hélium</h3>
           <p>Pour les fuites enterrées longues ou inaccessibles acoustiquement. Injection sous pression, détection en surface au capteur. méthode complementaire de dernière ligne.</p>
         </div>
       </div>
@@ -4561,17 +4561,17 @@ def page_plancher_chauffant_bordeaux():
     {
       "@type": "Question",
       "name": "Combien coûte une recherche de fuite sur plancher chauffant à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Entre 400 et 650 euros HT selon la surface du plancher chauffant et le nombre de boucles a tester. Pour une maison de 80 a 150 m² avec plancher chauffant principal, comptez 450 a 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation précise. Devis fixe communique avant intervention." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Entre 400 et 650 euros HT selon la surface du plancher chauffant et le nombre de boucles a tester. Pour une maison de 80 à 150 m² avec plancher chauffant principal, comptez 450 à 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation précise. Devis fixe communique avant intervention." }
     },
     {
       "@type": "Question",
       "name": "La réparation après diagnostic nécessite-t-elle de casser tout le sol ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Non, nous localisons la fuite au point près, ce qui permet une intervention ciblée. La réparation consiste a ouvrir la chape uniquement au droit de la perforation (zone de 25 a 40 cm de cote typiquement), remplacer 30 a 80 cm de tube PER ou polybutylene, refaire la chape et le revetement de sol localement. Aucun besoin de casser toute la piece." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Non, nous localisons la fuite au point près, ce qui permet une intervention ciblée. La réparation consiste a ouvrir la chape uniquement au droit de la perforation (zone de 25 à 40 cm de cote typiquement), remplacer 30 à 80 cm de tube PER ou polybutylene, refaire la chape et le revetement de sol localement. Aucun besoin de casser toute la pièce." }
     },
     {
       "@type": "Question",
       "name": "Les planchers chauffants à Bordeaux sont-ils fréquents ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Oui, particulierement à Mérignac, Pessac et dans les pavillons des années 1985-2005 de la métropole. Environ 40 pourcent des maisons individuelles de cette période ont un plancher chauffant hydraulique. après 20 a 40 ans, les micro-perforations sur tubes PER ou polybutylene deviennent fréquentes. Nos techniciens sont spécialisés sur ce type d'installation." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, particulièrement à Mérignac, Pessac et dans les pavillons des années 1985-2005 de la métropole. Environ 40 pourcent des maisons individuelles de cette période ont un plancher chauffant hydraulique. après 20 à 40 ans, les micro-perforations sur tubes PER ou polybutylene deviennent fréquentes. Nos techniciens sont spécialisés sur ce type d'installation." }
     },
     {
       "@type": "Question",
@@ -4593,7 +4593,7 @@ def page_plancher_chauffant_bordeaux():
       <span>Plancher chauffant Bordeaux</span>
     </nav>
     <h1>Recherche de fuite sur plancher chauffant à Bordeaux</h1>
-    <p class="hero-mini-lead">Pression de votre chaudiere qui chute, sol froid par zones, humidité au plafond du voisin du dessous : votre plancher chauffant hydraulique fuit. Nos techniciens le localisent <strong>au point près grâce à la thermographie infrarouge</strong>, sans casser votre chape. réparation ciblée sur 25 a 40 cm de sol au lieu de refaire toute la piece.</p>
+    <p class="hero-mini-lead">Pression de votre chaudiere qui chute, sol froid par zones, humidité au plafond du voisin du dessous : votre plancher chauffant hydraulique fuit. Nos techniciens le localisent <strong>au point près grâce à la thermographie infrarouge</strong>, sans casser votre chape. réparation ciblée sur 25 à 40 cm de sol au lieu de refaire toute la pièce.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un devis plancher chauffant</a>
     </div>
@@ -4602,10 +4602,10 @@ def page_plancher_chauffant_bordeaux():
 
 <section class="section">
   <div class="container" style="max-width:1080px;">
-    <h2>Le plancher chauffant hydraulique : un système très repandu en métropole bordelaise</h2>
+    <h2>Le plancher chauffant hydraulique : un système très répandu en métropole bordelaise</h2>
     <p>Les pavillons construits à Bordeaux et sa métropole entre 1985 et 2005 ont massivement adopte le plancher chauffant hydraulique comme système de chauffage principal. A Mérignac (Arlac, Capeyron, Chemin Long, Beutre), à Pessac (Alouette, Saige, Camponac), au Haillan, à Eysines, dans les lotissements de Talence et du Bouscat, environ 40 pourcent des maisons individuelles de cette période en sont équipées. C'est une proportion nettement supérieure aux radiateurs classiques sur ces tranches d'âgé.</p>
 
-    <p>Le système fonctionne par circulation d'eau chaude (35-45 degrés) dans des tubes PER (polyethylene reticulé) ou polybutylene intégrés dans la chape béton. Chaque piece est alimentee par une ou plusieurs boucles qui partent d'un collecteur central (généralement dans une pièce technique ou un placard). après 20 a 40 ans, les micro-perforations et les défaillances de raccordement deviennent fréquentes.</p>
+    <p>Le système fonctionne par circulation d'eau chaude (35-45 degrés) dans des tubes PER (polyethylene reticulé) ou polybutylene intégrés dans la chape béton. Chaque pièce est alimentee par une ou plusieurs boucles qui partent d'un collecteur central (généralement dans une pièce technique ou un placard). après 20 à 40 ans, les micro-perforations et les défaillances de raccordement deviennent fréquentes.</p>
 
     <h2>Les 6 signes d'une fuite de plancher chauffant</h2>
 
@@ -4621,7 +4621,7 @@ def page_plancher_chauffant_bordeaux():
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Zones de sol froides</h3>
-          <p>Une piece ou une zone précise de la maison reste froide malgre le chauffage en marche. Une boucle du plancher chauffant ne circule plus correctement. Posez la main au sol : le contraste thermique entre zones chauffées et zones defaillantes est nettement perceptible.</p>
+          <p>Une pièce ou une zone précise de la maison reste froide malgre le chauffage en marche. Une boucle du plancher chauffant ne circule plus correctement. Posez la main au sol : le contraste thermique entre zones chauffées et zones defaillantes est nettement perceptible.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4665,16 +4665,16 @@ def page_plancher_chauffant_bordeaux():
     <p>Avant notre arrivée, maintenez votre chauffage en fonctionnement normal pendant au moins 4 heures. Le plancher doit être a température opérationnelle pour que la thermographie révèle les contrastes thermiques caractéristiques.</p>
 
     <h3>étape 2 : thermographie infrarouge du sol</h3>
-    <p>Avec une camera thermique haute definition, notre technicien balaie methodiquement la surface des pieces. Une fuite active produit un halo thermique anormal : soit une zone plus chaude (eau chaude qui sort localement sous le revetement) soit une zone plus froide (boucle qui ne circule plus en aval du point de fuite). La lecture experte de ces signatures thermiques permet de pointer la zone a 20-30 cm près.</p>
+    <p>Avec une camera thermique haute definition, notre technicien balaie methodiquement la surface des pièces. Une fuite active produit un halo thermique anormal : soit une zone plus chaude (eau chaude qui sort localement sous le revetement) soit une zone plus froide (boucle qui ne circule plus en aval du point de fuite). La lecture experte de ces signatures thermiques permet de pointer la zone a 20-30 cm près.</p>
 
     <h3>étape 3 : identification de la boucle en défaut</h3>
-    <p>Au collecteur, chaque boucle alimentant une piece est identifiée. Nous isolons les boucles une par une en fermant les vannes manuelles, et mesurons la pression residuelle dans chacune après un délai de stabilisation. La boucle qui perd de la pression en isolement est celle qui fuit.</p>
+    <p>Au collecteur, chaque boucle alimentant une pièce est identifiée. Nous isolons les boucles une par une en fermant les vannes manuelles, et mesurons la pression residuelle dans chacune après un délai de stabilisation. La boucle qui perd de la pression en isolement est celle qui fuit.</p>
 
     <h3>étape 4 : test de pression cible sur la boucle suspecte</h3>
     <p>Avec la boucle suspecte identifiée, nous effectuons un test de pression plus précis avec manometre haute sensibilite. En combinaison avec la thermographie, cela confirme la zone exacte dans la boucle (début, milieu, fin de la boucle, serpentin chauffant).</p>
 
     <h3>étape 5 : marquage et rapport</h3>
-    <p>Le point de fuite est marque au sol (scotch ou feutre effacable). Le rapport technique détaillé les mesures effectuees, la zone localisee en coordonnees cartesiennes par rapport aux murs, et la préconisation de réparation : ouverture de chape 25-40 cm de cote, remplacement de 30-80 cm de tube, refection chape et revetement.</p>
+    <p>Le point de fuite est marque au sol (scotch ou feutre effacable). Le rapport technique détaillé les mesures effectuees, la zone localisée en coordonnees cartesiennes par rapport aux murs, et la préconisation de réparation : ouverture de chape 25-40 cm de cote, remplacement de 30-80 cm de tube, refection chape et revetement.</p>
   </div>
 </section>
 
@@ -4687,7 +4687,7 @@ def page_plancher_chauffant_bordeaux():
         <span class="arg-num">01</span>
         <div class="arg-num-content">
           <h3>Micro-perforation par corrosion interne</h3>
-          <p>Les tubes PER des années 1985-1995 peuvent subir une corrosion interne lente si l'eau du circuit n'a pas été correctement traitee (absence d'inhibiteur de corrosion). La perforation est souvent punctiforme (0,2 a 1 mm) mais suffit a provoquer une perte de pression continue.</p>
+          <p>Les tubes PER des années 1985-1995 peuvent subir une corrosion interne lente si l'eau du circuit n'a pas été correctement traitee (absence d'inhibiteur de corrosion). La perforation est souvent punctiforme (0,2 à 1 mm) mais suffit a provoquer une perte de pression continue.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4701,7 +4701,7 @@ def page_plancher_chauffant_bordeaux():
         <span class="arg-num">03</span>
         <div class="arg-num-content">
           <h3>défaut de raccordement au collecteur</h3>
-          <p>Le raccordement entre la boucle et le collecteur (sertissage, collier de serrage) peut lacher par fatigue après 15 a 25 ans. Cette fuite est souvent visible dans le placard du collecteur si on regardé attentivement.</p>
+          <p>Le raccordement entre la boucle et le collecteur (sertissage, collier de serrage) peut lacher par fatigué après 15 à 25 ans. Cette fuite est souvent visible dans le placard du collecteur si on regardé attentivement.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4715,7 +4715,7 @@ def page_plancher_chauffant_bordeaux():
         <span class="arg-num">05</span>
         <div class="arg-num-content">
           <h3>Chocs thermiques répétés</h3>
-          <p>Un chauffage pousse régulièrement au maximum puis coupe brutalement provoque des dilatations/contractions rapides. Sur 30 ans, cela fatigue les raccords et peut provoquer des fuites aux jonctions.</p>
+          <p>Un chauffage pousse régulièrement au maximum puis coupe brutalement provoque des dilatations/contractions rapides. Sur 30 ans, cela fatigué les raccords et peut provoquer des fuites aux jonctions.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4732,9 +4732,9 @@ def page_plancher_chauffant_bordeaux():
 <section class="section section-alt">
   <div class="container" style="max-width:960px;">
     <h2>Cas type d'intervention à Mérignac</h2>
-    <p>Scenario récurrent : pavillon Mérignac Arlac construit en 1992, plancher chauffant hydraulique sur rez-de-chaussee (80 m²). Le propriétaire constate depuis 6 mois que la pression de sà chaudiere baisse de 1,5 a 1,0 bar chaque semaine. Il doit reamorcer manuellement. Depuis 2 mois, le salon reste anormalement froid alors que la chambre et la cuisine sont bien chauffées. Sa facture d'eau a augmente de 8 m³ par mois.</p>
+    <p>Scenario récurrent : pavillon Mérignac Arlac construit en 1992, plancher chauffant hydraulique sur rez-de-chaussee (80 m²). Le propriétaire constate depuis 6 mois que la pression de sà chaudiere baisse de 1,5 à 1,0 bar chaque semaine. Il doit reamorcer manuellement. Depuis 2 mois, le salon reste anormalement froid alors que la chambre et la cuisine sont bien chauffées. Sa facture d'eau a augmente de 8 m³ par mois.</p>
 
-    <p>Notre intervention : thermographie infrarouge systématique du sol, boucle par boucle. La boucle salon (42 m lineaires de tube PER dans une serpentin) montre un contraste thermique caractéristique a 4,2 metres du mur nord et 2,8 metres du mur est : zone froide nette au-delà de ce point, preuve que la fuite est localisee la. Test de pression sur cette boucle : perte confirmee de 0,3 bar en 30 minutes en isolement.</p>
+    <p>Notre intervention : thermographie infrarouge systématique du sol, boucle par boucle. La boucle salon (42 m lineaires de tube PER dans une serpentin) montre un contraste thermique caractéristique a 4,2 metres du mur nord et 2,8 metres du mur est : zone froide nette au-delà de ce point, preuve que la fuite est localisée la. Test de pression sur cette boucle : perte confirmee de 0,3 bar en 30 minutes en isolement.</p>
 
     <p>réparation : ouverture de chape 35×35 cm au point marque, découverte d'une micro-perforation sur le tube PER a 38 cm de profondeur, remplacement de 60 cm de tube avec raccords mécaniques certifies, refection chape avec mortier fibre, repose du carrelage d'origine (conservé lors de l'ouverture). durée totale intervention + réparation : 2 jours. coût total : 1 800 euros HT. Pris en charge a 70 pourcent par l'assurance multirisque habitation après examen du rapport et devis.</p>
   </div>
@@ -4751,13 +4751,13 @@ def page_plancher_chauffant_bordeaux():
     <p>Baisse de pression chronique sur le manometre, sol anormalement froid par zones, tache d'humidité au plafond de l'étage inférieur (en étage), parquet ou carrelage qui se decolle localement, surconsommation d'eau inexpliquée, chaudiere en défaut de pression fréquent.</p>
 
     <h3>Combien coûte une recherche de fuite sur plancher chauffant à Bordeaux ?</h3>
-    <p>Entre 400 et 650 euros HT selon la surface et le nombre de boucles a tester. Pour une maison de 80 a 150 m² avec plancher chauffant principal, comptez 450 a 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation précise.</p>
+    <p>Entre 400 et 650 euros HT selon la surface et le nombre de boucles a tester. Pour une maison de 80 à 150 m² avec plancher chauffant principal, comptez 450 à 550 euros HT. Le tarif inclut thermographie, test de pression sur chaque boucle, rapport technique avec localisation précise.</p>
 
     <h3>La réparation après diagnostic nécessite-t-elle de casser tout le sol ?</h3>
-    <p>Non, nous localisons la fuite au point près, ce qui permet une intervention ciblée. La réparation consiste a ouvrir la chape uniquement au droit de la perforation (zone de 25 a 40 cm de cote typiquement), remplacer 30 a 80 cm de tube, refaire la chape et le revetement de sol localement.</p>
+    <p>Non, nous localisons la fuite au point près, ce qui permet une intervention ciblée. La réparation consiste a ouvrir la chape uniquement au droit de la perforation (zone de 25 à 40 cm de cote typiquement), remplacer 30 à 80 cm de tube, refaire la chape et le revetement de sol localement.</p>
 
     <h3>Les planchers chauffants à Bordeaux sont-ils fréquents ?</h3>
-    <p>Oui, particulierement à Mérignac, Pessac et dans les pavillons des années 1985-2005. Environ 40 pourcent des maisons individuelles de cette période ont un plancher chauffant hydraulique. après 20 a 40 ans, les micro-perforations deviennent fréquentes. Pour une intervention spécifique à votre ville, consultez <a href="/villes/merignac/" style="color:var(--green);text-decoration:underline;">recherche de fuite Mérignac</a> ou <a href="/villes/pessac/" style="color:var(--green);text-decoration:underline;">recherche de fuite Pessac</a>.</p>
+    <p>Oui, particulièrement à Mérignac, Pessac et dans les pavillons des années 1985-2005. Environ 40 pourcent des maisons individuelles de cette période ont un plancher chauffant hydraulique. après 20 à 40 ans, les micro-perforations deviennent fréquentes. Pour une intervention spécifique à votre ville, consultez <a href="/villes/merignac/" style="color:var(--green);text-decoration:underline;">recherche de fuite Mérignac</a> ou <a href="/villes/pessac/" style="color:var(--green);text-decoration:underline;">recherche de fuite Pessac</a>.</p>
 
     <h3>La garantie décennale couvre-t-elle mon plancher chauffant ?</h3>
     <p>Si votre installation à moins de 10 ans, la garantie décennale du poseur couvre les défauts. après 10 ans, c'est l'assurance habitation multirisque qui prend en charge recherche de fuite et réparation via la garantie dégâts des eaux. Notre rapport technique est accepte par les principaux assureurs.</p>
@@ -4864,7 +4864,7 @@ def page_degats_eaux_bordeaux():
     {
       "@type": "Question",
       "name": "Comment fonctionne la convention IRSI en copropriété bordelaise ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "La convention IRSI (Indemnisation et Recours des Sinistres Immeuble) s'applique automatiquement entre assureurs pour les dégâts des eaux en copropriété jusqu'à 5000 euros HT. L'assureur du lot ou du logement 'victime' prend en charge les dommages sans recherche de responsabilité préalable, puis se retourne contre l'assureur du responsable. Cette procédure accéléré considérablement l'indemnisation (15 a 30 jours typiquement au lieu de 3 a 6 mois en expertise contradictoire)." }
+      "acceptedAnswer": { "@type": "Answer", "text": "La convention IRSI (Indemnisation et Recours des Sinistres Immeuble) s'applique automatiquement entre assureurs pour les dégâts des eaux en copropriété jusqu'à 5000 euros HT. L'assureur du lot ou du logement 'victime' prend en charge les dommages sans recherche de responsabilité préalable, puis se retourne contre l'assureur du responsable. Cette procédure accéléré considérablement l'indemnisation (15 à 30 jours typiquement au lieu de 3 à 6 mois en expertise contradictoire)." }
     },
     {
       "@type": "Question",
@@ -4918,7 +4918,7 @@ def page_degats_eaux_bordeaux():
     <p>Un dégât des eaux n'est pas une fuite : c'est la conséquence d'une fuite. Cette distinction, apparemment semantique, est en réalité essentielle car elle conditionne la procédure d'indemnisation et la responsabilité entre assureurs. comprendre cette logique aide a anticiper la suite d'un sinistre en copropriété bordelaise.</p>
 
     <ul>
-      <li><strong>La fuite</strong> est la cause technique : perforation d'une canalisation, joint de skimmer fissure, raccord PVC désaxé, liner piscine percé, soudure d'etancheite rompue</li>
+      <li><strong>La fuite</strong> est la cause technique : perforation d'une canalisation, joint de skimmer fissure, raccord PVC désaxé, liner piscine percé, soudure d'étanchéité rompue</li>
       <li><strong>Le dégât des eaux</strong> est le dommage resultant : plafond tache, parquet gonfle, enduit decolle, mobilier abime, appareils electromenagers hors d'usage</li>
       <li><strong>Le sinistre</strong> est la déclaration administrative faite à l'assureur, combinant l'événement et l'impact financier</li>
     </ul>
@@ -4932,7 +4932,7 @@ def page_degats_eaux_bordeaux():
         <span class="arg-num">01</span>
         <div class="arg-num-content">
           <h3>Infiltration par colonne montante</h3>
-          <p>La tache apparait au plafond ou le long d'un mur porteur. La colonne EU/EV commune à l'étage supérieur fuit, provoquant un écoulement ponctuel ou diffus selon le débit. fréquente dans les immeubles haussmanniens du Centre-Ville, Chartrons et Saint-Pierre ou les colonnes fonte centenaires cedent à la corrosion.</p>
+          <p>La tache apparait au plafond ou le long d'un mur porteur. La colonne EU/EV commune à l'étage supérieur fuit, provoquant un écoulement ponctuel ou diffus selon le débit. fréquente dans les immeubles haussmanniens du Centre-Ville, Chartrons et Saint-Pierre ou les colonnes fonte centenaires cèdent à la corrosion.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4946,7 +4946,7 @@ def page_degats_eaux_bordeaux():
         <span class="arg-num">03</span>
         <div class="arg-num-content">
           <h3>Infiltration de toiture</h3>
-          <p>après pluies abondantes, de l'eau coule au dernier étage : toiture defectueuse, chéneaux bouches, etancheite de terrasse rompue. responsabilité copropriété (parties communes). fréquent dans les immeubles des Chartrons, de la Victoire et de la Bastide après forts episodes pluvieux.</p>
+          <p>après pluies abondantes, de l'eau coule au dernier étage : toiture defectueuse, chéneaux bouches, étanchéité de terrasse rompue. responsabilité copropriété (parties communes). fréquent dans les immeubles des Chartrons, de la Victoire et de la Bastide après forts episodes pluvieux.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -4967,7 +4967,7 @@ def page_degats_eaux_bordeaux():
         <span class="arg-num">06</span>
         <div class="arg-num-content">
           <h3>Remontee capillaire confondue</h3>
-          <p>Attention aux faux positifs : certaines humidités en sous-sol bordelais ne sont pas des fuites mais des remontées capillaires du terrain argileux. Notre humidimetre distingué précisément une infiltration active (gradient fort, zone localisee) d'une humidité diffuse structurelle.</p>
+          <p>Attention aux faux positifs : certaines humidités en sous-sol bordelais ne sont pas des fuites mais des remontées capillaires du terrain argileux. Notre humidimetre distingué précisément une infiltration active (gradient fort, zone localisée) d'une humidité diffuse structurelle.</p>
         </div>
       </div>
     </div>
@@ -4993,7 +4993,7 @@ def page_degats_eaux_bordeaux():
     <h3>Les acteurs et leurs responsabilités</h3>
     <ul>
       <li><strong>Syndic</strong> : mandate le diagnostic si parties communes concernees, coordonne la procédure IRSI</li>
-      <li><strong>propriétaire occupant ou bailleur</strong> : déclaré le sinistre à son assureur, facilite l'acces</li>
+      <li><strong>propriétaire occupant ou bailleur</strong> : déclaré le sinistre à son assureur, facilite l'accès</li>
       <li><strong>Locataire</strong> : déclaré à son assureur multirisque habitation, informe son bailleur</li>
       <li><strong>Assureurs de chaque lot</strong> : échanges automatiques via la plateforme IRSI</li>
       <li><strong>Professionnel de la recherche de fuite (nous)</strong> : identifié la cause, remet un rapport opposable</li>
@@ -5021,7 +5021,7 @@ def page_degats_eaux_bordeaux():
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Coordination avec les lots</h3>
-          <p>Nous prenons directement contact avec les propriétaires ou locataires des lots concernes pour planifier l'acces. Creneau souvent en journée, avec disponibilite du syndic ou du gardien si accès parties communes.</p>
+          <p>Nous prenons directement contact avec les propriétaires ou locataires des lots concernes pour planifier l'accès. Creneau souvent en journée, avec disponibilite du syndic ou du gardien si accès parties communes.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5061,7 +5061,7 @@ def page_degats_eaux_bordeaux():
     <h2>Cas type : dégât des eaux en immeuble haussmannien</h2>
     <p>Scenario récurrent sur Bordeaux Centre : immeuble haussmannien de la rue Sainte-Catherine, 6 lots sur 5 étages. Mme X au 3e étage signalé au syndic une tache d'humidité en expansion sur le plafond de sa chambre, avec écoulement visible après fortes chutes d'eau. Le voisin du dessus (M. Y, 4e étage) affirme ne rien constater chez lui. Le syndic nous mandate sous 24h.</p>
 
-    <p>Notre intervention : thermographie infrarouge au plafond du 3e pour cartographier la zone humide, écoute electro-acoustique sur le tracé de la colonne d'évacuation EU/EV passant dans la cloison mitoyenne, camera endoscopique dans la gaine technique commune via le regard d'acces du palier. découverte : fissure sur la colonne fonte commune entre le 3e et le 4e étage, a 1,50 metres au-dessus du plafond de Mme X. responsabilité copropriété, ni Mme X ni M. Y ne sont directement en cause.</p>
+    <p>Notre intervention : thermographie infrarouge au plafond du 3e pour cartographier la zone humide, écoute électro-acoustique sur le tracé de la colonne d'évacuation EU/EV passant dans la cloison mitoyenne, camera endoscopique dans la gaine technique commune via le regard d'accès du palier. découverte : fissure sur la colonne fonte commune entre le 3e et le 4e étage, a 1,50 metres au-dessus du plafond de Mme X. responsabilité copropriété, ni Mme X ni M. Y ne sont directement en cause.</p>
 
     <p>Rapport transmis au syndic en 24h. L'assurance de la copropriété prend en charge la réparation (remplacement du troncon de colonne, environ 2 800 euros HT). L'assurance multirisque de Mme X prend en charge les dommages dans son logement (repeinture plafond + nettoyage mobilier, 1 400 euros HT) dans le cadre de la convention IRSI. Délai total résolution : 6 semaines entre notre intervention et la fin des réparations.</p>
   </div>
@@ -5075,7 +5075,7 @@ def page_degats_eaux_bordeaux():
     <p>Une fuite est la cause technique : perforation, joint défaillant, raccord désaxé, liner perce. Un dégât des eaux est la conséquence : tache d'humidité, plafond abîme, parquet gonfle, mobilier endommage. Un dégât des eaux implique toujours une fuite à l'origine, mais toutes les fuites n'entraînent pas de dégât des eaux (fuite enterrée dans le jardin par exemple). Pour l'assurance, c'est le dégât des eaux qui déclenché la prise en charge.</p>
 
     <h3>Comment fonctionne la convention IRSI en copropriété bordelaise ?</h3>
-    <p>La convention IRSI s'applique automatiquement entre assureurs pour les dégâts des eaux en copropriété jusqu'à 5 000 euros HT. L'assureur du lot 'victime' prend en charge les dommages sans recherche de responsabilité préalable, puis se retourne contre l'assureur du responsable. Cette procédure accéléré considérablement l'indemnisation (15 a 30 jours typiquement au lieu de 3 a 6 mois en expertise contradictoire).</p>
+    <p>La convention IRSI s'applique automatiquement entre assureurs pour les dégâts des eaux en copropriété jusqu'à 5 000 euros HT. L'assureur du lot 'victime' prend en charge les dommages sans recherche de responsabilité préalable, puis se retourne contre l'assureur du responsable. Cette procédure accéléré considérablement l'indemnisation (15 à 30 jours typiquement au lieu de 3 à 6 mois en expertise contradictoire).</p>
 
     <h3>Un syndic peut-il mandater directement votre intervention ?</h3>
     <p>Oui, nous travaillons régulièrement en mandatement direct par syndic professionnel ou conseil syndical. Le rapport est remis au syndic avec identification précise de la responsabilité (partie privative ou commune). La facturation se fait à la copropriété, qui se retourne ensuite vers l'assurance PNO ou le responsable identifié.</p>
@@ -5181,7 +5181,7 @@ def page_chemisage_bordeaux():
     {
       "@type": "Question",
       "name": "Quel est le coût moyen d'un chemisage de colonne en copropriété bordelaise ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Le chemisage d'une colonne d'évacuation EU/EV en copropriété coûte en moyenne 400 a 700 euros HT par metre lineaire selon le diamètre (63 a 160 mm typiquement), la hauteur de l'immeuble, l'accessibilite des regards techniques. Pour un immeuble haussmannien de 5 étages avec colonne de 15 metres, comptez 6 000 a 10 500 euros HT, a comparer avec un remplacement classique a 15 000-25 000 euros HT (démolition + reconstruction)." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Le chemisage d'une colonne d'évacuation EU/EV en copropriété coûte en moyenne 400 à 700 euros HT par metre lineaire selon le diamètre (63 à 160 mm typiquement), la hauteur de l'immeuble, l'accessibilite des regards techniques. Pour un immeuble haussmannien de 5 étages avec colonne de 15 metres, comptez 6 000 à 10 500 euros HT, a comparer avec un remplacement classique a 15 000-25 000 euros HT (démolition + reconstruction)." }
     },
     {
       "@type": "Question",
@@ -5191,12 +5191,12 @@ def page_chemisage_bordeaux():
     {
       "@type": "Question",
       "name": "Le chemisage est-il compatible avec les immeubles UNESCO de Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Le chemisage est réalisé à l'intérieur des canalisations existantes sans modification de l'aspect extérieur ni ouverture de murs visibles. Aucune autorisation d'urbanisme ni avis de l'Architecte des Batiments de France n'est nécessaire pour cette intervention. C'est même la technique privilegiee pour les immeubles classés UNESCO du Port de la Lune (Triangle d'Or, cours de l'Intendance, place Gambetta) ou toute modification extérieure est strictement encadrée." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Le chemisage est réalisé à l'intérieur des canalisations existantes sans modification de l'aspect extérieur ni ouverture de murs visibles. Aucune autorisation d'urbanisme ni avis de l'Architecte des Batiments de France n'est nécessaire pour cette intervention. C'est même la technique privilégiée pour les immeubles classés UNESCO du Port de la Lune (Triangle d'Or, cours de l'Intendance, place Gambetta) ou toute modification extérieure est strictement encadrée." }
     },
     {
       "@type": "Question",
       "name": "Combien de temps dure un chantier de chemisage sur colonne de 15 metres ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Un chantier de chemisage sur une colonne typique d'immeuble bordelais (15 a 25 metres, diamètre 90 a 125 mm) dure 2 a 4 jours, avec coupure d'eau sur la colonne uniquement pendant les heures de polymerisation (6 a 10 heures). Les appartements restent occupés pendant le chantier, les coupures sont coordonnees avec les habitants via affichage dans les parties communes." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Un chantier de chemisage sur une colonne typique d'immeuble bordelais (15 à 25 metres, diamètre 90 à 125 mm) dure 2 à 4 jours, avec coupure d'eau sur la colonne uniquement pendant les heures de polymerisation (6 à 10 heures). Les appartements restent occupés pendant le chantier, les coupures sont coordonnees avec les habitants via affichage dans les parties communes." }
     },
     {
       "@type": "Question",
@@ -5233,9 +5233,9 @@ def page_chemisage_bordeaux():
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <h2>Pourquoi le chemisage est la solution pour les immeubles bordelais</h2>
-    <p>Le parc immobilier historique de Bordeaux (Triangle d'Or, Chartrons, Saint-Pierre, place Gambetta) compte une part significative d'immeubles haussmanniens construits entre 1830 et 1910. Ces batiments abritent des colonnes d'évacuation EU/EV en fonte grise d'origine, parfois centenaires, dont l'etat se dégradé progressivement par corrosion interne. Les fuites multiples deviennent une problématique majeure après 100 a 120 ans de service.</p>
+    <p>Le parc immobilier historique de Bordeaux (Triangle d'Or, Chartrons, Saint-Pierre, place Gambetta) compte une part significative d'immeubles haussmanniens construits entre 1830 et 1910. Ces batiments abritent des colonnes d'évacuation EU/EV en fonte grise d'origine, parfois centenaires, dont l'etat se dégradé progressivement par corrosion interne. Les fuites multiples deviennent une problématique majeure après 100 à 120 ans de service.</p>
 
-    <p>Face à cette usure structurelle, la reponse traditionnelle etait le remplacement complet : ouverture des gaines, déposé des anciennes canalisations, pose de nouveaux tuyaux, rebouchage et finition. Sur un immeuble de 5 a 6 étages, ce type de travaux dure 3 a 8 semaines, coûte 15 000 a 30 000 euros, et implique le logement en chantier des copropriétaires concernes. Le chemisage tubulaire permet d'obtenir le même résultat technique (colonne etanche durable 50 ans) en 2 a 4 jours, pour 30 a 50 pourcent moins cher, sans aucune démolition.</p>
+    <p>Face à cette usure structurelle, la reponse traditionnelle etait le remplacement complet : ouverture des gaines, déposé des anciennes canalisations, pose de nouveaux tuyaux, rebouchage et finition. Sur un immeuble de 5 à 6 étages, ce type de travaux dure 3 à 8 semaines, coûte 15 000 à 30 000 euros, et implique le logement en chantier des copropriétaires concernes. Le chemisage tubulaire permet d'obtenir le même résultat technique (colonne étanche durable 50 ans) en 2 à 4 jours, pour 30 à 50 pourcent moins cher, sans aucune démolition.</p>
 
     <h2>Les immeubles bordelais typiquement concernés</h2>
 
@@ -5258,7 +5258,7 @@ def page_chemisage_bordeaux():
         <span class="arg-num">03</span>
         <div class="arg-num-content">
           <h3>résidences des années 1960-80</h3>
-          <p>Grands ensembles de Meriadeck, Bacalan, Benauge, Grand Parc : colonnes EU/EV en fonte grise industrielle qui commencent a ceder aux joints et aux raccords après 50 a 60 ans. Le chemisage est parfaitement adapte aux grandes sections (100-160 mm) typiques de ces immeubles.</p>
+          <p>Grands ensembles de Meriadeck, Bacalan, Benauge, Grand Parc : colonnes EU/EV en fonte grise industrielle qui commencent a ceder aux joints et aux raccords après 50 à 60 ans. Le chemisage est parfaitement adapte aux grandes sections (100-160 mm) typiques de ces immeubles.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5303,8 +5303,8 @@ def page_chemisage_bordeaux():
     <h3>étape 4 : signature du marche et planning</h3>
     <p>après vote, le syndic signe le marche avec nous. Nous etablissons un planning détaillé : date de début, durée par étape (inspection préalable, hydrocurage de la colonne, pose du liner, polymerisation, contrôle camera final). Information affichée dans les parties communes au moins 15 jours avant le début.</p>
 
-    <h3>étape 5 : chantier en 2 a 5 jours</h3>
-    <p>L'intervention respecte l'occupation des logements. Les copropriétaires sont informés des creneaux de coupure d'eau sur la colonne concernée (6 a 10 heures pendant la polymerisation). Les équipés interviennent depuis les parties communes (paliers, caves, cour intérieure) sans acces aux appartements, sauf si un regard technique est situé dans un logement privatif.</p>
+    <h3>étape 5 : chantier en 2 à 5 jours</h3>
+    <p>L'intervention respecte l'occupation des logements. Les copropriétaires sont informés des creneaux de coupure d'eau sur la colonne concernée (6 à 10 heures pendant la polymerisation). Les équipés interviennent depuis les parties communes (paliers, caves, cour intérieure) sans accès aux appartements, sauf si un regard technique est situé dans un logement privatif.</p>
 
     <h3>étape 6 : reception et annexion carnet d'entretien</h3>
     <p>A l'issue du chantier, une inspection camera de contrôle est realisée et filmée. Le rapport final avec video est remis au syndic, qui l'intégré au carnet d'entretien obligatoire de l'immeuble (loi ALUR). La garantie décennale court à partir de cette date de reception.</p>
@@ -5319,10 +5319,10 @@ def page_chemisage_bordeaux():
     <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;background:#fff;">
     <thead><tr style="background:#0D3B2E;color:#fff;"><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Configuration</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Tarif HT par metre lineaire</th><th style="padding:.75rem;text-align:left;border:1px solid #155740;">Exemple sur 15 metres</th></tr></thead>
     <tbody>
-    <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Petit diamètre (50-75 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 a 450 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">4 500 a 6 750 €</td></tr>
-    <tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Diamètre moyen (90-125 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 a 600 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">6 000 a 9 000 €</td></tr>
-    <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Grand diamètre (150-200 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">550 a 800 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">8 250 a 12 000 €</td></tr>
-    <tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">réseaux enterrés complexes</td><td style="padding:.75rem;border:1px solid #D8D4CC;">700 a 1 000 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">10 500 a 15 000 €</td></tr>
+    <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Petit diamètre (50-75 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">300 à 450 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">4 500 à 6 750 €</td></tr>
+    <tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">Diamètre moyen (90-125 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">400 à 600 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">6 000 à 9 000 €</td></tr>
+    <tr><td style="padding:.75rem;border:1px solid #D8D4CC;">Grand diamètre (150-200 mm)</td><td style="padding:.75rem;border:1px solid #D8D4CC;">550 à 800 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">8 250 à 12 000 €</td></tr>
+    <tr style="background:#F7F6F2;"><td style="padding:.75rem;border:1px solid #D8D4CC;">réseaux enterrés complexes</td><td style="padding:.75rem;border:1px solid #D8D4CC;">700 à 1 000 €</td><td style="padding:.75rem;border:1px solid #D8D4CC;">10 500 à 15 000 €</td></tr>
     </tbody>
     </table>
 
@@ -5350,16 +5350,16 @@ def page_chemisage_bordeaux():
     <h2>Questions fréquentes sur le chemisage à Bordeaux</h2>
 
     <h3>Quel est le coût moyen d'un chemisage de colonne en copropriété bordelaise ?</h3>
-    <p>Le chemisage d'une colonne d'évacuation EU/EV en copropriété coûte en moyenne 400 a 700 euros HT par metre lineaire selon le diamètre (63 a 160 mm typiquement), la hauteur de l'immeuble, l'accessibilite des regards techniques. Pour un immeuble haussmannien de 5 étages avec colonne de 15 metres, comptez 6 000 a 10 500 euros HT, a comparer avec un remplacement classique a 15 000-25 000 euros HT (démolition + reconstruction).</p>
+    <p>Le chemisage d'une colonne d'évacuation EU/EV en copropriété coûte en moyenne 400 à 700 euros HT par metre lineaire selon le diamètre (63 à 160 mm typiquement), la hauteur de l'immeuble, l'accessibilite des regards techniques. Pour un immeuble haussmannien de 5 étages avec colonne de 15 metres, comptez 6 000 à 10 500 euros HT, a comparer avec un remplacement classique a 15 000-25 000 euros HT (démolition + reconstruction).</p>
 
     <h3>Le chemisage se vote-t-il en AG ordinaire ou extraordinaire ?</h3>
     <p>Les travaux de chemisage sur parties communes se votent en AG ordinaire à la majorite de l'article 25. Si le vote echoue mais recueille au moins un tiers des voix, un second vote immédiat à la majorite simple (article 24) peut être organisé dans la même AG. La procédure est bien rodée et ne nécessite généralement pas d'AG extraordinaire.</p>
 
     <h3>Le chemisage est-il compatible avec les immeubles UNESCO de Bordeaux ?</h3>
-    <p>Oui. Le chemisage est réalisé à l'intérieur des canalisations existantes sans modification de l'aspect extérieur ni ouverture de murs visibles. Aucune autorisation d'urbanisme ni avis de l'Architecte des Batiments de France n'est nécessaire. C'est même la technique privilegiee pour les immeubles classés UNESCO du Port de la Lune.</p>
+    <p>Oui. Le chemisage est réalisé à l'intérieur des canalisations existantes sans modification de l'aspect extérieur ni ouverture de murs visibles. Aucune autorisation d'urbanisme ni avis de l'Architecte des Batiments de France n'est nécessaire. C'est même la technique privilégiée pour les immeubles classés UNESCO du Port de la Lune.</p>
 
     <h3>Combien de temps dure un chantier de chemisage sur colonne de 15 metres ?</h3>
-    <p>Un chantier de chemisage sur une colonne typique d'immeuble bordelais dure 2 a 4 jours, avec coupure d'eau sur la colonne uniquement pendant les heures de polymerisation (6 a 10 heures). Les appartements restent occupés pendant le chantier.</p>
+    <p>Un chantier de chemisage sur une colonne typique d'immeuble bordelais dure 2 à 4 jours, avec coupure d'eau sur la colonne uniquement pendant les heures de polymerisation (6 à 10 heures). Les appartements restent occupés pendant le chantier.</p>
 
     <h3>quelle est la garantie sur un chemisage tubulaire en Gironde ?</h3>
     <p>Le chemisage tubulaire est couvert par la garantie décennale obligatoire. La durée de vie estimee du liner resine epoxy est de 50 ans dans des conditions normales d'utilisation. Un rapport de fin de chantier avec contrôle camera est remis au syndic.</p>
@@ -5409,7 +5409,7 @@ def page_canalisation_enterree_bordeaux():
   "@type": "Service",
   "serviceType": "Recherche de fuite canalisation enterrée",
   "name": "Recherche de fuite canalisation enterrée à Bordeaux et en Gironde",
-  "description": "Localisation précise d'une fuite sur canalisation enterrée (jardin, branchement, réseau privé) par gaz traceur azote/helium, sans excavation préalable. précision au demi-metre près.",
+  "description": "Localisation précise d'une fuite sur canalisation enterrée (jardin, branchement, réseau privé) par gaz traceur azote/hélium, sans excavation préalable. précision au demi-metre près.",
   "provider": {
     "@type": "LocalBusiness",
     "name": "Recherche Fuite Gironde",
@@ -5425,7 +5425,7 @@ def page_canalisation_enterree_bordeaux():
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Recherche Fuite Gironde - Canalisation enterrée Bordeaux",
-  "description": "spécialiste de la recherche de fuite sur canalisation enterrée à Bordeaux. Gaz traceur azote/helium, écoute electro-acoustique, thermographie. Intervention 24h, rapport pour assurance.",
+  "description": "spécialiste de la recherche de fuite sur canalisation enterrée à Bordeaux. Gaz traceur azote/hélium, écoute électro-acoustique, thermographie. Intervention 24h, rapport pour assurance.",
   "url": "https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/",
   "image": "https://recherche-fuite-gironde.fr/assets/fuite-canalisation-enterree.webp",
   "address": {
@@ -5459,12 +5459,12 @@ def page_canalisation_enterree_bordeaux():
     {
       "@type": "Question",
       "name": "Comment localisez-vous une fuite sur canalisation enterrée à Bordeaux sans creuser ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Notre méthode principale est le gaz traceur azote/helium : un melange inerte injecte dans la canalisation sous legere pression. Le gaz plus leger que l'air remonte au droit de la perforation et est détecté par un capteur electronique promene au sol. précision au demi-metre près, sans aucune excavation préalable. L'écoute electro-acoustique et la thermographie infrarouge completent le diagnostic si nécessaire." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Notre méthode principale est le gaz traceur azote/hélium : un mélange inerte injecté dans la canalisation sous légère pression. Le gaz plus léger que l'air remonte au droit de la perforation et est détecté par un capteur électronique promené au sol. précision au demi-metre près, sans aucune excavation préalable. L'écoute électro-acoustique et la thermographie infrarouge complètent le diagnostic si nécessaire." }
     },
     {
       "@type": "Question",
       "name": "Quelles sont les canalisations enterrées les plus fragiles à Bordeaux ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Les canalisations PVC collees installées entre 1985 et 2000 sont les plus fragiles sur sol argileux bordelais. Les raccords se desaxent par retrait-gonflement saisonnier de l'argile. Les canalisations PEHD (polyethylene haute densite) posees depuis 2005 sont plus tolerantes aux mouvements de terrain. Les anciennes canalisations plomb et fonte des immeubles du centre historique (avant 1975) sont corrodees et sujettes aux perforations." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Les canalisations PVC collees installées entre 1985 et 2000 sont les plus fragiles sur sol argileux bordelais. Les raccords se desaxent par retrait-gonflement saisonnier de l'argile. Les canalisations PEHD (polyethylene haute densité) posees depuis 2005 sont plus tolerantes aux mouvements de terrain. Les anciennes canalisations plomb et fonte des immeubles du centre historique (avant 1975) sont corrodees et sujettes aux perforations." }
     },
     {
       "@type": "Question",
@@ -5484,7 +5484,7 @@ def page_canalisation_enterree_bordeaux():
     {
       "@type": "Question",
       "name": "Faut-il creuser pour réparer après votre diagnostic ?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Oui, mais de manière très ciblée. Notre diagnostic localise la fuite au demi-metre près, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour éviter totalement le creusement, deux alternatives : le chemisage de canalisation (réhabilitation sans tranchee par resine epoxy, adapte aux réseaux de 40 a 600 mm) ou le remplacement de la canalisation existante si son etat général l'exige." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, mais de manière très ciblée. Notre diagnostic localise la fuite au demi-metre près, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour éviter totalement le creusement, deux alternatives : le chemisage de canalisation (réhabilitation sans tranchee par resine epoxy, adapte aux réseaux de 40 à 600 mm) ou le remplacement de la canalisation existante si son etat général l'exige." }
     }
   ]
 }
@@ -5501,7 +5501,7 @@ def page_canalisation_enterree_bordeaux():
       <span>Canalisation enterrée Bordeaux</span>
     </nav>
     <h1>Recherche de fuite de canalisation enterrée à Bordeaux</h1>
-    <p class="hero-mini-lead">Zone de jardin anormalement humide, compteur d'eau qui tourne en permanence, facture d'eau qui grimpe sans raison : votre fuite se situe probablement sur une canalisation enterrée. Nos techniciens la localisent <strong>au demi-metre près sans creuser</strong> grâce au gaz traceur azote/helium, puis vous remettent un rapport utilisable pour l'assurance et l'écrêtement de facture.</p>
+    <p class="hero-mini-lead">Zone de jardin anormalement humide, compteur d'eau qui tourne en permanence, facture d'eau qui grimpe sans raison : votre fuite se situe probablement sur une canalisation enterrée. Nos techniciens la localisent <strong>au demi-metre près sans creuser</strong> grâce au gaz traceur azote/hélium, puis vous remettent un rapport utilisable pour l'assurance et l'écrêtement de facture.</p>
     <div class="hero-mini-cta">
       <a href="/devis/" class="btn btn-gold">Demander un devis gratuit</a>
     </div>
@@ -5511,7 +5511,7 @@ def page_canalisation_enterree_bordeaux():
 <section class="section">
   <div class="container" style="max-width:1080px;">
     <figure style="margin:0 0 2rem;">
-      <img src="/assets/fuite-canalisation-enterree.webp" alt="Recherche de fuite sur canalisation enterrée à Bordeaux avec gaz traceur azote helium, diagnostic sans excavation" width="700" height="467" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+      <img src="/assets/fuite-canalisation-enterree.webp" alt="Recherche de fuite sur canalisation enterrée à Bordeaux avec gaz traceur azote hélium, diagnostic sans excavation" width="700" height="467" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
     </figure>
 
     <h2>Les signes d'une fuite sur canalisation enterrée à Bordeaux</h2>
@@ -5528,7 +5528,7 @@ def page_canalisation_enterree_bordeaux():
     </ul>
 
     <h2>Pourquoi les canalisations enterrées bordelaises lâchent-elles souvent au même endroit ?</h2>
-    <p>La spécificité geologique de Bordeaux et sa métropole est determinante. Une large part du territoire repose sur des sols argileux sujets au retrait-gonflement saisonnier : l'argile se retracte en été sec, gonfle en hiver pluvieux. Sur 20 a 30 ans, ces cycles répétés solliticitent les raccords collés PVC de manière importante. Résultat observable sur le terrain : les raccords PVC de 25 a 35 ans cedent significativement plus à Bordeaux qu'en sol sableux ou calcaire pur.</p>
+    <p>La spécificité geologique de Bordeaux et sa métropole est determinante. Une large part du territoire repose sur des sols argileux sujets au retrait-gonflement saisonnier : l'argile se rétracte en été sec, gonfle en hiver pluvieux. Sur 20 à 30 ans, ces cycles répétés solliticitent les raccords collés PVC de manière importante. Résultat observable sur le terrain : les raccords PVC de 25 à 35 ans cèdent significativement plus à Bordeaux qu'en sol sableux ou calcaire pur.</p>
 
     <p>La zone aéroportuaire (Mérignac), la rive droite (Cenon, Lormont, Floirac) et le Grand Parc présentent cette typologie argileuse marquee. Les communes du bassin d'Arcachon sont en sol sableux (autre problème : micro-tassements permanents), et le Libournais alterne argileux et calcaire selon les zones. Cette connaissance locale oriente notre méthodologie de diagnostic.</p>
   </div>
@@ -5537,7 +5537,7 @@ def page_canalisation_enterree_bordeaux():
 <section class="section section-alt">
   <div class="container" style="max-width:1080px;">
     <h2>Notre méthode gaz traceur en 5 étapes</h2>
-    <p>Le gaz traceur azote/helium est la méthode de référence pour les canalisations enterrées. Voici le deroule concret d'une intervention sur votre propriété bordelaise.</p>
+    <p>Le gaz traceur azote/hélium est la méthode de référence pour les canalisations enterrées. Voici le deroule concret d'une intervention sur votre propriété bordelaise.</p>
 
     <div class="grid-3" style="margin-top:1.5rem;">
       <div class="arg-num-card">
@@ -5551,21 +5551,21 @@ def page_canalisation_enterree_bordeaux():
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Mise sous pression et injection</h3>
-          <p>La canalisation est isolee et mise sous legere pression avec un melange azote/hélium inerte (80/20). Le melange est plus leger que l'air et migre vers la fuite en prenant le trajet du moindre chemin.</p>
+          <p>La canalisation est isolée et mise sous légère pression avec un mélange azote/hélium inerte (80/20). Le mélange est plus léger que l'air et migre vers la fuite en prenant le trajet du moindre chemin.</p>
         </div>
       </div>
       <div class="arg-num-card">
         <span class="arg-num">03</span>
         <div class="arg-num-content">
           <h3>détection de surface</h3>
-          <p>Un détecteur electronique très sensible (sniffer) est promene au sol le long du trace presume de la canalisation. Le capteur signalé la remontée du gaz avec une précision au demi-metre près, materialisant la position exacte de la fuite.</p>
+          <p>Un détecteur électronique très sensible (sniffer) est promené au sol le long du trace presume de la canalisation. Le capteur signalé la remontée du gaz avec une précision au demi-metre près, materialisant la position exacte de la fuite.</p>
         </div>
       </div>
       <div class="arg-num-card">
         <span class="arg-num">04</span>
         <div class="arg-num-content">
           <h3>Confirmation par écoute</h3>
-          <p>En complement, nous ecoutons electro-acoustiquement la zone localisee pour confirmer la fuite par le bruit caractéristique de l'eau sous pression qui s'échappe. Cette double confirmation elimine les faux positifs.</p>
+          <p>En complement, nous ecoutons electro-acoustiquement la zone localisée pour confirmer la fuite par le bruit caractéristique de l'eau sous pression qui s'échappe. Cette double confirmation elimine les faux positifs.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5596,7 +5596,7 @@ def page_canalisation_enterree_bordeaux():
         <span class="arg-num">01</span>
         <div class="arg-num-content">
           <h3>Caudéran et Le Bouscat</h3>
-          <p>Grands jardins des propriétés bourgeoises, nombreux arbres matures (platanes, chenes, tilleuls) dont les racines sollicitent les canalisations. Les raccords PVC de 30 ans y sont particulierement fragiles. Nous intervenons souvent sur le trace d'alimentation compteur-maison.</p>
+          <p>Grands jardins des propriétés bourgeoises, nombreux arbres matures (platanes, chenes, tilleuls) dont les racines sollicitent les canalisations. Les raccords PVC de 30 ans y sont particulièrement fragiles. Nous intervenons souvent sur le trace d'alimentation compteur-maison.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5624,7 +5624,7 @@ def page_canalisation_enterree_bordeaux():
         <span class="arg-num">05</span>
         <div class="arg-num-content">
           <h3>Mérignac et communes métropole</h3>
-          <p>Parc pavillonnaire très dense des années 1980-2000. Canalisations d'alimentation souvent longues (20 a 50 m entre compteur et maison). Proportion importante de nos interventions enterrées se fait sur Mérignac (Arlac, Capeyron, Chemin Long).</p>
+          <p>Parc pavillonnaire très dense des années 1980-2000. Canalisations d'alimentation souvent longues (20 à 50 m entre compteur et maison). Proportion importante de nos interventions enterrées se fait sur Mérignac (Arlac, Capeyron, Chemin Long).</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -5654,7 +5654,7 @@ def page_canalisation_enterree_bordeaux():
     <h2>Questions fréquentes sur la recherche de fuite enterrée à Bordeaux</h2>
 
     <h3>Comment localisez-vous une fuite sur canalisation enterrée à Bordeaux sans creuser ?</h3>
-    <p>Notre méthode principale est le gaz traceur azote/helium : un melange inerte injecte dans la canalisation sous legere pression. Le gaz plus leger que l'air remonte au droit de la perforation et est détecté par un capteur electronique promene au sol. précision au demi-metre près, sans aucune excavation préalable. L'écoute electro-acoustique et la thermographie infrarouge completent le diagnostic si nécessaire.</p>
+    <p>Notre méthode principale est le gaz traceur azote/hélium : un mélange inerte injecté dans la canalisation sous légère pression. Le gaz plus léger que l'air remonte au droit de la perforation et est détecté par un capteur électronique promené au sol. précision au demi-metre près, sans aucune excavation préalable. L'écoute électro-acoustique et la thermographie infrarouge complètent le diagnostic si nécessaire.</p>
 
     <h3>Quelles sont les canalisations enterrées les plus fragiles à Bordeaux ?</h3>
     <p>Les canalisations PVC collees installées entre 1985 et 2000 sont les plus fragiles sur sol argileux bordelais. Les raccords se desaxent par retrait-gonflement saisonnier de l'argile. Les canalisations PEHD posees depuis 2005 sont plus tolerantes aux mouvements de terrain. Les anciennes canalisations plomb et fonte des immeubles du centre historique (avant 1975) sont corrodees et sujettes aux perforations.</p>
@@ -5669,7 +5669,7 @@ def page_canalisation_enterree_bordeaux():
     <p>Oui, nous couvrons l'ensemble des 18 quartiers de Bordeaux ainsi que les communes voisines de la métropole. Pour plus de détails sur notre intervention ville par ville, consultez notre page <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite à Bordeaux</a>.</p>
 
     <h3>Faut-il creuser pour réparer après votre diagnostic ?</h3>
-    <p>Oui, mais de manière très ciblée. Notre diagnostic localise la fuite au demi-metre près, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour éviter totalement le creusement, deux alternatives : le <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation à Bordeaux</a> (réhabilitation sans tranchee par resine epoxy, adapte aux réseaux de 40 a 600 mm) ou le remplacement de la canalisation existante si son etat général l'exige.</p>
+    <p>Oui, mais de manière très ciblée. Notre diagnostic localise la fuite au demi-metre près, ce qui limite l'excavation a 50 cm x 50 cm en moyenne. Pour éviter totalement le creusement, deux alternatives : le <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">chemisage de canalisation à Bordeaux</a> (réhabilitation sans tranchee par resine epoxy, adapte aux réseaux de 40 à 600 mm) ou le remplacement de la canalisation existante si son etat général l'exige.</p>
 
     <div style="margin-top:2rem;text-align:center;">
       <a href="/devis/" class="btn btn-gold">Demander un devis canalisation enterrée</a>
@@ -5696,7 +5696,7 @@ def page_canalisation_enterree_bordeaux():
 
     return html_base(
         'Fuite canalisation enterrée Bordeaux | Gaz traceur',
-        'Recherche de fuite sur canalisation enterrée à Bordeaux sans excavation : gaz traceur azote/helium, précision demi-metre, rapport pour assurance. spécialistes terrain argileux.',
+        'Recherche de fuite sur canalisation enterrée à Bordeaux sans excavation : gaz traceur azote/hélium, précision demi-metre, rapport pour assurance. spécialistes terrain argileux.',
         'https://recherche-fuite-gironde.fr/detection-fuite/canalisation-enterree-bordeaux/',
         body,
         extra_ld=ld_service + ld_local + ld_breadcrumb + ld_faq,
@@ -5980,7 +5980,7 @@ PISCINE_PAGES = [
         "types_piscines": "À Mérignac, environ 80 pourcent des piscines que nous diagnostiquons sont des bassins enterrés avec liner PVC 75/100 ou 85/100 d'épaisseur, de format standard 4×8 ou 5×10 mètres. On trouve aussi des coques polyester coco des années 1990-2000, souvent installées dans les lotissements de Capeyron ou Beutre, et plus rarement des piscines béton projeté récentes dans les maisons haut de gamme du Chemin Long. Les piscines hors-sol et semi-enterrées sont minoritaires mais présentes dans les jardins plus récents de Beaudésert.",
         "quartiers_zones": "Les quartiers à forte densité de piscines à Mérignac sont Arlac (pavillons 1970-1990 avec grands terrains), Capeyron (résidentiel familial des années 1980), Chemin Long et Beutre (terrains plus spacieux, piscines plus grandes), Les Eyquems et Beaudésert (pavillons plus récents). La proximité de l'aéroport concentre également des logements de location saisonnière avec piscines peu entretenues.",
         "spécificités": [
-            ("Piscines liner PVC en fin de première vie (25-35 ans)", "La majorité des liners que nous rencontrons à Mérignac ont été posés entre 1985 et 1995. À cet âge, le PVC perd sa plasticité : il se rigidifie, les plis aux angles se figent et se fissurent, les soudures des coins et au droit du skimmer cèdent par fatigue. La recherche de fuite sur ces liners demande un colorant fluorescéine précis et une observation en apnée ou à la caméra, car les perforations sont souvent punctiformes (0,5 à 2 mm)."),
+            ("Piscines liner PVC en fin de première vie (25-35 ans)", "La majorité des liners que nous rencontrons à Mérignac ont été posés entre 1985 et 1995. À cet âge, le PVC perd sa plasticité : il se rigidifie, les plis aux angles se figent et se fissurent, les soudures des coins et au droit du skimmer cèdent par fatigué. La recherche de fuite sur ces liners demande un colorant fluorescéine précis et une observation en apnée ou à la caméra, car les perforations sont souvent punctiformes (0,5 à 2 mm)."),
             ("Joints de pièces à sceller desséchés", "Dans ces piscines installées il y a 25-35 ans, les joints mastic entre les pièces à sceller (skimmer, buses de refoulement, prise balai, bonde de fond) et le liner ou le béton sont souvent totalement desséchés. Nous identifions cette catégorie de fuite par injection de colorant au pourtour immédiat de chaque pièce et observation du cheminement. Remise en étanchéité par silicone piscine ou remplacement de bride après localisation."),
             ("Canalisations PVC d'alimentation vieillissantes", "Les tuyaux PVC collés de 50 mm ou 63 mm qui alimentent skimmer et bonde de fond ont typiquement 25-35 ans sur les piscines du parc immobilier mérignacais. Les raccords collés subissent des chocs thermiques et des mouvements du terrain. Notre écoute électro-acoustique et le gaz traceur localisent précisément le raccord défectueux, souvent à 2-5 mètres sous la dalle du local technique ou sous la plage."),
             ("Proximité aéroport et vibrations sol", "Certains quartiers proches de l'aéroport de Mérignac (Arlac, Capeyron sud, zones de Bersol voisines) subissent des vibrations régulières du sol liées au trafic aérien et aux installations militaires. Sur la durée, cela sollicite les raccords des canalisations enterrées. Nos techniciens, habitués à ce contexte, savent cibler les zones de contrainte mécanique accrue lors du diagnostic.")
@@ -7201,7 +7201,7 @@ def page_piscine_ville(p):
         <span class="arg-num">05</span>
         <div class="arg-num-content">
           <h3>Gaz traceur azote/hélium</h3>
-          <p>Pour les canalisations enterrées longues ou inaccessibles acoustiquement, on injecte un mélange d'azote et d'hélium dans le réseau mis sous pression. Le gaz remonte en surface au droit de la fuite et est détecté par un capteur de surface.</p>
+          <p>Pour les canalisations enterrées longues ou inaccessibles acoustiquement, on injecté un mélange d'azote et d'hélium dans le réseau mis sous pression. Le gaz remonte en surface au droit de la fuite et est détecté par un capteur de surface.</p>
         </div>
       </div>
       <div class="arg-num-card">
