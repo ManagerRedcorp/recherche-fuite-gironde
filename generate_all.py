@@ -2034,13 +2034,18 @@ function genererCourrier() {
   var dateAujourdhui = new Date().toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
   var dateFuiteFr = dateFuite ? new Date(dateFuite).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" }) : "[date de la fuite]";
 
+  // Extraire le nom de ville propre (sans CP) : "12 rue X, 33000 Bordeaux" -> "Bordeaux"
+  var villeMatch = adresse.match(/\\b\\d{5}\\s+([A-Za-zÀ-ÿ' \\-]+)/);
+  var villeFait = villeMatch ? villeMatch[1].trim() : "Bordeaux";
+
   var courrier = `<div style="text-align:right;margin-bottom:2rem;">${destinataires[distrib].replace(/\\n/g, "<br>")}</div>
 <div style="margin-bottom:2rem;">
 <strong>${prenom} ${nom}</strong><br>
 ${adresse}<br>
 N° client : ${numClient}
 </div>
-<div style="text-align:right;margin-bottom:2rem;">À ${adresse.split(",").pop().trim() || "Bordeaux"}, le ${dateAujourdhui}</div>
+<div style="text-align:right;margin-bottom:2rem;">À ${villeFait}, le ${dateAujourdhui}</div>`;
+  courrier += `
 <div style="margin-bottom:1.5rem;"><strong>Objet :</strong> Demande d\\'écrêtement de facture d\\'eau au titre de la loi Warsmann (article L2224-12-4 du CGCT)<br>
 <strong>Envoi :</strong> Lettre recommandée avec accusé de réception</div>
 <p>Madame, Monsieur,</p>
