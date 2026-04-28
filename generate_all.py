@@ -430,7 +430,11 @@ def page_ville_detection(v):
 {form_section(nom)}
 {maillage_villes(slug)}'''
 
-    title = f"Fuite eau {nom} {cp} | Sans démolition"
+    # Title adaptatif : promesse "Sans démolition" uniquement si nom court (sinon dépasse 60 chars)
+    if len(nom) <= 13:
+        title = f"Recherche fuite eau {nom} ({cp}) | Sans démolition"
+    else:
+        title = f"Recherche fuite eau {nom} {cp}"
     desc = f"Fuite d'eau à {nom} ? Détection non destructive en 24h, sans démolition. Rapport assurance inclus. Devis gratuit sur toute la Gironde (33)."
     canonical = f"https://recherche-fuite-gironde.fr/villes/{slug}/"
     return html_base(title, desc[:160], canonical, body, ld)
@@ -572,7 +576,11 @@ def page_ville_chemisage(v):
 {form_section(nom)}
 {maillage_villes(slug)}'''
 
-    title = f"Chemisage {nom} {cp} | Sans tranchée"
+    # Title adaptatif : promesse "Sans tranchée" uniquement si nom court
+    if len(nom) <= 13:
+        title = f"Chemisage canalisation {nom} ({cp}) | Sans tranchée"
+    else:
+        title = f"Chemisage canalisation {nom} {cp}"
     desc = f"Chemisage de canalisation à {nom} ({cp}). Rénovation sans démolition, sans tranchée. Devis gratuit, intervention rapide en Gironde (33)."
     canonical = f"https://recherche-fuite-gironde.fr/villes/{slug}/chemisage/"
     return html_base(title, desc[:160], canonical, body, ld)
