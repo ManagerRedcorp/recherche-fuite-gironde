@@ -126,11 +126,11 @@
 
 <section class="section">
   <div class="container" style="max-width:960px;">
-    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,0.05);">
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:clamp(1rem,4vw,2rem);box-shadow:0 4px 20px rgba(0,0,0,0.05);">
       <h2 style="margin-top:0;font-size:1.4rem;">Étape 1 : votre situation</h2>
       <p style="color:var(--muted);margin-bottom:1.5rem;">Renseignez ces informations issues de vos factures d'eau pour vérifier votre éligibilité.</p>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
         <div>
           <label for="conso-moyenne" style="display:block;font-weight:600;margin-bottom:.4rem;">Conso moyenne 3 ans (m³/an)</label>
           <input id="conso-moyenne" type="number" min="0" step="1" placeholder="Ex : 120" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
@@ -161,12 +161,12 @@
 
       <button type="button" onclick="calculerWarsmann()" style="margin-top:1.5rem;padding:1rem 2rem;background:var(--gold);color:var(--white);border:none;border-radius:8px;font-family:var(--f-title);font-weight:700;font-size:1.05rem;cursor:pointer;width:100%;">Calculer mon éligibilité Warsmann</button>
 
-      <div id="resultats-w" style="display:none;margin-top:2rem;padding:2rem;background:var(--bg-alt);border-radius:12px;">
+      <div id="resultats-w" style="display:none;margin-top:2rem;padding:clamp(1rem,4vw,2rem);background:var(--bg-alt);border-radius:12px;">
         <h2 style="margin-top:0;font-size:1.4rem;color:var(--green-dark);">Votre situation Warsmann</h2>
 
         <div id="alerte-w" style="padding:1rem;border-radius:8px;margin-bottom:1.5rem;font-weight:600;"></div>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:1.5rem;">
           <div style="background:var(--white);padding:1rem;border-radius:8px;">
             <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;">Plafond légal Warsmann</div>
             <div style="font-size:1.6rem;font-weight:700;color:var(--green-dark);" id="plafond-m3">- m³</div>
@@ -188,7 +188,7 @@
         <h2 style="font-size:1.4rem;">Étape 2 : votre courrier de demande d'écrêtement</h2>
         <p style="color:var(--muted);margin-bottom:1rem;">Renseignez vos coordonnées pour générer le courrier conforme à envoyer à votre distributeur en recommandé avec accusé de réception.</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:1rem;">
           <div>
             <label for="ident-prenom" style="display:block;font-weight:600;margin-bottom:.4rem;">Prénom</label>
             <input id="ident-prenom" type="text" placeholder="Marie" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;">
@@ -221,7 +221,7 @@
           <button type="button" onclick="imprimerCourrier()" style="padding:.7rem 1.2rem;background:var(--gold);color:var(--white);border:none;border-radius:6px;cursor:pointer;font-weight:600;">Imprimer / Enregistrer en PDF</button>
         </div>
 
-        <div id="courrier-content" style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:3rem;font-family:Georgia, serif;line-height:1.6;">
+        <div id="courrier-content" style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:clamp(1.5rem,4vw,3rem);font-family:Georgia, serif;line-height:1.6;">
           <!-- Contenu généré par JS -->
         </div>
       </div>

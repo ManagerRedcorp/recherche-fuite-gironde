@@ -131,7 +131,7 @@
 
 <section class="section">
   <div class="container" style="max-width:960px;">
-    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,0.05);">
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:clamp(1rem,4vw,2rem);box-shadow:0 4px 20px rgba(0,0,0,0.05);">
       <div style="display:flex;gap:.5rem;margin-bottom:2rem;border-bottom:2px solid var(--border);" id="tabs">
         <button id="tab-canal" type="button" onclick="switchTab('canal')" style="flex:1;padding:1rem;background:var(--green);color:var(--white);border:none;border-radius:8px 8px 0 0;font-family:var(--f-title);font-size:1.05rem;font-weight:700;cursor:pointer;">Canalisation maison</button>
         <button id="tab-piscine" type="button" onclick="switchTab('piscine')" style="flex:1;padding:1rem;background:var(--bg-alt);color:var(--text);border:none;border-radius:8px 8px 0 0;font-family:var(--f-title);font-size:1.05rem;font-weight:700;cursor:pointer;">Piscine</button>
@@ -141,7 +141,7 @@
         <h2 style="margin-top:0;font-size:1.4rem;">Calculer le coût d'une fuite sur canalisation</h2>
         <p style="color:var(--muted);margin-bottom:1.5rem;">Renseignez les chiffres de votre compteur et nous calculons votre surconsommation, le coût avec les tarifs réels de votre distributeur, et vérifions l'éligibilité à la loi Warsmann.</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
           <div>
             <label for="releve-ancien" style="display:block;font-weight:600;margin-bottom:.4rem;">Ancien relevé (m³)</label>
             <input id="releve-ancien" type="number" min="0" step="0.1" placeholder="Ex : 248" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
@@ -175,7 +175,7 @@
         <h2 style="margin-top:0;font-size:1.4rem;">Calculer le coût d'une fuite de piscine</h2>
         <p style="color:var(--muted);margin-bottom:1.5rem;">Mesurez la perte d'eau de votre piscine sur 24 à 48 heures et nous calculons le volume perdu, le coût annuel et la part imputable à l'évaporation naturelle en Gironde.</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
           <div>
             <label for="longueur" style="display:block;font-weight:600;margin-bottom:.4rem;">Longueur du bassin (m)</label>
             <input id="longueur" type="number" min="2" step="0.1" placeholder="Ex : 8" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
@@ -218,12 +218,12 @@
         <button type="button" onclick="calculerPiscine()" style="margin-top:1.5rem;padding:1rem 2rem;background:var(--gold);color:var(--white);border:none;border-radius:8px;font-family:var(--f-title);font-weight:700;font-size:1.05rem;cursor:pointer;width:100%;">Calculer le coût de ma fuite piscine</button>
       </div>
 
-      <div id="resultats" style="display:none;margin-top:2rem;padding:2rem;background:var(--bg-alt);border-radius:12px;">
+      <div id="resultats" style="display:none;margin-top:2rem;padding:clamp(1rem,4vw,2rem);background:var(--bg-alt);border-radius:12px;">
         <h2 style="margin-top:0;font-size:1.4rem;color:var(--green-dark);">Résultat de votre simulation</h2>
 
         <div id="alerte-niveau" style="padding:1rem;border-radius:8px;margin-bottom:1.5rem;font-weight:600;"></div>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-bottom:1.5rem;">
           <div style="background:var(--white);padding:1rem;border-radius:8px;text-align:center;">
             <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">Coût mensuel</div>
             <div style="font-size:1.8rem;font-weight:700;color:var(--green-dark);" id="cout-mensuel">- €</div>

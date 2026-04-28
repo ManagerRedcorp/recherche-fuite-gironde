@@ -1220,7 +1220,7 @@ def page_simulateur_cout_fuite():
 
 <section class="section">
   <div class="container" style="max-width:960px;">
-    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,0.05);">
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:clamp(1rem,4vw,2rem);box-shadow:0 4px 20px rgba(0,0,0,0.05);">
       <div style="display:flex;gap:.5rem;margin-bottom:2rem;border-bottom:2px solid var(--border);" id="tabs">
         <button id="tab-canal" type="button" onclick="switchTab('canal')" style="flex:1;padding:1rem;background:var(--green);color:var(--white);border:none;border-radius:8px 8px 0 0;font-family:var(--f-title);font-size:1.05rem;font-weight:700;cursor:pointer;">Canalisation maison</button>
         <button id="tab-piscine" type="button" onclick="switchTab('piscine')" style="flex:1;padding:1rem;background:var(--bg-alt);color:var(--text);border:none;border-radius:8px 8px 0 0;font-family:var(--f-title);font-size:1.05rem;font-weight:700;cursor:pointer;">Piscine</button>
@@ -1230,7 +1230,7 @@ def page_simulateur_cout_fuite():
         <h2 style="margin-top:0;font-size:1.4rem;">Calculer le coût d\'une fuite sur canalisation</h2>
         <p style="color:var(--muted);margin-bottom:1.5rem;">Renseignez les chiffres de votre compteur et nous calculons votre surconsommation, le coût avec les tarifs réels de votre distributeur, et vérifions l\'éligibilité à la loi Warsmann.</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
           <div>
             <label for="releve-ancien" style="display:block;font-weight:600;margin-bottom:.4rem;">Ancien relevé (m³)</label>
             <input id="releve-ancien" type="number" min="0" step="0.1" placeholder="Ex : 248" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
@@ -1264,7 +1264,7 @@ def page_simulateur_cout_fuite():
         <h2 style="margin-top:0;font-size:1.4rem;">Calculer le coût d\'une fuite de piscine</h2>
         <p style="color:var(--muted);margin-bottom:1.5rem;">Mesurez la perte d\'eau de votre piscine sur 24 à 48 heures et nous calculons le volume perdu, le coût annuel et la part imputable à l\'évaporation naturelle en Gironde.</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
           <div>
             <label for="longueur" style="display:block;font-weight:600;margin-bottom:.4rem;">Longueur du bassin (m)</label>
             <input id="longueur" type="number" min="2" step="0.1" placeholder="Ex : 8" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
@@ -1307,12 +1307,12 @@ def page_simulateur_cout_fuite():
         <button type="button" onclick="calculerPiscine()" style="margin-top:1.5rem;padding:1rem 2rem;background:var(--gold);color:var(--white);border:none;border-radius:8px;font-family:var(--f-title);font-weight:700;font-size:1.05rem;cursor:pointer;width:100%;">Calculer le coût de ma fuite piscine</button>
       </div>
 
-      <div id="resultats" style="display:none;margin-top:2rem;padding:2rem;background:var(--bg-alt);border-radius:12px;">
+      <div id="resultats" style="display:none;margin-top:2rem;padding:clamp(1rem,4vw,2rem);background:var(--bg-alt);border-radius:12px;">
         <h2 style="margin-top:0;font-size:1.4rem;color:var(--green-dark);">Résultat de votre simulation</h2>
 
         <div id="alerte-niveau" style="padding:1rem;border-radius:8px;margin-bottom:1.5rem;font-weight:600;"></div>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-bottom:1.5rem;">
           <div style="background:var(--white);padding:1rem;border-radius:8px;text-align:center;">
             <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">Coût mensuel</div>
             <div style="font-size:1.8rem;font-weight:700;color:var(--green-dark);" id="cout-mensuel">- €</div>
@@ -1701,11 +1701,11 @@ def page_calcul_warsmann_bordeaux():
 
 <section class="section">
   <div class="container" style="max-width:960px;">
-    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,0.05);">
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:16px;padding:clamp(1rem,4vw,2rem);box-shadow:0 4px 20px rgba(0,0,0,0.05);">
       <h2 style="margin-top:0;font-size:1.4rem;">Étape 1 : votre situation</h2>
       <p style="color:var(--muted);margin-bottom:1.5rem;">Renseignez ces informations issues de vos factures d\'eau pour vérifier votre éligibilité.</p>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
         <div>
           <label for="conso-moyenne" style="display:block;font-weight:600;margin-bottom:.4rem;">Conso moyenne 3 ans (m³/an)</label>
           <input id="conso-moyenne" type="number" min="0" step="1" placeholder="Ex : 120" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;">
@@ -1736,12 +1736,12 @@ def page_calcul_warsmann_bordeaux():
 
       <button type="button" onclick="calculerWarsmann()" style="margin-top:1.5rem;padding:1rem 2rem;background:var(--gold);color:var(--white);border:none;border-radius:8px;font-family:var(--f-title);font-weight:700;font-size:1.05rem;cursor:pointer;width:100%;">Calculer mon éligibilité Warsmann</button>
 
-      <div id="resultats-w" style="display:none;margin-top:2rem;padding:2rem;background:var(--bg-alt);border-radius:12px;">
+      <div id="resultats-w" style="display:none;margin-top:2rem;padding:clamp(1rem,4vw,2rem);background:var(--bg-alt);border-radius:12px;">
         <h2 style="margin-top:0;font-size:1.4rem;color:var(--green-dark);">Votre situation Warsmann</h2>
 
         <div id="alerte-w" style="padding:1rem;border-radius:8px;margin-bottom:1.5rem;font-weight:600;"></div>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:1.5rem;">
           <div style="background:var(--white);padding:1rem;border-radius:8px;">
             <div style="font-size:.8rem;color:var(--muted);text-transform:uppercase;">Plafond légal Warsmann</div>
             <div style="font-size:1.6rem;font-weight:700;color:var(--green-dark);" id="plafond-m3">- m³</div>
@@ -1763,7 +1763,7 @@ def page_calcul_warsmann_bordeaux():
         <h2 style="font-size:1.4rem;">Étape 2 : votre courrier de demande d\'écrêtement</h2>
         <p style="color:var(--muted);margin-bottom:1rem;">Renseignez vos coordonnées pour générer le courrier conforme à envoyer à votre distributeur en recommandé avec accusé de réception.</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem;">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:1rem;">
           <div>
             <label for="ident-prenom" style="display:block;font-weight:600;margin-bottom:.4rem;">Prénom</label>
             <input id="ident-prenom" type="text" placeholder="Marie" style="width:100%;padding:.7rem;border:1px solid var(--border);border-radius:8px;">
@@ -1796,7 +1796,7 @@ def page_calcul_warsmann_bordeaux():
           <button type="button" onclick="imprimerCourrier()" style="padding:.7rem 1.2rem;background:var(--gold);color:var(--white);border:none;border-radius:6px;cursor:pointer;font-weight:600;">Imprimer / Enregistrer en PDF</button>
         </div>
 
-        <div id="courrier-content" style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:3rem;font-family:Georgia, serif;line-height:1.6;">
+        <div id="courrier-content" style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:clamp(1.5rem,4vw,3rem);font-family:Georgia, serif;line-height:1.6;">
           <!-- Contenu généré par JS -->
         </div>
       </div>
@@ -2178,7 +2178,7 @@ def page_contact():
       <input type="hidden" name="_subject" value="[recherche-fuite-gironde.fr] Message de contact">
       <input type="hidden" name="site_source" value="">
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
         <div class="form-group">
           <label style="display:block;font-size:.85rem;font-weight:600;color:var(--muted);margin-bottom:.35rem;text-transform:uppercase;letter-spacing:.05em;" for="prenom">Prénom</label>
           <input style="width:100%;font-family:var(--f-body);font-size:.9375rem;color:var(--text);background:var(--white);border:1px solid var(--border);border-radius:var(--r-md);padding:.8rem 1rem;outline:none;transition:border-color .15s,box-shadow .15s;" type="text" id="prenom" name="prenom" placeholder="Votre prénom" required
@@ -2193,7 +2193,7 @@ def page_contact():
         </div>
       </div>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
         <div class="form-group">
           <label style="display:block;font-size:.85rem;font-weight:600;color:var(--muted);margin-bottom:.35rem;text-transform:uppercase;letter-spacing:.05em;" for="téléphone">Téléphone</label>
           <input style="width:100%;font-family:var(--f-body);font-size:.9375rem;color:var(--text);background:var(--white);border:1px solid var(--border);border-radius:var(--r-md);padding:.8rem 1rem;outline:none;transition:border-color .15s,box-shadow .15s;" type="tel" id="téléphone" name="téléphone" placeholder="06 XX XX XX XX"
