@@ -3366,7 +3366,7 @@ GUIDE_PAGES = [
         "title": "Fuite piscine Desjoyaux à Bordeaux : diagnostic et réparation",
         "title_seo": "Fuite piscine Desjoyaux Bordeaux | Diagnostic",
         "desc": "Votre piscine Desjoyaux fuit à Bordeaux ? Diagnostic non destructif sans vidange : fluorescéine, test de pression, inspection visuelle. Coûts et procédure assurance.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine privée à Bordeaux, contexte d'intervention diagnostic fuite recherche de fuite gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-desjoyaux.webp" alt="Piscine familiale type Desjoyaux à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
 <p>Vous possédez une piscine Desjoyaux à Bordeaux et vous constatez une perte d'eau anormale ? La spécificité Desjoyaux est sa filtration intégrée à la paroi du bassin (« bloc intégré » regroupant pompe et système de filtration), qui supprime les canalisations enterrées entre local technique et bassin classiques sur d'autres systèmes. Pour une recherche de fuite efficace, nous adaptons donc notre méthode aux particularités de ce constructeur. Cet article décrit les zones à investiguer en priorité, notre protocole de diagnostic et les coûts en 2026.</p>
 
@@ -3400,7 +3400,7 @@ GUIDE_PAGES = [
         "title": "Fuite piscine Magiline à Bordeaux : béton banché et NFX",
         "title_seo": "Fuite piscine Magiline Bordeaux | Béton & NFX",
         "desc": "Diagnostic d'une fuite sur piscine Magiline à Bordeaux : structure béton armé banché, système de filtration NFX intégré, revêtement intérieur. Méthodes et coûts.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Magiline en béton armé banché à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-magiline.webp" alt="Piscine moderne Magiline à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
 <p>Votre piscine Magiline à Bordeaux perd de l'eau anormalement ? Magiline construit ses piscines avec une structure en <strong>béton à panneaux alvéolaires brevetés</strong> (qui réduit la quantité de béton tout en gardant les exigences de solidité) et équipe ses bassins du système de filtration breveté <strong>NFX à cartouche</strong> associé à une pompe à débit variable. Le revêtement intérieur peut être un liner, une membrane armée ou une mousse confort selon le choix à la pose. Cette architecture spécifique présente des pathologies de fuite bien identifiées que nous traitons régulièrement sur la métropole bordelaise. Cet article détaille les zones à investiguer en priorité et notre protocole de diagnostic.</p>
 
@@ -3434,7 +3434,7 @@ GUIDE_PAGES = [
         "title": "Fuite piscine Diffazur à Bordeaux : béton armé projeté",
         "title_seo": "Fuite piscine Diffazur Bordeaux | Béton projeté",
         "desc": "Diagnostic d'une fuite sur piscine Diffazur à Bordeaux : structure béton armé projeté (gunite), revêtement (peinture, enduit, mosaïque, carrelage). Méthodes et coûts.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Diffazur béton armé à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-diffazur.webp" alt="Piscine Diffazur béton armé revêtement carrelage à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
 <p>Votre piscine Diffazur à Bordeaux présente une perte d'eau anormale ? Diffazur construit ses piscines en <strong>béton armé projeté par gunite</strong> (projection à grande vitesse sur armature acier, créant une structure monobloc sans joints). Le revêtement intérieur peut ensuite être appliqué directement sur la structure sous forme de peinture, d'enduit hydrofuge, de mosaïque pâte de verre, de carrelage ou de pierre. Cette flexibilité de finition donne des pathologies de fuite variables selon la finition choisie. Cet article détaille les zones à investiguer et les méthodes de diagnostic adaptées.</p>
 
@@ -3467,7 +3467,7 @@ GUIDE_PAGES = [
         "title": "Fuite piscine Waterair à Bordeaux : panneaux acier et liner",
         "title_seo": "Fuite piscine Waterair Bordeaux | Acier & liner",
         "desc": "Diagnostic d'une fuite sur piscine Waterair à Bordeaux : panneaux acier ondé galvanisé, liner d'étanchéité, raccords pièces à sceller. Méthodes et coûts.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Waterair à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-waterair.webp" alt="Piscine Waterair en kit dans jardin résidentiel, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
 <p>Votre piscine Waterair à Bordeaux perd de l'eau ? Waterair propose un système modulaire breveté avec une structure en <strong>panneaux d'acier ondé galvanisé</strong> et un liner d'étanchéité posé à l'intérieur du bassin. La marque garantit la structure 30 ans et le liner 12 ans. Cette architecture donne des pathologies de fuite typiques que nous diagnostiquons régulièrement à Bordeaux et en Gironde.</p>
 
@@ -3747,7 +3747,7 @@ GUIDE_PAGES = [
         "title": "Fuite piscine à Bordeaux : guide complet diagnostic et réparation",
         "title_seo": "Fuite piscine Bordeaux | Guide complet 2026",
         "desc": "Tout sur les fuites de piscine à Bordeaux : symptômes, diagnostic, réparation, prix, marques (Desjoyaux, Magiline, Diffazur, Waterair). Guide expert local.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine privée à Bordeaux : guide complet diagnostic et réparation des fuites" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/pillar-fuite-piscine-bordeaux.webp" alt="Vue d'ensemble piscine privée en Gironde : guide complet diagnostic et réparation des fuites" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
 <p>Vous suspectez une fuite sur votre piscine à Bordeaux ou ailleurs en Gironde ? Ce guide complet rassemble en un seul endroit tout ce qu'il faut savoir pour identifier, diagnostiquer et réparer une fuite, quelle que soit la marque, le type de bassin ou la nature du problème. Notre équipe a réalisé plus de 200 diagnostics de fuite de piscine en Gironde dans l'année écoulée, principalement sur la métropole bordelaise (Caudéran, Le Bouscat, Mérignac, Pessac) et le Bassin d'Arcachon (Gujan-Mestras, La Teste-de-Buch, Andernos-les-Bains). Nous vous donnons ici la méthode complète pour qualifier votre situation, choisir le bon prestataire et éviter les erreurs coûteuses.</p>
 
