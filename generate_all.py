@@ -3364,125 +3364,131 @@ GUIDE_PAGES = [
         "slug": "fuite-piscine-desjoyaux-bordeaux",
         "title": "Fuite piscine Desjoyaux à Bordeaux : diagnostic et réparation",
         "title_seo": "Fuite piscine Desjoyaux Bordeaux | Diagnostic",
-        "desc": "Votre piscine Desjoyaux fuit à Bordeaux ? Pathologies spécifiques au monobloc béton coulé : raccord skimmer, joint liner, traversée paroi. Diagnostic en 2h.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Desjoyaux à Bordeaux avec liner gris perle, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "desc": "Votre piscine Desjoyaux fuit à Bordeaux ? Diagnostic non destructif sans vidange : fluorescéine, test de pression, inspection visuelle. Coûts et procédure assurance.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine privée à Bordeaux, contexte d'intervention diagnostic fuite recherche de fuite gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
-<p>Vous possédez une piscine Desjoyaux à Bordeaux et vous constatez une perte d'eau anormale ? Le système constructif Desjoyaux (panneaux modulaires en polypropylène, béton coulé en place, liner armé ou grand bain) présente des pathologies spécifiques que nos techniciens diagnostiquent en moyenne 50 fois par an sur la métropole bordelaise. Cet article détaille les 4 zones de fuite typiques de ce constructeur, les méthodes de diagnostic adaptées et les tarifs constatés en 2026.</p>
+<p>Vous possédez une piscine Desjoyaux à Bordeaux et vous constatez une perte d'eau anormale ? La spécificité Desjoyaux est sa filtration intégrée à la paroi du bassin (« bloc intégré » regroupant pompe et système de filtration), qui supprime les canalisations enterrées entre local technique et bassin classiques sur d'autres systèmes. Pour une recherche de fuite efficace, nous adaptons donc notre méthode aux particularités de ce constructeur. Cet article décrit les zones à investiguer en priorité, notre protocole de diagnostic et les coûts en 2026.</p>
 
-<h2>Pourquoi les piscines Desjoyaux ont des fuites spécifiques</h2>
-<p>Le système breveté Desjoyaux repose sur des panneaux en polypropylène (PEHD) intégrant le système de filtration sans local technique séparé (filtre intégré dans le panneau coffrant). Cette architecture unique crée 4 points de fragilité connus :</p>
+<h2>Avant de nous appeler : le test du seau (gratuit)</h2>
+<p>Pour distinguer une vraie fuite d'une évaporation forte, faites le test du seau pendant 24 à 48 heures. Posez un seau rempli sur la première marche pour qu'il soit à la même température que le bassin, marquez les niveaux au feutre, comparez les baisses. Si la piscine baisse plus que le seau, c'est une fuite. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite</a> et notre <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">arbre de décision en 6 questions</a>.</p>
+
+<h2>Zones à investiguer en priorité sur une piscine Desjoyaux</h2>
+<p>Sur les diagnostics que nous réalisons à Bordeaux, les fuites de piscine Desjoyaux se concentrent généralement sur quatre zones :</p>
 <ul>
-<li><strong>Raccord skimmer/panneau</strong> : le skimmer Desjoyaux est intégré directement au panneau de structure. Après 12 à 18 ans, le joint entre la pièce et le panneau peut se fragiliser sous l'effet du chlore et des cycles thermiques. Symptôme typique : perte de 1 à 3 cm/jour qui s'arrête au niveau du skimmer.</li>
-<li><strong>Joint mastic liner armé/coque</strong> : le liner armé Desjoyaux (75/100 ou 150/100) est soudé sur place et fixé par un joint mastic au niveau de la margelle. Avec le temps, ce joint peut se craqueler, surtout sur les piscines exposées plein sud à Caudéran ou Le Bouscat.</li>
-<li><strong>Traversée de paroi pour la pompe filtrante intégrée</strong> : la spécificité Desjoyaux est d'avoir la pompe dans le panneau, ce qui crée des traversées étanches multiples. Les joints toriques de ces traversées vieillissent en 10 à 15 ans.</li>
-<li><strong>Bonde de fond</strong> : moins fréquente sur Desjoyaux que sur béton classique, mais présente sur certains modèles avec point profond. Joint à vérifier sur les piscines de plus de 15 ans.</li>
+<li><strong>Bloc filtrant intégré</strong> : la spécificité du système Desjoyaux est d'intégrer la pompe et la filtration dans un bloc unique fixé à la paroi du bassin. Les joints d'étanchéité de ce bloc, ainsi que les raccords internes, sont à inspecter en priorité, notamment sur les piscines de plus de 12-15 ans.</li>
+<li><strong>Pièces à sceller</strong> (skimmer, refoulement, projecteur, prise balai, bonde de fond) : étanchéité par joints d'étanchéité et fixation par bride. Les joints peuvent durcir avec le temps, les vis se desserrer sous cycles thermiques.</li>
+<li><strong>Joints du revêtement intérieur</strong> : selon le revêtement choisi à la pose (liner soudé sur place, autre solution proposée par Desjoyaux), les jonctions au niveau des angles, marches et raccords sont les zones d'usure typiques après 15-20 ans.</li>
+<li><strong>Margelle et plage immergée</strong> : joints maçonnés entre la structure et la margelle béton qui peuvent craqueler avec les cycles thermiques.</li>
 </ul>
 
-<h2>Comment diagnostiquons-nous une fuite Desjoyaux ?</h2>
-<p>Notre intervention type sur une piscine Desjoyaux à Bordeaux dure 2 à 3 heures et combine 3 méthodes adaptées au matériau polypropylène et au liner armé :</p>
+<h2>Comment diagnostiquons-nous une fuite Desjoyaux à Bordeaux ?</h2>
+<p>Notre intervention dure 2 à 3 heures et combine 3 méthodes non destructives :</p>
 <ol>
-<li><strong>Test du seau préalable</strong> (réalisé par le propriétaire avant notre venue) pour confirmer la fuite vs évaporation. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide test du seau</a>.</li>
-<li><strong>Inspection visuelle systématique</strong> du périmètre du bassin : joints de margelle, soudures liner, raccords pièces à sceller. Sur Desjoyaux, attention particulière au skimmer intégré et à la pompe filtrante.</li>
-<li><strong>Test à la fluorescéine</strong> ciblé sur les zones suspectes. Sur liner armé clair, le colorant est très lisible. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page fluorescéine</a>.</li>
-<li><strong>Test de pression hydraulique</strong> sur le circuit de filtration intégré pour isoler une fuite côté pompe ou côté refoulement.</li>
+<li><strong>Inspection visuelle systématique</strong> du périmètre du bassin et du bloc filtrant intégré, avec lampe rasante pour repérer microfissures et joints fatigués.</li>
+<li><strong>Test à la fluorescéine</strong> sur les zones suspectes (raccords pièces à sceller, joints d'étanchéité du bloc filtrant). Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page recherche de fuite à la fluorescéine</a>.</li>
+<li><strong>Test de pression hydraulique</strong> du circuit de filtration intégré pour quantifier la fuite et orienter la réparation.</li>
 </ol>
-<p>Notre rapport technique localise précisément la fuite et indique si la réparation peut être faite par votre pisciniste Desjoyaux habituel (si garantie active) ou par un autre prestataire spécialisé.</p>
+<p>Le rapport technique remis le jour même indique précisément la zone de fuite et oriente vers la réparation appropriée. Pour toute réparation sur le bloc filtrant ou le revêtement intérieur, nous recommandons de privilégier le réseau de concessionnaires Desjoyaux qui maîtrise la spécificité du système et garantit la conformité des pièces et de la mise en œuvre.</p>
 
 <h2>Notre intervention sur Bordeaux Métropole</h2>
-<p>Tarif diagnostic complet sur piscine Desjoyaux à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité, intervention 2 à 4 heures, rapport technique remis le jour même par email. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>).</p>
-<p>Pour les piscines Desjoyaux datant de moins de 10 ans, vérifiez d'abord la garantie décennale du constructeur : si la fuite est due à un défaut de construction, la prise en charge est gratuite par Desjoyaux. Pour les piscines plus anciennes, nous coordonnons avec un pisciniste partenaire pour la réparation. Voir aussi notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et notre <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">service dépannage piscine Bordeaux</a> pour les autres marques."""
+<p>Tarif diagnostic complet : <strong>380 à 580 € HT</strong> selon complexité, intervention 2 à 4 heures, rapport remis le jour même par email. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>).</p>
+<p>Pour les piscines de moins de 10 ans, vérifiez d'abord la garantie décennale du constructeur : si la fuite est due à un défaut de construction ou de mise en œuvre, la prise en charge est gratuite par Desjoyaux ou son concessionnaire. Voir aussi nos pages <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine multimarques Bordeaux</a>."""
     },
     {
         "slug": "fuite-piscine-magiline-bordeaux",
-        "title": "Fuite piscine Magiline à Bordeaux : diagnostic structures inox",
-        "title_seo": "Fuite piscine Magiline Bordeaux | Structure inox",
-        "desc": "Diagnostic d'une fuite sur piscine Magiline à Bordeaux : panneaux modulaires, structure inox 304, joints entre modules. Méthodes adaptées et coûts 2026.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Magiline avec structure modulaire à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "title": "Fuite piscine Magiline à Bordeaux : béton banché et NFX",
+        "title_seo": "Fuite piscine Magiline Bordeaux | Béton & NFX",
+        "desc": "Diagnostic d'une fuite sur piscine Magiline à Bordeaux : structure béton armé banché, système de filtration NFX intégré, revêtement intérieur. Méthodes et coûts.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Magiline en béton armé banché à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
-<p>Votre piscine Magiline à Bordeaux perd de l'eau anormalement ? Le système constructif Magiline (panneaux modulaires en acier inoxydable 304L, blocs préfabriqués MyPiscine, liner ou enduit) a des pathologies bien identifiées que nous traitons régulièrement sur la métropole bordelaise. Cet article détaille les zones de fuite typiques, les méthodes de diagnostic adaptées à la structure inox, et les coûts 2026.</p>
+<p>Votre piscine Magiline à Bordeaux perd de l'eau anormalement ? Magiline construit ses piscines en <strong>béton armé banché</strong>, coulé sur place dans un coffrage modulaire industrialisé en polypropylène, et équipe ses bassins du système de filtration breveté <strong>NFX à cartouche</strong> associé à la pompe à débit variable NFXv. Cette architecture spécifique présente des pathologies bien identifiées que nous traitons régulièrement sur la métropole bordelaise. Cet article détaille les zones de fuite typiques, les méthodes de diagnostic adaptées et les coûts constatés en 2026.</p>
 
-<h2>Spécificités du système Magiline et points de fragilité</h2>
-<p>Magiline a démocratisé en France les piscines à panneaux modulaires en acier inoxydable. La structure est stable et durable mais crée des points de jonction qu'il faut surveiller :</p>
+<h2>Spécificités du système Magiline et points de vigilance</h2>
+<p>Le système Magiline associe une structure béton durable à une filtration intégrée à cartouche. Les pathologies de fuite que nous observons à Bordeaux concernent principalement quatre zones :</p>
 <ul>
-<li><strong>Joints entre panneaux modulaires</strong> : c'est le point principal de vigilance. Les panneaux Magiline sont assemblés par boulons inox + joints d'étanchéité EPDM. Après 15 à 20 ans, les EPDM peuvent durcir, surtout sur les bassins très chlorés ou en eau salée. Symptôme : fuite linéaire qui suit la verticale d'un assemblage.</li>
-<li><strong>Pièces à sceller (skimmer, refoulement, projecteur)</strong> : montées en bride sur la paroi inox, étanchéité par joint torique. Les vis inox peuvent se desserrer sous cycles thermiques. Inspection à 10 ans.</li>
-<li><strong>Joint d'angle structure/escalier</strong> : les escaliers Magiline (intégrés ou rapportés) ont une jonction maçonnée avec la structure principale qui peut craqueler.</li>
-<li><strong>Bonde de fond et traversée de paroi</strong> : les modèles équipés de bonde au point bas ont une étanchéité spécifique à vérifier.</li>
+<li><strong>Joints d'étanchéité du système de filtration NFX</strong> : la filtration NFX est intégrée à la structure du bassin avec des traversées de paroi étanchéifiées par joints toriques. Avec le temps, ces joints peuvent durcir et fuir au niveau du local technique. Cas le plus fréquent sur les bassins de plus de 15 ans.</li>
+<li><strong>Raccords des pièces à sceller</strong> (skimmer, projecteur, prise balai, bonde de fond) : étanchéité par mastic spécifique entre la pièce et le béton. Sur les piscines de plus de 18 ans, ce mastic peut se craqueler par cycles thermiques. Diagnostic ciblé par fluorescéine.</li>
+<li><strong>Microfissures structurelles béton</strong> : sur les bassins implantés sur sol argileux du sud-ouest de Bordeaux (Caudéran, Le Bouscat, Gradignan), les cycles retrait-gonflement saisonniers peuvent solliciter la structure et provoquer des fissures fines, surtout en angle de paroi.</li>
+<li><strong>Joints du revêtement intérieur</strong> : selon le revêtement choisi à la pose (liner armé soudé sur place, enduit hydrofugé, mosaïque), les joints ou soudures peuvent être un point d'usure après 15 à 25 ans.</li>
 </ul>
 
-<h2>Notre méthode de diagnostic sur Magiline</h2>
-<p>Sur une piscine Magiline, nos techniciens à Bordeaux suivent ce protocole :</p>
+<h2>Notre méthode de diagnostic sur piscine Magiline</h2>
+<p>Sur une piscine Magiline à Bordeaux, nos techniciens suivent ce protocole :</p>
 <ol>
-<li><strong>Inspection ciblée des joints inter-panneaux</strong> à la lampe rasante (les microfissures EPDM sont visibles obliquement).</li>
-<li><strong>Test à la fluorescéine</strong> à proximité des assemblages les plus suspects. Le colorant est aspiré par les joints fissurés et apparaît côté terre. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page fluorescéine piscine</a>.</li>
-<li><strong>Test pression hydraulique</strong> du circuit de filtration pour isoler les fuites côté refoulement vs côté bassin.</li>
-<li><strong>Inspection caméra endoscopique</strong> des canalisations enterrées entre local technique et bassin si nécessaire (voir <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra</a>).</li>
+<li><strong>Inspection visuelle complète</strong> du périmètre du bassin : joints de margelle, soudures liner si applicable, raccords pièces à sceller, état du revêtement intérieur.</li>
+<li><strong>Test à la fluorescéine</strong> ciblé sur les zones suspectes (raccords pièces à sceller, fissures suspectes, joints d'étanchéité du système NFX). Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page recherche de fuite à la fluorescéine</a>.</li>
+<li><strong>Test de pression hydraulique</strong> du circuit de filtration NFX pour isoler une fuite côté pompe ou refoulement.</li>
+<li><strong>Inspection caméra endoscopique</strong> des canalisations enterrées entre local technique et bassin si nécessaire. Voir notre <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">guide inspection caméra</a>.</li>
 </ol>
 
 <h2>Coûts et coordination réparation à Bordeaux</h2>
-<p>Diagnostic complet sur piscine Magiline à Bordeaux : <strong>380 à 580 € HT</strong>. Intervention 2 à 3 heures, rapport remis le jour même. Pour la réparation, nous coordonnons avec un pisciniste partenaire spécialisé inox (les EPDM doivent être en grade marine, attention aux qualités industrielles inadaptées).</p>
-<p>Tarif moyen réparation joint inter-panneaux : 280 à 580 € HT par jonction selon accessibilité. Pour les piscines Magiline encore sous garantie décennale (moins de 10 ans), prise en charge constructeur possible si défaut de mise en œuvre prouvé. Voir aussi notre <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page recherche de fuite piscine Bordeaux</a> et le <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance</a>."""
+<p>Diagnostic complet sur piscine Magiline à Bordeaux : <strong>380 à 580 € HT</strong>, intervention 2 à 3 heures, rapport technique remis le jour même par email. Pour la réparation, nous orientons toujours en priorité vers le réseau de concessionnaires Magiline qui maîtrise la spécificité du système NFX et garantit la conformité des pièces et de la mise en œuvre.</p>
+<p>Pour les piscines Magiline encore sous garantie décennale (moins de 10 ans), prise en charge constructeur possible si défaut de mise en œuvre prouvé. Au-delà, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a> et notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Bordeaux</a>."""
     },
     {
         "slug": "fuite-piscine-diffazur-bordeaux",
-        "title": "Fuite piscine Diffazur à Bordeaux : mosaïque pâte de verre",
-        "title_seo": "Fuite piscine Diffazur Bordeaux | Mosaïque",
-        "desc": "Diagnostic d'une fuite sur piscine Diffazur à Bordeaux : structure béton armé, mosaïque pâte de verre, joints carrelage. Pathologies typiques et tarifs.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Diffazur béton revêtement mosaïque à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "title": "Fuite piscine Diffazur à Bordeaux : béton armé projeté",
+        "title_seo": "Fuite piscine Diffazur Bordeaux | Béton projeté",
+        "desc": "Diagnostic d'une fuite sur piscine Diffazur à Bordeaux : structure béton armé projeté (gunite), revêtement (peinture, enduit, mosaïque, carrelage). Méthodes et coûts.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Diffazur béton armé à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
-<p>Votre piscine Diffazur à Bordeaux présente une perte d'eau anormale ? Diffazur, leader français de la piscine béton armé revêtue de mosaïque pâte de verre, équipe environ 8 % des piscines privées girondines, principalement dans le segment haut de gamme (Caudéran, Le Bouscat, villas du Pyla). Le système constructif béton + mosaïque offre une excellente durabilité (35-50 ans) mais présente des pathologies bien identifiées après 20 ans de service.</p>
+<p>Votre piscine Diffazur à Bordeaux présente une perte d'eau anormale ? Diffazur construit ses piscines en <strong>béton armé projeté par gunite</strong> (projection à grande vitesse sur armature acier, créant une structure monobloc sans joints). Le revêtement intérieur peut ensuite être appliqué directement sur la structure sous forme de peinture, d'enduit hydrofuge, de mosaïque pâte de verre, de carrelage ou de pierre. Cette flexibilité de finition donne des pathologies de fuite variables selon la finition choisie. Cet article détaille les zones à investiguer et les méthodes de diagnostic adaptées.</p>
 
-<h2>Pathologies typiques sur piscines Diffazur</h2>
-<p>Le système Diffazur combine une structure en béton armé monobloc, un revêtement intérieur en mosaïque pâte de verre 2,5×2,5 cm, et des joints en mortier hydrofugé. Trois zones concentrent 80 % des fuites que nous diagnostiquons :</p>
+<h2>Avant de nous appeler : confirmer la fuite</h2>
+<p>Posez un seau rempli sur la première marche du bassin (même température), marquez les niveaux au feutre, attendez 24 à 48 heures sans baignade. Si la piscine baisse plus que le seau, vous avez une fuite à diagnostiquer. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite</a>.</p>
+
+<h2>Zones à investiguer selon la finition du bassin</h2>
+<p>Sur une piscine Diffazur, l'origine de la fuite dépend largement du revêtement intérieur choisi à la pose :</p>
 <ul>
-<li><strong>Joints de mortier entre tesselles</strong> : sur les piscines de plus de 18 ans, les joints peuvent se craqueler par cycle gel/dégel ou par dérive du pH. Microfissures invisibles à l'œil nu mais qui laissent passer 0,5 à 2 cm/jour. Très typique sur les piscines exposées plein sud avec amplitude thermique forte.</li>
-<li><strong>Fissure structurelle béton</strong> : plus rare mais grave. Fissure verticale ou en angle de paroi due à un mouvement de terrain ou un défaut de calage initial. Sur Bordeaux, les terrains argileux de Caudéran sont sensibles aux cycles retrait/gonflement saisonniers.</li>
-<li><strong>Pièces à sceller (skimmer, projecteur, prise balai)</strong> : scellement mortier qui se craquelle au pourtour de la pièce après 20-25 ans.</li>
+<li><strong>Revêtement peinture ou enduit hydrofuge</strong> : décollement local par cycles thermiques, microfissures sur les angles ou raccords pièces à sceller. Diagnostic visuel à la lampe rasante puis fluorescéine.</li>
+<li><strong>Revêtement mosaïque ou carrelage</strong> : joints maçonnés qui peuvent se craqueler après 18-25 ans, tesselles décollées (test au tournevis : sonore = collée, sourd = décollée). Microfissures invisibles à l'œil nu mais détectables au colorant.</li>
+<li><strong>Pièces à sceller</strong> (skimmer, refoulement, projecteur, bonde de fond, prise balai) : scellement par mortier hydrofuge qui peut craqueler au pourtour après 20-25 ans, sur tous types de finition.</li>
+<li><strong>Fissure structurelle béton</strong> : plus rare grâce à la qualité du béton armé projeté monobloc. Mais possible sur sols argileux du sud-ouest de Bordeaux (Caudéran, Le Bouscat, Gradignan) avec mouvements de terrain saisonniers.</li>
 </ul>
 
-<h2>Diagnostic adapté au revêtement mosaïque</h2>
-<p>Sur une piscine Diffazur, le diagnostic combine :</p>
+<h2>Notre méthode de diagnostic</h2>
 <ol>
-<li><strong>Inspection visuelle à la lampe rasante</strong> de toute la mosaïque pour repérer microfissures et tesselles décollées (test au tournevis sur les tesselles suspectes : sonore = collée, sourd = décollée).</li>
-<li><strong>Test fluorescéine zone par zone</strong> : injection ciblée à proximité des joints suspects. Le colorant est aspiré par les microfissures et confirme le passage. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine</a>.</li>
-<li><strong>Test pression hydraulique</strong> des canalisations pour isoler les fuites bassin vs réseau enterré.</li>
+<li><strong>Inspection visuelle à la lampe rasante</strong> de tout le bassin selon le revêtement (peinture, mosaïque, carrelage) pour repérer microfissures, joints fatigués et zones décollées.</li>
+<li><strong>Test fluorescéine ciblé</strong> : injection à proximité des zones suspectes, le colorant est aspiré par les microfissures et confirme le passage de la fuite. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine</a>.</li>
+<li><strong>Test de pression hydraulique</strong> des canalisations pour isoler les fuites bassin vs réseau enterré.</li>
 <li><strong>Inspection caméra sous-marine</strong> pour les fissures structurelles suspectées en grand bain.</li>
 </ol>
 
 <h2>Réparation et coût d'intervention à Bordeaux</h2>
-<p>Notre diagnostic Diffazur : <strong>380 à 580 € HT</strong>. Pour la réparation des joints mosaïque, nous orientons vers un pisciniste partenaire mosaïste spécialisé (compétence rare en Gironde, 2 prestataires identifiés). Coût moyen reprise joint mosaïque locale : 480 à 1 200 € HT par mètre carré traité. Pour les fissures structurelles, intervention plus lourde 1 500 à 4 500 € HT par zone (résine d'injection époxy + reprise mosaïque).</p>
-<p>Sur les piscines Diffazur de moins de 10 ans, la garantie décennale couvre les défauts de mise en œuvre. Au-delà, prise en charge possible par votre assurance habitation si dégât des eaux constaté (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement</a>). Pour les autres marques de piscine ou pour une vue d'ensemble de notre service, voir <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>."""
+<p>Diagnostic complet : <strong>380 à 580 € HT</strong>, intervention 2 à 4 heures, rapport remis le jour même. Pour la réparation, le choix du prestataire dépend de la finition : pour les peintures/enduits, un pisciniste piscine-béton classique convient ; pour les mosaïques et carrelages, nous orientons vers un mosaïste spécialisé (compétence plus rare en Gironde) ; pour les fissures structurelles, intervention résine époxy d'injection.</p>
+<p>Sur les piscines Diffazur de moins de 10 ans, la garantie décennale du constructeur couvre les défauts de mise en œuvre. Au-delà, prise en charge possible par votre assurance habitation si dégât des eaux constaté (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>). Pour notre service multimarques, voir <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>."""
     },
     {
         "slug": "fuite-piscine-waterair-bordeaux",
-        "title": "Fuite piscine Waterair à Bordeaux : panneaux acier galvanisé",
-        "title_seo": "Fuite piscine Waterair Bordeaux | Panneaux acier",
-        "desc": "Diagnostic d'une fuite sur piscine Waterair à Bordeaux : panneaux acier galvanisé, liner PVC armé, raccords filtration. Méthodes spécifiques et tarifs.",
-        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Waterair structure acier galvanisé à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+        "title": "Fuite piscine Waterair à Bordeaux : panneaux acier et liner",
+        "title_seo": "Fuite piscine Waterair Bordeaux | Acier & liner",
+        "desc": "Diagnostic d'une fuite sur piscine Waterair à Bordeaux : panneaux acier ondé galvanisé, liner d'étanchéité, raccords pièces à sceller. Méthodes et coûts.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-privee-bordeaux.webp" alt="Piscine Waterair à Bordeaux, contexte d'intervention diagnostic fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
 
-<p>Votre piscine Waterair à Bordeaux perd de l'eau ? Waterair propose depuis 1973 un système constructif unique en France : panneaux modulaires en acier galvanisé revêtu, liner PVC armé 75/100 ou 85/100, livré en kit avec installation simplifiée par le client ou par un installateur agréé. Cette architecture présente des pathologies spécifiques que nos techniciens diagnostiquent à Bordeaux et en Gironde.</p>
+<p>Votre piscine Waterair à Bordeaux perd de l'eau ? Waterair propose un système modulaire breveté avec une structure en <strong>panneaux d'acier ondé galvanisé</strong> et un liner d'étanchéité posé à l'intérieur du bassin. La marque garantit la structure 30 ans et le liner 12 ans. Cette architecture donne des pathologies de fuite typiques que nous diagnostiquons régulièrement à Bordeaux et en Gironde.</p>
 
-<h2>Points de vigilance sur le système Waterair</h2>
-<p>Le système Waterair repose sur 4 éléments principaux : panneaux acier galvanisé (épaisseur 1,5 mm), feutre géotextile, liner PVC armé soudé sur place, et margelles béton coffrées en place. 4 zones concentrent les fuites observées à Bordeaux :</p>
+<h2>Avant de nous appeler : le test du seau</h2>
+<p>Pour confirmer la fuite vs évaporation : posez un seau rempli sur la première marche, marquez les niveaux, attendez 24 à 48 heures. Si la piscine baisse plus que le seau, vous avez une fuite. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite</a>.</p>
+
+<h2>Zones à investiguer en priorité sur une piscine Waterair</h2>
 <ul>
-<li><strong>Corrosion ponctuelle des panneaux acier</strong> : très rare en service normal, mais peut survenir si le galvanisé a été éraflé pendant la pose (gravier, outil) et que l'humidité côté terre attaque l'acier. Cause cumulative qui n'apparaît qu'après 15-25 ans.</li>
-<li><strong>Soudure liner défaillante</strong> : les soudures sur place du liner PVC (à l'air chaud à 480 °C) peuvent se fragiliser après 18-22 ans, en particulier sur les angles, escaliers et raccords pièces à sceller. Cas le plus fréquent sur Waterair (60 % des fuites).</li>
-<li><strong>Joint mastic skimmer/refoulement</strong> : le scellement mastic entre la pièce à sceller et le panneau acier peut se craqueler avec les cycles thermiques. Refonte en 30 minutes par notre pisciniste partenaire.</li>
-<li><strong>Traversée de paroi pour canalisations</strong> : étanchéité par joint torique double, à vérifier après 12-15 ans.</li>
+<li><strong>Liner d'étanchéité (cas le plus fréquent)</strong> : les soudures et fixations du liner sur les piscines de plus de 15-20 ans peuvent se fragiliser, en particulier au niveau des angles, escaliers et raccords pièces à sceller. C'est l'origine la plus courante des fuites sur Waterair.</li>
+<li><strong>Joints des pièces à sceller</strong> (skimmer, refoulement, projecteur, prise balai, bonde de fond) : étanchéité par joint torique et fixation par bride. Les joints peuvent durcir avec le temps, les vis se desserrer sous cycles thermiques.</li>
+<li><strong>Margelles et plage immergée</strong> : joints maçonnés entre la structure et la margelle qui peuvent craqueler avec les cycles thermiques.</li>
+<li><strong>Canalisations enterrées</strong> entre local technique et bassin : sur sols sableux du Bassin d'Arcachon (Gujan-Mestras, La Teste, Andernos) ou argileux de la métropole bordelaise, les raccords PVC peuvent se désaxer avec le temps.</li>
 </ul>
 
 <h2>Notre méthode de diagnostic sur Waterair</h2>
-<p>Sur une piscine Waterair, nos techniciens à Bordeaux suivent un protocole adapté à la structure acier + liner armé :</p>
 <ol>
-<li><strong>Inspection visuelle complète</strong> du liner PVC à la lampe rasante : recherche de plis, soudures fatiguées, points de tension. Sur les Waterair de plus de 15 ans, on identifie souvent visuellement la zone de soudure suspecte.</li>
-<li><strong>Test fluorescéine ciblé</strong> à proximité des soudures et raccords. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page fluorescéine piscine</a>.</li>
-<li><strong>Inspection acoustique</strong> des canalisations enterrées entre local technique et bassin (méthode complémentaire pour les fuites côté refoulement).</li>
-<li><strong>Test de pression</strong> sur les circuits de filtration pour isoler les fuites bassin vs réseau hydraulique.</li>
+<li><strong>Inspection visuelle complète</strong> du liner à la lampe rasante : recherche de plis, soudures fatiguées, points de tension. Sur les Waterair de plus de 15 ans, on identifie souvent visuellement la zone suspecte.</li>
+<li><strong>Test à la fluorescéine</strong> ciblé à proximité des soudures et raccords pièces à sceller. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine</a>.</li>
+<li><strong>Test de pression hydraulique</strong> sur le circuit de filtration pour isoler une fuite côté bassin vs côté canalisations enterrées.</li>
+<li><strong>Inspection acoustique ou caméra endoscopique</strong> des canalisations enterrées si suspicion de fuite côté réseau hydraulique. Voir notre <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">guide inspection caméra</a>.</li>
 </ol>
 
 <h2>Coût d'intervention à Bordeaux Métropole</h2>
-<p>Diagnostic complet sur piscine Waterair à Bordeaux : <strong>380 à 520 € HT</strong>, intervention 2 à 3 heures. Pour les fuites de liner, réparation possible par soudure thermique locale (320 à 480 € HT) ou rustine subaquatique (180 à 280 € HT) selon configuration. Voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation fuite liner piscine</a>.</p>
-<p>Sur les piscines Waterair encore sous garantie décennale, prise en charge constructeur possible si défaut de mise en œuvre. Au-delà, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>."""
+<p>Diagnostic complet sur piscine Waterair : <strong>380 à 520 € HT</strong>, intervention 2 à 3 heures, rapport remis le jour même. Pour les fuites de liner, réparation possible par soudure thermique locale ou rustine subaquatique selon configuration. Voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation fuite liner piscine</a>.</p>
+<p>Sur les piscines Waterair encore sous garantie (structure 30 ans, liner 12 ans), prise en charge constructeur possible si défaut de mise en œuvre. Pour les autres cas, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>."""
     },
     {
         "slug": "piscine-perd-3-cm-par-jour",
