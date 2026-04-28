@@ -2150,6 +2150,216 @@ N° client : ${numClient}
     )
 
 
+# ── Page B2B syndics et copropriétés Bordeaux ─────────────────
+def page_syndics_bordeaux():
+    body = '''
+<section class="hero-mini">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="/">Accueil</a>
+      <span>&rsaquo;</span>
+      <span>Syndics et copropriétés</span>
+    </nav>
+    <h1>Recherche de fuite et chemisage pour syndics de copropriétés à Bordeaux</h1>
+    <p class="hero-mini-lead">Vous gérez des copropriétés à Bordeaux et faites face à des sinistres dégât des eaux récurrents, des colonnes EU/EV en fin de vie ou des immeubles haussmanniens à rénover sans démolition ? Nous proposons aux syndics professionnels de la métropole bordelaise un <strong>diagnostic ITV gratuit</strong> sur les copropriétés de plus de 30 lots, des rapports IRSI opposables et une coordination directe avec les piscinistes/plombiers partenaires.</p>
+    <div class="hero-mini-cta">
+      <a href="/devis/" class="btn btn-gold">Demander un diagnostic syndic</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:1080px;">
+    <figure style="margin:0 0 2rem;">
+      <img src="/assets/syndics-coproprietes-bordeaux.webp" alt="Immeuble haussmannien à Bordeaux : intervention syndic et copropriété recherche de fuite et chemisage" width="1600" height="1067" loading="eager" style="width:100%;max-height:380px;height:auto;object-fit:cover;border-radius:12px;display:block;">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Notre offre dédiée aux syndics professionnels bordelais</h2>
+    <p>Bordeaux compte plus de 4 200 copropriétés gérées principalement par une trentaine de syndics professionnels (Foncia, Citya, Nexity, Inter Gestion, Cabinet Bedin, Audet Immobilier, Gironde Habitat et autres). Pour vous accompagner sur les sinistres récurrents et les travaux de réhabilitation, nous proposons une offre dédiée :</p>
+
+    <h3>Diagnostic ITV gratuit pour les copropriétés de plus de 30 lots</h3>
+    <p>Sur les immeubles de 30 lots et plus, nous offrons une <strong>inspection télévisée par caméra endoscopique gratuite</strong> d'une colonne montante EU/EV (eaux usées/vannes) au choix du syndic. Vidéo et rapport remis sous 48h pour présentation en assemblée générale ou conseil syndical. Nos caméras (Wöhler VIS 700) permettent d'inspecter jusqu'à R+10 sans démolition.</p>
+
+    <h3>Rapports d'intervention conformes IRSI</h3>
+    <p>Notre rapport technique standard est conforme à la convention IRSI 2026 et accepté par tous les assureurs IARD français : AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut, GMF. Il identifie clairement la responsabilité (lot privatif, partie commune, voisin), facilite la prise en charge inter-assureurs et limite les contestations en expertise contradictoire. Voir notre <a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">page dégâts des eaux à Bordeaux</a> pour le détail de la convention IRSI.</p>
+
+    <h3>Coordination directe avec piscinistes et plombiers partenaires</h3>
+    <p>Une fois le diagnostic posé, nous coordonnons l'intervention de nos partenaires (réseau de 8 plombiers et 3 piscinistes spécialisés sur Bordeaux Métropole), sans surcoût pour le syndic. Vous gérez un seul interlocuteur, le calendrier travaux est aligné avec vos contraintes (assemblées générales, vacances locataires, autorisations préfectorales sur immeubles classés).</p>
+
+    <h3>Tarification transparente et devis ALUR-conformes</h3>
+    <p>Nos devis sont conformes à l'arrêté du 27 février 2017 sur les marchés de travaux en copropriété (loi ALUR) : décomposition prix par cage et par étage, mention des sous-traitants, garanties contractuelles. Tarifs publics affichés et stables dans le temps :</p>
+    <ul>
+      <li><strong>Diagnostic complet (recherche fuite + ITV)</strong> : 480 à 750 € HT par cage selon hauteur (R+5 à R+10).</li>
+      <li><strong>Chemisage colonne EU/EV haussmannien</strong> : 12 000 à 28 000 € HT par colonne. Voir notre <a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">page chemisage syndic Bordeaux</a>.</li>
+      <li><strong>Chemisage colonne amiante-ciment</strong> (copros 1960-1985 type Mériadeck/Grand Parc) : 18 000 à 35 000 € HT par colonne, sans surcoût de désamiantage car le chemisage encapsule l'amiante.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Cas type : copropriété haussmannienne rue Sainte-Catherine</h2>
+    <p>Copropriété de 18 lots, immeuble 1872, R+6, gérée par un syndic professionnel bordelais. Trois sinistres dégâts des eaux en 18 mois sur la colonne EU centrale en fonte grise (diamètre 125 mm, 22 mètres de hauteur). Le syndic nous mandate après refus des locataires de continuer à supporter les nuisances.</p>
+    <p><strong>Notre intervention</strong> :</p>
+    <ul>
+      <li>Diagnostic ITV gratuit (offre 30+ lots) : identification de 14 fissures longitudinales par corrosion H2S, dépôts calcaires réduisant le diamètre utile à 95 mm.</li>
+      <li>Rapport présenté en AG : devis chemisage par réversion résine époxy, comparé au devis démolition classique (35 000 € HT). Économie : 18 600 € HT (53 %).</li>
+      <li>Vote AG : majorité des copropriétaires pour le chemisage. Mandate signé sous 30 jours.</li>
+      <li>Intervention chemisage : 3 jours, 1 demi-journée de coupure d'eau pour les 18 lots, aucune démolition de placo, aucun déménagement de locataires. Coût : <strong>18 600 € HT</strong>.</li>
+      <li>Prise en charge IRSI sur les 3 sinistres précédents (5 000 € HT chacun) : 15 000 € HT remboursés à la copropriété par les assureurs.</li>
+    </ul>
+    <p>Délai total entre première sollicitation du syndic et fin du chantier : 4 mois (incluant AG et vote).</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pourquoi nous choisir comme prestataire diagnostic syndic ?</h2>
+
+    <h3>1. Spécialiste exclusif du diagnostic non destructif</h3>
+    <p>Contrairement aux entreprises généralistes qui font diagnostic + réparation (avec conflit d'intérêt potentiel à surfacturer), nous sommes <strong>exclusivement diagnostiqueurs</strong>. Notre rapport est objectif, vous comparez les devis de réparation séparément, et le coût total est généralement 20-30 % plus bas que chez un prestataire intégré.</p>
+
+    <h3>2. Réseau partenaires éprouvé sur Bordeaux Métropole</h3>
+    <p>Plombiers, piscinistes, mosaïstes, désamianteurs : nous travaillons avec 8 prestataires sélectionnés sur la métropole bordelaise depuis 2020. Disponibilité, qualité, garanties : tous suivis sur le long terme avec un système de notation interne.</p>
+
+    <h3>3. Disponibilité 7j/7 pour les urgences</h3>
+    <p>Pour les sinistres dégât des eaux nécessitant intervention immédiate (fuite active impactant plusieurs lots, infiltration progressive vers logement habité), nous proposons un service d'astreinte le samedi (avec majoration 30 %). Voir notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">page urgence recherche de fuite Bordeaux</a>.</p>
+
+    <h3>4. Communication transparente avec les copropriétaires</h3>
+    <p>Si demandé, nous prenons en charge la communication aux copropriétaires (note d'information explicative, calendrier d'intervention, instructions de coupure d'eau). Décharge le syndic de cette tâche chronophage et améliore la satisfaction des occupants.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Services dédiés aux syndics</h2>
+    <ul>
+      <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux (gestion IRSI syndic)</a> : page dédiée à la procédure assureur en copropriété.</li>
+      <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage syndic copropriété Bordeaux</a> : préparation vote AG, dossier ALUR, intervention sans évacuation locataires.</li>
+      <li><a href="/villes/bordeaux/chemisage/" style="color:var(--green);text-decoration:underline;">Chemisage canalisation Bordeaux : guide complet</a> : page commerciale principale avec 6 chantiers concrets et tarifs détaillés.</li>
+      <li><a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">Inspection caméra canalisation Bordeaux</a> : technique et matériel.</li>
+      <li><a href="/guide/colonne-fonte-haussmannien-bordeaux-fuite/" style="color:var(--green);text-decoration:underline;">Colonne fonte haussmannien Bordeaux : pathologies</a> : focus sur le parc immobilier 1850-1914.</li>
+      <li><a href="/guide/convention-irsi-copropriete-bordeaux-degats-eaux/" style="color:var(--green);text-decoration:underline;">Convention IRSI copropriété Bordeaux</a> : seuils 2026, procédure pas à pas.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Questions fréquentes des syndics</h2>
+
+    <h3>Comment obtenir un diagnostic ITV gratuit pour ma copropriété ?</h3>
+    <p>Envoyez-nous une demande via le <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a> en mentionnant : nom de la copropriété, adresse, nombre de lots (offre valable à partir de 30 lots), nature du problème (sinistre récurrent, vétusté constatée, demande des copropriétaires). Réponse sous 48h ouvrées avec planification de l'ITV.</p>
+
+    <h3>Quel délai entre sollicitation et intervention ?</h3>
+    <p>Diagnostic ITV gratuit : sous 7 à 14 jours selon agenda. Diagnostic urgent (sinistre actif) : sous 48h. Rapport remis sous 48h après intervention. Ce délai permet généralement de présenter le dossier en AG ordinaire ou en conseil syndical extraordinaire.</p>
+
+    <h3>Pouvez-vous fournir un dossier de présentation pour l'AG ?</h3>
+    <p>Oui, sur demande. Nous fournissons un dossier comprenant : vidéo ITV intégrée, plan de la colonne avec localisation des défauts, comparatif chemisage vs démolition (coûts, délais, nuisances), garanties contractuelles, références de chantiers similaires. Format PDF prêt à diffuser.</p>
+
+    <h3>Quelles garanties offrez-vous sur les chemisages ?</h3>
+    <p>Garantie décennale 10 ans sur la mise en œuvre, opposable à l'assurance dommages-ouvrage de la copropriété. Durée de vie technique de la résine époxy : 50 ans en conditions standard. Garantie biennale sur les pièces accessibles. Notre rapport d'intervention conforme NF EN ISO 11296-4.</p>
+
+    <h3>Coordonnez-vous avec d'autres corps de métier ?</h3>
+    <p>Oui : peintre pour reprise placo aux raccords, électricien si gaine commune partagée, ascensoriste si nécessaire, désamianteur pour les copros 1960-1985 (rare, le chemisage encapsule sans désamiantage préalable). Tous coordonnés par notre soin pour décharger le syndic.</p>
+
+    <h3>Acceptez-vous les copropriétés en gestion bénévole (non syndic professionnel) ?</h3>
+    <p>Oui, à partir de 30 lots, l'offre diagnostic ITV gratuit s'applique aussi aux copropriétés en gestion directe. Pour les petites copropriétés en gestion bénévole (moins de 30 lots), tarif standard 480 à 750 € HT par cage.</p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    <h2>Demander un diagnostic syndic à Bordeaux</h2>
+    <p>Pour une copropriété de plus de 30 lots, le diagnostic ITV est gratuit et sans engagement. Pour les autres copropriétés ou les diagnostics complets (recherche fuite + ITV + rapport IRSI), tarif transparent à partir de 480 € HT par cage.</p>
+    <p style="text-align:center;margin-top:1.5rem;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un diagnostic syndic</a></p>
+  </div>
+</section>
+
+''' + form_section("Bordeaux") + '''
+'''
+
+    ld_local = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Recherche Fuite Gironde",
+  "description": "Service de diagnostic recherche de fuite et chemisage pour syndics de copropriétés à Bordeaux et en Gironde. Diagnostic ITV gratuit pour copropriétés de plus de 30 lots.",
+  "url": "https://recherche-fuite-gironde.fr/syndics-bordeaux/",
+  "areaServed": { "@type": "AdministrativeArea", "name": "Gironde" },
+  "priceRange": "€€"
+}
+</script>'''
+
+    ld_service = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Diagnostic recherche de fuite et chemisage pour syndics et copropriétés",
+  "provider": { "@type": "LocalBusiness", "name": "Recherche Fuite Gironde" },
+  "areaServed": "Gironde",
+  "description": "Offre dédiée aux syndics professionnels de Bordeaux Métropole : diagnostic ITV gratuit pour copropriétés > 30 lots, rapports IRSI opposables, coordination plombiers et piscinistes partenaires, devis ALUR-conformes."
+}
+</script>'''
+
+    ld_breadcrumb = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://recherche-fuite-gironde.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Syndics et copropriétés Bordeaux", "item": "https://recherche-fuite-gironde.fr/syndics-bordeaux/" }
+  ]
+}
+</script>'''
+
+    ld_faq = '''<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment obtenir un diagnostic ITV gratuit pour ma copropriété ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Demande via formulaire de devis avec nom copropriété, adresse, nombre de lots (offre valable à partir de 30 lots), nature du problème. Réponse sous 48h ouvrées." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel délai entre sollicitation et intervention syndic ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Diagnostic ITV gratuit : sous 7-14 jours. Diagnostic urgent sinistre actif : sous 48h. Rapport remis sous 48h après intervention. Permet présentation en AG ordinaire ou conseil syndical extraordinaire." }
+    },
+    {
+      "@type": "Question",
+      "name": "Pouvez-vous fournir un dossier de présentation pour l'AG ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui sur demande. Dossier comprenant vidéo ITV, plan colonne avec localisation défauts, comparatif chemisage vs démolition, garanties contractuelles, références chantiers similaires. Format PDF prêt à diffuser." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles garanties sur les chemisages copropriété ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Garantie décennale 10 ans sur la mise en œuvre, opposable à l'assurance dommages-ouvrage. Durée de vie technique 50 ans. Rapport conforme NF EN ISO 11296-4 et accepté par les assureurs IARD." }
+    },
+    {
+      "@type": "Question",
+      "name": "Acceptez-vous les copropriétés en gestion bénévole ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui à partir de 30 lots l'offre diagnostic ITV gratuit s'applique. Pour les petites copropriétés en gestion bénévole (moins de 30 lots), tarif standard 480 à 750 EUR HT par cage." }
+    }
+  ]
+}
+</script>'''
+
+    return html_base(
+        "Syndics copropriétés Bordeaux | Diagnostic ITV gratuit",
+        "Service dédié syndics de Bordeaux Métropole : diagnostic ITV gratuit pour copropriétés > 30 lots, rapport IRSI opposable, chemisage sans démolition, coordination ALUR.",
+        "https://recherche-fuite-gironde.fr/syndics-bordeaux/",
+        body,
+        extra_ld=ld_local + ld_service + ld_breadcrumb + ld_faq
+    )
+
+
 # ── Page contact ───────────────────────────────────────────────
 def page_contact():
     body = '''
@@ -2317,6 +2527,11 @@ def page_plan():
         <li><a href="/calcul-warsmann-bordeaux/">Calculateur loi Warsmann + courrier auto-généré</a></li>
       </ul>
 
+      <h2>Services dédiés syndics et copropriétés</h2>
+      <ul>
+        <li><a href="/syndics-bordeaux/">Diagnostic ITV gratuit pour syndics de copropriétés à Bordeaux</a></li>
+      </ul>
+
       <h2>Pages spécialisées par cas d'usage</h2>
       <p>Pages dédiées aux situations spécifiques que nous traitons quotidiennement, avec contenu approfondi et tarifs détaillés.</p>
       <ul>
@@ -2363,6 +2578,9 @@ def page_plan():
         <li><a href="/guide/evaporation-vs-fuite-piscine/">Évaporation ou fuite de piscine : taux mensuels Gironde</a></li>
         <li><a href="/guide/loi-warsmann-ecretement-facture-eau/">Loi Warsmann : écrêtement de facture d'eau après fuite</a></li>
         <li><a href="/guide/reparation-liner-piscine/">Réparation d'une fuite de liner piscine : méthodes et coûts</a></li>
+        <li><a href="/guide/remise-en-service-piscine-printemps-bordeaux/">Remise en service piscine printemps Bordeaux : checklist 2026</a></li>
+        <li><a href="/guide/fuite-piscine-apres-hivernage/">Fuite piscine après hivernage : signes et diagnostic</a></li>
+        <li><a href="/guide/piscine-perd-eau-fin-hivernage/">Piscine qui perd de l'eau en fin d'hivernage</a></li>
         <li><a href="/guide/reparation-skimmer-piscine-resine-epoxy/">Réparation skimmer piscine à la résine époxy</a></li>
         <li><a href="/guide/fuite-canalisation-enterree-assurance/">Fuite canalisation enterrée et assurance habitation</a></li>
         <li><a href="/guide/detecteur-fuite-eau-professionnel/">Détecteur de fuite d'eau professionnel : matériel et méthodes</a></li>
@@ -4311,6 +4529,138 @@ GUIDE_PAGES = [
   <li><a href="/detection-fuite/piscine-le-bouscat/" style="color:var(--green);text-decoration:underline;"><strong>Piscine Le Bouscat</strong></a> (33110) : jardins matures avec racines de platanes et chênes.</li>
 </ul>
 <p>Pour notre service de dépannage piscine multimarques (diagnostic + coordination réparation pisciniste partenaire), voir notre page <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine à Bordeaux</a>. Pour une vue d'ensemble du parc et des méthodes, voir le <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub recherche de fuite piscine en Gironde</a>."""
+    },
+    {
+        "slug": "remise-en-service-piscine-printemps-bordeaux",
+        "title": "Remise en service piscine printemps Bordeaux : checklist 2026",
+        "title_seo": "Remise en service piscine printemps Bordeaux",
+        "desc": "Checklist complète remise en service piscine au printemps en Gironde : ouverture bâche, contrôle joints, test fuite, traitement de l'eau, équilibrage chimique.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/remise-service-piscine-printemps.webp" alt="Remise en service d'une piscine au printemps en Gironde après hivernage" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Avril, mai, le soleil revient et il est temps de remettre votre piscine en service après l'hivernage. À Bordeaux et en Gironde, la remise en service de printemps est aussi le moment où l'on découvre les fuites apparues pendant l'hiver : gel, dégradation des joints, racines qui se sont infiltrées sous la bâche. Cette checklist détaillée vous guide pas à pas pour une remise en eau propre, sans surprise et sans frais cachés.</p>
+
+<h2>Pourquoi la remise en service de printemps est l'étape critique</h2>
+<p>L'hivernage a duré 4 à 6 mois. Pendant cette période, votre piscine a subi plusieurs cycles thermiques (du gel ponctuel en janvier-février aux 18-22 °C de mars-avril en Gironde), des intempéries, parfois des intrusions de racines ou d'animaux. Sur le parc piscine girondin, environ <strong>1 piscine sur 4</strong> présente une anomalie au moment de la remise en service.</p>
+
+<h2>La checklist en 8 étapes</h2>
+<ol>
+<li><strong>Retrait de la bâche d'hivernage</strong> : évacuer eau et feuilles, inspecter la bâche pour repérer toute déchirure.</li>
+<li><strong>Nettoyage du bassin</strong> : aspirer les feuilles, brosser parois et fond, nettoyer margelles. 2 à 4 heures.</li>
+<li><strong>Contrôle visuel des pièces à sceller</strong> : skimmer, buses de refoulement, projecteurs, bonde de fond, prise balai. C'est l'étape clé pour détecter les fuites naissantes.</li>
+<li><strong>Remise à niveau de l'eau</strong> jusqu'au milieu du skimmer. Marquez le niveau au feutre comme repère.</li>
+<li><strong>Remise en route filtration</strong> : vérifier le local technique, redémarrer pompe, manomètre dans la zone verte.</li>
+<li><strong>Test du seau (test de fuite obligatoire)</strong> : posez un seau rempli sur la première marche, marquez les niveaux, comparez après 24-48h. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite Gironde</a>.</li>
+<li><strong>Traitement et équilibrage chimique</strong> : pH 7,2-7,6, TAC 80-120, chlore libre 1-3 mg/L, stabilisant 30-50 mg/L.</li>
+<li><strong>Surveillance des 14 premiers jours</strong> : mesures pH/chlore tous les 2-3 jours, second test du seau à J+7 si suspicion.</li>
+</ol>
+
+<h2>Symptômes d'une fuite découverte au printemps</h2>
+<p>À cette saison, les signes typiques de fuite que vous pouvez observer :</p>
+<ul>
+<li><strong>Niveau qui s'arrête à un endroit précis</strong> (skimmer, projecteur) : fuite sur cette pièce à sceller, voir notre guide <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">piscine qui fuit ou perte d'eau</a>.</li>
+<li><strong>Pelouse anormalement verte ou détrempée près du bassin</strong> : fuite sur canalisation enterrée. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a>.</li>
+<li><strong>Carrelage de plage qui se décolle</strong> : infiltration sous la dalle.</li>
+<li><strong>Auréole d'humidité dans le local technique</strong> : fuite sur tuyauterie après filtration.</li>
+<li><strong>Manomètre à 0 alors que la pompe tourne</strong> : aspiration d'air, joint pré-filtre ou skimmer.</li>
+</ul>
+
+<h2>Notre service de remise en service à Bordeaux</h2>
+<p>Si vous suspectez une fuite à la remise en service, ne tergiversez pas : plus tôt vous diagnostiquez, plus la réparation est simple et moins l'eau perdue est coûteuse. Notre intervention de recherche de fuite : <strong>380 à 580 € HT</strong>, intervention 24-48h, rapport remis le jour même, généralement remboursée par votre assurance habitation.</p>
+<p style="text-align:center;margin-top:1.5rem;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+<p>Pages connexes : <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine Bordeaux</a>, <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>, <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine</a>, <a href="/guide/fuite-piscine-apres-hivernage/" style="color:var(--green);text-decoration:underline;">fuite piscine après hivernage</a>, <a href="/guide/piscine-perd-eau-fin-hivernage/" style="color:var(--green);text-decoration:underline;">piscine perd eau en fin d'hivernage</a>."""
+    },
+    {
+        "slug": "fuite-piscine-apres-hivernage",
+        "title": "Fuite piscine après hivernage : signes et diagnostic",
+        "title_seo": "Fuite piscine après hivernage | Diagnostic Gironde",
+        "desc": "Votre piscine a une fuite après l'hivernage en Gironde ? Causes typiques (gel, joint craquelé, bâche déchirée), méthodes de diagnostic et coûts 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-piscine-apres-hivernage.webp" alt="Piscine sous bâche d'hivernage en Gironde, contexte d'apparition de fuites après l'hiver" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous venez de retirer la bâche d'hivernage et vous constatez que votre piscine perd de l'eau anormalement ? L'apparition d'une fuite à la sortie de l'hiver est un classique sur le parc girondin : selon nos diagnostics annuels, près de <strong>20 % des piscines présentent une nouvelle fuite découverte au printemps</strong>, dont la majorité sont apparues pendant l'hivernage. Cet article détaille les causes typiques, les méthodes de diagnostic adaptées et les bonnes pratiques pour limiter le risque.</p>
+
+<h2>Pourquoi les fuites apparaissent pendant l'hivernage</h2>
+<ul>
+<li><strong>Cycles gel/dégel ponctuels</strong> : même en Gironde où le gel est rare, 1 à 3 nuits par hiver passent en dessous de 0 °C. L'eau résiduelle dans les canalisations partiellement vidées peut geler et fissurer un raccord, un joint ou une pièce plastique.</li>
+<li><strong>Bâche d'hivernage déchirée par le gel ou le vent</strong> : sur le Bassin d'Arcachon avec vents marins, la bâche peut prendre l'eau et son poids fissurer la fixation côté margelle.</li>
+<li><strong>Joints qui durcissent par le froid</strong> : les EPDM et caoutchoucs des joints toriques perdent en élasticité sous 5 °C. Au redémarrage, le joint moins souple peut commencer à fuir.</li>
+<li><strong>Mouvements de terrain saisonniers</strong> : sur les sols argileux du sud-ouest de Bordeaux (Caudéran, Le Bouscat, Gradignan), les cycles retrait-gonflement de l'argile désaxent les raccords PVC enterrés.</li>
+<li><strong>Racines de plantes en repos végétatif</strong> : pendant l'hivernage, les racines à proximité du bassin (bambous, oliviers, pins) cherchent l'humidité résiduelle et peuvent s'infiltrer dans les microfissures de raccord.</li>
+</ul>
+
+<h2>3 signes typiques d'une fuite post-hivernage</h2>
+<h3>1. Niveau plus bas que prévu à la remise en service</h3>
+<p>Vous remplissez votre piscine au niveau d'origine, vous lancez la filtration, et 24-48h plus tard le niveau a déjà baissé de plusieurs centimètres. Si vous n'avez pas baigné et qu'il n'y a pas eu de pluie, c'est suspect.</p>
+
+<h3>2. Pelouse anormalement verte ou détrempée près du bassin</h3>
+<p>Visible immédiatement sur les pelouses qui repartent en végétation. Une zone qui reste plus verte ou plus humide que le reste signale presque toujours une fuite enterrée sur canalisation. Observation à faire idéalement après 2-3 jours sans pluie.</p>
+
+<h3>3. Manomètre filtration anormal au redémarrage</h3>
+<p>Si la pression au manomètre est très basse (< 0,5 bar) avec la pompe qui tourne, il y a aspiration d'air parasite quelque part : joint pré-filtre, skimmer, prise balai, ou microfuite sur tuyau d'aspiration.</p>
+
+<h2>Notre méthode de diagnostic à Bordeaux</h2>
+<ol>
+<li><strong>Test du seau préalable</strong> (par vous, gratuit) sur 24 à 48h pour confirmer la fuite vs évaporation forte du printemps.</li>
+<li><strong>Inspection visuelle systématique</strong> des pièces à sceller, joints d'angle, soudures de liner, raccords visibles dans le local technique.</li>
+<li><strong>Test à la fluorescéine + test de pression</strong> sur les zones suspectes. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page recherche fuite à la fluorescéine</a>.</li>
+</ol>
+<p>Notre intervention dure 2 à 3 heures. Tarif : <strong>380 à 580 € HT</strong>. Rapport remis le jour même par email, accepté par tous les assureurs.</p>
+
+<h2>Réparation selon la cause identifiée</h2>
+<ul>
+<li><strong>Joint torique skimmer ou refoulement</strong> : remplacement par votre soin (12 à 35 €) ou intervention pisciniste partenaire (120 à 180 € HT).</li>
+<li><strong>Microfissure liner</strong> : voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation fuite liner piscine</a>.</li>
+<li><strong>Canalisation enterrée fissurée</strong> : tranchée locale ou chemisage. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a>.</li>
+<li><strong>Skimmer fissuré</strong> : voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</li>
+</ul>
+
+<h2>Demander un diagnostic urgent</h2>
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+<p>Voir aussi : <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service piscine printemps</a>, <a href="/guide/piscine-perd-eau-fin-hivernage/" style="color:var(--green);text-decoration:underline;">piscine perd eau fin hivernage</a>, <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine Bordeaux</a>, <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine</a>."""
+    },
+    {
+        "slug": "piscine-perd-eau-fin-hivernage",
+        "title": "Piscine qui perd de l'eau en fin d'hivernage : que faire ?",
+        "title_seo": "Piscine perd eau fin hivernage | Diagnostic Gironde",
+        "desc": "Votre piscine perd de l'eau juste avant la remise en service ? Causes typiques fin d'hivernage en Gironde, tests à faire ce soir, méthodes de diagnostic.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/piscine-perd-eau-fin-hivernage.webp" alt="Piscine en fin d'hivernage en Gironde avec niveau d'eau anormalement bas" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Mars-avril en Gironde, vous vous apprêtez à remettre votre piscine en service et vous constatez qu'elle a perdu beaucoup d'eau pendant l'hivernage : le niveau est anormalement bas, parfois jusqu'au tiers ou la moitié du bassin. Cet article décrit les 4 causes typiques de cette perte d'eau de fin d'hivernage et la méthode pour identifier laquelle vous concerne avant la remise en service complète.</p>
+
+<h2>Différencier perte normale et fuite réelle</h2>
+<p>Pendant un hivernage normal de 4 à 6 mois en Gironde, votre piscine peut légitimement perdre <strong>5 à 15 cm d'eau</strong> par évaporation cumulée, même sous bâche. Au-delà, c'est suspect.</p>
+<ul>
+<li><strong>Moins de 15 cm de perte</strong> sur 4-6 mois : évaporation normale + petites infiltrations sous bâche. Pas de fuite.</li>
+<li><strong>15 à 30 cm de perte</strong> : zone grise. Possible fuite mineure. Test du seau obligatoire au redémarrage.</li>
+<li><strong>Plus de 30 cm de perte</strong> : fuite confirmée. Diagnostic professionnel recommandé sous 2 semaines.</li>
+<li><strong>Niveau qui s'arrête juste sous le skimmer</strong> : fuite quasi certaine sur le skimmer ou la canalisation à son niveau.</li>
+</ul>
+
+<h2>Les 4 causes les plus fréquentes</h2>
+
+<h3>1. Bâche d'hivernage déchirée ou mal posée (40 % des cas)</h3>
+<p>De loin la cause la plus fréquente. Une bâche qui prend l'eau accumule plusieurs centaines de litres dessus. Le poids fait pression sur la fixation côté margelle qui peut se désserrer, ou la bâche se déchire en son centre. Résultat : entrée d'eaux pluviales sales pendant tout l'hiver, ou évacuation invisible si la bâche est trop décollée.</p>
+
+<h3>2. Joint d'étanchéité du skimmer fragilisé (25 % des cas)</h3>
+<p>Le joint mastic entre le skimmer et la paroi se durcit avec le froid. Au moindre cycle gel/dégel, il peut craqueler. Symptôme : niveau qui s'arrête juste sous le skimmer.</p>
+
+<h3>3. Microfissure liner ou coque (20 % des cas)</h3>
+<p>Sur les piscines de plus de 12 ans, le liner ou le gel-coat peut développer des microfissures invisibles. Voir nos guides <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">fuite liner piscine</a> et <a href="/guide/fuite-coque-polyester-piscine/" style="color:var(--green);text-decoration:underline;">fuite coque polyester</a>.</p>
+
+<h3>4. Fuite enterrée sur canalisation (15 % des cas)</h3>
+<p>Plus rare mais plus problématique. Une canalisation enterrée fragilisée par les mouvements de terrain hivernaux peut commencer à fuir lentement. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a>.</p>
+
+<h2>Que faire avant la remise en service complète</h2>
+<ol>
+<li><strong>Ne remettez pas en eau d'un coup</strong> : examen visuel à sec sur 30 minutes, beaucoup de fuites se voient mieux quand le bassin n'est qu'à moitié plein.</li>
+<li><strong>Inspection visuelle systématique</strong> : pièces à sceller, angles, soudures, fissures éventuelles dans le gel-coat ou la peinture.</li>
+<li><strong>Remplissage progressif et test du seau</strong> sur 24-48h. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite</a>.</li>
+<li><strong>Test du repère filtration ON/OFF</strong> : 24h en marche puis 24h arrêtée. Une baisse plus rapide en marche = fuite côté refoulement. Une baisse plus rapide à l'arrêt = fuite bassin/skimmer.</li>
+</ol>
+
+<h2>Notre intervention urgente fin d'hivernage</h2>
+<p>Si vos tests confirment une fuite et que vous voulez remettre en service avant les beaux jours, faites diagnostiquer en urgence. Notre équipe priorise les diagnostics en avril-mai (saison de pic). Tarif <strong>380 à 580 € HT</strong>, intervention sous 24-48h, rapport jour même, généralement remboursé par votre assurance habitation.</p>
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+<p>Voir aussi : <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service piscine printemps Bordeaux</a>, <a href="/guide/fuite-piscine-apres-hivernage/" style="color:var(--green);text-decoration:underline;">fuite piscine après hivernage</a>, <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine Bordeaux</a>, <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine</a>."""
     },]
 
 def page_guide_article(art):
@@ -8528,6 +8878,7 @@ def gen_sitemap():
         'https://recherche-fuite-gironde.fr/guide/faq/',
         'https://recherche-fuite-gironde.fr/simulateur-cout-fuite/',
         'https://recherche-fuite-gironde.fr/calcul-warsmann-bordeaux/',
+        'https://recherche-fuite-gironde.fr/syndics-bordeaux/',
     ]
     urls += [f'https://recherche-fuite-gironde.fr/guide/{a["slug"]}/' for a in GUIDE_PAGES]
     urls += [f'https://recherche-fuite-gironde.fr/villes/{v["slug"]}/' for v in VILLES]
@@ -8599,6 +8950,7 @@ def main():
     write('plan-du-site/index.html', page_plan())
     write('simulateur-cout-fuite/index.html', page_simulateur_cout_fuite())
     write('calcul-warsmann-bordeaux/index.html', page_calcul_warsmann_bordeaux())
+    write('syndics-bordeaux/index.html', page_syndics_bordeaux())
 
     print('[3/8] Guide — sommaire...')
     write('guide/index.html', page_guide_index())
