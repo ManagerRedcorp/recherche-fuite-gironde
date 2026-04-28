@@ -1791,9 +1791,9 @@ def page_calcul_warsmann_bordeaux():
       </div>
 
       <div id="courrier-aperçu" style="display:none;margin-top:2rem;">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:.5rem;">
           <h2 style="margin:0;font-size:1.4rem;">Aperçu du courrier</h2>
-          <button type="button" onclick="window.print()" style="padding:.7rem 1.2rem;background:var(--gold);color:var(--white);border:none;border-radius:6px;cursor:pointer;font-weight:600;">Imprimer / Enregistrer en PDF</button>
+          <button type="button" onclick="imprimerCourrier()" style="padding:.7rem 1.2rem;background:var(--gold);color:var(--white);border:none;border-radius:6px;cursor:pointer;font-weight:600;">Imprimer / Enregistrer en PDF</button>
         </div>
 
         <div id="courrier-content" style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:3rem;font-family:Georgia, serif;line-height:1.6;">
@@ -1912,16 +1912,40 @@ def page_calcul_warsmann_bordeaux():
   </div>
 </section>
 
-<style>
-@media print {
-  body * { visibility: hidden; }
-  #courrier-content, #courrier-content * { visibility: visible; }
-  #courrier-content { position: absolute; left: 0; top: 0; width: 100%; padding: 2rem; border: none; }
-  #courrier-content button { display: none; }
-}
-</style>
-
 <script>
+function imprimerCourrier() {
+  var content = document.getElementById("courrier-content").innerHTML;
+  if (!content || content.trim() === "") {
+    alert("Veuillez d abord générer le courrier en remplissant vos coordonnées.");
+    return;
+  }
+  var w = window.open("", "_blank", "width=800,height=900");
+  if (!w) {
+    alert("Veuillez autoriser les popups pour imprimer le courrier.");
+    return;
+  }
+  w.document.write([
+    "<!DOCTYPE html>",
+    "<html lang=\\"fr\\"><head>",
+    "<meta charset=\\"UTF-8\\">",
+    "<title>Demande d ecretement loi Warsmann</title>",
+    "<style>",
+    "@page { margin: 2cm; }",
+    "body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; color: #1a1a18; max-width: 18cm; margin: 0 auto; padding: 1cm 0; font-size: 11pt; }",
+    "p { margin: 0 0 .8em 0; }",
+    "ul { margin: .5em 0 1em 1.5em; padding: 0; }",
+    "li { margin-bottom: .3em; }",
+    "strong { font-weight: 700; }",
+    "</style>",
+    "</head><body>",
+    content,
+    "</body></html>"
+  ].join(""));
+  w.document.close();
+  w.focus();
+  setTimeout(function() { w.print(); }, 300);
+}
+
 function calculerWarsmann() {
   var consoMoy = parseFloat(document.getElementById("conso-moyenne").value);
   var consoActu = parseFloat(document.getElementById("conso-actuelle").value);
