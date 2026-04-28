@@ -1204,8 +1204,8 @@ def page_simulateur_cout_fuite():
       <span>&rsaquo;</span>
       <span>Simulateur coût fuite</span>
     </nav>
-    <h1>Simulateur de coût d\'une fuite d\'eau à Bordeaux et en Gironde</h1>
-    <p class="hero-mini-lead">Combien vous coûte vraiment votre fuite d\'eau ? Calculez en 30 secondes le coût mensuel et annuel de votre fuite avec les <strong>tarifs réels Suez et Régie de Bordeaux Métropole 2026</strong>, et découvrez si la loi Warsmann peut plafonner votre facture. Calculateur gratuit et anonyme, sans inscription.</p>
+    <h1>Simulateur de coût d\'une fuite d\'eau à Bordeaux</h1>
+    <p class="hero-mini-lead">Combien vous coûte vraiment votre fuite d\'eau ? <strong>Calcul en 30 secondes</strong> avec les tarifs Suez et Régie de Bordeaux Métropole 2026, plus la vérification automatique de la loi Warsmann. Gratuit et anonyme, sans inscription.</p>
   </div>
 </section>
 
