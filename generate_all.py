@@ -2239,6 +2239,8 @@ def page_syndics_bordeaux():
     <h2>Services dédiés aux syndics</h2>
     <ul>
       <li><a href="/detection-fuite/degats-des-eaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Dégâts des eaux à Bordeaux (gestion IRSI syndic)</a> : page dédiée à la procédure assureur en copropriété.</li>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Urgence recherche de fuite à Bordeaux</a> : intervention sous 24h pour les sinistres actifs en copropriété (fuite colonne EU/EV, infiltration plafond locataire, dégât multi-lots).</li>
+      <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite après compteur à Bordeaux</a> : surconsommation inexpliquée sur réseau privatif d'immeuble, écrêtement loi Warsmann pour la copropriété.</li>
       <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage syndic copropriété Bordeaux</a> : préparation vote AG, dossier ALUR, intervention sans évacuation locataires.</li>
       <li><a href="/villes/bordeaux/chemisage/" style="color:var(--green);text-decoration:underline;">Chemisage canalisation Bordeaux : guide complet</a> : page commerciale principale avec 6 chantiers concrets et tarifs détaillés.</li>
       <li><a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">Inspection caméra canalisation Bordeaux</a> : technique et matériel.</li>
@@ -2597,6 +2599,7 @@ def page_plan():
         <li><a href="/guide/colonne-fonte-haussmannien-bordeaux-fuite/">Colonne en fonte haussmannien Bordeaux</a></li>
         <li><a href="/guide/convention-irsi-copropriete-bordeaux-degats-eaux/">Convention IRSI copropriété Bordeaux</a></li>
         <li><a href="/guide/fuite-pvc-enterree-jardin-bordeaux/">Fuite PVC enterrée jardin Bordeaux</a></li>
+        <li><a href="/guide/fuite-eau-jardin-bordeaux/">Fuite d'eau dans le jardin à Bordeaux : que faire</a></li>
       </ul>
 
       <h2>Recherche de fuite par ville (30 communes)</h2>
@@ -2784,7 +2787,9 @@ GUIDE_PAGES = [
 <h2>Le rapport de recherche de fuite</h2>
 <p>C'est le document central de votre dossier. Il doit mentionner : la localisation précise de la fuite, la technique utilisée, les photos de l'intervention et les préconisations de réparation. Nous fournissons systématiquement ce rapport à l'issue de chaque intervention en Gironde.</p>
 <h2>Cas de la fuite après compteur : la loi Warsmann</h2>
-<p>Si la fuite se situe sur votre réseau privatif enterré (entre compteur et habitation), vous pouvez cumuler la prise en charge assurance ET un écrêtement de facture d'eau auprès de votre distributeur. La loi Warsmann de 2011 plafonné la surfacturation due à une fuite enterrée indétectable. Consultez notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur à Bordeaux</a> pour la procédure complète. Pour le détail spécifique de la prise en charge sur fuite enterrée (procédure pas à pas, cas concrets, exclusions), voir notre guide <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">fuite canalisation enterrée et assurance habitation</a>.</p>"""
+<p>Si la fuite se situe sur votre réseau privatif enterré (entre compteur et habitation), vous pouvez cumuler la prise en charge assurance ET un écrêtement de facture d'eau auprès de votre distributeur. La loi Warsmann de 2011 plafonné la surfacturation due à une fuite enterrée indétectable. Consultez notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur à Bordeaux</a> pour la procédure complète. Pour le détail spécifique de la prise en charge sur fuite enterrée (procédure pas à pas, cas concrets, exclusions), voir notre guide <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">fuite canalisation enterrée et assurance habitation</a>.</p>
+<h2>Cas particulier : fuite visible dans votre jardin</h2>
+<p>Si la fuite se manifeste par une zone humide anormale, une flaque persistante ou une herbe plus verte sur un tracé linéaire dans votre jardin, voir notre guide pratique <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> qui détaille les 4 signes pour confirmer la fuite, les premiers réflexes, les sources fréquentes en Gironde (canalisation alimentation, arrosage automatique, évacuation, piscine voisine) et la méthode de localisation sans creuser.</p>"""
     },
     {
         "slug": "urgence-fuite-eau",
@@ -2803,7 +2808,7 @@ GUIDE_PAGES = [
 <p>En appartement, une fuite peut affecter les logements du dessous ou du dessus. Prévenez-les immédiatement et laissez leur vos coordonnées.</p>
 <h2>Faites appel à un professionnel pour localiser la fuite</h2>
 <p>Une fois l'urgence gérée, il est indispensable de faire localiser la fuite par un professionnel avant toute remise en eau. En Gironde, nous intervenons sous 24h pour une <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">recherche de fuite non destructive</a> avec remise du rapport assurance.</p>
-<p>Pour les fuites actives importantes sur Bordeaux et sa métropole, consultez notre page dédiée à la <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> : intervention sous 24h, qualification téléphonique dans l'heure, rapport remis le jour même. Si votre surconsommation d'eau est inexpliquée, la fuite se situe peut-être sur le réseau privatif : voir notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> (écrêtement de facture possible selon loi Warsmann).</p>"""
+<p>Pour les fuites actives importantes sur Bordeaux et sa métropole, consultez notre page dédiée à la <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a> : intervention sous 24h, qualification téléphonique dans l'heure, rapport remis le jour même. Si votre surconsommation d'eau est inexpliquée, la fuite se situe peut-être sur le réseau privatif : voir notre guide <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> (écrêtement de facture possible selon loi Warsmann). Pour l'ensemble de nos prestations sur la commune (canalisations encastrées, dégâts des eaux, planchers chauffants, piscine, urgences), voir notre page <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite à Bordeaux</a>.</p>"""
     },
     {
         "slug": "recherche-fuite-piscine-tarif",
@@ -3366,7 +3371,7 @@ GUIDE_PAGES = [
 <li>Villa Arcachon, fuite très lente 12 mois non détectée : 240 m³ surconsommation. Facture initiale 960 euros, après écrêtement 420 euros. <strong>économie : 540 euros.</strong></li>
 </ul>
 
-<p>Notre intervention (environ 450 euros HT en moyenne pour la recherche de fuite enterrée) est largement rentabilisee par l'écrêtement dans la majorite des cas. Pour en savoir plus sur notre méthodologie gaz traceur, consultez notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>. Pour les fuites après compteur plus généralement, voir <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur</a>. Pour prendre rendez-vous, utilisez notre formulaire de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis gratuit</a>.</p>"""
+<p>Notre intervention (environ 450 euros HT en moyenne pour la recherche de fuite enterrée) est largement rentabilisee par l'écrêtement dans la majorite des cas. Pour en savoir plus sur notre méthodologie gaz traceur, consultez notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>. Pour les fuites après compteur plus généralement, voir <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite d'eau après compteur</a>. Pour les abonnés Suez à Bordeaux confrontés à une facture doublée, voir notre page d'intervention <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite à Bordeaux</a>. Pour prendre rendez-vous, utilisez notre formulaire de <a href="/devis/" style="color:var(--green);text-decoration:underline;">demande de devis gratuit</a>.</p>"""
     },
     {
         "slug": "prix-recherche-fuite-bordeaux",
@@ -4087,7 +4092,10 @@ GUIDE_PAGES = [
 
 <h2>Notre intervention sur Bordeaux Métropole</h2>
 <p>Tarif diagnostic complet : <strong>380 à 580 € HT</strong> selon complexité, intervention 2 à 4 heures, rapport remis le jour même par email. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>).</p>
-<p>Pour les piscines de moins de 10 ans, vérifiez d'abord la garantie décennale du constructeur : si la fuite est due à un défaut de construction ou de mise en œuvre, la prise en charge est gratuite par Desjoyaux ou son concessionnaire. Voir aussi nos pages <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine multimarques Bordeaux</a>."""
+<p>Pour les piscines de moins de 10 ans, vérifiez d'abord la garantie décennale du constructeur : si la fuite est due à un défaut de construction ou de mise en œuvre, la prise en charge est gratuite par Desjoyaux ou son concessionnaire. Voir aussi nos pages <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine multimarques Bordeaux</a>.</p>
+
+<h2>Autres constructeurs de piscine à Bordeaux</h2>
+<p>Si votre piscine n'est pas une Desjoyaux, consultez nos guides constructeurs dédiés : <a href="/guide/fuite-piscine-magiline-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Magiline à Bordeaux</a> (béton banché et NFX), <a href="/guide/fuite-piscine-diffazur-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Diffazur à Bordeaux</a> (béton armé projeté gunite) ou <a href="/guide/fuite-piscine-waterair-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Waterair à Bordeaux</a> (panneaux acier et liner). Pour une vue d'ensemble multi-marques, voir notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a>."""
     },
     {
         "slug": "fuite-piscine-magiline-bordeaux",
@@ -4121,7 +4129,10 @@ GUIDE_PAGES = [
 
 <h2>Coûts et coordination réparation à Bordeaux</h2>
 <p>Diagnostic complet sur piscine Magiline à Bordeaux : <strong>380 à 580 € HT</strong>, intervention 2 à 3 heures, rapport technique remis le jour même par email. Pour la réparation, nous orientons toujours en priorité vers le réseau de concessionnaires Magiline qui maîtrise la spécificité du système NFX et garantit la conformité des pièces et de la mise en œuvre.</p>
-<p>Pour les piscines Magiline encore sous garantie décennale (moins de 10 ans), prise en charge constructeur possible si défaut de mise en œuvre prouvé. Au-delà, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a> et notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Bordeaux</a>."""
+<p>Pour les piscines Magiline encore sous garantie décennale (moins de 10 ans), prise en charge constructeur possible si défaut de mise en œuvre prouvé. Au-delà, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a> et notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Bordeaux</a>.</p>
+
+<h2>Autres constructeurs de piscine à Bordeaux</h2>
+<p>Si votre piscine n'est pas une Magiline, consultez nos guides dédiés : <a href="/guide/fuite-piscine-desjoyaux-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Desjoyaux à Bordeaux</a> (bloc filtrant intégré), <a href="/guide/fuite-piscine-diffazur-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Diffazur à Bordeaux</a> (béton armé projeté gunite) ou <a href="/guide/fuite-piscine-waterair-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Waterair à Bordeaux</a> (panneaux acier et liner). Pour une vue d'ensemble multi-marques, voir notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a>."""
     },
     {
         "slug": "fuite-piscine-diffazur-bordeaux",
@@ -4154,7 +4165,10 @@ GUIDE_PAGES = [
 
 <h2>Réparation et coût d'intervention à Bordeaux</h2>
 <p>Diagnostic complet : <strong>380 à 580 € HT</strong>, intervention 2 à 4 heures, rapport remis le jour même. Pour la réparation, le choix du prestataire dépend de la finition : pour les peintures/enduits, un pisciniste piscine-béton classique convient ; pour les mosaïques et carrelages, nous orientons vers un mosaïste spécialisé (compétence plus rare en Gironde) ; pour les fissures structurelles, intervention résine époxy d'injection.</p>
-<p>Sur les piscines Diffazur de moins de 10 ans, la garantie décennale du constructeur couvre les défauts de mise en œuvre. Au-delà, prise en charge possible par votre assurance habitation si dégât des eaux constaté (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>). Pour notre service multimarques, voir <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>."""
+<p>Sur les piscines Diffazur de moins de 10 ans, la garantie décennale du constructeur couvre les défauts de mise en œuvre. Au-delà, prise en charge possible par votre assurance habitation si dégât des eaux constaté (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>). Pour notre service multimarques, voir <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a> et <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>.</p>
+
+<h2>Autres constructeurs de piscine à Bordeaux</h2>
+<p>Si votre piscine n'est pas une Diffazur, consultez nos guides dédiés : <a href="/guide/fuite-piscine-desjoyaux-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Desjoyaux à Bordeaux</a> (bloc filtrant intégré), <a href="/guide/fuite-piscine-magiline-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Magiline à Bordeaux</a> (béton banché et NFX) ou <a href="/guide/fuite-piscine-waterair-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Waterair à Bordeaux</a> (panneaux acier et liner). Pour une vue d'ensemble multi-marques, voir notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a>."""
     },
     {
         "slug": "fuite-piscine-waterair-bordeaux",
@@ -4186,7 +4200,10 @@ GUIDE_PAGES = [
 
 <h2>Coût d'intervention à Bordeaux Métropole</h2>
 <p>Diagnostic complet sur piscine Waterair : <strong>380 à 520 € HT</strong>, intervention 2 à 3 heures, rapport remis le jour même. Pour les fuites de liner, réparation possible par soudure thermique locale ou rustine subaquatique selon configuration. Voir notre guide <a href="/guide/reparation-liner-piscine/" style="color:var(--green);text-decoration:underline;">réparation fuite liner piscine</a>.</p>
-<p>Sur les piscines Waterair encore sous garantie (structure 30 ans, liner 12 ans), prise en charge constructeur possible si défaut de mise en œuvre. Pour les autres cas, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a>."""
+<p>Sur les piscines Waterair encore sous garantie (structure 30 ans, liner 12 ans), prise en charge constructeur possible si défaut de mise en œuvre. Pour les autres cas, votre assurance habitation peut intervenir au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>). Pour notre service dépannage piscine multimarques, voir <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine Bordeaux</a> et notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine Bordeaux</a>.</p>
+
+<h2>Autres constructeurs de piscine à Bordeaux</h2>
+<p>Si votre piscine n'est pas une Waterair, consultez nos guides dédiés : <a href="/guide/fuite-piscine-desjoyaux-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Desjoyaux à Bordeaux</a> (bloc filtrant intégré), <a href="/guide/fuite-piscine-magiline-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Magiline à Bordeaux</a> (béton banché et NFX) ou <a href="/guide/fuite-piscine-diffazur-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Diffazur à Bordeaux</a> (béton armé projeté gunite). Pour une vue d'ensemble multi-marques, voir notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a>."""
     },
     {
         "slug": "piscine-perd-3-cm-par-jour",
@@ -4434,7 +4451,8 @@ GUIDE_PAGES = [
 
 <h2>Notre intervention sur Bordeaux Métropole et Bassin d'Arcachon</h2>
 <p>Diagnostic complet d'une fuite PVC enterrée à Bordeaux : <strong>380 à 580 € HT</strong>, intervention 2 à 4 heures, rapport technique remis le jour même. Souvent intégralement remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance fuite enterrée</a>).</p>
-<p>Si votre facture d'eau a explosé, vous pouvez aussi activer la procédure d'écrêtement loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole : voir notre <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a> et <a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide facture Suez doublée</a>."""
+<p>Si votre facture d'eau a explosé, vous pouvez aussi activer la procédure d'écrêtement loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole : voir notre <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a> et <a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide facture Suez doublée</a>.</p>
+<p>Vous n'êtes pas sûr que votre fuite soit sur du PVC enterré et cherchez d'abord à comprendre les signes d'une fuite extérieure ? Voir notre guide grand public <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> pour identifier la source en 4 signes et les premiers réflexes."""
     },
     {
         "slug": "fuite-piscine-bordeaux",
@@ -4528,7 +4546,7 @@ GUIDE_PAGES = [
   <li><a href="/detection-fuite/piscine-libourne/" style="color:var(--green);text-decoration:underline;"><strong>Piscine Libourne</strong></a> (33500) : chais viticoles anciens, sol argileux Libournais.</li>
   <li><a href="/detection-fuite/piscine-le-bouscat/" style="color:var(--green);text-decoration:underline;"><strong>Piscine Le Bouscat</strong></a> (33110) : jardins matures avec racines de platanes et chênes.</li>
 </ul>
-<p>Pour notre service de dépannage piscine multimarques (diagnostic + coordination réparation pisciniste partenaire), voir notre page <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine à Bordeaux</a>. Pour une vue d'ensemble du parc et des méthodes, voir le <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub recherche de fuite piscine en Gironde</a>."""
+<p>Pour notre service de dépannage piscine multimarques (diagnostic + coordination réparation pisciniste partenaire), voir notre page <a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">dépannage piscine à Bordeaux</a>. Pour une vue d'ensemble du parc et des méthodes, voir le <a href="/detection-fuite/piscine/" style="color:var(--green);text-decoration:underline;">hub recherche de fuite piscine en Gironde</a>. Si votre fuite ne concerne pas la piscine mais le réseau intérieur, les canalisations encastrées ou un dégât des eaux à votre domicile, voir notre page <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite à Bordeaux</a> qui couvre l'ensemble des prestations sur la commune."""
     },
     {
         "slug": "remise-en-service-piscine-printemps-bordeaux",
@@ -4661,6 +4679,102 @@ GUIDE_PAGES = [
 <p>Si vos tests confirment une fuite et que vous voulez remettre en service avant les beaux jours, faites diagnostiquer en urgence. Notre équipe priorise les diagnostics en avril-mai (saison de pic). Tarif <strong>380 à 580 € HT</strong>, intervention sous 24-48h, rapport jour même, généralement remboursé par votre assurance habitation.</p>
 <p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
 <p>Voir aussi : <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service piscine printemps Bordeaux</a>, <a href="/guide/fuite-piscine-apres-hivernage/" style="color:var(--green);text-decoration:underline;">fuite piscine après hivernage</a>, <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche fuite piscine Bordeaux</a>, <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine</a>."""
+    },
+    {
+        "slug": "fuite-eau-jardin-bordeaux",
+        "title": "Fuite d'eau dans le jardin à Bordeaux : que faire pour la localiser",
+        "title_seo": "Fuite d'eau jardin Bordeaux | Que faire",
+        "desc": "Une fuite d'eau dans votre jardin à Bordeaux ? Identifier la source en 4 signes, réflexes d'urgence, sources fréquentes en Gironde, diagnostic sans creuser et prix 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-eau-jardin-bordeaux.webp" alt="Jardin résidentiel arrosé en Gironde, contexte d'une recherche de fuite d'eau extérieure" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous constatez une zone humide anormale dans votre jardin, une flaque qui ne sèche jamais malgré le beau temps, ou une facture d'eau qui a doublé sans changement d'usage ? Une fuite d'eau extérieure peut rester invisible plusieurs semaines avant d'être repérée, mais une fois identifiée, elle se diagnostique et se localise sans démolir votre jardin. Cet article vous donne la méthode complète pour confirmer la fuite, réagir vite et faire intervenir le bon professionnel à Bordeaux et en Gironde.</p>
+
+<h2>Suis-je face à une fuite ? Les 4 signes qui ne trompent pas</h2>
+<p>Avant d'engager des frais de diagnostic, vérifiez ces quatre signes. Si au moins deux sont présents, vous avez une fuite à confirmer rapidement.</p>
+<ul>
+<li><strong>Zone gorgée d'eau persistante</strong> : un endroit du jardin reste humide ou détrempé alors qu'il n'a pas plu depuis 48 heures. Le sol s'enfonce sous le pied, l'herbe est plus haute ou plus verte sur cette zone, parfois sur un tracé linéaire qui suit la canalisation enterrée.</li>
+<li><strong>Compteur d'eau qui tourne tout seul</strong> : fermez tous les robinets, l'arrosage automatique et le remplissage piscine. Vérifiez votre compteur. Si le petit voyant rouge ou la dernière roue tourne après 30 minutes, vous avez une consommation invisible — donc une fuite quelque part sur votre réseau privatif.</li>
+<li><strong>Facture d'eau anormalement élevée</strong> : si votre dernière facture Suez (ou autre fournisseur en Gironde) dépasse <strong>du double</strong> votre moyenne des 3 dernières années, votre service de l'eau a normalement obligation de vous prévenir. C'est un déclencheur typique de la <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">procédure d'écrêtement loi Warsmann</a>.</li>
+<li><strong>Bruit ou sifflement permanent</strong> dans le local technique ou près du compteur, même quand tout est fermé : signe d'écoulement sous pression dans la canalisation enterrée.</li>
+</ul>
+<p>Pour détailler la mesure compteur, voir aussi notre guide <a href="/guide/compteur-eau-qui-tourne-sans-utilisation/" style="color:var(--green);text-decoration:underline;">compteur qui tourne sans utilisation</a> avec procédure exacte étape par étape.</p>
+
+<h2>Premiers réflexes en attendant le diagnostic</h2>
+<p>Une fuite extérieure ne se résorbe jamais d'elle-même. L'eau sous pression élargit progressivement la fissure et la facture d'eau continue à courir tant que la fuite n'est pas localisée et réparée. Voici les bons gestes immédiats :</p>
+<ol>
+<li><strong>Si fuite massive (geyser visible, jardin inondé)</strong> : coupez immédiatement l'arrivée d'eau générale (vanne au compteur, généralement en limite de propriété). Vous gardez l'usage des toilettes et de la cuisine en ouvrant uniquement quand nécessaire si vous remplissez vos réserves préalablement.</li>
+<li><strong>Si fuite lente (zone humide, compteur qui tourne légèrement)</strong> : laissez l'eau active mais photographiez la zone humide avec un repère métrique (mètre déposé au sol) pour suivre l'évolution. Notez la consommation au compteur matin et soir pour mesurer le débit de fuite en litres/jour.</li>
+<li><strong>Ne creusez pas</strong> de votre propre initiative tant que la zone précise de la fuite n'a pas été localisée par un professionnel. Creuser au mauvais endroit coûte 300 à 800 € de remise en état pour rien et risque d'endommager d'autres réseaux (gaz, électricité, télécom).</li>
+<li><strong>Préparez votre dossier assurance</strong> : photos de la zone humide datées, copies des 3 dernières factures d'eau pour démontrer la surconsommation, contact de votre fournisseur d'eau (Suez à Bordeaux Métropole). Voir notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d'eau</a>.</li>
+</ol>
+
+<h2>Les 4 sources fréquentes d'une fuite extérieure en Gironde</h2>
+<p>Sur les diagnostics de fuites de jardin que nous réalisons à Bordeaux et en Gironde, l'origine se concentre sur quatre causes avec des proportions stables :</p>
+
+<h3>1. Canalisation d'alimentation en eau potable (50-60 % des cas)</h3>
+<p>Tuyau PVC ou polyéthylène (PE) enterré entre votre compteur et la maison, généralement à 60-80 cm de profondeur. Sur les sols sableux du Bassin d'Arcachon (Gujan-Mestras, La Teste, Andernos) ou argileux de la métropole bordelaise (Caudéran, Mérignac, Talence), les raccords se désaxent au bout de 15 à 30 ans avec les mouvements de terrain saisonniers. Voir notre <a href="/guide/fuite-pvc-enterree-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">guide technique fuite PVC enterrée jardin</a> pour le détail des pathologies.</p>
+
+<h3>2. Arrosage automatique et électrovannes (20 % des cas)</h3>
+<p>Les systèmes d'arrosage automatique (Rain Bird, Hunter, Gardena) installés depuis plus de 10 ans présentent fréquemment des fuites au niveau des raccords PE, des électrovannes vieillissantes ou des têtes d'arroseurs cassées. La fuite passe souvent inaperçue car elle s'écoule directement dans le sol sous l'arroseur. Diagnostic par fermeture des vannes maître + observation des arroseurs un par un.</p>
+
+<h3>3. Réseau d'évacuation eaux usées ou pluviales (15 % des cas)</h3>
+<p>Affaissement local du sol, racines d'arbres traversantes (peupliers, saules, marronniers) qui pénètrent les joints des canalisations. Plus rare mais souvent confondu avec une fuite d'eau potable. Diagnostic par <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</p>
+
+<h3>4. Bassin, piscine ou local technique mitoyen (10-15 % des cas)</h3>
+<p>Si vous avez une piscine ou un voisin proche en a une, vérifiez d'abord le test du seau côté piscine. Les fuites de canalisations enterrées de piscine peuvent émerger en surface à plusieurs mètres du bassin. Voir notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a>.</p>
+
+<h2>Comment on localise une fuite de jardin sans creuser</h2>
+<p>La recherche de fuite non destructive a remplacé depuis 15 ans la méthode brutale du « tranchée d'exploration » qui détruisait pelouse, allées et plantations sans garantie de résultat. Notre intervention dure 2 à 4 heures et combine plusieurs méthodes selon le scénario :</p>
+<ul>
+<li><strong>Gaz traceur azote-hydrogène</strong> : on injecte un mélange gazeux non toxique et plus léger que l'air dans la canalisation isolée. Le gaz remonte en surface au droit de la fuite et est détecté par un capteur de gaz très sensible. Précision au centimètre. Méthode reine pour les canalisations PVC enterrées.</li>
+<li><strong>Corrélation acoustique</strong> : deux capteurs vibratoires placés sur le réseau analysent par calcul de différence de phase la position du bruit d'écoulement. Efficace sur les canalisations métalliques sous pression (cuivre, acier galvanisé).</li>
+<li><strong>Caméra thermique infrarouge</strong> : repérage des contrastes de température au sol, utile quand l'eau qui fuit a une température différente du sol environnant (eau chaude depuis chauffe-eau, eau froide profonde).</li>
+<li><strong>Inspection caméra endoscopique</strong> : passage d'une caméra étanche dans le réseau via un regard ou un point d'accès, pour visualiser directement les fissures, racines ou désaxements de raccord.</li>
+</ul>
+<p>Pour le détail de notre méthodologie, voir notre page <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>.</p>
+
+<h2>Combien ça coûte et qui paie ?</h2>
+<p>Le diagnostic complet d'une fuite de jardin à Bordeaux Métropole coûte <strong>380 à 580 € HT</strong> selon la complexité (longueur du réseau, méthode requise, accessibilité). Intervention sous 24 à 48 heures, rapport technique remis le jour même par email avec photos et localisation au mètre près. Pour la grille tarifaire complète selon la méthode, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+<p>Bonne nouvelle : ce diagnostic est <strong>généralement remboursé par votre assurance habitation</strong> au titre de la garantie « recherche de fuite » incluse dans la majorité des contrats multirisques (AXA, MAIF, MAAF, Macif, Generali, Allianz). Vous avancez les frais et l'assureur rembourse sur présentation du rapport technique. Voir notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance recherche de fuite</a>.</p>
+<p>Si votre facture d'eau a doublé à cause de la fuite, vous pouvez aussi obtenir un <strong>écrêtement de facture</strong> via la loi Warsmann (article L2224-12-4 du CGCT) : Suez ou votre fournisseur plafonne votre facture au double de votre consommation moyenne. Pour calculer votre écrêtement éligible et générer la lettre type à envoyer, utilisez notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a>.</p>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Sous quel délai pouvez-vous intervenir ?</h3>
+<p>Intervention sous 24 à 48 heures sur Bordeaux Métropole et la métropole girondine. Pour les urgences absolues (fuite massive, sous-sol inondé, voisin impacté), voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence recherche de fuite Bordeaux</a> sous 24h.</p>
+
+<h3>Faut-il tout creuser après le diagnostic ?</h3>
+<p>Non. Une fois la fuite localisée au mètre près par notre intervention, la réparation se fait sur une fouille ponctuelle de 50 cm × 50 cm en moyenne (un seul mètre carré de pelouse). Pour les canalisations PE en fuite ponctuelle, certaines réparations se font même par chemisage interne sans aucune fouille. Voir notre <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">guide chemisage canalisation</a>.</p>
+
+<h3>Et si la fuite est sur mon arrosage automatique ?</h3>
+<p>Notre diagnostic identifie aussi les fuites sur réseau d'arrosage. Pour la réparation, vous pouvez ensuite faire intervenir l'installateur d'origine ou un paysagiste irrigation. Notre rapport leur donne la localisation précise du défaut (raccord PE, électrovanne, tête arroseuse) et fait gagner 60 à 80 % de leur temps de réparation.</p>
+
+<h3>Mon assurance va-t-elle vraiment rembourser ?</h3>
+<p>Dans 85 % des cas oui, sur présentation du rapport technique conforme. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la recherche de fuite. Vérifiez votre contrat à la rubrique « dégât des eaux » ou « garantie recherche de fuite » et appelez votre conseiller pour validation préalable si vous avez un doute.</p>
+
+<h3>Mon voisin se plaint d'humidité, est-ce que je suis responsable ?</h3>
+<p>Si votre fuite déborde sur la propriété voisine et cause un sinistre humidité, votre responsabilité civile habitation prend en charge les dégâts via la <a href="/guide/convention-irsi-copropriete-bordeaux-degats-eaux/" style="color:var(--green);text-decoration:underline;">convention IRSI 2026</a>. Le rapport technique de localisation devient pièce essentielle pour identifier la responsabilité.</p>
+
+<h2>Faire intervenir nos techniciens à Bordeaux</h2>
+<p>Notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures pour le diagnostic complet d'une fuite extérieure : test du compteur, sondage acoustique, gaz traceur, caméra thermique. Rapport remis le jour même, conforme aux exigences des assureurs.</p>
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+<p>Voir aussi : <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite à Bordeaux (toutes prestations)</a>, <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence recherche de fuite Bordeaux</a>, <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur</a>, <a href="/guide/fuite-pvc-enterree-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite PVC enterrée jardin (technique détaillée)</a>.</p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite d'eau dans le jardin à Bordeaux : que faire pour la localiser","description":"Une fuite d'eau dans votre jardin à Bordeaux ? Identifier la source en 4 signes, réflexes d'urgence, sources fréquentes en Gironde, diagnostic sans creuser et prix 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-eau-jardin-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-eau-jardin-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Recherche de fuite d'eau dans le jardin à Bordeaux et en Gironde sans creuser. Méthodes non destructives : gaz traceur, corrélation acoustique, caméra thermique, inspection endoscopique.","url":"https://recherche-fuite-gironde.fr/guide/fuite-eau-jardin-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite extérieure"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite d'eau jardin Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-eau-jardin-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Sous quel délai pouvez-vous intervenir pour une fuite de jardin ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et la métropole girondine. Pour les urgences absolues, service urgence sous 24h disponible."}},{"@type":"Question","name":"Faut-il tout creuser après le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Non. Une fois la fuite localisée au mètre près, la réparation se fait sur une fouille ponctuelle de 50 cm × 50 cm en moyenne. Pour les canalisations PE, certaines réparations se font par chemisage interne sans aucune fouille."}},{"@type":"Question","name":"Et si la fuite est sur mon arrosage automatique ?","acceptedAnswer":{"@type":"Answer","text":"Notre diagnostic identifie aussi les fuites sur réseau d'arrosage. Pour la réparation, l'installateur d'origine ou un paysagiste irrigation peut intervenir avec notre rapport qui localise précisément le défaut."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Dans 85% des cas oui, sur présentation du rapport technique conforme. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la recherche de fuite au titre de la garantie dégât des eaux."}},{"@type":"Question","name":"Combien coûte un diagnostic de fuite extérieure à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT selon la complexité (longueur du réseau, méthode requise, accessibilité). Intervention sous 24-48h, rapport technique remis le jour même."}}]}
+</script>"""
     },]
 
 def page_guide_article(art):
@@ -5261,6 +5375,7 @@ def page_ville_detection_premium(v):
       <li><a href="/detection-fuite/depannage-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Dépannage piscine à Bordeaux</a> : diagnostic + coordination réparation avec piscinistes partenaires.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Tarifs de recherche de fuite à Bordeaux</a> : grille prix par type de méthode et de canalisation.</li>
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : procédure complète après une fuite enterrée.</li>
+      <li><a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite d'eau dans le jardin à Bordeaux</a> : 4 signes pour confirmer la fuite, sources fréquentes en Gironde, premiers réflexes.</li>
     </ul>
   </div>
 </section>
@@ -8565,7 +8680,7 @@ def page_piscine_ville(p):
     <p>Avant de parler de fuite, il faut écarter l'évaporation naturelle. En Gironde, une piscine extérieure sans abri perd en moyenne <strong>3 à 5 mm par jour en été</strong> (juin à septembre) et <strong>0 à 2 mm par jour au printemps et à l'automne</strong>. Au-delà, surtout si la perte dépasse 1 cm par jour, une fuite est probable.</p>
 
     <h3>Le test du seau, première étape gratuite</h3>
-    <p>Posez un seau rempli d'eau sur la première marche de votre piscine (pour qu'il soit à la même température). Marquez au feutre le niveau intérieur du seau et le niveau de la piscine sur la paroi. Laissez 24 à 48 heures sans baignade, sans remise à niveau automatique et sans pluie. Si le seau et la piscine baissent de la même hauteur, c'est de l'évaporation. Si la piscine baisse nettement plus que le seau, vous avez une fuite et il est temps de nous contacter. Pour les taux d'évaporation mensuels en Gironde et un protocole plus rigoureux, voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a>.</p>
+    <p>Posez un seau rempli d'eau sur la première marche de votre piscine (pour qu'il soit à la même température). Marquez au feutre le niveau intérieur du seau et le niveau de la piscine sur la paroi. Laissez 24 à 48 heures sans baignade, sans remise à niveau automatique et sans pluie. Si le seau et la piscine baissent de la même hauteur, c'est de l'évaporation. Si la piscine baisse nettement plus que le seau, vous avez une fuite et il est temps de nous contacter. Pour les taux d'évaporation mensuels en Gironde et un protocole plus rigoureux, voir notre guide <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">évaporation ou fuite de piscine</a>. Pour le panorama complet des causes, des méthodes de diagnostic et des coûts par type de bassin, consultez notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a>.</p>
 
     <h3>Signes qui ne trompent pas</h3>
     <ul>
