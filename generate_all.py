@@ -3049,6 +3049,7 @@ GUIDE_PAGES = [
 <ul>
 <li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la pièce). très fréquent sur piscines liner de 25+ ans. Pour le diagnostic complet en 3 tests et les 5 zones précises ou le skimmer fuit, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>.</li>
 <li><strong>Baisse s'arrêté au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le béton. Pour le diagnostic complet (test des bouchons obturateurs, 5 zones de fuite, réparation DIY ou pro), voir notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a>.</li>
+<li><strong>Baisse qui ne s'arrête plus, descend sous les buses</strong> : fuite côté bonde de fond ou sa canalisation enterrée vers le local technique. Pour le diagnostic et les solutions (condamnation du circuit, réparation, chemisage), voir notre guide <a href="/guide/fuite-bonde-fond-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite bonde de fond piscine à Bordeaux</a>.</li>
 <li><strong>Baisse s'arrêté au niveau de la prise balai</strong> : joint de prise balai ou raccord defectueux.</li>
 <li><strong>Baisse continue sans s'arrêter</strong> : fuite sur liner (perforation), bonde de fond, canalisation enterrée ou fissure structurelle.</li>
 </ul>
@@ -4479,7 +4480,7 @@ GUIDE_PAGES = [
 <p>Sur les diagnostics annuels que nous réalisons à Bordeaux, les fuites de piscine se concentrent sur 3 zones avec des proportions stables :</p>
 
 <h3>Filtration et pièces à sceller (60 % des cas)</h3>
-<p>Skimmer, buses de refoulement, projecteurs, prise balai, bonde de fond. Joints toriques durcis après 8-12 ans, brides desserrées par cycles thermiques, mastic d'étanchéité craquelé. Diagnostic ciblé par fluorescéine, réparation rapide (changement joint 12-35 €). Le skimmer concentre à lui seul plus de 50 % des fuites de pièces à sceller que nous diagnostiquons en Gironde : si votre niveau d'eau se stabilise pile sous le bord inférieur du skimmer, voir notre guide dédié <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests pour confirmer le diagnostic et les 5 zones précises à inspecter. Si la baisse s'arrête plus bas, au niveau des buses de refoulement (30 à 40 cm sous la margelle), voir plutôt notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a> avec le test des bouchons obturateurs. Pour la réparation à la résine époxy d'un skimmer fissuré, voir aussi notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
+<p>Skimmer, buses de refoulement, projecteurs, prise balai, bonde de fond. Joints toriques durcis après 8-12 ans, brides desserrées par cycles thermiques, mastic d'étanchéité craquelé. Diagnostic ciblé par fluorescéine, réparation rapide (changement joint 12-35 €). Le skimmer concentre à lui seul plus de 50 % des fuites de pièces à sceller que nous diagnostiquons en Gironde : si votre niveau d'eau se stabilise pile sous le bord inférieur du skimmer, voir notre guide dédié <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>. Si la baisse s'arrête plus bas, au niveau des buses de refoulement (30 à 40 cm sous la margelle), voir plutôt <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a>. Si le niveau ne s'arrête plus du tout et descend jusqu'au fond du bassin (le scénario le plus inquiétant), c'est côté bonde de fond ou sa canalisation enterrée vers le local technique : voir <a href="/guide/fuite-bonde-fond-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite bonde de fond piscine à Bordeaux</a>. Pour la réparation à la résine époxy d'un skimmer fissuré, voir aussi <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
 
 <h3>Canalisations enterrées (25 % des cas)</h3>
 <p>Sols sableux du Bassin d'Arcachon ou argileux de la métropole bordelaise désaxent les raccords PVC en 15-25 ans. Diagnostic par gaz traceur azote/hydrogène et inspection caméra. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a> et <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</p>
@@ -5069,6 +5070,150 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite de buse à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer une buse ?","acceptedAnswer":{"@type":"Answer","text":"Non dans 90% des cas. Une vidange partielle juste sous le niveau de la buse suffit pour les réparations de joint, mastic ou bride. La vidange totale est à éviter sur les sols argileux girondins."}},{"@type":"Question","name":"Que signifient des bulles d'air autour d'une buse ?","acceptedAnswer":{"@type":"Answer","text":"C'est le signe que de l'air entre dans le circuit côté refoulement, généralement par une fissure de la canalisation enterrée derrière la paroi. Diagnostic indispensable au gaz traceur."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite."}},{"@type":"Question","name":"Peut-on remplacer une buse encastrée sans casser la terrasse ?","acceptedAnswer":{"@type":"Answer","text":"Cela dépend du mode de scellement. Si la buse est collée à un raccord PVC accessible derrière la paroi, on coupe la traverse de paroi et raccorde via un tube neuf de 50mm. Si la buse est entièrement scellée dans le béton, le démontage demande une démolition ciblée."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-bonde-fond-piscine-bordeaux",
+        "title": "Fuite bonde de fond piscine à Bordeaux : diagnostic et solutions",
+        "title_seo": "Fuite bonde de fond piscine Bordeaux | Diagnostic",
+        "desc": "Le niveau de votre piscine descend jusqu'au fond du bassin à Bordeaux ? 3 tests diagnostic, 4 zones de fuite, condamnation de circuit ou chemisage, prix 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-bonde-fond-piscine-bordeaux.webp" alt="Vue plongeante sur le fond carrelé d'une piscine privée en Gironde, contexte d'une recherche de fuite sur bonde de fond" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous voyez le niveau de votre piscine descendre lentement mais sans s'arrêter, dépassant le skimmer puis les buses de refoulement, et continuer à baisser jusqu'au fond du bassin ? C'est le signal le plus caractéristique d'une fuite au niveau de la bonde de fond ou du circuit de vidange. Plus rare que les fuites de skimmer ou de buses (les deux représentent à elles seules 50 à 60 % des cas que nous diagnostiquons à Bordeaux), la fuite de bonde de fond a une particularité redoutable : si elle n'est pas localisée et neutralisée rapidement, votre bassin peut se vider entièrement, avec un risque de soulèvement structurel par la nappe phréatique sur les sols girondins. Cet article vous donne la méthode complète pour confirmer le diagnostic, identifier la zone précise, et choisir entre les 3 solutions possibles.</p>
+
+<h2>Comment savoir si la fuite vient bien de la bonde de fond ?</h2>
+
+<p>Trois tests gratuits permettent en 24 à 72 heures d'isoler la bonde de fond comme origine de la fuite.</p>
+
+<h3>Test 1 : le niveau qui ne s'arrête plus</h3>
+<p>Sur une fuite de skimmer ou de buses, le niveau d'eau finit par se stabiliser à hauteur de l'orifice fautif (juste sous le skimmer ou au niveau des buses, soit entre 5 et 40 cm sous la margelle). Sur une fuite de bonde de fond, le niveau continue de baisser bien en dessous, jusqu'à atteindre potentiellement le fond du bassin. Si vous mesurez une baisse linéaire et continue passé le niveau des buses sans aucune stabilisation, la bonde de fond ou son raccord est très probablement en cause.</p>
+
+<h3>Test 2 : la vidange progressive par circuits</h3>
+<p>Méthode pisciniste classique pour isoler le circuit fautif sans matériel spécifique. On laisse la piscine baisser naturellement, et on observe à chaque palier :</p>
+<ul>
+<li>Niveau qui s'arrête juste sous le skimmer (5-10 cm sous la margelle) → fuite côté skimmer. Voir notre <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide fuite skimmer piscine</a>.</li>
+<li>Niveau qui s'arrête au niveau des buses de refoulement (30-40 cm sous la margelle) → fuite côté buses. Voir notre <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide fuite buse de refoulement piscine</a>.</li>
+<li>Niveau qui continue de baisser sous les buses sans s'arrêter → fuite côté bonde de fond ou circuit aval (canalisation enterrée jusqu'au local technique).</li>
+</ul>
+<p>Cette méthode demande de la patience (24 à 72 heures) mais elle est gratuite et très fiable. Voir aussi notre <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">arbre de décision en 6 questions</a> pour qualifier le scénario.</p>
+
+<h3>Test 3 : fermeture de la vanne de bonde au local technique</h3>
+<p>Si votre installation de filtration possède une vanne dédiée au circuit bonde de fond (cas fréquent sur les piscines béton enterrées avec filtration multi-circuits), fermez cette vanne et observez si la baisse s'arrête. Si oui, la fuite est confirmée sur la bonde ou sa canalisation aval. C'est aussi le geste de protection à faire en attendant l'intervention : la piscine peut continuer à fonctionner via skimmer + buses + prise balai sans la bonde, sans aucune perte de qualité de filtration sur les piscines familiales standards.</p>
+
+<h2>Les 4 zones où une bonde de fond fuit en pratique</h2>
+
+<p>Sur les diagnostics réalisés à Bordeaux, les fuites de bonde de fond se concentrent sur quatre zones, classées par fréquence décroissante.</p>
+
+<h3>1. Canalisation enterrée entre bonde et local technique (cas le plus fréquent)</h3>
+<p>La bonde de fond est connectée au local technique par une canalisation PVC enterrée à 60-100 cm de profondeur, qui parcourt 5 à 25 mètres selon la configuration de la propriété. Sur les sols argileux de la métropole bordelaise (Caudéran, Pessac, Talence, Bègles) et sableux du Bassin d'Arcachon, les mouvements saisonniers du terrain désaxent les raccords PVC après 15 à 30 ans. Diagnostic par <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur sur la canalisation enterrée</a> : on injecte un mélange azote-hydrogène dans la canalisation isolée, le gaz remonte au droit de la fuite et est détecté en surface au mètre près.</p>
+
+<h3>2. Joint d'étanchéité entre bonde et structure du bassin</h3>
+<p>La bonde de fond est solidarisée à la structure du bassin (béton ou coque) par un joint silicone ou caoutchouc. Après 15 à 25 ans, ce joint perd son élasticité et se craquèle sous l'effet du chlore et des cycles thermiques. Diagnostic au colorant fluorescéine : injection ciblée juste devant la bride, observation de l'aspiration du colorant. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine</a>. Réparation par mastic d'étanchéité piscine en immersion ou résine époxy bicomposant.</p>
+
+<h3>3. Vis de bride desserrées ou corrodées</h3>
+<p>La bride en inox qui maintient la bonde au fond du bassin peut se desserrer sous les vibrations de la pompe ou se corroder sur les piscines de plus de 20 ans. Diagnostic visuel à l'inspection sous-marine ou en apnée. Réparation : resserrage des vis (clé dynamométrique recommandée) ou remplacement de la bride si corrosion avancée. Coût matériel 30 à 80 € pour une bride neuve.</p>
+
+<h3>4. Fissure du corps de la bonde</h3>
+<p>Plus rare. Survient sur les piscines mal hivernées (l'eau gèle dans le corps de la bonde et fait éclater le plastique) ou victimes d'un choc important (chute de pierre, effondrement de margelle). Sur Bordeaux, le risque de gel est limité mais possible lors d'épisodes froids exceptionnels. Diagnostic visuel à la lampe rasante après vidange complète, ou inspection caméra endoscopique étanche pour les piscines pleines.</p>
+
+<h2>Spécificités des piscines girondines sur la bonde de fond</h2>
+
+<p>Trois points à connaître pour la Gironde :</p>
+
+<ul>
+<li><strong>Risque de soulèvement structurel</strong> : sur les sols argileux gorgés d'eau de la métropole bordelaise, surtout en période humide (octobre à mars), une piscine vidée brutalement peut être soulevée par la nappe phréatique sous-jacente. Sur Bassin d'Arcachon (sols sableux saturés en eau marine), même risque. Conséquence : ne JAMAIS vidanger entièrement la piscine pour intervenir sur la bonde de fond. Notre méthode de diagnostic est non destructive et ne demande qu'une vidange partielle.</li>
+<li><strong>Sols argileux et canalisations enterrées</strong> : c'est sur les piscines de plus de 15 ans à Caudéran, Pessac, Bègles, Talence que nous voyons le plus de fuites de canalisation aval de bonde. Les mouvements saisonniers de l'argile (gonflement humide / retrait sec) sollicitent les raccords PVC qui finissent par se désaxer.</li>
+<li><strong>Climat océanique doux</strong> : peu de gel donc rare risque de fissure structurelle de la bonde elle-même. Mais saison de baignade longue (mai à octobre) qui sollicite les joints en immersion permanente bien plus qu'en région Nord.</li>
+</ul>
+
+<h2>Trois solutions selon la zone identifiée</h2>
+
+<h3>Solution A : condamner le circuit bonde de fond (immédiate, gratuite, partielle)</h3>
+<p>Si votre installation comporte une vanne dédiée à la bonde, vous pouvez condamner ce circuit en attendant l'intervention. La piscine continue à fonctionner correctement via skimmer + buses + prise balai sur 95 % des configurations familiales standard. Cette solution évite le vidage progressif du bassin et le coût immédiat de la réparation, en particulier si vous êtes en fin de saison et que vous comptez fermer pour l'hiver. C'est aussi un workaround définitif acceptable pour beaucoup de propriétaires qui n'utilisent jamais la bonde de fond pour la vidange (préférant pomper avec une pompe vide-cave).</p>
+
+<h3>Solution B : réparation ciblée selon la zone</h3>
+<ul>
+<li><strong>Joint d'étanchéité fissuré</strong> : reprise au mastic immersion ou résine époxy bicomposant. DIY possible si bonde accessible (60-150 € de fournitures), ou intervention pisciniste 200 à 400 € HT.</li>
+<li><strong>Vis de bride desserrées</strong> : resserrage 30 minutes, gratuit. Remplacement bride 30-80 € de fournitures.</li>
+<li><strong>Canalisation enterrée fuyante</strong> : après localisation par gaz traceur, ouverture ciblée (50 cm × 50 cm) au point de fuite et remplacement du tronçon. Coût 600 à 1 500 € HT selon profondeur et accessibilité.</li>
+</ul>
+
+<h3>Solution C : chemisage de la canalisation enterrée (sans tranchée)</h3>
+<p>Pour les fuites sur canalisation enterrée trop longues à découvrir ou trop dégradées sur leur longueur, le chemisage par résine époxy permet de rénover le tube de l'intérieur sans aucune tranchée. Coût 250 à 380 € HT par mètre linéaire chemisé. Voir notre <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">guide chemisage canalisation</a>. Solution adaptée aux piscines anciennes dont le réseau global est en fin de vie.</p>
+
+<h2>Notre méthode de diagnostic à Bordeaux</h2>
+
+<p>Notre intervention dure 2 à 4 heures et combine 4 méthodes non destructives, sans vidanger le bassin :</p>
+<ol>
+<li><strong>Test du niveau et vidange progressive</strong> : confirmation que la fuite passe sous les buses sans stabilisation.</li>
+<li><strong>Test de pression sur le circuit bonde isolé</strong> : on ferme la vanne au local technique, on met le tronçon sous pression, on mesure la chute. Discrimine fuite côté bassin (perte rapide) vs côté canalisation enterrée (perte progressive).</li>
+<li><strong>Inspection sous-marine de la bonde</strong> avec masque et caméra endoscopique étanche : visualisation directe du joint, des vis et du corps de la pièce. Recherche de fissure, joint craquelé, vis manquante.</li>
+<li><strong>Gaz traceur sur la canalisation enterrée</strong> si suspicion de fuite côté tuyauterie aval : localisation au mètre près sans démolir la terrasse.</li>
+</ol>
+
+<p>Le rapport technique remis le jour même indique précisément la zone de fuite avec photo, schéma et coordonnées GPS si la fuite est enterrée. Pour notre service piscine global, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>.</p>
+
+<h2>Combien coûte un diagnostic et une réparation à Bordeaux ?</h2>
+
+<p>Ordres de grandeur 2026 sur Bordeaux Métropole :</p>
+<ul>
+<li><strong>Diagnostic professionnel non destructif</strong> : 380 à 580 € HT, intervention 2 à 4 heures, rapport remis le jour même. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>).</li>
+<li><strong>Condamnation de circuit bonde</strong> : gratuit (manipulation de vanne).</li>
+<li><strong>Réparation joint ou vis bride</strong> : DIY 30-150 € de fournitures, ou pro 200-400 € HT.</li>
+<li><strong>Réparation canalisation enterrée</strong> après gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité.</li>
+<li><strong>Chemisage canalisation enterrée</strong> : 250 à 380 € HT par mètre linéaire (à partir de 1 200 € pour un tronçon de 5 mètres).</li>
+<li><strong>Démolition + reconstruction complète</strong> en cas de cassure profonde : 2 000 à 4 500 € HT selon configuration.</li>
+</ul>
+
+<p>Si la fuite a fait doubler votre facture Suez, vous pouvez aussi activer la procédure d'écrêtement loi Warsmann auprès de votre distributeur. Calculez votre montant éligible avec notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a>.</p>
+
+<h2>Prévenir une fuite de bonde de fond</h2>
+
+<p>Quelques gestes pour prolonger la durée de vie d'une bonde de fond :</p>
+<ul>
+<li><strong>Hivernage actif maîtrisé</strong> : laisser un fond d'eau dans le bassin pour éviter le soulèvement, et ne pas laisser la bonde et son circuit pleins d'eau si gel exceptionnel annoncé. Voir notre guide <a href="/guide/fuite-piscine-apres-hivernage/" style="color:var(--green);text-decoration:underline;">fuite piscine après hivernage</a> pour le détail.</li>
+<li><strong>Maintenir le pH entre 7,0 et 7,4</strong> : un pH trop acide attaque le plastique de la bonde et le joint silicone.</li>
+<li><strong>Contrôle annuel</strong> du serrage de la bride à la <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service au printemps</a>. Une vis manquante ou desserrée peut s'aggraver en quelques mois.</li>
+<li><strong>Ne jamais vidanger la piscine entièrement</strong> sans précaution sur sols argileux ou sableux saturés (Gironde) : risque de soulèvement structurel par la nappe phréatique. Faire une vidange partielle progressive uniquement.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien de temps pour intervenir à Bordeaux ?</h3>
+<p>Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence. Pour les urgences (vidage rapide du bassin), voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a>.</p>
+
+<h3>Peut-on utiliser une piscine sans la bonde de fond ?</h3>
+<p>Oui dans la plupart des cas. La filtration via skimmer + buses + prise balai assure le brassage et la qualité de l'eau sur 95 % des piscines familiales standards. La bonde de fond n'est strictement nécessaire que pour la vidange (et encore, une pompe vide-cave la remplace très bien). Condamner le circuit bonde est donc une solution acceptable temporaire ou définitive.</p>
+
+<h3>Quel risque si je laisse la fuite s'aggraver ?</h3>
+<p>Trois risques principaux : 1) le bassin se vide entièrement et risque le soulèvement structurel par la nappe phréatique sur sols girondins, 2) la facture d'eau explose, 3) le terrain autour du local technique se gorge d'eau et peut affecter les fondations de la maison voisine. Intervention sous 1 à 2 semaines maximum recommandée.</p>
+
+<h3>Mon assurance va-t-elle rembourser le diagnostic ?</h3>
+<p>Dans 80 à 90 % des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite dès lors qu'un dégât des eaux est constaté ou qu'une surconsommation est mesurée. Voir notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>.</p>
+
+<h3>Faut-il vidanger la piscine pour réparer la bonde de fond ?</h3>
+<p>Non dans la majorité des cas. Le diagnostic non destructif et plusieurs réparations (mastic immersion, gaz traceur côté canalisation) se font avec une vidange partielle ou aucune. La vidange totale est même à éviter sur les sols argileux ou sableux saturés girondins, à cause du risque de soulèvement structurel par la nappe phréatique.</p>
+
+<h2>Demander un diagnostic bonde de fond à Bordeaux</h2>
+
+<p>Notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic complet 380 à 580 € HT, rapport technique remis le jour même.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite bonde de fond piscine à Bordeaux : diagnostic et solutions","description":"Le niveau de votre piscine descend jusqu'au fond du bassin à Bordeaux ? 3 tests diagnostic, 4 zones de fuite, condamnation de circuit ou chemisage, prix 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-bonde-fond-piscine-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-bonde-fond-piscine-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Recherche de fuite au niveau de la bonde de fond de piscine à Bordeaux et en Gironde sans vidange totale. Méthodes non destructives : test de pression, fluorescéine, gaz traceur, inspection sous-marine.","url":"https://recherche-fuite-gironde.fr/guide/fuite-bonde-fond-piscine-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite piscine"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite bonde fond piscine Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-bonde-fond-piscine-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite bonde à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Peut-on utiliser une piscine sans la bonde de fond ?","acceptedAnswer":{"@type":"Answer","text":"Oui dans 95% des cas. La filtration via skimmer, buses et prise balai assure le brassage et la qualité de l'eau. La bonde n'est nécessaire que pour la vidange. Condamner le circuit bonde est une solution acceptable temporaire ou définitive."}},{"@type":"Question","name":"Quel risque si je laisse la fuite s'aggraver ?","acceptedAnswer":{"@type":"Answer","text":"Trois risques : le bassin se vide et risque le soulèvement structurel par la nappe phréatique sur sols girondins, la facture d'eau explose, le terrain autour se gorge d'eau et peut affecter les fondations de la maison."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer la bonde ?","acceptedAnswer":{"@type":"Answer","text":"Non dans la majorité des cas. Le diagnostic non destructif et plusieurs réparations se font avec une vidange partielle ou aucune. La vidange totale est à éviter sur les sols argileux ou sableux girondins (risque de soulèvement structurel)."}}]}
 </script>"""
     },]
 
@@ -9068,7 +9213,7 @@ def page_piscine_ville(p):
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Fuite skimmer ou refoulement</h3>
-          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Si votre niveau d'eau se stabilise pile sous le skimmer, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests de confirmation et les 5 zones précises où le skimmer fuit. Pour une fuite côté buses de refoulement (niveau qui se stabilise plus bas, bulles d'air filtration ON), voir notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a>. Pour la réparation à la résine d'un skimmer, voir <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
+          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Si votre niveau d'eau se stabilise pile sous le skimmer, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>. Si la baisse s'arrête au niveau des buses (30-40 cm sous la margelle), voir <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine</a>. Si le niveau ne s'arrête plus du tout et descend jusqu'au fond, c'est plutôt côté bonde de fond ou canalisation aval : voir <a href="/guide/fuite-bonde-fond-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite bonde de fond piscine à Bordeaux</a>. Pour la réparation à la résine d'un skimmer, voir <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
         </div>
       </div>
       <div class="arg-num-card">
