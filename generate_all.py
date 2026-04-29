@@ -4287,7 +4287,7 @@ GUIDE_PAGES = [
 </ul>
 
 <h2>Notre intervention à Bordeaux</h2>
-<p>Diagnostic complet d'une fuite après compteur à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité du réseau, intervention 2 à 4 heures, rapport accepté par tous les distributeurs et assureurs français. Voir aussi notre page service <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> pour les détails de notre méthode et notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">service urgence 24h</a> pour les fuites importantes. Si vous constatez en plus une zone humide dans votre jardin, voir notre guide <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> qui détaille les 4 signes et les sources fréquentes en Gironde."""
+<p>Diagnostic complet d'une fuite après compteur à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité du réseau, intervention 2 à 4 heures, rapport accepté par tous les distributeurs et assureurs français. Voir aussi notre page service <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> pour les détails de notre méthode et notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">service urgence 24h</a> pour les fuites importantes. Si vous constatez en plus une zone humide dans votre jardin, voir notre guide <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a>. Si tous vos robinets et arrivées d'eau visibles sont fermés mais que le compteur tourne quand même, vérifiez d'abord vos WC : la chasse d'eau qui fuit est la cause #1 de surconsommation domestique (jusqu'à 600 L/jour). Voir notre guide <a href="/guide/fuite-wc-chasse-eau-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite WC chasse d'eau à Bordeaux</a> avec le test du papier toilette et les 5 réparations DIY."""
     },
     {
         "slug": "facture-eau-suez-doublee-fuite-bordeaux",
@@ -5715,6 +5715,180 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fissure béton à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Comment savoir si une fissure est active ou stabilisée ?","acceptedAnswer":{"@type":"Answer","text":"Posez un témoin de fissure (jauge de plâtre 5×3 cm collée à cheval sur la fissure, ou pastille papier marquée) et observez pendant 2 mois. Si le témoin se fissure à son tour, la fissure est active. Si le témoin reste intact, la fissure est stabilisée."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser ?","acceptedAnswer":{"@type":"Answer","text":"Pour le diagnostic : 80 à 90% des cas oui. Pour la réparation : dépend du contrat. Si la fissure est due à un mouvement de terrain reconnu (catastrophe naturelle pour sécheresse exceptionnelle 2022-2023), l'assurance peut prendre en charge la totalité."}},{"@type":"Question","name":"Puis-je continuer à utiliser ma piscine avec une fissure ?","acceptedAnswer":{"@type":"Answer","text":"Oui pour une fissure capillaire stabilisée. Non pour une fissure active >0,5 mm ou structurelle : risque d'aggravation rapide. Faire diagnostiquer en amont de saison (avril-mai) pour planifier les travaux à l'automne suivant."}},{"@type":"Question","name":"Qui paye pour les fissures dues à la sécheresse 2022-2023 ?","acceptedAnswer":{"@type":"Answer","text":"Les communes girondines reconnues en état de catastrophe naturelle pour sécheresse 2022 ou 2023 ouvrent droit à l'indemnisation par l'assurance multirisques habitation au titre de la garantie cat-nat. Délais de déclaration : 30 jours après publication de l'arrêté."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-wc-chasse-eau-bordeaux",
+        "title": "Fuite WC chasse d'eau à Bordeaux : test, réparation et facture Suez",
+        "title_seo": "Fuite WC chasse d'eau Bordeaux | Test & solutions",
+        "desc": "Chasse d'eau qui coule en continu à Bordeaux ? Cause #1 de surconsommation (jusqu'à 600 L/jour). Test simple, 5 réparations DIY, écrêtement Suez.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-wc-chasse-eau-bordeaux.webp" alt="Cuvette WC moderne dans salle de bain, contexte d'une fuite de chasse d'eau qui gaspille jusqu'à 600 litres par jour" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous entendez un filet d'eau qui coule en permanence dans votre cuvette WC, même chasse non actionnée ? Vous voyez un trait foncé qui descend de la sortie de chasse vers le siphon ? Vous avez reçu une facture Suez 2 à 3 fois plus élevée que d'habitude sans changement d'usage ? La chasse d'eau qui fuit est <strong>la première cause de surconsommation domestique en France</strong> : une simple chasse défaillante peut perdre jusqu'à 600 litres d'eau par jour soit l'équivalent de 6 baignoires, et fait grimper votre facture Suez de 200 à 400 € par an. Cet article vous donne la méthode pour confirmer la fuite, identifier les 5 causes les plus fréquentes, réparer vous-même quand c'est possible, et activer l'écrêtement de facture loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole si la facture a déjà explosé.</p>
+
+<h2>Confirmer que la chasse d'eau fuit en 2 minutes</h2>
+
+<p>Avant tout, deux tests gratuits permettent de confirmer en 2 minutes si la chasse fuit, sa gravité, et le volume d'eau perdu chaque jour.</p>
+
+<h3>Test 1 : le test du papier toilette</h3>
+<p>Placez un morceau de papier toilette sec au fond de la cuvette, juste sous la sortie de chasse, après avoir tiré la chasse une fois et attendu 2 minutes la fin du remplissage du réservoir. Revenez 30 minutes plus tard. Si le papier est mouillé, votre chasse fuit en continu (filet d'eau invisible à l'œil mais constant). Plus le papier est trempé, plus la fuite est sévère.</p>
+
+<h3>Test 2 : le test du colorant alimentaire</h3>
+<p>Versez 5 à 10 gouttes de colorant alimentaire (rouge, bleu) directement dans le réservoir de la chasse d'eau. NE TIREZ PAS la chasse. Attendez 30 minutes sans utiliser les WC. Si l'eau de la cuvette est colorée, c'est qu'il y a une communication directe entre le réservoir et la cuvette : la chasse fuit. Plus la coloration est intense, plus le débit de fuite est important.</p>
+
+<h3>Quantifier la fuite : 4 niveaux de gravité</h3>
+<ul>
+<li><strong>Goutte à goutte sporadique</strong> : 0,2 à 1 L/heure, soit 5 à 25 L/jour. Coût Suez à Bordeaux ~2 à 10 €/mois. Pas urgent mais à corriger.</li>
+<li><strong>Léger filet (papier humide)</strong> : 60 à 120 L/jour, soit 90 L en moyenne. Coût Suez ~30 à 50 €/mois. Réparation prioritaire.</li>
+<li><strong>Filet marqué (papier trempé)</strong> : 300 à 500 L/jour. Coût Suez ~100 à 180 €/mois. Réparation urgente, écrêtement Warsmann probable.</li>
+<li><strong>Robinet équivalent</strong> : 600 L/jour ou plus. Coût Suez ~250 à 400 €/mois. Réparation immédiate, écrêtement Warsmann certain.</li>
+</ul>
+
+<p>Pour calculer précisément votre montant éligible à l'écrêtement Warsmann selon votre tarif Suez Bordeaux, utilisez notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a> qui génère aussi la lettre type à envoyer à Suez ou à la Régie de Bordeaux Métropole.</p>
+
+<h2>Les 5 causes d'une chasse d'eau qui fuit</h2>
+
+<p>Une chasse d'eau standard contient 5 éléments principaux, et chacun peut être en cause selon son ancienneté et son entretien.</p>
+
+<h3>1. Joint d'étanchéité du clapet de fond usé (cause la plus fréquente)</h3>
+<p>Le clapet (ou flapper) en caoutchouc qui ferme la sortie de chasse vers la cuvette s'use après 5 à 10 ans : il durcit, se déforme, perd son élasticité et ne ferme plus parfaitement. L'eau du réservoir s'écoule alors lentement vers la cuvette en continu. Diagnostic visuel après ouverture du couvercle. Réparation : remplacement du clapet (5 à 15 € en grande surface bricolage), niveau bricolage facile (10 minutes).</p>
+
+<h3>2. Mécanisme de chasse défaillant</h3>
+<p>Le mécanisme (poussoir, levier, tige) peut se gripper, se désaxer ou casser. La chasse ne se referme plus correctement après actionnement. Diagnostic : tester l'actionnement à la main et observer si le clapet revient bien à sa position fermée. Réparation : remplacement du mécanisme complet (15 à 40 €) ou intervention pisciniste/plombier 80-150 € si encastré.</p>
+
+<h3>3. Robinet flotteur déréglé ou usé</h3>
+<p>Le robinet flotteur arrête le remplissage du réservoir quand l'eau atteint le niveau correct. S'il est déréglé (flotteur trop haut), le réservoir se remplit trop et l'excédent passe par le trop-plein. S'il est usé (joint torique sec, valve abîmée), il ne se ferme plus et le réservoir se remplit en continu. Diagnostic : observer le niveau d'eau (il doit être 1 à 2 cm sous le tube de trop-plein). Réparation : ajustement du flotteur (gratuit) ou remplacement du robinet flotteur 15-30 €.</p>
+
+<h3>4. Calcaire et entartrage</h3>
+<p>L'eau de Bordeaux Métropole, distribuée par Suez, présente une dureté moyenne de 18 à 28 °f (degré français), classée moyennement dure à dure selon les communes. Le calcaire s'accumule sur les pièces mobiles de la chasse (clapet, robinet flotteur, joints) et empêche la fermeture étanche. Réparation : démontage et trempage 4 heures dans du vinaigre blanc pur ou de l'acide citrique. Coût matériel ~5 € de vinaigre.</p>
+
+<h3>5. Fissure du réservoir ou raccordement défaillant</h3>
+<p>Plus rare mais sérieux. Une fissure du réservoir céramique (choc, gel, fatigue après 30+ ans) ou un raccord d'arrivée d'eau qui fuit au pied du WC. Diagnostic visuel : trace d'humidité au sol, condensation anormale extérieure du réservoir. Réparation : généralement remplacement complet du WC (250-500 € + pose 80-150 €).</p>
+
+<h2>Spécificités à Bordeaux : Suez, dureté de l'eau et Warsmann</h2>
+
+<p>Quelques points à connaître pour Bordeaux et la métropole girondine :</p>
+
+<ul>
+<li><strong>Eau distribuée par Suez ou Régie de Bordeaux Métropole</strong> selon la commune. Les tarifs 2026 oscillent entre 3,80 et 4,80 € HT/m³ selon le contrat (eau + assainissement + redevances). Une fuite de chasse de 600 L/jour génère donc 218 à 274 € de surfacturation par mois.</li>
+<li><strong>Dureté de l'eau moyenne à élevée</strong> sur Bordeaux Métropole (18-28 °f), spécialement dans les communes en aval Garonne (Bègles, Floirac, Cenon, Lormont, Bassens). Les chasses d'eau s'entartrent plus vite qu'en région à eau douce. Détartrage préventif annuel recommandé.</li>
+<li><strong>Loi Warsmann (article L2224-12-4 CGCT)</strong> applicable : si votre facture a doublé à cause de la chasse qui fuit, vous pouvez obtenir l'écrêtement (plafonnement à 2 fois votre consommation moyenne sur 3 ans) auprès de Suez ou de la Régie. Procédure : <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a> + <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a> qui génère la lettre type.</li>
+<li><strong>Chasses d'eau encastrées Geberit dans appartements récents</strong> (Bassins à Flot, Euratlantique, Ginko à Lac de Bordeaux) : démontage plus complexe via la plaque de commande, intervention pro souvent nécessaire.</li>
+</ul>
+
+<h2>Réparer soi-même : guide pas à pas</h2>
+
+<p>La majorité des fuites de chasse d'eau se réparent en moins d'1 heure pour 5 à 30 € de fournitures. Voici la méthode pour les 3 cas les plus fréquents.</p>
+
+<h3>Cas A : remplacer le clapet de fond</h3>
+<ol>
+<li>Coupez l'arrivée d'eau au robinet d'arrêt (généralement derrière le WC) et tirez la chasse pour vider le réservoir.</li>
+<li>Retirez le couvercle du réservoir (poussez vers le haut, attention si lourd).</li>
+<li>Démontez le clapet existant : il est généralement fixé par 2 ergots latéraux ou clipsé sur la tige du mécanisme.</li>
+<li>Installez le clapet neuf (acheté en grande surface bricolage 5-15 €), en respectant le sens (le côté plat vers le bas).</li>
+<li>Rouvrez l'arrivée d'eau, attendez le remplissage, testez la chasse 2 fois.</li>
+</ol>
+
+<h3>Cas B : régler le flotteur</h3>
+<ol>
+<li>Observez le niveau d'eau dans le réservoir : il doit être 1 à 2 cm sous le tube de trop-plein.</li>
+<li>Si trop haut : abaissez le flotteur en tournant la vis de réglage (sur le bras du flotteur) ou en déplaçant le flotteur vers le bas sur sa tige.</li>
+<li>Si trop bas : remontez le flotteur (la chasse ne marchera pas correctement sinon).</li>
+<li>Vérifiez l'absence de fuite après plusieurs cycles.</li>
+</ol>
+
+<h3>Cas C : détartrer la chasse au vinaigre</h3>
+<ol>
+<li>Coupez l'arrivée d'eau, videz le réservoir.</li>
+<li>Démontez les pièces accessibles (clapet, flotteur).</li>
+<li>Trempez-les 4 heures dans du vinaigre blanc pur ou de l'acide citrique 5 %.</li>
+<li>Brossez à la brosse à dents usagée pour décrocher le tartre incrusté.</li>
+<li>Rincez à l'eau claire et remontez. Coût total : 5 € de vinaigre.</li>
+</ol>
+
+<h2>Quand faire appel à un professionnel ?</h2>
+
+<p>L'intervention pro reste pertinente dans les cas suivants :</p>
+<ul>
+<li><strong>WC encastré ou suspendu</strong> avec mécanisme Geberit ou Siamp non accessible sans déposer la plaque de commande. Coût pisciniste/plombier 150 à 250 €.</li>
+<li><strong>Réservoir céramique fissuré</strong> nécessitant remplacement complet du WC. Plombier 250-500 € + pose 80-150 €.</li>
+<li><strong>Fuite à la base du WC</strong> (pied) avec eau qui s'écoule au sol : peut être un raccord d'arrivée d'eau, une bride d'évacuation ou une fuite de réservoir. Diagnostic plombier indispensable.</li>
+<li><strong>Plusieurs WC fuyards en copropriété</strong> : faire mandater par syndic une intervention groupée, plus économique. Voir notre <a href="/syndics-bordeaux/" style="color:var(--green);text-decoration:underline;">offre syndics et copropriétés Bordeaux</a>.</li>
+<li><strong>Doute sur l'origine</strong> (chasse qui fuit ou autre source de surconsommation) : notre <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">diagnostic fuite après compteur</a> distingue précisément la cause de votre surconsommation Suez (chasse, robinet, canalisation enterrée, plancher chauffant).</li>
+</ul>
+
+<h2>Activer l'écrêtement Warsmann auprès de Suez ou Régie Bordeaux</h2>
+
+<p>Si votre facture d'eau a explosé à cause d'une chasse fuyante non détectée pendant plusieurs semaines ou mois, vous pouvez obtenir un plafonnement de la facture grâce à la loi Warsmann. Procédure simplifiée :</p>
+<ol>
+<li><strong>Réparez la fuite</strong> (DIY ou pro) et conservez les preuves (facture matériel, photo réparation, attestation plombier si pro).</li>
+<li><strong>Calculez votre montant éligible</strong> avec notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann Bordeaux</a> : entrez votre consommation moyenne et la consommation surfacturée, le calculateur vous donne le plafond légal et le remboursement attendu.</li>
+<li><strong>Envoyez à Suez ou Régie</strong> par courrier recommandé : la lettre type générée par le calculateur, la copie de votre facture et la preuve de réparation. Délai légal de réponse : 30 jours.</li>
+<li><strong>En cas de refus injustifié</strong> : recours devant le médiateur de l'eau (gratuit, en ligne sur mediation-eau.fr).</li>
+</ol>
+
+<p>Pour le détail complet de la procédure et les conditions d'éligibilité, voir notre <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide loi Warsmann</a>.</p>
+
+<h2>Combien coûte une réparation à Bordeaux en 2026 ?</h2>
+
+<p>Ordres de grandeur sur Bordeaux Métropole :</p>
+<ul>
+<li><strong>Réparation DIY</strong> : 5 à 30 € de fournitures (clapet, flotteur, vinaigre), 30 minutes à 1 heure.</li>
+<li><strong>Plombier remplacement clapet/joint</strong> : 80 à 130 € HT, 30 minutes sur place.</li>
+<li><strong>Plombier remplacement mécanisme complet</strong> : 120 à 180 € HT.</li>
+<li><strong>Plombier overhaul complet (mécanisme + flotteur + joints)</strong> : 150 à 250 € HT.</li>
+<li><strong>Intervention WC encastré Geberit/Siamp</strong> : 150 à 280 € HT (démontage plaque + accès mécanisme).</li>
+<li><strong>Remplacement WC complet</strong> : 250-500 € matériel + 80-150 € pose = 330-650 € HT.</li>
+<li><strong>Diagnostic professionnel non destructif fuite après compteur</strong> (si doute sur origine surconsommation) : 380-580 € HT, souvent remboursé par assurance habitation.</li>
+</ul>
+
+<h2>Prévenir les fuites de chasse d'eau</h2>
+
+<ul>
+<li><strong>Détartrage annuel</strong> au vinaigre blanc, surtout en zones à eau dure (Bègles, Floirac, Cenon). 5 minutes par WC, gratuit, prolonge la durée de vie du clapet de 2 à 3 ans.</li>
+<li><strong>Vérifier le niveau d'eau du réservoir</strong> tous les 6 mois : il doit être 1-2 cm sous le tube de trop-plein. Réajuster si dérive.</li>
+<li><strong>Ne jamais utiliser de produits chlorés agressifs</strong> dans le réservoir : le chlore concentré attaque les joints en caoutchouc en quelques mois et accélère leur usure.</li>
+<li><strong>Test du papier toilette tous les 3 mois</strong> : 30 secondes pour détecter une fuite naissante avant qu'elle ne fasse exploser la facture.</li>
+<li><strong>Lecture régulière du compteur d'eau</strong> : un pic inexpliqué de consommation entre deux factures Suez est souvent dû à une chasse qui a commencé à fuir. Voir notre <a href="/guide/compteur-eau-qui-tourne-sans-utilisation/" style="color:var(--green);text-decoration:underline;">guide compteur d'eau qui tourne sans utilisation</a>.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien d'eau perd une chasse qui fuit en moyenne ?</h3>
+<p>Selon la gravité : 5 à 25 L/jour pour un goutte-à-goutte sporadique, 60 à 120 L/jour pour un léger filet, 300 à 500 L/jour pour un filet marqué, jusqu'à 600 L/jour pour un robinet équivalent. Sur une fuite non détectée pendant 3 mois, la perte cumulée peut atteindre 50 m³ soit 200-260 € sur la facture Suez.</p>
+
+<h3>Mon assurance habitation rembourse-t-elle ?</h3>
+<p>Pour la réparation : non, c'est de l'entretien courant (vétusté du joint). Pour la surconsommation Suez : non, ce n'est pas un sinistre dégât des eaux. Voie de recours principale : l'écrêtement loi Warsmann auprès du distributeur d'eau, qui plafonne votre facture au double de votre consommation moyenne. Voir notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a>.</p>
+
+<h3>Quelle est la différence entre chasse d'eau qui fuit et fuite après compteur ?</h3>
+<p>La chasse d'eau qui fuit est une fuite intérieure visible (eau qui passe directement dans la cuvette). La fuite après compteur est une fuite invisible sur le réseau privatif (canalisation enterrée, plancher chauffant, fuite encastrée). Si votre compteur tourne en permanence après avoir vérifié et fermé tous les robinets ET les WC, votre fuite n'est pas dans une chasse mais ailleurs : voir notre <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">diagnostic fuite après compteur à Bordeaux</a>.</p>
+
+<h3>Combien de temps avant d'appeler un plombier ?</h3>
+<p>Si votre fuite est légère (goutte à goutte) et que vous êtes un peu bricoleur, tentez la réparation DIY immédiatement (1 heure max, 5-30 € de matériel). Si la fuite est sévère (robinet équivalent), réparez en urgence (la facture Suez augmente de 8 € par jour) ou faites venir un plombier sous 24-48h. Au-delà de 1 semaine de fuite sévère, l'écrêtement Warsmann devient quasi indispensable pour limiter le coût.</p>
+
+<h3>Mon WC fuit à la base, est-ce une chasse d'eau ou autre chose ?</h3>
+<p>Pas une fuite de chasse classique. Une fuite à la base peut venir : 1) du raccord d'arrivée d'eau (5 à 8 € de fourniture pour le joint), 2) de la bride d'évacuation entre WC et sol (intervention plombier 100-200 €), 3) d'une fissure du réservoir céramique (remplacement complet du WC). Diagnostic plombier recommandé pour ne pas se tromper.</p>
+
+<h2>Demander une intervention à Bordeaux</h2>
+
+<p>Si vous avez un doute sur l'origine de votre surconsommation d'eau ou si la fuite touche plusieurs WC en copropriété, notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic complet 380 à 580 € HT, rapport technique pour Suez et assurance.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite WC chasse d'eau à Bordeaux : test, réparation et facture Suez","description":"Chasse d'eau qui coule en continu à Bordeaux ? Cause #1 de surconsommation (jusqu'à 600 L/jour). Test simple, 5 réparations DIY, écrêtement Suez.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-wc-chasse-eau-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-wc-chasse-eau-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Diagnostic professionnel surconsommation Suez à Bordeaux et en Gironde, distinction fuite chasse d'eau / fuite réseau privatif. Procédure écrêtement loi Warsmann.","url":"https://recherche-fuite-gironde.fr/guide/fuite-wc-chasse-eau-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Diagnostic surconsommation eau"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite WC chasse d'eau Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-wc-chasse-eau-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien d'eau perd une chasse qui fuit en moyenne ?","acceptedAnswer":{"@type":"Answer","text":"Selon la gravité : 5 à 25 L/jour pour un goutte-à-goutte sporadique, 60 à 120 L/jour pour un léger filet, 300 à 500 L/jour pour un filet marqué, jusqu'à 600 L/jour pour un robinet équivalent. Sur 3 mois non détecté, la perte cumulée atteint 50 m3 soit 200-260 € sur la facture Suez."}},{"@type":"Question","name":"Mon assurance habitation rembourse-t-elle ?","acceptedAnswer":{"@type":"Answer","text":"Pour la réparation : non, c'est de l'entretien courant. Pour la surconsommation Suez : non. Voie de recours principale : l'écrêtement loi Warsmann auprès du distributeur d'eau, qui plafonne votre facture au double de votre consommation moyenne."}},{"@type":"Question","name":"Quelle différence entre fuite chasse d'eau et fuite après compteur ?","acceptedAnswer":{"@type":"Answer","text":"La chasse fuit est une fuite intérieure visible (eau dans la cuvette). La fuite après compteur est invisible sur le réseau privatif (canalisation enterrée, plancher chauffant). Si le compteur tourne en permanence après vérification de tous robinets et WC, la fuite n'est pas dans une chasse."}},{"@type":"Question","name":"Combien de temps avant d'appeler un plombier ?","acceptedAnswer":{"@type":"Answer","text":"Fuite légère (goutte à goutte) : tentez la réparation DIY immédiate (1h max, 5-30 € matériel). Fuite sévère (robinet équivalent) : réparez en urgence ou plombier sous 24-48h. Au-delà de 1 semaine de fuite sévère, l'écrêtement Warsmann devient quasi indispensable."}},{"@type":"Question","name":"Mon WC fuit à la base, est-ce une chasse ou autre chose ?","acceptedAnswer":{"@type":"Answer","text":"Pas une fuite de chasse classique. Peut venir du raccord d'arrivée d'eau (joint 5-8 €), de la bride d'évacuation (plombier 100-200 €), ou d'une fissure du réservoir céramique (remplacement complet WC). Diagnostic plombier recommandé."}}]}
 </script>"""
     },]
 
