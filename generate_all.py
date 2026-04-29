@@ -1439,6 +1439,7 @@ def page_simulateur_cout_fuite():
       <li><a href="/guide/compteur-eau-qui-tourne-sans-utilisation/" style="color:var(--green);text-decoration:underline;">Compteur d\'eau qui tourne sans utilisation</a> : tests à faire ce soir.</li>
       <li><a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite piscine Bordeaux</a> : diagnostic sans vidange.</li>
       <li><a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">Évaporation ou fuite piscine</a> : test du seau et taux mensuels.</li>
+      <li><a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite d\'eau dans le jardin à Bordeaux</a> : 4 signes pour confirmer la fuite extérieure et premiers réflexes.</li>
     </ul>
   </div>
 </section>
@@ -1909,7 +1910,7 @@ def page_calcul_warsmann_bordeaux():
   <div class="container" style="max-width:960px;">
     <h2>Avant le calculateur, faites diagnostiquer la fuite</h2>
     <p>Le calculateur Warsmann est un outil de cadrage et de génération de courrier. Mais sans diagnostic professionnel attestant la nature enterrée de la fuite, votre dossier sera refusé par le distributeur. Faites intervenir un spécialiste recherche de fuite pour avoir le rapport conforme.</p>
-    <p>Pages connexes : <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>, <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur Bordeaux</a>, <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance fuite enterrée</a>, <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide complet loi Warsmann</a>, <a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">facture Suez doublée à Bordeaux</a>.</p>
+    <p>Pages connexes : <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>, <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur Bordeaux</a>, <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance fuite enterrée</a>, <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">guide complet loi Warsmann</a>, <a href="/guide/facture-eau-suez-doublee-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">facture Suez doublée à Bordeaux</a>, <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d\'eau dans le jardin à Bordeaux</a>.</p>
   </div>
 </section>
 
@@ -2649,7 +2650,8 @@ GUIDE_PAGES = [
 <li>Vérifiez les raccords apparents sous les lavabos et derrière les appareils électroménagers</li>
 </ul>
 <h2>Quand faire appel à un professionnel ?</h2>
-<p>Si le test du compteur révèle une fuite mais que vous ne trouvez pas de source visible, la fuite est probablement encastrée ou enterrée. Dans ce cas, un technicien spécialisé en détection non destructive est nécessaire. En Gironde, nous intervenons sous 24h pour localiser précisément la fuite sans démolition.</p>"""
+<p>Si le test du compteur révèle une fuite mais que vous ne trouvez pas de source visible, la fuite est probablement encastrée ou enterrée. Dans ce cas, un technicien spécialisé en détection non destructive est nécessaire. En Gironde, nous intervenons sous 24h pour localiser précisément la fuite sans démolition.</p>
+<p>Cas particulier : si vous suspectez une fuite extérieure (zone humide dans le jardin, herbe plus verte sur un tracé linéaire, flaque persistante), voir notre guide pratique <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> avec les 4 signes pour confirmer la fuite et les sources fréquentes en Gironde (canalisation alimentation, arrosage automatique, évacuation, piscine).</p>"""
     },
     {
         "slug": "causes-fuites-eau",
@@ -2668,7 +2670,8 @@ GUIDE_PAGES = [
 <h2>Les travaux de construction ou rénovation</h2>
 <p>Percer un mur sans connaitre le tracé des canalisations est l'une des causes les plus fréquentes de fuites accidentelles. De même, des travaux mal réalisés sur le réseau peuvent générer des micro-fuites qui ne se manifestent que des mois plus tard.</p>
 <h2>La solution</h2>
-<p>quelle que soit la cause, nos techniciens en Gironde identifient rapidement l'origine de la fuite et vous proposent la solution adaptée : réparation ponctuelle ou <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage de la canalisation</a> si le réseau est trop dégradé.</p>"""
+<p>quelle que soit la cause, nos techniciens en Gironde identifient rapidement l'origine de la fuite et vous proposent la solution adaptée : réparation ponctuelle ou <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage de la canalisation</a> si le réseau est trop dégradé.</p>
+<p>Si la fuite est extérieure (terrain humide, zone gorgée d'eau dans le jardin, arrosage automatique défectueux), voir notre guide grand public <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> qui détaille les 4 signes pour confirmer la fuite et les sources fréquentes en Gironde.</p>"""
     },
     {
         "slug": "fuite-sous-dalle",
@@ -3671,7 +3674,7 @@ GUIDE_PAGES = [
 
 <h2>Faites-vous accompagner dès le diagnostic</h2>
 <p>Notre intervention ne se limite pas au diagnostic : nous vous remettons un rapport technique standardisé, accepté par les assureurs et les distributeurs d\'eau, avec photos, méthodes employées (gaz traceur, écoute électro-acoustique, caméra endoscopique), localisation au mètre près et préconisations chiffrées. Pour les sinistres importants, nous restons disponibles pendant 6 mois pour répondre aux questions de l\'expert mandaté ou produire des compléments de rapport.</p>
-<p>Pour démarrer une procédure assurance après une fuite enterrée à Bordeaux ou en Gironde, voir notre <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">page canalisation enterrée Bordeaux</a> ou contactez-nous via le <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a>. Pour comprendre la procédure d\'écrêtement de facture en détail, voir le guide <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">loi Warsmann : écrêtement de facture d\'eau</a>. Pour la procédure générale assurance fuite d\'eau (intérieure et extérieure), voir <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">fuite d\'eau et assurance habitation</a>."""
+<p>Pour démarrer une procédure assurance après une fuite enterrée à Bordeaux ou en Gironde, voir notre <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">page canalisation enterrée Bordeaux</a> ou contactez-nous via le <a href="/devis/" style="color:var(--green);text-decoration:underline;">formulaire de devis</a>. Pour comprendre la procédure d\'écrêtement de facture en détail, voir le guide <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">loi Warsmann : écrêtement de facture d\'eau</a>. Pour la procédure générale assurance fuite d\'eau (intérieure et extérieure), voir <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">fuite d\'eau et assurance habitation</a>. Pour les cas où la fuite enterrée se manifeste visuellement dans le jardin (zone humide, herbe plus verte, flaque persistante), voir notre guide pratique <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d\'eau dans le jardin à Bordeaux</a>."""
     },
     {
         "slug": "piscine-qui-fuit-perte-eau",
@@ -4281,7 +4284,7 @@ GUIDE_PAGES = [
 </ul>
 
 <h2>Notre intervention à Bordeaux</h2>
-<p>Diagnostic complet d'une fuite après compteur à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité du réseau, intervention 2 à 4 heures, rapport accepté par tous les distributeurs et assureurs français. Voir aussi notre page service <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> pour les détails de notre méthode et notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">service urgence 24h</a> pour les fuites importantes."""
+<p>Diagnostic complet d'une fuite après compteur à Bordeaux : <strong>380 à 580 € HT</strong> selon complexité du réseau, intervention 2 à 4 heures, rapport accepté par tous les distributeurs et assureurs français. Voir aussi notre page service <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur à Bordeaux</a> pour les détails de notre méthode et notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">service urgence 24h</a> pour les fuites importantes. Si vous constatez en plus une zone humide dans votre jardin, voir notre guide <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> qui détaille les 4 signes et les sources fréquentes en Gironde."""
     },
     {
         "slug": "facture-eau-suez-doublee-fuite-bordeaux",
@@ -4324,7 +4327,7 @@ GUIDE_PAGES = [
 <p>Procédure Warsmann auprès de Suez : <strong>facture plafonnée à 560 €</strong> au lieu de 1 850 €. Économie nette : 1 290 €. Délai total entre diagnostic et remboursement : 6 semaines.</p>
 
 <h2>Notre intervention à Bordeaux</h2>
-<p>Pour une intervention sous 24 à 48h en cas de surconsommation Suez critique, voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence recherche de fuite à Bordeaux</a>. Pour la procédure d'assurance complète, consultez le <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide fuite canalisation enterrée et assurance</a>."""
+<p>Pour une intervention sous 24 à 48h en cas de surconsommation Suez critique, voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence recherche de fuite à Bordeaux</a>. Pour la procédure d'assurance complète, consultez le <a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">guide fuite canalisation enterrée et assurance</a>. Si la fuite responsable de la surconsommation Suez est visible dans votre jardin, voir aussi notre guide <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a>."""
     },
     {
         "slug": "colonne-fonte-haussmannien-bordeaux-fuite",
@@ -5815,6 +5818,7 @@ def page_urgence_ville(p):
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : après une fuite enterrée, vous pouvez obtenir le plafonnement de la surfacturation auprès de Suez ou de la régie.</li>
       <li><a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">Prix d'une recherche de fuite à Bordeaux</a> : grille tarifaire détaillée par type de méthode et de canalisation.</li>
       <li><a href="/simulateur-cout-fuite/" style="color:var(--green);text-decoration:underline;">Simulateur de coût de fuite à Bordeaux</a> : calculez en 30 secondes le coût mensuel et annuel de votre fuite avec les tarifs réels Suez et Régie.</li>
+      <li><a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite d'eau dans le jardin à Bordeaux</a> : si la fuite urgente se manifeste par une zone humide visible dans votre jardin, ce guide donne les 4 signes pour confirmer la fuite et les premiers réflexes (couper l'eau, photographier, ne pas creuser).</li>
     </ul>
   </div>
 </section>
@@ -7224,6 +7228,7 @@ def page_canalisation_enterree_bordeaux():
       <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : alternative sans tranchée pour rénover le réseau enterré dégradé sur sa totalité.</li>
       <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence</a> : si la fuite est importante et provoque déjà des dégâts visibles (terrain saturé, fondation impactée).</li>
       <li><a href="/guide/fuite-canalisation-enterree-assurance/" style="color:var(--green);text-decoration:underline;">Prise en charge assurance d'une fuite enterrée</a> : conditions, procédure pas à pas, cas concrets de remboursement en Gironde.</li>
+      <li><a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite d'eau dans le jardin à Bordeaux</a> : guide pratique grand public si la fuite enterrée se manifeste visuellement (zone humide, herbe plus verte, flaque persistante) — 4 signes pour confirmer + premiers réflexes.</li>
     </ul>
   </div>
 </section>
@@ -7447,6 +7452,7 @@ def page_fuite_apres_compteur():
     <h2>Pour aller plus loin sur la fuite après compteur</h2>
     <p>Une fuite après compteur peut prendre plusieurs formes. Selon votre situation, ces ressources connexes vous aideront :</p>
     <ul>
+      <li><a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">Fuite d'eau dans le jardin à Bordeaux : que faire</a> : si votre fuite se manifeste par une zone humide visible, une herbe plus verte sur un tracé linéaire ou une flaque persistante, voir nos 4 signes pour confirmer la fuite et les premiers réflexes (couper l'eau, photographier, ne pas creuser).</li>
       <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite sur canalisation enterrée à Bordeaux</a> : la méthode gaz traceur expliquée pour les fuites entre compteur et habitation, ou réseau d'arrosage enterré.</li>
       <li><a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">Loi Warsmann : écrêtement de facture d'eau</a> : article complet sur la procédure pour obtenir un plafonnement de votre facture, modèle de courrier inclus.</li>
       <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Recherche de fuite en urgence à Bordeaux</a> : si la perte d'eau est importante (plus de 1 m³/jour) et qu'un dégât des eaux est imminent ou en cours.</li>
