@@ -2671,7 +2671,8 @@ GUIDE_PAGES = [
 <p>Percer un mur sans connaitre le tracé des canalisations est l'une des causes les plus fréquentes de fuites accidentelles. De même, des travaux mal réalisés sur le réseau peuvent générer des micro-fuites qui ne se manifestent que des mois plus tard.</p>
 <h2>La solution</h2>
 <p>quelle que soit la cause, nos techniciens en Gironde identifient rapidement l'origine de la fuite et vous proposent la solution adaptée : réparation ponctuelle ou <a href="/chemisage-canalisation/" style="color:var(--green);text-decoration:underline;">chemisage de la canalisation</a> si le réseau est trop dégradé.</p>
-<p>Si la fuite est extérieure (terrain humide, zone gorgée d'eau dans le jardin, arrosage automatique défectueux), voir notre guide grand public <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> qui détaille les 4 signes pour confirmer la fuite et les sources fréquentes en Gironde.</p>"""
+<p>Si la fuite est extérieure (terrain humide, zone gorgée d'eau dans le jardin, arrosage automatique défectueux), voir notre guide grand public <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite d'eau dans le jardin à Bordeaux</a> qui détaille les 4 signes pour confirmer la fuite et les sources fréquentes en Gironde.</p>
+<p>Si la fuite se manifeste par une auréole brunâtre au plafond qui s'agrandit après chaque épisode de pluie, ou par une peinture qui cloque sous un toit-terrasse, c'est plutôt une infiltration par la toiture : voir notre guide <a href="/guide/fuite-toiture-terrasse-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite toiture-terrasse à Bordeaux</a> avec les 6 signes, les 5 zones critiques (membrane, relevés, évacuations, lanterneaux, couvertines) et les méthodes de diagnostic non destructif (fumigène, fluorescéine, caméra thermique).</p>"""
     },
     {
         "slug": "fuite-sous-dalle",
@@ -5386,6 +5387,180 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite local technique à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer le local technique ?","acceptedAnswer":{"@type":"Answer","text":"Non. La majorité des réparations local technique se font filtration arrêtée et vannes fermées, sans vidanger le bassin. Seules certaines refontes complètes peuvent demander une vidange partielle."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui pour le diagnostic. La réparation est rarement prise en charge si elle est une simple maintenance, mais peut l'être si la fuite a causé un dégât des eaux constaté (mur trempé, sol affaissé, voisin impacté)."}},{"@type":"Question","name":"Pourquoi de l'air dans le préfiltre malgré une apparence d'étanchéité ?","acceptedAnswer":{"@type":"Answer","text":"Effet venturi sur une fuite côté aspiration : un défaut sur le circuit aspiration crée une dépression qui aspire de l'air par cette fuite, même sans qu'eau ne s'échappe. Diagnostic indispensable au test de pression pour localiser la fuite côté aspiration."}},{"@type":"Question","name":"Combien coûte un diagnostic local technique à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"280 à 480 € HT, intervention 1 à 2 heures, rapport remis le jour même. Moins cher que le diagnostic bassin car intervention plus courte. Souvent remboursé par l'assurance habitation."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-toiture-terrasse-bordeaux",
+        "title": "Fuite toiture-terrasse à Bordeaux : diagnostic et réparation",
+        "title_seo": "Fuite toit terrasse Bordeaux | Diagnostic & solutions",
+        "desc": "Auréole au plafond ou peinture qui gondole sous votre toit-terrasse à Bordeaux ? 6 signes, 5 zones de fuite, 5 méthodes de diagnostic non destructif, prix 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-toiture-terrasse-bordeaux.webp" alt="Gouttes d'eau sur surface vitrée d'un toit-terrasse en Gironde, contexte d'une recherche d'infiltration" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous avez une auréole humide qui réapparaît au plafond après chaque épisode de pluie ? Une peinture qui cloque sur un mur intérieur situé juste sous le toit-terrasse ? Une moisissure persistante dans un coin de plafond malgré la ventilation ? Ce sont les trois symptômes les plus typiques d'une infiltration par la toiture-terrasse, qu'il s'agisse d'une terrasse accessible (revêtement carrelé ou bois sur plots) ou d'une terrasse technique inaccessible (étanchéité bitumineuse ou EPDM nue). À Bordeaux, où la pluviométrie annuelle dépasse 950 mm avec un pic d'octobre à mars, les défauts d'étanchéité passent rarement inaperçus longtemps. Cet article vous donne la méthode complète pour identifier l'origine de la fuite, comprendre les 5 zones critiques, et choisir entre réparation soi-même et intervention professionnelle.</p>
+
+<h2>Reconnaître une fuite de toiture-terrasse : les 6 signes</h2>
+
+<p>Six symptômes principaux signalent une infiltration par toiture-terrasse. Si au moins deux apparaissent simultanément après un épisode pluvieux, le diagnostic est confirmé.</p>
+
+<ul>
+<li><strong>Auréole brunâtre au plafond</strong> qui s'agrandit après chaque pluie. La couleur jaune-brun est typique : c'est l'eau qui dissout les sels de chaux du plâtre et les dépose en surface en séchant. Plus l'auréole est foncée, plus l'infiltration est ancienne.</li>
+<li><strong>Peinture qui cloque, gondole ou s'écaille</strong> sur un mur intérieur sous toit-terrasse. La cloque se forme quand la vapeur d'eau ne peut pas traverser la peinture vinylique ou acrylique standard et pousse le film de surface.</li>
+<li><strong>Moisissure noire ou verte</strong> dans un angle plafond/mur, généralement côté nord (moins de soleil pour sécher). Signe d'humidité chronique, pas seulement ponctuelle.</li>
+<li><strong>Boiseries (poutres apparentes, plinthes, parquet) qui gonflent ou pourrissent</strong>. Les bois résineux (sapin, pin) gonflent vite, les bois durs (chêne) résistent plus longtemps mais finissent par fendre.</li>
+<li><strong>Goutte à goutte visible</strong> au plafond pendant ou juste après une pluie soutenue. Signe d'une fuite très active : ne pas attendre pour intervenir.</li>
+<li><strong>Salpêtre ou efflorescences blanches</strong> sur un mur en pierre ou béton apparent, surtout en bordure de terrasse. C'est le signe d'une remontée capillaire d'eau dans les matériaux poreux.</li>
+</ul>
+
+<p>Pour qualifier votre situation globale (fuite toit terrasse vs fuite réseau encastré vs autre), voir aussi notre <a href="/guide/comment-detecter-une-fuite/" style="color:var(--green);text-decoration:underline;">guide comment détecter une fuite chez soi</a>.</p>
+
+<h2>Les 5 zones où une toiture-terrasse fuit en pratique</h2>
+
+<p>Sur les diagnostics que nous réalisons à Bordeaux, les fuites de toit-terrasse se concentrent sur cinq zones distinctes. Connaître la zone fautive oriente la méthode de diagnostic et le coût de réparation.</p>
+
+<h3>1. Membrane d'étanchéité percée ou usée (cas le plus fréquent)</h3>
+<p>La membrane (bitumineuse multicouche, EPDM caoutchouc, PVC monocouche, résine d'étanchéité liquide) a une durée de vie de 15 à 30 ans selon le matériau et l'exposition. Sur Bordeaux, les UV intenses d'été (juillet-août) accélèrent le vieillissement des membranes bitumineuses non protégées. Causes typiques : perforation par chute d'objet (branche, mobilier), fissuration thermique, vieillissement naturel. Diagnostic au fumigène ou à la mise en eau colorée.</p>
+
+<h3>2. Relevés d'étanchéité aux points singuliers</h3>
+<p>Les relevés sont les zones où la membrane remonte verticalement contre un mur, une cheminée, un acrotère ou un lanterneau. Ce sont les points les plus sollicités mécaniquement (cycles thermiques, mouvements différentiels) et statistiquement la première cause de fuite après 10-15 ans. Diagnostic visuel à la lampe rasante + test à la fluorescéine.</p>
+
+<h3>3. Évacuations bouchées ou défaillantes</h3>
+<p>Les évacuations d'eaux pluviales (avaloir, descente EP, trop-plein) bouchées par feuilles, mousse, gravillons ou débris créent une stagnation d'eau qui finit par déborder par-dessus les relevés. Cause sous-estimée mais responsable de 25 % des fuites en climat océanique humide comme Bordeaux. Diagnostic visuel et nettoyage en urgence.</p>
+
+<h3>4. Lanterneaux, skydomes et émergences</h3>
+<p>Les lanterneaux (fenêtres de toit), skydomes plastique et émergences techniques (sortie ventilation, gaine VMC, sortie chaudière) sont des points d'étanchéité complexes. Les joints silicone ou EPDM autour de ces éléments durcissent en 8-12 ans et fissurent. Diagnostic au colorant fluorescéine ou à la mise en eau ciblée.</p>
+
+<h3>5. Joints de couvertines et acrotères</h3>
+<p>Les couvertines (capots métalliques en zinc, aluminium ou aciérine qui couvrent l'acrotère) ont des joints de dilatation tous les 2 à 4 mètres. Ces joints au mastic polyuréthane ou silicone vieillissent et laissent passer l'eau qui ruisselle ensuite à l'intérieur du bâti. Diagnostic visuel + caméra thermique pour cartographier l'humidité dans le mur.</p>
+
+<h2>Spécificités des toits-terrasses en Gironde</h2>
+
+<p>Quelques points à connaître pour le climat et le bâti girondins :</p>
+
+<ul>
+<li><strong>Pluviométrie élevée</strong> : Bordeaux reçoit en moyenne 950 à 1 050 mm de pluie par an, avec un pic d'octobre à mars (60 % des précipitations). Les défauts d'étanchéité se révèlent rarement en été et explosent à l'automne. Période optimale pour faire diagnostiquer : septembre, juste avant les pluies d'automne.</li>
+<li><strong>UV intenses en été</strong> : malgré le climat océanique, les étés bordelais voient des températures de surface sur toit noir bitumineux dépasser 70°C. Les membranes non protégées par gravillons ou paillettes minérales vieillissent 30 à 50 % plus vite qu'en région Nord.</li>
+<li><strong>Terrasses bois sur plots populaires</strong> au Bassin d'Arcachon (résidences secondaires Cap-Ferret, Pyla, Lège) : ces revêtements masquent l'étanchéité sous-jacente et compliquent le diagnostic visuel. Le démontage partiel (1-2 m²) est souvent nécessaire pour accéder à la membrane.</li>
+<li><strong>Bâti tertiaire en zones d'activité</strong> : parc Bersol à Cestas, Mérignac aéroport, Lac de Bordeaux. Les toits-terrasses de bureaux et entrepôts logistiques (souvent 500 à 5 000 m²) demandent un protocole d'investigation par zonage et test à l'eau colorée par secteur.</li>
+</ul>
+
+<h2>5 méthodes de diagnostic non destructif</h2>
+
+<p>Une fois la fuite suspectée, plusieurs méthodes permettent de localiser précisément l'origine sans démolir la terrasse au hasard.</p>
+
+<h3>Test fumigène (la méthode reine)</h3>
+<p>On insuffle de la fumée blanche non toxique sous la membrane d'étanchéité avec une machine fumigène pro. La fumée ressort par la fuite et la rend visible à l'œil nu. Méthode très efficace pour les terrasses techniques (sans revêtement) avec membrane apparente. Durée : 1 à 2 heures.</p>
+
+<h3>Mise en eau colorée à la fluorescéine</h3>
+<p>On injecte du colorant fluorescéine dans une zone test puis on inonde la terrasse sur 30 minutes. Le colorant traverse la fuite et apparaît au plafond intérieur. Méthode économique mais salissante (attention au revêtement intérieur). Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine détaillé</a>.</p>
+
+<h3>Caméra thermique infrarouge</h3>
+<p>Cartographie les zones humides dans la dalle ou les murs (l'eau a une signature thermique différente). Très utile pour localiser une infiltration diffuse sans point d'entrée évident. Voir notre <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">page thermographie infrarouge à Bordeaux</a>.</p>
+
+<h3>Sonde électroacoustique</h3>
+<p>Capte le bruit caractéristique de l'eau qui ruisselle dans une cavité. Méthode complémentaire pour distinguer une fuite active d'une humidité résiduelle.</p>
+
+<h3>Humiditest et capteurs d'humidité</h3>
+<p>Mesure quantitative du taux d'humidité dans les matériaux à différents points. Permet de distinguer une fuite ponctuelle (humidité localisée) d'une fuite chronique (humidité étendue) ou d'une simple condensation.</p>
+
+<h2>Réparer soi-même ou faire appel à un professionnel ?</h2>
+
+<p><strong>Cas où la réparation DIY est envisageable</strong> (matériel 30 à 150 €) :</p>
+<ul>
+<li>Évacuation bouchée : nettoyage à la main + curage. 30 min, gratuit.</li>
+<li>Joint de couvertine craquelé : nettoyage + reprise au mastic polyuréthane SP1 ou silicone neutre. 100 à 150 € de fournitures.</li>
+<li>Petit colmatage ponctuel sur EPDM : produit de réparation Rubson ou équivalent + bande adhésive. 30 à 80 € de fournitures.</li>
+</ul>
+
+<p><strong>Cas où l'intervention pro est nécessaire</strong> :</p>
+<ul>
+<li>Doute sur l'origine de la fuite : un mauvais diagnostic conduit à intervenir au mauvais endroit. Le coût total finit plus élevé que si on avait fait diagnostiquer dès le départ.</li>
+<li>Membrane d'étanchéité dégradée sur grande surface : reprise par étancheur certifié indispensable.</li>
+<li>Toit-terrasse en copropriété ou tertiaire : le mandatement vient du syndic ou facility manager. Voir notre <a href="/syndics-bordeaux/" style="color:var(--green);text-decoration:underline;">offre syndics et copropriétés Bordeaux</a>.</li>
+<li>Bâtiment professionnel avec impact opérationnel (Bersol, zones logistiques) : intervention sous 24h prioritaire pour limiter la perte d'exploitation.</li>
+</ul>
+
+<h2>Notre méthode de diagnostic à Bordeaux</h2>
+
+<p>Notre intervention dure 2 à 4 heures et combine 3 à 5 méthodes selon la configuration :</p>
+<ol>
+<li><strong>Inspection visuelle systématique</strong> de la terrasse, des relevés, évacuations, lanterneaux et acrotères, à la lampe rasante haute intensité.</li>
+<li><strong>Caméra thermique</strong> du plafond intérieur pour cartographier la zone humide et orienter la recherche en toiture.</li>
+<li><strong>Test fumigène</strong> ou mise en eau colorée selon l'accessibilité de la membrane.</li>
+<li><strong>Humiditest</strong> sur 5 à 10 points pour distinguer fuite active vs humidité chronique vs condensation.</li>
+<li><strong>Rapport technique</strong> remis le jour même avec photos, schéma de localisation et préconisations de réparation par un étancheur partenaire (sans surfacturation).</li>
+</ol>
+
+<h2>Combien coûte un diagnostic et une réparation à Bordeaux ?</h2>
+
+<p>Ordres de grandeur 2026 sur Bordeaux Métropole :</p>
+<ul>
+<li><strong>Diagnostic professionnel non destructif</strong> : 380 à 580 € HT pour une maison/petit local. Pour les bâtiments tertiaires de 500 à 5 000 m² : sur devis (généralement 800 à 1 800 € HT). Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d'eau</a>).</li>
+<li><strong>Nettoyage et débouchage évacuation</strong> : DIY 30 min gratuit, ou pro 80 à 150 € HT.</li>
+<li><strong>Reprise mastic d'étanchéité (relevé, couvertine)</strong> : DIY 100 à 200 €, ou pro 300 à 600 € HT par mètre linéaire.</li>
+<li><strong>Réfection membrane bitumineuse multicouche</strong> : 80 à 130 € HT/m² par étancheur certifié.</li>
+<li><strong>Réfection EPDM monocouche</strong> : 50 à 90 € HT/m² selon configuration.</li>
+<li><strong>Pose résine d'étanchéité liquide</strong> (solution sans vidage de gravillons) : 60 à 110 € HT/m².</li>
+</ul>
+
+<p>Pour la grille tarifaire complète, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+
+<h2>Spécificités B2B : locaux professionnels et bâtiments tertiaires</h2>
+
+<p>Une fuite de toit-terrasse en bâtiment professionnel (bureaux, entrepôt logistique, commerce, restaurant) impacte directement l'exploitation : fermeture temporaire, dégâts sur stocks, équipements informatiques humidifiés. Notre offre B2B sur Bordeaux et Gironde :</p>
+<ul>
+<li><strong>Intervention prioritaire sous 24h</strong> pour les sinistres avec impact opérationnel (parc Bersol Cestas, ZA Mérignac, ZAC Lac, zones logistiques).</li>
+<li><strong>Mandatement direct</strong> par facility manager, gestionnaire immobilier ou syndic professionnel, avec rapport conforme exigences IRSI pour copropriétés tertiaires.</li>
+<li><strong>Coordination avec étancheur partenaire</strong> pour réparation rapide après diagnostic (gain de temps vs recherche d'un étancheur en urgence).</li>
+<li><strong>Suivi post-intervention</strong> à 3 et 6 mois pour valider l'efficacité de la réparation, particulièrement utile en climat océanique pluvieux.</li>
+</ul>
+
+<h2>Prévenir les fuites de toiture-terrasse</h2>
+
+<p>Quelques gestes qui prolongent la durée de vie de la membrane par 5 à 10 ans :</p>
+<ul>
+<li><strong>Nettoyage des évacuations 2 fois par an</strong> (printemps + automne) : retirer feuilles, mousses, gravillons. Coût gratuit, gain énorme contre les stagnations d'eau.</li>
+<li><strong>Inspection visuelle annuelle des relevés et couvertines</strong> à la lampe rasante : repérer fissures, joints craquelés, soulèvements de membrane. Idéalement en septembre, avant les pluies d'automne.</li>
+<li><strong>Maintien d'une protection lourde</strong> (gravillons 4-12 mm, dalles sur plots) sur les terrasses techniques pour bloquer les UV.</li>
+<li><strong>Éviter de marcher sur la membrane</strong> en chaussures à talons ou avec des objets pointus sur une terrasse technique non protégée. Les perforations ponctuelles sont la 2e cause de fuite.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien de temps pour intervenir à Bordeaux ?</h3>
+<p>Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. Pour les sinistres B2B avec impact opérationnel, intervention sous 24h prioritaire. Pour les urgences (eau qui coule activement au plafond), voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a>.</p>
+
+<h3>Mon assurance habitation rembourse-t-elle la recherche de fuite toit-terrasse ?</h3>
+<p>Dans 80 à 90 % des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite dès lors qu'un dégât des eaux intérieur est constaté (auréole plafond, peinture cloquée, moisissure). Voir notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d'eau</a>.</p>
+
+<h3>Puis-je marcher sur ma toiture pour vérifier ?</h3>
+<p>Oui sur une terrasse accessible avec revêtement (carrelage, dalles sur plots). Non sur une terrasse technique avec membrane bitumineuse ou EPDM nue : risque de perforation. Si vous devez monter, posez préalablement une planche large pour répartir le poids et portez des chaussures à semelle plate non-marquante.</p>
+
+<h3>La fuite peut-elle venir de l'étage du dessus et pas du toit ?</h3>
+<p>Oui, fréquent en immeuble collectif bordelais. Une fuite de baignoire, douche, ou canalisation encastrée à l'étage supérieur peut se manifester par une auréole identique à une fuite de toit-terrasse. Notre diagnostic distingue les deux : test fumigène sur toit (si rien ne ressort, fuite intérieure étage du dessus) + caméra thermique du plafond pour cartographier l'origine.</p>
+
+<h3>Combien coûte un diagnostic toit-terrasse à Bordeaux ?</h3>
+<p>380 à 580 € HT pour une maison ou petit local (< 100 m²), 800 à 1 800 € HT pour bâtiment tertiaire (500 à 5 000 m²). Intervention 2 à 4 heures, rapport remis le jour même. Souvent remboursé par l'assurance habitation au titre de la garantie recherche de fuite.</p>
+
+<h2>Demander un diagnostic toit-terrasse à Bordeaux</h2>
+
+<p>Notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic non destructif complet, rapport technique remis le jour même.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite toiture-terrasse à Bordeaux : diagnostic et réparation","description":"Auréole au plafond ou peinture qui gondole sous votre toit-terrasse à Bordeaux ? 6 signes, 5 zones de fuite, 5 méthodes de diagnostic non destructif, prix 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-toiture-terrasse-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-toiture-terrasse-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Recherche de fuite sur toiture-terrasse à Bordeaux et en Gironde. Diagnostic non destructif : test fumigène, mise en eau colorée, fluorescéine, caméra thermique, humiditest. Maison résidentielle et bâtiment tertiaire.","url":"https://recherche-fuite-gironde.fr/guide/fuite-toiture-terrasse-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite toiture"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite toiture-terrasse Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-toiture-terrasse-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite toit-terrasse à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. Pour les sinistres B2B avec impact opérationnel, intervention sous 24h prioritaire."}},{"@type":"Question","name":"Mon assurance habitation rembourse-t-elle la recherche de fuite toit-terrasse ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite dès lors qu'un dégât des eaux intérieur est constaté."}},{"@type":"Question","name":"Puis-je marcher sur ma toiture pour vérifier ?","acceptedAnswer":{"@type":"Answer","text":"Oui sur une terrasse accessible avec revêtement (carrelage, dalles sur plots). Non sur une terrasse technique avec membrane bitumineuse ou EPDM nue : risque de perforation. Si vous devez monter, posez une planche large pour répartir le poids."}},{"@type":"Question","name":"La fuite peut-elle venir de l'étage du dessus et pas du toit ?","acceptedAnswer":{"@type":"Answer","text":"Oui, fréquent en immeuble collectif bordelais. Notre diagnostic distingue les deux : test fumigène sur toit (si rien ne ressort, fuite intérieure étage du dessus) + caméra thermique du plafond pour cartographier l'origine."}},{"@type":"Question","name":"Combien coûte un diagnostic toit-terrasse à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT pour une maison ou petit local, 800 à 1800 € HT pour bâtiment tertiaire 500-5000 m². Intervention 2 à 4 heures, rapport remis le jour même. Souvent remboursé par l'assurance habitation."}}]}
 </script>"""
     },]
 
