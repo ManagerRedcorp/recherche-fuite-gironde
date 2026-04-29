@@ -3047,7 +3047,7 @@ GUIDE_PAGES = [
 <p>Si votre piscine perd de l'eau mais que la baisse s'arrêté à un certain niveau (ex : niveau du skimmer, niveau de la buse de refoulement), vous avez probablement identifié la zone de fuite.</p>
 
 <ul>
-<li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la pièce). très fréquent sur piscines liner de 25+ ans.</li>
+<li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la pièce). très fréquent sur piscines liner de 25+ ans. Pour le diagnostic complet en 3 tests et les 5 zones précises ou le skimmer fuit, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>.</li>
 <li><strong>Baisse s'arrêté au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le béton.</li>
 <li><strong>Baisse s'arrêté au niveau de la prise balai</strong> : joint de prise balai ou raccord defectueux.</li>
 <li><strong>Baisse continue sans s'arrêter</strong> : fuite sur liner (perforation), bonde de fond, canalisation enterrée ou fissure structurelle.</li>
@@ -3545,7 +3545,7 @@ GUIDE_PAGES = [
 <li><strong>Humidité côté terre derrière le skimmer</strong> : carrelage de plage qui se décolle, terre saturée juste derrière, voire remontée d\'eau visible quand on creuse 20 cm.</li>
 <li><strong>Test fluorescéine positif sur le skimmer</strong> : nous injectons quelques millilitres de colorant à l\'aide d\'une seringue à proximité du skimmer, filtration coupée. Une migration vers la traversée de paroi confirme la fuite.</li>
 </ul>
-<p>Sans ces indices, la réparation à la résine époxy ne sert à rien. Voir aussi notre guide <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic fuite liner piscine</a> pour distinguer skimmer et liner sur les piscines de plus de 15 ans où les deux peuvent fuir simultanément.</p>
+<p>Sans ces indices, la réparation à la résine époxy ne sert à rien. Pour le diagnostic complet en amont (3 tests, 5 zones de fuite possibles, arbre de décision DIY vs professionnel), voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>. Voir aussi notre guide <a href="/guide/fuite-liner-piscine/" style="color:var(--green);text-decoration:underline;">diagnostic fuite liner piscine</a> pour distinguer skimmer et liner sur les piscines de plus de 15 ans où les deux peuvent fuir simultanément.</p>
 
 <h2>Quelle résine époxy choisir pour réparer un skimmer ?</h2>
 <p>Toutes les résines époxy ne se valent pas. Pour un skimmer immergé en permanence, vous devez impérativement choisir une résine spécifiquement formulée pour usage piscine : résistance chimique au chlore et au pH 7,0 à 7,8, prise en milieu humide, élasticité résiduelle pour absorber les micro-mouvements du voile béton, durée de vie 10 à 15 ans en immersion permanente. Voici nos recommandations selon le profil de réparation :</p>
@@ -4479,7 +4479,7 @@ GUIDE_PAGES = [
 <p>Sur les diagnostics annuels que nous réalisons à Bordeaux, les fuites de piscine se concentrent sur 3 zones avec des proportions stables :</p>
 
 <h3>Filtration et pièces à sceller (60 % des cas)</h3>
-<p>Skimmer, buses de refoulement, projecteurs, prise balai, bonde de fond. Joints toriques durcis après 8-12 ans, brides desserrées par cycles thermiques, mastic d'étanchéité craquelé. Diagnostic ciblé par fluorescéine, réparation rapide (changement joint 12-35 €). Voir notre guide spécifique <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
+<p>Skimmer, buses de refoulement, projecteurs, prise balai, bonde de fond. Joints toriques durcis après 8-12 ans, brides desserrées par cycles thermiques, mastic d'étanchéité craquelé. Diagnostic ciblé par fluorescéine, réparation rapide (changement joint 12-35 €). Le skimmer concentre à lui seul plus de 50 % des fuites de pièces à sceller que nous diagnostiquons en Gironde : si votre niveau d'eau se stabilise pile sous le bord inférieur du skimmer, voir notre guide dédié <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests pour confirmer le diagnostic et les 5 zones précises à inspecter. Pour la réparation à la résine époxy proprement dite, voir aussi notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
 
 <h3>Canalisations enterrées (25 % des cas)</h3>
 <p>Sols sableux du Bassin d'Arcachon ou argileux de la métropole bordelaise désaxent les raccords PVC en 15-25 ans. Diagnostic par gaz traceur azote/hydrogène et inspection caméra. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a> et <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</p>
@@ -4777,6 +4777,150 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Sous quel délai pouvez-vous intervenir pour une fuite de jardin ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et la métropole girondine. Pour les urgences absolues, service urgence sous 24h disponible."}},{"@type":"Question","name":"Faut-il tout creuser après le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Non. Une fois la fuite localisée au mètre près, la réparation se fait sur une fouille ponctuelle de 50 cm × 50 cm en moyenne. Pour les canalisations PE, certaines réparations se font par chemisage interne sans aucune fouille."}},{"@type":"Question","name":"Et si la fuite est sur mon arrosage automatique ?","acceptedAnswer":{"@type":"Answer","text":"Notre diagnostic identifie aussi les fuites sur réseau d'arrosage. Pour la réparation, l'installateur d'origine ou un paysagiste irrigation peut intervenir avec notre rapport qui localise précisément le défaut."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Dans 85% des cas oui, sur présentation du rapport technique conforme. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la recherche de fuite au titre de la garantie dégât des eaux."}},{"@type":"Question","name":"Combien coûte un diagnostic de fuite extérieure à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT selon la complexité (longueur du réseau, méthode requise, accessibilité). Intervention sous 24-48h, rapport technique remis le jour même."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-skimmer-piscine-bordeaux",
+        "title": "Fuite skimmer piscine à Bordeaux : diagnostic et réparation",
+        "title_seo": "Fuite skimmer piscine Bordeaux | Diagnostic",
+        "desc": "Votre piscine perd de l'eau au niveau du skimmer à Bordeaux ? Diagnostic en 3 tests, 5 zones de fuite à inspecter, réparation DIY ou intervention pro, prix 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-skimmer-piscine-bordeaux.webp" alt="Bord de piscine et niveau d'eau au skimmer en Gironde, contexte d'une recherche de fuite" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine à Bordeaux perd de l'eau et vous suspectez le skimmer ? Vous voyez le niveau descendre régulièrement jusqu'au bord inférieur de la trappe d'aspiration, puis se stabiliser ? Ce symptôme est typique d'une fuite au niveau du skimmer ou de ses raccords. C'est l'une des pathologies les plus fréquentes que nous diagnostiquons à Bordeaux et en Gironde, devant les fuites de canalisations enterrées et les défauts de revêtement. Cet article vous donne la méthode complète pour confirmer le diagnostic, identifier la zone précise de la fuite et choisir entre réparation soi-même ou intervention professionnelle.</p>
+
+<h2>Comment savoir si la fuite vient bien du skimmer ?</h2>
+
+<p>Avant d'engager des frais, trois tests gratuits éliminent 80 % des fausses alertes (évaporation forte, autre source de fuite). Ils se font en 24 à 48 heures sans matériel spécifique.</p>
+
+<h3>Test 1 : le test du seau (référence)</h3>
+<p>Posez un seau rempli d'eau sur la première marche immergée du bassin pour qu'il soit à la même température. Marquez au feutre permanent les niveaux intérieur du seau et de la piscine. Attendez 24 à 48 heures sans baignade ni remplissage automatique. Si le seau et la piscine baissent de la même hauteur, c'est de l'évaporation. Si la piscine baisse plus, vous avez bien une fuite. Voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite piscine</a> avec tableau d'évaporation mensuel en Gironde.</p>
+
+<h3>Test 2 : le niveau qui se stabilise sous le skimmer</h3>
+<p>Si la baisse s'arrête juste sous le bord inférieur du skimmer (typiquement 5 à 10 cm sous la margelle), la fuite est presque certainement au niveau du skimmer ou de son raccord. Le skimmer ne peut plus aspirer l'air une fois découvert : la fuite continue jusqu'à ce que le niveau d'eau passe sous l'orifice de fuite. Ce comportement est très caractéristique sur les piscines bordelaises, en particulier celles équipées de skimmers anciens à bride.</p>
+
+<h3>Test 3 : filtration on/off pendant 24h chacun</h3>
+<p>Comparez la baisse sur 24 heures filtration en marche, puis 24 heures filtration arrêtée. Une baisse plus rapide en marche indique une fuite côté refoulement (pression). Une baisse plus rapide à l'arrêt oriente vers une fuite côté skimmer ou bassin (aspiration / gravité). Combiné aux deux tests précédents, vous savez avec une bonne certitude si le skimmer est en cause.</p>
+
+<h2>Les 5 zones où le skimmer fuit en pratique</h2>
+
+<p>Sur les diagnostics que nous réalisons à Bordeaux, les fuites de skimmer se concentrent sur cinq zones distinctes. La méthode de diagnostic et le coût de réparation diffèrent significativement selon la zone.</p>
+
+<h3>1. Joint de bride entre skimmer et paroi (le cas le plus fréquent)</h3>
+<p>Le skimmer est fixé à la paroi par une bride avec un joint en mousse ou caoutchouc. Après 8 à 15 ans, ce joint durcit, se compresse et perd son étanchéité. Diagnostic visuel impossible (le joint est caché derrière la bride). Diagnostic au colorant <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a> injecté juste devant la bride : le colorant est aspiré vers la fuite.</p>
+
+<h3>2. Fissure du corps plastique du skimmer</h3>
+<p>Sur les piscines anciennes ou exposées au gel, le corps plastique peut fissurer, surtout au niveau des angles et de la gorge supérieure. Cause fréquente : laisser le skimmer plein d'eau pendant l'hiver (l'eau gèle et fissure le plastique). À Bordeaux le risque de gel est limité (5 à 10 jours par an en moyenne) mais en zone d'altitude (Médoc viticole, Entre-Deux-Mers) ou pendant les épisodes froids exceptionnels (février 2012, février 2018), le risque existe. Diagnostic visuel à la lampe rasante après vidange partielle sous le skimmer.</p>
+
+<h3>3. Raccord arrière entre skimmer et canalisation enterrée</h3>
+<p>Le skimmer est connecté à la canalisation d'aspiration enterrée par un raccord PVC. Sur les sols de la métropole bordelaise (argileux, mouvements saisonniers) et du Bassin d'Arcachon (sableux, tassement progressif), ce raccord peut se désaxer après 15 à 25 ans. Diagnostic par <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur sur la canalisation enterrée</a>, isolant le tronçon défectueux au mètre près.</p>
+
+<h3>4. Fond du skimmer (pièce arrachée par le tuyau d'aspiration)</h3>
+<p>Cas plus rare mais qui se rencontre sur les piscines installées par auto-construction ou avec un coffrage approximatif : le tuyau d'aspiration tire sur le fond du skimmer en cas de tassement de terrain et finit par arracher la pièce. Diagnostic visuel à la lampe rasante quand le niveau d'eau est descendu sous le skimmer, ou à la caméra endoscopique étanche.</p>
+
+<h3>5. Vanne multivoies en local technique</h3>
+<p>La fuite peut sembler venir du skimmer alors qu'elle est en réalité au niveau de la vanne multivoies du local technique (joint d'étoile usé). Test : fermez la vanne d'isolement du skimmer et observez si la baisse continue. Si oui, la fuite est ailleurs ; si elle s'arrête, c'est bien dans le circuit skimmer-vanne. Coût remplacement joint d'étoile : 40 à 80 € pièce.</p>
+
+<h2>Spécificités de la Gironde sur les fuites de skimmer</h2>
+
+<p>Les piscines girondines présentent quelques particularités à connaître pour orienter le diagnostic :</p>
+
+<ul>
+<li><strong>Sols sableux du Bassin d'Arcachon</strong> (Gujan-Mestras, La Teste-de-Buch, Andernos-les-Bains, Arcachon) : tassement progressif et différentiel autour du bassin, qui sollicite les raccords arrière du skimmer plus que la moyenne nationale. Vigilance accrue après 12-15 ans.</li>
+<li><strong>Sols argileux de la métropole bordelaise</strong> (Caudéran, Mérignac, Pessac, Talence, Bègles) : mouvements saisonniers liés à l'argile (gonflement humide / retrait sec), qui décalent les raccords PVC enterrés et peuvent fissurer la maçonnerie autour du skimmer.</li>
+<li><strong>Climat océanique doux</strong> : peu de gel et donc peu de fissures structurelles du plastique, mais saison de baignade longue (mai à octobre) qui sollicite les joints de bride bien plus que les régions Nord.</li>
+<li><strong>Pic de demandes en juillet-août-septembre</strong> : sur les 13 derniers mois, ces 3 mois représentent 50 % des demandes de diagnostic piscine que nous recevons en Gironde. Anticiper les pannes en mai-juin permet d'éviter l'attente des piscinistes saturés en pleine saison.</li>
+</ul>
+
+<h2>Réparer soi-même ou faire appel à un professionnel ?</h2>
+
+<p>La décision dépend principalement de la zone identifiée par le diagnostic.</p>
+
+<p><strong>Cas où la réparation DIY est envisageable</strong> (coût matériel 30 à 80 €) :</p>
+<ul>
+<li>Joint de bride accessible et identifié comme défaillant : changement du joint avec démontage de la bride. Comptez 2 à 3 heures, niveau bricolage moyen, attention aux joints toriques.</li>
+<li>Fissure visible sur le corps du skimmer hors d'eau : réparation par mastic époxy bi-composant + tissu de verre stratifié à la résine. Préparation soignée du support indispensable (poncer, dégraisser à l'acétone).</li>
+<li>Joint d'étoile de vanne multivoies : remplacement standard, 30 minutes, 40-80 € la pièce.</li>
+</ul>
+
+<p><strong>Cas où l'intervention pro est nécessaire</strong> :</p>
+<ul>
+<li>Doute sur l'origine exacte de la fuite : un mauvais diagnostic conduit à réparer la mauvaise zone, et la fuite continue. Le coût total finit plus élevé que si on avait fait diagnostiquer dès le départ.</li>
+<li>Suspicion de fuite sur la canalisation enterrée derrière le skimmer : seul un diagnostic par gaz traceur localise précisément la fuite, sans ouvrir la terrasse au hasard.</li>
+<li>Skimmer encastré dans la maçonnerie d'un bassin béton, fuite de bride non démontable sans casse : réparation à la résine époxy injectée, technique pro.</li>
+<li>Piscine sous garantie décennale (moins de 10 ans) : faire diagnostiquer par un tiers indépendant pour activer la garantie auprès du constructeur (Desjoyaux, Magiline, Diffazur, Waterair, etc.). Voir nos guides constructeurs : <a href="/guide/fuite-piscine-desjoyaux-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite piscine Desjoyaux</a>, <a href="/guide/fuite-piscine-magiline-bordeaux/" style="color:var(--green);text-decoration:underline;">Magiline</a>, <a href="/guide/fuite-piscine-diffazur-bordeaux/" style="color:var(--green);text-decoration:underline;">Diffazur</a>, <a href="/guide/fuite-piscine-waterair-bordeaux/" style="color:var(--green);text-decoration:underline;">Waterair</a>.</li>
+</ul>
+
+<h2>Notre méthode de diagnostic à Bordeaux</h2>
+
+<p>Notre intervention dure 2 à 3 heures et combine 3 méthodes non destructives, sans vidanger le bassin :</p>
+<ol>
+<li><strong>Inspection visuelle systématique</strong> de tout le pourtour du skimmer (corps, bride, raccords visibles) avec lampe rasante haute intensité. Repère microfissures, joints fatigués, traces de calcaire qui signalent une fuite chronique.</li>
+<li><strong>Test à la fluorescéine</strong> ciblé sur les zones suspectes : injection de quelques gouttes de colorant non toxique, observation de l'aspiration. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine détaillé</a>.</li>
+<li><strong>Test de pression hydraulique</strong> du circuit skimmer-canalisation : on isole le circuit, on met sous pression, et on mesure la perte. Le résultat oriente vers une fuite du skimmer (perte rapide) ou de la canalisation (perte progressive).</li>
+</ol>
+
+<p>Le rapport technique remis le jour même indique la zone précise de la fuite et oriente la réparation. Pour une vue d'ensemble de notre service piscine en Gironde, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>.</p>
+
+<h2>Combien coûte un diagnostic et une réparation à Bordeaux ?</h2>
+
+<p>Les ordres de grandeur 2026 sur Bordeaux Métropole :</p>
+<ul>
+<li><strong>Diagnostic professionnel non destructif</strong> : 380 à 580 € HT, intervention 2 à 3 heures, rapport remis le jour même. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>).</li>
+<li><strong>Réparation DIY joint de bride</strong> : 30 à 80 € de fournitures, 2 à 3 heures de bricolage.</li>
+<li><strong>Réparation pro joint de bride avec démontage skimmer encastré</strong> : 250 à 450 € HT par un pisciniste partenaire.</li>
+<li><strong>Remplacement complet du skimmer</strong> sur piscine béton avec reprise maçonnerie : 800 à 1 500 € HT selon configuration.</li>
+<li><strong>Réparation canalisation enterrée</strong> après localisation par gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité.</li>
+</ul>
+
+<p>Pour la grille tarifaire complète selon la méthode et le type de bassin, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+
+<h2>Prévenir une nouvelle fuite de skimmer</h2>
+
+<p>Quelques gestes simples qui multiplient la durée de vie d'un skimmer par 2 ou 3 :</p>
+<ul>
+<li><strong>Ne jamais placer de galets de chlore dans le panier du skimmer</strong> : le chlore très concentré attaque le plastique du skimmer et le joint de bride, raccourcissant leur durée de vie. Utiliser un diffuseur flottant ou un distributeur automatique au local technique.</li>
+<li><strong>Hivernage actif ou passif maîtrisé</strong> : si vous laissez de l'eau dans le skimmer en hiver, glissez-y une bouteille plastique vide écrasée ou un bouchon d'hivernage. La bouteille absorbe la dilatation de la glace et évite la fissure.</li>
+<li><strong>Maintenir un niveau d'eau stable</strong> entre le tiers et la moitié du skimmer : éviter les variations brusques qui sollicitent la bride. Système de remplissage automatique recommandé.</li>
+<li><strong>Contrôle annuel</strong> de la visserie de la bride et de l'état du joint, idéalement au moment de la <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service au printemps</a>.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien de temps pour intervenir sur Bordeaux ?</h3>
+<p>Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence. Pour les urgences, voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a>.</p>
+
+<h3>Faut-il vidanger la piscine pour réparer le skimmer ?</h3>
+<p>Non dans 90 % des cas. Une vidange partielle (descendre le niveau juste sous le skimmer) suffit pour les réparations de bride, mastic ou tissu de verre. La vidange totale est à éviter : risque de soulèvement structurel sur sols argileux, et il faut ensuite payer le retraitement de l'eau.</p>
+
+<h3>Est-ce que mon assurance va rembourser la recherche de fuite ?</h3>
+<p>Dans 80 à 90 % des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut, GMF prennent en charge la garantie recherche de fuite dès lors qu'un dégât des eaux est constaté ou qu'une surconsommation est mesurée. Pour les détails, voir notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>.</p>
+
+<h3>Et si la fuite a fait doubler ma facture Suez ?</h3>
+<p>Vous pouvez activer la procédure d'écrêtement loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole pour plafonner la facture au double de votre consommation moyenne. Notre rapport technique fait office de preuve de fuite. Calculez votre montant éligible avec notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a>.</p>
+
+<h3>Quelle différence entre un diagnostic chez vous et un pisciniste ?</h3>
+<p>Un pisciniste fait diagnostic et réparation, ce qui peut créer un conflit d'intérêt (incitation à surfacturer la réparation). Notre métier est exclusivement le diagnostic non destructif : nous localisons la fuite au mètre près avec un rapport objectif, vous comparez ensuite les devis de réparation chez plusieurs piscinistes. Le coût total est généralement 20 à 30 % plus bas que chez un prestataire intégré.</p>
+
+<h2>Demander un diagnostic skimmer à Bordeaux</h2>
+
+<p>Notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic complet 380 à 580 € HT, rapport technique remis le jour même, conforme aux exigences des assureurs et de la procédure Warsmann.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite skimmer piscine à Bordeaux : diagnostic et réparation","description":"Votre piscine perd de l'eau au niveau du skimmer à Bordeaux ? Diagnostic en 3 tests, 5 zones de fuite à inspecter, réparation DIY ou intervention pro, prix 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-skimmer-piscine-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-skimmer-piscine-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Recherche de fuite au niveau du skimmer de piscine à Bordeaux et en Gironde sans vidange. Méthodes non destructives : fluorescéine, test de pression, inspection caméra, gaz traceur sur canalisations.","url":"https://recherche-fuite-gironde.fr/guide/fuite-skimmer-piscine-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite piscine"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite skimmer piscine Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-skimmer-piscine-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite skimmer à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer le skimmer ?","acceptedAnswer":{"@type":"Answer","text":"Non dans 90% des cas. Une vidange partielle juste sous le skimmer suffit pour les réparations de bride, mastic ou tissu de verre. La vidange totale est à éviter : risque de soulèvement structurel sur sols argileux."}},{"@type":"Question","name":"Est-ce que mon assurance habitation rembourse la recherche de fuite ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite."}},{"@type":"Question","name":"Que faire si la fuite a doublé ma facture Suez ?","acceptedAnswer":{"@type":"Answer","text":"Activer la procédure d'écrêtement loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole pour plafonner la facture au double de la consommation moyenne. Notre rapport technique fait office de preuve."}},{"@type":"Question","name":"Combien coûte un diagnostic skimmer à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT selon complexité, intervention 2 à 3 heures, rapport remis le jour même. Souvent remboursé par l'assurance habitation au titre de la garantie recherche de fuite."}}]}
 </script>"""
     },]
 
@@ -8776,7 +8920,7 @@ def page_piscine_ville(p):
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Fuite skimmer ou refoulement</h3>
-          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Voir notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
+          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Si votre niveau d'eau se stabilise pile sous le skimmer, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests de confirmation et les 5 zones précises où le skimmer fuit. Pour la réparation à la résine, voir aussi <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
         </div>
       </div>
       <div class="arg-num-card">
