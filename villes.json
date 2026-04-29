@@ -214,6 +214,20 @@
       "population": 7600,
       "slug": "mios",
       "quartiers": ["Bourg", "Lège", "Zone forestière"]
+    },
+    {
+      "nom": "Cestas",
+      "code_postal": "33610",
+      "population": 25800,
+      "slug": "cestas",
+      "quartiers": ["Gazinet", "Réjouit", "Cestas-Bourg", "Pierroton"]
+    },
+    {
+      "nom": "Lanton",
+      "code_postal": "33138",
+      "population": 7200,
+      "slug": "lanton",
+      "quartiers": ["Lanton-Bourg", "Cassy", "Taussat-les-Bains"]
     }
   ]
 }
