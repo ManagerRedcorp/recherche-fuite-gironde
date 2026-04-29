@@ -199,6 +199,7 @@ def maillage_villes(slug_actuel='', limit=12):
   <div class="container">
     <h2 class="maillage-title">Nous intervenons aussi dans ces villes</h2>
     <div class="grid-auto">{cards}</div>
+    <p style="margin-top:1.75rem;text-align:center;font-size:.95rem;color:rgba(247,246,242,.75);"><strong>Selon votre situation :</strong> <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence 24h Bordeaux Métropole</a> · <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur (loi Warsmann)</a> · <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a></p>
   </div>
 </section>'''
 
@@ -215,6 +216,7 @@ def villes_detection_section():
       <p class="section-lead">Nous intervenons dans les 30 principales communes du département (33). Cliquez sur votre ville pour voir les détails de notre service.</p>
     </div>
     <div class="grid-auto">{cards}</div>
+    <p style="margin-top:1.75rem;text-align:center;font-size:.95rem;color:rgba(247,246,242,.75);"><strong>Vous savez déjà ce qu'il vous faut ?</strong> <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Urgence 24h</a> · <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite après compteur (Warsmann)</a> · <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Piscine à Bordeaux</a></p>
   </div>
 </section>'''
 
@@ -1085,6 +1087,19 @@ def page_detection():
       <li><a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">Canalisation enterrée à Bordeaux</a> : gaz traceur azote/hydrogène pour les réseaux extérieurs sous jardin ou trottoir.</li>
       <li><a href="/detection-fuite/chemisage-bordeaux/" style="color:var(--green);text-decoration:underline;">Chemisage de canalisation à Bordeaux</a> : rénovation sans tranchée des colonnes montantes en immeuble ancien.</li>
       <li><a href="/guide/detecteur-fuite-eau-professionnel/" style="color:var(--green);text-decoration:underline;">Détecteur de fuite d'eau professionnel</a> : tour d'horizon des appareils utilisés par nos techniciens (corrélateur acoustique, gaz traceur, caméra thermique, hydrophone, endoscopie).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    <h2>Pages par cas d'usage transactionnel</h2>
+    <p>Selon le caractère d'urgence ou la nature de votre situation, accédez directement à la page dédiée :</p>
+    <ul>
+      <li><a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;"><strong>Urgence recherche de fuite 24h à Bordeaux</strong></a> : intervention prioritaire sous 2 à 4 h pour fuite active, dégât des eaux en cours, débordement. Astreinte week-end et soirée.</li>
+      <li><a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;"><strong>Fuite après compteur (loi Warsmann)</strong></a> : surconsommation détectée par Suez ou la Régie de l'Eau Bordeaux Métropole. Diagnostic du réseau privatif + courrier d'écrêtement de la facture (article L2224-12-4 CGCT).</li>
+      <li><a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;"><strong>Recherche de fuite piscine à Bordeaux</strong></a> : diagnostic non destructif sans vidange (fluorescéine, hydrophone, gaz traceur). Skimmer, buse de refoulement, bonde, local technique, canalisation enterrée.</li>
+      <li><a href="/syndics-bordeaux/" style="color:var(--green);text-decoration:underline;"><strong>Syndics de copropriété Bordeaux</strong></a> : convention IRSI 2026, recherche de fuite parties communes, rapport CRAC pour assurance d'immeuble.</li>
     </ul>
   </div>
 </section>
@@ -4872,7 +4887,7 @@ GUIDE_PAGES = [
 <li><strong>Réparation DIY joint de bride</strong> : 30 à 80 € de fournitures, 2 à 3 heures de bricolage.</li>
 <li><strong>Réparation pro joint de bride avec démontage skimmer encastré</strong> : 250 à 450 € HT par un pisciniste partenaire.</li>
 <li><strong>Remplacement complet du skimmer</strong> sur piscine béton avec reprise maçonnerie : 800 à 1 500 € HT selon configuration.</li>
-<li><strong>Réparation canalisation enterrée</strong> après localisation par gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité.</li>
+<li><strong>Réparation canalisation enterrée</strong> après localisation par gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité. Si la fuite se situe sur la canalisation d'alimentation entre compteur et bassin, c'est un réseau privatif après compteur : en cas de surconsommation détectée par Suez ou la Régie de l'Eau, voir notre page <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur</a> pour l'écrêtement de facture loi Warsmann.</li>
 </ul>
 
 <p>Pour la grille tarifaire complète selon la méthode et le type de bassin, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
@@ -5019,7 +5034,7 @@ GUIDE_PAGES = [
 <li><strong>Réparation DIY joints toriques</strong> : 30 à 50 € de fournitures, 1 à 2 heures de bricolage.</li>
 <li><strong>Reprise scellement au mastic ou résine</strong> : 60 à 120 € de fournitures DIY, ou 200 à 400 € HT par un pisciniste.</li>
 <li><strong>Remplacement complet de la buse encastrée</strong> avec reprise maçonnerie : 600 à 1 200 € HT selon configuration.</li>
-<li><strong>Réparation canalisation enterrée</strong> après localisation par gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité.</li>
+<li><strong>Réparation canalisation enterrée</strong> après localisation par gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité. Si la fuite se situe sur la canalisation d'alimentation entre compteur et bassin, c'est un réseau privatif après compteur : en cas de surconsommation détectée par Suez ou la Régie de l'Eau, voir notre page <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur</a> pour l'écrêtement de facture loi Warsmann.</li>
 <li><strong>Démolition béton + reconstruction complète</strong> (cas grave de cassure profonde) : 1 800 à 3 500 € HT selon la complexité.</li>
 </ul>
 
@@ -5889,6 +5904,167 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien d'eau perd une chasse qui fuit en moyenne ?","acceptedAnswer":{"@type":"Answer","text":"Selon la gravité : 5 à 25 L/jour pour un goutte-à-goutte sporadique, 60 à 120 L/jour pour un léger filet, 300 à 500 L/jour pour un filet marqué, jusqu'à 600 L/jour pour un robinet équivalent. Sur 3 mois non détecté, la perte cumulée atteint 50 m3 soit 200-260 € sur la facture Suez."}},{"@type":"Question","name":"Mon assurance habitation rembourse-t-elle ?","acceptedAnswer":{"@type":"Answer","text":"Pour la réparation : non, c'est de l'entretien courant. Pour la surconsommation Suez : non. Voie de recours principale : l'écrêtement loi Warsmann auprès du distributeur d'eau, qui plafonne votre facture au double de votre consommation moyenne."}},{"@type":"Question","name":"Quelle différence entre fuite chasse d'eau et fuite après compteur ?","acceptedAnswer":{"@type":"Answer","text":"La chasse fuit est une fuite intérieure visible (eau dans la cuvette). La fuite après compteur est invisible sur le réseau privatif (canalisation enterrée, plancher chauffant). Si le compteur tourne en permanence après vérification de tous robinets et WC, la fuite n'est pas dans une chasse."}},{"@type":"Question","name":"Combien de temps avant d'appeler un plombier ?","acceptedAnswer":{"@type":"Answer","text":"Fuite légère (goutte à goutte) : tentez la réparation DIY immédiate (1h max, 5-30 € matériel). Fuite sévère (robinet équivalent) : réparez en urgence ou plombier sous 24-48h. Au-delà de 1 semaine de fuite sévère, l'écrêtement Warsmann devient quasi indispensable."}},{"@type":"Question","name":"Mon WC fuit à la base, est-ce une chasse ou autre chose ?","acceptedAnswer":{"@type":"Answer","text":"Pas une fuite de chasse classique. Peut venir du raccord d'arrivée d'eau (joint 5-8 €), de la bride d'évacuation (plombier 100-200 €), ou d'une fissure du réservoir céramique (remplacement complet WC). Diagnostic plombier recommandé."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-avant-compteur-suez-bordeaux",
+        "title": "Fuite avant compteur à Bordeaux : qui paye, Suez, vous ou la copropriété ?",
+        "title_seo": "Fuite avant compteur Bordeaux | Qui paye ?",
+        "desc": "Fuite d'eau avant le compteur à Bordeaux : qui est responsable de la réparation ? Suez, Régie de l'Eau Bordeaux Métropole, copropriété ? Procédure complète 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-avant-compteur-suez-bordeaux.webp" alt="Compteur d'eau noir sur fond clair, contexte d'une fuite avant compteur à Bordeaux" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous voyez une zone humide anormale entre la limite de votre terrain et votre maison à Bordeaux ? Vous avez fermé tous les robinets et le compteur ne tourne plus, mais une flaque persiste sur votre allée ou dans le regard du compteur ? Vous suspectez peut-être une <strong>fuite avant compteur</strong>. Bonne nouvelle : dans la grande majorité des cas, ce n'est pas vous qui devez payer la réparation. Mauvaise nouvelle : la procédure pour faire intervenir Suez ou la Régie de l'Eau Bordeaux Métropole demande de connaître précisément le cadre légal et de fournir les bonnes preuves. Cet article vous donne la méthode complète, avec les spécificités bordelaises et le verbatim d'un cas réel rencontré à Casseuil (33190).</p>
+
+<h2>Qu'est-ce qu'une fuite avant compteur ?</h2>
+
+<p>Une fuite avant compteur, ou « fuite en amont du compteur », correspond à une perte d'eau qui se produit sur la portion de canalisation située <strong>entre le réseau public de distribution et votre compteur d'eau</strong>. Concrètement, cette portion peut être :</p>
+<ul>
+<li><strong>Sous la voirie publique</strong> (rue, trottoir) : c'est clairement le domaine de Suez ou de la Régie de l'Eau Bordeaux Métropole.</li>
+<li><strong>Entre la limite de propriété et le compteur</strong> en limite ou en regard sur votre terrain : zone grise juridique, mais qui reste majoritairement à charge du distributeur d'eau (le « branchement particulier » est juridiquement considéré comme une dépendance de la conduite principale par la jurisprudence).</li>
+<li><strong>Entre l'entrée d'un immeuble et les compteurs individuels</strong> en copropriété : zone considérée comme « partie commune » de la copropriété.</li>
+</ul>
+
+<p>Le critère qui fait foi est <strong>la position physique du compteur</strong>, pas la limite de votre terrain. Un compteur en limite de voirie qui dessert une habitation 50 mètres plus loin n'est pas dans la même configuration qu'un compteur installé dans le garage de votre maison à 5 mètres de la rue.</p>
+
+<p>Si la fuite est en aval du compteur (sur votre réseau privatif entre compteur et habitation), c'est une <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur</a> qui est entièrement à votre charge, mais qui peut donner droit à un écrêtement de facture via la loi Warsmann.</p>
+
+<h2>Comment savoir si la fuite est avant ou après votre compteur ?</h2>
+
+<p>Le test est simple et gratuit, faisable en 10 minutes.</p>
+
+<h3>Test 1 : fermer tous les robinets et observer le compteur</h3>
+<ol>
+<li>Fermez TOUS les robinets de la maison (cuisine, salle de bain, WC, jardin, arrosage, lave-linge, lave-vaisselle).</li>
+<li>Allez au compteur et observez le voyant rouge ou la dernière roue.</li>
+<li>Attendez 30 minutes sans utiliser d'eau.</li>
+</ol>
+<ul>
+<li><strong>Si le compteur continue à tourner</strong> : la fuite est <strong>après le compteur</strong>, sur votre réseau privatif. C'est à votre charge mais éligible à la procédure Warsmann (voir notre <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">guide fuite après compteur</a>).</li>
+<li><strong>Si le compteur ne tourne plus</strong> mais qu'une zone humide persiste sur votre terrain ou dans le regard de compteur : la fuite est <strong>avant le compteur</strong>. C'est à la charge de Suez ou de la Régie de l'Eau Bordeaux Métropole selon votre commune.</li>
+</ul>
+
+<h3>Test 2 : fermer la vanne d'arrêt général juste après le compteur</h3>
+<p>Si vous avez un doute, fermez la vanne d'arrêt général située juste après le compteur (côté maison). Si la zone humide continue à se remplir, la fuite est forcément avant la vanne, donc avant ou au niveau du compteur.</p>
+
+<h2>Qui est responsable à Bordeaux ?</h2>
+
+<p>À Bordeaux et dans les communes de la métropole, deux gestionnaires d'eau se partagent le territoire selon les communes :</p>
+
+<ul>
+<li><strong>Suez</strong> : opérateur historique sur la majorité des communes de Bordeaux Métropole (Bordeaux centre, Mérignac, Pessac, Talence, Bègles, Bouliac, etc.). Numéro vert urgences fuite : 09 77 40 84 08 (24h/24, 7j/7).</li>
+<li><strong>Régie de l'Eau de Bordeaux Métropole</strong> : opérateur public, présent sur certaines communes. Numéro : 05 24 26 39 39.</li>
+<li><strong>SIAEP du Sud Gironde, Médoc, Bassin d'Arcachon</strong> : selon votre commune (Cestas, Andernos, Lège-Cap-Ferret, Pauillac, etc.), c'est un Syndicat Intercommunal d'Adduction d'Eau Potable (SIAEP) ou un délégataire local qui gère. Vérifiez votre dernière facture pour identifier votre fournisseur exact.</li>
+</ul>
+
+<p>Le distributeur identifié sur votre facture est responsable de toute fuite avant le compteur, qu'elle soit sous la voirie ou sur votre terrain en amont du compteur. C'est lui qui prend en charge la réparation, sans que vous ayez à avancer les frais.</p>
+
+<p>En copropriété, si la fuite se situe entre l'entrée de l'immeuble et les compteurs individuels (cave, parties communes), c'est la copropriété qui prend en charge via les charges, après mandatement du syndic.</p>
+
+<h2>Trois cas concrets selon la configuration</h2>
+
+<h3>Cas 1 : compteur en limite de propriété, fuite côté voirie</h3>
+<p>Vous voyez une flaque qui sort du regard de compteur ou de la chaussée juste devant votre portail. La canalisation publique fuit en amont du compteur. Appel Suez ou Régie en urgence, intervention sous 24-48h, vous ne payez rien.</p>
+
+<h3>Cas 2 : compteur en limite, habitation à 50 mètres, fuite sur le branchement particulier</h3>
+<p>C'est exactement le cas d'un de nos clients à Casseuil (33190) qui nous écrit : <em>« Compteur en limite de propriété ; habitations 50 mètres plus loin. La fuite se situerait sur le terrain entre ces 2 points, ou alors compteur défectueux. »</em> Cette zone est techniquement votre terrain, mais juridiquement c'est encore le distributeur qui est responsable car la canalisation entre la conduite principale et le compteur est considérée comme une « dépendance » du réseau public (loi du 29 décembre 1892 et jurisprudence stable). En pratique : Suez intervient, creuse, répare, vous ne payez rien sauf si l'incident est dû à une intervention de votre part (travaux mal faits qui ont endommagé la conduite par exemple).</p>
+
+<h3>Cas 3 : compteur dans la maison ou le garage, fuite entre rue et maison</h3>
+<p>Configuration plus courante en métropole bordelaise : le compteur est à l'intérieur du garage ou en bordure du mur de façade. La canalisation depuis la rue jusqu'au compteur traverse 5-10 mètres de votre terrain. Toute fuite sur ce tronçon est avant compteur, donc à charge du distributeur. Le distributeur intervient, ouvre le sol, répare, rebouche.</p>
+
+<h2>Procédure de déclaration étape par étape</h2>
+
+<ol>
+<li><strong>Confirmer la fuite</strong> avec les deux tests ci-dessus (compteur arrêté + zone humide visible).</li>
+<li><strong>Photographier la zone humide</strong> avec une référence métrique (mètre déposé au sol). Conservez ces photos datées : ce sont vos preuves en cas de contestation.</li>
+<li><strong>Appeler le numéro d'urgence</strong> de votre distributeur : Suez (09 77 40 84 08) ou Régie (05 24 26 39 39) ou votre SIAEP local. Décrivez précisément la situation (compteur arrêté + flaque persistante + emplacement).</li>
+<li><strong>Demander un numéro de dossier</strong> et la confirmation par email ou SMS. Le distributeur est tenu d'intervenir sous 24h pour les urgences.</li>
+<li><strong>Si dégât des eaux constaté chez vous</strong> (cave inondée, mur humide, terrasse soulevée), <strong>déclarez aussi à votre assureur habitation</strong> dans les 5 jours ouvrés. La canalisation reste à charge du distributeur, mais les dégâts collatéraux à votre logement sont couverts par votre garantie « dégâts des eaux ». Voir notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d'eau</a>.</li>
+<li><strong>Conserver toutes les preuves</strong> : photos, échanges email/SMS avec le distributeur, attestation de réparation, copies des factures d'eau avant et après. Dossier essentiel en cas de litige ou de refus de prise en charge.</li>
+</ol>
+
+<h2>Le rôle de votre assurance habitation</h2>
+
+<p>Votre assurance habitation ne paye pas la réparation de la canalisation avant compteur (c'est le distributeur). En revanche, elle prend en charge les <strong>dommages collatéraux causés par la fuite</strong> à votre logement et à vos biens :</p>
+<ul>
+<li>Détérioration de murs, sols, plafonds, plinthes</li>
+<li>Mobilier et électroménager endommagés (cave, garage)</li>
+<li>Frais de remise en état (peinture, sols)</li>
+<li>Frais d'expertise contradictoire si nécessaire</li>
+</ul>
+
+<p>Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut, GMF couvrent la garantie « dégâts des eaux » dans 95 % des contrats multirisques habitation. Plafonds variables (10 000 à 50 000 € selon contrat), franchises de 150 à 400 € en moyenne. Voir notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide complet assurance fuite d'eau</a>.</p>
+
+<p>Si votre garantie « protection juridique » est incluse au contrat, elle peut financer une expertise indépendante en cas de désaccord avec le distributeur sur l'origine de la fuite (devant ou derrière votre compteur), sur la prise en charge des travaux, ou sur les délais d'intervention.</p>
+
+<h2>Que faire si Suez ou la Régie refuse de prendre en charge ?</h2>
+
+<p>Cas plus rare mais qui arrive : le distributeur conteste sa responsabilité, prétend que la fuite est en aval du compteur, ou tarde à intervenir. Voici les recours :</p>
+<ol>
+<li><strong>Demander une expertise contradictoire</strong> : faire venir un expert indépendant (notre service de diagnostic non destructif fait office d'expertise technique reconnue). Notre rapport identifie précisément le tracé de la canalisation, le point exact de fuite, et la position relative au compteur. Voir notre service <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>.</li>
+<li><strong>Saisir le médiateur de l'eau</strong> (gratuit, en ligne sur mediation-eau.fr). Le médiateur a un délai de 90 jours pour rendre son avis.</li>
+<li><strong>Activer votre garantie protection juridique</strong> de l'assurance habitation pour financer une procédure si nécessaire.</li>
+<li><strong>Saisir la Direction Départementale de la Protection des Populations (DDPP)</strong> de Gironde si vous suspectez un manquement aux obligations du service public d'eau.</li>
+</ol>
+
+<h2>Notre rôle de tiers indépendant à Bordeaux</h2>
+
+<p>Notre service de recherche de fuite non destructive intervient en tant que tiers indépendant pour résoudre les situations litigieuses :</p>
+
+<ul>
+<li><strong>Diagnostic précis du tracé</strong> de la canalisation par gaz traceur, écoute acoustique ou caméra thermique. Localisation au mètre près du point de fuite, avec position relative au compteur clairement identifiée.</li>
+<li><strong>Rapport technique conforme</strong> aux exigences des assureurs et des distributeurs d'eau : photos, schéma, méthode utilisée, conclusion. Document opposable en cas de litige.</li>
+<li><strong>Médiation technique</strong> : si le distributeur prétend que la fuite est après votre compteur alors que vous savez qu'elle est avant, notre rapport tranche objectivement.</li>
+<li><strong>Coût</strong> : 380 à 580 € HT pour une expertise complète. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite si un dégât des eaux est constaté.</li>
+</ul>
+
+<p>Pour notre méthode et nos tarifs détaillés, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+
+<h2>Spécificités juridiques à Bordeaux</h2>
+
+<ul>
+<li><strong>Loi du 29 décembre 1892</strong> sur les dommages causés à la propriété privée par l'exécution de travaux publics : permet aux distributeurs d'intervenir sur votre terrain pour réparer une fuite avant compteur, et prévoit votre indemnisation en cas de dommages collatéraux (terrain abîmé, plantations, etc.).</li>
+<li><strong>Article L2224-12-4 du CGCT (loi Warsmann 2011)</strong> : applicable pour les fuites APRÈS compteur, plafonne la facture en cas de surconsommation. Voir notre <a href="/calcul-warsmann-bordeaux/" style="color:var(--green);text-decoration:underline;">calculateur Warsmann</a>.</li>
+<li><strong>Convention IRSI 2026</strong> : applicable pour les fuites avant compteur en copropriété qui causent un dégât des eaux entre lots. Plafonds 5 000 € HT par sinistre, gestion inter-assureurs simplifiée. Voir <a href="/guide/convention-irsi-copropriete-bordeaux-degats-eaux/" style="color:var(--green);text-decoration:underline;">guide convention IRSI à Bordeaux</a>.</li>
+<li><strong>Garantie décennale du distributeur</strong> sur les branchements neufs : pendant les 10 ans suivant la pose ou la rénovation, toute fuite sur la canalisation neuve est entièrement à charge du distributeur, sans question.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien de temps Suez ou la Régie ont-ils pour intervenir ?</h3>
+<p>Sous 24h pour les urgences (fuite active avec dégât en cours). Sous 5 jours ouvrés pour les fuites sans urgence immédiate. Au-delà, vous pouvez exiger une indemnisation pour le préjudice subi (eau perdue, dégâts non maîtrisés). En cas de retard injustifié, saisissez le médiateur de l'eau.</p>
+
+<h3>Mon compteur est dans mon garage, qui est responsable de la canalisation entre la rue et le garage ?</h3>
+<p>Le distributeur d'eau (Suez ou Régie) est responsable de toute la canalisation jusqu'à votre compteur, qu'elle traverse votre terrain ou non. Le critère qui fait foi est la position physique du compteur, pas la limite de propriété. Si le compteur est dans votre garage, toute fuite entre la rue et le compteur est avant compteur, donc à charge du distributeur.</p>
+
+<h3>Que faire si la fuite a abîmé mon allée ou mes plantations lors de la réparation ?</h3>
+<p>Le distributeur d'eau a l'obligation légale de remettre votre terrain en état après son intervention (loi du 29 décembre 1892). Si la remise en état est insuffisante, exigez une indemnisation par écrit. Photos avant/après indispensables. Votre assurance habitation peut intervenir en complément si dégâts résiduels.</p>
+
+<h3>Et si la fuite est avant compteur mais sur le branchement de mon voisin (canalisation commune) ?</h3>
+<p>Si plusieurs maisons partagent un même branchement amont (cas fréquent dans les hameaux ruraux ou anciennes copropriétés horizontales), la canalisation reste de la responsabilité du distributeur jusqu'à chaque compteur individuel. La répartition des éventuels frais de remise en état (terrain, allée commune) se fait entre voisins selon les règles de copropriété ou de servitude.</p>
+
+<h3>Combien coûte un diagnostic indépendant pour confirmer une fuite avant compteur ?</h3>
+<p>380 à 580 € HT pour une expertise non destructive complète sur Bordeaux Métropole. Notre rapport technique trace précisément la canalisation, localise le point de fuite, et identifie sa position relative au compteur. Document opposable au distributeur en cas de litige. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite si dégât constaté.</p>
+
+<h2>Demander un diagnostic indépendant à Bordeaux</h2>
+
+<p>Si vous avez un doute sur l'origine de votre fuite (avant ou après compteur), ou si Suez/la Régie conteste sa prise en charge, notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic non destructif complet, rapport technique reconnu par les distributeurs et assureurs.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite avant compteur à Bordeaux : qui paye, Suez, vous ou la copropriété ?","description":"Fuite d'eau avant le compteur à Bordeaux : qui est responsable de la réparation ? Suez, Régie de l'Eau Bordeaux Métropole, copropriété ? Procédure complète 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-avant-compteur-suez-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-avant-compteur-suez-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Diagnostic indépendant de fuite avant ou après compteur à Bordeaux et en Gironde. Tiers expert opposable à Suez et Régie de l'Eau Bordeaux Métropole en cas de litige sur la responsabilité.","url":"https://recherche-fuite-gironde.fr/guide/fuite-avant-compteur-suez-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Expertise fuite avant compteur"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite avant compteur Suez Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-avant-compteur-suez-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps Suez ou la Régie ont-ils pour intervenir ?","acceptedAnswer":{"@type":"Answer","text":"Sous 24h pour les urgences (fuite active avec dégât en cours). Sous 5 jours ouvrés pour les fuites sans urgence immédiate. Au-delà, vous pouvez exiger une indemnisation pour le préjudice subi."}},{"@type":"Question","name":"Mon compteur est dans mon garage, qui est responsable de la canalisation entre la rue et le garage ?","acceptedAnswer":{"@type":"Answer","text":"Le distributeur d'eau (Suez ou Régie) est responsable de toute la canalisation jusqu'à votre compteur, qu'elle traverse votre terrain ou non. Le critère qui fait foi est la position physique du compteur, pas la limite de propriété."}},{"@type":"Question","name":"Que faire si la fuite a abîmé mon allée ou mes plantations lors de la réparation ?","acceptedAnswer":{"@type":"Answer","text":"Le distributeur d'eau a l'obligation légale de remettre votre terrain en état après son intervention (loi du 29 décembre 1892). Si la remise en état est insuffisante, exigez une indemnisation par écrit avec photos avant/après."}},{"@type":"Question","name":"Et si la fuite est avant compteur mais sur le branchement de mon voisin ?","acceptedAnswer":{"@type":"Answer","text":"Si plusieurs maisons partagent un même branchement amont, la canalisation reste de la responsabilité du distributeur jusqu'à chaque compteur individuel. La répartition des éventuels frais de remise en état (terrain commun) se fait entre voisins selon les règles de copropriété."}},{"@type":"Question","name":"Combien coûte un diagnostic indépendant pour confirmer une fuite avant compteur ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT pour une expertise non destructive complète sur Bordeaux Métropole. Notre rapport technique trace précisément la canalisation et identifie sa position relative au compteur. Document opposable au distributeur en cas de litige."}}]}
 </script>"""
     },]
 
@@ -7073,7 +7249,7 @@ def page_piscine_hub():
       {villes_cards}
     </div>
 
-    <p style="margin-top:1.5rem;">Vous habitez une autre commune de Gironde ? Nous intervenons aussi sur Talence, Pessac, Le Haillan, Eysines, Bruges, Cenon, Lormont, Floirac et toute la métropole bordelaise. Consultez notre <a href="/villes/bordeaux/" style="color:var(--green);text-decoration:underline;">page Bordeaux</a> ou contactez-nous directement pour les communes hors métropole (Lege-Cap-Ferret, Andernos-les-Bains, Lesparre-Medoc, Saint-Émilion, Langon).</p>
+    <p style="margin-top:1.5rem;">Vous habitez une autre commune de Gironde ? Nous intervenons aussi sur Talence, Pessac, Le Haillan, Eysines, Bruges, Cenon, Lormont, Floirac et toute la métropole bordelaise. Consultez notre <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">page recherche de fuite piscine à Bordeaux</a> ou contactez-nous directement pour les communes hors métropole (Lege-Cap-Ferret, Andernos-les-Bains, Lesparre-Medoc, Saint-Émilion, Langon). En cas de fuite active avec écoulement visible, voir directement notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">page urgence 24h Bordeaux Métropole</a>.</p>
 
     <p style="margin-top:1.5rem;"><strong>Panorama complet</strong> : pour qualifier votre situation, identifier le bon prestataire et comprendre tous les aspects (symptômes, diagnostic, réparation, prix, assurance), consultez notre <a href="/guide/fuite-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">guide complet fuite piscine à Bordeaux</a> qui consolide les 12 articles du site avec sommaire structuré.</p>
 
