@@ -3050,6 +3050,7 @@ GUIDE_PAGES = [
 <li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la pièce). très fréquent sur piscines liner de 25+ ans. Pour le diagnostic complet en 3 tests et les 5 zones précises ou le skimmer fuit, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>.</li>
 <li><strong>Baisse s'arrêté au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le béton. Pour le diagnostic complet (test des bouchons obturateurs, 5 zones de fuite, réparation DIY ou pro), voir notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a>.</li>
 <li><strong>Baisse qui ne s'arrête plus, descend sous les buses</strong> : fuite côté bonde de fond ou sa canalisation enterrée vers le local technique. Pour le diagnostic et les solutions (condamnation du circuit, réparation, chemisage), voir notre guide <a href="/guide/fuite-bonde-fond-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite bonde de fond piscine à Bordeaux</a>.</li>
+<li><strong>Flaque au sol du local technique</strong> mais niveau d'eau du bassin stable : fuite sur un composant du local technique (pompe, filtre, vanne multivoies, raccord PVC). Voir notre guide <a href="/guide/fuite-local-technique-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite local technique piscine à Bordeaux</a> avec les 7 zones précises par composant.</li>
 <li><strong>Baisse s'arrêté au niveau de la prise balai</strong> : joint de prise balai ou raccord defectueux.</li>
 <li><strong>Baisse continue sans s'arrêter</strong> : fuite sur liner (perforation), bonde de fond, canalisation enterrée ou fissure structurelle.</li>
 </ul>
@@ -5214,6 +5215,177 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite bonde à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Peut-on utiliser une piscine sans la bonde de fond ?","acceptedAnswer":{"@type":"Answer","text":"Oui dans 95% des cas. La filtration via skimmer, buses et prise balai assure le brassage et la qualité de l'eau. La bonde n'est nécessaire que pour la vidange. Condamner le circuit bonde est une solution acceptable temporaire ou définitive."}},{"@type":"Question","name":"Quel risque si je laisse la fuite s'aggraver ?","acceptedAnswer":{"@type":"Answer","text":"Trois risques : le bassin se vide et risque le soulèvement structurel par la nappe phréatique sur sols girondins, la facture d'eau explose, le terrain autour se gorge d'eau et peut affecter les fondations de la maison."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer la bonde ?","acceptedAnswer":{"@type":"Answer","text":"Non dans la majorité des cas. Le diagnostic non destructif et plusieurs réparations se font avec une vidange partielle ou aucune. La vidange totale est à éviter sur les sols argileux ou sableux girondins (risque de soulèvement structurel)."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-local-technique-piscine-bordeaux",
+        "title": "Fuite local technique piscine à Bordeaux : composant par composant",
+        "title_seo": "Fuite local technique piscine Bordeaux | Diagnostic",
+        "desc": "Flaque d'eau dans le local technique de votre piscine à Bordeaux ? 7 zones de fuite par composant (pompe, filtre, vannes), diagnostic, réparation DIY ou pro, prix 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-local-technique-piscine-bordeaux.webp" alt="Tuyauterie et vannes d'un local technique de piscine, contexte d'une recherche de fuite en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Vous trouvez régulièrement une flaque d'eau au sol du local technique de votre piscine ? Vous voyez goutter un raccord ou un joint quand la filtration tourne ? Ces fuites au local technique sont généralement plus simples à diagnostiquer que les fuites de bassin (la fuite est visible et accessible) mais leurs origines sont multiples : le local technique d'une piscine moderne contient une dizaine de composants connectés par des dizaines de joints et de raccords. Cet article passe en revue les 7 zones de fuite les plus fréquentes que nous diagnostiquons à Bordeaux et en Gironde, par composant, avec les solutions DIY et pro associées.</p>
+
+<h2>Reconnaître une fuite de local technique : les 4 signes</h2>
+
+<p>Quatre symptômes principaux signalent une fuite au local technique. Si au moins deux sont présents, le diagnostic est confirmé.</p>
+
+<ul>
+<li><strong>Flaque d'eau au sol</strong> qui réapparaît après séchage, généralement sous la pompe, le filtre ou un raccord visible. C'est le signal le plus direct et le plus facile à observer.</li>
+<li><strong>Pression du filtre anormale</strong> au manomètre. Une pression qui ne monte pas ou qui chute en cours de filtration suggère une fuite côté aspiration (avant la pompe). Une pression qui monte brutalement signale un colmatage qui peut conduire à une fuite par ailleurs.</li>
+<li><strong>Bruit d'aspiration ou bulles dans le préfiltre</strong> de la pompe. Si la pompe aspire de l'air, c'est qu'il y a une fuite avant elle (raccord skimmer, vanne, union d'aspiration) qui laisse entrer de l'air par effet venturi.</li>
+<li><strong>Mur du local technique humide</strong>, peinture qui cloque, traces de moisissure. Sur les piscines anciennes, une fuite chronique imprègne le placo ou le béton du local technique pendant des mois avant d'être repérée.</li>
+</ul>
+
+<p>Pour qualifier votre situation globale (fuite locale technique vs fuite de bassin vs fuite enterrée), voir aussi notre <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">arbre de décision en 6 questions</a>.</p>
+
+<h2>Anatomie du local technique : tous les points de fuite possibles</h2>
+
+<p>Un local technique de piscine moderne contient en moyenne 8 à 12 composants connectés en série. Chaque jonction entre deux composants (joint, raccord, union, vanne) est un point de fuite potentiel. Voici la liste complète des composants présents en aval de la prise d'eau du bassin :</p>
+
+<ul>
+<li><strong>Préfiltre de pompe</strong> (panier filtrant les gros débris avant la pompe)</li>
+<li><strong>Pompe de filtration</strong> (le cœur du circuit)</li>
+<li><strong>Filtre à sable, à cartouche ou à diatomées</strong></li>
+<li><strong>Vanne multivoies</strong> (généralement 6 voies sur les filtres à sable)</li>
+<li><strong>Manomètre</strong> de pression</li>
+<li><strong>Robinets purge et vidange</strong></li>
+<li><strong>Échangeur thermique ou pompe à chaleur</strong> (si présent)</li>
+<li><strong>Régulateur de pH automatique</strong> (si présent)</li>
+<li><strong>Électrolyseur au sel</strong> (si présent)</li>
+<li><strong>Système de désinfection UV</strong> (si présent)</li>
+<li><strong>Compteur d'eau de remplissage automatique</strong> (si présent)</li>
+<li><strong>Tuyauterie PVC pression</strong> entre tous ces composants</li>
+</ul>
+
+<p>Plus l'installation est riche en équipements, plus le nombre de points de fuite potentiels augmente. Un local technique simple (préfiltre + pompe + filtre + vanne) compte environ 12 raccords. Un local technique équipé pompe à chaleur + régulateur pH + électrolyseur en compte facilement 30+.</p>
+
+<h2>Les 7 zones de fuite par fréquence en Gironde</h2>
+
+<h3>1. Joints unions entre pompe et tuyauterie (le cas le plus fréquent)</h3>
+<p>La pompe est connectée à l'aspiration et au refoulement par des unions à joint plat (PVC pression). Ces joints durcissent après 5 à 10 ans sous l'effet du chlore et des cycles thermiques, et perdent leur étanchéité. Diagnostic visuel : suintement à la base de la pompe quand la filtration tourne, flaque sous la pompe à l'arrêt prolongé. Réparation DIY : démontage de l'union, remplacement du joint plat (3 à 8 € pièce). Niveau bricolage facile (clé à pompe ou à la main).</p>
+
+<h3>2. Joint de couvercle préfiltre de pompe</h3>
+<p>Le couvercle transparent du préfiltre est étanchéifié par un joint torique. Après chaque ouverture pour vider le panier de débris, le joint peut se déformer ou ne pas se replacer correctement. Symptôme typique : suintement autour du couvercle filtration ON, ou aspiration d'air au démarrage (panier qui se vide). Réparation : repositionnement ou remplacement du joint torique (5 à 15 € pièce).</p>
+
+<h3>3. Vanne multivoies du filtre (joint d'étoile)</h3>
+<p>La vanne multivoies (6 voies typiquement sur les filtres à sable) permet de basculer entre filtration, lavage, rinçage, vidange. À l'intérieur, un joint d'étoile en silicone caoutchouc dirige le flux. Ce joint s'use après 8 à 12 ans, créant des fuites entre voies (eau qui part en égout pendant la filtration normale par exemple). Symptôme : eau qui s'échappe au tuyau de vidange même en position « filtration ». Réparation : remplacement du joint d'étoile (40 à 80 € pièce, démontage 30 minutes, niveau bricolage moyen).</p>
+
+<h3>4. Cuve du filtre fissurée</h3>
+<p>Plus rare mais sérieux. Une cuve de filtre à sable peut fissurer après 15 à 25 ans sous la pression de fonctionnement (généralement 0,8 à 1,4 bar). Sur Bordeaux, le risque de gel est limité mais en cas d'épisode froid exceptionnel sans hivernage actif, la dilatation de la glace peut amorcer une fissure. Diagnostic visuel à la lampe rasante. Réparation impossible (la cuve est sous pression, un colmatage ne tient pas) : remplacement complet de la cuve ou du filtre. Coût 300 à 800 € HT selon le modèle.</p>
+
+<h3>5. Raccords PVC collés défaillants</h3>
+<p>Sur les installations bricolées par auto-construction ou réalisées il y a 20+ ans, les raccords PVC collés peuvent céder par défaut de collage initial ou par vieillissement. Symptôme : goutte au niveau d'un coude ou d'un té. Réparation : démontage du tronçon (sciage), remontage avec colle PVC pression neuve. Niveau bricolage moyen, attention au temps de séchage avant remise en pression (24h minimum).</p>
+
+<h3>6. Pompe à chaleur ou échangeur thermique</h3>
+<p>Si votre piscine est chauffée, la pompe à chaleur ou l'échangeur thermique sont des points de fuite spécifiques (échangeur en titane qui peut perforer après 10-15 ans, raccords plus nombreux). Diagnostic visuel : flaque sous la PAC, traces de calcaire blanchâtres au sol. Réparation : intervention spécialiste PAC, coût élevé (échangeur titane 400-800 € HT + main d'œuvre).</p>
+
+<h3>7. Robinets de purge ou vannes manuelles</h3>
+<p>Les vannes manuelles d'isolement (souvent oubliées dans les contrôles) peuvent fuir au niveau du presse-étoupe ou de la tige. Diagnostic visuel : suintement au niveau de la poignée ou de l'écrou. Réparation : resserrage du presse-étoupe ou remplacement du joint torique de tige (5-10 € pièce).</p>
+
+<h2>Spécificités des locaux techniques en Gironde</h2>
+
+<p>Trois points à connaître pour la Gironde :</p>
+
+<ul>
+<li><strong>Climat océanique humide</strong> : les locaux techniques mal ventilés ont tendance à accumuler l'humidité, ce qui accélère la corrosion des composants métalliques (vis de bride, écrous PVC, ressorts de manomètre) et favorise les moisissures. Ventilation passive (grille basse + grille haute) recommandée.</li>
+<li><strong>Saison de baignade longue</strong> (mai à octobre) : le local technique tourne 6 mois par an minimum, sollicitant les joints en continu. Les piscines avec couverture solaire ou volet automatique tournent jusqu'à 10 mois par an et demandent un contrôle des joints à chaque remise en service.</li>
+<li><strong>Risque de gel exceptionnel</strong> : 5 à 10 jours par an en moyenne à Bordeaux, mais des épisodes froids prolongés (février 2012, janvier 2017, février 2018) peuvent geler l'eau dans les composants si l'hivernage n'a pas été fait. La pompe et le filtre peuvent éclater. Hivernage actif obligatoire pour les piscines extérieures non utilisées en hiver.</li>
+</ul>
+
+<h2>Réparer soi-même ou faire appel à un professionnel ?</h2>
+
+<p>La majorité des fuites de local technique sont accessibles aux bricoleurs avertis. Les exceptions :</p>
+
+<p><strong>DIY recommandé</strong> (matériel 5 à 80 €) :</p>
+<ul>
+<li>Joints unions de pompe : démontage + remplacement, 30 minutes.</li>
+<li>Joint torique de couvercle préfiltre : repositionnement ou remplacement, 5 minutes.</li>
+<li>Joint d'étoile vanne multivoies : remplacement, 30 minutes.</li>
+<li>Resserrage de raccord ou de vanne : 5 minutes.</li>
+</ul>
+
+<p><strong>Pro recommandé</strong> :</p>
+<ul>
+<li>Cuve de filtre fissurée (sous pression, dangereux si mal manipulé).</li>
+<li>Pompe à chaleur fuyante (intervention frigoriste si circuit gaz impacté).</li>
+<li>Diagnostic difficile : fuite intermittente, perte d'eau lente sans flaque visible, suspicion de fuite enterrée derrière le mur du local technique. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite canalisation enterrée à Bordeaux</a>.</li>
+<li>Refonte complète du local technique (remplacement coordonné pompe + filtre + tuyauterie).</li>
+</ul>
+
+<h2>Notre méthode de diagnostic à Bordeaux</h2>
+
+<p>Notre intervention dure 1 à 2 heures et combine 3 méthodes :</p>
+<ol>
+<li><strong>Inspection visuelle systématique</strong> de chaque composant filtration ON et filtration OFF, à la lampe rasante haute intensité. Repère suintements, gouttes, traces de calcaire qui signalent une fuite chronique.</li>
+<li><strong>Test de pression du circuit complet</strong> : on isole le circuit local technique du bassin, on met sous pression contrôlée, on mesure la chute. Une chute rapide identifie la zone fautive (entre 2 vannes successives par exemple).</li>
+<li><strong>Caméra thermique infrarouge</strong> sur les murs et le sol du local technique : détecte les zones humides invisibles à l'œil (canalisation noyée dans le mur, infiltration sous la dalle).</li>
+</ol>
+
+<p>Le rapport technique remis le jour même indique précisément le composant ou le raccord fautif, avec photo et schéma. Pour notre service piscine global, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>.</p>
+
+<h2>Combien coûte un diagnostic et une réparation à Bordeaux ?</h2>
+
+<p>Ordres de grandeur 2026 sur Bordeaux Métropole :</p>
+<ul>
+<li><strong>Diagnostic professionnel non destructif</strong> : 280 à 480 € HT (moins cher que diagnostic bassin car intervention plus courte), intervention 1 à 2 heures, rapport remis le jour même. Souvent remboursé par votre assurance habitation.</li>
+<li><strong>Réparation DIY joint d'union pompe</strong> : 5 à 15 € de fournitures, 30 minutes.</li>
+<li><strong>Réparation DIY joint d'étoile vanne 6 voies</strong> : 40 à 80 € pièce, 30 minutes.</li>
+<li><strong>Réparation pro joint pompe ou vanne</strong> : 150 à 300 € HT déplacement compris.</li>
+<li><strong>Remplacement complet pompe</strong> : 300 à 800 € HT (selon puissance et marque) + 150 à 300 € HT pose.</li>
+<li><strong>Remplacement complet filtre à sable</strong> : 400 à 1 200 € HT (selon volume) + 200 à 400 € HT pose.</li>
+<li><strong>Refonte complète tuyauterie + composants principaux</strong> : 2 500 à 6 000 € HT selon configuration.</li>
+</ul>
+
+<p>Pour la grille tarifaire complète selon la méthode et le type de bassin, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+
+<h2>Prévenir les fuites de local technique</h2>
+
+<p>Quelques gestes simples qui multiplient la durée de vie des composants par 2 :</p>
+<ul>
+<li><strong>Hivernage actif</strong> : vidanger l'eau de la pompe et du filtre avant l'hiver, ou maintenir une circulation hors gel automatique. Coût d'un hivernage actif manuel : 30 minutes par an, gratuit. Coût d'une cuve de filtre éclatée par le gel : 400 à 800 € + main d'œuvre.</li>
+<li><strong>Ventilation du local</strong> : grille basse (entrée air froid) + grille haute (sortie air chaud humide), surface totale minimale 200 cm². Évite la condensation qui corrode tout en quelques années sur les piscines anciennes.</li>
+<li><strong>Contrôle annuel des joints</strong> à la <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service au printemps</a> : ouvrir le préfiltre, observer les joints unions, vérifier le manomètre, écouter la pompe pendant 5 minutes (bruit anormal = aspiration d'air = fuite côté aspiration).</li>
+<li><strong>Maintenir le pH entre 7,0 et 7,4</strong> : un pH trop acide attaque les joints en quelques mois.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien de temps pour intervenir à Bordeaux ?</h3>
+<p>Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence. Pour les fuites majeures (sol inondé, dégât voisin), voir notre <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a>.</p>
+
+<h3>Faut-il vidanger la piscine pour réparer le local technique ?</h3>
+<p>Non. La majorité des réparations local technique se font filtration arrêtée et vannes fermées, sans vidanger le bassin. Seules certaines refontes complètes (remplacement de tuyauterie principale) peuvent demander une vidange partielle.</p>
+
+<h3>Mon assurance va-t-elle rembourser ?</h3>
+<p>Dans 80 à 90 % des cas oui pour le diagnostic, sur présentation du rapport technique. La réparation est rarement prise en charge si elle est une simple maintenance (vieillissement de joints), mais peut l'être si la fuite a causé un dégât des eaux constaté (mur trempé, sol affaissé, voisin impacté). Voir notre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">guide assurance fuite d'eau</a>.</p>
+
+<h3>Pourquoi de l'air dans le préfiltre malgré une apparence d'étanchéité ?</h3>
+<p>Effet venturi sur une fuite côté aspiration : un défaut sur le circuit aspiration (skimmer, raccord, vanne) crée une dépression qui aspire de l'air par cette fuite, même sans qu'eau ne s'échappe. Diagnostic indispensable au test de pression pour localiser la fuite côté aspiration.</p>
+
+<h3>Quelle est la différence entre un diagnostic chez vous et un pisciniste ?</h3>
+<p>Un pisciniste fait diagnostic et réparation, ce qui peut créer un conflit d'intérêt (incitation à surfacturer la réparation ou à remplacer trop large). Notre métier est le diagnostic non destructif uniquement : nous identifions précisément le composant fautif avec un rapport objectif, vous comparez ensuite les devis de réparation chez plusieurs piscinistes. Le coût total est généralement 20 à 30 % plus bas que chez un prestataire intégré.</p>
+
+<h2>Demander un diagnostic local technique à Bordeaux</h2>
+
+<p>Notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic complet 280 à 480 € HT, rapport technique remis le jour même.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite local technique piscine à Bordeaux : composant par composant","description":"Flaque d'eau dans le local technique de votre piscine à Bordeaux ? 7 zones de fuite par composant (pompe, filtre, vannes), diagnostic, réparation DIY ou pro, prix 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-local-technique-piscine-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-local-technique-piscine-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Recherche de fuite au local technique de piscine à Bordeaux et en Gironde. Diagnostic non destructif sur pompe, filtre, vanne multivoies, raccords PVC, pompe à chaleur. Inspection visuelle, test pression, caméra thermique.","url":"https://recherche-fuite-gironde.fr/guide/fuite-local-technique-piscine-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite piscine"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite local technique piscine Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-local-technique-piscine-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite local technique à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer le local technique ?","acceptedAnswer":{"@type":"Answer","text":"Non. La majorité des réparations local technique se font filtration arrêtée et vannes fermées, sans vidanger le bassin. Seules certaines refontes complètes peuvent demander une vidange partielle."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui pour le diagnostic. La réparation est rarement prise en charge si elle est une simple maintenance, mais peut l'être si la fuite a causé un dégât des eaux constaté (mur trempé, sol affaissé, voisin impacté)."}},{"@type":"Question","name":"Pourquoi de l'air dans le préfiltre malgré une apparence d'étanchéité ?","acceptedAnswer":{"@type":"Answer","text":"Effet venturi sur une fuite côté aspiration : un défaut sur le circuit aspiration crée une dépression qui aspire de l'air par cette fuite, même sans qu'eau ne s'échappe. Diagnostic indispensable au test de pression pour localiser la fuite côté aspiration."}},{"@type":"Question","name":"Combien coûte un diagnostic local technique à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"280 à 480 € HT, intervention 1 à 2 heures, rapport remis le jour même. Moins cher que le diagnostic bassin car intervention plus courte. Souvent remboursé par l'assurance habitation."}}]}
 </script>"""
     },]
 
@@ -9227,7 +9399,7 @@ def page_piscine_ville(p):
         <span class="arg-num">04</span>
         <div class="arg-num-content">
           <h3>Fuite de bonde de fond</h3>
-          <p>Joint torique usé, bride cassée, obturateur d'hivernage oublié. Fuite difficile à détecter à l'œil car souvent sous une grille, mais aisément localisable au colorant ou par test de pression.</p>
+          <p>Joint torique usé, bride cassée, obturateur d'hivernage oublié. Fuite difficile à détecter à l'œil car souvent sous une grille, mais aisément localisable au colorant ou par test de pression. Si le niveau de votre bassin ne s'arrête plus de baisser, voir notre guide <a href="/guide/fuite-bonde-fond-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite bonde de fond piscine à Bordeaux</a> avec les 3 tests de confirmation et les 4 zones précises où la bonde fuit.</p>
         </div>
       </div>
       <div class="arg-num-card">
@@ -9241,7 +9413,7 @@ def page_piscine_ville(p):
         <span class="arg-num">06</span>
         <div class="arg-num-content">
           <h3>Fuite équipement local technique</h3>
-          <p>Pompe qui fuit par le joint d'axe, filtre multivoies qui déverse par la voie égout, échangeur thermique de pompe à chaleur piscine percé. Pas de fuite du bassin lui-même, mais une perte réelle.</p>
+          <p>Pompe qui fuit par le joint d'axe, filtre multivoies qui déverse par la voie égout, échangeur thermique de pompe à chaleur piscine percé. Pas de fuite du bassin lui-même, mais une perte réelle. Voir notre guide <a href="/guide/fuite-local-technique-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite local technique piscine à Bordeaux</a> avec les 7 zones de fuite par composant et les solutions DIY ou pro.</p>
         </div>
       </div>
     </div>
