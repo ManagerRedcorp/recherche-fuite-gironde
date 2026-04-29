@@ -3048,7 +3048,7 @@ GUIDE_PAGES = [
 
 <ul>
 <li><strong>Baisse s'arrêté au niveau du skimmer</strong> : fuite au skimmer (joint mastic, bride, fissure de la pièce). très fréquent sur piscines liner de 25+ ans. Pour le diagnostic complet en 3 tests et les 5 zones précises ou le skimmer fuit, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a>.</li>
-<li><strong>Baisse s'arrêté au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le béton.</li>
+<li><strong>Baisse s'arrêté au niveau des buses de refoulement</strong> : fuite sur buse ou son raccord cache dans le béton. Pour le diagnostic complet (test des bouchons obturateurs, 5 zones de fuite, réparation DIY ou pro), voir notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a>.</li>
 <li><strong>Baisse s'arrêté au niveau de la prise balai</strong> : joint de prise balai ou raccord defectueux.</li>
 <li><strong>Baisse continue sans s'arrêter</strong> : fuite sur liner (perforation), bonde de fond, canalisation enterrée ou fissure structurelle.</li>
 </ul>
@@ -4479,7 +4479,7 @@ GUIDE_PAGES = [
 <p>Sur les diagnostics annuels que nous réalisons à Bordeaux, les fuites de piscine se concentrent sur 3 zones avec des proportions stables :</p>
 
 <h3>Filtration et pièces à sceller (60 % des cas)</h3>
-<p>Skimmer, buses de refoulement, projecteurs, prise balai, bonde de fond. Joints toriques durcis après 8-12 ans, brides desserrées par cycles thermiques, mastic d'étanchéité craquelé. Diagnostic ciblé par fluorescéine, réparation rapide (changement joint 12-35 €). Le skimmer concentre à lui seul plus de 50 % des fuites de pièces à sceller que nous diagnostiquons en Gironde : si votre niveau d'eau se stabilise pile sous le bord inférieur du skimmer, voir notre guide dédié <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests pour confirmer le diagnostic et les 5 zones précises à inspecter. Pour la réparation à la résine époxy proprement dite, voir aussi notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
+<p>Skimmer, buses de refoulement, projecteurs, prise balai, bonde de fond. Joints toriques durcis après 8-12 ans, brides desserrées par cycles thermiques, mastic d'étanchéité craquelé. Diagnostic ciblé par fluorescéine, réparation rapide (changement joint 12-35 €). Le skimmer concentre à lui seul plus de 50 % des fuites de pièces à sceller que nous diagnostiquons en Gironde : si votre niveau d'eau se stabilise pile sous le bord inférieur du skimmer, voir notre guide dédié <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests pour confirmer le diagnostic et les 5 zones précises à inspecter. Si la baisse s'arrête plus bas, au niveau des buses de refoulement (30 à 40 cm sous la margelle), voir plutôt notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a> avec le test des bouchons obturateurs. Pour la réparation à la résine époxy d'un skimmer fissuré, voir aussi notre guide <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
 
 <h3>Canalisations enterrées (25 % des cas)</h3>
 <p>Sols sableux du Bassin d'Arcachon ou argileux de la métropole bordelaise désaxent les raccords PVC en 15-25 ans. Diagnostic par gaz traceur azote/hydrogène et inspection caméra. Voir <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">canalisation enterrée Bordeaux</a> et <a href="/guide/inspection-camera-canalisation-bordeaux/" style="color:var(--green);text-decoration:underline;">inspection caméra canalisation</a>.</p>
@@ -4921,6 +4921,154 @@ GUIDE_PAGES = [
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite skimmer à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer le skimmer ?","acceptedAnswer":{"@type":"Answer","text":"Non dans 90% des cas. Une vidange partielle juste sous le skimmer suffit pour les réparations de bride, mastic ou tissu de verre. La vidange totale est à éviter : risque de soulèvement structurel sur sols argileux."}},{"@type":"Question","name":"Est-ce que mon assurance habitation rembourse la recherche de fuite ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite."}},{"@type":"Question","name":"Que faire si la fuite a doublé ma facture Suez ?","acceptedAnswer":{"@type":"Answer","text":"Activer la procédure d'écrêtement loi Warsmann auprès de Suez ou de la Régie de Bordeaux Métropole pour plafonner la facture au double de la consommation moyenne. Notre rapport technique fait office de preuve."}},{"@type":"Question","name":"Combien coûte un diagnostic skimmer à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT selon complexité, intervention 2 à 3 heures, rapport remis le jour même. Souvent remboursé par l'assurance habitation au titre de la garantie recherche de fuite."}}]}
+</script>"""
+    },
+    {
+        "slug": "fuite-buse-refoulement-piscine-bordeaux",
+        "title": "Fuite buse de refoulement piscine à Bordeaux : diagnostic et réparation",
+        "title_seo": "Fuite buse refoulement piscine Bordeaux | Diagnostic",
+        "desc": "Votre piscine perd de l'eau au niveau des buses de refoulement à Bordeaux ? Test des bouchons obturateurs, 5 zones de fuite, réparation DIY ou intervention pro, prix 2026.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/fuite-buse-refoulement-piscine-bordeaux.webp" alt="Surface d'eau de piscine avec remous des buses de refoulement, contexte d'une recherche de fuite en Gironde" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Votre piscine perd de l'eau et le niveau se stabilise pile au niveau des buses de refoulement, à environ 30 à 40 cm sous la margelle ? Vous voyez des bulles d'air remonter autour d'une buse quand la filtration tourne ? Ces deux symptômes orientent fortement vers une fuite côté refoulement, souvent en aval de la pompe. C'est la deuxième cause de fuite de pièce à sceller que nous diagnostiquons à Bordeaux et en Gironde, après les fuites de skimmer. Cet article vous donne la méthode complète pour confirmer le diagnostic, identifier la zone précise (joint, scellement, traversée de paroi, canalisation enterrée derrière) et arbitrer entre réparation DIY et intervention professionnelle.</p>
+
+<h2>Comment savoir si la fuite vient bien des buses de refoulement ?</h2>
+
+<p>Trois tests gratuits permettent en 24 à 48 heures de confirmer ou d'écarter les buses comme origine de la fuite.</p>
+
+<h3>Test 1 : le niveau qui se stabilise au niveau des buses</h3>
+<p>Si la baisse d'eau de votre piscine s'arrête pile au niveau des buses de refoulement (typiquement 30 à 40 cm sous la margelle, juste sous l'orifice), c'est un signal très fort. Le bassin ne peut plus baisser au-delà de l'orifice de la buse car l'air est aspiré dans le circuit dès que la fuite est découverte. Pour le savoir précisément, mesurez la baisse au feutre permanent matin et soir pendant 3 jours. Voir aussi notre <a href="/guide/piscine-qui-fuit-perte-eau/" style="color:var(--green);text-decoration:underline;">arbre de décision en 6 questions</a> pour qualifier le niveau de stabilisation.</p>
+
+<h3>Test 2 : test des bouchons obturateurs (la méthode reine)</h3>
+<p>Bouchez les buses de refoulement avec des obturateurs piscine (5 à 10 € pièce en magasin spécialisé), arrêtez la pompe de filtration, attendez 6 à 12 heures sans baignade. Si le niveau ne baisse plus, la fuite était bien sur le circuit refoulement (buse, canalisation, vanne). Si le niveau continue de baisser, la fuite est ailleurs (skimmer, bassin, autre canalisation). Cette méthode est la plus discriminante pour isoler le circuit fautif.</p>
+
+<h3>Test 3 : observation des bulles d'air filtration ON</h3>
+<p>Avec la filtration en marche, observez attentivement chaque buse pendant 5 à 10 minutes. Si vous voyez des bulles d'air remonter autour d'une buse alors que tout le circuit devrait être plein d'eau, c'est qu'il y a une fissure côté extérieur (canalisation derrière la paroi ou raccord arrière) qui laisse entrer de l'air par effet venturi. C'est un signe pathognomonique de fuite côté tuyauterie aspirée. Ce comportement est invisible filtration arrêtée.</p>
+
+<p>Pour distinguer évaporation et fuite avant ces tests, voir notre <a href="/guide/evaporation-vs-fuite-piscine/" style="color:var(--green);text-decoration:underline;">guide évaporation ou fuite de piscine</a> avec tableau d'évaporation mensuel en Gironde.</p>
+
+<h2>Les 5 zones où une buse de refoulement fuit en pratique</h2>
+
+<p>Sur les diagnostics réalisés à Bordeaux, les fuites de buse de refoulement se concentrent sur cinq zones, classées par fréquence décroissante.</p>
+
+<h3>1. Joints toriques de la bride (zone la plus fréquente)</h3>
+<p>Chaque buse de refoulement a deux joints toriques : un côté piscine (visible) et un côté arrière (caché derrière la paroi). Le joint avant durcit après 8 à 12 ans sous l'effet du chlore et des UV, perdant son étanchéité. Diagnostic visuel à la lampe rasante : le joint apparaît craquelé, écrasé ou décollé. Réparation accessible aux bricoleurs (changement de joints toriques 5 à 12 € pièce, démontage de la bride avec niveau d'eau abaissé sous la buse).</p>
+
+<h3>2. Scellement entre buse et paroi (joint mastic ou silicone)</h3>
+<p>Sur les piscines béton, la pièce à sceller est solidarisée à la paroi par un joint silicone ou mastic. Après 15 à 20 ans, ce mastic peut se rétracter ou se craqueler à cause des cycles thermiques. Diagnostic au colorant <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a> : injection juste devant le scellement, le colorant est aspiré par la fissure. Réparation par mastic d'étanchéité piscine (en immersion) ou résine époxy bicomposant si la fissure est plus importante.</p>
+
+<h3>3. Fissure du corps plastique de la buse</h3>
+<p>Choc, vandalisme, gel exceptionnel, cycle thermique violent peuvent fissurer le plastique. Sur Bordeaux, le risque de gel est limité (5 à 10 jours par an en moyenne) mais une vague de froid prolongée comme février 2012 peut faire éclater une buse mal protégée. Diagnostic visuel : recherche de fissure radiale ou circulaire sur le corps de la buse, lampe rasante. Réparation par remplacement complet de la buse (procédure plus complexe car il faut déposer la bride sans casser le scellement).</p>
+
+<h3>4. Raccord PVC arrière entre buse et canalisation enterrée</h3>
+<p>La buse est connectée à la canalisation de refoulement par un raccord PVC collé. Sur les sols argileux de la métropole bordelaise (Caudéran, Pessac, Bègles, Talence) et sableux du Bassin d'Arcachon, ce raccord peut se désaxer après 15 à 25 ans avec les mouvements de terrain. Diagnostic par <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur sur la canalisation enterrée</a> ou par ouverture ciblée derrière la buse (50 cm × 50 cm de tranchée). Réparation par tronçon de tube PVC de 50 mm collé au méthode pisciniste classique (« couper la traverse de paroi et raccorder via un tube de 50 mm »).</p>
+
+<h3>5. Canalisation enterrée plus profonde (cassure ou désaxement)</h3>
+<p>La fuite peut se trouver à 1 à 3 mètres du bassin sur la canalisation enterrée elle-même, indépendamment de la buse. Symptôme typique : zone humide anormale dans la pelouse à proximité de la piscine, herbe plus verte sur un tracé linéaire. Le diagnostic gaz traceur est ici la seule méthode fiable pour localiser la fuite au mètre près sans casser la terrasse au hasard. Pour le détail des fuites de jardin liées à des canalisations piscine, voir notre <a href="/guide/fuite-eau-jardin-bordeaux/" style="color:var(--green);text-decoration:underline;">guide fuite d'eau dans le jardin à Bordeaux</a>.</p>
+
+<h2>Spécificités des piscines girondines sur les buses de refoulement</h2>
+
+<p>Quelques points à connaître pour orienter le diagnostic en fonction du contexte local :</p>
+
+<ul>
+<li><strong>Sols argileux de la métropole bordelaise</strong> : mouvements saisonniers (gonflement humide / retrait sec) qui sollicitent les raccords PVC arrière des buses. Vigilance accrue sur les piscines de plus de 15 ans à Caudéran, Pessac, Talence, Bègles.</li>
+<li><strong>Sols sableux du Bassin d'Arcachon</strong> : tassement progressif sous la dalle de plage qui peut désaxer les raccords ou fissurer la canalisation enterrée. Vérifier les tracés de canalisation lors d'une réfection de plage.</li>
+<li><strong>Climat océanique doux</strong> : peu de gel, donc peu de fissures structurelles du plastique. Mais saison de baignade longue (mai à octobre) qui sollicite les joints toriques bien plus que les régions Nord.</li>
+<li><strong>Pic de demandes en juillet-août-septembre</strong> : sur les 13 derniers mois, ces 3 mois représentent 50 % des demandes piscine en Gironde. Anticiper les contrôles en mai-juin évite l'attente des piscinistes saturés.</li>
+</ul>
+
+<h2>Réparer soi-même ou faire appel à un professionnel ?</h2>
+
+<p>La décision dépend de la zone identifiée par le diagnostic.</p>
+
+<p><strong>Cas où la réparation DIY est envisageable</strong> (coût matériel 30 à 80 €) :</p>
+<ul>
+<li>Joints toriques accessibles : remplacement après vidange partielle sous la buse, démontage de la bride. Niveau bricolage moyen, attention au sens et au modèle des joints.</li>
+<li>Scellement avant en mauvais état : reprise au mastic piscine immersion ou résine époxy bicomposant, préparation soignée du support indispensable (poncer, dégraisser à l'acétone).</li>
+<li>Fuite en aval de la pompe sur tuyauterie apparente du local technique : remplacement du tronçon ou serrage de raccord visible.</li>
+</ul>
+
+<p><strong>Cas où l'intervention pro est nécessaire</strong> :</p>
+<ul>
+<li>Doute sur la zone de fuite : un mauvais diagnostic conduit à intervenir au mauvais endroit, et la fuite continue. Le coût total finit toujours plus élevé que si on avait fait diagnostiquer dès le départ.</li>
+<li>Bulles d'air autour de la buse filtration ON : signal de fuite côté canalisation enterrée derrière la paroi. Seul le gaz traceur localise précisément la fuite sans démolir la terrasse au hasard.</li>
+<li>Buse encastrée dans le béton avec scellement non démontable proprement : intervention pisciniste pour décalotage du liner ou démolition ciblée + reconstruction du scellement.</li>
+<li>Piscine sous garantie décennale (moins de 10 ans) : faire diagnostiquer par un tiers indépendant pour activer la garantie auprès du constructeur. Voir nos guides constructeurs : <a href="/guide/fuite-piscine-desjoyaux-bordeaux/" style="color:var(--green);text-decoration:underline;">Desjoyaux</a>, <a href="/guide/fuite-piscine-magiline-bordeaux/" style="color:var(--green);text-decoration:underline;">Magiline</a>, <a href="/guide/fuite-piscine-diffazur-bordeaux/" style="color:var(--green);text-decoration:underline;">Diffazur</a>, <a href="/guide/fuite-piscine-waterair-bordeaux/" style="color:var(--green);text-decoration:underline;">Waterair</a>.</li>
+</ul>
+
+<h2>Notre méthode de diagnostic à Bordeaux</h2>
+
+<p>Notre intervention dure 2 à 3 heures et combine 4 méthodes non destructives, sans vidanger le bassin :</p>
+<ol>
+<li><strong>Test des bouchons obturateurs</strong> sur les buses (et le skimmer si pertinent) avec arrêt filtration : isole le circuit fautif en 6 à 12 heures.</li>
+<li><strong>Inspection visuelle systématique</strong> de chaque buse à la lampe rasante haute intensité : recherche de fissure, joint craquelé, scellement décollé.</li>
+<li><strong>Test à la fluorescéine</strong> sur les buses suspectes : injection ciblée, observation de l'aspiration. Voir notre <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">protocole fluorescéine détaillé</a>.</li>
+<li><strong>Gaz traceur azote-hydrogène</strong> sur les canalisations enterrées de refoulement si suspicion de fuite côté tuyauterie : localisation au mètre près sans démolir la terrasse.</li>
+</ol>
+
+<p>Le rapport technique remis le jour même indique précisément la zone de fuite avec photo et schéma, et oriente la réparation. Pour notre service piscine global en Gironde, voir notre page <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>.</p>
+
+<h2>Combien coûte un diagnostic et une réparation à Bordeaux ?</h2>
+
+<p>Ordres de grandeur 2026 sur Bordeaux Métropole :</p>
+<ul>
+<li><strong>Diagnostic professionnel non destructif</strong> : 380 à 580 € HT, intervention 2 à 3 heures, rapport remis le jour même. Souvent remboursé par votre assurance habitation au titre de la garantie recherche de fuite (voir <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide remboursement assurance piscine</a>).</li>
+<li><strong>Réparation DIY joints toriques</strong> : 30 à 50 € de fournitures, 1 à 2 heures de bricolage.</li>
+<li><strong>Reprise scellement au mastic ou résine</strong> : 60 à 120 € de fournitures DIY, ou 200 à 400 € HT par un pisciniste.</li>
+<li><strong>Remplacement complet de la buse encastrée</strong> avec reprise maçonnerie : 600 à 1 200 € HT selon configuration.</li>
+<li><strong>Réparation canalisation enterrée</strong> après localisation par gaz traceur : 600 à 1 500 € HT selon profondeur et accessibilité.</li>
+<li><strong>Démolition béton + reconstruction complète</strong> (cas grave de cassure profonde) : 1 800 à 3 500 € HT selon la complexité.</li>
+</ul>
+
+<p>Pour la grille tarifaire complète selon la méthode et le type de bassin, voir notre <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">guide prix recherche de fuite à Bordeaux</a>.</p>
+
+<h2>Prévenir une nouvelle fuite de buse de refoulement</h2>
+
+<p>Quelques gestes simples qui multiplient la durée de vie d'une buse par 2 :</p>
+<ul>
+<li><strong>Hivernage actif ou passif maîtrisé</strong> : si vous laissez de l'eau dans le circuit en hiver, utilisez des bouchons d'hivernage piscine spécifiques pour buses de refoulement, qui absorbent la dilatation de la glace en cas de gel exceptionnel.</li>
+<li><strong>Maintenir le pH entre 7,0 et 7,4</strong> : un pH trop acide attaque le plastique des buses et les joints toriques. Un pH trop basique entartre l'orifice et peut bloquer la buse.</li>
+<li><strong>Contrôler le serrage de la bride</strong> au moins une fois par an, idéalement à la <a href="/guide/remise-en-service-piscine-printemps-bordeaux/" style="color:var(--green);text-decoration:underline;">remise en service au printemps</a>. Un serrage trop fort déforme le joint, un serrage trop lâche le laisse fuir.</li>
+<li><strong>Surveiller le niveau d'eau</strong> entre le tiers et la moitié du skimmer : variations brusques sollicitent toutes les pièces à sceller, dont les buses.</li>
+</ul>
+
+<h2>Questions fréquentes</h2>
+
+<h3>Combien de temps pour intervenir à Bordeaux ?</h3>
+<p>Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence. Pour les urgences, voir notre service <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite en urgence à Bordeaux</a>.</p>
+
+<h3>Faut-il vidanger la piscine pour réparer une buse ?</h3>
+<p>Non dans 90 % des cas. Une vidange partielle juste sous le niveau de la buse (30 à 40 cm sous la margelle) suffit pour les réparations de joint, mastic ou bride. La vidange totale est à éviter : risque de soulèvement structurel sur sols argileux girondins, et coût de retraitement de l'eau ensuite.</p>
+
+<h3>Que veut dire « bulles d'air autour de la buse » ?</h3>
+<p>C'est le signe que de l'air entre dans le circuit côté refoulement, généralement par une fissure de la canalisation enterrée derrière la paroi. La filtration met le circuit en pression, mais aspire de l'air par la fuite à un point critique. Diagnostic indispensable au gaz traceur pour localiser précisément la fuite enterrée.</p>
+
+<h3>Mon assurance va-t-elle rembourser le diagnostic ?</h3>
+<p>Dans 80 à 90 % des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite dès lors qu'un dégât des eaux est constaté ou qu'une surconsommation est mesurée. Voir notre <a href="/guide/recherche-fuite-piscine-assurance/" style="color:var(--green);text-decoration:underline;">guide assurance piscine</a>.</p>
+
+<h3>Peut-on remplacer une buse encastrée sans casser la terrasse ?</h3>
+<p>Cela dépend du mode de scellement. Si la buse est juste collée à un raccord PVC accessible derrière la paroi, on peut couper la traverse de paroi et la raccorder via un tube neuf de 50 mm sans casse majeure. Si la buse est entièrement scellée dans le béton sans accès arrière, le démontage demande une démolition ciblée du voile béton + reconstruction. Notre diagnostic identifie la configuration exacte avant tout devis de réparation.</p>
+
+<h2>Demander un diagnostic buse de refoulement à Bordeaux</h2>
+
+<p>Notre équipe intervient à Bordeaux et dans toute la Gironde sous 24 à 48 heures. Diagnostic complet 380 à 580 € HT, rapport technique remis le jour même, conforme aux exigences des assureurs.</p>
+
+<p style="text-align:center;margin:1.5rem 0;"><a href="/devis/" class="btn btn-gold" style="display:inline-block;padding:1rem 2rem;font-size:1.05rem;">Demander un devis gratuit</a></p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Fuite buse de refoulement piscine à Bordeaux : diagnostic et réparation","description":"Votre piscine perd de l'eau au niveau des buses de refoulement à Bordeaux ? Test des bouchons obturateurs, 5 zones de fuite, réparation DIY ou intervention pro, prix 2026.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/fuite-buse-refoulement-piscine-bordeaux.webp","datePublished":"2026-04-29","dateModified":"2026-04-29","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/fuite-buse-refoulement-piscine-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Recherche de fuite au niveau des buses de refoulement de piscine à Bordeaux et en Gironde sans vidange. Méthodes non destructives : test obturateurs, fluorescéine, gaz traceur sur canalisations enterrées.","url":"https://recherche-fuite-gironde.fr/guide/fuite-buse-refoulement-piscine-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite piscine"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Fuite buse refoulement piscine Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/fuite-buse-refoulement-piscine-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps pour intervenir sur une fuite de buse à Bordeaux ?","acceptedAnswer":{"@type":"Answer","text":"Intervention sous 24 à 48 heures sur Bordeaux Métropole et toute la Gironde. En pleine saison piscine (juillet à septembre), prévoir 5 à 10 jours sauf urgence."}},{"@type":"Question","name":"Faut-il vidanger la piscine pour réparer une buse ?","acceptedAnswer":{"@type":"Answer","text":"Non dans 90% des cas. Une vidange partielle juste sous le niveau de la buse suffit pour les réparations de joint, mastic ou bride. La vidange totale est à éviter sur les sols argileux girondins."}},{"@type":"Question","name":"Que signifient des bulles d'air autour d'une buse ?","acceptedAnswer":{"@type":"Answer","text":"C'est le signe que de l'air entre dans le circuit côté refoulement, généralement par une fissure de la canalisation enterrée derrière la paroi. Diagnostic indispensable au gaz traceur."}},{"@type":"Question","name":"Mon assurance va-t-elle rembourser le diagnostic ?","acceptedAnswer":{"@type":"Answer","text":"Dans 80 à 90% des cas oui, sur présentation du rapport technique. Les contrats AXA, MAIF, MAAF, Macif, Generali, Allianz, Groupama, Matmut et GMF prennent en charge la garantie recherche de fuite."}},{"@type":"Question","name":"Peut-on remplacer une buse encastrée sans casser la terrasse ?","acceptedAnswer":{"@type":"Answer","text":"Cela dépend du mode de scellement. Si la buse est collée à un raccord PVC accessible derrière la paroi, on coupe la traverse de paroi et raccorde via un tube neuf de 50mm. Si la buse est entièrement scellée dans le béton, le démontage demande une démolition ciblée."}}]}
 </script>"""
     },]
 
@@ -8920,7 +9068,7 @@ def page_piscine_ville(p):
         <span class="arg-num">02</span>
         <div class="arg-num-content">
           <h3>Fuite skimmer ou refoulement</h3>
-          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Si votre niveau d'eau se stabilise pile sous le skimmer, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests de confirmation et les 5 zones précises où le skimmer fuit. Pour la réparation à la résine, voir aussi <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
+          <p>Joint mastic sec et fissuré entre la pièce à sceller et le béton ou la coque, bride mal serrée, fissure de la pièce plastique elle-même. Très fréquent après plusieurs hivernages. Si votre niveau d'eau se stabilise pile sous le skimmer, voir notre guide <a href="/guide/fuite-skimmer-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite skimmer piscine à Bordeaux</a> avec les 3 tests de confirmation et les 5 zones précises où le skimmer fuit. Pour une fuite côté buses de refoulement (niveau qui se stabilise plus bas, bulles d'air filtration ON), voir notre guide <a href="/guide/fuite-buse-refoulement-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fuite buse de refoulement piscine à Bordeaux</a>. Pour la réparation à la résine d'un skimmer, voir <a href="/guide/reparation-skimmer-piscine-resine-epoxy/" style="color:var(--green);text-decoration:underline;">réparation skimmer à la résine époxy</a>.</p>
         </div>
       </div>
       <div class="arg-num-card">
