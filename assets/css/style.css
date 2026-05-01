@@ -938,6 +938,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   gap: 3rem;
   align-items: start;
 }
+/* Empêche les grid items de déborder à cause d'un contenu min-content trop large
+   (table, long URL, image intrinsic). Bug : sans ça, .article-body se dilate
+   et fait scroller le viewport horizontalement en mobile. */
+.article-layout > * { min-width: 0; }
+.article-body { overflow-wrap: anywhere; min-width: 0; }
 
 .article-sidebar {
   position: sticky;
