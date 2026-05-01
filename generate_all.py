@@ -6110,6 +6110,8 @@ GUIDE_PAGES = [
 <strong>Précision méthodologique.</strong> Cette page est éditée par Recherche Fuite Gironde, plateforme indépendante de mise en relation pour la recherche de fuite d'eau en Gironde. Le comparatif présenté ci-dessous est établi <strong>par ordre alphabétique sans note ni hiérarchie</strong>, à partir d'informations publiques (sites web officiels, fiches Google Business, mentions légales) consultées en mai 2026. Aucune des entreprises citées n'a participé à la rédaction de cette page ni rémunéré son référencement.
 </div>
 
+{{cta:Bordeaux:1}}
+
 <h2>5 critères pour choisir une entreprise de recherche de fuite à Bordeaux</h2>
 
 <p>Avant de comparer les acteurs, il est utile de comprendre ce qui distingue concrètement une entreprise spécialisée d'une autre. Cinq points sont à examiner, dans cet ordre, lorsque vous demandez plusieurs devis.</p>
@@ -6128,8 +6130,6 @@ GUIDE_PAGES = [
 
 <h3>5. Le statut indépendant ou réparateur intégré</h3>
 <p>Certaines entreprises ne font que la <strong>recherche</strong> et orientent ensuite vers un plombier partenaire pour la réparation. D'autres proposent l'ensemble (recherche puis réparation chemisage, plomberie, maçonnerie). Le premier modèle garantit l'indépendance du diagnostic (pas de conflit d'intérêt à « trouver de quoi réparer »). Le second simplifie votre logistique. Aucun n'est meilleur dans l'absolu, c'est selon votre situation et votre préférence.</p>
-
-{{cta:Bordeaux:1}}
 
 <h2>5 entreprises de recherche de fuite à Bordeaux (ordre alphabétique)</h2>
 
