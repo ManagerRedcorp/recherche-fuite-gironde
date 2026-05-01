@@ -10359,6 +10359,8 @@ def page_piscine_ville(p):
     <p>{p['quartiers_zones']}</p>
 
     <p style="margin-top:1rem;">Au-delà des piscines, nos techniciens interviennent aussi pour tous types de fuites sur la commune : consultez notre <a href="/villes/{p['slug'].replace('piscine-', '')}/" style="color:var(--green-mid);text-decoration:underline;">gamme complète de recherche de fuite à {p['ville']}</a> (canalisations encastrées, planchers chauffants, dégâts des eaux, urgence).</p>
+
+    {cta_inline(ville, 2)}
   </div>
 </section>
 
@@ -10438,12 +10440,6 @@ def page_piscine_ville(p):
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container" style="max-width:960px;">
-    {cta_inline(ville, 2)}
   </div>
 </section>
 
