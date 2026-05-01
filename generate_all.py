@@ -423,6 +423,8 @@ def page_ville_detection(v):
           </div>
         </div>
 
+        {cta_inline(nom, 1)}
+
         <h2 class="section-title" style="margin-top:2.5rem;">Zone d'intervention à {nom}</h2>
         <p>Nous couvrons l'ensemble des quartiers de {nom} : {quartiers_str}. Nos techniciens se déplacent également dans les communes voisines de {voisines[0]["nom"]} et {voisines[1]["nom"]}.</p>
         <p>Besoin d'une intervention rapide à {nom} ? Remplissez le formulaire ci-contre ou utilisez le formulaire de contact en bas de page.</p>
@@ -441,6 +443,12 @@ def page_ville_detection(v):
         {mini_form}
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    {cta_inline(nom, 2)}
   </div>
 </section>
 
@@ -566,6 +574,8 @@ def page_ville_chemisage(v):
           </div>
         </div>
 
+        {cta_inline(nom, 2)}
+
         <h2 class="section-title" style="margin-top:2.5rem;">Quand recourir au chemisage à {nom} ?</h2>
         <p>Le chemisage est recommandé dans plusieurs situations :</p>
         <ul style="margin:1rem 0 1rem 1.5rem;list-style:disc;display:flex;flex-direction:column;gap:.5rem;">
@@ -587,6 +597,12 @@ def page_ville_chemisage(v):
         {mini_form}
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    {cta_inline(nom, 1)}
   </div>
 </section>
 
@@ -6325,20 +6341,27 @@ def cta_inline(ville='Bordeaux', variant=1):
     """Bandeau CTA répétable inline. Ville dynamique, nb techniciens dérivé de la population."""
     pop = next((v['population'] for v in VILLES if v['nom'].lower() == ville.lower()), None)
     n_tech = max(6, min(14, pop // 2500)) if pop else 12
+    eyebrows = {
+        1: "Devis gratuit",
+        2: "Diagnostic sans casse",
+        3: "Rapport CRAC le jour même",
+    }
     titles = {
         1: f"Intervention sous 24h à {ville}",
-        2: f"Diagnostic non destructif sous 24h à {ville}",
-        3: f"Localisation précise de votre fuite à {ville}",
+        2: f"Diagnostic non destructif à {ville}",
+        3: f"Localisation précise à {ville}",
     }
     descs = {
-        1: "Devis gratuit, sans engagement. Rapport technique remis en fin d'intervention, accepté par votre assurance.",
-        2: "Méthodes non destructives (gaz traceur, thermographie, caméra endoscopique). Aucune démolition ni tranchée.",
+        1: "Sans engagement. Rapport technique remis en fin d'intervention, accepté par votre assurance habitation.",
+        2: "Gaz traceur, thermographie, caméra endoscopique, écoute électro-acoustique. Aucune démolition ni tranchée.",
         3: "Localisation au centimètre près. Rapport CRAC remis le jour même pour votre assureur.",
     }
+    eyebrow = eyebrows.get(variant, eyebrows[1])
     title = titles.get(variant, titles[1])
     desc = descs.get(variant, descs[1])
     return f'''<aside class="cta-inline" role="complementary" aria-label="Demander un devis">
   <div class="cta-inline-content">
+    <p class="cta-inline-eyebrow">{eyebrow}</p>
     <h3 class="cta-inline-title">{title}</h3>
     <p class="cta-inline-desc">{desc}</p>
     <p class="cta-inline-meta"><span class="cta-inline-dot" aria-hidden="true"></span>{n_tech} techniciens disponibles sur votre secteur</p>
@@ -6354,8 +6377,28 @@ def expand_placeholders(contenu):
         contenu
     )
 
+def auto_inject_ctas(contenu, ville='Bordeaux'):
+    """Injecte 2 CTAs après le 2e et le 5e <h2> du contenu si aucun n'est présent."""
+    if 'cta-inline' in contenu:
+        return contenu
+    # Découpe sur les <h2> (préservant les <h2> dans le résultat)
+    parts = re.split(r'(?=<h2[\s>])', contenu)
+    if len(parts) < 4:
+        return contenu  # contenu trop court pour répartir
+    n = len(parts)
+    # 2e h2 = parts[2], 5e h2 = parts[5] (ou avant-dernier si moins)
+    inject_after = sorted({min(2, n - 2), min(5, n - 2)})
+    out = []
+    for i, part in enumerate(parts):
+        out.append(part)
+        if i in inject_after and i > 0:
+            variant = 1 if i <= 2 else 2
+            out.append('\n' + cta_inline(ville, variant) + '\n')
+    return ''.join(out)
+
 def page_guide_article(art):
     contenu = expand_placeholders(art["contenu"])
+    contenu = auto_inject_ctas(contenu, ville='Bordeaux')
     sidebar = f'''<div class="aside-cta">
   <h3>Besoin d'une intervention ?</h3>
   <p>Nos techniciens interviennent dans toute la Gironde sous 24h. Devis gratuit et sans engagement.</p>
@@ -7157,6 +7200,12 @@ def page_ville_detection_premium(v):
   </div>
 </section>
 
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    {cta_inline(ville, 1)}
+  </div>
+</section>
+
 <section class="section section-alt">
   <div class="container" style="max-width:1080px;">
     <h2>Spécificités locales de la recherche de fuite {ville_article}</h2>
@@ -7171,6 +7220,12 @@ def page_ville_detection_premium(v):
     <h2>Détection non destructive vs percement classique {ville_article}</h2>
     <p>Pourquoi la recherche de fuite moderne bat systématiquement le percement aléatoire ou la démolition préventive, surtout sur un patrimoine comme celui de {ville}.</p>
     {TABLEAU_COMPARATIF_BLOCK}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:960px;">
+    {cta_inline(ville, 3)}
   </div>
 </section>
 
