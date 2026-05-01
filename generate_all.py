@@ -10442,6 +10442,12 @@ def page_piscine_ville(p):
 </section>
 
 <section class="section">
+  <div class="container" style="max-width:960px;">
+    {cta_inline(ville, 2)}
+  </div>
+</section>
+
+<section class="section">
   <div class="container" style="max-width:1080px;">
     <h2>Types de fuites que nous traitons sur piscine</h2>
     <p>La fuite peut provenir du bassin lui-même, du réseau hydraulique ou des équipements périphériques. Voici les cas les plus fréquents que nous rencontrons {ville_article} et dans sa métropole.</p>
@@ -10522,6 +10528,12 @@ def page_piscine_ville(p):
     <div class="grid-3" style="margin-top:1.5rem;">
 {patterns_html}
     </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container" style="max-width:960px;">
+    {cta_inline(ville, 1)}
   </div>
 </section>
 
