@@ -6099,6 +6099,8 @@ GUIDE_PAGES = [
 <h3>5. Le statut indépendant ou réparateur intégré</h3>
 <p>Certaines entreprises ne font que la <strong>recherche</strong> et orientent ensuite vers un plombier partenaire pour la réparation. D'autres proposent l'ensemble (recherche puis réparation chemisage, plomberie, maçonnerie). Le premier modèle garantit l'indépendance du diagnostic (pas de conflit d'intérêt à « trouver de quoi réparer »). Le second simplifie votre logistique. Aucun n'est meilleur dans l'absolu, c'est selon votre situation et votre préférence.</p>
 
+{{cta:Bordeaux:1}}
+
 <h2>5 entreprises de recherche de fuite à Bordeaux (ordre alphabétique)</h2>
 
 <p>Les fiches qui suivent recensent les informations publiques disponibles en mai 2026. Aucune n'est notée ni classée. Pour chaque acteur, nous renvoyons vers le site officiel pour vérification.</p>
@@ -6218,6 +6220,8 @@ GUIDE_PAGES = [
 
 <p style="font-size:.85rem;color:var(--muted);margin-top:.5rem;font-style:normal;">Source : sites officiels des entreprises et fiches Google Business consultés en mai 2026. Les notes Google Business varient quotidiennement et ne figurent pas dans ce tableau pour cette raison.</p>
 
+{{cta:Bordeaux:2}}
+
 <h2>Comment se déroule une intervention type</h2>
 
 <p>Quel que soit le prestataire que vous retiendrez, la trame d'une recherche de fuite non destructive sur Bordeaux suit globalement les mêmes étapes. Connaître ce déroulé vous permet de comparer objectivement les devis et de poser les bonnes questions.</p>
@@ -6245,6 +6249,8 @@ GUIDE_PAGES = [
 </ul>
 
 <p>La plupart des contrats d'assurance habitation incluent une garantie « recherche de fuite » qui rembourse tout ou partie de cette intervention sur présentation du rapport CRAC.</p>
+
+{{cta:Bordeaux:3}}
 
 <h2>Foire aux questions</h2>
 
@@ -6301,7 +6307,41 @@ GUIDE_PAGES = [
 </script>"""
     },]
 
+def cta_inline(ville='Bordeaux', variant=1):
+    """Bandeau CTA répétable inline. Ville dynamique, nb techniciens dérivé de la population."""
+    pop = next((v['population'] for v in VILLES if v['nom'].lower() == ville.lower()), None)
+    n_tech = max(6, min(14, pop // 2500)) if pop else 12
+    titles = {
+        1: f"Intervention sous 24h à {ville}",
+        2: f"Diagnostic non destructif sous 24h à {ville}",
+        3: f"Localisation précise de votre fuite à {ville}",
+    }
+    descs = {
+        1: "Devis gratuit, sans engagement. Rapport technique remis en fin d'intervention, accepté par votre assurance.",
+        2: "Méthodes non destructives (gaz traceur, thermographie, caméra endoscopique). Aucune démolition ni tranchée.",
+        3: "Localisation au centimètre près. Rapport CRAC remis le jour même pour votre assureur.",
+    }
+    title = titles.get(variant, titles[1])
+    desc = descs.get(variant, descs[1])
+    return f'''<aside class="cta-inline" role="complementary" aria-label="Demander un devis">
+  <div class="cta-inline-content">
+    <h3 class="cta-inline-title">{title}</h3>
+    <p class="cta-inline-desc">{desc}</p>
+    <p class="cta-inline-meta"><span class="cta-inline-dot" aria-hidden="true"></span>{n_tech} techniciens disponibles sur votre secteur</p>
+  </div>
+  <a href="/devis/" class="cta-inline-btn">Demander un devis</a>
+</aside>'''
+
+def expand_placeholders(contenu):
+    """Remplace {{cta:Ville:variant}} par le HTML du CTA correspondant."""
+    return re.sub(
+        r'\{\{cta:([^:}]+):(\d+)\}\}',
+        lambda m: cta_inline(m.group(1).strip(), int(m.group(2))),
+        contenu
+    )
+
 def page_guide_article(art):
+    contenu = expand_placeholders(art["contenu"])
     sidebar = f'''<div class="aside-cta">
   <h3>Besoin d'une intervention ?</h3>
   <p>Nos techniciens interviennent dans toute la Gironde sous 24h. Devis gratuit et sans engagement.</p>
@@ -6333,7 +6373,7 @@ def page_guide_article(art):
   <div class="container">
     <div class="article-layout">
       <div class="article-body">
-        {art["contenu"]}
+        {contenu}
       </div>
       <div class="article-sidebar">
         {sidebar}
