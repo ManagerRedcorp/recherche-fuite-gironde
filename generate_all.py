@@ -6066,6 +6066,239 @@ GUIDE_PAGES = [
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Combien de temps Suez ou la Régie ont-ils pour intervenir ?","acceptedAnswer":{"@type":"Answer","text":"Sous 24h pour les urgences (fuite active avec dégât en cours). Sous 5 jours ouvrés pour les fuites sans urgence immédiate. Au-delà, vous pouvez exiger une indemnisation pour le préjudice subi."}},{"@type":"Question","name":"Mon compteur est dans mon garage, qui est responsable de la canalisation entre la rue et le garage ?","acceptedAnswer":{"@type":"Answer","text":"Le distributeur d'eau (Suez ou Régie) est responsable de toute la canalisation jusqu'à votre compteur, qu'elle traverse votre terrain ou non. Le critère qui fait foi est la position physique du compteur, pas la limite de propriété."}},{"@type":"Question","name":"Que faire si la fuite a abîmé mon allée ou mes plantations lors de la réparation ?","acceptedAnswer":{"@type":"Answer","text":"Le distributeur d'eau a l'obligation légale de remettre votre terrain en état après son intervention (loi du 29 décembre 1892). Si la remise en état est insuffisante, exigez une indemnisation par écrit avec photos avant/après."}},{"@type":"Question","name":"Et si la fuite est avant compteur mais sur le branchement de mon voisin ?","acceptedAnswer":{"@type":"Answer","text":"Si plusieurs maisons partagent un même branchement amont, la canalisation reste de la responsabilité du distributeur jusqu'à chaque compteur individuel. La répartition des éventuels frais de remise en état (terrain commun) se fait entre voisins selon les règles de copropriété."}},{"@type":"Question","name":"Combien coûte un diagnostic indépendant pour confirmer une fuite avant compteur ?","acceptedAnswer":{"@type":"Answer","text":"380 à 580 € HT pour une expertise non destructive complète sur Bordeaux Métropole. Notre rapport technique trace précisément la canalisation et identifie sa position relative au compteur. Document opposable au distributeur en cas de litige."}}]}
 </script>"""
+    },
+    {
+        "slug": "entreprises-recherche-fuite-bordeaux",
+        "title": "Entreprise recherche de fuite à Bordeaux : 5 acteurs comparés (mai 2026)",
+        "title_seo": "Entreprise recherche de fuite Bordeaux | Comparatif 5 acteurs",
+        "desc": "Comparatif factuel de 5 entreprises de recherche de fuite intervenant à Bordeaux : ADN, Adré Eau, Ax'eau, Grand Sud Détection, Wi Bord'eau. Critères et méthodes.",
+        "contenu": """<figure style="margin:0 0 2rem;"><img src="/assets/entreprises-recherche-fuite-bordeaux.webp" alt="Mains qui annotent une fiche d'évaluation sur clipboard, contexte de la sélection d'une entreprise de recherche de fuite à Bordeaux" width="1600" height="1067" loading="lazy" style="width:100%;max-height:340px;height:auto;object-fit:cover;border-radius:12px;display:block;"></figure>
+
+<p>Bordeaux et la Gironde comptent une vingtaine d'entreprises spécialisées dans la recherche de fuite d'eau non destructive. Toutes affichent les mêmes promesses (intervention rapide, sans casse, rapport assurance), mais leurs méthodes, leur zone réelle d'intervention, leur ancienneté et leur positionnement varient sensiblement. Cet article présente <strong>cinq acteurs intervenant à Bordeaux</strong>, par ordre alphabétique, sur la base de données publiques recensées en mai 2026 (sites officiels et fiches Google Business). Il est complété d'un guide pratique des cinq critères qui font la différence sur ce métier, et d'une description du déroulé type d'une intervention afin que vous puissiez comparer les devis qui vous seront proposés.</p>
+
+<div style="background:#f5f3ec;border-left:4px solid var(--green);padding:1rem 1.25rem;border-radius:8px;margin:1.5rem 0;font-size:.95rem;">
+<strong>Précision méthodologique.</strong> Cette page est éditée par Recherche Fuite Gironde, plateforme indépendante de mise en relation pour la recherche de fuite d'eau en Gironde. Le comparatif présenté ci-dessous est établi <strong>par ordre alphabétique sans note ni hiérarchie</strong>, à partir d'informations publiques (sites web officiels, fiches Google Business, mentions légales) consultées en mai 2026. Aucune des entreprises citées n'a participé à la rédaction de cette page ni rémunéré son référencement.
+</div>
+
+<h2>5 critères pour choisir une entreprise de recherche de fuite à Bordeaux</h2>
+
+<p>Avant de comparer les acteurs, il est utile de comprendre ce qui distingue concrètement une entreprise spécialisée d'une autre. Cinq points sont à examiner, dans cet ordre, lorsque vous demandez plusieurs devis.</p>
+
+<h3>1. La diversité des méthodes non destructives utilisées</h3>
+<p>Une fuite d'eau invisible se localise par croisement de plusieurs techniques : <strong>corrélation acoustique</strong> (analyse du bruit de la fuite sous pression), <strong>gaz traceur</strong> hydrogène-azote (injection d'un mélange détecté en surface), <strong>thermographie infrarouge</strong> (caméra thermique pour planchers chauffants et canalisations encastrées), <strong>caméra endoscopique</strong> (inspection visuelle de l'intérieur du réseau), <strong>fluorescéine</strong> (colorant traceur pour piscines), <strong>humidimètre</strong> et <strong>mise sous pression</strong>. Une entreprise qui ne maîtrise qu'une ou deux méthodes sera limitée sur les cas atypiques (fuite faible débit, encastrement dalle, réseau enterré profond). Demandez systématiquement la liste des méthodes maîtrisées et le matériel disponible le jour de l'intervention.</p>
+
+<h3>2. La zone d'intervention réelle (locale ou multi-régionale)</h3>
+<p>Certaines entreprises sont des structures locales, ancrées en Gironde, avec une équipe basée à Bordeaux ou en proche métropole : délais courts, connaissance fine du tissu local (typologie d'habitat haussmannien centre-ville, échoppes du Sud Bordeaux, lotissements pavillonnaires de la périphérie). D'autres sont des réseaux nationaux multi-régionaux : capacité d'absorption plus élevée, mais éventuelle variabilité de la qualité selon le franchisé. À Bordeaux, les deux modèles coexistent et chacun a ses cas d'usage.</p>
+
+<h3>3. Le rapport CRAC opposable à l'assurance</h3>
+<p>Pour que votre assurance habitation rembourse les frais de recherche de fuite (garantie « recherche de fuite » ou « dégâts des eaux » selon le contrat), le rapport remis par l'entreprise doit être conforme au format <strong>CRAC</strong> (Constat de Recherche d'Assurance Construction) : localisation précise, méthodes employées, photos, recommandations de réparation. Toutes les entreprises ne fournissent pas ce niveau de détail. Vérifiez que le devis mentionne explicitement « rapport recevable assurance » et demandez si possible un exemple anonymisé.</p>
+
+<h3>4. Le délai d'intervention et la disponibilité 24h / 7j</h3>
+<p>Une fuite active (dégât d'eau en cours, surconsommation grave) ne peut pas attendre 5 jours. Les entreprises affichent des délais variant de <strong>1 heure (urgence)</strong> à <strong>48 heures (rendez-vous standard)</strong>. Précisez si vous êtes en urgence et demandez un engagement écrit. Vérifiez aussi la disponibilité week-end et soirée : une fuite ne choisit pas son moment.</p>
+
+<h3>5. Le statut indépendant ou réparateur intégré</h3>
+<p>Certaines entreprises ne font que la <strong>recherche</strong> et orientent ensuite vers un plombier partenaire pour la réparation. D'autres proposent l'ensemble (recherche puis réparation chemisage, plomberie, maçonnerie). Le premier modèle garantit l'indépendance du diagnostic (pas de conflit d'intérêt à « trouver de quoi réparer »). Le second simplifie votre logistique. Aucun n'est meilleur dans l'absolu, c'est selon votre situation et votre préférence.</p>
+
+<h2>5 entreprises de recherche de fuite à Bordeaux (ordre alphabétique)</h2>
+
+<p>Les fiches qui suivent recensent les informations publiques disponibles en mai 2026. Aucune n'est notée ni classée. Pour chaque acteur, nous renvoyons vers le site officiel pour vérification.</p>
+
+<h3>ADN — Assistance Détection Non-destructive</h3>
+<ul>
+<li><strong>Site</strong> : <a href="https://www.adn-online.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">adn-online.fr</a></li>
+<li><strong>Siège</strong> : Mérignac (Gironde, 33700) selon Google Business</li>
+<li><strong>Zone affichée</strong> : Gironde, Bordeaux Métropole, Bassin d'Arcachon, Libourne et rive droite</li>
+<li><strong>Ancienneté revendiquée</strong> : 14 années d'expérience (selon site officiel)</li>
+<li><strong>Méthodes citées</strong> : détection sans casse, caméra endoscopique, corrélation acoustique</li>
+<li><strong>Mention assurance</strong> : « rapports conformes assurances » (selon site)</li>
+<li><strong>Délai annoncé</strong> : devis sous 15 minutes, intervention urgence possible</li>
+<li><strong>Note Google Business</strong> : 4,8/5 sur 171 avis (Google Maps, mai 2026)</li>
+<li><strong>Téléphone affiché</strong> : 05 57 88 43 11</li>
+</ul>
+
+<h3>Adré Eau</h3>
+<ul>
+<li><strong>Site</strong> : <a href="https://adre-eau.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">adre-eau.fr</a></li>
+<li><strong>Siège</strong> : Mérignac (Gironde, 33700) selon Google Business</li>
+<li><strong>Zone affichée</strong> : structure multi-régionale couvrant 9 régions françaises (Auvergne-Rhône-Alpes, Bretagne, Centre-Val-de-Loire, Grand-Est, Hauts-de-France, Pays-de-la-Loire, Nouvelle-Aquitaine, Normandie, Occitanie)</li>
+<li><strong>Volume revendiqué</strong> : 30 000 interventions réalisées en 2025 (selon site officiel)</li>
+<li><strong>Méthodes citées</strong> : caméra thermique, méthode d'aspersion</li>
+<li><strong>Délai annoncé</strong> : devis sous 24h, intervention sous 24-48h</li>
+<li><strong>Horaires</strong> : 8h30 à 17h00 du lundi au vendredi</li>
+<li><strong>Note Google Business</strong> : 4,9/5 sur 581 avis (Google Maps, mai 2026)</li>
+<li><strong>Téléphone affiché</strong> : 09 74 160 160</li>
+</ul>
+
+<h3>Ax'eau</h3>
+<ul>
+<li><strong>Site particuliers</strong> : <a href="https://particuliers.ax-eau.com/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">particuliers.ax-eau.com</a></li>
+<li><strong>Siège social</strong> : Châteaurenard (Bouches-du-Rhône, 13160), agence Bordeaux Métropole basée à Mérignac</li>
+<li><strong>Zone affichée</strong> : couverture nationale via plus de 40 agences</li>
+<li><strong>Ancienneté revendiquée</strong> : 22 ans d'activité, environ 180 collaborateurs, 130 équipes d'intervention</li>
+<li><strong>Volume revendiqué</strong> : plus de 25 000 interventions par an (selon site officiel)</li>
+<li><strong>Méthodes citées</strong> : interventions non destructives, méthode dite « du levé de doute », spécialistes en hydropathologie formés au centre interne « Ax'eau Campus »</li>
+<li><strong>Positionnement</strong> : entreprise indépendante (ne réalise pas elle-même les réparations, oriente vers des partenaires)</li>
+<li><strong>Note Google Business agence Mérignac</strong> : 4,9/5 sur 84 avis (Google Maps, mai 2026)</li>
+<li><strong>Téléphone affiché</strong> : 0809 109 709</li>
+</ul>
+
+<h3>Grand Sud Détection</h3>
+<ul>
+<li><strong>Site</strong> : <a href="https://gs-detection.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">gs-detection.fr</a></li>
+<li><strong>Zone affichée</strong> : Occitanie et Nouvelle-Aquitaine (couverture sud-ouest et sud de la France)</li>
+<li><strong>Ancienneté revendiquée</strong> : plus de 15 ans d'expérience (selon site officiel)</li>
+<li><strong>Méthodes citées</strong> : gaz traceur, corrélation acoustique, inspection caméra, thermographie infrarouge, détection acoustique, colorant fluorescent</li>
+<li><strong>Types de fuites traités</strong> : canalisations enterrées, piscines, réseaux de chauffage, toitures, réseaux publics et industriels, réseaux d'arrosage, infiltrations</li>
+<li><strong>Téléphone affiché</strong> : 05 54 54 11 24</li>
+</ul>
+
+<h3>Wi Bord'eau</h3>
+<ul>
+<li><strong>Site</strong> : <a href="https://www.wibord-eau.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">wibord-eau.fr</a></li>
+<li><strong>Siège</strong> : Lormont (Gironde, 33310)</li>
+<li><strong>Zone affichée</strong> : Gironde et partie de la Nouvelle-Aquitaine (Landes, Lot-et-Garonne) ; villes citées sur le site : Lormont, Cenon, Bruges, Bordeaux, Floirac, Villenave-d'Ornon, Pessac, Talence, Bègles, Mérignac, Arcachon, Lège-Cap-Ferret</li>
+<li><strong>Méthodes citées</strong> : gaz traceur, fumigène, thermographie infrarouge, caméra endoscopique, fluorescéine, corrélation acoustique, humidimètre, mise sous pression — éventail méthodologique très large</li>
+<li><strong>Types de fuites traités</strong> : piscines, salles de bain, réseaux après compteur, toiture, chaudière, réseaux enterrés</li>
+<li><strong>Délai annoncé</strong> : intervention sous 48 heures</li>
+<li><strong>Téléphone affiché</strong> : 06 36 20 24 69</li>
+</ul>
+
+<h2>Tableau récapitulatif (informations factuelles)</h2>
+
+<div style="overflow-x:auto;margin:1.25rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:.92rem;">
+<thead style="background:var(--green-dark);color:#fff;">
+<tr>
+<th style="padding:.6rem .75rem;text-align:left;border:1px solid var(--border);">Entreprise</th>
+<th style="padding:.6rem .75rem;text-align:left;border:1px solid var(--border);">Siège</th>
+<th style="padding:.6rem .75rem;text-align:left;border:1px solid var(--border);">Zone affichée</th>
+<th style="padding:.6rem .75rem;text-align:left;border:1px solid var(--border);">Ancienneté revendiquée</th>
+<th style="padding:.6rem .75rem;text-align:left;border:1px solid var(--border);">Délai annoncé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);"><strong>ADN</strong></td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Mérignac (33)</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Gironde, Bassin d'Arcachon, Libourne</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">14 ans</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Devis 15 min, urgence</td>
+</tr>
+<tr>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);"><strong>Adré Eau</strong></td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Mérignac (33)</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">9 régions françaises</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Non précisée (30 000 interv. / 2025)</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Devis 24h, intervention 24-48h</td>
+</tr>
+<tr>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);"><strong>Ax'eau</strong></td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Châteaurenard (13)</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">National, 40+ agences</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">22 ans</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Non précisé</td>
+</tr>
+<tr>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);"><strong>Grand Sud Détection</strong></td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Sud-Ouest</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Occitanie + Nouvelle-Aquitaine</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">15+ ans</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Non précisé</td>
+</tr>
+<tr>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);"><strong>Wi Bord'eau</strong></td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Lormont (33)</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Gironde, Landes, Lot-et-Garonne</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Non précisée</td>
+<td style="padding:.5rem .75rem;border:1px solid var(--border);">Sous 48h</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p style="font-size:.85rem;color:var(--muted);margin-top:.5rem;font-style:normal;">Source : sites officiels des entreprises et fiches Google Business consultés en mai 2026. Les notes Google Business varient quotidiennement et ne figurent pas dans ce tableau pour cette raison.</p>
+
+<h2>Comment se déroule une intervention type</h2>
+
+<p>Quel que soit le prestataire que vous retiendrez, la trame d'une recherche de fuite non destructive sur Bordeaux suit globalement les mêmes étapes. Connaître ce déroulé vous permet de comparer objectivement les devis et de poser les bonnes questions.</p>
+
+<h3>Étape 1 : prise de contact et qualification (15 à 30 min)</h3>
+<p>Le technicien (ou le standard) vous interroge sur les symptômes : facture en hausse, taches d'humidité, bruit de filet d'eau, perte de pression. Sur la base de ces indices, il préqualifie la nature probable de la fuite (canalisation enterrée, plancher chauffant, dégât caché, fuite après compteur) et propose un créneau. Demandez à ce stade <strong>une fourchette de prix</strong> et la liste des méthodes qui seront mobilisées.</p>
+
+<h3>Étape 2 : sur place, test du compteur et inspection visuelle (30 min)</h3>
+<p>Le technicien commence systématiquement par le test du compteur (tous robinets fermés pendant 1h, l'aiguille de débit doit rester immobile). Si le compteur tourne, la fuite est confirmée et son volume est mesurable en litres par heure. Une inspection visuelle complète du logement écarte les fuites apparentes (sous évier, derrière chasse d'eau, raccord chaudière).</p>
+
+<h3>Étape 3 : déploiement des méthodes adaptées (1h à 2h)</h3>
+<p>Selon les premiers indices, le technicien déploie une ou plusieurs méthodes : <a href="/detection-fuite/thermographie-infrarouge-bordeaux/" style="color:var(--green);text-decoration:underline;">caméra thermique</a> pour plancher chauffant ou cloison, <a href="/detection-fuite/canalisation-enterree-bordeaux/" style="color:var(--green);text-decoration:underline;">gaz traceur</a> pour réseau enterré, corrélation acoustique pour canalisation sous pression, <a href="/detection-fuite/fluoresceine-piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">fluorescéine</a> pour piscine. La précision de localisation atteinte est généralement de 10 à 30 cm selon la méthode et la profondeur.</p>
+
+<h3>Étape 4 : rapport et suite à donner (15 à 30 min)</h3>
+<p>Le rapport est rédigé sur place ou dans la journée. Il contient : la position exacte de la fuite (croquis ou photo annotée), les méthodes utilisées, le volume de fuite mesuré, les recommandations de réparation, le devis pour les travaux ou la liste de partenaires plombiers. C'est ce document qui sert ensuite à votre <a href="/guide/assurance-fuite-eau/" style="color:var(--green);text-decoration:underline;">déclaration assurance</a> et à l'éventuel <a href="/guide/loi-warsmann-ecretement-facture-eau/" style="color:var(--green);text-decoration:underline;">écrêtement Warsmann</a> auprès de Suez ou de la Régie de Bordeaux Métropole.</p>
+
+<h2>Combien coûte une recherche de fuite à Bordeaux ?</h2>
+
+<p>Les <a href="/guide/prix-recherche-fuite-bordeaux/" style="color:var(--green);text-decoration:underline;">prix observés sur Bordeaux Métropole en 2026</a> varient selon la complexité du cas et la méthode mobilisée :</p>
+<ul>
+<li><strong>Recherche standard</strong> (fuite simple, méthode unique, intervention 1h30) : <strong>280 à 400 € HT</strong></li>
+<li><strong>Recherche complexe</strong> (méthodes multiples, intervention 2-3h) : <strong>400 à 600 € HT</strong></li>
+<li><strong>Recherche très complexe</strong> (réseau enterré profond, plusieurs étages, gaz traceur) : <strong>600 à 900 € HT</strong></li>
+<li><strong>Urgence soir / week-end</strong> : majoration <strong>30 à 50 %</strong> selon prestataire</li>
+</ul>
+
+<p>La plupart des contrats d'assurance habitation incluent une garantie « recherche de fuite » qui rembourse tout ou partie de cette intervention sur présentation du rapport CRAC.</p>
+
+<h2>Foire aux questions</h2>
+
+<h3>Comment vérifier qu'une entreprise de recherche de fuite est sérieuse ?</h3>
+<p>Trois signaux sont à croiser : ancienneté du site web (à vérifier sur Whois ou Wayback Machine), nombre d'avis Google Business cohérent avec l'ancienneté annoncée, mention légale d'un siège social vérifiable au Registre du Commerce et des Sociétés. Un site sans mentions légales ou un numéro de SIRET introuvable sont des signaux d'alerte.</p>
+
+<h3>Faut-il toujours demander 3 devis ?</h3>
+<p>Pour une fuite simple identifiée et non urgente, oui : la fourchette de prix entre prestataires peut atteindre 30 à 40 %. Pour une urgence active (dégât en cours), le délai prime sur la mise en concurrence : appelez le premier disponible et négociez ensuite.</p>
+
+<h3>Une entreprise nationale est-elle moins bonne qu'une entreprise locale ?</h3>
+<p>Pas nécessairement. Les réseaux nationaux mobilisent souvent du matériel récent et un cadre méthodologique homogène. Les structures locales offrent une meilleure réactivité et une connaissance fine du tissu d'habitat (immeuble haussmannien, échoppe, lotissement). Le critère qui prime est la qualification du technicien qui interviendra chez vous, pas la taille de la maison-mère.</p>
+
+<h3>Le rapport sera-t-il accepté par toutes les assurances ?</h3>
+<p>Tous les rapports conformes au format CRAC (Constat de Recherche d'Assurance Construction) sont opposables aux assureurs habitation. Vérifiez avant intervention que ce format est bien produit, sinon demandez-le explicitement au devis.</p>
+
+<h3>Que faire si l'entreprise ne trouve pas la fuite ?</h3>
+<p>Certaines entreprises proposent une <strong>garantie résultat</strong> : si la fuite n'est pas localisée, l'intervention est gratuite ou à tarif réduit. Cette clause n'est pas systématique. Demandez-la par écrit au devis et conservez la preuve. En l'absence de cette clause, l'intervention reste due, même sans résultat.</p>
+
+<h2>Sources et données utilisées dans ce comparatif</h2>
+
+<ul style="font-size:.9rem;">
+<li>ADN : <a href="https://www.adn-online.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">adn-online.fr</a> (consulté mai 2026)</li>
+<li>Adré Eau : <a href="https://adre-eau.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">adre-eau.fr</a> (consulté mai 2026)</li>
+<li>Ax'eau : <a href="https://particuliers.ax-eau.com/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">particuliers.ax-eau.com</a> (consulté mai 2026)</li>
+<li>Grand Sud Détection : <a href="https://gs-detection.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">gs-detection.fr</a> (consulté mai 2026)</li>
+<li>Wi Bord'eau : <a href="https://www.wibord-eau.fr/" rel="nofollow" target="_blank" style="color:var(--green);text-decoration:underline;">wibord-eau.fr</a> (consulté mai 2026)</li>
+<li>Notes et avis : Google Business / Google Maps, requête « entreprise recherche de fuite Bordeaux », mai 2026</li>
+</ul>
+
+<p style="font-size:.85rem;color:var(--muted);margin-top:1rem;">Cette page sera mise à jour deux fois par an pour refléter les évolutions des informations publiques (zone d'intervention, méthodes affichées, équipes). Date de la prochaine mise à jour prévue : novembre 2026.</p>
+
+<h2>Demander un diagnostic en Gironde</h2>
+
+<p>Si vous souhaitez transmettre votre demande à Recherche Fuite Gironde, le formulaire ci-dessous vous met en relation avec un technicien spécialisé pour un diagnostic non destructif. Vous pouvez aussi consulter directement notre <a href="/detection-fuite/" style="color:var(--green);text-decoration:underline;">page service détection de fuite non destructive</a> ou nos pages spécialisées : <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence 24h Bordeaux Métropole</a>, <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur (loi Warsmann)</a>, <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine</a>.</p>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Entreprise recherche de fuite à Bordeaux : 5 acteurs comparés (mai 2026)","description":"Comparatif factuel de 5 entreprises de recherche de fuite intervenant à Bordeaux : ADN, Adré Eau, Ax'eau, Grand Sud Détection, Wi Bord'eau. Critères et méthodes.","author":{"@type":"Organization","name":"Recherche Fuite Gironde"},"publisher":{"@type":"Organization","name":"Recherche Fuite Gironde","url":"https://recherche-fuite-gironde.fr/"},"image":"https://recherche-fuite-gironde.fr/assets/entreprises-recherche-fuite-bordeaux.webp","datePublished":"2026-05-01","dateModified":"2026-05-01","mainEntityOfPage":"https://recherche-fuite-gironde.fr/guide/entreprises-recherche-fuite-bordeaux/"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Entreprises de recherche de fuite à Bordeaux","description":"Liste alphabétique non hiérarchisée de 5 entreprises spécialisées en recherche de fuite intervenant à Bordeaux et en Gironde","itemListOrder":"https://schema.org/ItemListOrderAscending","numberOfItems":5,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Organization","name":"ADN — Assistance Détection Non-destructive","url":"https://www.adn-online.fr/"}},{"@type":"ListItem","position":2,"item":{"@type":"Organization","name":"Adré Eau","url":"https://adre-eau.fr/"}},{"@type":"ListItem","position":3,"item":{"@type":"Organization","name":"Ax'eau","url":"https://particuliers.ax-eau.com/"}},{"@type":"ListItem","position":4,"item":{"@type":"Organization","name":"Grand Sud Détection","url":"https://gs-detection.fr/"}},{"@type":"ListItem","position":5,"item":{"@type":"Organization","name":"Wi Bord'eau","url":"https://www.wibord-eau.fr/"}}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Recherche Fuite Gironde","description":"Plateforme indépendante de mise en relation pour la recherche de fuite d'eau non destructive à Bordeaux et en Gironde.","url":"https://recherche-fuite-gironde.fr/guide/entreprises-recherche-fuite-bordeaux/","areaServed":{"@type":"AdministrativeArea","name":"Gironde"},"priceRange":"€€","serviceType":"Recherche de fuite non destructive"}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://recherche-fuite-gironde.fr/"},{"@type":"ListItem","position":2,"name":"Guide","item":"https://recherche-fuite-gironde.fr/guide/"},{"@type":"ListItem","position":3,"name":"Entreprises recherche de fuite Bordeaux","item":"https://recherche-fuite-gironde.fr/guide/entreprises-recherche-fuite-bordeaux/"}]}
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Comment vérifier qu'une entreprise de recherche de fuite est sérieuse ?","acceptedAnswer":{"@type":"Answer","text":"Trois signaux sont à croiser : ancienneté du site web (vérifiable sur Whois ou Wayback Machine), nombre d'avis Google Business cohérent avec l'ancienneté annoncée, mention légale d'un siège social vérifiable au Registre du Commerce et des Sociétés."}},{"@type":"Question","name":"Faut-il toujours demander 3 devis pour une recherche de fuite ?","acceptedAnswer":{"@type":"Answer","text":"Pour une fuite simple non urgente, oui : la fourchette de prix entre prestataires peut atteindre 30 à 40 %. Pour une urgence active, le délai prime : appelez le premier disponible et négociez ensuite."}},{"@type":"Question","name":"Une entreprise nationale est-elle moins bonne qu'une entreprise locale ?","acceptedAnswer":{"@type":"Answer","text":"Pas nécessairement. Les réseaux nationaux mobilisent du matériel récent et un cadre méthodologique homogène. Les structures locales offrent une meilleure réactivité. Le critère qui prime est la qualification du technicien qui intervient chez vous."}},{"@type":"Question","name":"Le rapport sera-t-il accepté par toutes les assurances ?","acceptedAnswer":{"@type":"Answer","text":"Tous les rapports conformes au format CRAC (Constat de Recherche d'Assurance Construction) sont opposables aux assureurs habitation. Vérifiez avant intervention que ce format est bien produit, sinon demandez-le au devis."}},{"@type":"Question","name":"Que faire si l'entreprise ne trouve pas la fuite ?","acceptedAnswer":{"@type":"Answer","text":"Certaines entreprises proposent une garantie résultat : si la fuite n'est pas localisée, l'intervention est gratuite ou à tarif réduit. Cette clause n'est pas systématique. Demandez-la par écrit au devis et conservez la preuve."}}]}
+</script>"""
     },]
 
 def page_guide_article(art):
