@@ -199,7 +199,14 @@ def maillage_villes(slug_actuel='', limit=12):
   <div class="container">
     <h2 class="maillage-title">Nous intervenons aussi dans ces villes</h2>
     <div class="grid-auto">{cards}</div>
-    <p style="margin-top:1.75rem;text-align:center;font-size:.95rem;color:rgba(247,246,242,.75);"><strong>Selon votre situation :</strong> <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence 24h Bordeaux Métropole</a> · <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur (loi Warsmann)</a> · <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a></p>
+    <div style="margin-top:1.75rem;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem 1rem;font-size:.95rem;color:var(--muted);text-align:center;">
+      <strong style="color:var(--green-dark);">Selon votre situation :</strong>
+      <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">urgence 24h Bordeaux Métropole</a>
+      <span aria-hidden="true" style="opacity:.4;">·</span>
+      <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">fuite après compteur (loi Warsmann)</a>
+      <span aria-hidden="true" style="opacity:.4;">·</span>
+      <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">recherche de fuite piscine à Bordeaux</a>
+    </div>
   </div>
 </section>'''
 
@@ -216,7 +223,14 @@ def villes_detection_section():
       <p class="section-lead">Nous intervenons dans les 30 principales communes du département (33). Cliquez sur votre ville pour voir les détails de notre service.</p>
     </div>
     <div class="grid-auto">{cards}</div>
-    <p style="margin-top:1.75rem;text-align:center;font-size:.95rem;color:rgba(247,246,242,.75);"><strong>Vous savez déjà ce qu'il vous faut ?</strong> <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Urgence 24h</a> · <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite après compteur (Warsmann)</a> · <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Piscine à Bordeaux</a></p>
+    <div style="margin-top:1.75rem;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem 1rem;font-size:.95rem;color:var(--muted);text-align:center;">
+      <strong style="color:var(--green-dark);">Vous savez déjà ce qu'il vous faut ?</strong>
+      <a href="/detection-fuite/urgence-bordeaux/" style="color:var(--green);text-decoration:underline;">Urgence 24h</a>
+      <span aria-hidden="true" style="opacity:.4;">·</span>
+      <a href="/detection-fuite/fuite-apres-compteur/" style="color:var(--green);text-decoration:underline;">Fuite après compteur (Warsmann)</a>
+      <span aria-hidden="true" style="opacity:.4;">·</span>
+      <a href="/detection-fuite/piscine-bordeaux/" style="color:var(--green);text-decoration:underline;">Piscine à Bordeaux</a>
+    </div>
   </div>
 </section>'''
 
